@@ -36,6 +36,9 @@ jobs:
             rm -f test/widget_test.dart
           fi
 
+      - name: Patch Android manifest
+        run: python3 tools/patch_android.py
+
       - run: flutter pub get
       - run: flutter analyze --no-fatal-infos
       - run: flutter test
