@@ -1,0 +1,40 @@
+{
+  "id": "u06_l02",
+  "unit": "u06",
+  "cefr": "A1",
+  "title": {"uk": "Я хотів би каву"},
+  "goal": {"uk": "Ввічливо замовити напій і попросити рахунок."},
+  "rule": {"uk": "«Я хотів би» — I would like. Форма однакова для всіх: I, you, he, she, we, they would like. У розмові скорочують: I'd like. Це ввічливіше, ніж I want."},
+  "words": [
+    {"id": "would_like", "text": "would like", "ipa": "/wʊd laɪk/", "pos": "phrase", "translation": {"uk": "хотів би"}, "example": "I would like a tea.", "exampleTranslation": {"uk": "Я хотів би чай."}},
+    {"id": "coffee", "text": "coffee", "ipa": "/ˈkɒfi/", "pos": "noun", "translation": {"uk": "кава"}, "example": "I would like a coffee, please.", "exampleTranslation": {"uk": "Я хотів би каву, будь ласка."}},
+    {"id": "tea", "text": "tea", "ipa": "/tiː/", "pos": "noun", "translation": {"uk": "чай"}, "example": "A tea, please.", "exampleTranslation": {"uk": "Чай, будь ласка."}},
+    {"id": "water", "text": "water", "ipa": "/ˈwɔːtə/", "pos": "noun", "translation": {"uk": "вода"}, "example": "She would like some water.", "exampleTranslation": {"uk": "Вона хотіла б води."}},
+    {"id": "milk", "text": "milk", "ipa": "/mɪlk/", "pos": "noun", "translation": {"uk": "молоко"}, "example": "A coffee with milk.", "exampleTranslation": {"uk": "Кава з молоком."}},
+    {"id": "sugar", "text": "sugar", "ipa": "/ˈʃʊɡə/", "pos": "noun", "translation": {"uk": "цукор"}, "example": "Tea without sugar.", "exampleTranslation": {"uk": "Чай без цукру."}},
+    {"id": "menu", "text": "menu", "ipa": "/ˈmenjuː/", "pos": "noun", "translation": {"uk": "меню"}, "example": "Can I have the menu, please?", "exampleTranslation": {"uk": "Можна меню, будь ласка?"}},
+    {"id": "bill", "text": "bill", "ipa": "/bɪl/", "pos": "noun", "translation": {"uk": "рахунок"}, "example": "We would like the bill, please.", "exampleTranslation": {"uk": "Ми хотіли б рахунок, будь ласка."}},
+    {"id": "with", "text": "with", "ipa": "/wɪð/", "pos": "preposition", "translation": {"uk": "з"}, "example": "with milk", "exampleTranslation": {"uk": "з молоком"}},
+    {"id": "without", "text": "without", "ipa": "/wɪˈðaʊt/", "pos": "preposition", "translation": {"uk": "без"}, "example": "without sugar", "exampleTranslation": {"uk": "без цукру"}}
+  ],
+  "exercises": [
+    {"id": "e1", "type": "multiple_choice", "prompt": {"uk": "Як ввічливо попросити каву?"}, "options": ["I would like a coffee, please.", "I want like a coffee.", "Give coffee."], "answer": 0, "explanation": {"uk": "Want і like поруч не ставлять. «Give coffee» звучить як наказ."}},
+    {"id": "e2", "type": "matching", "prompt": {"uk": "З'єднайте слова з перекладом"}, "pairs": [
+      {"left": "bill", "right": {"uk": "рахунок"}},
+      {"left": "milk", "right": {"uk": "молоко"}},
+      {"left": "sugar", "right": {"uk": "цукор"}},
+      {"left": "tea", "right": {"uk": "чай"}}
+    ], "explanation": {"uk": "Bill — це рахунок у кафе, а не квиток."}},
+    {"id": "e3", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "I ___ like a tea, please.", "options": ["would", "want", "am"], "answer": 0, "explanation": {"uk": "Would like — стала пара слів. «I want like» і «I am like» у цьому значенні не кажуть."}},
+    {"id": "e4", "type": "listening", "audioText": "Can I have the menu, please?", "prompt": {"uk": "Прослухайте. Що просить людина?"}, "options": {"uk": ["меню", "рахунок", "воду"]}, "answer": 0, "explanation": {"uk": "Menu — меню, bill — рахунок. Can I have…? — ще один ввічливий спосіб попросити."}},
+    {"id": "e5", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "She would ___ some water.", "options": ["like", "likes", "liking"], "answer": 0, "explanation": {"uk": "Після would дієслово не змінюється, навіть із she: she would like, а не «she would likes»."}},
+    {"id": "e6", "type": "build_sentence", "prompt": {"uk": "Ми хотіли б рахунок, будь ласка."}, "words": ["We", "would", "like", "the", "bill", "please", "want", "a"], "answer": ["We", "would", "like", "the", "bill", "please"], "explanation": {"uk": "Порядок: хто + would like + що. Рахунок конкретний, тому the bill."}},
+    {"id": "e7", "type": "translate", "prompt": {"uk": "Я хотів би каву з молоком."}, "answers": ["I would like a coffee with milk", "I'd like a coffee with milk", "I would like coffee with milk", "I'd like coffee with milk"], "explanation": {"uk": "«З молоком» — with milk, без артикля перед milk."}},
+    {"id": "e8", "type": "translate", "prompt": {"uk": "Чай без цукру, будь ласка."}, "answers": ["Tea without sugar, please", "A tea without sugar, please"], "explanation": {"uk": "«Без» — without, одне слово."}}
+  ],
+  "dialogue": [
+    {"tutor": "Hello! What would you like?", "expected": ["I would like", "I'd like"]},
+    {"tutor": "Sure. Anything else?", "expected": ["No, thank you", "Some water, please"]},
+    {"tutor": "Here you are.", "expected": ["Can I have the bill, please"]}
+  ]
+}

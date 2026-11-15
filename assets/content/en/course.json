@@ -1,0 +1,20 @@
+{
+  "id": "en",
+  "targetLanguage": "en",
+  "explanationLanguages": ["uk"],
+  "version": 1,
+  "units": [
+    {"id": "u01", "cefr": "A0", "title": {"uk": "Знайомство"}, "lessons": ["u01_l01"]},
+    {"id": "u02", "cefr": "A0", "title": {"uk": "Моя сім'я"}, "lessons": []},
+    {"id": "u03", "cefr": "A0", "title": {"uk": "Речі навколо"}, "lessons": []},
+    {"id": "u04", "cefr": "A1", "title": {"uk": "Мій день"}, "lessons": []},
+    {"id": "u05", "cefr": "A1", "title": {"uk": "Робота й навчання"}, "lessons": []},
+    {"id": "u06", "cefr": "A1", "title": {"uk": "У кафе"}, "lessons": ["u06_l02"]},
+    {"id": "u07", "cefr": "A1", "title": {"uk": "У місті"}, "lessons": []},
+    {"id": "u08", "cefr": "A1", "title": {"uk": "Покупки й одяг"}, "lessons": []},
+    {"id": "u09", "cefr": "A2", "title": {"uk": "Минулі вихідні"}, "lessons": ["u09_l03"]},
+    {"id": "u10", "cefr": "A2", "title": {"uk": "Плани й зустрічі"}, "lessons": []},
+    {"id": "u11", "cefr": "A2", "title": {"uk": "Подорожі"}, "lessons": []},
+    {"id": "u12", "cefr": "A2", "title": {"uk": "Перша співбесіда"}, "lessons": []}
+  ]
+}

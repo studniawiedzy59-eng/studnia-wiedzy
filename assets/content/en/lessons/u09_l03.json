@@ -1,0 +1,40 @@
+{
+  "id": "u09_l03",
+  "unit": "u09",
+  "cefr": "A2",
+  "title": {"uk": "Що ви робили на вихідних?"},
+  "goal": {"uk": "Розповісти, що ви робили вчора чи на вихідних, і поставити просте запитання про минуле."},
+  "rule": {"uk": "У минулому часі до більшості дієслів додають -ed: watch → watched. Частина дієслів змінюється по-своєму, їх треба запам'ятати: go → went, see → saw, have → had. У запереченні й запитанні минулий час показує did, а дієслово повертається до початкової форми: I didn't go. Did you go?"},
+  "words": [
+    {"id": "weekend", "text": "weekend", "ipa": "/ˌwiːkˈend/", "pos": "noun", "translation": {"uk": "вихідні"}, "example": "How was your weekend?", "exampleTranslation": {"uk": "Як минули ваші вихідні?"}},
+    {"id": "yesterday", "text": "yesterday", "ipa": "/ˈjestədeɪ/", "pos": "adverb", "translation": {"uk": "вчора"}, "example": "I watched a film yesterday.", "exampleTranslation": {"uk": "Я вчора дивився фільм."}},
+    {"id": "last", "text": "last", "ipa": "/lɑːst/", "pos": "adjective", "translation": {"uk": "минулий"}, "example": "last Saturday", "exampleTranslation": {"uk": "минулої суботи"}},
+    {"id": "ago", "text": "ago", "ipa": "/əˈɡəʊ/", "pos": "adverb", "translation": {"uk": "тому"}, "example": "two days ago", "exampleTranslation": {"uk": "два дні тому"}},
+    {"id": "went", "text": "went", "ipa": "/went/", "pos": "verb", "translation": {"uk": "пішов, поїхав (від go)"}, "example": "We went to the park.", "exampleTranslation": {"uk": "Ми пішли в парк."}},
+    {"id": "saw", "text": "saw", "ipa": "/sɔː/", "pos": "verb", "translation": {"uk": "побачив (від see)"}, "example": "I saw my friends.", "exampleTranslation": {"uk": "Я побачив своїх друзів."}},
+    {"id": "had", "text": "had", "ipa": "/hæd/", "pos": "verb", "translation": {"uk": "мав (від have)"}, "example": "We had dinner at home.", "exampleTranslation": {"uk": "Ми вечеряли вдома."}},
+    {"id": "watched", "text": "watched", "ipa": "/wɒtʃt/", "pos": "verb", "translation": {"uk": "дивився"}, "example": "She watched TV.", "exampleTranslation": {"uk": "Вона дивилася телевізор."}},
+    {"id": "stayed", "text": "stayed", "ipa": "/steɪd/", "pos": "verb", "translation": {"uk": "залишився"}, "example": "I stayed at home.", "exampleTranslation": {"uk": "Я залишився вдома."}},
+    {"id": "visited", "text": "visited", "ipa": "/ˈvɪzɪtɪd/", "pos": "verb", "translation": {"uk": "відвідав"}, "example": "He visited his grandmother.", "exampleTranslation": {"uk": "Він відвідав свою бабусю."}}
+  ],
+  "exercises": [
+    {"id": "e1", "type": "multiple_choice", "prompt": {"uk": "Минулий час від go:"}, "options": ["went", "goed", "gone"], "answer": 0, "explanation": {"uk": "Go — неправильне дієслово, форми «goed» не існує. Gone — інша форма, її вивчаємо пізніше."}},
+    {"id": "e2", "type": "matching", "prompt": {"uk": "З'єднайте дієслово з його минулою формою"}, "pairs": [
+      {"left": "go", "right": {"uk": "went"}},
+      {"left": "see", "right": {"uk": "saw"}},
+      {"left": "have", "right": {"uk": "had"}},
+      {"left": "watch", "right": {"uk": "watched"}}
+    ], "explanation": {"uk": "Watch — правильне дієслово, тому просто -ed. Решта три змінюються по-своєму."}},
+    {"id": "e3", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "I ___ a film yesterday.", "options": ["watched", "watch", "watching"], "answer": 0, "explanation": {"uk": "Yesterday показує минуле, тому потрібна форма з -ed: watched."}},
+    {"id": "e4", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "We ___ to the park last Saturday.", "options": ["went", "go", "goed"], "answer": 0, "explanation": {"uk": "Last Saturday — минула субота. Минулий час від go — went."}},
+    {"id": "e5", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "She didn't ___ her friends.", "options": ["see", "saw", "seen"], "answer": 0, "explanation": {"uk": "Після didn't стоїть початкова форма. Минулий час уже показано словом didn't, тому не «didn't saw»."}},
+    {"id": "e6", "type": "listening", "audioText": "I stayed at home and watched TV.", "prompt": {"uk": "Прослухайте. Що робила людина?"}, "options": {"uk": ["Залишилася вдома й дивилася телевізор", "Пішла в кіно", "Відвідала друзів"]}, "answer": 0, "explanation": {"uk": "Stayed at home — залишилася вдома. «Пішла в кіно» було б went to the cinema."}},
+    {"id": "e7", "type": "build_sentence", "prompt": {"uk": "Ви ходили в кіно?"}, "words": ["Did", "you", "go", "to", "the", "cinema", "went", "do"], "answer": ["Did", "you", "go", "to", "the", "cinema"], "explanation": {"uk": "Запитання про минуле починається з Did, а дієслово стоїть у початковій формі: go, а не went."}},
+    {"id": "e8", "type": "translate", "prompt": {"uk": "Два дні тому я відвідав бабусю."}, "answers": ["I visited my grandmother two days ago", "Two days ago I visited my grandmother", "Two days ago, I visited my grandmother", "I visited my grandma two days ago", "Two days ago I visited my grandma"], "explanation": {"uk": "Ago стоїть після проміжку часу: two days ago, а не «ago two days». Перед grandmother потрібне my."}}
+  ],
+  "dialogue": [
+    {"tutor": "Hi! How was your weekend?", "expected": ["It was"]},
+    {"tutor": "What did you do?", "expected": ["I went", "I stayed", "I visited", "I watched"]},
+    {"tutor": "Did you see your friends?", "expected": ["Yes, I did", "No, I didn't"]}
+  ]
+}
