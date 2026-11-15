@@ -1,0 +1,27 @@
+{
+  "id": "u01_l06",
+  "unit": "u01",
+  "cefr": "A0",
+  "review": true,
+  "title": {"uk": "Повторення: перша розмова"},
+  "goal": {"uk": "Провести першу розмову від привітання до прощання, використовуючи все з розділу."},
+  "rule": {"uk": "Нових слів тут немає. Ви вже можете привітатися, назвати ім'я, спитати «як справи?» і «звідки ви?», сказати, де живете, і попрощатися. У цьому уроці складемо все разом."},
+  "words": [],
+  "exercises": [
+    {"id": "e1", "type": "listening", "audioText": "Hello! What's your name?", "prompt": {"uk": "Розмова починається. Що відповісти?"}, "options": ["My name is Maria.", "I'm fine, thanks.", "Goodbye!"], "answer": 0, "explanation": {"uk": "Вас спитали про ім'я: What's your name? Відповідь — My name is… або I'm…"}},
+    {"id": "e2", "type": "build_sentence", "prompt": {"uk": "Приємно познайомитися."}, "words": ["Nice", "to", "meet", "you", "name", "are"], "answer": ["Nice", "to", "meet", "you"], "explanation": {"uk": "Nice to meet you — чотири слова, to стоїть між nice і meet."}},
+    {"id": "e3", "type": "listening", "audioText": "How are you?", "prompt": {"uk": "Що відповісти?"}, "options": ["I'm good, thanks. And you?", "I'm from Ukraine.", "Yes, please."], "answer": 0, "explanation": {"uk": "How are you? — як справи? Відповідають про самопочуття і повертають питання: And you?"}},
+    {"id": "e4", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "Where ___ you from?", "options": ["are", "is", "am"], "answer": 0, "explanation": {"uk": "Із you завжди are: Where are you from?"}},
+    {"id": "e5", "type": "translate", "prompt": {"uk": "Я з України."}, "answers": ["I'm from Ukraine", "I am from Ukraine"], "explanation": {"uk": "I'm from Ukraine. Звідки ви родом — from."}},
+    {"id": "e6", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "I live ___ Poland.", "options": ["in", "from", "my"], "answer": 0, "explanation": {"uk": "Де ви живете — in: I live in Poland."}},
+    {"id": "e7", "type": "multiple_choice", "prompt": {"uk": "Вам щось пропонують, а ви не хочете. Як ввічливо відмовитися?"}, "options": ["No, thank you.", "Yes, please.", "No, please."], "answer": 0, "explanation": {"uk": "Відмовляються словами No, thank you. Please кажуть, коли погоджуються або просять."}},
+    {"id": "e8", "type": "matching", "prompt": {"uk": "З'єднайте слова з перекладом"}, "pairs": [
+      {"left": "goodbye", "right": {"uk": "до побачення"}},
+      {"left": "tired", "right": {"uk": "втомлений"}},
+      {"left": "here", "right": {"uk": "тут"}},
+      {"left": "three", "right": {"uk": "3"}}
+    ], "explanation": {"uk": "Це слова з різних уроків розділу: прощання, самопочуття, місце й число."}},
+    {"id": "e9", "type": "translate", "prompt": {"uk": "Як вас звати?"}, "answers": ["What's your name", "What is your name"], "explanation": {"uk": "What's your name? What's — скорочення від What is."}},
+    {"id": "e10", "type": "listening", "audioText": "Goodbye!", "prompt": {"uk": "Розмова закінчується. Що відповісти?"}, "options": ["Bye!", "Hello!", "Thank you."], "answer": 0, "explanation": {"uk": "На goodbye відповідають goodbye або коротко bye."}}
+  ]
+}

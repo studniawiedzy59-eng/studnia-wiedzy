@@ -2,37 +2,39 @@
   "id": "u01_l01",
   "unit": "u01",
   "cefr": "A0",
-  "title": {"uk": "Привіт! Як вас звати?"},
-  "goal": {"uk": "Привітатися, назвати своє ім'я і попрощатися."},
-  "rule": {"uk": "Українською кажуть «Я Анна», а англійською потрібне слово am: I am Anna. У розмові його скорочують: I'm Anna. Слово I завжди пишуть з великої літери."},
+  "title": {"uk": "Привіт і до побачення"},
+  "goal": {"uk": "Привітатися, попрощатися, сказати «так», «ні», «будь ласка» і «дякую»."},
+  "rule": {"uk": "Hello підходить завжди й усюди. Hi та bye кажуть друзям. Please додають, коли щось просять, а thank you — коли дякують."},
   "words": [
     {"id": "hello", "text": "hello", "ipa": "/həˈləʊ/", "pos": "exclamation", "translation": {"uk": "привіт, добрий день"}, "example": "Hello!", "exampleTranslation": {"uk": "Привіт!"}},
-    {"id": "hi", "text": "hi", "ipa": "/haɪ/", "pos": "exclamation", "translation": {"uk": "привіт (між друзями)"}, "example": "Hi, Tom!", "exampleTranslation": {"uk": "Привіт, Томе!"}},
-    {"id": "i", "text": "I", "ipa": "/aɪ/", "pos": "pronoun", "translation": {"uk": "я"}, "example": "I'm Anna.", "exampleTranslation": {"uk": "Я Анна."}},
-    {"id": "you", "text": "you", "ipa": "/juː/", "pos": "pronoun", "translation": {"uk": "ти, ви"}, "example": "Nice to meet you.", "exampleTranslation": {"uk": "Приємно познайомитися."}},
-    {"id": "my", "text": "my", "ipa": "/maɪ/", "pos": "determiner", "translation": {"uk": "мій, моя"}, "example": "My name is Anna.", "exampleTranslation": {"uk": "Мене звати Анна."}},
-    {"id": "name", "text": "name", "ipa": "/neɪm/", "pos": "noun", "translation": {"uk": "ім'я"}, "example": "What's your name?", "exampleTranslation": {"uk": "Як вас звати?"}},
-    {"id": "nice", "text": "nice", "ipa": "/naɪs/", "pos": "adjective", "translation": {"uk": "приємний"}, "example": "Nice to meet you.", "exampleTranslation": {"uk": "Приємно познайомитися."}},
-    {"id": "goodbye", "text": "goodbye", "ipa": "/ˌɡʊdˈbaɪ/", "pos": "exclamation", "translation": {"uk": "до побачення"}, "example": "Goodbye, Anna!", "exampleTranslation": {"uk": "До побачення, Анно!"}}
+    {"id": "hi", "text": "hi", "ipa": "/haɪ/", "pos": "exclamation", "translation": {"uk": "привіт (другу)"}, "example": "Hi, Tom!", "exampleTranslation": {"uk": "Привіт, Томе!"}},
+    {"id": "goodbye", "text": "goodbye", "ipa": "/ˌɡʊdˈbaɪ/", "pos": "exclamation", "translation": {"uk": "до побачення"}, "example": "Goodbye, Anna!", "exampleTranslation": {"uk": "До побачення, Анно!"}},
+    {"id": "bye", "text": "bye", "ipa": "/baɪ/", "pos": "exclamation", "translation": {"uk": "бувай"}, "example": "Bye, Tom!", "exampleTranslation": {"uk": "Бувай, Томе!"}},
+    {"id": "yes", "text": "yes", "ipa": "/jes/", "pos": "exclamation", "translation": {"uk": "так"}, "example": "Yes, please.", "exampleTranslation": {"uk": "Так, будь ласка."}},
+    {"id": "no", "text": "no", "ipa": "/nəʊ/", "pos": "exclamation", "translation": {"uk": "ні"}, "example": "No, thank you.", "exampleTranslation": {"uk": "Ні, дякую."}},
+    {"id": "please", "text": "please", "ipa": "/pliːz/", "pos": "exclamation", "translation": {"uk": "будь ласка (коли просите)"}, "example": "Yes, please.", "exampleTranslation": {"uk": "Так, будь ласка."}},
+    {"id": "thank_you", "text": "thank you", "ipa": "/ˈθæŋk juː/", "pos": "phrase", "translation": {"uk": "дякую"}, "example": "No, thank you.", "exampleTranslation": {"uk": "Ні, дякую."}}
   ],
   "exercises": [
-    {"id": "e1", "type": "multiple_choice", "prompt": {"uk": "Як сказати «привіт»?"}, "options": ["hello", "goodbye", "name"], "answer": 0, "explanation": {"uk": "Goodbye кажуть, коли прощаються. Коли вітаються — hello або hi."}},
+    {"id": "e1", "type": "multiple_choice", "prompt": {"uk": "Як привітатися з незнайомою людиною?"}, "options": ["hello", "bye", "no"], "answer": 0, "explanation": {"uk": "Hello — привітання, яке підходить завжди. Bye кажуть, коли прощаються."}},
     {"id": "e2", "type": "matching", "prompt": {"uk": "З'єднайте слова з перекладом"}, "pairs": [
       {"left": "hello", "right": {"uk": "привіт"}},
-      {"left": "name", "right": {"uk": "ім'я"}},
       {"left": "goodbye", "right": {"uk": "до побачення"}},
-      {"left": "my", "right": {"uk": "мій"}}
-    ], "explanation": {"uk": "My означає «мій», а «я» — це I."}},
-    {"id": "e3", "type": "listening", "audioText": "Nice to meet you.", "prompt": {"uk": "Прослухайте. Що це означає?"}, "options": {"uk": ["Приємно познайомитися", "Як вас звати?", "До побачення"]}, "answer": 0, "explanation": {"uk": "Nice to meet you кажуть при першій зустрічі. Про ім'я питають: What's your name?"}},
-    {"id": "e4", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "My ___ is Anna.", "options": ["name", "nice", "hello"], "answer": 0, "explanation": {"uk": "My name is… — дослівно «моє ім'я є…»."}},
-    {"id": "e5", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "___ Anna.", "options": ["I'm", "My", "You"], "answer": 0, "explanation": {"uk": "I'm — це I am, «я є». Слово am пропускати не можна: не «I Anna», а «I'm Anna»."}},
-    {"id": "e6", "type": "build_sentence", "prompt": {"uk": "Мене звати Том."}, "words": ["My", "name", "is", "Tom", "I", "nice"], "answer": ["My", "name", "is", "Tom"], "explanation": {"uk": "Після my name потрібне is: My name is Tom."}},
-    {"id": "e7", "type": "translate", "prompt": {"uk": "Приємно познайомитися."}, "answers": ["Nice to meet you"], "explanation": {"uk": "Між nice і meet стоїть to: Nice to meet you."}},
-    {"id": "e8", "type": "multiple_choice", "prompt": {"uk": "Вас питають: «What's your name?» Що відповісти?"}, "options": ["I'm Maria.", "Goodbye.", "Nice."], "answer": 0, "explanation": {"uk": "What's your name? — «Як вас звати?» У відповідь називають ім'я: I'm… або My name is…"}}
-  ],
-  "dialogue": [
-    {"tutor": "Hello! I'm Sam. What's your name?", "expected": ["I'm", "My name is"]},
-    {"tutor": "Nice to meet you!", "expected": ["Nice to meet you"]},
-    {"tutor": "Goodbye!", "expected": ["Goodbye"]}
+      {"left": "yes", "right": {"uk": "так"}},
+      {"left": "no", "right": {"uk": "ні"}}
+    ], "explanation": {"uk": "Yes — так, no — ні. Hello кажуть при зустрічі, goodbye — на прощання."}},
+    {"id": "e3", "type": "listening", "audioText": "Thank you.", "prompt": {"uk": "Прослухайте. Що це означає?"}, "options": {"uk": ["Дякую", "Будь ласка", "Так"]}, "answer": 0, "explanation": {"uk": "Thank you — дякую. «Будь ласка», коли просите, — please."}},
+    {"id": "e4", "type": "multiple_choice", "prompt": {"uk": "Ви щось просите. Яке слово додати, щоб було ввічливо?"}, "options": ["please", "thank you", "yes"], "answer": 0, "explanation": {"uk": "Please додають до прохання. Thank you кажуть уже після того, як вам допомогли."}},
+    {"id": "e5", "type": "fill_blank", "prompt": {"uk": "Ви зустріли подругу. Привітайтеся"}, "sentence": "___, Anna!", "options": ["Hi", "Bye", "No"], "answer": 0, "explanation": {"uk": "При зустрічі кажуть hi або hello. Bye — це прощання."}},
+    {"id": "e6", "type": "listening", "audioText": "Goodbye!", "prompt": {"uk": "Прослухайте. Що це означає?"}, "options": {"uk": ["До побачення", "Привіт", "Дякую"]}, "answer": 0, "explanation": {"uk": "Goodbye — до побачення. Коротка форма для друзів — bye."}},
+    {"id": "e7", "type": "matching", "prompt": {"uk": "З'єднайте слова з перекладом"}, "pairs": [
+      {"left": "hi", "right": {"uk": "привіт (другу)"}},
+      {"left": "bye", "right": {"uk": "бувай"}},
+      {"left": "please", "right": {"uk": "будь ласка"}},
+      {"left": "thank you", "right": {"uk": "дякую"}}
+    ], "explanation": {"uk": "Hi і bye — короткі дружні форми від hello і goodbye."}},
+    {"id": "e8", "type": "build_sentence", "prompt": {"uk": "Так, будь ласка."}, "words": ["Yes", "please", "no", "thank"], "answer": ["Yes", "please"], "explanation": {"uk": "«Так» — yes, «будь ласка» — please. Разом: Yes, please."}},
+    {"id": "e9", "type": "translate", "prompt": {"uk": "Ні, дякую."}, "answers": ["No, thank you", "No, thanks"], "explanation": {"uk": "«Ні» — no, «дякую» — thank you. Разом: No, thank you."}},
+    {"id": "e10", "type": "listening", "audioText": "Hello!", "prompt": {"uk": "Вам кажуть це при зустрічі. Що відповісти?"}, "options": ["Hello!", "Goodbye!", "Please."], "answer": 0, "explanation": {"uk": "На привітання hello відповідають так само: hello або hi."}}
   ]
 }

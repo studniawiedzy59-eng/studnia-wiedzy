@@ -1,0 +1,35 @@
+{
+  "id": "u01_l04",
+  "unit": "u01",
+  "cefr": "A0",
+  "title": {"uk": "Звідки ви?"},
+  "goal": {"uk": "Сказати, звідки ви і де живете, і спитати про це іншу людину."},
+  "rule": {"uk": "From означає «з» — звідки ви родом: I'm from Ukraine. In означає «у» — де ви живете: I live in Poland. Назви країн завжди пишуть з великої літери."},
+  "words": [
+    {"id": "where", "text": "where", "ipa": "/weə/", "pos": "adverb", "translation": {"uk": "де, звідки"}, "example": "Where are you from?", "exampleTranslation": {"uk": "Звідки ви?"}},
+    {"id": "from", "text": "from", "ipa": "/frɒm/", "pos": "preposition", "translation": {"uk": "з (звідки)"}, "example": "I'm from Ukraine.", "exampleTranslation": {"uk": "Я з України."}},
+    {"id": "live", "text": "live", "ipa": "/lɪv/", "pos": "verb", "translation": {"uk": "жити"}, "example": "I live in Poland.", "exampleTranslation": {"uk": "Я живу в Польщі."}},
+    {"id": "in", "text": "in", "ipa": "/ɪn/", "pos": "preposition", "translation": {"uk": "у, в"}, "example": "I live in Poland.", "exampleTranslation": {"uk": "Я живу в Польщі."}},
+    {"id": "here", "text": "here", "ipa": "/hɪə/", "pos": "adverb", "translation": {"uk": "тут"}, "example": "I live here.", "exampleTranslation": {"uk": "Я живу тут."}},
+    {"id": "ukraine", "text": "Ukraine", "ipa": "/juːˈkreɪn/", "pos": "noun", "translation": {"uk": "Україна"}, "example": "I'm from Ukraine.", "exampleTranslation": {"uk": "Я з України."}},
+    {"id": "poland", "text": "Poland", "ipa": "/ˈpəʊlənd/", "pos": "noun", "translation": {"uk": "Польща"}, "example": "I live in Poland.", "exampleTranslation": {"uk": "Я живу в Польщі."}},
+    {"id": "england", "text": "England", "ipa": "/ˈɪŋɡlənd/", "pos": "noun", "translation": {"uk": "Англія"}, "example": "Tom is from England.", "exampleTranslation": {"uk": "Том з Англії."}}
+  ],
+  "exercises": [
+    {"id": "e1", "type": "listening", "audioText": "How are you?", "prompt": {"uk": "Повторимо. Прослухайте. Що вас питають?"}, "options": {"uk": ["Як справи?", "Як вас звати?", "Ви втомлені?"]}, "answer": 0, "explanation": {"uk": "How are you? — як справи? Про ім'я питають What's your name?"}},
+    {"id": "e2", "type": "multiple_choice", "prompt": {"uk": "Як спитати «звідки ви?»"}, "options": ["Where are you from?", "How are you?", "What's your name?"], "answer": 0, "explanation": {"uk": "Where are you from? — дослівно «де ви є з?». Слово from стоїть у самому кінці."}},
+    {"id": "e3", "type": "matching", "prompt": {"uk": "З'єднайте слова з перекладом"}, "pairs": [
+      {"left": "where", "right": {"uk": "де"}},
+      {"left": "live", "right": {"uk": "жити"}},
+      {"left": "here", "right": {"uk": "тут"}},
+      {"left": "from", "right": {"uk": "з (звідки)"}}
+    ], "explanation": {"uk": "Where — де, here — тут. Ці два слова схожі, але where — це питання."}},
+    {"id": "e4", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "I'm ___ Ukraine.", "options": ["from", "name", "are"], "answer": 0, "explanation": {"uk": "Звідки ви родом — from: I'm from Ukraine."}},
+    {"id": "e5", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "I live ___ Poland.", "options": ["in", "from", "are"], "answer": 0, "explanation": {"uk": "Де ви живете — in: I live in Poland. From каже лише про те, звідки ви родом."}},
+    {"id": "e6", "type": "listening", "audioText": "I'm from England.", "prompt": {"uk": "Прослухайте. Що каже людина?"}, "options": {"uk": ["Я з Англії", "Я живу в Англії", "Я з України"]}, "answer": 0, "explanation": {"uk": "I'm from… — «я з…». «Я живу в Англії» було б I live in England."}},
+    {"id": "e7", "type": "build_sentence", "prompt": {"uk": "Звідки ви?"}, "words": ["Where", "are", "you", "from", "is", "my"], "answer": ["Where", "are", "you", "from"], "explanation": {"uk": "Порядок слів: Where + are + you + from. З you завжди are."}},
+    {"id": "e8", "type": "build_sentence", "prompt": {"uk": "Я живу в Польщі."}, "words": ["I", "live", "in", "Poland", "from", "am"], "answer": ["I", "live", "in", "Poland"], "explanation": {"uk": "I live in Poland. Тут am не потрібне: дієслово вже є — live."}},
+    {"id": "e9", "type": "translate", "prompt": {"uk": "Я з України."}, "answers": ["I'm from Ukraine", "I am from Ukraine"], "explanation": {"uk": "I'm from Ukraine. Не забудьте am (або скорочення I'm) і велику літеру в Ukraine."}},
+    {"id": "e10", "type": "listening", "audioText": "Where are you from?", "prompt": {"uk": "Вас питають. Що відповісти?"}, "options": ["I'm from Ukraine.", "I'm fine, thanks.", "My name is Anna."], "answer": 0, "explanation": {"uk": "На Where are you from? називають країну: I'm from…"}}
+  ]
+}

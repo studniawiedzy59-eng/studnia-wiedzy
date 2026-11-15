@@ -3,6 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/theme.dart';
 import '../../domain/models.dart';
+import '../../domain/progress.dart';
 import '../../state/providers.dart';
 import '../lesson/lesson_screen.dart';
 
@@ -28,6 +29,7 @@ class PathTab extends ConsumerWidget {
     final byId = {for (final lesson in lessons.value!) lesson.id: lesson};
     final completed = progress.value!.completedLessons;
     final units = course.value!.units;
+    final order = course.value!.lessonIds;
 
     return ListView.separated(
       padding: const EdgeInsets.fromLTRB(20, 24, 20, 24),
@@ -43,6 +45,7 @@ class PathTab extends ConsumerWidget {
           unit: unit,
           lessons: [for (final id in unit.lessonIds) if (byId[id] != null) byId[id]!],
           completed: completed,
+          order: order,
         );
       },
     );
@@ -55,12 +58,14 @@ class _UnitCard extends StatelessWidget {
     required this.unit,
     required this.lessons,
     required this.completed,
+    required this.order,
   });
 
   final int number;
   final CourseUnit unit;
   final List<Lesson> lessons;
   final Set<String> completed;
+  final List<String> order;
 
   @override
   Widget build(BuildContext context) {
@@ -94,36 +99,75 @@ class _UnitCard extends StatelessWidget {
           for (final lesson in lessons)
             Padding(
               padding: const EdgeInsets.only(top: 10),
-              child: Material(
-                color: completed.contains(lesson.id) ? AppColors.paleBlue : AppColors.tint,
-                borderRadius: BorderRadius.circular(18),
-                child: InkWell(
-                  borderRadius: BorderRadius.circular(18),
-                  onTap: () => Navigator.of(context).push(
-                    MaterialPageRoute<void>(builder: (_) => LessonScreen(lessonId: lesson.id)),
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
-                    child: Row(
-                      children: [
-                        Icon(
-                          completed.contains(lesson.id) ? Icons.check_circle : Icons.play_circle,
-                          color: completed.contains(lesson.id) ? AppColors.navy : AppColors.accent,
-                        ),
-                        const SizedBox(width: 12),
-                        Expanded(
-                          child: Text(
-                            lesson.title.of(explanationLanguage),
-                            style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w800),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
+              child: _LessonTile(
+                lesson: lesson,
+                done: completed.contains(lesson.id),
+                unlocked: isLessonUnlocked(order, completed, lesson.id),
               ),
             ),
         ],
+      ),
+    );
+  }
+}
+
+class _LessonTile extends StatelessWidget {
+  const _LessonTile({required this.lesson, required this.done, required this.unlocked});
+
+  final Lesson lesson;
+  final bool done;
+  final bool unlocked;
+
+  @override
+  Widget build(BuildContext context) {
+    final Color background;
+    final IconData icon;
+    final Color iconColor;
+    if (done) {
+      background = AppColors.paleBlue;
+      icon = Icons.check_circle;
+      iconColor = AppColors.navy;
+    } else if (unlocked) {
+      background = AppColors.tint;
+      icon = Icons.play_circle;
+      iconColor = AppColors.accent;
+    } else {
+      background = AppColors.locked;
+      icon = Icons.lock;
+      iconColor = AppColors.muted;
+    }
+    return Semantics(
+      label: unlocked ? null : 'Урок закрито. Спершу пройдіть попередній.',
+      child: Material(
+        color: background,
+        borderRadius: BorderRadius.circular(18),
+        child: InkWell(
+          borderRadius: BorderRadius.circular(18),
+          onTap: unlocked
+              ? () => Navigator.of(context).push(
+                    MaterialPageRoute<void>(builder: (_) => LessonScreen(lessonId: lesson.id)),
+                  )
+              : null,
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+            child: Row(
+              children: [
+                Icon(icon, color: iconColor),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Text(
+                    lesson.title.of(explanationLanguage),
+                    style: TextStyle(
+                      fontSize: 16,
+                      fontWeight: FontWeight.w800,
+                      color: unlocked ? AppColors.ink : AppColors.muted,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }

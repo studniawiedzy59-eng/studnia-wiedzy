@@ -1,0 +1,35 @@
+{
+  "id": "u01_l03",
+  "unit": "u01",
+  "cefr": "A0",
+  "title": {"uk": "Як справи?"},
+  "goal": {"uk": "Спитати «як справи?» і коротко відповісти."},
+  "rule": {"uk": "How are you? — ввічливе питання при зустрічі. Відповідають коротко: I'm fine, thanks. And you? Запам'ятайте пари: I am (I'm) і you are."},
+  "words": [
+    {"id": "how", "text": "how", "ipa": "/haʊ/", "pos": "adverb", "translation": {"uk": "як"}, "example": "How are you?", "exampleTranslation": {"uk": "Як справи?"}},
+    {"id": "are", "text": "are", "ipa": "/ɑː/", "pos": "verb", "translation": {"uk": "є (з you)"}, "example": "How are you?", "exampleTranslation": {"uk": "Як справи?"}},
+    {"id": "fine", "text": "fine", "ipa": "/faɪn/", "pos": "adjective", "translation": {"uk": "добре, нормально"}, "example": "I'm fine, thanks.", "exampleTranslation": {"uk": "У мене все добре, дякую."}},
+    {"id": "good", "text": "good", "ipa": "/ɡʊd/", "pos": "adjective", "translation": {"uk": "добрий, добре"}, "example": "I'm good, thanks.", "exampleTranslation": {"uk": "У мене все добре, дякую."}},
+    {"id": "great", "text": "great", "ipa": "/ɡreɪt/", "pos": "adjective", "translation": {"uk": "чудово"}, "example": "I'm great!", "exampleTranslation": {"uk": "У мене все чудово!"}},
+    {"id": "tired", "text": "tired", "ipa": "/ˈtaɪəd/", "pos": "adjective", "translation": {"uk": "втомлений"}, "example": "I'm tired.", "exampleTranslation": {"uk": "Я втомлений."}},
+    {"id": "thanks", "text": "thanks", "ipa": "/θæŋks/", "pos": "exclamation", "translation": {"uk": "дякую (коротко)"}, "example": "I'm fine, thanks.", "exampleTranslation": {"uk": "У мене все добре, дякую."}},
+    {"id": "and", "text": "and", "ipa": "/ænd/", "pos": "conjunction", "translation": {"uk": "і, а"}, "example": "And you?", "exampleTranslation": {"uk": "А у вас?"}}
+  ],
+  "exercises": [
+    {"id": "e1", "type": "fill_blank", "prompt": {"uk": "Повторимо. Оберіть слово, якого бракує"}, "sentence": "My name ___ Anna.", "options": ["is", "you", "nice"], "answer": 0, "explanation": {"uk": "My name is Anna — «моє ім'я є Анна». Без is речення неповне."}},
+    {"id": "e2", "type": "multiple_choice", "prompt": {"uk": "Як спитати «як справи?»"}, "options": ["How are you?", "What's your name?", "Nice to meet you."], "answer": 0, "explanation": {"uk": "How are you? — «як справи?». What's your name? — це питання про ім'я."}},
+    {"id": "e3", "type": "matching", "prompt": {"uk": "З'єднайте слова з перекладом"}, "pairs": [
+      {"left": "fine", "right": {"uk": "добре"}},
+      {"left": "tired", "right": {"uk": "втомлений"}},
+      {"left": "great", "right": {"uk": "чудово"}},
+      {"left": "how", "right": {"uk": "як"}}
+    ], "explanation": {"uk": "Fine — «добре, нормально», great — сильніше: «чудово»."}},
+    {"id": "e4", "type": "listening", "audioText": "I'm fine, thanks. And you?", "prompt": {"uk": "Прослухайте. Що каже людина?"}, "options": {"uk": ["У мене все добре, дякую. А у вас?", "Мене звати Анна. А вас?", "Я втомлений, дякую."]}, "answer": 0, "explanation": {"uk": "I'm fine — у мене все добре, thanks — дякую, And you? — а у вас?"}},
+    {"id": "e5", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "How ___ you?", "options": ["are", "am", "is"], "answer": 0, "explanation": {"uk": "Зі словом you завжди стоїть are: you are, How are you? Am — тільки з I."}},
+    {"id": "e6", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "I ___ tired.", "options": ["am", "are", "is"], "answer": 0, "explanation": {"uk": "Зі словом I завжди стоїть am: I am tired, коротко I'm tired."}},
+    {"id": "e7", "type": "build_sentence", "prompt": {"uk": "У мене все добре, дякую."}, "words": ["I'm", "fine", "thanks", "are", "you"], "answer": ["I'm", "fine", "thanks"], "explanation": {"uk": "I'm fine — у мене все добре, і наприкінці thanks."}},
+    {"id": "e8", "type": "build_sentence", "prompt": {"uk": "А у вас?"}, "words": ["And", "you", "I", "are"], "answer": ["And", "you"], "explanation": {"uk": "Щоб повернути питання співрозмовнику, достатньо двох слів: And you?"}},
+    {"id": "e9", "type": "translate", "prompt": {"uk": "Як справи?"}, "answers": ["How are you"], "explanation": {"uk": "How are you? — три слова: how (як), are (є), you (ви)."}},
+    {"id": "e10", "type": "listening", "audioText": "How are you?", "prompt": {"uk": "Вас питають. Що відповісти?"}, "options": ["I'm good, thanks.", "My name is Tom.", "Goodbye."], "answer": 0, "explanation": {"uk": "На How are you? відповідають про самопочуття: I'm good, I'm fine, I'm tired."}}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "u01_l02",
+  "unit": "u01",
+  "cefr": "A0",
+  "title": {"uk": "Як вас звати?"},
+  "goal": {"uk": "Назвати своє ім'я, спитати ім'я іншої людини й сказати «приємно познайомитися»."},
+  "rule": {"uk": "Українською кажуть «Я Анна», а англійською потрібне слово am: I am Anna. У розмові його скорочують: I'm Anna. Так само What is скорочують до What's. Слово I завжди пишуть з великої літери."},
+  "words": [
+    {"id": "i", "text": "I", "ipa": "/aɪ/", "pos": "pronoun", "translation": {"uk": "я"}, "example": "I'm Anna.", "exampleTranslation": {"uk": "Я Анна."}},
+    {"id": "you", "text": "you", "ipa": "/juː/", "pos": "pronoun", "translation": {"uk": "ти, ви"}, "example": "Nice to meet you.", "exampleTranslation": {"uk": "Приємно познайомитися."}},
+    {"id": "my", "text": "my", "ipa": "/maɪ/", "pos": "determiner", "translation": {"uk": "мій, моя"}, "example": "My name is Anna.", "exampleTranslation": {"uk": "Мене звати Анна."}},
+    {"id": "your", "text": "your", "ipa": "/jɔː/", "pos": "determiner", "translation": {"uk": "твій, ваш"}, "example": "What's your name?", "exampleTranslation": {"uk": "Як вас звати?"}},
+    {"id": "name", "text": "name", "ipa": "/neɪm/", "pos": "noun", "translation": {"uk": "ім'я"}, "example": "My name is Tom.", "exampleTranslation": {"uk": "Мене звати Том."}},
+    {"id": "what", "text": "what", "ipa": "/wɒt/", "pos": "pronoun", "translation": {"uk": "що, який"}, "example": "What's your name?", "exampleTranslation": {"uk": "Як вас звати?"}},
+    {"id": "nice", "text": "nice", "ipa": "/naɪs/", "pos": "adjective", "translation": {"uk": "приємний"}, "example": "Nice to meet you.", "exampleTranslation": {"uk": "Приємно познайомитися."}},
+    {"id": "meet", "text": "meet", "ipa": "/miːt/", "pos": "verb", "translation": {"uk": "зустріти, познайомитися"}, "example": "Nice to meet you.", "exampleTranslation": {"uk": "Приємно познайомитися."}}
+  ],
+  "exercises": [
+    {"id": "e1", "type": "multiple_choice", "prompt": {"uk": "Повторимо. Як сказати «дякую»?"}, "options": ["thank you", "please", "goodbye"], "answer": 0, "explanation": {"uk": "Дякую — thank you. Please — «будь ласка», коли щось просите."}},
+    {"id": "e2", "type": "matching", "prompt": {"uk": "З'єднайте слова з перекладом"}, "pairs": [
+      {"left": "name", "right": {"uk": "ім'я"}},
+      {"left": "my", "right": {"uk": "мій"}},
+      {"left": "your", "right": {"uk": "ваш"}},
+      {"left": "I", "right": {"uk": "я"}}
+    ], "explanation": {"uk": "My — мій, your — ваш. I — це «я», і пишеться завжди з великої літери."}},
+    {"id": "e3", "type": "listening", "audioText": "What's your name?", "prompt": {"uk": "Прослухайте. Що вас питають?"}, "options": {"uk": ["Як вас звати?", "Ви Анна?", "Приємно познайомитися"]}, "answer": 0, "explanation": {"uk": "What's your name? — дослівно «Яке ваше ім'я?», тобто «Як вас звати?»."}},
+    {"id": "e4", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "My ___ is Anna.", "options": ["name", "nice", "you"], "answer": 0, "explanation": {"uk": "My name is… — дослівно «моє ім'я є…»."}},
+    {"id": "e5", "type": "fill_blank", "prompt": {"uk": "Оберіть слово, якого бракує"}, "sentence": "___ Anna.", "options": ["I'm", "My", "Your"], "answer": 0, "explanation": {"uk": "I'm — це I am, «я є». Слово am пропускати не можна: не «I Anna», а «I'm Anna»."}},
+    {"id": "e6", "type": "build_sentence", "prompt": {"uk": "Мене звати Том."}, "words": ["My", "name", "is", "Tom", "I", "your"], "answer": ["My", "name", "is", "Tom"], "explanation": {"uk": "Після my name потрібне is: My name is Tom."}},
+    {"id": "e7", "type": "listening", "audioText": "Nice to meet you.", "prompt": {"uk": "Прослухайте. Що це означає?"}, "options": {"uk": ["Приємно познайомитися", "До побачення", "Як вас звати?"]}, "answer": 0, "explanation": {"uk": "Nice to meet you кажуть при першій зустрічі, одразу після знайомства."}},
+    {"id": "e8", "type": "build_sentence", "prompt": {"uk": "Як вас звати?"}, "words": ["What's", "your", "name", "my", "is"], "answer": ["What's", "your", "name"], "explanation": {"uk": "Питання починається з What's, далі your name: What's your name?"}},
+    {"id": "e9", "type": "translate", "prompt": {"uk": "Приємно познайомитися."}, "answers": ["Nice to meet you"], "explanation": {"uk": "Між nice і meet стоїть to: Nice to meet you."}},
+    {"id": "e10", "type": "listening", "audioText": "What's your name?", "prompt": {"uk": "Вас питають. Що відповісти?"}, "options": ["I'm Maria.", "Goodbye.", "Yes, please."], "answer": 0, "explanation": {"uk": "На What's your name? називають ім'я: I'm… або My name is…"}}
+  ]
+}

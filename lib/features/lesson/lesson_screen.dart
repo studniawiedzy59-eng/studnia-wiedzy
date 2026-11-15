@@ -235,9 +235,11 @@ class _IntroView extends ConsumerWidget {
                   ],
                 ),
               ),
-              const SizedBox(height: 16),
-              const Text('Нові слова', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
-              const SizedBox(height: 8),
+              if (lesson.words.isNotEmpty) ...[
+                const SizedBox(height: 16),
+                const Text('Нові слова', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
+                const SizedBox(height: 8),
+              ],
               for (final word in lesson.words)
                 Padding(
                   padding: const EdgeInsets.only(bottom: 8),
@@ -321,7 +323,9 @@ class _SummaryView extends StatelessWidget {
           const SizedBox(height: 12),
           AppCard(
             child: Text(
-              'Нових слів у словнику: ${lesson.words.length}. Перше повторення вже доступне.',
+              lesson.words.isEmpty
+                  ? 'Це був урок повторення: нових слів немає.'
+                  : 'Нових слів у словнику: ${lesson.words.length}. Перше повторення вже доступне.',
               style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w700),
             ),
           ),

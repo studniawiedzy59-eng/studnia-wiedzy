@@ -1,5 +1,14 @@
 import 'sm2.dart';
 
+/// Lessons open one after another: the first is always open, every other one
+/// opens when the lesson before it is finished. A finished lesson stays open.
+bool isLessonUnlocked(List<String> courseOrder, Set<String> completed, String lessonId) {
+  final index = courseOrder.indexOf(lessonId);
+  if (index < 0) return false;
+  if (index == 0 || completed.contains(lessonId)) return true;
+  return completed.contains(courseOrder[index - 1]);
+}
+
 /// Everything the app remembers about one learner. Stored on the device.
 class Progress {
   const Progress({

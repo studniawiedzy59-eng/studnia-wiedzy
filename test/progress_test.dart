@@ -35,6 +35,17 @@ void main() {
     expect(progress.currentStreak(friday), 1);
   });
 
+  test('lessons open one after another', () {
+    const order = ['l1', 'l2', 'l3'];
+    expect(isLessonUnlocked(order, {}, 'l1'), isTrue);
+    expect(isLessonUnlocked(order, {}, 'l2'), isFalse);
+    expect(isLessonUnlocked(order, {'l1'}, 'l2'), isTrue);
+    expect(isLessonUnlocked(order, {'l1'}, 'l3'), isFalse);
+    expect(isLessonUnlocked(order, {'l1', 'l2'}, 'l3'), isTrue);
+    expect(isLessonUnlocked(order, {'l3'}, 'l3'), isTrue);
+    expect(isLessonUnlocked(order, {'l1'}, 'missing'), isFalse);
+  });
+
   test('progress survives saving and loading', () {
     final progress = const Progress.empty()
         .withLessonCompleted('u01_l01', ['hello'], monday)

@@ -20,7 +20,6 @@ void main() {
     for (final id in course.lessonIds) {
       final lesson = Lesson.fromJson(_read('assets/content/en/lessons/$id.json'));
       expect(lesson.id, id);
-      expect(lesson.words, isNotEmpty);
       for (final exercise in lesson.exercises) {
         final Object answer = switch (exercise) {
           ChoiceExercise() => exercise.answerIndex,
@@ -36,11 +35,18 @@ void main() {
     }
   });
 
+  test('the first unit has six lessons and ends with a review', () {
+    final unit = course.units.first;
+    expect(unit.lessonIds, hasLength(6));
+    final review = Lesson.fromJson(_read('assets/content/en/lessons/${unit.lessonIds.last}.json'));
+    expect(review.words, isEmpty);
+  });
+
   test('a wrong answer is rejected', () {
-    final lesson = Lesson.fromJson(_read('assets/content/en/lessons/u06_l02.json'));
+    final lesson = Lesson.fromJson(_read('assets/content/en/lessons/u01_l02.json'));
     final translate = lesson.exercises.whereType<TranslateExercise>().first;
-    expect(translate.check('I want like a coffee with milk'), isFalse);
+    expect(translate.check('Nice meet you'), isFalse);
     final build = lesson.exercises.whereType<BuildSentenceExercise>().first;
-    expect(build.check(['We', 'want', 'the', 'bill']), isFalse);
+    expect(build.check(['My', 'name', 'Tom']), isFalse);
   });
 }

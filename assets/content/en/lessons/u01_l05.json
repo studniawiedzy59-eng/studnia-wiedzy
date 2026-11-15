@@ -1,0 +1,44 @@
+{
+  "id": "u01_l05",
+  "unit": "u01",
+  "cefr": "A0",
+  "title": {"uk": "Числа від 1 до 10"},
+  "goal": {"uk": "Назвати й розпізнати на слух числа від одного до десяти."},
+  "rule": {"uk": "Числа до десяти треба знати напам'ять: вони потрібні для цін, часу й номера телефону. Номер телефону англійською називають по одній цифрі."},
+  "words": [
+    {"id": "one", "text": "one", "ipa": "/wʌn/", "pos": "number", "translation": {"uk": "один"}, "example": "One coffee, please.", "exampleTranslation": {"uk": "Одну каву, будь ласка."}},
+    {"id": "two", "text": "two", "ipa": "/tuː/", "pos": "number", "translation": {"uk": "два"}, "example": "Two, please.", "exampleTranslation": {"uk": "Два, будь ласка."}},
+    {"id": "three", "text": "three", "ipa": "/θriː/", "pos": "number", "translation": {"uk": "три"}, "example": "One, two, three.", "exampleTranslation": {"uk": "Один, два, три."}},
+    {"id": "four", "text": "four", "ipa": "/fɔː/", "pos": "number", "translation": {"uk": "чотири"}, "example": "Three, four, five.", "exampleTranslation": {"uk": "Три, чотири, п'ять."}},
+    {"id": "five", "text": "five", "ipa": "/faɪv/", "pos": "number", "translation": {"uk": "п'ять"}, "example": "Four, five, six.", "exampleTranslation": {"uk": "Чотири, п'ять, шість."}},
+    {"id": "six", "text": "six", "ipa": "/sɪks/", "pos": "number", "translation": {"uk": "шість"}, "example": "Five, six, seven.", "exampleTranslation": {"uk": "П'ять, шість, сім."}},
+    {"id": "seven", "text": "seven", "ipa": "/ˈsevn/", "pos": "number", "translation": {"uk": "сім"}, "example": "Six, seven, eight.", "exampleTranslation": {"uk": "Шість, сім, вісім."}},
+    {"id": "eight", "text": "eight", "ipa": "/eɪt/", "pos": "number", "translation": {"uk": "вісім"}, "example": "Seven, eight, nine.", "exampleTranslation": {"uk": "Сім, вісім, дев'ять."}},
+    {"id": "nine", "text": "nine", "ipa": "/naɪn/", "pos": "number", "translation": {"uk": "дев'ять"}, "example": "Eight, nine, ten.", "exampleTranslation": {"uk": "Вісім, дев'ять, десять."}},
+    {"id": "ten", "text": "ten", "ipa": "/ten/", "pos": "number", "translation": {"uk": "десять"}, "example": "Nine, ten.", "exampleTranslation": {"uk": "Дев'ять, десять."}}
+  ],
+  "exercises": [
+    {"id": "e1", "type": "multiple_choice", "prompt": {"uk": "Повторимо. Як сказати «Я з Польщі»?"}, "options": ["I'm from Poland.", "I live Poland.", "My name is Poland."], "answer": 0, "explanation": {"uk": "Звідки ви родом — I'm from…: I'm from Poland."}},
+    {"id": "e2", "type": "matching", "prompt": {"uk": "З'єднайте слово з числом"}, "pairs": [
+      {"left": "one", "right": {"uk": "1"}},
+      {"left": "two", "right": {"uk": "2"}},
+      {"left": "three", "right": {"uk": "3"}},
+      {"left": "four", "right": {"uk": "4"}},
+      {"left": "five", "right": {"uk": "5"}}
+    ], "explanation": {"uk": "One, two, three, four, five — один, два, три, чотири, п'ять."}},
+    {"id": "e3", "type": "matching", "prompt": {"uk": "З'єднайте слово з числом"}, "pairs": [
+      {"left": "six", "right": {"uk": "6"}},
+      {"left": "seven", "right": {"uk": "7"}},
+      {"left": "eight", "right": {"uk": "8"}},
+      {"left": "nine", "right": {"uk": "9"}},
+      {"left": "ten", "right": {"uk": "10"}}
+    ], "explanation": {"uk": "Six, seven, eight, nine, ten — шість, сім, вісім, дев'ять, десять."}},
+    {"id": "e4", "type": "listening", "audioText": "nine", "prompt": {"uk": "Прослухайте. Яке це число?"}, "options": {"uk": ["9", "5", "10"]}, "answer": 0, "explanation": {"uk": "Nine — дев'ять. Five — п'ять: ці два слова звучать схоже, слухайте перший звук."}},
+    {"id": "e5", "type": "listening", "audioText": "seven, three, two", "prompt": {"uk": "Прослухайте три числа"}, "options": {"uk": ["7, 3, 2", "6, 3, 2", "7, 2, 3"]}, "answer": 0, "explanation": {"uk": "Seven — 7, three — 3, two — 2. Так, по одній цифрі, називають номер телефону."}},
+    {"id": "e6", "type": "fill_blank", "prompt": {"uk": "Яке число пропущене?"}, "sentence": "one, two, ___, four", "options": ["three", "five", "ten"], "answer": 0, "explanation": {"uk": "Після two (2) іде three (3), потім four (4)."}},
+    {"id": "e7", "type": "fill_blank", "prompt": {"uk": "Яке число далі?"}, "sentence": "eight, nine, ___", "options": ["ten", "seven", "one"], "answer": 0, "explanation": {"uk": "Eight (8), nine (9), ten (10)."}},
+    {"id": "e8", "type": "multiple_choice", "prompt": {"uk": "Скільки буде two + three?"}, "options": ["five", "six", "four"], "answer": 0, "explanation": {"uk": "Two (2) + three (3) = five (5)."}},
+    {"id": "e9", "type": "translate", "prompt": {"uk": "шість"}, "answers": ["six"], "explanation": {"uk": "Шість — six. Не плутайте із seven — сім."}},
+    {"id": "e10", "type": "multiple_choice", "prompt": {"uk": "Як правильно написати число 8?"}, "options": ["eight", "eigth", "eihgt"], "answer": 0, "explanation": {"uk": "Eight: літери g і h не вимовляються, але пишуться саме в такому порядку — e-i-g-h-t."}}
+  ]
+}

@@ -68,6 +68,10 @@ def check_exercise(ex, langs, where):
             err(where, "left sides must be unique")
         for i, pair in enumerate(pairs):
             l10n(f"{where}.pairs[{i}].right", pair.get("right"), langs)
+        for lang in langs:
+            rights = [(p.get("right") or {}).get(lang) for p in pairs]
+            if len(set(rights)) != len(rights):
+                err(where, f"right sides must be unique for language '{lang}'")
     if kind == "build_sentence":
         words, answer = list(ex.get("words") or []), ex.get("answer") or []
         if not answer:
@@ -107,14 +111,16 @@ def check_lesson(path, unit_id, langs):
                 err(f"{where}.words[{wid}]", f"missing {key}")
         l10n(f"{where}.words[{wid}].translation", word.get("translation"), langs)
         l10n(f"{where}.words[{wid}].exampleTranslation", word.get("exampleTranslation"), langs)
-    if not word_ids:
-        err(where, "lesson has no words")
+    if not word_ids and not lesson.get("review"):
+        err(where, "lesson has no words and is not marked as review")
+    if word_ids and lesson.get("review"):
+        err(where, "a review lesson must not introduce new words")
     if len(word_ids) > 10:
         err(where, "more than 10 new words in one lesson")
     exercise_ids = set()
     exercises = lesson.get("exercises") or []
-    if len(exercises) < 6:
-        err(where, "lesson needs at least 6 exercises")
+    if len(exercises) < 8:
+        err(where, "lesson needs at least 8 exercises")
     for ex in exercises:
         eid = ex.get("id")
         if eid in exercise_ids:
