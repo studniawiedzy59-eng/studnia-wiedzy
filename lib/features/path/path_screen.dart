@@ -34,18 +34,33 @@ class PathTab extends ConsumerWidget {
     final items = <Widget>[
       const Text('Шлях', style: TextStyle(fontSize: 30, fontWeight: FontWeight.w900)),
     ];
+    // Only one level is open at a time: 280 units in one list would be too long.
+    String? currentLevel;
+    for (final unit in units) {
+      if (unit.lessonIds.any((id) => !completed.contains(id))) {
+        currentLevel = unit.cefr;
+        break;
+      }
+    }
+    final open = ref.watch(_openLevelProvider) ?? currentLevel ?? units.first.cefr;
     String? level;
     for (var i = 0; i < units.length; i++) {
       final unit = units[i];
       if (unit.cefr != level) {
         level = unit.cefr;
-        final ids = [for (final u in units) if (u.cefr == level) ...u.lessonIds];
+        final cefr = unit.cefr;
+        final levelUnits = [for (final u in units) if (u.cefr == cefr) u];
+        final ids = [for (final u in levelUnits) ...u.lessonIds];
         items.add(_LevelHeader(
-          cefr: unit.cefr,
+          cefr: cefr,
+          units: levelUnits.length,
           done: ids.where(completed.contains).length,
           total: ids.length,
+          open: open == cefr,
+          onTap: () => ref.read(_openLevelProvider.notifier).state = open == cefr ? '' : cefr,
         ));
       }
+      if (unit.cefr != open) continue;
       items.add(_UnitCard(
         number: i + 1,
         unit: unit,
@@ -64,6 +79,9 @@ class PathTab extends ConsumerWidget {
   }
 }
 
+/// The level the learner opened by hand; `null` means "the level I am on".
+final _openLevelProvider = StateProvider<String?>((ref) => null);
+
 /// Names shown for each CEFR level in the learner's language.
 const _levelNames = {
   'A0': 'Старт із нуля',
@@ -76,29 +94,57 @@ const _levelNames = {
 };
 
 class _LevelHeader extends StatelessWidget {
-  const _LevelHeader({required this.cefr, required this.done, required this.total});
+  const _LevelHeader({
+    required this.cefr,
+    required this.units,
+    required this.done,
+    required this.total,
+    required this.open,
+    required this.onTap,
+  });
 
   final String cefr;
+  final int units;
   final int done;
   final int total;
+  final bool open;
+  final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(top: 12),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            'Рівень $cefr · ${_levelNames[cefr] ?? ''}',
-            style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.navy),
+    final status = total == 0
+        ? 'Розділів: $units · уроки ще пишуться'
+        : 'Розділів: $units · пройдено уроків: $done з $total';
+    return Material(
+      color: AppColors.paleBlue,
+      borderRadius: BorderRadius.circular(20),
+      child: InkWell(
+        borderRadius: BorderRadius.circular(20),
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 14),
+          child: Row(
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Рівень $cefr · ${_levelNames[cefr] ?? ''}',
+                      style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w900, color: AppColors.navy),
+                    ),
+                    const SizedBox(height: 2),
+                    Text(
+                      status,
+                      style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: AppColors.muted),
+                    ),
+                  ],
+                ),
+              ),
+              Icon(open ? Icons.expand_less : Icons.expand_more, color: AppColors.navy),
+            ],
           ),
-          const SizedBox(height: 2),
-          Text(
-            total == 0 ? 'Уроки цього рівня ще пишуться' : 'Пройдено уроків: $done з $total',
-            style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: AppColors.muted),
-          ),
-        ],
+        ),
       ),
     );
   }

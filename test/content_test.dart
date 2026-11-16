@@ -11,8 +11,12 @@ Map<String, dynamic> _read(String path) {
 void main() {
   final course = Course.fromJson(_read('assets/content/en/course.json'));
 
-  test('the course has 20 units', () {
-    expect(course.units, hasLength(20));
+  test('every level from A0 to C2 has 40 units', () {
+    expect(course.units, hasLength(280));
+    for (final level in ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2']) {
+      expect(course.units.where((unit) => unit.cefr == level), hasLength(40), reason: level);
+    }
+    expect(course.units.map((unit) => unit.id).toSet(), hasLength(280));
   });
 
   test('every listed lesson loads and its own answers are accepted', () {
