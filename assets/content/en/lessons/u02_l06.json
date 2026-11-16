@@ -1,0 +1,206 @@
+{
+ "id": "u02_l06",
+ "unit": "u02",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: замовлення в кафе"
+ },
+ "goal": {
+  "uk": "Пройти весь візит до кафе: від привітання до рахунку."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Тут ціла розмова в кафе: привітатися, попросити меню, замовити напій і їжу, сказати «це все», спитати ціну й заплатити."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Hello! How are you?",
+   "prompt": {
+    "uk": "Ви зайшли в кафе. Що відповісти?"
+   },
+   "options": [
+    "Hello! I'm fine, thanks.",
+    "Goodbye!",
+    "That's all."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "На привітання відповідають привітанням, на How are you? — I'm fine, thanks."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можна мені меню, будь ласка?"
+   },
+   "words": [
+    "Can",
+    "I",
+    "have",
+    "the",
+    "menu",
+    "please",
+    "pay",
+    "bill"
+   ],
+   "answer": [
+    "Can",
+    "I",
+    "have",
+    "the",
+    "menu",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Can I have the menu, please?"
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Here you are.",
+   "prompt": {
+    "uk": "Вам подали меню. Що відповісти?"
+   },
+   "options": [
+    "Thank you.",
+    "Excuse me.",
+    "No, thank you."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Коли вам щось подають — Thank you."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я хотів би велику каву з молоком."
+   },
+   "answers": [
+    "I'd like a large coffee with milk",
+    "I would like a large coffee with milk",
+    "I'd like a large white coffee",
+    "I would like a large white coffee"
+   ],
+   "explanation": {
+    "uk": "I'd like a large coffee with milk. У Британії можна сказати й a large white coffee."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Soup or salad?",
+   "prompt": {
+    "uk": "Що відповісти?"
+   },
+   "options": [
+    "Salad, please.",
+    "Yes, please.",
+    "It's two pounds."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вас просять вибрати одне з двох."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A chicken sandwich ___ a small tea, please.",
+   "options": [
+    "and",
+    "or",
+    "by"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "And — «і»: сендвіч і чай."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Anything else?",
+   "prompt": {
+    "uk": "Ви замовили все. Що відповісти?"
+   },
+   "options": [
+    "No, that's all, thanks.",
+    "Yes, of course.",
+    "How much?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, that's all, thanks."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Скільки це коштує?"
+   },
+   "answers": [
+    "How much is it",
+    "How much is this"
+   ],
+   "explanation": {
+    "uk": "How much is it?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "It's nine euros.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки треба заплатити?"
+   },
+   "options": {
+    "uk": [
+     "9 євро",
+     "5 євро",
+     "9 фунтів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nine — дев'ять, euros — євро."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можна заплатити карткою?"
+   },
+   "words": [
+    "Can",
+    "I",
+    "pay",
+    "by",
+    "card",
+    "in",
+    "bill"
+   ],
+   "answer": [
+    "Can",
+    "I",
+    "pay",
+    "by",
+    "card"
+   ],
+   "explanation": {
+    "uk": "Can I pay by card?"
+   }
+  }
+ ]
+}

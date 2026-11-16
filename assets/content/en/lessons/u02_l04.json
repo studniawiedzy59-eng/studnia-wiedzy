@@ -1,0 +1,319 @@
+{
+ "id": "u02_l04",
+ "unit": "u02",
+ "cefr": "A0",
+ "title": {
+  "uk": "Велика чи мала?"
+ },
+ "goal": {
+  "uk": "Уточнити замовлення: розмір, гаряче чи холодне, і сказати «це все»."
+ },
+ "rule": {
+  "uk": "Слова, що описують, стоять перед назвою: a large coffee, a cold juice. Якщо їх два, спочатку розмір: a large black coffee. Коли офіціант питає Anything else? — «Щось іще?», відповідають No, that's all, thanks."
+ },
+ "words": [
+  {
+   "id": "small",
+   "text": "small",
+   "ipa": "/smɔːl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "малий"
+   },
+   "example": "A small coffee, please.",
+   "exampleTranslation": {
+    "uk": "Малу каву, будь ласка."
+   }
+  },
+  {
+   "id": "large",
+   "text": "large",
+   "ipa": "/lɑːdʒ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "великий"
+   },
+   "example": "A large tea, please.",
+   "exampleTranslation": {
+    "uk": "Великий чай, будь ласка."
+   }
+  },
+  {
+   "id": "hot",
+   "text": "hot",
+   "ipa": "/hɒt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "гарячий"
+   },
+   "example": "Hot tea.",
+   "exampleTranslation": {
+    "uk": "Гарячий чай."
+   }
+  },
+  {
+   "id": "cold",
+   "text": "cold",
+   "ipa": "/kəʊld/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "холодний"
+   },
+   "example": "Cold water, please.",
+   "exampleTranslation": {
+    "uk": "Холодної води, будь ласка."
+   }
+  },
+  {
+   "id": "black",
+   "text": "black",
+   "ipa": "/blæk/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "чорний"
+   },
+   "example": "A black coffee.",
+   "exampleTranslation": {
+    "uk": "Чорна кава."
+   }
+  },
+  {
+   "id": "white",
+   "text": "white",
+   "ipa": "/waɪt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "білий; (про каву) з молоком"
+   },
+   "example": "A white coffee.",
+   "exampleTranslation": {
+    "uk": "Кава з молоком."
+   }
+  },
+  {
+   "id": "anything_else",
+   "text": "anything else",
+   "ipa": "/ˌeniθɪŋ ˈels/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "щось іще?"
+   },
+   "example": "Anything else?",
+   "exampleTranslation": {
+    "uk": "Щось іще?"
+   }
+  },
+  {
+   "id": "thats_all",
+   "text": "that's all",
+   "ipa": "/ˌðæts ˈɔːl/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "це все"
+   },
+   "example": "That's all, thanks.",
+   "exampleTranslation": {
+    "uk": "Це все, дякую."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "A cheese ___, please.",
+   "options": [
+    "sandwich",
+    "coffee",
+    "water"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A cheese sandwich — сендвіч із сиром."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "small",
+     "right": {
+      "uk": "малий"
+     }
+    },
+    {
+     "left": "large",
+     "right": {
+      "uk": "великий"
+     }
+    },
+    {
+     "left": "hot",
+     "right": {
+      "uk": "гарячий"
+     }
+    },
+    {
+     "left": "cold",
+     "right": {
+      "uk": "холодний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Small — large і hot — cold: дві пари протилежних слів."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "A large black coffee, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що замовляє людина?"
+   },
+   "options": {
+    "uk": [
+     "Велику чорну каву",
+     "Малу чорну каву",
+     "Велику каву з молоком"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Large — велика, black — чорна. Розмір стоїть першим."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «мала кава»?"
+   },
+   "options": [
+    "a small coffee",
+    "a coffee small",
+    "small a coffee"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Слово, що описує, стоїть між a і назвою: a small coffee."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "У Британії просять a white coffee. Що вам принесуть?"
+   },
+   "options": {
+    "uk": [
+     "Каву з молоком",
+     "Каву без кофеїну",
+     "Каву з цукром"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "White coffee — кава з молоком, black coffee — без молока."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ water, please.",
+   "options": [
+    "cold",
+    "black",
+    "that's"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Cold water — холодна вода."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Anything else?",
+   "prompt": {
+    "uk": "Офіціант питає це після замовлення. Що це означає?"
+   },
+   "options": {
+    "uk": [
+     "Щось іще?",
+     "Усе добре?",
+     "Ви тут?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Anything else? — «Щось іще?». Так перевіряють, чи ви все замовили."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ні, це все, дякую."
+   },
+   "words": [
+    "No",
+    "that's",
+    "all",
+    "thanks",
+    "else",
+    "yes"
+   ],
+   "answer": [
+    "No",
+    "that's",
+    "all",
+    "thanks"
+   ],
+   "explanation": {
+    "uk": "No, that's all, thanks — стандартна відповідь на Anything else?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Малу каву, будь ласка."
+   },
+   "answers": [
+    "A small coffee, please",
+    "Small coffee, please"
+   ],
+   "explanation": {
+    "uk": "A small coffee, please."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Anything else?",
+   "prompt": {
+    "uk": "Ви хочете ще тістечко. Що відповісти?"
+   },
+   "options": [
+    "Yes, a cake, please.",
+    "No, that's all, thanks.",
+    "Here you are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Якщо хочете ще щось — Yes і назва страви. Якщо ні — No, that's all."
+   }
+  }
+ ]
+}

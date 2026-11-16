@@ -1,20 +1,184 @@
 {
-  "id": "en",
-  "targetLanguage": "en",
-  "explanationLanguages": ["uk"],
-  "version": 2,
-  "units": [
-    {"id": "u01", "cefr": "A0", "title": {"uk": "Перші слова"}, "lessons": ["u01_l01", "u01_l02", "u01_l03", "u01_l04", "u01_l05", "u01_l06"]},
-    {"id": "u02", "cefr": "A0", "title": {"uk": "У кафе"}, "lessons": []},
-    {"id": "u03", "cefr": "A0", "title": {"uk": "Я і мої люди"}, "lessons": []},
-    {"id": "u04", "cefr": "A0", "title": {"uk": "Речі й місця"}, "lessons": []},
-    {"id": "u05", "cefr": "A1", "title": {"uk": "Мій день"}, "lessons": []},
-    {"id": "u06", "cefr": "A1", "title": {"uk": "Робота й навчання"}, "lessons": []},
-    {"id": "u07", "cefr": "A1", "title": {"uk": "У місті"}, "lessons": []},
-    {"id": "u08", "cefr": "A1", "title": {"uk": "Покупки й одяг"}, "lessons": []},
-    {"id": "u09", "cefr": "A2", "title": {"uk": "Минулі вихідні"}, "lessons": []},
-    {"id": "u10", "cefr": "A2", "title": {"uk": "Плани й зустрічі"}, "lessons": []},
-    {"id": "u11", "cefr": "A2", "title": {"uk": "Подорожі"}, "lessons": []},
-    {"id": "u12", "cefr": "A2", "title": {"uk": "Перша співбесіда"}, "lessons": []}
-  ]
+ "id": "en",
+ "targetLanguage": "en",
+ "explanationLanguages": [
+  "uk"
+ ],
+ "version": 3,
+ "units": [
+  {
+   "id": "u01",
+   "cefr": "A0",
+   "title": {
+    "uk": "Перші слова"
+   },
+   "lessons": [
+    "u01_l01",
+    "u01_l02",
+    "u01_l03",
+    "u01_l04",
+    "u01_l05",
+    "u01_l06"
+   ]
+  },
+  {
+   "id": "u02",
+   "cefr": "A0",
+   "title": {
+    "uk": "У кафе"
+   },
+   "lessons": [
+    "u02_l01",
+    "u02_l02",
+    "u02_l03",
+    "u02_l04",
+    "u02_l05",
+    "u02_l06"
+   ]
+  },
+  {
+   "id": "u03",
+   "cefr": "A0",
+   "title": {
+    "uk": "Я і мої люди"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u04",
+   "cefr": "A0",
+   "title": {
+    "uk": "Речі й місця"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u05",
+   "cefr": "A1",
+   "title": {
+    "uk": "Мій день"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u06",
+   "cefr": "A1",
+   "title": {
+    "uk": "Їжа й ресторан"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u07",
+   "cefr": "A1",
+   "title": {
+    "uk": "Робота й навчання"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u08",
+   "cefr": "A1",
+   "title": {
+    "uk": "У місті"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u09",
+   "cefr": "A1",
+   "title": {
+    "uk": "Покупки й одяг"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u10",
+   "cefr": "A1",
+   "title": {
+    "uk": "Дім"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u11",
+   "cefr": "A1",
+   "title": {
+    "uk": "Вільний час"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u12",
+   "cefr": "A1",
+   "title": {
+    "uk": "Погода й пори року"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u13",
+   "cefr": "A2",
+   "title": {
+    "uk": "Минулі вихідні"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u14",
+   "cefr": "A2",
+   "title": {
+    "uk": "Плани й зустрічі"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u15",
+   "cefr": "A2",
+   "title": {
+    "uk": "Подорожі"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u16",
+   "cefr": "A2",
+   "title": {
+    "uk": "Здоров'я"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u17",
+   "cefr": "A2",
+   "title": {
+    "uk": "Телефон та інтернет"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u18",
+   "cefr": "A2",
+   "title": {
+    "uk": "Люди й характер"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u19",
+   "cefr": "A2",
+   "title": {
+    "uk": "Перша співбесіда"
+   },
+   "lessons": []
+  },
+  {
+   "id": "u20",
+   "cefr": "A2",
+   "title": {
+    "uk": "Історії з життя"
+   },
+   "lessons": []
+  }
+ ]
 }

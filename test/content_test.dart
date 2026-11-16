@@ -11,8 +11,8 @@ Map<String, dynamic> _read(String path) {
 void main() {
   final course = Course.fromJson(_read('assets/content/en/course.json'));
 
-  test('the course has 12 units', () {
-    expect(course.units, hasLength(12));
+  test('the course has 20 units', () {
+    expect(course.units, hasLength(20));
   });
 
   test('every listed lesson loads and its own answers are accepted', () {

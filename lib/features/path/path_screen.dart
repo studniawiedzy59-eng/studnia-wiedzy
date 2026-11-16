@@ -31,23 +31,75 @@ class PathTab extends ConsumerWidget {
     final units = course.value!.units;
     final order = course.value!.lessonIds;
 
+    final items = <Widget>[
+      const Text('Шлях', style: TextStyle(fontSize: 30, fontWeight: FontWeight.w900)),
+    ];
+    String? level;
+    for (var i = 0; i < units.length; i++) {
+      final unit = units[i];
+      if (unit.cefr != level) {
+        level = unit.cefr;
+        final ids = [for (final u in units) if (u.cefr == level) ...u.lessonIds];
+        items.add(_LevelHeader(
+          cefr: unit.cefr,
+          done: ids.where(completed.contains).length,
+          total: ids.length,
+        ));
+      }
+      items.add(_UnitCard(
+        number: i + 1,
+        unit: unit,
+        lessons: [for (final id in unit.lessonIds) if (byId[id] != null) byId[id]!],
+        completed: completed,
+        order: order,
+      ));
+    }
+
     return ListView.separated(
       padding: const EdgeInsets.fromLTRB(20, 24, 20, 24),
-      itemCount: units.length + 1,
+      itemCount: items.length,
       separatorBuilder: (_, __) => const SizedBox(height: 12),
-      itemBuilder: (context, index) {
-        if (index == 0) {
-          return const Text('Шлях', style: TextStyle(fontSize: 30, fontWeight: FontWeight.w900));
-        }
-        final unit = units[index - 1];
-        return _UnitCard(
-          number: index,
-          unit: unit,
-          lessons: [for (final id in unit.lessonIds) if (byId[id] != null) byId[id]!],
-          completed: completed,
-          order: order,
-        );
-      },
+      itemBuilder: (context, index) => items[index],
+    );
+  }
+}
+
+/// Names shown for each CEFR level in the learner's language.
+const _levelNames = {
+  'A0': 'Старт із нуля',
+  'A1': 'Початковий',
+  'A2': 'Елементарний',
+  'B1': 'Середній',
+  'B2': 'Вище середнього',
+  'C1': 'Просунутий',
+  'C2': 'Вільне володіння',
+};
+
+class _LevelHeader extends StatelessWidget {
+  const _LevelHeader({required this.cefr, required this.done, required this.total});
+
+  final String cefr;
+  final int done;
+  final int total;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(top: 12),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            'Рівень $cefr · ${_levelNames[cefr] ?? ''}',
+            style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w900, color: AppColors.navy),
+          ),
+          const SizedBox(height: 2),
+          Text(
+            total == 0 ? 'Уроки цього рівня ще пишуться' : 'Пройдено уроків: $done з $total',
+            style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: AppColors.muted),
+          ),
+        ],
+      ),
     );
   }
 }

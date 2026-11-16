@@ -1,0 +1,320 @@
+{
+ "id": "u02_l05",
+ "unit": "u02",
+ "cefr": "A0",
+ "title": {
+  "uk": "Скільки коштує?"
+ },
+ "goal": {
+  "uk": "Спитати ціну, попросити рахунок і заплатити."
+ },
+ "rule": {
+  "uk": "How much is it? — «Скільки це коштує?». Відповідь починається з It's: It's five pounds. Щоб заплатити, просять рахунок: Can I have the bill, please? Карткою — by card, готівкою — in cash."
+ },
+ "words": [
+  {
+   "id": "how_much",
+   "text": "how much",
+   "ipa": "/ˌhaʊ ˈmʌtʃ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "скільки (про ціну)"
+   },
+   "example": "How much is it?",
+   "exampleTranslation": {
+    "uk": "Скільки це коштує?"
+   }
+  },
+  {
+   "id": "it",
+   "text": "it",
+   "ipa": "/ɪt/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "це, воно"
+   },
+   "example": "It's five pounds.",
+   "exampleTranslation": {
+    "uk": "Це коштує п'ять фунтів."
+   }
+  },
+  {
+   "id": "pound",
+   "text": "pound",
+   "ipa": "/paʊnd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "фунт (гроші Британії)"
+   },
+   "example": "It's two pounds.",
+   "exampleTranslation": {
+    "uk": "Це коштує два фунти."
+   }
+  },
+  {
+   "id": "euro",
+   "text": "euro",
+   "ipa": "/ˈjʊərəʊ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "євро"
+   },
+   "example": "It's three euros.",
+   "exampleTranslation": {
+    "uk": "Це коштує три євро."
+   }
+  },
+  {
+   "id": "bill",
+   "text": "bill",
+   "ipa": "/bɪl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рахунок"
+   },
+   "example": "Can I have the bill, please?",
+   "exampleTranslation": {
+    "uk": "Можна рахунок, будь ласка?"
+   }
+  },
+  {
+   "id": "pay",
+   "text": "pay",
+   "ipa": "/peɪ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "платити"
+   },
+   "example": "Can I pay by card?",
+   "exampleTranslation": {
+    "uk": "Можна заплатити карткою?"
+   }
+  },
+  {
+   "id": "card",
+   "text": "card",
+   "ipa": "/kɑːd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "картка"
+   },
+   "example": "By card, please.",
+   "exampleTranslation": {
+    "uk": "Карткою, будь ласка."
+   }
+  },
+  {
+   "id": "cash",
+   "text": "cash",
+   "ipa": "/kæʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "готівка"
+   },
+   "example": "Can I pay in cash?",
+   "exampleTranslation": {
+    "uk": "Можна заплатити готівкою?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Anything else?",
+   "prompt": {
+    "uk": "Повторимо. Ви більше нічого не хочете. Що відповісти?"
+   },
+   "options": [
+    "No, that's all, thanks.",
+    "Yes, of course.",
+    "Excuse me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, that's all, thanks — «ні, це все, дякую»."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "bill",
+     "right": {
+      "uk": "рахунок"
+     }
+    },
+    {
+     "left": "card",
+     "right": {
+      "uk": "картка"
+     }
+    },
+    {
+     "left": "cash",
+     "right": {
+      "uk": "готівка"
+     }
+    },
+    {
+     "left": "pay",
+     "right": {
+      "uk": "платити"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Чотири слова для кінця візиту: рахунок і два способи заплатити."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати ціну?"
+   },
+   "options": [
+    "How much is it?",
+    "How are you?",
+    "What's your name?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How much is it? — «Скільки це коштує?»"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's six pounds.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки це коштує?"
+   },
+   "options": {
+    "uk": [
+     "6 фунтів",
+     "7 фунтів",
+     "10 фунтів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Six — шість. It's six pounds — це коштує шість фунтів."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How ___ is it?",
+   "options": [
+    "much",
+    "are",
+    "like"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про ціну питають How much…?"
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I have the ___, please?",
+   "options": [
+    "bill",
+    "pay",
+    "much"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The bill — рахунок. Фраза та сама, що й для меню: Can I have…?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Card or cash?",
+   "prompt": {
+    "uk": "Вас питають це біля каси. Про що мова?"
+   },
+   "options": {
+    "uk": [
+     "Карткою чи готівкою?",
+     "Кава чи чай?",
+     "Велика чи мала?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Card — картка, cash — готівка, or — чи."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можна заплатити карткою?"
+   },
+   "words": [
+    "Can",
+    "I",
+    "pay",
+    "by",
+    "card",
+    "have",
+    "cash"
+   ],
+   "answer": [
+    "Can",
+    "I",
+    "pay",
+    "by",
+    "card"
+   ],
+   "explanation": {
+    "uk": "Can I pay by card? Перед card ставлять by."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Скільки це коштує?"
+   },
+   "answers": [
+    "How much is it",
+    "How much is this"
+   ],
+   "explanation": {
+    "uk": "How much is it?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "It's four pounds, please.",
+   "prompt": {
+    "uk": "Вам назвали ціну. Як спитати, чи можна карткою?"
+   },
+   "options": [
+    "Can I pay by card?",
+    "How much is it?",
+    "I'd like a coffee."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ціну ви вже знаєте, тому питаєте про спосіб оплати: Can I pay by card?"
+   }
+  }
+ ]
+}

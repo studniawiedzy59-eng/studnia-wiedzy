@@ -1,0 +1,335 @@
+{
+ "id": "u02_l01",
+ "unit": "u02",
+ "cefr": "A0",
+ "title": {
+  "uk": "Кава чи чай?"
+ },
+ "goal": {
+  "uk": "Назвати напої й попросити один із них."
+ },
+ "rule": {
+  "uk": "Щоб замовити, достатньо назвати напій і додати please: A coffee, please. Маленьке слово a означає «один, одна». With — «з»: tea with milk — чай із молоком."
+ },
+ "words": [
+  {
+   "id": "coffee",
+   "text": "coffee",
+   "ipa": "/ˈkɒfi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кава"
+   },
+   "example": "A coffee, please.",
+   "exampleTranslation": {
+    "uk": "Каву, будь ласка."
+   }
+  },
+  {
+   "id": "tea",
+   "text": "tea",
+   "ipa": "/tiː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "чай"
+   },
+   "example": "A tea, please.",
+   "exampleTranslation": {
+    "uk": "Чай, будь ласка."
+   }
+  },
+  {
+   "id": "water",
+   "text": "water",
+   "ipa": "/ˈwɔːtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вода"
+   },
+   "example": "Water, please.",
+   "exampleTranslation": {
+    "uk": "Води, будь ласка."
+   }
+  },
+  {
+   "id": "juice",
+   "text": "juice",
+   "ipa": "/dʒuːs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сік"
+   },
+   "example": "A juice, please.",
+   "exampleTranslation": {
+    "uk": "Сік, будь ласка."
+   }
+  },
+  {
+   "id": "milk",
+   "text": "milk",
+   "ipa": "/mɪlk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "молоко"
+   },
+   "example": "Tea with milk, please.",
+   "exampleTranslation": {
+    "uk": "Чай із молоком, будь ласка."
+   }
+  },
+  {
+   "id": "sugar",
+   "text": "sugar",
+   "ipa": "/ˈʃʊɡə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "цукор"
+   },
+   "example": "Coffee with sugar.",
+   "exampleTranslation": {
+    "uk": "Кава з цукром."
+   }
+  },
+  {
+   "id": "with",
+   "text": "with",
+   "ipa": "/wɪð/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "з, із"
+   },
+   "example": "Tea with milk.",
+   "exampleTranslation": {
+    "uk": "Чай із молоком."
+   }
+  },
+  {
+   "id": "a",
+   "text": "a",
+   "ipa": "/ə/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "один, одна (перед назвою речі)"
+   },
+   "example": "A coffee, please.",
+   "exampleTranslation": {
+    "uk": "Каву, будь ласка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Повторимо. Як сказати «два»?"
+   },
+   "options": [
+    "two",
+    "three",
+    "ten"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Two — два. Three — три, ten — десять."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "coffee",
+     "right": {
+      "uk": "кава"
+     }
+    },
+    {
+     "left": "tea",
+     "right": {
+      "uk": "чай"
+     }
+    },
+    {
+     "left": "water",
+     "right": {
+      "uk": "вода"
+     }
+    },
+    {
+     "left": "juice",
+     "right": {
+      "uk": "сік"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Coffee, tea, water, juice — чотири напої, які є в кожному кафе."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "A coffee, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Каву",
+     "Чай",
+     "Воду"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A coffee, please — «каву, будь ласка»."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "milk",
+     "right": {
+      "uk": "молоко"
+     }
+    },
+    {
+     "left": "sugar",
+     "right": {
+      "uk": "цукор"
+     }
+    },
+    {
+     "left": "with",
+     "right": {
+      "uk": "з, із"
+     }
+    },
+    {
+     "left": "please",
+     "right": {
+      "uk": "будь ласка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "With milk — з молоком, with sugar — з цукром."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Tea ___ milk, please.",
+   "options": [
+    "with",
+    "and",
+    "from"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "«З молоком» — with milk. From означає «з», коли кажуть, звідки хтось родом."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ coffee, please.",
+   "options": [
+    "A",
+    "I",
+    "My"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед назвою однієї речі ставлять a: a coffee, a tea."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Каву, будь ласка."
+   },
+   "words": [
+    "A",
+    "coffee",
+    "please",
+    "tea",
+    "with"
+   ],
+   "answer": [
+    "A",
+    "coffee",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Спочатку a coffee, наприкінці please."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "Tea with sugar, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Чай із цукром",
+     "Чай із молоком",
+     "Каву з цукром"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tea — чай, with sugar — з цукром."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Чай із молоком, будь ласка."
+   },
+   "answers": [
+    "Tea with milk, please",
+    "A tea with milk, please"
+   ],
+   "explanation": {
+    "uk": "Tea with milk, please. With — «з»."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Coffee or tea?",
+   "prompt": {
+    "uk": "Вас питають: кава чи чай? Що відповісти?"
+   },
+   "options": [
+    "Tea, please.",
+    "I'm fine, thanks.",
+    "My name is Anna."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Слово or означає «чи». Достатньо назвати напій і додати please."
+   }
+  }
+ ]
+}

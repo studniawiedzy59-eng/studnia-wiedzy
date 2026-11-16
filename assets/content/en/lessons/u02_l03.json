@@ -1,0 +1,346 @@
+{
+ "id": "u02_l03",
+ "unit": "u02",
+ "cefr": "A0",
+ "title": {
+  "uk": "Щось поїсти"
+ },
+ "goal": {
+  "uk": "Назвати просту їжу й замовити її."
+ },
+ "rule": {
+  "uk": "Їжу замовляють тими самими фразами: I'd like a sandwich, Can I have a salad? Слово or означає «чи, або»: A sandwich or a salad? Слово and — «і»: a coffee and a cake."
+ },
+ "words": [
+  {
+   "id": "sandwich",
+   "text": "sandwich",
+   "ipa": "/ˈsænwɪtʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сендвіч, бутерброд"
+   },
+   "example": "A sandwich, please.",
+   "exampleTranslation": {
+    "uk": "Сендвіч, будь ласка."
+   }
+  },
+  {
+   "id": "cake",
+   "text": "cake",
+   "ipa": "/keɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "торт, тістечко"
+   },
+   "example": "A coffee and a cake.",
+   "exampleTranslation": {
+    "uk": "Каву й тістечко."
+   }
+  },
+  {
+   "id": "soup",
+   "text": "soup",
+   "ipa": "/suːp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "суп"
+   },
+   "example": "I'd like the soup.",
+   "exampleTranslation": {
+    "uk": "Я хотів би суп."
+   }
+  },
+  {
+   "id": "salad",
+   "text": "salad",
+   "ipa": "/ˈsæləd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "салат"
+   },
+   "example": "A salad, please.",
+   "exampleTranslation": {
+    "uk": "Салат, будь ласка."
+   }
+  },
+  {
+   "id": "bread",
+   "text": "bread",
+   "ipa": "/bred/",
+   "pos": "noun",
+   "translation": {
+    "uk": "хліб"
+   },
+   "example": "Soup with bread.",
+   "exampleTranslation": {
+    "uk": "Суп із хлібом."
+   }
+  },
+  {
+   "id": "cheese",
+   "text": "cheese",
+   "ipa": "/tʃiːz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сир"
+   },
+   "example": "A cheese sandwich.",
+   "exampleTranslation": {
+    "uk": "Сендвіч із сиром."
+   }
+  },
+  {
+   "id": "chicken",
+   "text": "chicken",
+   "ipa": "/ˈtʃɪkɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "курка"
+   },
+   "example": "A chicken salad.",
+   "exampleTranslation": {
+    "uk": "Салат із куркою."
+   }
+  },
+  {
+   "id": "or",
+   "text": "or",
+   "ipa": "/ɔː/",
+   "pos": "conjunction",
+   "translation": {
+    "uk": "чи, або"
+   },
+   "example": "Tea or coffee?",
+   "exampleTranslation": {
+    "uk": "Чай чи кава?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Повторимо. Можна мені чай?"
+   },
+   "words": [
+    "Can",
+    "I",
+    "have",
+    "a",
+    "tea",
+    "like",
+    "the"
+   ],
+   "answer": [
+    "Can",
+    "I",
+    "have",
+    "a",
+    "tea"
+   ],
+   "explanation": {
+    "uk": "Can I have a tea? — «Можна мені чай?»"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "sandwich",
+     "right": {
+      "uk": "сендвіч"
+     }
+    },
+    {
+     "left": "cake",
+     "right": {
+      "uk": "тістечко"
+     }
+    },
+    {
+     "left": "soup",
+     "right": {
+      "uk": "суп"
+     }
+    },
+    {
+     "left": "salad",
+     "right": {
+      "uk": "салат"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Чотири найпростіші страви з меню кафе."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "bread",
+     "right": {
+      "uk": "хліб"
+     }
+    },
+    {
+     "left": "cheese",
+     "right": {
+      "uk": "сир"
+     }
+    },
+    {
+     "left": "chicken",
+     "right": {
+      "uk": "курка"
+     }
+    },
+    {
+     "left": "or",
+     "right": {
+      "uk": "чи, або"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Cheese і chicken починаються з того самого звука «ч»."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "A cheese sandwich, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що замовляє людина?"
+   },
+   "options": {
+    "uk": [
+     "Сендвіч із сиром",
+     "Сендвіч із куркою",
+     "Салат із сиром"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A cheese sandwich — сендвіч із сиром. Слово, що описує, стоїть перед назвою страви."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «салат із куркою»?"
+   },
+   "options": [
+    "a chicken salad",
+    "a salad chicken",
+    "a chicken or salad"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Спочатку з чим, потім що: a chicken salad, a cheese sandwich."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Soup ___ salad?",
+   "options": [
+    "or",
+    "with",
+    "the"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Or — «чи»: суп чи салат?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A coffee ___ a cake, please.",
+   "options": [
+    "and",
+    "or",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "And — «і»: каву й тістечко."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я хотів би суп із хлібом."
+   },
+   "words": [
+    "I'd",
+    "like",
+    "soup",
+    "with",
+    "bread",
+    "have",
+    "or"
+   ],
+   "answer": [
+    "I'd",
+    "like",
+    "soup",
+    "with",
+    "bread"
+   ],
+   "explanation": {
+    "uk": "I'd like + страва. «Із хлібом» — with bread."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Сендвіч із куркою, будь ласка."
+   },
+   "answers": [
+    "A chicken sandwich, please",
+    "Chicken sandwich, please"
+   ],
+   "explanation": {
+    "uk": "A chicken sandwich, please."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Soup or salad?",
+   "prompt": {
+    "uk": "Вас питають. Що відповісти?"
+   },
+   "options": [
+    "Soup, please.",
+    "Yes, of course.",
+    "I'm from Ukraine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вас просять вибрати: суп чи салат. Назвіть одне й додайте please."
+   }
+  }
+ ]
+}

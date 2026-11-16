@@ -1,0 +1,324 @@
+{
+ "id": "u02_l02",
+ "unit": "u02",
+ "cefr": "A0",
+ "title": {
+  "uk": "Можна мені меню?"
+ },
+ "goal": {
+  "uk": "Покликати офіціанта, попросити меню й сказати, чого ви хочете."
+ },
+ "rule": {
+  "uk": "Дві головні фрази замовлення. Can I have…? — «Можна мені…?». I'd like… — «Я хотів би / хотіла б…». Обидві ввічливі, і до обох додають please. The ставлять, коли річ одна й зрозуміло яка: the menu — меню цього кафе."
+ },
+ "words": [
+  {
+   "id": "excuse_me",
+   "text": "excuse me",
+   "ipa": "/ɪkˈskjuːz miː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "перепрошую (щоб звернутися)"
+   },
+   "example": "Excuse me!",
+   "exampleTranslation": {
+    "uk": "Перепрошую!"
+   }
+  },
+  {
+   "id": "can",
+   "text": "can",
+   "ipa": "/kæn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "могти"
+   },
+   "example": "Can I have a tea?",
+   "exampleTranslation": {
+    "uk": "Можна мені чай?"
+   }
+  },
+  {
+   "id": "have",
+   "text": "have",
+   "ipa": "/hæv/",
+   "pos": "verb",
+   "translation": {
+    "uk": "мати, отримати"
+   },
+   "example": "Can I have the menu?",
+   "exampleTranslation": {
+    "uk": "Можна мені меню?"
+   }
+  },
+  {
+   "id": "menu",
+   "text": "menu",
+   "ipa": "/ˈmenjuː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "меню"
+   },
+   "example": "The menu, please.",
+   "exampleTranslation": {
+    "uk": "Меню, будь ласка."
+   }
+  },
+  {
+   "id": "the",
+   "text": "the",
+   "ipa": "/ðə/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "цей, той самий (перед назвою речі)"
+   },
+   "example": "Can I have the menu?",
+   "exampleTranslation": {
+    "uk": "Можна мені меню?"
+   }
+  },
+  {
+   "id": "id_like",
+   "text": "I'd like",
+   "ipa": "/aɪd laɪk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "я хотів би, я хотіла б"
+   },
+   "example": "I'd like a coffee, please.",
+   "exampleTranslation": {
+    "uk": "Я хотів би каву, будь ласка."
+   }
+  },
+  {
+   "id": "of_course",
+   "text": "of course",
+   "ipa": "/əv ˈkɔːs/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "звичайно"
+   },
+   "example": "Yes, of course.",
+   "exampleTranslation": {
+    "uk": "Так, звичайно."
+   }
+  },
+  {
+   "id": "here_you_are",
+   "text": "here you are",
+   "ipa": "/ˌhɪə juː ˈɑː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "ось, будь ласка (коли щось дають)"
+   },
+   "example": "Here you are.",
+   "exampleTranslation": {
+    "uk": "Ось, будь ласка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Coffee ___ milk, please.",
+   "options": [
+    "with",
+    "in",
+    "my"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "«З молоком» — with milk."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як звернутися до офіціанта?"
+   },
+   "options": [
+    "Excuse me!",
+    "Goodbye!",
+    "Here you are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Excuse me — «перепрошую». Так привертають увагу незнайомої людини."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "menu",
+     "right": {
+      "uk": "меню"
+     }
+    },
+    {
+     "left": "of course",
+     "right": {
+      "uk": "звичайно"
+     }
+    },
+    {
+     "left": "excuse me",
+     "right": {
+      "uk": "перепрошую"
+     }
+    },
+    {
+     "left": "I'd like",
+     "right": {
+      "uk": "я хотів би"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Ці чотири вирази потрібні в кожному кафе й ресторані."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Can I have the menu, please?",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Меню",
+     "Каву",
+     "Воду"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Can I have the menu? — «Можна мені меню?»"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I ___ the menu, please?",
+   "options": [
+    "have",
+    "like",
+    "are"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Фраза завжди однакова: Can I have…?"
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'd ___ a coffee, please.",
+   "options": [
+    "like",
+    "have",
+    "can"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd like — «я хотів би». Це ввічливіше, ніж I want — «я хочу»."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можна мені меню, будь ласка?"
+   },
+   "words": [
+    "Can",
+    "I",
+    "have",
+    "the",
+    "menu",
+    "please",
+    "like",
+    "a"
+   ],
+   "answer": [
+    "Can",
+    "I",
+    "have",
+    "the",
+    "menu",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Порядок слів: Can + I + have + the menu + please."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "Here you are.",
+   "prompt": {
+    "uk": "Офіціант приніс каву й каже це. Що це означає?"
+   },
+   "options": {
+    "uk": [
+     "Ось, будь ласка",
+     "Як справи?",
+     "Ви тут?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Here you are кажуть, коли щось подають у руки. Відповідь — Thank you."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я хотів би чай, будь ласка."
+   },
+   "answers": [
+    "I'd like a tea, please",
+    "I would like a tea, please",
+    "I'd like tea, please",
+    "I would like tea, please"
+   ],
+   "explanation": {
+    "uk": "I'd like a tea, please. I'd — скорочення від I would."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Here you are.",
+   "prompt": {
+    "uk": "Вам подали каву. Що відповісти?"
+   },
+   "options": [
+    "Thank you.",
+    "Excuse me.",
+    "Yes, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Коли вам щось дають, кажуть Thank you."
+   }
+  }
+ ]
+}
