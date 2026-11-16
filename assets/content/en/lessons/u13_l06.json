@@ -1,0 +1,193 @@
+{
+ "id": "u13_l06",
+ "unit": "u13",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: розповідь про людей"
+ },
+ "goal": {
+  "uk": "Розповісти про інших людей: хто вони, де вони, які вони."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо всі форми: I am, he is, they are; заперечення isn't і aren't; питання Are you…? Is he…?; де люди й які вони."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My parents ___ at home. They're on holiday.",
+   "options": [
+    "aren't",
+    "isn't",
+    "am not"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Parents — «вони», тому aren't."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вони обоє лікарі."
+   },
+   "words": [
+    "They",
+    "are",
+    "both",
+    "doctors",
+    "is",
+    "together"
+   ],
+   "answer": [
+    "They",
+    "are",
+    "both",
+    "doctors"
+   ],
+   "explanation": {
+    "uk": "They are both doctors."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Is your brother married?",
+   "prompt": {
+    "uk": "Ваш брат неодружений. Що відповісти?"
+   },
+   "options": [
+    "No, he isn't. He's single.",
+    "No, he aren't. He's single.",
+    "No, I'm not."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, he isn't. He's single."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "З вами все гаразд?"
+   },
+   "answers": [
+    "Are you all right",
+    "Are you OK",
+    "Are you alright"
+   ],
+   "explanation": {
+    "uk": "Are you all right?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My colleagues are very friendly. We work together in the office.",
+   "prompt": {
+    "uk": "Прослухайте. Що ви дізналися?"
+   },
+   "options": {
+    "uk": [
+     "Колеги привітні, працюють разом в офісі",
+     "Колеги привітні, працюють удома",
+     "Сусіди привітні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Colleagues — колеги, together — разом."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Where ___ the children? — They're upstairs.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Children — множина: are."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати «Який він?» про вдачу?"
+   },
+   "options": [
+    "What is he like?",
+    "What he is?",
+    "How he like?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What is he like?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я не сердитий."
+   },
+   "answers": [
+    "I'm not angry",
+    "I am not angry"
+   ],
+   "explanation": {
+    "uk": "I'm not angry."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "She isn't ill. She's just tired.",
+   "prompt": {
+    "uk": "Прослухайте. Що з нею?"
+   },
+   "options": {
+    "uk": [
+     "Вона не хвора, просто втомлена",
+     "Вона хвора й утомлена",
+     "Вона не втомлена"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Isn't ill — не хвора. Just tired — просто втомлена."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Are they ready?",
+   "prompt": {
+    "uk": "Вони ще не готові. Що відповісти?"
+   },
+   "options": [
+    "No, they aren't.",
+    "No, they isn't.",
+    "No, it aren't."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, they aren't."
+   }
+  }
+ ]
+}

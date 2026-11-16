@@ -1,0 +1,195 @@
+{
+ "id": "u11_l06",
+ "unit": "u11",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: похід у магазин"
+ },
+ "goal": {
+  "uk": "Пройти весь шлях у магазині: від «я шукаю» до «гарного дня»."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: I'm looking for…, How much is this?, too expensive, Can I try it on?, a bigger one, receipt, a bottle of…"
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Can I help you?",
+   "prompt": {
+    "uk": "Ви просто дивитеся. Що відповісти?"
+   },
+   "options": [
+    "No, thanks. I'm just looking.",
+    "Yes, I'm just looking for.",
+    "No, I help."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, thanks. I'm just looking."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я шукаю чорну куртку."
+   },
+   "words": [
+    "I'm",
+    "looking",
+    "for",
+    "a",
+    "black",
+    "jacket",
+    "need",
+    "to"
+   ],
+   "answer": [
+    "I'm",
+    "looking",
+    "for",
+    "a",
+    "black",
+    "jacket"
+   ],
+   "explanation": {
+    "uk": "I'm looking for a black jacket."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How much ___ these glasses?",
+   "options": [
+    "are",
+    "is",
+    "of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Glasses — множина, тому are."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можна це приміряти?"
+   },
+   "answers": [
+    "Can I try it on",
+    "Can I try this on"
+   ],
+   "explanation": {
+    "uk": "Can I try it on?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It's too small. Do you have a bigger one?",
+   "prompt": {
+    "uk": "Прослухайте. Що просить покупець?"
+   },
+   "options": {
+    "uk": [
+     "Більший розмір",
+     "Менший розмір",
+     "Інший колір"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A bigger one — більший."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's on ___. Twenty pounds, not forty.",
+   "options": [
+    "sale",
+    "total",
+    "receipt"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On sale — зі знижкою."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Would you like a bag?",
+   "prompt": {
+    "uk": "Пакет вам не потрібен. Що відповісти?"
+   },
+   "options": [
+    "No, thanks.",
+    "No, please.",
+    "Yes, I'm a bag."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, thanks."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «кілограм яблук»?"
+   },
+   "options": [
+    "a kilo of apples",
+    "a kilo apples of",
+    "an apples kilo"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A kilo of apples."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можна чек, будь ласка?"
+   },
+   "answers": [
+    "Can I have the receipt, please",
+    "Can I have a receipt, please",
+    "Can I have the receipt"
+   ],
+   "explanation": {
+    "uk": "Can I have the receipt, please?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Here's your receipt. Have a nice day!",
+   "prompt": {
+    "uk": "Що відповісти?"
+   },
+   "options": [
+    "Thank you! You too.",
+    "Yes, I have.",
+    "Here you are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thank you! You too."
+   }
+  }
+ ]
+}

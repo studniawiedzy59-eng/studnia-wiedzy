@@ -1,0 +1,304 @@
+{
+ "id": "u14_l04",
+ "unit": "u14",
+ "cefr": "A0",
+ "title": {
+  "uk": "Чим ви займаєтеся?"
+ },
+ "goal": {
+  "uk": "Розпитати про роботу й сказати, чи вона вам подобається."
+ },
+ "rule": {
+  "uk": "Питання про дії починають з do: What do you do? — «Чим ви займаєтеся?». Where do you work? Do you like your job? Коротка відповідь: Yes, I do або No, I don't."
+ },
+ "words": [
+  {
+   "id": "do",
+   "text": "do",
+   "ipa": "/duː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "робити; допоміжне слово в питаннях"
+   },
+   "example": "What do you do?",
+   "exampleTranslation": {
+    "uk": "Чим ви займаєтеся?"
+   }
+  },
+  {
+   "id": "boss",
+   "text": "boss",
+   "ipa": "/bɒs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "начальник"
+   },
+   "example": "My boss is nice.",
+   "exampleTranslation": {
+    "uk": "Мій начальник приємний."
+   }
+  },
+  {
+   "id": "team",
+   "text": "team",
+   "ipa": "/tiːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "команда"
+   },
+   "example": "I work in a team.",
+   "exampleTranslation": {
+    "uk": "Я працюю в команді."
+   }
+  },
+  {
+   "id": "interesting",
+   "text": "interesting",
+   "ipa": "/ˈɪntrəstɪŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "цікавий"
+   },
+   "example": "My job is interesting.",
+   "exampleTranslation": {
+    "uk": "Моя робота цікава."
+   }
+  },
+  {
+   "id": "boring",
+   "text": "boring",
+   "ipa": "/ˈbɔːrɪŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "нудний"
+   },
+   "example": "It's boring.",
+   "exampleTranslation": {
+    "uk": "Це нудно."
+   }
+  },
+  {
+   "id": "hard",
+   "text": "hard",
+   "ipa": "/hɑːd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "важкий, складний"
+   },
+   "example": "It's hard work.",
+   "exampleTranslation": {
+    "uk": "Це важка робота."
+   }
+  },
+  {
+   "id": "easy",
+   "text": "easy",
+   "ipa": "/ˈiːzi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "легкий"
+   },
+   "example": "It isn't easy.",
+   "exampleTranslation": {
+    "uk": "Це нелегко."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I work ___ a big company.",
+   "options": [
+    "for",
+    "on",
+    "of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Work for."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "interesting",
+     "right": {
+      "uk": "цікавий"
+     }
+    },
+    {
+     "left": "boring",
+     "right": {
+      "uk": "нудний"
+     }
+    },
+    {
+     "left": "hard",
+     "right": {
+      "uk": "важкий"
+     }
+    },
+    {
+     "left": "easy",
+     "right": {
+      "uk": "легкий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Дві пари протилежних слів."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "What do you do?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Чим ви займаєтеся",
+     "Що ви робите зараз",
+     "Як ваші справи"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "What do you do? — питання про професію."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати «Де ви працюєте?»"
+   },
+   "options": [
+    "Where do you work?",
+    "Where you work?",
+    "Where are you work?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Питання про дію — з do."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ you like your job?",
+   "options": [
+    "Do",
+    "Are",
+    "Is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Do you like…?"
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Do you like your job? — Yes, I ___.",
+   "options": [
+    "do",
+    "am",
+    "like"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Коротка відповідь: Yes, I do."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "My job is hard but interesting.",
+   "prompt": {
+    "uk": "Прослухайте. Яка робота?"
+   },
+   "options": {
+    "uk": [
+     "Важка, але цікава",
+     "Легка, але нудна",
+     "Важка й нудна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hard — важка, interesting — цікава."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Чим ви займаєтеся?"
+   },
+   "words": [
+    "What",
+    "do",
+    "you",
+    "do",
+    "are",
+    "job"
+   ],
+   "answer": [
+    "What",
+    "do",
+    "you",
+    "do"
+   ],
+   "explanation": {
+    "uk": "What do you do?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Моя робота цікава."
+   },
+   "answers": [
+    "My job is interesting"
+   ],
+   "explanation": {
+    "uk": "My job is interesting."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Do you like your job?",
+   "prompt": {
+    "uk": "Робота вам не подобається, вона нудна. Що відповісти?"
+   },
+   "options": [
+    "No, I don't. It's boring.",
+    "No, I'm not. It's boring.",
+    "No, I don't. It's interesting."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I don't. It's boring."
+   }
+  }
+ ]
+}

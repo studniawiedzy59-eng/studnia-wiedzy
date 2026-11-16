@@ -1,0 +1,282 @@
+{
+ "id": "u12_l03",
+ "unit": "u12",
+ "cefr": "A0",
+ "title": {
+  "uk": "Це моє"
+ },
+ "goal": {
+  "uk": "Сказати «моє, твоє, наше» без назви речі."
+ },
+ "rule": {
+  "uk": "Коли назву речі не повторюють, вживають інші форми: my → mine, your → yours, her → hers, our → ours, their → theirs. His не змінюється. It's my bag = It's mine."
+ },
+ "words": [
+  {
+   "id": "mine",
+   "text": "mine",
+   "ipa": "/maɪn/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "мій, моє (без назви речі)"
+   },
+   "example": "It's mine.",
+   "exampleTranslation": {
+    "uk": "Це моє."
+   }
+  },
+  {
+   "id": "yours",
+   "text": "yours",
+   "ipa": "/jɔːz/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "твій, ваш (без назви речі)"
+   },
+   "example": "Is this yours?",
+   "exampleTranslation": {
+    "uk": "Це ваше?"
+   }
+  },
+  {
+   "id": "hers",
+   "text": "hers",
+   "ipa": "/hɜːz/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "її (без назви речі)"
+   },
+   "example": "It's hers.",
+   "exampleTranslation": {
+    "uk": "Це її."
+   }
+  },
+  {
+   "id": "ours",
+   "text": "ours",
+   "ipa": "/ˈaʊəz/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "наш (без назви речі)"
+   },
+   "example": "The car is ours.",
+   "exampleTranslation": {
+    "uk": "Машина наша."
+   }
+  },
+  {
+   "id": "theirs",
+   "text": "theirs",
+   "ipa": "/ðeəz/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "їхній (без назви речі)"
+   },
+   "example": "It's theirs.",
+   "exampleTranslation": {
+    "uk": "Це їхнє."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Повторимо. Як сказати «каблучка моєї мами»?"
+   },
+   "options": [
+    "my mother's ring",
+    "my mother ring's",
+    "ring my mother's"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My mother's ring."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "mine",
+     "right": {
+      "uk": "моє"
+     }
+    },
+    {
+     "left": "yours",
+     "right": {
+      "uk": "ваше"
+     }
+    },
+    {
+     "left": "hers",
+     "right": {
+      "uk": "її"
+     }
+    },
+    {
+     "left": "ours",
+     "right": {
+      "uk": "наше"
+     }
+    },
+    {
+     "left": "theirs",
+     "right": {
+      "uk": "їхнє"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Ці слова вживають без назви речі."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати коротше: It's my bag?"
+   },
+   "options": [
+    "It's mine.",
+    "It's my.",
+    "It's me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My bag → mine."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати коротше: It's her coat?"
+   },
+   "options": [
+    "It's hers.",
+    "It's her.",
+    "It's she."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Her coat → hers."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is this phone ___?",
+   "options": [
+    "yours",
+    "your",
+    "you"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Без назви речі після — yours."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is ___ umbrella.",
+   "options": [
+    "my",
+    "mine",
+    "me"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед назвою речі — my."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Excuse me, is this yours?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Це ваше?",
+     "Це моє?",
+     "Чиє це?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Is this yours? — «Це ваше?»"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ця машина наша."
+   },
+   "words": [
+    "This",
+    "car",
+    "is",
+    "ours",
+    "our",
+    "we"
+   ],
+   "answer": [
+    "This",
+    "car",
+    "is",
+    "ours"
+   ],
+   "explanation": {
+    "uk": "This car is ours."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це моє."
+   },
+   "answers": [
+    "It's mine",
+    "It is mine",
+    "This is mine"
+   ],
+   "explanation": {
+    "uk": "It's mine."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Excuse me, is this your wallet?",
+   "prompt": {
+    "uk": "Гаманець ваш. Що відповісти?"
+   },
+   "options": [
+    "Yes, it's mine. Thank you!",
+    "Yes, it's my. Thank you!",
+    "Yes, it's yours."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it's mine."
+   }
+  }
+ ]
+}

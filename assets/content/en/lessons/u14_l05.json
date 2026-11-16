@@ -1,0 +1,295 @@
+{
+ "id": "u14_l05",
+ "unit": "u14",
+ "cefr": "A0",
+ "title": {
+  "uk": "Він працює, вона не працює"
+ },
+ "goal": {
+  "uk": "Розповісти про роботу іншої людини."
+ },
+ "rule": {
+  "uk": "З he і she до дієслова додають -s: I work → he works, she works. Заперечення: he doesn't work (уже без -s). Корисні слова: full-time — повний день, part-time — неповний."
+ },
+ "words": [
+  {
+   "id": "works",
+   "text": "works",
+   "ipa": "/wɜːks/",
+   "pos": "verb",
+   "translation": {
+    "uk": "працює (з he, she)"
+   },
+   "example": "She works in a bank.",
+   "exampleTranslation": {
+    "uk": "Вона працює в банку."
+   }
+  },
+  {
+   "id": "doesnt",
+   "text": "doesn't",
+   "ipa": "/ˈdʌznt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "не (з he, she)"
+   },
+   "example": "He doesn't work.",
+   "exampleTranslation": {
+    "uk": "Він не працює."
+   }
+  },
+  {
+   "id": "full-time",
+   "text": "full-time",
+   "ipa": "/ˌfʊl ˈtaɪm/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "на повний день"
+   },
+   "example": "I work full-time.",
+   "exampleTranslation": {
+    "uk": "Я працюю повний день."
+   }
+  },
+  {
+   "id": "part-time",
+   "text": "part-time",
+   "ipa": "/ˌpɑːt ˈtaɪm/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "на неповний день"
+   },
+   "example": "She works part-time.",
+   "exampleTranslation": {
+    "uk": "Вона працює неповний день."
+   }
+  },
+  {
+   "id": "unemployed",
+   "text": "unemployed",
+   "ipa": "/ˌʌnɪmˈplɔɪd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "безробітний"
+   },
+   "example": "He's unemployed.",
+   "exampleTranslation": {
+    "uk": "Він безробітний."
+   }
+  },
+  {
+   "id": "retired",
+   "text": "retired",
+   "ipa": "/rɪˈtaɪəd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "на пенсії"
+   },
+   "example": "My father is retired.",
+   "exampleTranslation": {
+    "uk": "Мій тато на пенсії."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you do?",
+   "prompt": {
+    "uk": "Повторимо. Ви медсестра. Що відповісти?"
+   },
+   "options": [
+    "I'm a nurse.",
+    "I do nurse.",
+    "I'm fine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm a nurse."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "full-time",
+     "right": {
+      "uk": "на повний день"
+     }
+    },
+    {
+     "left": "part-time",
+     "right": {
+      "uk": "на неповний день"
+     }
+    },
+    {
+     "left": "unemployed",
+     "right": {
+      "uk": "безробітний"
+     }
+    },
+    {
+     "left": "retired",
+     "right": {
+      "uk": "на пенсії"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про зайнятість."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ in a hospital.",
+   "options": [
+    "works",
+    "work",
+    "working"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З she — works."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ in a shop.",
+   "options": [
+    "work",
+    "works",
+    "am work"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З I — work, без -s."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ work on Sunday.",
+   "options": [
+    "doesn't",
+    "don't",
+    "isn't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З he — doesn't."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "My wife works part-time.",
+   "prompt": {
+    "uk": "Прослухайте. Як працює дружина?"
+   },
+   "options": {
+    "uk": [
+     "Неповний день",
+     "Повний день",
+     "Вона не працює"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Part-time — неповний день."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "My grandfather doesn't work. He's retired.",
+   "prompt": {
+    "uk": "Прослухайте. Чому дідусь не працює?"
+   },
+   "options": {
+    "uk": [
+     "Він на пенсії",
+     "Він безробітний",
+     "Він хворий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Retired — на пенсії."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він працює на заводі."
+   },
+   "words": [
+    "He",
+    "works",
+    "in",
+    "a",
+    "factory",
+    "work",
+    "for"
+   ],
+   "answer": [
+    "He",
+    "works",
+    "in",
+    "a",
+    "factory"
+   ],
+   "explanation": {
+    "uk": "He works in a factory."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона не працює."
+   },
+   "answers": [
+    "She doesn't work",
+    "She does not work"
+   ],
+   "explanation": {
+    "uk": "She doesn't work."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What does your husband do?",
+   "prompt": {
+    "uk": "Ваш чоловік водій. Що відповісти?"
+   },
+   "options": [
+    "He's a driver.",
+    "He do a driver.",
+    "She's a driver."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He's a driver."
+   }
+  }
+ ]
+}

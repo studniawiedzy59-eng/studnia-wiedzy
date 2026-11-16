@@ -1,0 +1,287 @@
+{
+ "id": "u12_l05",
+ "unit": "u12",
+ "cefr": "A0",
+ "title": {
+  "uk": "Велика родина"
+ },
+ "goal": {
+  "uk": "Назвати родичів і пояснити, хто кому хто."
+ },
+ "rule": {
+  "uk": "Нові родичі й 's разом: My mother's brother is my uncle — «брат моєї мами — мій дядько». Grand- означає «на покоління старший»: grandmother, grandfather."
+ },
+ "words": [
+  {
+   "id": "grandmother",
+   "text": "grandmother",
+   "ipa": "/ˈɡrænmʌðə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "бабуся"
+   },
+   "example": "My grandmother is eighty.",
+   "exampleTranslation": {
+    "uk": "Моїй бабусі вісімдесят."
+   }
+  },
+  {
+   "id": "grandfather",
+   "text": "grandfather",
+   "ipa": "/ˈɡrænfɑːðə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дідусь"
+   },
+   "example": "My grandfather's house.",
+   "exampleTranslation": {
+    "uk": "Будинок мого дідуся."
+   }
+  },
+  {
+   "id": "uncle",
+   "text": "uncle",
+   "ipa": "/ˈʌŋkl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дядько"
+   },
+   "example": "He's my uncle.",
+   "exampleTranslation": {
+    "uk": "Він мій дядько."
+   }
+  },
+  {
+   "id": "aunt",
+   "text": "aunt",
+   "ipa": "/ɑːnt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тітка"
+   },
+   "example": "She's my aunt.",
+   "exampleTranslation": {
+    "uk": "Вона моя тітка."
+   }
+  },
+  {
+   "id": "cousin",
+   "text": "cousin",
+   "ipa": "/ˈkʌzn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "двоюрідний брат, двоюрідна сестра"
+   },
+   "example": "This is my cousin.",
+   "exampleTranslation": {
+    "uk": "Це мій двоюрідний брат."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is this yours?",
+   "prompt": {
+    "uk": "Повторимо. Річ ваша. Що відповісти?"
+   },
+   "options": [
+    "Yes, it's mine.",
+    "Yes, it's my.",
+    "Yes, it's yours."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it's mine."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "grandmother",
+     "right": {
+      "uk": "бабуся"
+     }
+    },
+    {
+     "left": "grandfather",
+     "right": {
+      "uk": "дідусь"
+     }
+    },
+    {
+     "left": "uncle",
+     "right": {
+      "uk": "дядько"
+     }
+    },
+    {
+     "left": "aunt",
+     "right": {
+      "uk": "тітка"
+     }
+    },
+    {
+     "left": "cousin",
+     "right": {
+      "uk": "двоюрідний брат"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Cousin — і про чоловіка, і про жінку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Хто це: my mother's mother?"
+   },
+   "options": {
+    "uk": [
+     "Бабуся",
+     "Тітка",
+     "Сестра"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Мама моєї мами — grandmother."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Хто це: my father's brother?"
+   },
+   "options": {
+    "uk": [
+     "Дядько",
+     "Дідусь",
+     "Двоюрідний брат"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Брат мого тата — uncle."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My aunt's son is my ___.",
+   "options": [
+    "cousin",
+    "uncle",
+    "brother"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Син тітки — двоюрідний брат: cousin."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "My grandfather is ninety years old.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки років дідусеві?"
+   },
+   "options": {
+    "uk": [
+     "90",
+     "19",
+     "80"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ninety — 90."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "an uncle",
+    "a uncle",
+    "an cousin"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Uncle — з голосного: an uncle. Так само an aunt."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це будинок моєї бабусі."
+   },
+   "words": [
+    "This",
+    "is",
+    "my",
+    "grandmother's",
+    "house",
+    "grandmother",
+    "her"
+   ],
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "grandmother's",
+    "house"
+   ],
+   "explanation": {
+    "uk": "This is my grandmother's house."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона моя тітка."
+   },
+   "answers": [
+    "She's my aunt",
+    "She is my aunt"
+   ],
+   "explanation": {
+    "uk": "She's my aunt."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Who is this man?",
+   "prompt": {
+    "uk": "Це брат вашої мами. Що відповісти?"
+   },
+   "options": [
+    "He's my uncle.",
+    "He's my aunt.",
+    "She's my uncle."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He's my uncle."
+   }
+  }
+ ]
+}

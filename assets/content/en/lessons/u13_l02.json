@@ -1,0 +1,295 @@
+{
+ "id": "u13_l02",
+ "unit": "u13",
+ "cefr": "A0",
+ "title": {
+  "uk": "Ні, це не так"
+ },
+ "goal": {
+  "uk": "Заперечити: я не…, він не…, вони не…"
+ },
+ "rule": {
+  "uk": "Заперечення — це not після am, is, are. Скорочено: I'm not, he isn't, she isn't, we aren't, they aren't. I'm not married. They aren't ready."
+ },
+ "words": [
+  {
+   "id": "arent",
+   "text": "aren't",
+   "ipa": "/ɑːnt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "не є (з we, you, they)"
+   },
+   "example": "They aren't here.",
+   "exampleTranslation": {
+    "uk": "Їх тут немає."
+   }
+  },
+  {
+   "id": "married",
+   "text": "married",
+   "ipa": "/ˈmærid/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "одружений, заміжня"
+   },
+   "example": "I'm not married.",
+   "exampleTranslation": {
+    "uk": "Я не одружений."
+   }
+  },
+  {
+   "id": "single",
+   "text": "single",
+   "ipa": "/ˈsɪŋɡl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "неодружений, незаміжня"
+   },
+   "example": "He's single.",
+   "exampleTranslation": {
+    "uk": "Він неодружений."
+   }
+  },
+  {
+   "id": "ready",
+   "text": "ready",
+   "ipa": "/ˈredi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "готовий"
+   },
+   "example": "I'm ready.",
+   "exampleTranslation": {
+    "uk": "Я готовий."
+   }
+  },
+  {
+   "id": "happy",
+   "text": "happy",
+   "ipa": "/ˈhæpi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "щасливий, радий"
+   },
+   "example": "She's happy.",
+   "exampleTranslation": {
+    "uk": "Вона щаслива."
+   }
+  },
+  {
+   "id": "sad",
+   "text": "sad",
+   "ipa": "/sæd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "сумний"
+   },
+   "example": "He isn't sad.",
+   "exampleTranslation": {
+    "uk": "Він не сумний."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "They ___ my neighbours.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "They are."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "married",
+     "right": {
+      "uk": "одружений"
+     }
+    },
+    {
+     "left": "single",
+     "right": {
+      "uk": "неодружений"
+     }
+    },
+    {
+     "left": "ready",
+     "right": {
+      "uk": "готовий"
+     }
+    },
+    {
+     "left": "happy",
+     "right": {
+      "uk": "щасливий"
+     }
+    },
+    {
+     "left": "sad",
+     "right": {
+      "uk": "сумний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Happy і sad — протилежні слова."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ married. He's single.",
+   "options": [
+    "isn't",
+    "aren't",
+    "am not"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З he — isn't."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ ready. Five minutes, please!",
+   "options": [
+    "aren't",
+    "isn't",
+    "am not"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З we — aren't."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ a doctor. I'm a nurse.",
+   "options": [
+    "not",
+    "no",
+    "isn't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З I — I'm not."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "They aren't at home.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Їх немає вдома",
+     "Вони вдома",
+     "Вони не тут працюють"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "They aren't — їх немає, вони не…"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Вона не заміжня»?"
+   },
+   "options": [
+    "She isn't married.",
+    "She aren't married.",
+    "She not married."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She isn't married."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я не готовий."
+   },
+   "words": [
+    "I'm",
+    "not",
+    "ready",
+    "isn't",
+    "no"
+   ],
+   "answer": [
+    "I'm",
+    "not",
+    "ready"
+   ],
+   "explanation": {
+    "uk": "I'm not ready."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вони не сумні."
+   },
+   "answers": [
+    "They aren't sad",
+    "They are not sad",
+    "They're not sad"
+   ],
+   "explanation": {
+    "uk": "They aren't sad."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Are you married?",
+   "prompt": {
+    "uk": "Ви неодружені. Що відповісти?"
+   },
+   "options": [
+    "No, I'm not. I'm single.",
+    "No, I isn't. I'm single.",
+    "No, I aren't."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I'm not. I'm single."
+   }
+  }
+ ]
+}

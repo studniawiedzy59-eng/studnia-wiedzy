@@ -1,0 +1,293 @@
+{
+ "id": "u11_l05",
+ "unit": "u11",
+ "cefr": "A0",
+ "title": {
+  "uk": "У супермаркеті"
+ },
+ "goal": {
+  "uk": "Знайти товар і попросити потрібну кількість."
+ },
+ "rule": {
+  "uk": "Where can I find…? — «Де мені знайти…?». Кількість називають через of: a bottle of water, a packet of rice, a kilo of apples, half a kilo of cheese."
+ },
+ "words": [
+  {
+   "id": "find",
+   "text": "find",
+   "ipa": "/faɪnd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "знаходити"
+   },
+   "example": "Where can I find milk?",
+   "exampleTranslation": {
+    "uk": "Де мені знайти молоко?"
+   }
+  },
+  {
+   "id": "bottle",
+   "text": "bottle",
+   "ipa": "/ˈbɒtl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пляшка"
+   },
+   "example": "A bottle of water.",
+   "exampleTranslation": {
+    "uk": "Пляшка води."
+   }
+  },
+  {
+   "id": "packet",
+   "text": "packet",
+   "ipa": "/ˈpækɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пачка, пакет"
+   },
+   "example": "A packet of rice.",
+   "exampleTranslation": {
+    "uk": "Пачка рису."
+   }
+  },
+  {
+   "id": "kilo",
+   "text": "kilo",
+   "ipa": "/ˈkiːləʊ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кілограм"
+   },
+   "example": "A kilo of apples.",
+   "exampleTranslation": {
+    "uk": "Кілограм яблук."
+   }
+  },
+  {
+   "id": "of",
+   "text": "of",
+   "ipa": "/əv/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "(показує, чого саме)"
+   },
+   "example": "A bottle of juice.",
+   "exampleTranslation": {
+    "uk": "Пляшка соку."
+   }
+  },
+  {
+   "id": "fresh",
+   "text": "fresh",
+   "ipa": "/freʃ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "свіжий"
+   },
+   "example": "Fresh bread.",
+   "exampleTranslation": {
+    "uk": "Свіжий хліб."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Have a nice day!",
+   "prompt": {
+    "uk": "Повторимо. Що відповісти?"
+   },
+   "options": [
+    "Thanks, you too!",
+    "Yes, I have.",
+    "It's nice."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thanks, you too!"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "bottle",
+     "right": {
+      "uk": "пляшка"
+     }
+    },
+    {
+     "left": "packet",
+     "right": {
+      "uk": "пачка"
+     }
+    },
+    {
+     "left": "kilo",
+     "right": {
+      "uk": "кілограм"
+     }
+    },
+    {
+     "left": "fresh",
+     "right": {
+      "uk": "свіжий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Як рахують продукти."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Where can I find eggs?",
+   "prompt": {
+    "uk": "Прослухайте. Що шукає покупець?"
+   },
+   "options": {
+    "uk": [
+     "Яйця",
+     "Сир",
+     "Хліб"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Eggs — яйця."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A bottle ___ water, please.",
+   "options": [
+    "of",
+    "with",
+    "for"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A bottle of water."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Half a ___ of tomatoes, please.",
+   "options": [
+    "kilo",
+    "bottle",
+    "fresh"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Помідори зважують: half a kilo — пів кілограма."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «пачка макаронів»?"
+   },
+   "options": [
+    "a packet of pasta",
+    "a pasta packet of",
+    "a packet pasta of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A packet of pasta."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Two bottles of milk and a kilo of potatoes.",
+   "prompt": {
+    "uk": "Прослухайте. Що купує людина?"
+   },
+   "options": {
+    "uk": [
+     "2 пляшки молока й кілограм картоплі",
+     "2 пляшки води й кілограм картоплі",
+     "Пляшку молока й 2 кілограми картоплі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Two bottles of milk, a kilo of potatoes."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Де мені знайти хліб?"
+   },
+   "words": [
+    "Where",
+    "can",
+    "I",
+    "find",
+    "bread",
+    "is",
+    "have"
+   ],
+   "answer": [
+    "Where",
+    "can",
+    "I",
+    "find",
+    "bread"
+   ],
+   "explanation": {
+    "uk": "Where can I find bread?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Пляшку води, будь ласка."
+   },
+   "answers": [
+    "A bottle of water, please"
+   ],
+   "explanation": {
+    "uk": "A bottle of water, please."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Excuse me, where can I find rice?",
+   "prompt": {
+    "uk": "Рис он там, біля макаронів. Що відповість працівник?"
+   },
+   "options": [
+    "It's over there, next to the pasta.",
+    "It's a packet of rice.",
+    "Yes, you can."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's over there, next to the pasta."
+   }
+  }
+ ]
+}

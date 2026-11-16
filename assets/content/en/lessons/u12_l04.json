@@ -1,0 +1,297 @@
+{
+ "id": "u12_l04",
+ "unit": "u12",
+ "cefr": "A0",
+ "title": {
+  "uk": "Я не можу знайти ключі"
+ },
+ "goal": {
+  "uk": "Сказати, що ви щось загубили, і перевірити, чи це та річ."
+ },
+ "rule": {
+  "uk": "I can't find… — «я не можу знайти…». The same — «такий самий», different — «інший». The right one — «той, що треба», the wrong one — «не той». I think… — «я думаю…»."
+ },
+ "words": [
+  {
+   "id": "cant_find",
+   "text": "can't find",
+   "ipa": "/ˌkɑːnt ˈfaɪnd/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "не можу знайти"
+   },
+   "example": "I can't find my keys.",
+   "exampleTranslation": {
+    "uk": "Я не можу знайти ключі."
+   }
+  },
+  {
+   "id": "same",
+   "text": "same",
+   "ipa": "/seɪm/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "такий самий"
+   },
+   "example": "The same colour.",
+   "exampleTranslation": {
+    "uk": "Той самий колір."
+   }
+  },
+  {
+   "id": "different",
+   "text": "different",
+   "ipa": "/ˈdɪfrənt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "інший, відмінний"
+   },
+   "example": "A different size.",
+   "exampleTranslation": {
+    "uk": "Інший розмір."
+   }
+  },
+  {
+   "id": "right",
+   "text": "right",
+   "ipa": "/raɪt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "правильний"
+   },
+   "example": "The right key.",
+   "exampleTranslation": {
+    "uk": "Правильний ключ."
+   }
+  },
+  {
+   "id": "wrong",
+   "text": "wrong",
+   "ipa": "/rɒŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "неправильний"
+   },
+   "example": "The wrong bag.",
+   "exampleTranslation": {
+    "uk": "Не та сумка."
+   }
+  },
+  {
+   "id": "i_think",
+   "text": "I think",
+   "ipa": "/aɪ ˈθɪŋk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "я думаю"
+   },
+   "example": "I think it's mine.",
+   "exampleTranslation": {
+    "uk": "Думаю, це моє."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Is this bag ___?",
+   "options": [
+    "yours",
+    "your",
+    "you"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is this bag yours?"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "same",
+     "right": {
+      "uk": "такий самий"
+     }
+    },
+    {
+     "left": "different",
+     "right": {
+      "uk": "інший"
+     }
+    },
+    {
+     "left": "right",
+     "right": {
+      "uk": "правильний"
+     }
+    },
+    {
+     "left": "wrong",
+     "right": {
+      "uk": "неправильний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "У wrong літера w не вимовляється."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I can't find my passport.",
+   "prompt": {
+    "uk": "Прослухайте. Що сталося?"
+   },
+   "options": {
+    "uk": [
+     "Людина не може знайти паспорт",
+     "Людина знайшла паспорт",
+     "Людині не потрібен паспорт"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I can't find — не можу знайти."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ find my glasses.",
+   "options": [
+    "can't",
+    "don't can",
+    "am not"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I can't find."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає This is the wrong key?"
+   },
+   "options": {
+    "uk": [
+     "Це не той ключ",
+     "Це мій ключ",
+     "Це новий ключ"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Wrong — неправильний, не той."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We have the ___ phone. Look!",
+   "options": [
+    "same",
+    "wrong",
+    "think"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The same phone — такий самий телефон."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "I think it's under the table.",
+   "prompt": {
+    "uk": "Прослухайте. Де, на думку людини, річ?"
+   },
+   "options": {
+    "uk": [
+     "Під столом",
+     "На столі",
+     "Біля столу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I think — я думаю. Under — під."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я не можу знайти ключі."
+   },
+   "words": [
+    "I",
+    "can't",
+    "find",
+    "my",
+    "keys",
+    "don't",
+    "the"
+   ],
+   "answer": [
+    "I",
+    "can't",
+    "find",
+    "my",
+    "keys"
+   ],
+   "explanation": {
+    "uk": "I can't find my keys."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Думаю, це моє."
+   },
+   "answers": [
+    "I think it's mine",
+    "I think it is mine",
+    "I think this is mine"
+   ],
+   "explanation": {
+    "uk": "I think it's mine."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Is this your bag?",
+   "prompt": {
+    "uk": "Сумка схожа, але не ваша. Що відповісти?"
+   },
+   "options": [
+    "No, it's the wrong one. Mine is black.",
+    "Yes, it's the wrong one.",
+    "No, it's the same mine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, it's the wrong one."
+   }
+  }
+ ]
+}

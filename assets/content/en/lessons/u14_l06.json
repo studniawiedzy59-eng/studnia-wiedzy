@@ -1,0 +1,191 @@
+{
+ "id": "u14_l06",
+ "unit": "u14",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: розмова про роботу"
+ },
+ "goal": {
+  "uk": "Розповісти про свою роботу й розпитати співрозмовника."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: I'm a… і I'm an…, I work in і I work for, питання з do, he works і he doesn't work."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you do?",
+   "prompt": {
+    "uk": "Ви інженер. Що відповісти?"
+   },
+   "options": [
+    "I'm an engineer.",
+    "I'm a engineer.",
+    "I do engineer."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm an engineer."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I work ___ a hospital. I'm a nurse.",
+   "options": [
+    "in",
+    "of",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I work in a hospital."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Де ви працюєте?"
+   },
+   "words": [
+    "Where",
+    "do",
+    "you",
+    "work",
+    "are",
+    "does"
+   ],
+   "answer": [
+    "Where",
+    "do",
+    "you",
+    "work"
+   ],
+   "explanation": {
+    "uk": "Where do you work?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я працюю повний день."
+   },
+   "answers": [
+    "I work full-time",
+    "I work full time"
+   ],
+   "explanation": {
+    "uk": "I work full-time."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My sister is an accountant. She works for a big company.",
+   "prompt": {
+    "uk": "Прослухайте. Що ви дізналися про сестру?"
+   },
+   "options": {
+    "uk": [
+     "Бухгалтерка у великій компанії",
+     "Акторка у великій компанії",
+     "Бухгалтерка в банку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "An accountant, a big company."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ like his job. It's boring.",
+   "options": [
+    "doesn't",
+    "don't",
+    "isn't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He doesn't like."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Мій тато на пенсії»?"
+   },
+   "options": [
+    "My father is retired.",
+    "My father retired is.",
+    "My father has retired job."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My father is retired."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Моя робота важка, але цікава."
+   },
+   "answers": [
+    "My job is hard but interesting"
+   ],
+   "explanation": {
+    "uk": "My job is hard but interesting."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "Do you like your job? — Yes, I do. My team is great.",
+   "prompt": {
+    "uk": "Прослухайте. Чи подобається людині робота?"
+   },
+   "options": {
+    "uk": [
+     "Так, у неї чудова команда",
+     "Ні, команда погана",
+     "Так, але начальник поганий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I do. My team is great."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Do you work full-time?",
+   "prompt": {
+    "uk": "Ви працюєте неповний день. Що відповісти?"
+   },
+   "options": [
+    "No, I don't. I work part-time.",
+    "No, I'm not. I work part-time.",
+    "Yes, I work part-time."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I don't. I work part-time."
+   }
+  }
+ ]
+}

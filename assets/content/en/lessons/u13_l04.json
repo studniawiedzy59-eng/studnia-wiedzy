@@ -1,0 +1,312 @@
+{
+ "id": "u13_l04",
+ "unit": "u13",
+ "cefr": "A0",
+ "title": {
+  "uk": "Де вони зараз?"
+ },
+ "goal": {
+  "uk": "Сказати, де хтось перебуває."
+ },
+ "rule": {
+  "uk": "Where are they? — «Де вони?». Місця з at: at home, at work, at school. Про відпустку — on holiday. Upstairs — нагорі, downstairs — унизу, outside — надворі: ці слова вживають без at чи in."
+ },
+ "words": [
+  {
+   "id": "at_work",
+   "text": "at work",
+   "ipa": "/ət ˈwɜːk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "на роботі"
+   },
+   "example": "He's at work.",
+   "exampleTranslation": {
+    "uk": "Він на роботі."
+   }
+  },
+  {
+   "id": "outside",
+   "text": "outside",
+   "ipa": "/ˌaʊtˈsaɪd/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "надворі"
+   },
+   "example": "The children are outside.",
+   "exampleTranslation": {
+    "uk": "Діти надворі."
+   }
+  },
+  {
+   "id": "inside",
+   "text": "inside",
+   "ipa": "/ˌɪnˈsaɪd/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "усередині"
+   },
+   "example": "It's cold. Let's go inside.",
+   "exampleTranslation": {
+    "uk": "Холодно. Ходімо всередину."
+   }
+  },
+  {
+   "id": "upstairs",
+   "text": "upstairs",
+   "ipa": "/ˌʌpˈsteəz/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "нагорі"
+   },
+   "example": "The bedroom is upstairs.",
+   "exampleTranslation": {
+    "uk": "Спальня нагорі."
+   }
+  },
+  {
+   "id": "downstairs",
+   "text": "downstairs",
+   "ipa": "/ˌdaʊnˈsteəz/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "унизу"
+   },
+   "example": "The kitchen is downstairs.",
+   "exampleTranslation": {
+    "uk": "Кухня внизу."
+   }
+  },
+  {
+   "id": "away",
+   "text": "away",
+   "ipa": "/əˈweɪ/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "у від'їзді"
+   },
+   "example": "She's away this week.",
+   "exampleTranslation": {
+    "uk": "Цього тижня її немає."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is he ill?",
+   "prompt": {
+    "uk": "Повторимо. Він здоровий. Що відповісти?"
+   },
+   "options": [
+    "No, he isn't. He's fine.",
+    "No, he aren't. He's fine.",
+    "Yes, he isn't."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, he isn't."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "outside",
+     "right": {
+      "uk": "надворі"
+     }
+    },
+    {
+     "left": "inside",
+     "right": {
+      "uk": "усередині"
+     }
+    },
+    {
+     "left": "upstairs",
+     "right": {
+      "uk": "нагорі"
+     }
+    },
+    {
+     "left": "downstairs",
+     "right": {
+      "uk": "унизу"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Чотири слова про місце без at чи in."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "at work",
+     "right": {
+      "uk": "на роботі"
+     }
+    },
+    {
+     "left": "at home",
+     "right": {
+      "uk": "удома"
+     }
+    },
+    {
+     "left": "at school",
+     "right": {
+      "uk": "у школі"
+     }
+    },
+    {
+     "left": "away",
+     "right": {
+      "uk": "у від'їзді"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Сталі вирази з at."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Where are the children?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Де діти",
+     "Хто ці діти",
+     "Скільки дітей"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Where are…? — про кількох."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My wife is ___ work.",
+   "options": [
+    "at",
+    "in",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At work — на роботі."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "They're ___ holiday in Poland.",
+   "options": [
+    "on",
+    "at",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On holiday — у відпустці."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "The bathroom is upstairs.",
+   "prompt": {
+    "uk": "Прослухайте. Де ванна кімната?"
+   },
+   "options": {
+    "uk": [
+     "Нагорі",
+     "Унизу",
+     "Надворі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Upstairs — нагорі."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Діти надворі."
+   },
+   "words": [
+    "The",
+    "children",
+    "are",
+    "outside",
+    "is",
+    "at"
+   ],
+   "answer": [
+    "The",
+    "children",
+    "are",
+    "outside"
+   ],
+   "explanation": {
+    "uk": "The children are outside."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Він на роботі."
+   },
+   "answers": [
+    "He's at work",
+    "He is at work"
+   ],
+   "explanation": {
+    "uk": "He's at work."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Where is Anna?",
+   "prompt": {
+    "uk": "Анни цього тижня немає в місті. Що відповісти?"
+   },
+   "options": [
+    "She's away this week.",
+    "She's outside this week at.",
+    "He's away."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She's away this week."
+   }
+  }
+ ]
+}

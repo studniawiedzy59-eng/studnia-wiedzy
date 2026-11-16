@@ -1,0 +1,300 @@
+{
+ "id": "u14_l02",
+ "unit": "u14",
+ "cefr": "A0",
+ "title": {
+  "uk": "Я інженер"
+ },
+ "goal": {
+  "uk": "Назвати професії, перед якими потрібне an."
+ },
+ "rule": {
+  "uk": "Перед професією на голосний звук — an: an engineer, an actor, an artist, an accountant, an electrician. Перед приголосним — a: a driver."
+ },
+ "words": [
+  {
+   "id": "engineer",
+   "text": "engineer",
+   "ipa": "/ˌendʒɪˈnɪə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "інженер"
+   },
+   "example": "I'm an engineer.",
+   "exampleTranslation": {
+    "uk": "Я інженер."
+   }
+  },
+  {
+   "id": "accountant",
+   "text": "accountant",
+   "ipa": "/əˈkaʊntənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "бухгалтер"
+   },
+   "example": "She's an accountant.",
+   "exampleTranslation": {
+    "uk": "Вона бухгалтерка."
+   }
+  },
+  {
+   "id": "actor",
+   "text": "actor",
+   "ipa": "/ˈæktə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "актор"
+   },
+   "example": "He's an actor.",
+   "exampleTranslation": {
+    "uk": "Він актор."
+   }
+  },
+  {
+   "id": "artist",
+   "text": "artist",
+   "ipa": "/ˈɑːtɪst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "художник"
+   },
+   "example": "My aunt is an artist.",
+   "exampleTranslation": {
+    "uk": "Моя тітка художниця."
+   }
+  },
+  {
+   "id": "electrician",
+   "text": "electrician",
+   "ipa": "/ɪˌlekˈtrɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "електрик"
+   },
+   "example": "He's an electrician.",
+   "exampleTranslation": {
+    "uk": "Він електрик."
+   }
+  },
+  {
+   "id": "office_worker",
+   "text": "office worker",
+   "ipa": "/ˈɒfɪs ˌwɜːkə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "офісний працівник"
+   },
+   "example": "I'm an office worker.",
+   "exampleTranslation": {
+    "uk": "Я офісний працівник."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "She's ___ nurse.",
+   "options": [
+    "a",
+    "an",
+    "the"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Nurse — з приголосного: a nurse."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "engineer",
+     "right": {
+      "uk": "інженер"
+     }
+    },
+    {
+     "left": "accountant",
+     "right": {
+      "uk": "бухгалтер"
+     }
+    },
+    {
+     "left": "actor",
+     "right": {
+      "uk": "актор"
+     }
+    },
+    {
+     "left": "artist",
+     "right": {
+      "uk": "художник"
+     }
+    },
+    {
+     "left": "electrician",
+     "right": {
+      "uk": "електрик"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Усі ці слова починаються з голосного звука."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ engineer.",
+   "options": [
+    "an",
+    "a",
+    "the"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Engineer — з голосного: an."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He's ___ manager.",
+   "options": [
+    "a",
+    "an",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Manager — з приголосного: a."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "an office worker",
+    "a office worker",
+    "an driver"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Office — з голосного: an office worker."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "My father is an electrician.",
+   "prompt": {
+    "uk": "Прослухайте. Ким працює тато?"
+   },
+   "options": {
+    "uk": [
+     "Електриком",
+     "Інженером",
+     "Бухгалтером"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "An electrician — електрик."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "She's an accountant.",
+   "prompt": {
+    "uk": "Прослухайте. Ким вона працює?"
+   },
+   "options": {
+    "uk": [
+     "Бухгалтеркою",
+     "Акторкою",
+     "Художницею"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "An accountant — бухгалтерка."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мій дядько актор."
+   },
+   "words": [
+    "My",
+    "uncle",
+    "is",
+    "an",
+    "actor",
+    "a",
+    "the"
+   ],
+   "answer": [
+    "My",
+    "uncle",
+    "is",
+    "an",
+    "actor"
+   ],
+   "explanation": {
+    "uk": "My uncle is an actor."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я інженер."
+   },
+   "answers": [
+    "I'm an engineer",
+    "I am an engineer"
+   ],
+   "explanation": {
+    "uk": "I'm an engineer."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What's your sister's job?",
+   "prompt": {
+    "uk": "Ваша сестра художниця. Що відповісти?"
+   },
+   "options": [
+    "She's an artist.",
+    "She's a artist.",
+    "He's an artist."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She's an artist."
+   }
+  }
+ ]
+}

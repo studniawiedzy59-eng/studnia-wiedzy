@@ -1,0 +1,279 @@
+{
+ "id": "u13_l03",
+ "unit": "u13",
+ "cefr": "A0",
+ "title": {
+  "uk": "Усе гаразд?"
+ },
+ "goal": {
+  "uk": "Спитати про стан людини й коротко відповісти."
+ },
+ "rule": {
+  "uk": "Питання будують перестановкою: You are OK → Are you OK? Коротка відповідь повторює дієслово: Yes, I am. No, I'm not. Is he ill? — Yes, he is. No, he isn't."
+ },
+ "words": [
+  {
+   "id": "ill",
+   "text": "ill",
+   "ipa": "/ɪl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "хворий"
+   },
+   "example": "He's ill.",
+   "exampleTranslation": {
+    "uk": "Він хворий."
+   }
+  },
+  {
+   "id": "well",
+   "text": "well",
+   "ipa": "/wel/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "здоровий; добре"
+   },
+   "example": "I'm not very well.",
+   "exampleTranslation": {
+    "uk": "Я почуваюся не дуже добре."
+   }
+  },
+  {
+   "id": "angry",
+   "text": "angry",
+   "ipa": "/ˈæŋɡri/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "сердитий"
+   },
+   "example": "Are you angry?",
+   "exampleTranslation": {
+    "uk": "Ви сердитеся?"
+   }
+  },
+  {
+   "id": "worried",
+   "text": "worried",
+   "ipa": "/ˈwʌrid/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "стурбований"
+   },
+   "example": "She's worried.",
+   "exampleTranslation": {
+    "uk": "Вона хвилюється."
+   }
+  },
+  {
+   "id": "all_right",
+   "text": "all right",
+   "ipa": "/ˌɔːl ˈraɪt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "у порядку"
+   },
+   "example": "Are you all right?",
+   "exampleTranslation": {
+    "uk": "З вами все гаразд?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "They ___ at home. They're on holiday.",
+   "options": [
+    "aren't",
+    "isn't",
+    "am not"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "They aren't."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "ill",
+     "right": {
+      "uk": "хворий"
+     }
+    },
+    {
+     "left": "well",
+     "right": {
+      "uk": "здоровий"
+     }
+    },
+    {
+     "left": "angry",
+     "right": {
+      "uk": "сердитий"
+     }
+    },
+    {
+     "left": "worried",
+     "right": {
+      "uk": "стурбований"
+     }
+    },
+    {
+     "left": "all right",
+     "right": {
+      "uk": "у порядку"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про стан людини."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати «Ви готові?»"
+   },
+   "options": [
+    "Are you ready?",
+    "You are ready?",
+    "Is you ready?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Питання починається з Are."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати «Він хворий?»"
+   },
+   "options": [
+    "Is he ill?",
+    "He is ill?",
+    "Are he ill?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З he — Is he…?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Are you tired? — Yes, I ___.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I am."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is she angry? — No, she ___.",
+   "options": [
+    "isn't",
+    "aren't",
+    "not"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, she isn't."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Are you all right?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "З вами все гаразд?",
+     "Ви праві?",
+     "Ви вже тут?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "All right — у порядку."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вони готові?"
+   },
+   "words": [
+    "Are",
+    "they",
+    "ready",
+    "is",
+    "their"
+   ],
+   "answer": [
+    "Are",
+    "they",
+    "ready"
+   ],
+   "explanation": {
+    "uk": "Are they ready?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ви хвилюєтеся?"
+   },
+   "answers": [
+    "Are you worried"
+   ],
+   "explanation": {
+    "uk": "Are you worried?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Are you OK?",
+   "prompt": {
+    "uk": "Ви погано почуваєтеся. Що відповісти?"
+   },
+   "options": [
+    "No, I'm not very well.",
+    "No, I isn't well.",
+    "Yes, I'm ill fine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I'm not very well."
+   }
+  }
+ ]
+}

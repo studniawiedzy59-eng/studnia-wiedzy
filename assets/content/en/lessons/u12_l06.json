@@ -1,0 +1,193 @@
+{
+ "id": "u12_l06",
+ "unit": "u12",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: чиє це?"
+ },
+ "goal": {
+  "uk": "Впевнено говорити, що кому належить."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: our і their, Whose…?, Tom's car, mine і yours, I can't find…, родичів."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Чия це парасолька?"
+   },
+   "words": [
+    "Whose",
+    "umbrella",
+    "is",
+    "this",
+    "who",
+    "yours"
+   ],
+   "answer": [
+    "Whose",
+    "umbrella",
+    "is",
+    "this"
+   ],
+   "explanation": {
+    "uk": "Whose umbrella is this?"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's not my coat. ___ is brown.",
+   "options": [
+    "Mine",
+    "My",
+    "Me"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Без назви речі — mine."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «велосипед мого сина»?"
+   },
+   "options": [
+    "my son's bike",
+    "my son bike's",
+    "bike my son's"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My son's bike."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я не можу знайти телефон."
+   },
+   "answers": [
+    "I can't find my phone",
+    "I cannot find my phone",
+    "I can't find the phone"
+   ],
+   "explanation": {
+    "uk": "I can't find my phone."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "This is our neighbours' dog. Their dog is very noisy.",
+   "prompt": {
+    "uk": "Прослухайте. Чий собака?"
+   },
+   "options": {
+    "uk": [
+     "Сусідів",
+     "Наш",
+     "Двоюрідного брата"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Our neighbours' dog — собака наших сусідів."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We have a house. The garden is ___ too.",
+   "options": [
+    "ours",
+    "our",
+    "we"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Без назви речі — ours."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Хто це: my uncle's daughter?"
+   },
+   "options": {
+    "uk": [
+     "Двоюрідна сестра",
+     "Тітка",
+     "Бабуся"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Донька дядька — cousin."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "Excuse me, I think this is my bag.",
+   "prompt": {
+    "uk": "Ви взяли чужу сумку. Що відповісти?"
+   },
+   "options": [
+    "Sorry! It's the same colour.",
+    "Yes, it's mine.",
+    "No, thanks."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sorry! It's the same colour — вибачитися й пояснити."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це їхня машина."
+   },
+   "answers": [
+    "This is their car",
+    "It's their car",
+    "It is their car"
+   ],
+   "explanation": {
+    "uk": "This is their car."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Whose keys are these?",
+   "prompt": {
+    "uk": "Це ваші ключі. Що відповісти?"
+   },
+   "options": [
+    "They're mine.",
+    "It's my.",
+    "They're me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "They're mine — про кілька речей."
+   }
+  }
+ ]
+}

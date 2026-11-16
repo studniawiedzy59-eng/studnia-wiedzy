@@ -1,0 +1,280 @@
+{
+ "id": "u11_l01",
+ "unit": "u11",
+ "cefr": "A0",
+ "title": {
+  "uk": "Я шукаю куртку"
+ },
+ "goal": {
+  "uk": "Сказати продавцеві, що ви шукаєте або що просто дивитеся."
+ },
+ "rule": {
+  "uk": "Продавець питає Can I help you? — «Вам допомогти?». Якщо шукаєте щось: I'm looking for a jacket. Якщо ні: No, thanks. I'm just looking. I need… — «мені потрібно…»."
+ },
+ "words": [
+  {
+   "id": "help",
+   "text": "help",
+   "ipa": "/help/",
+   "pos": "verb",
+   "translation": {
+    "uk": "допомагати"
+   },
+   "example": "Can I help you?",
+   "exampleTranslation": {
+    "uk": "Вам допомогти?"
+   }
+  },
+  {
+   "id": "im_looking_for",
+   "text": "I'm looking for",
+   "ipa": "/aɪm ˈlʊkɪŋ fɔː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "я шукаю"
+   },
+   "example": "I'm looking for a jacket.",
+   "exampleTranslation": {
+    "uk": "Я шукаю куртку."
+   }
+  },
+  {
+   "id": "just_looking",
+   "text": "just looking",
+   "ipa": "/ˌdʒʌst ˈlʊkɪŋ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "просто дивлюся"
+   },
+   "example": "I'm just looking, thanks.",
+   "exampleTranslation": {
+    "uk": "Я просто дивлюся, дякую."
+   }
+  },
+  {
+   "id": "need",
+   "text": "need",
+   "ipa": "/niːd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "потребувати"
+   },
+   "example": "I need a bag.",
+   "exampleTranslation": {
+    "uk": "Мені потрібна сумка."
+   }
+  },
+  {
+   "id": "buy",
+   "text": "buy",
+   "ipa": "/baɪ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "купувати"
+   },
+   "example": "I want to buy shoes.",
+   "exampleTranslation": {
+    "uk": "Я хочу купити взуття."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Would you like some more?",
+   "prompt": {
+    "uk": "Повторимо. Ви наїлися. Що відповісти?"
+   },
+   "options": [
+    "No, thanks. I'm full.",
+    "Yes, I'm full.",
+    "No, I'm hungry."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, thanks. I'm full."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "help",
+     "right": {
+      "uk": "допомагати"
+     }
+    },
+    {
+     "left": "need",
+     "right": {
+      "uk": "потребувати"
+     }
+    },
+    {
+     "left": "buy",
+     "right": {
+      "uk": "купувати"
+     }
+    },
+    {
+     "left": "just looking",
+     "right": {
+      "uk": "просто дивлюся"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для початку розмови в магазині."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Can I help you?",
+   "prompt": {
+    "uk": "Прослухайте. Що каже продавець?"
+   },
+   "options": {
+    "uk": [
+     "Вам допомогти?",
+     "Що ви купуєте?",
+     "Ви платите?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Can I help you? — «Вам допомогти?»"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви нічого конкретного не шукаєте. Що відповісти продавцеві?"
+   },
+   "options": [
+    "I'm just looking, thanks.",
+    "I'm looking for.",
+    "I need help you."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm just looking, thanks."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm looking ___ a black jacket.",
+   "options": [
+    "for",
+    "at",
+    "to"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Look for — шукати."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ a new phone. My phone is very old.",
+   "options": [
+    "need",
+    "help",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I need — мені потрібно."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "I'm looking for brown shoes.",
+   "prompt": {
+    "uk": "Прослухайте. Що шукає покупець?"
+   },
+   "options": {
+    "uk": [
+     "Коричневе взуття",
+     "Чорне взуття",
+     "Коричневу сумку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Brown shoes."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я шукаю сукню."
+   },
+   "words": [
+    "I'm",
+    "looking",
+    "for",
+    "a",
+    "dress",
+    "need",
+    "to"
+   ],
+   "answer": [
+    "I'm",
+    "looking",
+    "for",
+    "a",
+    "dress"
+   ],
+   "explanation": {
+    "uk": "I'm looking for a dress."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мені потрібна сумка."
+   },
+   "answers": [
+    "I need a bag"
+   ],
+   "explanation": {
+    "uk": "I need a bag."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Can I help you?",
+   "prompt": {
+    "uk": "Ви шукаєте куртку. Що відповісти?"
+   },
+   "options": [
+    "Yes, please. I'm looking for a jacket.",
+    "No, thanks. I'm looking for a jacket you.",
+    "Yes, I help."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, please. I'm looking for…"
+   }
+  }
+ ]
+}

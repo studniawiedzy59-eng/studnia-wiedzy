@@ -1,0 +1,313 @@
+{
+ "id": "u14_l03",
+ "unit": "u14",
+ "cefr": "A0",
+ "title": {
+  "uk": "Де ви працюєте?"
+ },
+ "goal": {
+  "uk": "Сказати, де і в кого ви працюєте."
+ },
+ "rule": {
+  "uk": "I work in… — про місце: I work in a hospital. I work for… — про роботодавця: I work for a big company. Перед hospital, hotel, factory — a; перед office — an."
+ },
+ "words": [
+  {
+   "id": "hospital",
+   "text": "hospital",
+   "ipa": "/ˈhɒspɪtl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "лікарня"
+   },
+   "example": "I work in a hospital.",
+   "exampleTranslation": {
+    "uk": "Я працюю в лікарні."
+   }
+  },
+  {
+   "id": "restaurant",
+   "text": "restaurant",
+   "ipa": "/ˈrestrɒnt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ресторан"
+   },
+   "example": "He works in a restaurant.",
+   "exampleTranslation": {
+    "uk": "Він працює в ресторані."
+   }
+  },
+  {
+   "id": "factory",
+   "text": "factory",
+   "ipa": "/ˈfæktri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "завод, фабрика"
+   },
+   "example": "I work in a factory.",
+   "exampleTranslation": {
+    "uk": "Я працюю на заводі."
+   }
+  },
+  {
+   "id": "hotel",
+   "text": "hotel",
+   "ipa": "/həʊˈtel/",
+   "pos": "noun",
+   "translation": {
+    "uk": "готель"
+   },
+   "example": "She works in a hotel.",
+   "exampleTranslation": {
+    "uk": "Вона працює в готелі."
+   }
+  },
+  {
+   "id": "warehouse",
+   "text": "warehouse",
+   "ipa": "/ˈweəhaʊs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "склад"
+   },
+   "example": "I work in a warehouse.",
+   "exampleTranslation": {
+    "uk": "Я працюю на складі."
+   }
+  },
+  {
+   "id": "company",
+   "text": "company",
+   "ipa": "/ˈkʌmpəni/",
+   "pos": "noun",
+   "translation": {
+    "uk": "компанія"
+   },
+   "example": "I work for a big company.",
+   "exampleTranslation": {
+    "uk": "Я працюю у великій компанії."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ accountant.",
+   "options": [
+    "an",
+    "a",
+    "the"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "An accountant."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "hospital",
+     "right": {
+      "uk": "лікарня"
+     }
+    },
+    {
+     "left": "restaurant",
+     "right": {
+      "uk": "ресторан"
+     }
+    },
+    {
+     "left": "factory",
+     "right": {
+      "uk": "завод"
+     }
+    },
+    {
+     "left": "hotel",
+     "right": {
+      "uk": "готель"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Місця роботи."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "warehouse",
+     "right": {
+      "uk": "склад"
+     }
+    },
+    {
+     "left": "company",
+     "right": {
+      "uk": "компанія"
+     }
+    },
+    {
+     "left": "office",
+     "right": {
+      "uk": "офіс"
+     }
+    },
+    {
+     "left": "shop",
+     "right": {
+      "uk": "магазин"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Ще місця роботи."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I work in a factory.",
+   "prompt": {
+    "uk": "Прослухайте. Де працює людина?"
+   },
+   "options": {
+    "uk": [
+     "На заводі",
+     "На складі",
+     "У лікарні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A factory — завод."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Де працює a nurse?"
+   },
+   "options": {
+    "uk": [
+     "in a hospital",
+     "in a warehouse",
+     "in a factory"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Медсестра працює в лікарні."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I work ___ a hotel.",
+   "options": [
+    "in",
+    "on",
+    "of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I work in a hotel."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I work ___ a small company.",
+   "options": [
+    "for",
+    "on",
+    "to"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Work for — працювати на когось."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я працюю на складі."
+   },
+   "words": [
+    "I",
+    "work",
+    "in",
+    "a",
+    "warehouse",
+    "for",
+    "am"
+   ],
+   "answer": [
+    "I",
+    "work",
+    "in",
+    "a",
+    "warehouse"
+   ],
+   "explanation": {
+    "uk": "I work in a warehouse."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я працюю в лікарні."
+   },
+   "answers": [
+    "I work in a hospital",
+    "I work at a hospital"
+   ],
+   "explanation": {
+    "uk": "I work in a hospital."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Where do you work?",
+   "prompt": {
+    "uk": "Ви працюєте в ресторані. Що відповісти?"
+   },
+   "options": [
+    "I work in a restaurant.",
+    "I'm work restaurant.",
+    "I'm a restaurant."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I work in a restaurant."
+   }
+  }
+ ]
+}

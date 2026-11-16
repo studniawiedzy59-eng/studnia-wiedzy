@@ -1,0 +1,299 @@
+{
+ "id": "u13_l05",
+ "unit": "u13",
+ "cefr": "A0",
+ "title": {
+  "uk": "Який він? Яка вона?"
+ },
+ "goal": {
+  "uk": "Описати людину: зріст і характер."
+ },
+ "rule": {
+  "uk": "What is he like? — «Який він?» про вдачу. Відповідь: He's kind and funny. Про зріст: tall — високий, short — низький. Very і not very допомагають уточнити: She's very clever. He isn't very tall."
+ },
+ "words": [
+  {
+   "id": "tall",
+   "text": "tall",
+   "ipa": "/tɔːl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "високий (про людину)"
+   },
+   "example": "He's very tall.",
+   "exampleTranslation": {
+    "uk": "Він дуже високий."
+   }
+  },
+  {
+   "id": "kind",
+   "text": "kind",
+   "ipa": "/kaɪnd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "добрий"
+   },
+   "example": "She's very kind.",
+   "exampleTranslation": {
+    "uk": "Вона дуже добра."
+   }
+  },
+  {
+   "id": "funny",
+   "text": "funny",
+   "ipa": "/ˈfʌni/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "смішний, дотепний"
+   },
+   "example": "My brother is funny.",
+   "exampleTranslation": {
+    "uk": "Мій брат дотепний."
+   }
+  },
+  {
+   "id": "clever",
+   "text": "clever",
+   "ipa": "/ˈklevə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "розумний"
+   },
+   "example": "She's clever.",
+   "exampleTranslation": {
+    "uk": "Вона розумна."
+   }
+  },
+  {
+   "id": "friendly",
+   "text": "friendly",
+   "ipa": "/ˈfrendli/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "привітний"
+   },
+   "example": "They're friendly.",
+   "exampleTranslation": {
+    "uk": "Вони привітні."
+   }
+  },
+  {
+   "id": "what_is_he_like?",
+   "text": "What is he like?",
+   "ipa": "/ˌwɒt ɪz hi ˈlaɪk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "Який він?"
+   },
+   "example": "What is your boss like?",
+   "exampleTranslation": {
+    "uk": "Який у вас начальник?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "He's ___ holiday this week.",
+   "options": [
+    "on",
+    "at",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On holiday."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "tall",
+     "right": {
+      "uk": "високий"
+     }
+    },
+    {
+     "left": "kind",
+     "right": {
+      "uk": "добрий"
+     }
+    },
+    {
+     "left": "funny",
+     "right": {
+      "uk": "дотепний"
+     }
+    },
+    {
+     "left": "clever",
+     "right": {
+      "uk": "розумний"
+     }
+    },
+    {
+     "left": "friendly",
+     "right": {
+      "uk": "привітний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова, якими описують людей."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "What is she like?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Яка вона за вдачею",
+     "Що їй подобається",
+     "Де вона"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "What is she like? — про вдачу, а не про смаки."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He's tall and very friendly.",
+   "prompt": {
+    "uk": "Прослухайте. Який він?"
+   },
+   "options": {
+    "uk": [
+     "Високий і дуже привітний",
+     "Низький і привітний",
+     "Високий і дуже дотепний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tall — високий, friendly — привітний."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My sister is very ___. She's a doctor.",
+   "options": [
+    "clever",
+    "downstairs",
+    "both"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Clever — розумна."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Він не дуже високий»?"
+   },
+   "options": [
+    "He isn't very tall.",
+    "He not very tall.",
+    "He isn't tall very."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He isn't very tall."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати про вдачу нового колеги?"
+   },
+   "options": [
+    "What is he like?",
+    "What does he like?",
+    "How is he?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What is he like? — який він. What does he like? — що йому подобається."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мої сусіди дуже добрі."
+   },
+   "words": [
+    "My",
+    "neighbours",
+    "are",
+    "very",
+    "kind",
+    "is",
+    "tall"
+   ],
+   "answer": [
+    "My",
+    "neighbours",
+    "are",
+    "very",
+    "kind"
+   ],
+   "explanation": {
+    "uk": "My neighbours are very kind."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона розумна й дотепна."
+   },
+   "answers": [
+    "She's clever and funny",
+    "She is clever and funny"
+   ],
+   "explanation": {
+    "uk": "She's clever and funny."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What is your teacher like?",
+   "prompt": {
+    "uk": "Ваша вчителька добра й привітна. Що відповісти?"
+   },
+   "options": [
+    "She's kind and friendly.",
+    "She likes kind and friendly.",
+    "She's a teacher."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She's kind and friendly."
+   }
+  }
+ ]
+}

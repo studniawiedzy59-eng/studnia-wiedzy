@@ -1,0 +1,322 @@
+{
+ "id": "u14_l01",
+ "unit": "u14",
+ "cefr": "A0",
+ "title": {
+  "uk": "Ким ви працюєте?"
+ },
+ "goal": {
+  "uk": "Назвати свою професію й спитати про чужу."
+ },
+ "rule": {
+  "uk": "What's your job? — «Ким ви працюєте?». У відповіді перед професією обов'язково a: I'm a driver. Українською артикля немає, тому його часто забувають."
+ },
+ "words": [
+  {
+   "id": "job",
+   "text": "job",
+   "ipa": "/dʒɒb/",
+   "pos": "noun",
+   "translation": {
+    "uk": "робота, професія"
+   },
+   "example": "What's your job?",
+   "exampleTranslation": {
+    "uk": "Ким ви працюєте?"
+   }
+  },
+  {
+   "id": "driver",
+   "text": "driver",
+   "ipa": "/ˈdraɪvə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "водій"
+   },
+   "example": "I'm a driver.",
+   "exampleTranslation": {
+    "uk": "Я водій."
+   }
+  },
+  {
+   "id": "cook",
+   "text": "cook",
+   "ipa": "/kʊk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кухар"
+   },
+   "example": "He's a cook.",
+   "exampleTranslation": {
+    "uk": "Він кухар."
+   }
+  },
+  {
+   "id": "nurse",
+   "text": "nurse",
+   "ipa": "/nɜːs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "медсестра, медбрат"
+   },
+   "example": "She's a nurse.",
+   "exampleTranslation": {
+    "uk": "Вона медсестра."
+   }
+  },
+  {
+   "id": "waiter",
+   "text": "waiter",
+   "ipa": "/ˈweɪtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "офіціант"
+   },
+   "example": "My brother is a waiter.",
+   "exampleTranslation": {
+    "uk": "Мій брат офіціант."
+   }
+  },
+  {
+   "id": "builder",
+   "text": "builder",
+   "ipa": "/ˈbɪldə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "будівельник"
+   },
+   "example": "He's a builder.",
+   "exampleTranslation": {
+    "uk": "Він будівельник."
+   }
+  },
+  {
+   "id": "manager",
+   "text": "manager",
+   "ipa": "/ˈmænɪdʒə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "менеджер, керівник"
+   },
+   "example": "She's a manager.",
+   "exampleTranslation": {
+    "uk": "Вона менеджерка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is your boss like?",
+   "prompt": {
+    "uk": "Повторимо. Ваш начальник добрий. Що відповісти?"
+   },
+   "options": [
+    "He's kind.",
+    "He likes kind.",
+    "He's a boss."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He's kind."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "driver",
+     "right": {
+      "uk": "водій"
+     }
+    },
+    {
+     "left": "cook",
+     "right": {
+      "uk": "кухар"
+     }
+    },
+    {
+     "left": "nurse",
+     "right": {
+      "uk": "медсестра"
+     }
+    },
+    {
+     "left": "waiter",
+     "right": {
+      "uk": "офіціант"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Багато назв професій закінчуються на -er."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "builder",
+     "right": {
+      "uk": "будівельник"
+     }
+    },
+    {
+     "left": "manager",
+     "right": {
+      "uk": "менеджер"
+     }
+    },
+    {
+     "left": "teacher",
+     "right": {
+      "uk": "учитель"
+     }
+    },
+    {
+     "left": "doctor",
+     "right": {
+      "uk": "лікар"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Teacher і doctor ви вже знаєте."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "What's your job?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Ким ви працюєте",
+     "Де ви працюєте",
+     "Як ваші справи"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Job — робота, професія."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ nurse.",
+   "options": [
+    "a",
+    "the",
+    "my"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед професією — a."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "He's a builder.",
+    "He's builder.",
+    "He a builder."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Потрібні і is, і a: He's a builder."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "My husband is a cook and I'm a waiter.",
+   "prompt": {
+    "uk": "Прослухайте. Ким працює чоловік?"
+   },
+   "options": {
+    "uk": [
+     "Кухарем",
+     "Офіціантом",
+     "Водієм"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A cook — кухар."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вона менеджерка."
+   },
+   "words": [
+    "She's",
+    "a",
+    "manager",
+    "the",
+    "is"
+   ],
+   "answer": [
+    "She's",
+    "a",
+    "manager"
+   ],
+   "explanation": {
+    "uk": "She's a manager."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я водій."
+   },
+   "answers": [
+    "I'm a driver",
+    "I am a driver"
+   ],
+   "explanation": {
+    "uk": "I'm a driver."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What's your job?",
+   "prompt": {
+    "uk": "Ви працюєте офіціантом. Що відповісти?"
+   },
+   "options": [
+    "I'm a waiter.",
+    "I'm waiter.",
+    "My job waiter."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm a waiter."
+   }
+  }
+ ]
+}

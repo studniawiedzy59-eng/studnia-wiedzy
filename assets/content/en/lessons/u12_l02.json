@@ -1,0 +1,286 @@
+{
+ "id": "u12_l02",
+ "unit": "u12",
+ "cefr": "A0",
+ "title": {
+  "uk": "Томова машина"
+ },
+ "goal": {
+  "uk": "Сказати, кому належить річ, називаючи власника."
+ },
+ "rule": {
+  "uk": "Щоб сказати «Томів, Анин», до імені додають 's: Tom's car — машина Тома, Anna's phone — телефон Анни. Так само з людьми: my brother's wife — дружина мого брата."
+ },
+ "words": [
+  {
+   "id": "laptop",
+   "text": "laptop",
+   "ipa": "/ˈlæptɒp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ноутбук"
+   },
+   "example": "This is Anna's laptop.",
+   "exampleTranslation": {
+    "uk": "Це ноутбук Анни."
+   }
+  },
+  {
+   "id": "bike",
+   "text": "bike",
+   "ipa": "/baɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "велосипед"
+   },
+   "example": "Tom's bike is red.",
+   "exampleTranslation": {
+    "uk": "Велосипед Тома червоний."
+   }
+  },
+  {
+   "id": "watch",
+   "text": "watch",
+   "ipa": "/wɒtʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "наручний годинник"
+   },
+   "example": "My father's watch.",
+   "exampleTranslation": {
+    "uk": "Годинник мого тата."
+   }
+  },
+  {
+   "id": "ring",
+   "text": "ring",
+   "ipa": "/rɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "каблучка"
+   },
+   "example": "My mother's ring.",
+   "exampleTranslation": {
+    "uk": "Каблучка моєї мами."
+   }
+  },
+  {
+   "id": "toy",
+   "text": "toy",
+   "ipa": "/tɔɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "іграшка"
+   },
+   "example": "My son's toy.",
+   "exampleTranslation": {
+    "uk": "Іграшка мого сина."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Tom and Anna have a car. ___ car is blue.",
+   "options": [
+    "Their",
+    "Our",
+    "His"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вони — their."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "laptop",
+     "right": {
+      "uk": "ноутбук"
+     }
+    },
+    {
+     "left": "bike",
+     "right": {
+      "uk": "велосипед"
+     }
+    },
+    {
+     "left": "watch",
+     "right": {
+      "uk": "годинник"
+     }
+    },
+    {
+     "left": "ring",
+     "right": {
+      "uk": "каблучка"
+     }
+    },
+    {
+     "left": "toy",
+     "right": {
+      "uk": "іграшка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Особисті речі."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає Tom's car?"
+   },
+   "options": {
+    "uk": [
+     "Машина Тома",
+     "Том і машина",
+     "Том у машині"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "'s показує власника."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «телефон Анни»?"
+   },
+   "options": [
+    "Anna's phone",
+    "Anna phone's",
+    "phone Anna's"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Спочатку власник із 's, потім річ."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «дружина мого брата»?"
+   },
+   "options": [
+    "my brother's wife",
+    "my wife's brother",
+    "my brother wife"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My brother's wife. My wife's brother — це вже «брат моєї дружини»."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "This is my sister's laptop.",
+   "prompt": {
+    "uk": "Прослухайте. Чий це ноутбук?"
+   },
+   "options": {
+    "uk": [
+     "Сестри",
+     "Брата",
+     "Мій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "My sister's — моєї сестри."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is my ___ bike.",
+   "options": [
+    "son's",
+    "son",
+    "sons"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Власник — з 's: my son's bike."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це годинник мого тата."
+   },
+   "words": [
+    "This",
+    "is",
+    "my",
+    "father's",
+    "watch",
+    "father",
+    "his"
+   ],
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "father's",
+    "watch"
+   ],
+   "explanation": {
+    "uk": "This is my father's watch."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це машина Тома."
+   },
+   "answers": [
+    "This is Tom's car",
+    "It's Tom's car",
+    "It is Tom's car"
+   ],
+   "explanation": {
+    "uk": "This is Tom's car."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Whose bike is this?",
+   "prompt": {
+    "uk": "Це велосипед вашого брата. Що відповісти?"
+   },
+   "options": [
+    "It's my brother's bike.",
+    "It's my brother bike.",
+    "It's bike my brother's."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's my brother's bike."
+   }
+  }
+ ]
+}

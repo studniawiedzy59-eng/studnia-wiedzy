@@ -1,0 +1,308 @@
+{
+ "id": "u11_l04",
+ "unit": "u11",
+ "cefr": "A0",
+ "title": {
+  "uk": "На касі"
+ },
+ "goal": {
+  "uk": "Заплатити, попросити чек і попрощатися."
+ },
+ "rule": {
+  "uk": "На касі питають: Would you like a bag? Card or cash? Якщо карткою: Enter your PIN, please — «введіть PIN» або Contactless? — «безконтактно?». Чек — receipt (літера p не вимовляється). На прощання: Have a nice day! — You too!"
+ },
+ "words": [
+  {
+   "id": "receipt",
+   "text": "receipt",
+   "ipa": "/rɪˈsiːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "чек"
+   },
+   "example": "Can I have the receipt?",
+   "exampleTranslation": {
+    "uk": "Можна чек?"
+   }
+  },
+  {
+   "id": "contactless",
+   "text": "contactless",
+   "ipa": "/ˈkɒntæktləs/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "безконтактний"
+   },
+   "example": "Contactless, please.",
+   "exampleTranslation": {
+    "uk": "Безконтактно, будь ласка."
+   }
+  },
+  {
+   "id": "pin",
+   "text": "PIN",
+   "ipa": "/pɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "PIN-код"
+   },
+   "example": "Enter your PIN.",
+   "exampleTranslation": {
+    "uk": "Введіть PIN."
+   }
+  },
+  {
+   "id": "enter",
+   "text": "enter",
+   "ipa": "/ˈentə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "вводити; входити"
+   },
+   "example": "Enter your PIN, please.",
+   "exampleTranslation": {
+    "uk": "Введіть PIN, будь ласка."
+   }
+  },
+  {
+   "id": "return",
+   "text": "return",
+   "ipa": "/rɪˈtɜːn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "повертати"
+   },
+   "example": "Can I return it?",
+   "exampleTranslation": {
+    "uk": "Можна це повернути?"
+   }
+  },
+  {
+   "id": "have_a_nice_day",
+   "text": "have a nice day",
+   "ipa": "/hæv ə ˌnaɪs ˈdeɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "гарного дня"
+   },
+   "example": "Have a nice day!",
+   "exampleTranslation": {
+    "uk": "Гарного дня!"
+   }
+  },
+  {
+   "id": "you_too",
+   "text": "you too",
+   "ipa": "/ˌjuː ˈtuː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "вам також"
+   },
+   "example": "Thanks, you too!",
+   "exampleTranslation": {
+    "uk": "Дякую, вам також!"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "It's too big. Do you have a ___ one?",
+   "options": [
+    "smaller",
+    "bigger",
+    "perfect"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Завелика — потрібна менша."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "receipt",
+     "right": {
+      "uk": "чек"
+     }
+    },
+    {
+     "left": "PIN",
+     "right": {
+      "uk": "PIN-код"
+     }
+    },
+    {
+     "left": "enter",
+     "right": {
+      "uk": "вводити"
+     }
+    },
+    {
+     "left": "return",
+     "right": {
+      "uk": "повертати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "У receipt літера p німа."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Would you like a bag?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає касир?"
+   },
+   "options": {
+    "uk": [
+     "Чи потрібен пакет",
+     "Чи є у вас сумка",
+     "Чи це ваша сумка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Would you like a bag? — пропонують пакет."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Enter your PIN, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Ввести PIN-код",
+     "Показати картку",
+     "Підписати чек"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Enter your PIN."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вам кажуть Have a nice day! Що відповісти?"
+   },
+   "options": [
+    "Thanks, you too!",
+    "Yes, please.",
+    "I'm nice."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You too — «вам також»."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I have the ___, please? I need it.",
+   "options": [
+    "receipt",
+    "PIN",
+    "enter"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Receipt — чек."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I ___ it? It's too small.",
+   "options": [
+    "return",
+    "enter",
+    "buy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Return — повернути."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можна чек, будь ласка?"
+   },
+   "words": [
+    "Can",
+    "I",
+    "have",
+    "the",
+    "receipt",
+    "please",
+    "return",
+    "a"
+   ],
+   "answer": [
+    "Can",
+    "I",
+    "have",
+    "the",
+    "receipt",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Can I have the receipt, please?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Гарного дня!"
+   },
+   "answers": [
+    "Have a nice day"
+   ],
+   "explanation": {
+    "uk": "Have a nice day!"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Card or cash?",
+   "prompt": {
+    "uk": "Ви платите карткою без PIN-коду. Що сказати?"
+   },
+   "options": [
+    "Card, please. Contactless.",
+    "Cash, please. Contactless.",
+    "PIN, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Card, please. Contactless."
+   }
+  }
+ ]
+}

@@ -1,0 +1,296 @@
+{
+ "id": "u13_l01",
+ "unit": "u13",
+ "cefr": "A0",
+ "title": {
+  "uk": "Вони"
+ },
+ "goal": {
+  "uk": "Говорити про кількох людей: вони, ми, ви."
+ },
+ "rule": {
+  "uk": "They — «вони». З they, we і you завжди стоїть are: They are friends. We are from Ukraine. Скорочено: they're, we're, you're. Усі форми разом: I am, he / she / it is, we / you / they are."
+ },
+ "words": [
+  {
+   "id": "they",
+   "text": "they",
+   "ipa": "/ðeɪ/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "вони"
+   },
+   "example": "They're my friends.",
+   "exampleTranslation": {
+    "uk": "Вони мої друзі."
+   }
+  },
+  {
+   "id": "people",
+   "text": "people",
+   "ipa": "/ˈpiːpl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "люди"
+   },
+   "example": "Ten people.",
+   "exampleTranslation": {
+    "uk": "Десять людей."
+   }
+  },
+  {
+   "id": "together",
+   "text": "together",
+   "ipa": "/təˈɡeðə/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "разом"
+   },
+   "example": "We work together.",
+   "exampleTranslation": {
+    "uk": "Ми працюємо разом."
+   }
+  },
+  {
+   "id": "both",
+   "text": "both",
+   "ipa": "/bəʊθ/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "обидва, обидві"
+   },
+   "example": "We're both teachers.",
+   "exampleTranslation": {
+    "uk": "Ми обоє вчителі."
+   }
+  },
+  {
+   "id": "colleague",
+   "text": "colleague",
+   "ipa": "/ˈkɒliːɡ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "колега"
+   },
+   "example": "She's my colleague.",
+   "exampleTranslation": {
+    "uk": "Вона моя колега."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Whose keys are these?",
+   "prompt": {
+    "uk": "Повторимо. Ключі ваші. Що відповісти?"
+   },
+   "options": [
+    "They're mine.",
+    "It's my.",
+    "They're me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "They're mine."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "they",
+     "right": {
+      "uk": "вони"
+     }
+    },
+    {
+     "left": "we",
+     "right": {
+      "uk": "ми"
+     }
+    },
+    {
+     "left": "people",
+     "right": {
+      "uk": "люди"
+     }
+    },
+    {
+     "left": "both",
+     "right": {
+      "uk": "обидва"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "People — множина від person, без -s."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "together",
+     "right": {
+      "uk": "разом"
+     }
+    },
+    {
+     "left": "colleague",
+     "right": {
+      "uk": "колега"
+     }
+    },
+    {
+     "left": "friend",
+     "right": {
+      "uk": "друг"
+     }
+    },
+    {
+     "left": "neighbour",
+     "right": {
+      "uk": "сусід"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Люди навколо нас."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "They ___ from Poland.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З they — are."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My brother and I ___ students.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Мій брат і я — це «ми», тому are."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Anna ___ my colleague.",
+   "options": [
+    "is",
+    "are",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Одна людина — is."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "We're both from Ukraine.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Ми обоє з України",
+     "Вони обоє з України",
+     "Ми разом в Україні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "We're both — ми обоє."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вони мої друзі."
+   },
+   "words": [
+    "They",
+    "are",
+    "my",
+    "friends",
+    "is",
+    "their"
+   ],
+   "answer": [
+    "They",
+    "are",
+    "my",
+    "friends"
+   ],
+   "explanation": {
+    "uk": "They are my friends."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми працюємо разом."
+   },
+   "answers": [
+    "We work together"
+   ],
+   "explanation": {
+    "uk": "We work together."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Who are these people?",
+   "prompt": {
+    "uk": "Це ваші колеги. Що відповісти?"
+   },
+   "options": [
+    "They're my colleagues.",
+    "It's my colleagues.",
+    "He's my colleagues."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "They're my colleagues."
+   }
+  }
+ ]
+}

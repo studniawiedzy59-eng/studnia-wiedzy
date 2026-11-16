@@ -1,0 +1,314 @@
+{
+ "id": "u11_l03",
+ "unit": "u11",
+ "cefr": "A0",
+ "title": {
+  "uk": "Можна приміряти?"
+ },
+ "goal": {
+  "uk": "Попросити приміряти річ і сказати, чи вона підходить."
+ },
+ "rule": {
+  "uk": "Can I try it on? — «Можна це приміряти?». Про кілька речей: Can I try them on? Якщо не підходить: It's too big або It's too small. Попросити інший розмір: Do you have a bigger one? a smaller one?"
+ },
+ "words": [
+  {
+   "id": "try_on",
+   "text": "try on",
+   "ipa": "/ˌtraɪ ˈɒn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "приміряти"
+   },
+   "example": "Can I try it on?",
+   "exampleTranslation": {
+    "uk": "Можна це приміряти?"
+   }
+  },
+  {
+   "id": "fitting_room",
+   "text": "fitting room",
+   "ipa": "/ˈfɪtɪŋ ruːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "примірочна"
+   },
+   "example": "Where is the fitting room?",
+   "exampleTranslation": {
+    "uk": "Де примірочна?"
+   }
+  },
+  {
+   "id": "bigger",
+   "text": "bigger",
+   "ipa": "/ˈbɪɡə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "більший"
+   },
+   "example": "A bigger one, please.",
+   "exampleTranslation": {
+    "uk": "Більший, будь ласка."
+   }
+  },
+  {
+   "id": "smaller",
+   "text": "smaller",
+   "ipa": "/ˈsmɔːlə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "менший"
+   },
+   "example": "Do you have a smaller one?",
+   "exampleTranslation": {
+    "uk": "Є менший?"
+   }
+  },
+  {
+   "id": "perfect",
+   "text": "perfect",
+   "ipa": "/ˈpɜːfɪkt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "ідеальний"
+   },
+   "example": "It's perfect!",
+   "exampleTranslation": {
+    "uk": "Ідеально!"
+   }
+  },
+  {
+   "id": "over_there",
+   "text": "over there",
+   "ipa": "/ˌəʊvə ˈðeə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "он там"
+   },
+   "example": "It's over there.",
+   "exampleTranslation": {
+    "uk": "Це он там."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How much is it? — Ninety pounds.",
+   "prompt": {
+    "uk": "Повторимо. Вам задорого. Що сказати?"
+   },
+   "options": [
+    "It's too expensive.",
+    "It's too cheap.",
+    "I'll take it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's too expensive."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "try on",
+     "right": {
+      "uk": "приміряти"
+     }
+    },
+    {
+     "left": "fitting room",
+     "right": {
+      "uk": "примірочна"
+     }
+    },
+    {
+     "left": "perfect",
+     "right": {
+      "uk": "ідеальний"
+     }
+    },
+    {
+     "left": "over there",
+     "right": {
+      "uk": "он там"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для примірки."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "bigger",
+     "right": {
+      "uk": "більший"
+     }
+    },
+    {
+     "left": "smaller",
+     "right": {
+      "uk": "менший"
+     }
+    },
+    {
+     "left": "cheaper",
+     "right": {
+      "uk": "дешевший"
+     }
+    },
+    {
+     "left": "too",
+     "right": {
+      "uk": "занадто"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Bigger, smaller, cheaper закінчуються на -er: «більш…»."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Can I try it on?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає покупець?"
+   },
+   "options": {
+    "uk": [
+     "Чи можна приміряти",
+     "Скільки коштує",
+     "Чи є інший колір"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Try on — приміряти."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The fitting room is over there.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже продавець?"
+   },
+   "options": {
+    "uk": [
+     "Примірочна он там",
+     "Примірочна зачинена",
+     "Примірочної немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Over there — он там."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's too small. Do you have a ___ one?",
+   "options": [
+    "bigger",
+    "smaller",
+    "cheaper"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Замала — потрібна більша: bigger."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I try ___ on?",
+   "options": [
+    "it",
+    "are",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can I try it on?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Де примірочна?"
+   },
+   "words": [
+    "Where",
+    "is",
+    "the",
+    "fitting",
+    "room",
+    "are",
+    "on"
+   ],
+   "answer": [
+    "Where",
+    "is",
+    "the",
+    "fitting",
+    "room"
+   ],
+   "explanation": {
+    "uk": "Where is the fitting room?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можна це приміряти?"
+   },
+   "answers": [
+    "Can I try it on",
+    "Can I try this on"
+   ],
+   "explanation": {
+    "uk": "Can I try it on?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "How is it?",
+   "prompt": {
+    "uk": "Річ вам підійшла ідеально. Що відповісти?"
+   },
+   "options": [
+    "It's perfect! I'll take it.",
+    "It's too big. I'll take it.",
+    "It's perfect. Too small."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's perfect! I'll take it."
+   }
+  }
+ ]
+}

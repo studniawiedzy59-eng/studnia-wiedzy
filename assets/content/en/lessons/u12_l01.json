@@ -1,0 +1,308 @@
+{
+ "id": "u12_l01",
+ "unit": "u12",
+ "cefr": "A0",
+ "title": {
+  "uk": "Наш і їхній"
+ },
+ "goal": {
+  "uk": "Сказати, що річ належить нам або їм, і спитати, чия вона."
+ },
+ "rule": {
+  "uk": "Our — «наш», their — «їхній». Як і my, вони не змінюються: our house, our children. Whose…? — «Чий…?»: Whose bag is this?"
+ },
+ "words": [
+  {
+   "id": "our",
+   "text": "our",
+   "ipa": "/ˈaʊə/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "наш"
+   },
+   "example": "This is our house.",
+   "exampleTranslation": {
+    "uk": "Це наш будинок."
+   }
+  },
+  {
+   "id": "their",
+   "text": "their",
+   "ipa": "/ðeə/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "їхній"
+   },
+   "example": "Their car is new.",
+   "exampleTranslation": {
+    "uk": "Їхня машина нова."
+   }
+  },
+  {
+   "id": "whose",
+   "text": "whose",
+   "ipa": "/huːz/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "чий"
+   },
+   "example": "Whose bag is this?",
+   "exampleTranslation": {
+    "uk": "Чия це сумка?"
+   }
+  },
+  {
+   "id": "umbrella",
+   "text": "umbrella",
+   "ipa": "/ʌmˈbrelə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "парасолька"
+   },
+   "example": "Whose umbrella is this?",
+   "exampleTranslation": {
+    "uk": "Чия це парасолька?"
+   }
+  },
+  {
+   "id": "coat",
+   "text": "coat",
+   "ipa": "/kəʊt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пальто"
+   },
+   "example": "This is my coat.",
+   "exampleTranslation": {
+    "uk": "Це моє пальто."
+   }
+  },
+  {
+   "id": "hat",
+   "text": "hat",
+   "ipa": "/hæt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "капелюх, шапка"
+   },
+   "example": "A black hat.",
+   "exampleTranslation": {
+    "uk": "Чорний капелюх."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "A bottle ___ water, please.",
+   "options": [
+    "of",
+    "for",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A bottle of water."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "my",
+     "right": {
+      "uk": "мій"
+     }
+    },
+    {
+     "left": "your",
+     "right": {
+      "uk": "твій, ваш"
+     }
+    },
+    {
+     "left": "our",
+     "right": {
+      "uk": "наш"
+     }
+    },
+    {
+     "left": "their",
+     "right": {
+      "uk": "їхній"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Усі ці слова стоять перед назвою речі."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "umbrella",
+     "right": {
+      "uk": "парасолька"
+     }
+    },
+    {
+     "left": "coat",
+     "right": {
+      "uk": "пальто"
+     }
+    },
+    {
+     "left": "hat",
+     "right": {
+      "uk": "капелюх"
+     }
+    },
+    {
+     "left": "whose",
+     "right": {
+      "uk": "чий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Речі, які часто забувають."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Whose umbrella is this?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Чия це парасолька",
+     "Де моя парасолька",
+     "Що це за парасолька"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Whose — чий."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We have a dog. ___ dog is very big.",
+   "options": [
+    "Our",
+    "Their",
+    "We"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ми — наш: our dog."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Tom and Anna have a son. ___ son is five.",
+   "options": [
+    "Their",
+    "Our",
+    "They"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вони — їхній: their son."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "an umbrella",
+    "a umbrella",
+    "an hat"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Umbrella — з голосного: an umbrella."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Чия це сумка?"
+   },
+   "words": [
+    "Whose",
+    "bag",
+    "is",
+    "this",
+    "who",
+    "our"
+   ],
+   "answer": [
+    "Whose",
+    "bag",
+    "is",
+    "this"
+   ],
+   "explanation": {
+    "uk": "Whose bag is this?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це наш будинок."
+   },
+   "answers": [
+    "This is our house"
+   ],
+   "explanation": {
+    "uk": "This is our house."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Whose coat is this?",
+   "prompt": {
+    "uk": "Це ваше пальто. Що відповісти?"
+   },
+   "options": [
+    "It's my coat.",
+    "It's our the coat.",
+    "I'm coat."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's my coat."
+   }
+  }
+ ]
+}

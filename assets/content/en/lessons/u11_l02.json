@@ -1,0 +1,293 @@
+{
+ "id": "u11_l02",
+ "unit": "u11",
+ "cefr": "A0",
+ "title": {
+  "uk": "Це задорого"
+ },
+ "goal": {
+  "uk": "Спитати ціну кількох речей і сказати, що дорого."
+ },
+ "rule": {
+  "uk": "Про одну річ: How much is this? Про кілька: How much are these? Too — «занадто»: too expensive. Cheaper — «дешевший»: Do you have a cheaper one? On sale — «зі знижкою»."
+ },
+ "words": [
+  {
+   "id": "too",
+   "text": "too",
+   "ipa": "/tuː/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "занадто"
+   },
+   "example": "It's too expensive.",
+   "exampleTranslation": {
+    "uk": "Це задорого."
+   }
+  },
+  {
+   "id": "cheaper",
+   "text": "cheaper",
+   "ipa": "/ˈtʃiːpə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "дешевший"
+   },
+   "example": "Do you have a cheaper one?",
+   "exampleTranslation": {
+    "uk": "Є дешевший?"
+   }
+  },
+  {
+   "id": "discount",
+   "text": "discount",
+   "ipa": "/ˈdɪskaʊnt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "знижка"
+   },
+   "example": "Is there a discount?",
+   "exampleTranslation": {
+    "uk": "Є знижка?"
+   }
+  },
+  {
+   "id": "sale",
+   "text": "sale",
+   "ipa": "/seɪl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "розпродаж"
+   },
+   "example": "It's on sale.",
+   "exampleTranslation": {
+    "uk": "Воно зі знижкою."
+   }
+  },
+  {
+   "id": "each",
+   "text": "each",
+   "ipa": "/iːtʃ/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "кожен, за штуку"
+   },
+   "example": "Two pounds each.",
+   "exampleTranslation": {
+    "uk": "Два фунти за штуку."
+   }
+  },
+  {
+   "id": "total",
+   "text": "total",
+   "ipa": "/ˈtəʊtl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "разом, загальна сума"
+   },
+   "example": "The total is thirty pounds.",
+   "exampleTranslation": {
+    "uk": "Разом тридцять фунтів."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm looking ___ a dress.",
+   "options": [
+    "for",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Look for — шукати."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "too",
+     "right": {
+      "uk": "занадто"
+     }
+    },
+    {
+     "left": "cheaper",
+     "right": {
+      "uk": "дешевший"
+     }
+    },
+    {
+     "left": "discount",
+     "right": {
+      "uk": "знижка"
+     }
+    },
+    {
+     "left": "sale",
+     "right": {
+      "uk": "розпродаж"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про ціну."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How much ___ these shoes?",
+   "options": [
+    "are",
+    "is",
+    "it"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Кілька речей — are."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How much ___ this bag?",
+   "options": [
+    "is",
+    "are",
+    "these"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Одна річ — is."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It's too expensive.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже покупець?"
+   },
+   "options": {
+    "uk": [
+     "Це задорого",
+     "Це дуже дешево",
+     "Це дорого, але беру"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Too expensive — задорого."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "They're five pounds each.",
+   "prompt": {
+    "uk": "Прослухайте. Яка ціна?"
+   },
+   "options": {
+    "uk": [
+     "5 фунтів за штуку",
+     "5 фунтів за всі",
+     "15 фунтів за штуку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Each — за штуку."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як попросити дешевший варіант?"
+   },
+   "options": [
+    "Do you have a cheaper one?",
+    "Do you have a cheap more?",
+    "Is it cheaper you?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A cheaper one — «дешевший»."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Є знижка?"
+   },
+   "words": [
+    "Is",
+    "there",
+    "a",
+    "discount",
+    "sale",
+    "are"
+   ],
+   "answer": [
+    "Is",
+    "there",
+    "a",
+    "discount"
+   ],
+   "explanation": {
+    "uk": "Is there a discount?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це задорого."
+   },
+   "answers": [
+    "It's too expensive",
+    "It is too expensive",
+    "This is too expensive"
+   ],
+   "explanation": {
+    "uk": "It's too expensive."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "These are on sale. Ten pounds each.",
+   "prompt": {
+    "uk": "Ви берете дві. Скільки разом скаже продавець?"
+   },
+   "options": [
+    "The total is twenty pounds.",
+    "The total is ten pounds.",
+    "The total is twelve pounds."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "10 + 10 = 20: twenty pounds."
+   }
+  }
+ ]
+}
