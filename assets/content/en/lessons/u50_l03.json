@@ -1,0 +1,323 @@
+{
+ "id": "u50_l03",
+ "unit": "u50",
+ "cefr": "A1",
+ "title": {
+  "uk": "Де займаються спортом"
+ },
+ "goal": {
+  "uk": "Назвати місця для спорту."
+ },
+ "rule": {
+  "uk": "Місця: stadium — стадіон, pool — басейн, court — корт (теніс, баскетбол), pitch — поле (футбол), track — бігова доріжка. Кажуть: swim in the pool, play on the court, run on the track."
+ },
+ "words": [
+  {
+   "id": "stadium",
+   "text": "stadium",
+   "ipa": "/ˈsteɪdiəm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "стадіон"
+   },
+   "example": "The stadium is big.",
+   "exampleTranslation": {
+    "uk": "Стадіон великий."
+   }
+  },
+  {
+   "id": "pool",
+   "text": "pool",
+   "ipa": "/puːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "басейн"
+   },
+   "example": "I swim in the pool.",
+   "exampleTranslation": {
+    "uk": "Я плаваю в басейні."
+   }
+  },
+  {
+   "id": "court",
+   "text": "court",
+   "ipa": "/kɔːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "корт"
+   },
+   "example": "We play tennis on the court.",
+   "exampleTranslation": {
+    "uk": "Ми граємо в теніс на корті."
+   }
+  },
+  {
+   "id": "pitch",
+   "text": "pitch",
+   "ipa": "/pɪtʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "футбольне поле"
+   },
+   "example": "The boys are on the pitch.",
+   "exampleTranslation": {
+    "uk": "Хлопці на полі."
+   }
+  },
+  {
+   "id": "running_track",
+   "text": "running track",
+   "ipa": "/ˈrʌnɪŋ træk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "бігова доріжка"
+   },
+   "example": "I run on the running track.",
+   "exampleTranslation": {
+    "uk": "Я бігаю біговою доріжкою."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is the score?",
+   "prompt": {
+    "uk": "Повторимо. Два — один. Що відповісти?"
+   },
+   "options": [
+    "It's two–one.",
+    "It two–one is.",
+    "Is two–one."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's two–one."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "stadium",
+     "right": {
+      "uk": "стадіон"
+     }
+    },
+    {
+     "left": "pool",
+     "right": {
+      "uk": "басейн"
+     }
+    },
+    {
+     "left": "court",
+     "right": {
+      "uk": "корт"
+     }
+    },
+    {
+     "left": "pitch",
+     "right": {
+      "uk": "футбольне поле"
+     }
+    },
+    {
+     "left": "running track",
+     "right": {
+      "uk": "бігова доріжка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Місця для спорту."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I swim in the pool.",
+   "prompt": {
+    "uk": "Прослухайте. Де плаває людина?"
+   },
+   "options": {
+    "uk": [
+     "У басейні",
+     "У морі",
+     "В озері"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pool."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We play tennis on the court.",
+   "prompt": {
+    "uk": "Прослухайте. Де вони грають?"
+   },
+   "options": {
+    "uk": [
+     "На корті",
+     "На полі",
+     "У залі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Court."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The boys are on the pitch.",
+   "prompt": {
+    "uk": "Прослухайте. Де хлопці?"
+   },
+   "options": {
+    "uk": [
+     "На полі",
+     "У басейні",
+     "На корті"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pitch."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I swim in the ___.",
+   "options": [
+    "pool",
+    "court",
+    "pitch"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pool."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We play tennis on the ___.",
+   "options": [
+    "court",
+    "pool",
+    "stadium"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Court."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is big.",
+   "options": [
+    "stadium",
+    "referee",
+    "score"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Stadium."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Де грають у футбол?"
+   },
+   "options": [
+    "on the pitch",
+    "in the pool",
+    "on the court"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pitch."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я плаваю в басейні."
+   },
+   "words": [
+    "I",
+    "swim",
+    "in",
+    "the",
+    "pool",
+    "swims",
+    "on"
+   ],
+   "answer": [
+    "I",
+    "swim",
+    "in",
+    "the",
+    "pool"
+   ],
+   "explanation": {
+    "uk": "I swim in the pool."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Стадіон великий."
+   },
+   "answers": [
+    "The stadium is big",
+    "The stadium is large"
+   ],
+   "explanation": {
+    "uk": "The stadium is big."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where do you swim?",
+   "prompt": {
+    "uk": "У басейні. Що відповісти?"
+   },
+   "options": [
+    "I swim in the pool.",
+    "I swim on the pool.",
+    "I am swim in pool."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I swim in the pool."
+   }
+  }
+ ]
+}

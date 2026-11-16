@@ -1,0 +1,228 @@
+{
+ "id": "u49_l06",
+ "unit": "u49",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: вільний час"
+ },
+ "goal": {
+  "uk": "Закріпити слова про вільний час."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: ігри (board game, card game, puzzle, win, lose), відпочинок удома й надворі, розваги онлайн, плани на вечір (What are you doing tonight?) і поради (recommend, worth, exciting)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you do in your spare time?",
+   "prompt": {
+    "uk": "Граєте в настільні ігри. Що відповісти?"
+   },
+   "options": [
+    "I play board games.",
+    "I am play board games.",
+    "I playing board games."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I play board games."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I often ___ at chess.",
+   "options": [
+    "win",
+    "wins",
+    "winning"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I win."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What are you doing ___?",
+   "options": [
+    "tonight",
+    "free",
+    "plans"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Tonight."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ти вільний сьогодні ввечері?"
+   },
+   "answers": [
+    "Are you free tonight"
+   ],
+   "explanation": {
+    "uk": "Are you free tonight?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I'm meeting a friend tonight. We're going to the cinema.",
+   "prompt": {
+    "uk": "Прослухайте. Куди підуть люди?"
+   },
+   "options": {
+    "uk": [
+     "У кіно",
+     "У парк",
+     "У кафе"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cinema."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I listen to a ___ every day.",
+   "options": [
+    "podcast",
+    "scroll",
+    "stream"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Podcast."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке речення про плани на вечір?"
+   },
+   "options": [
+    "I'm meeting a friend tonight.",
+    "I meet a friend tonight now.",
+    "I met a friend tonight."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm meeting."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я раджу цей фільм."
+   },
+   "answers": [
+    "I recommend this film"
+   ],
+   "explanation": {
+    "uk": "I recommend this film."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми влаштовуємо барбекю влітку."
+   },
+   "words": [
+    "We",
+    "have",
+    "a",
+    "barbecue",
+    "in",
+    "summer",
+    "has",
+    "on"
+   ],
+   "answer": [
+    "We",
+    "have",
+    "a",
+    "barbecue",
+    "in",
+    "summer"
+   ],
+   "explanation": {
+    "uk": "We have a barbecue in summer."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "The film is exciting. I recommend it.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина про фільм?"
+   },
+   "options": {
+    "uk": [
+     "Що він захопливий",
+     "Що він нудний",
+     "Що він довгий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Exciting."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Cooking is ___.",
+   "options": [
+    "relaxing",
+    "worth",
+    "exciting is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Relaxing."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you have any plans?",
+   "prompt": {
+    "uk": "Нічого особливого. Що відповісти?"
+   },
+   "options": [
+    "Nothing special.",
+    "Special nothing.",
+    "No special thing have."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Nothing special."
+   }
+  }
+ ]
+}

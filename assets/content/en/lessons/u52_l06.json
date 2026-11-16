@@ -1,0 +1,224 @@
+{
+ "id": "u52_l06",
+ "unit": "u52",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: скільки?"
+ },
+ "goal": {
+  "uk": "Закріпити слова про кількість."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: many і much, few і little, enough, too much, too many, міри (gram, litre, slice, piece, bunch) і приблизні кількості (a dozen, a couple of, a bit of)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How much milk do you need?",
+   "prompt": {
+    "uk": "Літр. Що відповісти?"
+   },
+   "options": [
+    "A litre, please.",
+    "Litre a, please.",
+    "One litres."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A litre."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How ___ apples do you need?",
+   "options": [
+    "many",
+    "much",
+    "more"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Many."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have ___ time. (мало)",
+   "options": [
+    "little",
+    "few",
+    "many"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Little."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мені потрібно більше часу."
+   },
+   "answers": [
+    "I need more time"
+   ],
+   "explanation": {
+    "uk": "I need more time."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "There are too many people and too much noise.",
+   "prompt": {
+    "uk": "Прослухайте. Що не так?"
+   },
+   "options": {
+    "uk": [
+     "Надто багато людей і шуму",
+     "Надто мало людей",
+     "Занадто тихо"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Too many, too much."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ of cheese.",
+   "options": [
+    "slice",
+    "bunch",
+    "litre"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Slice."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово для нелічильного?"
+   },
+   "options": [
+    "much",
+    "many",
+    "few"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Much."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Дюжину яєць, будь ласка."
+   },
+   "answers": [
+    "A dozen eggs, please"
+   ],
+   "explanation": {
+    "uk": "A dozen eggs, please."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене достатньо грошей."
+   },
+   "words": [
+    "I",
+    "have",
+    "enough",
+    "money",
+    "has",
+    "many"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "enough",
+    "money"
+   ],
+   "explanation": {
+    "uk": "I have enough money."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Half a kilo of apples and a bunch of bananas, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що купує людина?"
+   },
+   "options": {
+    "uk": [
+     "Яблука й банани",
+     "Груші й банани",
+     "Яблука й груші"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Apples and bananas."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Add a ___ of sugar.",
+   "options": [
+    "bit",
+    "dozen",
+    "couple"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A bit."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is there enough sugar?",
+   "prompt": {
+    "uk": "Ні, мало. Що відповісти?"
+   },
+   "options": [
+    "No, there isn't enough.",
+    "No, there enough isn't.",
+    "No, it isn't enough sugar are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, there isn't enough."
+   }
+  }
+ ]
+}

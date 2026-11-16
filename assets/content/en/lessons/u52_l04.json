@@ -1,0 +1,322 @@
+{
+ "id": "u52_l04",
+ "unit": "u52",
+ "cefr": "A1",
+ "title": {
+  "uk": "Міри"
+ },
+ "goal": {
+  "uk": "Назвати одиниці виміру й шматки."
+ },
+ "rule": {
+  "uk": "Gram — грам, litre — літр, slice — скибочка, piece — шматок, bunch — пучок. Усі вони з of: a slice of cheese, a piece of cake, a bunch of bananas, a litre of milk. Kilo — кілограм ви вже знаєте."
+ },
+ "words": [
+  {
+   "id": "gram",
+   "text": "gram",
+   "ipa": "/ɡræm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "грам"
+   },
+   "example": "Two hundred grams of cheese.",
+   "exampleTranslation": {
+    "uk": "Двісті грамів сиру."
+   }
+  },
+  {
+   "id": "litre",
+   "text": "litre",
+   "ipa": "/ˈliːtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "літр"
+   },
+   "example": "A litre of milk, please.",
+   "exampleTranslation": {
+    "uk": "Літр молока, будь ласка."
+   }
+  },
+  {
+   "id": "slice",
+   "text": "slice",
+   "ipa": "/slaɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "скибочка"
+   },
+   "example": "A slice of cheese.",
+   "exampleTranslation": {
+    "uk": "Скибочка сиру."
+   }
+  },
+  {
+   "id": "piece",
+   "text": "piece",
+   "ipa": "/piːs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шматок"
+   },
+   "example": "A piece of cake, please.",
+   "exampleTranslation": {
+    "uk": "Шматок торта, будь ласка."
+   }
+  },
+  {
+   "id": "bunch",
+   "text": "bunch",
+   "ipa": "/bʌntʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пучок, гроно"
+   },
+   "example": "A bunch of bananas.",
+   "exampleTranslation": {
+    "uk": "Гроно бананів."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you have enough money?",
+   "prompt": {
+    "uk": "Повторимо. Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, I have enough.",
+    "Yes, I enough have.",
+    "Yes, I am enough."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I have enough."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "gram",
+     "right": {
+      "uk": "грам"
+     }
+    },
+    {
+     "left": "litre",
+     "right": {
+      "uk": "літр"
+     }
+    },
+    {
+     "left": "slice",
+     "right": {
+      "uk": "скибочка"
+     }
+    },
+    {
+     "left": "piece",
+     "right": {
+      "uk": "шматок"
+     }
+    },
+    {
+     "left": "bunch",
+     "right": {
+      "uk": "пучок"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Міри."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Two hundred grams of cheese.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки сиру?"
+   },
+   "options": {
+    "uk": [
+     "200 грамів",
+     "300 грамів",
+     "100 грамів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "200 g."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "A litre of milk, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Літр молока",
+     "Літр води",
+     "Півлітра молока"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A litre of milk."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "A piece of cake, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Шматок торта",
+     "Скибочку сиру",
+     "Гроно бананів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A piece of cake."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ of milk, please.",
+   "options": [
+    "litre",
+    "gram",
+    "bunch"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Litre of milk."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ of cheese.",
+   "options": [
+    "slice",
+    "bunch",
+    "litre"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Slice of cheese."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A bunch ___ bananas.",
+   "options": [
+    "of",
+    "from",
+    "with"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Bunch of."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «шматок торта»?"
+   },
+   "options": [
+    "a piece of cake",
+    "a piece cake",
+    "a cake of piece"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A piece of cake."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Літр молока, будь ласка."
+   },
+   "words": [
+    "A",
+    "litre",
+    "of",
+    "milk",
+    "please",
+    "gram",
+    "from"
+   ],
+   "answer": [
+    "A",
+    "litre",
+    "of",
+    "milk",
+    "please"
+   ],
+   "explanation": {
+    "uk": "A litre of milk, please."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Двісті грамів сиру."
+   },
+   "answers": [
+    "Two hundred grams of cheese"
+   ],
+   "explanation": {
+    "uk": "Two hundred grams of cheese."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How much cheese would you like?",
+   "prompt": {
+    "uk": "Двісті грамів. Що відповісти?"
+   },
+   "options": [
+    "Two hundred grams, please.",
+    "Two hundred gram, please.",
+    "Grams two hundred."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Two hundred grams, please."
+   }
+  }
+ ]
+}

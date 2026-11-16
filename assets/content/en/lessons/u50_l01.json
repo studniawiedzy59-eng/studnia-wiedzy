@@ -1,0 +1,320 @@
+{
+ "id": "u50_l01",
+ "unit": "u50",
+ "cefr": "A1",
+ "title": {
+  "uk": "Види спорту"
+ },
+ "goal": {
+  "uk": "Назвати спорт і сказати, чим ви займаєтеся."
+ },
+ "rule": {
+  "uk": "Із грою з м'ячем кажемо play: play volleyball, play badminton, play golf. З видами спорту без м'яча — go + -ing: go skating, go swimming. Бокс — do boxing (або just box). Football, tennis, basketball ви вже знаєте."
+ },
+ "words": [
+  {
+   "id": "volleyball",
+   "text": "volleyball",
+   "ipa": "/ˈvɒlibɔːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "волейбол"
+   },
+   "example": "I play volleyball on Sundays.",
+   "exampleTranslation": {
+    "uk": "По неділях я граю у волейбол."
+   }
+  },
+  {
+   "id": "badminton",
+   "text": "badminton",
+   "ipa": "/ˈbædmɪntən/",
+   "pos": "noun",
+   "translation": {
+    "uk": "бадмінтон"
+   },
+   "example": "We play badminton in the park.",
+   "exampleTranslation": {
+    "uk": "Ми граємо в бадмінтон у парку."
+   }
+  },
+  {
+   "id": "golf",
+   "text": "golf",
+   "ipa": "/ɡɒlf/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гольф"
+   },
+   "example": "My father plays golf.",
+   "exampleTranslation": {
+    "uk": "Мій тато грає в гольф."
+   }
+  },
+  {
+   "id": "boxing",
+   "text": "boxing",
+   "ipa": "/ˈbɒksɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "бокс"
+   },
+   "example": "He does boxing twice a week.",
+   "exampleTranslation": {
+    "uk": "Він займається боксом двічі на тиждень."
+   }
+  },
+  {
+   "id": "skating",
+   "text": "skating",
+   "ipa": "/ˈskeɪtɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "катання на ковзанах"
+   },
+   "example": "We go skating in winter.",
+   "exampleTranslation": {
+    "uk": "Узимку ми ходимо кататися на ковзанах."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you have any plans?",
+   "prompt": {
+    "uk": "Повторимо. Нічого особливого. Що відповісти?"
+   },
+   "options": [
+    "Nothing special.",
+    "Special nothing.",
+    "No special thing have."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Nothing special."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "volleyball",
+     "right": {
+      "uk": "волейбол"
+     }
+    },
+    {
+     "left": "badminton",
+     "right": {
+      "uk": "бадмінтон"
+     }
+    },
+    {
+     "left": "golf",
+     "right": {
+      "uk": "гольф"
+     }
+    },
+    {
+     "left": "boxing",
+     "right": {
+      "uk": "бокс"
+     }
+    },
+    {
+     "left": "skating",
+     "right": {
+      "uk": "катання на ковзанах"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Види спорту."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I play volleyball on Sundays.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина грає у волейбол?"
+   },
+   "options": {
+    "uk": [
+     "По неділях",
+     "По суботах",
+     "По п'ятницях"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sundays."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "My father plays golf.",
+   "prompt": {
+    "uk": "Прослухайте. У що грає тато?"
+   },
+   "options": {
+    "uk": [
+     "У гольф",
+     "У теніс",
+     "У футбол"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Golf."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We go skating in winter.",
+   "prompt": {
+    "uk": "Прослухайте. Коли вони катаються?"
+   },
+   "options": {
+    "uk": [
+     "Узимку",
+     "Улітку",
+     "Восени"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Winter."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ volleyball on Sundays.",
+   "options": [
+    "play",
+    "go",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Play volleyball."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ skating in winter.",
+   "options": [
+    "go",
+    "play",
+    "make"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go skating."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ boxing twice a week.",
+   "options": [
+    "does",
+    "plays",
+    "goes"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Does boxing."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «бадмінтон»?"
+   },
+   "options": [
+    "badminton",
+    "volleyball",
+    "golf"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Badminton."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мій тато грає в гольф."
+   },
+   "words": [
+    "My",
+    "father",
+    "plays",
+    "golf",
+    "play",
+    "goes"
+   ],
+   "answer": [
+    "My",
+    "father",
+    "plays",
+    "golf"
+   ],
+   "explanation": {
+    "uk": "My father plays golf."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми граємо в бадмінтон у парку."
+   },
+   "answers": [
+    "We play badminton in the park"
+   ],
+   "explanation": {
+    "uk": "We play badminton in the park."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What sport do you play?",
+   "prompt": {
+    "uk": "Волейбол. Що відповісти?"
+   },
+   "options": [
+    "I play volleyball.",
+    "I am play volleyball.",
+    "I playing volleyball."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I play volleyball."
+   }
+  }
+ ]
+}

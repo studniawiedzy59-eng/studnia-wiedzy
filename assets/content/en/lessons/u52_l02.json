@@ -1,0 +1,322 @@
+{
+ "id": "u52_l02",
+ "unit": "u52",
+ "cefr": "A1",
+ "title": {
+  "uk": "Мало чогось"
+ },
+ "goal": {
+  "uk": "Сказати, що чогось замало."
+ },
+ "rule": {
+  "uk": "Few + лічильне: few friends — мало друзів. Little + нелічильне: little time — мало часу. Не плутайте: a few, a little — «трохи, кілька» (достатньо), а few, little без a — «мало» (замало). Hardly any — «майже нічого». Not many, not much — «небагато»."
+ },
+ "words": [
+  {
+   "id": "few",
+   "text": "few",
+   "ipa": "/fjuː/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "мало (лічильних)"
+   },
+   "example": "I have few friends here.",
+   "exampleTranslation": {
+    "uk": "У мене тут мало друзів."
+   }
+  },
+  {
+   "id": "little",
+   "text": "little",
+   "ipa": "/ˈlɪtl/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "мало (нелічильних)"
+   },
+   "example": "I have little time.",
+   "exampleTranslation": {
+    "uk": "У мене мало часу."
+   }
+  },
+  {
+   "id": "hardly_any",
+   "text": "hardly any",
+   "ipa": "/ˌhɑːdli ˈeni/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "майже жодного"
+   },
+   "example": "There is hardly any milk.",
+   "exampleTranslation": {
+    "uk": "Молока майже не лишилося."
+   }
+  },
+  {
+   "id": "not_many",
+   "text": "not many",
+   "ipa": "/ˌnɒt ˈmeni/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "небагато"
+   },
+   "example": "Not many people came.",
+   "exampleTranslation": {
+    "uk": "Прийшло небагато людей."
+   }
+  },
+  {
+   "id": "not_much",
+   "text": "not much",
+   "ipa": "/ˌnɒt ˈmʌtʃ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "небагато"
+   },
+   "example": "There is not much sugar.",
+   "exampleTranslation": {
+    "uk": "Цукру небагато."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How much milk do you need?",
+   "prompt": {
+    "uk": "Повторимо. Півлітра. Що відповісти?"
+   },
+   "options": [
+    "Half a litre.",
+    "Half litre a.",
+    "A half of litre is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Half a litre."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "few",
+     "right": {
+      "uk": "мало (лічильних)"
+     }
+    },
+    {
+     "left": "little",
+     "right": {
+      "uk": "мало (нелічильних)"
+     }
+    },
+    {
+     "left": "hardly any",
+     "right": {
+      "uk": "майже жодного"
+     }
+    },
+    {
+     "left": "not many",
+     "right": {
+      "uk": "небагато (лічильних)"
+     }
+    },
+    {
+     "left": "not much",
+     "right": {
+      "uk": "небагато (нелічильних)"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для малої кількості."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I have few friends here.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "У неї тут мало друзів",
+     "У неї тут багато друзів",
+     "У неї тут немає друзів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Few."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There is hardly any milk.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Молока майже немає",
+     "Молока багато",
+     "Молока достатньо"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hardly any."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Not many people came.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки людей прийшло?"
+   },
+   "options": {
+    "uk": [
+     "Небагато",
+     "Багато",
+     "Ніхто"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Not many."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have ___ friends here. (мало)",
+   "options": [
+    "few",
+    "little",
+    "much"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Friends — лічильне: few."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have ___ time. (мало)",
+   "options": [
+    "little",
+    "few",
+    "many"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Time — нелічильне: little."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is ___ any milk.",
+   "options": [
+    "hardly",
+    "hard",
+    "few"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hardly any."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає «a few»?"
+   },
+   "options": {
+    "uk": [
+     "кілька",
+     "жодного",
+     "мало, замало"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A few — кілька."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене мало часу."
+   },
+   "words": [
+    "I",
+    "have",
+    "little",
+    "time",
+    "few",
+    "has"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "little",
+    "time"
+   ],
+   "explanation": {
+    "uk": "I have little time."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Прийшло небагато людей."
+   },
+   "answers": [
+    "Not many people came"
+   ],
+   "explanation": {
+    "uk": "Not many people came."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is there any sugar?",
+   "prompt": {
+    "uk": "Майже немає. Що відповісти?"
+   },
+   "options": [
+    "There is hardly any.",
+    "There hardly is any.",
+    "Hardly any there are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is hardly any."
+   }
+  }
+ ]
+}

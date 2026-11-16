@@ -1,0 +1,224 @@
+{
+ "id": "u51_l06",
+ "unit": "u51",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: продукти"
+ },
+ "goal": {
+  "uk": "Закріпити слова про продукти."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: смак (sweet, sour, bitter, spicy), м'ясо й солодке, овочі та ягоди, упаковки (jar, box, carton, tin, loaf) і слова з рецепта (recipe, ingredient, mix)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What does it taste like?",
+   "prompt": {
+    "uk": "Гостро. Що відповісти?"
+   },
+   "options": [
+    "It tastes spicy.",
+    "It tastes spicily.",
+    "It is taste spicy."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It tastes spicy."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Black coffee is ___.",
+   "options": [
+    "bitter",
+    "sweet",
+    "tasty is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Bitter."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ of honey, please.",
+   "options": [
+    "jar",
+    "loaf",
+    "carton"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Jar."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Буханку хліба, будь ласка."
+   },
+   "answers": [
+    "A loaf of bread, please"
+   ],
+   "explanation": {
+    "uk": "A loaf of bread, please."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We need flour for the cake. Mix the flour and the eggs.",
+   "prompt": {
+    "uk": "Прослухайте. Що змішують?"
+   },
+   "options": {
+    "uk": [
+     "Борошно й яйця",
+     "Цукор і молоко",
+     "Олію й сіль"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Flour and eggs."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Strawberries ___ red.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Strawberries are."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «консерва»?"
+   },
+   "options": [
+    "tin",
+    "jar",
+    "box"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Tin."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я люблю чорний шоколад."
+   },
+   "answers": [
+    "I love dark chocolate"
+   ],
+   "explanation": {
+    "uk": "I love dark chocolate."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Цей рецепт простий."
+   },
+   "words": [
+    "This",
+    "recipe",
+    "is",
+    "simple",
+    "are",
+    "mix"
+   ],
+   "answer": [
+    "This",
+    "recipe",
+    "is",
+    "simple"
+   ],
+   "explanation": {
+    "uk": "This recipe is simple."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "I don't eat beef. I eat chicken and fish.",
+   "prompt": {
+    "uk": "Прослухайте. Що їсть людина?"
+   },
+   "options": {
+    "uk": [
+     "Курку й рибу",
+     "Яловичину",
+     "Свинину"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Chicken and fish."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I buy ___ vegetables.",
+   "options": [
+    "frozen",
+    "freeze",
+    "freezing"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Frozen."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What are the ingredients?",
+   "prompt": {
+    "uk": "Борошно й олія. Що відповісти?"
+   },
+   "options": [
+    "Flour and oil.",
+    "Flour and oil are.",
+    "Is flour and oil."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Flour and oil."
+   }
+  }
+ ]
+}

@@ -1,0 +1,323 @@
+{
+ "id": "u49_l04",
+ "unit": "u49",
+ "cefr": "A1",
+ "title": {
+  "uk": "Що ти робиш сьогодні ввечері?"
+ },
+ "goal": {
+  "uk": "Домовитися про вечір."
+ },
+ "rule": {
+  "uk": "Для планів на найближчий час уживаємо am/is/are + -ing: I'm meeting a friend tonight. Tonight — сьогодні ввечері. Plans — плани. I'm free — я вільний. Are you free tonight? — «Ти вільний сьогодні ввечері?»"
+ },
+ "words": [
+  {
+   "id": "tonight",
+   "text": "tonight",
+   "ipa": "/təˈnaɪt/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "сьогодні ввечері"
+   },
+   "example": "What are you doing tonight?",
+   "exampleTranslation": {
+    "uk": "Що ти робиш сьогодні ввечері?"
+   }
+  },
+  {
+   "id": "plans",
+   "text": "plans",
+   "ipa": "/plænz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "плани"
+   },
+   "example": "Do you have any plans?",
+   "exampleTranslation": {
+    "uk": "У тебе є плани?"
+   }
+  },
+  {
+   "id": "available",
+   "text": "available",
+   "ipa": "/əˈveɪləbl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "вільний, доступний"
+   },
+   "example": "Are you available tonight?",
+   "exampleTranslation": {
+    "uk": "Ти вільний сьогодні ввечері?"
+   }
+  },
+  {
+   "id": "meet_a_friend",
+   "text": "meet a friend",
+   "ipa": "/ˌmiːt ə ˈfrend/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "зустрітися з другом"
+   },
+   "example": "I'm meeting a friend tonight.",
+   "exampleTranslation": {
+    "uk": "Сьогодні ввечері я зустрічаюся з другом."
+   }
+  },
+  {
+   "id": "nothing_special",
+   "text": "nothing special",
+   "ipa": "/ˌnʌθɪŋ ˈspeʃl/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "нічого особливого"
+   },
+   "example": "I'm doing nothing special.",
+   "exampleTranslation": {
+    "uk": "Я не роблю нічого особливого."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you listen to podcasts?",
+   "prompt": {
+    "uk": "Повторимо. Так, щодня. Що відповісти?"
+   },
+   "options": [
+    "Yes, every day.",
+    "Yes, day every.",
+    "Yes, I listening day."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, every day."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "tonight",
+     "right": {
+      "uk": "сьогодні ввечері"
+     }
+    },
+    {
+     "left": "plans",
+     "right": {
+      "uk": "плани"
+     }
+    },
+    {
+     "left": "available",
+     "right": {
+      "uk": "вільний"
+     }
+    },
+    {
+     "left": "meet a friend",
+     "right": {
+      "uk": "зустрітися з другом"
+     }
+    },
+    {
+     "left": "nothing special",
+     "right": {
+      "uk": "нічого особливого"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про плани."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "What are you doing tonight?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Про плани на вечір",
+     "Про вечерю",
+     "Про роботу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tonight."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'm meeting a friend tonight.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина ввечері?"
+   },
+   "options": {
+    "uk": [
+     "Зустрічається з другом",
+     "Працює",
+     "Спить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Meeting a friend."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Nothing special. Why?",
+   "prompt": {
+    "uk": "Прослухайте. Що відповіла людина?"
+   },
+   "options": {
+    "uk": [
+     "Нічого особливого",
+     "Має плани",
+     "Не знає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nothing special."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What are you doing ___?",
+   "options": [
+    "tonight",
+    "free",
+    "plans"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Tonight."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Are you ___ tonight?",
+   "options": [
+    "free",
+    "plans",
+    "nothing"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Free."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ a friend tonight.",
+   "options": [
+    "meeting",
+    "meet",
+    "meets"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm meeting."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати «Що ти робиш сьогодні ввечері?»"
+   },
+   "options": [
+    "What are you doing tonight?",
+    "What do you doing tonight?",
+    "What you are doing tonight?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What are you doing tonight?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Сьогодні ввечері я зустрічаюся з другом."
+   },
+   "words": [
+    "I'm",
+    "meeting",
+    "a",
+    "friend",
+    "tonight",
+    "meet",
+    "free"
+   ],
+   "answer": [
+    "I'm",
+    "meeting",
+    "a",
+    "friend",
+    "tonight"
+   ],
+   "explanation": {
+    "uk": "I'm meeting a friend tonight."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У тебе є плани?"
+   },
+   "answers": [
+    "Do you have any plans",
+    "Have you got any plans"
+   ],
+   "explanation": {
+    "uk": "Do you have any plans?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Are you free tonight?",
+   "prompt": {
+    "uk": "Так, вільні. Що відповісти?"
+   },
+   "options": [
+    "Yes, I'm free.",
+    "Yes, I free.",
+    "Yes, I have free."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I'm free."
+   }
+  }
+ ]
+}

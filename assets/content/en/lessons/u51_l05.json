@@ -1,0 +1,320 @@
+{
+ "id": "u51_l05",
+ "unit": "u51",
+ "cefr": "A1",
+ "title": {
+  "uk": "Рецепт"
+ },
+ "goal": {
+  "uk": "Розуміти простий рецепт."
+ },
+ "rule": {
+  "uk": "Recipe — рецепт, ingredient — інгредієнт, snack — легка перекуска, frozen — заморожений, biscuit — печиво. Рецепт пишуть наказовою формою: Mix the flour and the eggs. Add a little oil. Cook for ten minutes."
+ },
+ "words": [
+  {
+   "id": "recipe",
+   "text": "recipe",
+   "ipa": "/ˈresəpi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рецепт"
+   },
+   "example": "This recipe is simple.",
+   "exampleTranslation": {
+    "uk": "Цей рецепт простий."
+   }
+  },
+  {
+   "id": "ingredient",
+   "text": "ingredient",
+   "ipa": "/ɪnˈɡriːdiənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "інгредієнт"
+   },
+   "example": "What are the ingredients?",
+   "exampleTranslation": {
+    "uk": "Які інгредієнти?"
+   }
+  },
+  {
+   "id": "snack",
+   "text": "snack",
+   "ipa": "/snæk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "перекуска"
+   },
+   "example": "I have a snack at four.",
+   "exampleTranslation": {
+    "uk": "О четвертій я перекушую."
+   }
+  },
+  {
+   "id": "frozen",
+   "text": "frozen",
+   "ipa": "/ˈfrəʊzn/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "заморожений"
+   },
+   "example": "I buy frozen vegetables.",
+   "exampleTranslation": {
+    "uk": "Я купую заморожені овочі."
+   }
+  },
+  {
+   "id": "mix",
+   "text": "mix",
+   "ipa": "/mɪks/",
+   "pos": "verb",
+   "translation": {
+    "uk": "змішувати"
+   },
+   "example": "Mix the flour and the eggs.",
+   "exampleTranslation": {
+    "uk": "Змішайте борошно й яйця."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What would you like?",
+   "prompt": {
+    "uk": "Повторимо. Пачку молока. Що відповісти?"
+   },
+   "options": [
+    "A carton of milk, please.",
+    "A carton milk, please.",
+    "Milk of carton."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A carton of milk, please."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "recipe",
+     "right": {
+      "uk": "рецепт"
+     }
+    },
+    {
+     "left": "ingredient",
+     "right": {
+      "uk": "інгредієнт"
+     }
+    },
+    {
+     "left": "snack",
+     "right": {
+      "uk": "перекуска"
+     }
+    },
+    {
+     "left": "frozen",
+     "right": {
+      "uk": "заморожений"
+     }
+    },
+    {
+     "left": "mix",
+     "right": {
+      "uk": "змішувати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для рецепта."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "This recipe is simple.",
+   "prompt": {
+    "uk": "Прослухайте. Який рецепт?"
+   },
+   "options": {
+    "uk": [
+     "Простий",
+     "Складний",
+     "Довгий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Simple."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Mix the flour and the eggs.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Змішати борошно й яйця",
+     "Купити борошно",
+     "Розбити яйця"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Mix."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I buy frozen vegetables.",
+   "prompt": {
+    "uk": "Прослухайте. Які овочі купує людина?"
+   },
+   "options": {
+    "uk": [
+     "Заморожені",
+     "Свіжі",
+     "Консервовані"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Frozen."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This ___ is simple.",
+   "options": [
+    "recipe",
+    "snack",
+    "mix"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Recipe."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ the flour and the eggs.",
+   "options": [
+    "Mix",
+    "Mixes",
+    "Mixing"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Mix."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___ at four.",
+   "options": [
+    "snack",
+    "recipe",
+    "frozen"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Snack."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «інгредієнт»?"
+   },
+   "options": [
+    "ingredient",
+    "recipe",
+    "snack"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ingredient."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Додайте трохи олії."
+   },
+   "words": [
+    "Add",
+    "a",
+    "little",
+    "oil",
+    "Adds",
+    "flour"
+   ],
+   "answer": [
+    "Add",
+    "a",
+    "little",
+    "oil"
+   ],
+   "explanation": {
+    "uk": "Add a little oil."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Цей рецепт простий."
+   },
+   "answers": [
+    "This recipe is simple"
+   ],
+   "explanation": {
+    "uk": "This recipe is simple."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What are the ingredients?",
+   "prompt": {
+    "uk": "Борошно, яйця й молоко. Що відповісти?"
+   },
+   "options": [
+    "Flour, eggs and milk.",
+    "Flour eggs and milk is.",
+    "Ingredients flour eggs."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Flour, eggs and milk."
+   }
+  }
+ ]
+}

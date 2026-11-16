@@ -1,0 +1,322 @@
+{
+ "id": "u50_l02",
+ "unit": "u50",
+ "cefr": "A1",
+ "title": {
+  "uk": "Матч"
+ },
+ "goal": {
+  "uk": "Розповісти про змагання."
+ },
+ "rule": {
+  "uk": "Match — матч, player — гравець, coach — тренер, win — вигравати, lose — програвати (їх ви вже знаєте). Score — рахунок, а також «рахувати очки»: The score is two — one. Who won? — «Хто переміг?»"
+ },
+ "words": [
+  {
+   "id": "match",
+   "text": "match",
+   "ipa": "/mætʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "матч"
+   },
+   "example": "The match starts at seven.",
+   "exampleTranslation": {
+    "uk": "Матч починається о сьомій."
+   }
+  },
+  {
+   "id": "player",
+   "text": "player",
+   "ipa": "/ˈpleɪə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гравець"
+   },
+   "example": "He is a good player.",
+   "exampleTranslation": {
+    "uk": "Він добрий гравець."
+   }
+  },
+  {
+   "id": "coach",
+   "text": "coach",
+   "ipa": "/kəʊtʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тренер"
+   },
+   "example": "Our coach is strict.",
+   "exampleTranslation": {
+    "uk": "Наш тренер суворий."
+   }
+  },
+  {
+   "id": "score",
+   "text": "score",
+   "ipa": "/skɔː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рахунок"
+   },
+   "example": "The score is two–one.",
+   "exampleTranslation": {
+    "uk": "Рахунок два — один."
+   }
+  },
+  {
+   "id": "referee",
+   "text": "referee",
+   "ipa": "/ˌrefəˈriː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "суддя"
+   },
+   "example": "The referee is fair.",
+   "exampleTranslation": {
+    "uk": "Суддя справедливий."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What sport do you play?",
+   "prompt": {
+    "uk": "Повторимо. Волейбол. Що відповісти?"
+   },
+   "options": [
+    "I play volleyball.",
+    "I am play volleyball.",
+    "I playing volleyball."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I play volleyball."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "match",
+     "right": {
+      "uk": "матч"
+     }
+    },
+    {
+     "left": "player",
+     "right": {
+      "uk": "гравець"
+     }
+    },
+    {
+     "left": "coach",
+     "right": {
+      "uk": "тренер"
+     }
+    },
+    {
+     "left": "score",
+     "right": {
+      "uk": "рахунок"
+     }
+    },
+    {
+     "left": "referee",
+     "right": {
+      "uk": "суддя"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про змагання."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The match starts at seven.",
+   "prompt": {
+    "uk": "Прослухайте. Коли починається матч?"
+   },
+   "options": {
+    "uk": [
+     "О сьомій",
+     "О шостій",
+     "О восьмій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At seven."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The score is two–one.",
+   "prompt": {
+    "uk": "Прослухайте. Який рахунок?"
+   },
+   "options": {
+    "uk": [
+     "Два — один",
+     "Один — два",
+     "Три — один"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Two–one."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Our coach is strict.",
+   "prompt": {
+    "uk": "Прослухайте. Який тренер?"
+   },
+   "options": {
+    "uk": [
+     "Суворий",
+     "Добрий",
+     "Молодий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Strict."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ starts at seven.",
+   "options": [
+    "match",
+    "coach",
+    "score"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Match."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is a good ___.",
+   "options": [
+    "player",
+    "match",
+    "referee"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Player."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Our ___ is strict.",
+   "options": [
+    "coach",
+    "score",
+    "match"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Coach."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Хто свистить і дивиться за правилами?"
+   },
+   "options": [
+    "referee",
+    "coach",
+    "player"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Referee."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Рахунок два — один."
+   },
+   "words": [
+    "The",
+    "score",
+    "is",
+    "two",
+    "one",
+    "are",
+    "match"
+   ],
+   "answer": [
+    "The",
+    "score",
+    "is",
+    "two",
+    "one"
+   ],
+   "explanation": {
+    "uk": "The score is two one."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Матч починається о сьомій."
+   },
+   "answers": [
+    "The match starts at seven"
+   ],
+   "explanation": {
+    "uk": "The match starts at seven."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is the score?",
+   "prompt": {
+    "uk": "Два — один. Що відповісти?"
+   },
+   "options": [
+    "It's two–one.",
+    "It two–one is.",
+    "Is two–one."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's two–one."
+   }
+  }
+ ]
+}

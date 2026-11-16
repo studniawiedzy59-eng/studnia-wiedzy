@@ -1,0 +1,320 @@
+{
+ "id": "u49_l03",
+ "unit": "u49",
+ "cefr": "A1",
+ "title": {
+  "uk": "Розваги онлайн"
+ },
+ "goal": {
+  "uk": "Розповісти про відпочинок у телефоні й комп'ютері."
+ },
+ "rule": {
+  "uk": "Online — в інтернеті. Audiobook — аудіокнижка, video game — відеогра, stream — дивитися онлайн, scroll — гортати. Приклад: I listen to podcasts. He plays video games. We stream films."
+ },
+ "words": [
+  {
+   "id": "audiobook",
+   "text": "audiobook",
+   "ipa": "/ˈɔːdiəʊbʊk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "аудіокнижка"
+   },
+   "example": "I listen to an audiobook every day.",
+   "exampleTranslation": {
+    "uk": "Щодня я слухаю аудіокнижку."
+   }
+  },
+  {
+   "id": "video_game",
+   "text": "video game",
+   "ipa": "/ˈvɪdiəʊ ɡeɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "відеогра"
+   },
+   "example": "He plays video games.",
+   "exampleTranslation": {
+    "uk": "Він грає у відеоігри."
+   }
+  },
+  {
+   "id": "stream",
+   "text": "stream",
+   "ipa": "/striːm/",
+   "pos": "verb",
+   "translation": {
+    "uk": "дивитися онлайн"
+   },
+   "example": "We stream films at the weekend.",
+   "exampleTranslation": {
+    "uk": "На вихідних ми дивимося фільми онлайн."
+   }
+  },
+  {
+   "id": "scroll",
+   "text": "scroll",
+   "ipa": "/skrəʊl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "гортати стрічку"
+   },
+   "example": "I scroll through the news.",
+   "exampleTranslation": {
+    "uk": "Я гортаю новини."
+   }
+  },
+  {
+   "id": "playlist",
+   "text": "playlist",
+   "ipa": "/ˈpleɪlɪst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "плейлист"
+   },
+   "example": "I make a new playlist every week.",
+   "exampleTranslation": {
+    "uk": "Щотижня я складаю новий плейлист."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you do in your spare time?",
+   "prompt": {
+    "uk": "Повторимо. Ви читаєте. Що відповісти?"
+   },
+   "options": [
+    "I read books.",
+    "I am read books.",
+    "I reading books."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I read books."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "audiobook",
+     "right": {
+      "uk": "аудіокнижка"
+     }
+    },
+    {
+     "left": "video game",
+     "right": {
+      "uk": "відеогра"
+     }
+    },
+    {
+     "left": "stream",
+     "right": {
+      "uk": "дивитися онлайн"
+     }
+    },
+    {
+     "left": "scroll",
+     "right": {
+      "uk": "гортати"
+     }
+    },
+    {
+     "left": "playlist",
+     "right": {
+      "uk": "плейлист"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про розваги онлайн."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I listen to a podcast every day.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина щодня?"
+   },
+   "options": {
+    "uk": [
+     "Слухає подкаст",
+     "Грає у відеогру",
+     "Дивиться фільм"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Podcast."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He plays video games.",
+   "prompt": {
+    "uk": "Прослухайте. У що грає чоловік?"
+   },
+   "options": {
+    "uk": [
+     "У відеоігри",
+     "У шахи",
+     "У футбол"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Video games."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We stream films at the weekend.",
+   "prompt": {
+    "uk": "Прослухайте. Коли вони дивляться фільми?"
+   },
+   "options": {
+    "uk": [
+     "На вихідних",
+     "У будні",
+     "Щодня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Weekend."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I listen to a ___ every day.",
+   "options": [
+    "podcast",
+    "scroll",
+    "stream"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Podcast."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He plays ___ games.",
+   "options": [
+    "video",
+    "videos",
+    "videoing"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Video games."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I chat with friends ___.",
+   "options": [
+    "online",
+    "scroll",
+    "stream"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Online."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «гортати»?"
+   },
+   "options": [
+    "scroll",
+    "stream",
+    "podcast"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Scroll."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він грає у відеоігри."
+   },
+   "words": [
+    "He",
+    "plays",
+    "video",
+    "games",
+    "play",
+    "stream"
+   ],
+   "answer": [
+    "He",
+    "plays",
+    "video",
+    "games"
+   ],
+   "explanation": {
+    "uk": "He plays video games."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я спілкуюся з друзями онлайн."
+   },
+   "answers": [
+    "I chat with friends online"
+   ],
+   "explanation": {
+    "uk": "I chat with friends online."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you listen to podcasts?",
+   "prompt": {
+    "uk": "Так, щодня. Що відповісти?"
+   },
+   "options": [
+    "Yes, every day.",
+    "Yes, day every.",
+    "Yes, I listening day."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, every day."
+   }
+  }
+ ]
+}

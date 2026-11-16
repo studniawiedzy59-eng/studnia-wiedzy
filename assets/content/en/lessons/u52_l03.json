@@ -1,0 +1,321 @@
+{
+ "id": "u52_l03",
+ "unit": "u52",
+ "cefr": "A1",
+ "title": {
+  "uk": "Достатньо? Надто багато?"
+ },
+ "goal": {
+  "uk": "Оцінити, чи кількість нормальна."
+ },
+ "rule": {
+  "uk": "Enough — достатньо: I have enough money. Not enough — недостатньо. Too much + нелічильне: too much sugar. Too many + лічильне: too many people. Less — менше (про нелічильне): I eat less sugar. More — більше: I need more time."
+ },
+ "words": [
+  {
+   "id": "enough",
+   "text": "enough",
+   "ipa": "/ɪˈnʌf/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "достатньо"
+   },
+   "example": "I have enough money.",
+   "exampleTranslation": {
+    "uk": "У мене достатньо грошей."
+   }
+  },
+  {
+   "id": "not_enough",
+   "text": "not enough",
+   "ipa": "/ˌnɒt ɪˈnʌf/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "недостатньо"
+   },
+   "example": "There is not enough sugar.",
+   "exampleTranslation": {
+    "uk": "Цукру недостатньо."
+   }
+  },
+  {
+   "id": "too_much",
+   "text": "too much",
+   "ipa": "/ˌtuː ˈmʌtʃ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "надто багато (нелічильного)"
+   },
+   "example": "There is too much salt.",
+   "exampleTranslation": {
+    "uk": "Тут надто багато солі."
+   }
+  },
+  {
+   "id": "too_many",
+   "text": "too many",
+   "ipa": "/ˌtuː ˈmeni/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "надто багато (лічильного)"
+   },
+   "example": "There are too many people.",
+   "exampleTranslation": {
+    "uk": "Тут надто багато людей."
+   }
+  },
+  {
+   "id": "less",
+   "text": "less",
+   "ipa": "/les/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "менше (нелічильного)"
+   },
+   "example": "I eat less sugar now.",
+   "exampleTranslation": {
+    "uk": "Тепер я їм менше цукру."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is there any sugar?",
+   "prompt": {
+    "uk": "Повторимо. Майже немає. Що відповісти?"
+   },
+   "options": [
+    "There is hardly any.",
+    "There hardly is any.",
+    "Hardly any there are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is hardly any."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "enough",
+     "right": {
+      "uk": "достатньо"
+     }
+    },
+    {
+     "left": "not enough",
+     "right": {
+      "uk": "недостатньо"
+     }
+    },
+    {
+     "left": "too much",
+     "right": {
+      "uk": "надто багато (нелічильного)"
+     }
+    },
+    {
+     "left": "too many",
+     "right": {
+      "uk": "надто багато (лічильного)"
+     }
+    },
+    {
+     "left": "less",
+     "right": {
+      "uk": "менше"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для оцінки кількості."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I have enough money.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Грошей їй вистачає",
+     "Грошей їй не вистачає",
+     "Грошей немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Enough."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There is too much salt.",
+   "prompt": {
+    "uk": "Прослухайте. Що не так?"
+   },
+   "options": {
+    "uk": [
+     "Надто багато солі",
+     "Надто мало солі",
+     "Немає солі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Too much salt."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "There are too many people.",
+   "prompt": {
+    "uk": "Прослухайте. Що не так?"
+   },
+   "options": {
+    "uk": [
+     "Надто багато людей",
+     "Надто мало людей",
+     "Людей немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Too many."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have ___ money.",
+   "options": [
+    "enough",
+    "many",
+    "few"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Enough."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is too ___ salt.",
+   "options": [
+    "much",
+    "many",
+    "few"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Salt — нелічильне: too much."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There are too ___ people.",
+   "options": [
+    "many",
+    "much",
+    "enough"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "People — лічильне: too many."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка фраза означає «недостатньо»?"
+   },
+   "options": [
+    "not enough",
+    "too much",
+    "plenty of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Not enough."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мені потрібно більше часу."
+   },
+   "words": [
+    "I",
+    "need",
+    "more",
+    "time",
+    "needs",
+    "many"
+   ],
+   "answer": [
+    "I",
+    "need",
+    "more",
+    "time"
+   ],
+   "explanation": {
+    "uk": "I need more time."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Цукру недостатньо."
+   },
+   "answers": [
+    "There is not enough sugar",
+    "There isn't enough sugar"
+   ],
+   "explanation": {
+    "uk": "There is not enough sugar."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you have enough money?",
+   "prompt": {
+    "uk": "Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, I have enough.",
+    "Yes, I enough have.",
+    "Yes, I am enough."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I have enough."
+   }
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+ "id": "u52_l05",
+ "unit": "u52",
+ "cefr": "A1",
+ "title": {
+  "uk": "Приблизна кількість"
+ },
+ "goal": {
+  "uk": "Назвати приблизну кількість."
+ },
+ "rule": {
+  "uk": "Half a kilo — півкіло, a quarter — чверть, a dozen — дюжина (12), a couple of — пара, кілька (2–3), a bit of — трохи. Приклад: a dozen eggs, a couple of apples, a bit of sugar."
+ },
+ "words": [
+  {
+   "id": "half_a_kilo",
+   "text": "half a kilo",
+   "ipa": "/ˌhɑːf ə ˈkiːləʊ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "півкіло"
+   },
+   "example": "Half a kilo of apples.",
+   "exampleTranslation": {
+    "uk": "Півкіло яблук."
+   }
+  },
+  {
+   "id": "a_quarter",
+   "text": "a quarter",
+   "ipa": "/ə ˈkwɔːtə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "чверть"
+   },
+   "example": "A quarter of the cake.",
+   "exampleTranslation": {
+    "uk": "Чверть торта."
+   }
+  },
+  {
+   "id": "a_dozen",
+   "text": "a dozen",
+   "ipa": "/ə ˈdʌzn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "дюжина"
+   },
+   "example": "A dozen eggs, please.",
+   "exampleTranslation": {
+    "uk": "Дюжину яєць, будь ласка."
+   }
+  },
+  {
+   "id": "a_couple_of",
+   "text": "a couple of",
+   "ipa": "/ə ˈkʌpl əv/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "пара, кілька"
+   },
+   "example": "I need a couple of apples.",
+   "exampleTranslation": {
+    "uk": "Мені потрібна пара яблук."
+   }
+  },
+  {
+   "id": "a_bit_of",
+   "text": "a bit of",
+   "ipa": "/ə ˈbɪt əv/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "трохи"
+   },
+   "example": "Add a bit of sugar.",
+   "exampleTranslation": {
+    "uk": "Додайте трохи цукру."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How much cheese would you like?",
+   "prompt": {
+    "uk": "Повторимо. Двісті грамів. Що відповісти?"
+   },
+   "options": [
+    "Two hundred grams, please.",
+    "Two hundred gram, please.",
+    "Grams two hundred."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Two hundred grams, please."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "half a kilo",
+     "right": {
+      "uk": "півкіло"
+     }
+    },
+    {
+     "left": "a quarter",
+     "right": {
+      "uk": "чверть"
+     }
+    },
+    {
+     "left": "a dozen",
+     "right": {
+      "uk": "дюжина"
+     }
+    },
+    {
+     "left": "a couple of",
+     "right": {
+      "uk": "пара"
+     }
+    },
+    {
+     "left": "a bit of",
+     "right": {
+      "uk": "трохи"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Приблизна кількість."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "A dozen eggs, please.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки яєць?"
+   },
+   "options": {
+    "uk": [
+     "Дванадцять",
+     "Десять",
+     "Шість"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A dozen — 12."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Half a kilo of apples.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки яблук?"
+   },
+   "options": {
+    "uk": [
+     "Півкіло",
+     "Кілограм",
+     "Чверть кіло"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Half a kilo."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Add a bit of sugar.",
+   "prompt": {
+    "uk": "Прослухайте. Що додати?"
+   },
+   "options": {
+    "uk": [
+     "Трохи цукру",
+     "Багато цукру",
+     "Цукор не додавати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A bit."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ eggs, please.",
+   "options": [
+    "dozen",
+    "quarter",
+    "bit"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A dozen."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I need a ___ of apples.",
+   "options": [
+    "couple",
+    "dozen",
+    "bunch half"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A couple of."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Add a ___ of sugar.",
+   "options": [
+    "bit",
+    "dozen",
+    "quarter"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A bit of."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Скільки яєць у дюжині?"
+   },
+   "options": [
+    "12",
+    "6",
+    "10"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "12."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Півкіло яблук, будь ласка."
+   },
+   "words": [
+    "Half",
+    "a",
+    "kilo",
+    "of",
+    "apples",
+    "please",
+    "dozen",
+    "from"
+   ],
+   "answer": [
+    "Half",
+    "a",
+    "kilo",
+    "of",
+    "apples",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Half a kilo of apples, please."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мені потрібна пара яблук."
+   },
+   "answers": [
+    "I need a couple of apples"
+   ],
+   "explanation": {
+    "uk": "I need a couple of apples."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How many eggs do you need?",
+   "prompt": {
+    "uk": "Дюжину. Що відповісти?"
+   },
+   "options": [
+    "A dozen, please.",
+    "Dozen a, please.",
+    "A dozens."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A dozen, please."
+   }
+  }
+ ]
+}

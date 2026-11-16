@@ -1,0 +1,322 @@
+{
+ "id": "u49_l01",
+ "unit": "u49",
+ "cefr": "A1",
+ "title": {
+  "uk": "Настільні ігри"
+ },
+ "goal": {
+  "uk": "Розповісти про ігри, у які грають вдома."
+ },
+ "rule": {
+  "uk": "Ігри вдома: a board game — настільна гра, a card game — карткова гра, a puzzle — головоломка. Play + гра: play chess, play cards, play a board game. Win — вигравати, lose — програвати."
+ },
+ "words": [
+  {
+   "id": "board_game",
+   "text": "board game",
+   "ipa": "/ˈbɔːd ɡeɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "настільна гра"
+   },
+   "example": "We play a board game on Fridays.",
+   "exampleTranslation": {
+    "uk": "По п'ятницях ми граємо в настільну гру."
+   }
+  },
+  {
+   "id": "card_game",
+   "text": "card game",
+   "ipa": "/ˈkɑːd ɡeɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "карткова гра"
+   },
+   "example": "Poker is a card game.",
+   "exampleTranslation": {
+    "uk": "Покер — карткова гра."
+   }
+  },
+  {
+   "id": "puzzle",
+   "text": "puzzle",
+   "ipa": "/ˈpʌzl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "головоломка, пазл"
+   },
+   "example": "I like doing puzzles.",
+   "exampleTranslation": {
+    "uk": "Я люблю розв'язувати головоломки."
+   }
+  },
+  {
+   "id": "win",
+   "text": "win",
+   "ipa": "/wɪn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "вигравати"
+   },
+   "example": "I often win at chess.",
+   "exampleTranslation": {
+    "uk": "Я часто виграю в шахи."
+   }
+  },
+  {
+   "id": "lose",
+   "text": "lose",
+   "ipa": "/luːz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "програвати"
+   },
+   "example": "My brother always loses.",
+   "exampleTranslation": {
+    "uk": "Мій брат завжди програє."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you revise every day?",
+   "prompt": {
+    "uk": "Повторимо. Так, щовечора. Що відповісти?"
+   },
+   "options": [
+    "Yes, every evening.",
+    "Yes, evening every.",
+    "Yes, I revising evening."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, every evening."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "board game",
+     "right": {
+      "uk": "настільна гра"
+     }
+    },
+    {
+     "left": "card game",
+     "right": {
+      "uk": "карткова гра"
+     }
+    },
+    {
+     "left": "puzzle",
+     "right": {
+      "uk": "головоломка"
+     }
+    },
+    {
+     "left": "win",
+     "right": {
+      "uk": "вигравати"
+     }
+    },
+    {
+     "left": "lose",
+     "right": {
+      "uk": "програвати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про ігри."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "We play a board game on Fridays.",
+   "prompt": {
+    "uk": "Прослухайте. Коли вони грають?"
+   },
+   "options": {
+    "uk": [
+     "По п'ятницях",
+     "По суботах",
+     "По неділях"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fridays."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I often win at chess.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона часто виграє в шахи",
+     "Вона часто програє",
+     "Вона не грає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Wins."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My brother always loses.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить брат?"
+   },
+   "options": {
+    "uk": [
+     "Завжди програє",
+     "Завжди виграє",
+     "Не грає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Loses."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We play a board ___ on Fridays.",
+   "options": [
+    "game",
+    "puzzle",
+    "win"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Board game."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I often ___ at chess.",
+   "options": [
+    "win",
+    "wins",
+    "winning"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I win."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My brother always ___.",
+   "options": [
+    "loses",
+    "lose",
+    "losing"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He loses."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «програвати»?"
+   },
+   "options": [
+    "lose",
+    "win",
+    "puzzle"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Lose."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Покер — карткова гра."
+   },
+   "words": [
+    "Poker",
+    "is",
+    "a",
+    "card",
+    "game",
+    "are",
+    "board"
+   ],
+   "answer": [
+    "Poker",
+    "is",
+    "a",
+    "card",
+    "game"
+   ],
+   "explanation": {
+    "uk": "Poker is a card game."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я люблю розв'язувати головоломки."
+   },
+   "answers": [
+    "I like doing puzzles"
+   ],
+   "explanation": {
+    "uk": "I like doing puzzles."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you play board games?",
+   "prompt": {
+    "uk": "Так, по п'ятницях. Що відповісти?"
+   },
+   "options": [
+    "Yes, on Fridays.",
+    "Yes, in Fridays.",
+    "Yes, Fridays on."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, on Fridays."
+   }
+  }
+ ]
+}

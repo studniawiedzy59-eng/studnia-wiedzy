@@ -1,0 +1,318 @@
+{
+ "id": "u51_l03",
+ "unit": "u51",
+ "cefr": "A1",
+ "title": {
+  "uk": "Овочі, ягоди, борошно"
+ },
+ "goal": {
+  "uk": "Розширити список продуктів."
+ },
+ "rule": {
+  "uk": "Нові продукти: cucumber — огірок, grapes — виноград (завжди множина!), strawberry — полуниця (strawberries — полуниці), flour — борошно, oil — олія. Приклад: Fresh strawberries are tasty."
+ },
+ "words": [
+  {
+   "id": "cucumber",
+   "text": "cucumber",
+   "ipa": "/ˈkjuːkʌmbə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "огірок"
+   },
+   "example": "I put a cucumber in the salad.",
+   "exampleTranslation": {
+    "uk": "Я кладу огірок у салат."
+   }
+  },
+  {
+   "id": "grapes",
+   "text": "grapes",
+   "ipa": "/ɡreɪps/",
+   "pos": "noun",
+   "translation": {
+    "uk": "виноград"
+   },
+   "example": "The grapes are sweet.",
+   "exampleTranslation": {
+    "uk": "Виноград солодкий."
+   }
+  },
+  {
+   "id": "strawberry",
+   "text": "strawberry",
+   "ipa": "/ˈstrɔːbəri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "полуниця"
+   },
+   "example": "Strawberries are red.",
+   "exampleTranslation": {
+    "uk": "Полуниці червоні."
+   }
+  },
+  {
+   "id": "flour",
+   "text": "flour",
+   "ipa": "/ˈflaʊə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "борошно"
+   },
+   "example": "We need flour for the cake.",
+   "exampleTranslation": {
+    "uk": "Нам потрібне борошно для торта."
+   }
+  },
+  {
+   "id": "oil",
+   "text": "oil",
+   "ipa": "/ɔɪl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "олія"
+   },
+   "example": "Add a little oil.",
+   "exampleTranslation": {
+    "uk": "Додайте трохи олії."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you eat pork?",
+   "prompt": {
+    "uk": "Повторимо. Ні, лише яловичину. Що відповісти?"
+   },
+   "options": [
+    "No, only beef.",
+    "No, beef only I eat.",
+    "No, I eats beef."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, only beef."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "cucumber",
+     "right": {
+      "uk": "огірок"
+     }
+    },
+    {
+     "left": "grapes",
+     "right": {
+      "uk": "виноград"
+     }
+    },
+    {
+     "left": "strawberry",
+     "right": {
+      "uk": "полуниця"
+     }
+    },
+    {
+     "left": "flour",
+     "right": {
+      "uk": "борошно"
+     }
+    },
+    {
+     "left": "oil",
+     "right": {
+      "uk": "олія"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Продукти."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I put a cucumber in the salad.",
+   "prompt": {
+    "uk": "Прослухайте. Що кладе людина в салат?"
+   },
+   "options": {
+    "uk": [
+     "Огірок",
+     "Помідор",
+     "Цибулю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cucumber."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The grapes are sweet.",
+   "prompt": {
+    "uk": "Прослухайте. Який виноград?"
+   },
+   "options": {
+    "uk": [
+     "Солодкий",
+     "Кислий",
+     "Гіркий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sweet."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We need flour for the cake.",
+   "prompt": {
+    "uk": "Прослухайте. Що потрібно для торта?"
+   },
+   "options": {
+    "uk": [
+     "Борошно",
+     "Цукор",
+     "Олія"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Flour."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Strawberries ___ red.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Strawberries — множина."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ are sweet.",
+   "options": [
+    "grapes",
+    "grape is",
+    "oil"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Grapes."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Add a little ___.",
+   "options": [
+    "oil",
+    "cucumbers",
+    "strawberries"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Oil."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово завжди у множині?"
+   },
+   "options": [
+    "grapes",
+    "flour",
+    "oil"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Grapes."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Нам потрібне борошно."
+   },
+   "words": [
+    "We",
+    "need",
+    "flour",
+    "needs",
+    "oils"
+   ],
+   "answer": [
+    "We",
+    "need",
+    "flour"
+   ],
+   "explanation": {
+    "uk": "We need flour."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Полуниці червоні."
+   },
+   "answers": [
+    "Strawberries are red"
+   ],
+   "explanation": {
+    "uk": "Strawberries are red."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do we need for the cake?",
+   "prompt": {
+    "uk": "Борошно й полуниці. Що відповісти?"
+   },
+   "options": [
+    "We need flour and strawberries.",
+    "We needs flour and strawberry.",
+    "Need we flour."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We need flour and strawberries."
+   }
+  }
+ ]
+}

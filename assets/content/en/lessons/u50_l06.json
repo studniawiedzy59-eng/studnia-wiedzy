@@ -1,0 +1,226 @@
+{
+ "id": "u50_l06",
+ "unit": "u50",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: спорт"
+ },
+ "goal": {
+  "uk": "Закріпити слова про спорт."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: види спорту (play volleyball, go skating), матч (match, player, coach, score), місця (pool, court, pitch, stadium), тренування (warm up, stretch, healthy) і уболівальників (fan, support)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What sport do you play?",
+   "prompt": {
+    "uk": "Бадмінтон. Що відповісти?"
+   },
+   "options": [
+    "I play badminton.",
+    "I am play badminton.",
+    "I playing badminton."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I play badminton."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ skating in winter.",
+   "options": [
+    "go",
+    "play",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go skating."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ starts at seven.",
+   "options": [
+    "match",
+    "coach",
+    "pool"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Match."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я плаваю в басейні."
+   },
+   "answers": [
+    "I swim in the pool"
+   ],
+   "explanation": {
+    "uk": "I swim in the pool."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The score is two–one. Our team is the champion.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина про команду?"
+   },
+   "options": {
+    "uk": [
+     "Вона чемпіон",
+     "Вона програла",
+     "Вона нова"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Champion."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I warm ___ before training.",
+   "options": [
+    "up",
+    "down",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Warm up."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово про місце, де грають у теніс?"
+   },
+   "options": [
+    "court",
+    "pool",
+    "pitch"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Court."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я вболіваю за «Динамо»."
+   },
+   "answers": [
+    "I support Dynamo"
+   ],
+   "explanation": {
+    "uk": "I support Dynamo."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він футбольний уболівальник."
+   },
+   "words": [
+    "He",
+    "is",
+    "a",
+    "football",
+    "fan",
+    "are",
+    "coach"
+   ],
+   "answer": [
+    "He",
+    "is",
+    "a",
+    "football",
+    "fan"
+   ],
+   "explanation": {
+    "uk": "He is a football fan."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Training starts at six. I stretch after the run.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина після бігу?"
+   },
+   "options": {
+    "uk": [
+     "Розтягується",
+     "Розминається",
+     "Іде додому"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Stretches."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Sport is ___.",
+   "options": [
+    "healthy",
+    "stretch",
+    "training"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Healthy."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Which team do you support?",
+   "prompt": {
+    "uk": "«Динамо». Що відповісти?"
+   },
+   "options": [
+    "I support Dynamo.",
+    "I am support Dynamo.",
+    "I supports Dynamo."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I support Dynamo."
+   }
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "id": "u51_l04",
+ "unit": "u51",
+ "cefr": "A1",
+ "title": {
+  "uk": "Пакування"
+ },
+ "goal": {
+  "uk": "Назвати упаковки."
+ },
+ "rule": {
+  "uk": "Продукти купуємо в упаковці: a jar of jam — банка варення, a box of biscuits — коробка печива, a carton of milk — пакет молока, a tin of fish — консерва з рибою, a loaf of bread — буханка хліба. Of обов'язково: a jar of jam."
+ },
+ "words": [
+  {
+   "id": "jar",
+   "text": "jar",
+   "ipa": "/dʒɑː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "скляна банка"
+   },
+   "example": "A jar of honey, please.",
+   "exampleTranslation": {
+    "uk": "Баночку меду, будь ласка."
+   }
+  },
+  {
+   "id": "box",
+   "text": "box",
+   "ipa": "/bɒks/",
+   "pos": "noun",
+   "translation": {
+    "uk": "коробка"
+   },
+   "example": "I buy a box of biscuits.",
+   "exampleTranslation": {
+    "uk": "Я купую коробку печива."
+   }
+  },
+  {
+   "id": "carton",
+   "text": "carton",
+   "ipa": "/ˈkɑːtn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "картонна пачка"
+   },
+   "example": "A carton of milk, please.",
+   "exampleTranslation": {
+    "uk": "Пачку молока, будь ласка."
+   }
+  },
+  {
+   "id": "tin",
+   "text": "tin",
+   "ipa": "/tɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "консервна бляшанка"
+   },
+   "example": "A tin of fish.",
+   "exampleTranslation": {
+    "uk": "Консерва з рибою."
+   }
+  },
+  {
+   "id": "loaf",
+   "text": "loaf",
+   "ipa": "/ləʊf/",
+   "pos": "noun",
+   "translation": {
+    "uk": "буханка"
+   },
+   "example": "A loaf of bread, please.",
+   "exampleTranslation": {
+    "uk": "Буханку хліба, будь ласка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do we need for the cake?",
+   "prompt": {
+    "uk": "Повторимо. Борошно. Що відповісти?"
+   },
+   "options": [
+    "We need flour.",
+    "We needs flour.",
+    "Need we flour."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We need flour."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "jar",
+     "right": {
+      "uk": "банка"
+     }
+    },
+    {
+     "left": "box",
+     "right": {
+      "uk": "коробка"
+     }
+    },
+    {
+     "left": "carton",
+     "right": {
+      "uk": "пачка"
+     }
+    },
+    {
+     "left": "tin",
+     "right": {
+      "uk": "консерва"
+     }
+    },
+    {
+     "left": "loaf",
+     "right": {
+      "uk": "буханка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Упаковки."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "A carton of milk, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Пачку молока",
+     "Баночку меду",
+     "Буханку хліба"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Milk."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "A loaf of bread, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Буханку хліба",
+     "Пачку молока",
+     "Консерву"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bread."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I buy a box of biscuits.",
+   "prompt": {
+    "uk": "Прослухайте. Що купує людина?"
+   },
+   "options": {
+    "uk": [
+     "Коробку печива",
+     "Банку варення",
+     "Консерву"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Biscuits."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ of honey, please.",
+   "options": [
+    "jar",
+    "loaf",
+    "carton"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Jar of honey."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ of bread, please.",
+   "options": [
+    "loaf",
+    "tin",
+    "jar"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Loaf of bread."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A tin ___ fish.",
+   "options": [
+    "of",
+    "from",
+    "with"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A tin of fish."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «пачка молока»?"
+   },
+   "options": [
+    "a carton of milk",
+    "a carton milk",
+    "a milk of carton"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A carton of milk."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Буханку хліба, будь ласка."
+   },
+   "words": [
+    "A",
+    "loaf",
+    "of",
+    "bread",
+    "please",
+    "jar",
+    "from"
+   ],
+   "answer": [
+    "A",
+    "loaf",
+    "of",
+    "bread",
+    "please"
+   ],
+   "explanation": {
+    "uk": "A loaf of bread, please."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я купую коробку печива."
+   },
+   "answers": [
+    "I buy a box of biscuits"
+   ],
+   "explanation": {
+    "uk": "I buy a box of biscuits."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What would you like?",
+   "prompt": {
+    "uk": "Банку меду. Що відповісти?"
+   },
+   "options": [
+    "A jar of honey, please.",
+    "A jar honey, please.",
+    "Honey of a jar."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A jar of honey, please."
+   }
+  }
+ ]
+}

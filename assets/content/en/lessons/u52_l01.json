@@ -1,0 +1,324 @@
+{
+ "id": "u52_l01",
+ "unit": "u52",
+ "cefr": "A1",
+ "title": {
+  "uk": "Many чи much?"
+ },
+ "goal": {
+  "uk": "Розрізняти лічильні й нелічильні іменники."
+ },
+ "rule": {
+  "uk": "Лічильне можна порахувати: apple — apples, book — books. Нелічильне — ні: water, milk, money, time. Many + лічильне у множині: many apples. Much + нелічильне: much milk. How many apples? How much milk? Ствердження зазвичай із a lot of: I have a lot of apples."
+ },
+ "words": [
+  {
+   "id": "many",
+   "text": "many",
+   "ipa": "/ˈmeni/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "багато (лічильних)"
+   },
+   "example": "I don't have many books.",
+   "exampleTranslation": {
+    "uk": "У мене не багато книжок."
+   }
+  },
+  {
+   "id": "much",
+   "text": "much",
+   "ipa": "/mʌtʃ/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "багато (нелічильних)"
+   },
+   "example": "I don't have much time.",
+   "exampleTranslation": {
+    "uk": "У мене небагато часу."
+   }
+  },
+  {
+   "id": "countable",
+   "text": "countable",
+   "ipa": "/ˈkaʊntəbl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "лічильний"
+   },
+   "example": "Apples are countable.",
+   "exampleTranslation": {
+    "uk": "Яблука лічильні."
+   }
+  },
+  {
+   "id": "uncountable",
+   "text": "uncountable",
+   "ipa": "/ʌnˈkaʊntəbl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "нелічильний"
+   },
+   "example": "Milk is uncountable.",
+   "exampleTranslation": {
+    "uk": "Молоко нелічильне."
+   }
+  },
+  {
+   "id": "plenty_of",
+   "text": "plenty of",
+   "ipa": "/ˈplenti əv/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "чимало"
+   },
+   "example": "We have plenty of time.",
+   "exampleTranslation": {
+    "uk": "У нас чимало часу."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What are the ingredients?",
+   "prompt": {
+    "uk": "Повторимо. Борошно й олія. Що відповісти?"
+   },
+   "options": [
+    "Flour and oil.",
+    "Flour and oil are.",
+    "Is flour and oil."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Flour and oil."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "many",
+     "right": {
+      "uk": "багато (лічильних)"
+     }
+    },
+    {
+     "left": "much",
+     "right": {
+      "uk": "багато (нелічильних)"
+     }
+    },
+    {
+     "left": "countable",
+     "right": {
+      "uk": "лічильний"
+     }
+    },
+    {
+     "left": "uncountable",
+     "right": {
+      "uk": "нелічильний"
+     }
+    },
+    {
+     "left": "plenty of",
+     "right": {
+      "uk": "чимало"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про кількість."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I don't have many books.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "У неї небагато книжок",
+     "У неї багато книжок",
+     "У неї немає книжок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Not many books."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I don't have much time.",
+   "prompt": {
+    "uk": "Прослухайте. Чого мало?"
+   },
+   "options": {
+    "uk": [
+     "Часу",
+     "Грошей",
+     "Книжок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Time."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We have plenty of time.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Часу чимало",
+     "Часу мало",
+     "Часу немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Plenty."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How ___ apples do you need?",
+   "options": [
+    "many",
+    "much",
+    "more"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Apples — лічильне: many."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How ___ milk do you need?",
+   "options": [
+    "much",
+    "many",
+    "few"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Milk — нелічильне: much."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I don't have ___ time.",
+   "options": [
+    "much",
+    "many",
+    "few"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Time — нелічильне."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово нелічильне?"
+   },
+   "options": [
+    "milk",
+    "apple",
+    "book"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Milk."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Скільки яблук вам потрібно?"
+   },
+   "words": [
+    "How",
+    "many",
+    "apples",
+    "do",
+    "you",
+    "need",
+    "much",
+    "does"
+   ],
+   "answer": [
+    "How",
+    "many",
+    "apples",
+    "do",
+    "you",
+    "need"
+   ],
+   "explanation": {
+    "uk": "How many apples do you need?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене небагато часу."
+   },
+   "answers": [
+    "I don't have much time"
+   ],
+   "explanation": {
+    "uk": "I don't have much time."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How much milk do you need?",
+   "prompt": {
+    "uk": "Півлітра. Що відповісти?"
+   },
+   "options": [
+    "Half a litre.",
+    "Half litre a.",
+    "A half of litre is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Half a litre."
+   }
+  }
+ ]
+}

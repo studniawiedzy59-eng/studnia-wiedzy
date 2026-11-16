@@ -1,0 +1,320 @@
+{
+ "id": "u51_l01",
+ "unit": "u51",
+ "cefr": "A1",
+ "title": {
+  "uk": "Смак"
+ },
+ "goal": {
+  "uk": "Описати смак їжі."
+ },
+ "rule": {
+  "uk": "Смак: sweet — солодкий, sour — кислий, bitter — гіркий, spicy — гострий (з перцем), tasty — смачний. Запитання: What does it taste like? — «Який це на смак?» Відповідь: It tastes sweet. Після taste ставимо прикметник, не прислівник."
+ },
+ "words": [
+  {
+   "id": "sweet",
+   "text": "sweet",
+   "ipa": "/swiːt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "солодкий"
+   },
+   "example": "The cake is sweet.",
+   "exampleTranslation": {
+    "uk": "Торт солодкий."
+   }
+  },
+  {
+   "id": "sour",
+   "text": "sour",
+   "ipa": "/ˈsaʊə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "кислий"
+   },
+   "example": "Lemons are sour.",
+   "exampleTranslation": {
+    "uk": "Лимони кислі."
+   }
+  },
+  {
+   "id": "bitter",
+   "text": "bitter",
+   "ipa": "/ˈbɪtə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "гіркий"
+   },
+   "example": "Black coffee is bitter.",
+   "exampleTranslation": {
+    "uk": "Чорна кава гірка."
+   }
+  },
+  {
+   "id": "spicy",
+   "text": "spicy",
+   "ipa": "/ˈspaɪsi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "гострий"
+   },
+   "example": "This soup is spicy.",
+   "exampleTranslation": {
+    "uk": "Цей суп гострий."
+   }
+  },
+  {
+   "id": "tasty",
+   "text": "tasty",
+   "ipa": "/ˈteɪsti/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "смачний"
+   },
+   "example": "The salad is tasty.",
+   "exampleTranslation": {
+    "uk": "Салат смачний."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Which team do you support?",
+   "prompt": {
+    "uk": "Повторимо. «Динамо». Що відповісти?"
+   },
+   "options": [
+    "I support Dynamo.",
+    "I am support Dynamo.",
+    "I supports Dynamo."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I support Dynamo."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "sweet",
+     "right": {
+      "uk": "солодкий"
+     }
+    },
+    {
+     "left": "sour",
+     "right": {
+      "uk": "кислий"
+     }
+    },
+    {
+     "left": "bitter",
+     "right": {
+      "uk": "гіркий"
+     }
+    },
+    {
+     "left": "spicy",
+     "right": {
+      "uk": "гострий"
+     }
+    },
+    {
+     "left": "tasty",
+     "right": {
+      "uk": "смачний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про смак."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The cake is sweet.",
+   "prompt": {
+    "uk": "Прослухайте. Який торт?"
+   },
+   "options": {
+    "uk": [
+     "Солодкий",
+     "Кислий",
+     "Гіркий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sweet."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Lemons are sour.",
+   "prompt": {
+    "uk": "Прослухайте. Які лимони?"
+   },
+   "options": {
+    "uk": [
+     "Кислі",
+     "Солодкі",
+     "Гіркі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sour."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "This soup is spicy.",
+   "prompt": {
+    "uk": "Прослухайте. Який суп?"
+   },
+   "options": {
+    "uk": [
+     "Гострий",
+     "Солодкий",
+     "Холодний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Spicy."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Black coffee is ___.",
+   "options": [
+    "bitter",
+    "sweet",
+    "tasty is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Bitter."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The salad is ___.",
+   "options": [
+    "tasty",
+    "tastily",
+    "taste"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Tasty."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It tastes ___.",
+   "options": [
+    "sweet",
+    "sweetly",
+    "sweeten"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Taste + прикметник."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати про смак?"
+   },
+   "options": [
+    "What does it taste like?",
+    "How does it taste like?",
+    "What it tastes like?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What does it taste like?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Цей суп гострий."
+   },
+   "words": [
+    "This",
+    "soup",
+    "is",
+    "spicy",
+    "are",
+    "sour"
+   ],
+   "answer": [
+    "This",
+    "soup",
+    "is",
+    "spicy"
+   ],
+   "explanation": {
+    "uk": "This soup is spicy."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Лимони кислі."
+   },
+   "answers": [
+    "Lemons are sour"
+   ],
+   "explanation": {
+    "uk": "Lemons are sour."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What does it taste like?",
+   "prompt": {
+    "uk": "Солодко. Що відповісти?"
+   },
+   "options": [
+    "It tastes sweet.",
+    "It tastes sweetly.",
+    "It is taste sweet."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It tastes sweet."
+   }
+  }
+ ]
+}

@@ -1,0 +1,318 @@
+{
+ "id": "u50_l05",
+ "unit": "u50",
+ "cefr": "A1",
+ "title": {
+  "uk": "Уболівальник"
+ },
+ "goal": {
+  "uk": "Розповісти про улюблену команду."
+ },
+ "rule": {
+  "uk": "Fan — уболівальник, champion — чемпіон, ball — м'яч, racket — ракетка, support — підтримувати: I support Dynamo. My favourite team — моя улюблена команда. Приклад: He is a football fan."
+ },
+ "words": [
+  {
+   "id": "fan",
+   "text": "fan",
+   "ipa": "/fæn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "уболівальник"
+   },
+   "example": "He is a football fan.",
+   "exampleTranslation": {
+    "uk": "Він футбольний уболівальник."
+   }
+  },
+  {
+   "id": "champion",
+   "text": "champion",
+   "ipa": "/ˈtʃæmpiən/",
+   "pos": "noun",
+   "translation": {
+    "uk": "чемпіон"
+   },
+   "example": "Our team is the champion.",
+   "exampleTranslation": {
+    "uk": "Наша команда — чемпіон."
+   }
+  },
+  {
+   "id": "ball",
+   "text": "ball",
+   "ipa": "/bɔːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "м'яч"
+   },
+   "example": "Pass the ball!",
+   "exampleTranslation": {
+    "uk": "Передавай м'яч!"
+   }
+  },
+  {
+   "id": "racket",
+   "text": "racket",
+   "ipa": "/ˈrækɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ракетка"
+   },
+   "example": "I need a new racket.",
+   "exampleTranslation": {
+    "uk": "Мені потрібна нова ракетка."
+   }
+  },
+  {
+   "id": "support",
+   "text": "support",
+   "ipa": "/səˈpɔːt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "підтримувати (команду)"
+   },
+   "example": "I support Dynamo.",
+   "exampleTranslation": {
+    "uk": "Я вболіваю за «Динамо»."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you do training every day?",
+   "prompt": {
+    "uk": "Повторимо. Ні, тричі на тиждень. Що відповісти?"
+   },
+   "options": [
+    "No, three times a week.",
+    "No, three time week.",
+    "No, I three times."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Three times a week."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "fan",
+     "right": {
+      "uk": "уболівальник"
+     }
+    },
+    {
+     "left": "champion",
+     "right": {
+      "uk": "чемпіон"
+     }
+    },
+    {
+     "left": "ball",
+     "right": {
+      "uk": "м'яч"
+     }
+    },
+    {
+     "left": "racket",
+     "right": {
+      "uk": "ракетка"
+     }
+    },
+    {
+     "left": "support",
+     "right": {
+      "uk": "підтримувати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про уболівальників."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "He is a football fan.",
+   "prompt": {
+    "uk": "Прослухайте. Хто він?"
+   },
+   "options": {
+    "uk": [
+     "Футбольний уболівальник",
+     "Футболіст",
+     "Тренер"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fan."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I need a new racket.",
+   "prompt": {
+    "uk": "Прослухайте. Що потрібно людині?"
+   },
+   "options": {
+    "uk": [
+     "Нова ракетка",
+     "Новий м'яч",
+     "Нові кросівки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Racket."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I support Dynamo.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона вболіває за Динамо",
+     "Вона грає в Динамо",
+     "Вона тренує Динамо"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Support."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is a football ___.",
+   "options": [
+    "fan",
+    "ball",
+    "racket"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fan."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Pass the ___!",
+   "options": [
+    "ball",
+    "fan",
+    "champion"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ball."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I need a new ___.",
+   "options": [
+    "racket",
+    "fan",
+    "support"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Racket."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «чемпіон»?"
+   },
+   "options": [
+    "champion",
+    "fan",
+    "coach"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Champion."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я вболіваю за «Динамо»."
+   },
+   "words": [
+    "I",
+    "support",
+    "Dynamo",
+    "supports",
+    "fan"
+   ],
+   "answer": [
+    "I",
+    "support",
+    "Dynamo"
+   ],
+   "explanation": {
+    "uk": "I support Dynamo."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мені потрібна нова ракетка."
+   },
+   "answers": [
+    "I need a new racket"
+   ],
+   "explanation": {
+    "uk": "I need a new racket."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Which team do you support?",
+   "prompt": {
+    "uk": "«Динамо». Що відповісти?"
+   },
+   "options": [
+    "I support Dynamo.",
+    "I am support Dynamo.",
+    "I supports Dynamo."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I support Dynamo."
+   }
+  }
+ ]
+}

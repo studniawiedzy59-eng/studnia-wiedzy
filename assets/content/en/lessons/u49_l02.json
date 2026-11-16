@@ -1,0 +1,324 @@
+{
+ "id": "u49_l02",
+ "unit": "u49",
+ "cefr": "A1",
+ "title": {
+  "uk": "Вдома чи надворі"
+ },
+ "goal": {
+  "uk": "Сказати, де й як ви відпочиваєте."
+ },
+ "rule": {
+  "uk": "Spare time — вільний час (синонім free time). Lawn — газон, picnic — пікнік, barbecue — шашлики, на грилі. Go for a picnic — піти на пікнік. Have a barbecue — влаштувати барбекю."
+ },
+ "words": [
+  {
+   "id": "spare_time",
+   "text": "spare time",
+   "ipa": "/ˌspeə ˈtaɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вільний час"
+   },
+   "example": "In my spare time I read.",
+   "exampleTranslation": {
+    "uk": "У вільний час я читаю."
+   }
+  },
+  {
+   "id": "lawn",
+   "text": "lawn",
+   "ipa": "/lɔːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "газон"
+   },
+   "example": "We sit on the lawn.",
+   "exampleTranslation": {
+    "uk": "Ми сидимо на газоні."
+   }
+  },
+  {
+   "id": "picnic",
+   "text": "picnic",
+   "ipa": "/ˈpɪknɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пікнік"
+   },
+   "example": "We go for a picnic.",
+   "exampleTranslation": {
+    "uk": "Ми їдемо на пікнік."
+   }
+  },
+  {
+   "id": "barbecue",
+   "text": "barbecue",
+   "ipa": "/ˈbɑːbɪkjuː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "барбекю"
+   },
+   "example": "We have a barbecue in summer.",
+   "exampleTranslation": {
+    "uk": "Улітку ми влаштовуємо барбекю."
+   }
+  },
+  {
+   "id": "outdoors",
+   "text": "outdoors",
+   "ipa": "/ˌaʊtˈdɔːz/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "на свіжому повітрі"
+   },
+   "example": "I like being outdoors.",
+   "exampleTranslation": {
+    "uk": "Я люблю бувати на свіжому повітрі."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you play board games?",
+   "prompt": {
+    "uk": "Повторимо. Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, I do.",
+    "Yes, I play do.",
+    "Yes, I am."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I do."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "spare time",
+     "right": {
+      "uk": "вільний час"
+     }
+    },
+    {
+     "left": "lawn",
+     "right": {
+      "uk": "газон"
+     }
+    },
+    {
+     "left": "picnic",
+     "right": {
+      "uk": "пікнік"
+     }
+    },
+    {
+     "left": "barbecue",
+     "right": {
+      "uk": "барбекю"
+     }
+    },
+    {
+     "left": "outdoors",
+     "right": {
+      "uk": "на свіжому повітрі"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про відпочинок."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "In my spare time I read.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина у вільний час?"
+   },
+   "options": {
+    "uk": [
+     "Читає",
+     "Плаває",
+     "Готує"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Reads."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We sit in the garden.",
+   "prompt": {
+    "uk": "Прослухайте. Де сидять люди?"
+   },
+   "options": {
+    "uk": [
+     "У саду",
+     "Вдома",
+     "У парку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Garden."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We have a barbecue in summer.",
+   "prompt": {
+    "uk": "Прослухайте. Коли вони влаштовують барбекю?"
+   },
+   "options": {
+    "uk": [
+     "Улітку",
+     "Взимку",
+     "Восени"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Summer."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "In my ___ time I read.",
+   "options": [
+    "spare",
+    "garden",
+    "picnic"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Spare time."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We go for a ___.",
+   "options": [
+    "picnic",
+    "barbecue is",
+    "garden"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Picnic."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I like being ___.",
+   "options": [
+    "outdoors",
+    "garden",
+    "picnic"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Outdoors."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Ми влаштовуємо барбекю»?"
+   },
+   "options": [
+    "We have a barbecue.",
+    "We make a barbecue is.",
+    "We are barbecue."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Have a barbecue."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У вільний час я читаю."
+   },
+   "words": [
+    "In",
+    "my",
+    "spare",
+    "time",
+    "I",
+    "read",
+    "on",
+    "reads"
+   ],
+   "answer": [
+    "In",
+    "my",
+    "spare",
+    "time",
+    "I",
+    "read"
+   ],
+   "explanation": {
+    "uk": "In my spare time I read."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми сидимо в саду."
+   },
+   "answers": [
+    "We sit in the garden"
+   ],
+   "explanation": {
+    "uk": "We sit in the garden."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you do in your spare time?",
+   "prompt": {
+    "uk": "Ви їздите на пікніки. Що відповісти?"
+   },
+   "options": [
+    "I go for picnics.",
+    "I am go picnic.",
+    "I going picnics."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I go for picnics."
+   }
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "id": "u50_l04",
+ "unit": "u50",
+ "cefr": "A1",
+ "title": {
+  "uk": "Тренування"
+ },
+ "goal": {
+  "uk": "Розповісти про тренування й здоров'я."
+ },
+ "rule": {
+  "uk": "Training — тренування, warm up — розминатися, stretch — розтягуватися, muscles — м'язи, healthy — здоровий (про спосіб життя). Приклад: I warm up before training. Sport is healthy. Не плутайте: healthy — здоровий, ill — хворий."
+ },
+ "words": [
+  {
+   "id": "training",
+   "text": "training",
+   "ipa": "/ˈtreɪnɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тренування"
+   },
+   "example": "Training starts at six.",
+   "exampleTranslation": {
+    "uk": "Тренування починається о шостій."
+   }
+  },
+  {
+   "id": "warm_up",
+   "text": "warm up",
+   "ipa": "/ˌwɔːm ˈʌp/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "розминатися"
+   },
+   "example": "I warm up before training.",
+   "exampleTranslation": {
+    "uk": "Я розминаюся перед тренуванням."
+   }
+  },
+  {
+   "id": "stretch",
+   "text": "stretch",
+   "ipa": "/stretʃ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "розтягуватися"
+   },
+   "example": "I stretch after the run.",
+   "exampleTranslation": {
+    "uk": "Після бігу я розтягуюся."
+   }
+  },
+  {
+   "id": "muscles",
+   "text": "muscles",
+   "ipa": "/ˈmʌslz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "м'язи"
+   },
+   "example": "My muscles hurt.",
+   "exampleTranslation": {
+    "uk": "У мене болять м'язи."
+   }
+  },
+  {
+   "id": "healthy",
+   "text": "healthy",
+   "ipa": "/ˈhelθi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "здоровий (про спосіб життя)"
+   },
+   "example": "Sport is healthy.",
+   "exampleTranslation": {
+    "uk": "Спорт корисний."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where do you swim?",
+   "prompt": {
+    "uk": "Повторимо. У басейні. Що відповісти?"
+   },
+   "options": [
+    "I swim in the pool.",
+    "I swim on the pool.",
+    "I am swim in pool."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I swim in the pool."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "training",
+     "right": {
+      "uk": "тренування"
+     }
+    },
+    {
+     "left": "warm up",
+     "right": {
+      "uk": "розминатися"
+     }
+    },
+    {
+     "left": "stretch",
+     "right": {
+      "uk": "розтягуватися"
+     }
+    },
+    {
+     "left": "muscles",
+     "right": {
+      "uk": "м'язи"
+     }
+    },
+    {
+     "left": "healthy",
+     "right": {
+      "uk": "здоровий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про тренування."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Training starts at six.",
+   "prompt": {
+    "uk": "Прослухайте. Коли починається тренування?"
+   },
+   "options": {
+    "uk": [
+     "О шостій",
+     "О п'ятій",
+     "О сьомій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Six."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I warm up before training.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина перед тренуванням?"
+   },
+   "options": {
+    "uk": [
+     "Розминається",
+     "Їсть",
+     "Спить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Warm up."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My muscles hurt.",
+   "prompt": {
+    "uk": "Прослухайте. Що болить?"
+   },
+   "options": {
+    "uk": [
+     "М'язи",
+     "Голова",
+     "Спина"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Muscles."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ up before training.",
+   "options": [
+    "warm",
+    "stretch",
+    "healthy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Warm up."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ after the run.",
+   "options": [
+    "stretch",
+    "warm",
+    "muscles"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Stretch."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Sport is ___.",
+   "options": [
+    "healthy",
+    "training",
+    "stretch"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Healthy."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «м'язи»?"
+   },
+   "options": [
+    "muscles",
+    "training",
+    "stretch"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Muscles."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я розминаюся перед тренуванням."
+   },
+   "words": [
+    "I",
+    "warm",
+    "up",
+    "before",
+    "training",
+    "warms",
+    "after"
+   ],
+   "answer": [
+    "I",
+    "warm",
+    "up",
+    "before",
+    "training"
+   ],
+   "explanation": {
+    "uk": "I warm up before training."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене болять м'язи."
+   },
+   "answers": [
+    "My muscles hurt"
+   ],
+   "explanation": {
+    "uk": "My muscles hurt."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you do training every day?",
+   "prompt": {
+    "uk": "Тричі на тиждень. Що відповісти?"
+   },
+   "options": [
+    "No, three times a week.",
+    "No, three time week.",
+    "No, I three times."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Three times a week."
+   }
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "id": "u49_l05",
+ "unit": "u49",
+ "cefr": "A1",
+ "title": {
+  "uk": "Порадити розвагу"
+ },
+ "goal": {
+  "uk": "Порадити фільм, гру чи місце."
+ },
+ "rule": {
+  "uk": "Advise — радити: I advise this film. Worth + -ing — «варто»: It's worth seeing. Exciting — захопливий, entertaining — розважальний, boring — нудний (останнє ви вже знаєте). Приклад: It's an entertaining game."
+ },
+ "words": [
+  {
+   "id": "advise",
+   "text": "advise",
+   "ipa": "/ədˈvaɪz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "радити"
+   },
+   "example": "I advise this film.",
+   "exampleTranslation": {
+    "uk": "Раджу цей фільм."
+   }
+  },
+  {
+   "id": "worth",
+   "text": "worth",
+   "ipa": "/wɜːθ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "вартий"
+   },
+   "example": "It's worth seeing.",
+   "exampleTranslation": {
+    "uk": "Це варто побачити."
+   }
+  },
+  {
+   "id": "exciting",
+   "text": "exciting",
+   "ipa": "/ɪkˈsaɪtɪŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "захопливий"
+   },
+   "example": "The film is exciting.",
+   "exampleTranslation": {
+    "uk": "Фільм захопливий."
+   }
+  },
+  {
+   "id": "entertaining",
+   "text": "entertaining",
+   "ipa": "/ˌentəˈteɪnɪŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "розважальний"
+   },
+   "example": "The show is entertaining.",
+   "exampleTranslation": {
+    "uk": "Шоу розважальне."
+   }
+  },
+  {
+   "id": "suggest",
+   "text": "suggest",
+   "ipa": "/səˈdʒest/",
+   "pos": "verb",
+   "translation": {
+    "uk": "пропонувати"
+   },
+   "example": "I suggest a walk.",
+   "exampleTranslation": {
+    "uk": "Я пропоную прогулятися."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Are you free tonight?",
+   "prompt": {
+    "uk": "Повторимо. Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, I'm free.",
+    "Yes, I free.",
+    "Yes, I have free."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I'm free."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "advise",
+     "right": {
+      "uk": "радити"
+     }
+    },
+    {
+     "left": "worth",
+     "right": {
+      "uk": "вартий"
+     }
+    },
+    {
+     "left": "exciting",
+     "right": {
+      "uk": "захопливий"
+     }
+    },
+    {
+     "left": "entertaining",
+     "right": {
+      "uk": "розважальний"
+     }
+    },
+    {
+     "left": "suggest",
+     "right": {
+      "uk": "пропонувати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для порад."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I recommend this film.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Радить фільм",
+     "Критикує фільм",
+     "Купує фільм"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Recommend."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The film is exciting.",
+   "prompt": {
+    "uk": "Прослухайте. Який фільм?"
+   },
+   "options": {
+    "uk": [
+     "Захопливий",
+     "Нудний",
+     "Довгий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Exciting."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Cooking is relaxing.",
+   "prompt": {
+    "uk": "Прослухайте. Що розслабляє?"
+   },
+   "options": {
+    "uk": [
+     "Готування",
+     "Біг",
+     "Робота"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Relaxing."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ this film. It's great.",
+   "options": [
+    "recommend",
+    "worth",
+    "relaxing"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Recommend."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The game is very ___.",
+   "options": [
+    "exciting",
+    "worth",
+    "suggest"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Exciting."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's ___ seeing.",
+   "options": [
+    "worth",
+    "recommend",
+    "exciting"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Worth seeing."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «розслаблюючий»?"
+   },
+   "options": [
+    "relaxing",
+    "exciting",
+    "boring"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Relaxing."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я раджу цей фільм."
+   },
+   "words": [
+    "I",
+    "recommend",
+    "this",
+    "film",
+    "recommends",
+    "suggest"
+   ],
+   "answer": [
+    "I",
+    "recommend",
+    "this",
+    "film"
+   ],
+   "explanation": {
+    "uk": "I recommend this film."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Фільм захопливий."
+   },
+   "answers": [
+    "The film is exciting"
+   ],
+   "explanation": {
+    "uk": "The film is exciting."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Can you recommend a good film?",
+   "prompt": {
+    "uk": "Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, I recommend this one.",
+    "Yes, I recommending one.",
+    "Yes, recommend this I."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I recommend this one."
+   }
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "id": "u51_l02",
+ "unit": "u51",
+ "cefr": "A1",
+ "title": {
+  "uk": "М'ясо й солодке"
+ },
+ "goal": {
+  "uk": "Назвати м'ясні продукти й десерти."
+ },
+ "rule": {
+  "uk": "Beef — яловичина, pork — свинина, sausage — ковбаса, chocolate — шоколад, ice cream — морозиво. Chicken ви вже знаєте. Усі ці слова — нелічильні, крім sausage: a sausage, two sausages."
+ },
+ "words": [
+  {
+   "id": "beef",
+   "text": "beef",
+   "ipa": "/biːf/",
+   "pos": "noun",
+   "translation": {
+    "uk": "яловичина"
+   },
+   "example": "I don't eat beef.",
+   "exampleTranslation": {
+    "uk": "Я не їм яловичини."
+   }
+  },
+  {
+   "id": "pork",
+   "text": "pork",
+   "ipa": "/pɔːk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "свинина"
+   },
+   "example": "Pork is fatty.",
+   "exampleTranslation": {
+    "uk": "Свинина жирна."
+   }
+  },
+  {
+   "id": "sausage",
+   "text": "sausage",
+   "ipa": "/ˈsɒsɪdʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ковбаса, сосиска"
+   },
+   "example": "I have a sausage for breakfast.",
+   "exampleTranslation": {
+    "uk": "На сніданок я їм сосиску."
+   }
+  },
+  {
+   "id": "chocolate",
+   "text": "chocolate",
+   "ipa": "/ˈtʃɒklət/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шоколад"
+   },
+   "example": "I love dark chocolate.",
+   "exampleTranslation": {
+    "uk": "Я люблю чорний шоколад."
+   }
+  },
+  {
+   "id": "ice_cream",
+   "text": "ice cream",
+   "ipa": "/ˌaɪs ˈkriːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "морозиво"
+   },
+   "example": "Children love ice cream.",
+   "exampleTranslation": {
+    "uk": "Діти люблять морозиво."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What does it taste like?",
+   "prompt": {
+    "uk": "Повторимо. Солодко. Що відповісти?"
+   },
+   "options": [
+    "It tastes sweet.",
+    "It tastes sweetly.",
+    "It is taste sweet."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It tastes sweet."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "beef",
+     "right": {
+      "uk": "яловичина"
+     }
+    },
+    {
+     "left": "pork",
+     "right": {
+      "uk": "свинина"
+     }
+    },
+    {
+     "left": "sausage",
+     "right": {
+      "uk": "ковбаса"
+     }
+    },
+    {
+     "left": "chocolate",
+     "right": {
+      "uk": "шоколад"
+     }
+    },
+    {
+     "left": "ice cream",
+     "right": {
+      "uk": "морозиво"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "М'ясо й солодке."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I don't eat beef.",
+   "prompt": {
+    "uk": "Прослухайте. Чого людина не їсть?"
+   },
+   "options": {
+    "uk": [
+     "Яловичини",
+     "Свинини",
+     "Курки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Beef."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I have a sausage for breakfast.",
+   "prompt": {
+    "uk": "Прослухайте. Що їсть людина на сніданок?"
+   },
+   "options": {
+    "uk": [
+     "Сосиску",
+     "Яйце",
+     "Бутерброд"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sausage."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Children love ice cream.",
+   "prompt": {
+    "uk": "Прослухайте. Що люблять діти?"
+   },
+   "options": {
+    "uk": [
+     "Морозиво",
+     "Шоколад",
+     "Торт"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ice cream."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I don't eat ___.",
+   "options": [
+    "beef",
+    "sweet",
+    "bitter"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Beef."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Children love ___ cream.",
+   "options": [
+    "ice",
+    "iced",
+    "cold"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ice cream."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I love dark ___.",
+   "options": [
+    "chocolate",
+    "sausages",
+    "pork is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Chocolate."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «свинина»?"
+   },
+   "options": [
+    "pork",
+    "beef",
+    "sausage"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pork."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Діти люблять морозиво."
+   },
+   "words": [
+    "Children",
+    "love",
+    "ice",
+    "cream",
+    "loves",
+    "beef"
+   ],
+   "answer": [
+    "Children",
+    "love",
+    "ice",
+    "cream"
+   ],
+   "explanation": {
+    "uk": "Children love ice cream."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я люблю чорний шоколад."
+   },
+   "answers": [
+    "I love dark chocolate"
+   ],
+   "explanation": {
+    "uk": "I love dark chocolate."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you eat pork?",
+   "prompt": {
+    "uk": "Ні, лише яловичину. Що відповісти?"
+   },
+   "options": [
+    "No, only beef.",
+    "No, beef only I eat.",
+    "No, I eats beef."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, only beef."
+   }
+  }
+ ]
+}
