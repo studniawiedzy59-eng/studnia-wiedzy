@@ -1,0 +1,299 @@
+{
+ "id": "u05_l03",
+ "unit": "u05",
+ "cefr": "A0",
+ "title": {
+  "uk": "Десятки до ста"
+ },
+ "goal": {
+  "uk": "Назвати десятки від двадцяти до ста."
+ },
+ "rule": {
+  "uk": "Десятки закінчуються на -ty: sixty, seventy, eighty, ninety. Наголос у них на початку слова. Сто — a hundred або one hundred."
+ },
+ "words": [
+  {
+   "id": "sixty",
+   "text": "sixty",
+   "ipa": "/ˈsɪksti/",
+   "pos": "number",
+   "translation": {
+    "uk": "шістдесят"
+   },
+   "example": "My mother is sixty.",
+   "exampleTranslation": {
+    "uk": "Моїй мамі шістдесят."
+   }
+  },
+  {
+   "id": "seventy",
+   "text": "seventy",
+   "ipa": "/ˈsevnti/",
+   "pos": "number",
+   "translation": {
+    "uk": "сімдесят"
+   },
+   "example": "It's seventy pounds.",
+   "exampleTranslation": {
+    "uk": "Це коштує сімдесят фунтів."
+   }
+  },
+  {
+   "id": "eighty",
+   "text": "eighty",
+   "ipa": "/ˈeɪti/",
+   "pos": "number",
+   "translation": {
+    "uk": "вісімдесят"
+   },
+   "example": "He's eighty.",
+   "exampleTranslation": {
+    "uk": "Йому вісімдесят."
+   }
+  },
+  {
+   "id": "ninety",
+   "text": "ninety",
+   "ipa": "/ˈnaɪnti/",
+   "pos": "number",
+   "translation": {
+    "uk": "дев'яносто"
+   },
+   "example": "It's ninety euros.",
+   "exampleTranslation": {
+    "uk": "Це коштує дев'яносто євро."
+   }
+  },
+  {
+   "id": "hundred",
+   "text": "hundred",
+   "ipa": "/ˈhʌndrəd/",
+   "pos": "number",
+   "translation": {
+    "uk": "сто"
+   },
+   "example": "It's a hundred pounds.",
+   "exampleTranslation": {
+    "uk": "Це коштує сто фунтів."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "nineteen",
+   "prompt": {
+    "uk": "Повторимо. Прослухайте. Яке це число?"
+   },
+   "options": {
+    "uk": [
+     "19",
+     "90",
+     "9"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "nineTEEN — 19."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слово з числом"
+   },
+   "pairs": [
+    {
+     "left": "sixty",
+     "right": {
+      "uk": "60"
+     }
+    },
+    {
+     "left": "seventy",
+     "right": {
+      "uk": "70"
+     }
+    },
+    {
+     "left": "eighty",
+     "right": {
+      "uk": "80"
+     }
+    },
+    {
+     "left": "ninety",
+     "right": {
+      "uk": "90"
+     }
+    },
+    {
+     "left": "hundred",
+     "right": {
+      "uk": "100"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Десятки на -ty і сто."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слово з числом"
+   },
+   "pairs": [
+    {
+     "left": "twenty",
+     "right": {
+      "uk": "20"
+     }
+    },
+    {
+     "left": "thirty",
+     "right": {
+      "uk": "30"
+     }
+    },
+    {
+     "left": "forty",
+     "right": {
+      "uk": "40"
+     }
+    },
+    {
+     "left": "fifty",
+     "right": {
+      "uk": "50"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Ці десятки ви вже знаєте."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "eighty",
+   "prompt": {
+    "uk": "Прослухайте. Яке це число?"
+   },
+   "options": {
+    "uk": [
+     "80",
+     "18",
+     "8"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "EIGHty — 80."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Яке число пропущене?"
+   },
+   "sentence": "seventy, eighty, ___, a hundred",
+   "options": [
+    "ninety",
+    "nineteen",
+    "sixty"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "70, 80, 90, 100."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Скільки буде fifty + fifty?"
+   },
+   "options": [
+    "a hundred",
+    "fifteen",
+    "ninety"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "50 + 50 = 100 — a hundred."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно написати число 40?"
+   },
+   "options": [
+    "forty",
+    "fourty",
+    "fourteen"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Forty пишеться без u, хоча four — з u."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "It's sixty euros.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки це коштує?"
+   },
+   "options": {
+    "uk": [
+     "60 євро",
+     "16 євро",
+     "70 євро"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sixty — 60."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "сто"
+   },
+   "answers": [
+    "a hundred",
+    "one hundred",
+    "hundred"
+   ],
+   "explanation": {
+    "uk": "A hundred або one hundred."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "How much is the ticket?",
+   "prompt": {
+    "uk": "Квиток коштує 90 фунтів. Що відповість касир?"
+   },
+   "options": [
+    "It's ninety pounds.",
+    "It's nineteen pounds.",
+    "It's nine pounds."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ninety — 90."
+   }
+  }
+ ]
+}

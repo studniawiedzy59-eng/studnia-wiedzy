@@ -1,0 +1,310 @@
+{
+ "id": "u06_l03",
+ "unit": "u06",
+ "cefr": "A0",
+ "title": {
+  "uk": "Відчинено чи зачинено?"
+ },
+ "goal": {
+  "uk": "Спитати, коли працює магазин чи банк, і зрозуміти відповідь."
+ },
+ "rule": {
+  "uk": "Перед годиною ставлять at: at nine — о дев'ятій. From… to… — «з… до…»: from nine to five. When…? — «Коли…?». Про години роботи: The shop is open. The bank is closed."
+ },
+ "words": [
+  {
+   "id": "when",
+   "text": "when",
+   "ipa": "/wen/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "коли"
+   },
+   "example": "When is the bank open?",
+   "exampleTranslation": {
+    "uk": "Коли працює банк?"
+   }
+  },
+  {
+   "id": "open",
+   "text": "open",
+   "ipa": "/ˈəʊpən/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "відчинений"
+   },
+   "example": "The shop is open.",
+   "exampleTranslation": {
+    "uk": "Магазин відчинений."
+   }
+  },
+  {
+   "id": "closed",
+   "text": "closed",
+   "ipa": "/kləʊzd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "зачинений"
+   },
+   "example": "The bank is closed.",
+   "exampleTranslation": {
+    "uk": "Банк зачинений."
+   }
+  },
+  {
+   "id": "shop",
+   "text": "shop",
+   "ipa": "/ʃɒp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "магазин"
+   },
+   "example": "The shop is open today.",
+   "exampleTranslation": {
+    "uk": "Магазин сьогодні працює."
+   }
+  },
+  {
+   "id": "bank",
+   "text": "bank",
+   "ipa": "/bæŋk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "банк"
+   },
+   "example": "Where is the bank?",
+   "exampleTranslation": {
+    "uk": "Де банк?"
+   }
+  },
+  {
+   "id": "café",
+   "text": "café",
+   "ipa": "/ˈkæfeɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кафе"
+   },
+   "example": "The café is next to the bank.",
+   "exampleTranslation": {
+    "uk": "Кафе біля банку."
+   }
+  },
+  {
+   "id": "at",
+   "text": "at",
+   "ipa": "/æt/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "о (про годину)"
+   },
+   "example": "At nine o'clock.",
+   "exampleTranslation": {
+    "uk": "О дев'ятій годині."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Повторимо. Котра година: half past seven?"
+   },
+   "options": {
+    "uk": [
+     "7:30",
+     "6:30",
+     "7:15"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Half past seven — 7:30."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "open",
+     "right": {
+      "uk": "відчинений"
+     }
+    },
+    {
+     "left": "closed",
+     "right": {
+      "uk": "зачинений"
+     }
+    },
+    {
+     "left": "when",
+     "right": {
+      "uk": "коли"
+     }
+    },
+    {
+     "left": "shop",
+     "right": {
+      "uk": "магазин"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Open і closed пишуть на дверях."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The bank is closed today.",
+   "prompt": {
+    "uk": "Прослухайте. Що ви дізналися?"
+   },
+   "options": {
+    "uk": [
+     "Банк сьогодні зачинений",
+     "Банк сьогодні відчинений",
+     "Банк біля кафе"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Closed — зачинений."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The café is open ___ eight o'clock.",
+   "options": [
+    "at",
+    "in",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед годиною — at."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The shop is open from nine ___ six.",
+   "options": [
+    "to",
+    "at",
+    "past"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "From nine to six — з дев'ятої до шостої."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "When is the shop open?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Коли працює магазин?",
+     "Де магазин?",
+     "Що це за магазин?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "When — коли."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "It's open from ten to seven.",
+   "prompt": {
+    "uk": "Прослухайте. Коли відчинено?"
+   },
+   "options": {
+    "uk": [
+     "З 10 до 7",
+     "З 7 до 10",
+     "З 10 до 6"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "From ten to seven."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Банк сьогодні зачинений."
+   },
+   "words": [
+    "The",
+    "bank",
+    "is",
+    "closed",
+    "today",
+    "open",
+    "at"
+   ],
+   "answer": [
+    "The",
+    "bank",
+    "is",
+    "closed",
+    "today"
+   ],
+   "explanation": {
+    "uk": "The bank is closed today."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Магазин відчинений."
+   },
+   "answers": [
+    "The shop is open"
+   ],
+   "explanation": {
+    "uk": "The shop is open."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Excuse me, when is the café open?",
+   "prompt": {
+    "uk": "Кафе відчиняється о восьмій. Що відповісти?"
+   },
+   "options": [
+    "At eight o'clock.",
+    "In eight o'clock.",
+    "Eight pounds."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "О восьмій — at eight o'clock."
+   }
+  }
+ ]
+}

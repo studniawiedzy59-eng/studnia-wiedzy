@@ -1,0 +1,327 @@
+{
+ "id": "u06_l01",
+ "unit": "u06",
+ "cefr": "A0",
+ "title": {
+  "uk": "Котра година?"
+ },
+ "goal": {
+  "uk": "Спитати, котра година, і назвати рівну годину."
+ },
+ "rule": {
+  "uk": "What time is it? — «Котра година?». Відповідь: It's + число + o'clock: It's five o'clock. O'clock кажуть лише про рівну годину. In the morning — вранці, in the evening — увечері, at night — уночі."
+ },
+ "words": [
+  {
+   "id": "time",
+   "text": "time",
+   "ipa": "/taɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "час"
+   },
+   "example": "What time is it?",
+   "exampleTranslation": {
+    "uk": "Котра година?"
+   }
+  },
+  {
+   "id": "oclock",
+   "text": "o'clock",
+   "ipa": "/əˈklɒk/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "рівно … година"
+   },
+   "example": "It's five o'clock.",
+   "exampleTranslation": {
+    "uk": "П'ята година."
+   }
+  },
+  {
+   "id": "now",
+   "text": "now",
+   "ipa": "/naʊ/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "зараз"
+   },
+   "example": "It's ten o'clock now.",
+   "exampleTranslation": {
+    "uk": "Зараз десята година."
+   }
+  },
+  {
+   "id": "today",
+   "text": "today",
+   "ipa": "/təˈdeɪ/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "сьогодні"
+   },
+   "example": "I'm here today.",
+   "exampleTranslation": {
+    "uk": "Я сьогодні тут."
+   }
+  },
+  {
+   "id": "morning",
+   "text": "morning",
+   "ipa": "/ˈmɔːnɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ранок"
+   },
+   "example": "Seven o'clock in the morning.",
+   "exampleTranslation": {
+    "uk": "Сьома година ранку."
+   }
+  },
+  {
+   "id": "evening",
+   "text": "evening",
+   "ipa": "/ˈiːvnɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вечір"
+   },
+   "example": "Eight o'clock in the evening.",
+   "exampleTranslation": {
+    "uk": "Восьма година вечора."
+   }
+  },
+  {
+   "id": "night",
+   "text": "night",
+   "ipa": "/naɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ніч"
+   },
+   "example": "Two o'clock at night.",
+   "exampleTranslation": {
+    "uk": "Друга година ночі."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "thirty-eight",
+   "prompt": {
+    "uk": "Повторимо. Прослухайте. Яке це число?"
+   },
+   "options": {
+    "uk": [
+     "38",
+     "83",
+     "18"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Thirty-eight — 38."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "time",
+     "right": {
+      "uk": "час"
+     }
+    },
+    {
+     "left": "now",
+     "right": {
+      "uk": "зараз"
+     }
+    },
+    {
+     "left": "today",
+     "right": {
+      "uk": "сьогодні"
+     }
+    },
+    {
+     "left": "o'clock",
+     "right": {
+      "uk": "рівно … година"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для розмови про час."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "morning",
+     "right": {
+      "uk": "ранок"
+     }
+    },
+    {
+     "left": "evening",
+     "right": {
+      "uk": "вечір"
+     }
+    },
+    {
+     "left": "night",
+     "right": {
+      "uk": "ніч"
+     }
+    },
+    {
+     "left": "year",
+     "right": {
+      "uk": "рік"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Частини доби."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "What time is it?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Котра година?",
+     "Скільки це коштує?",
+     "Який сьогодні день?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "What time is it? — «Котра година?»"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It's nine o'clock.",
+   "prompt": {
+    "uk": "Прослухайте. Котра година?"
+   },
+   "options": {
+    "uk": [
+     "9:00",
+     "5:00",
+     "19:00"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nine o'clock — дев'ята година."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's three ___.",
+   "options": [
+    "o'clock",
+    "time",
+    "years"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Рівна година — o'clock."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Seven o'clock ___ the morning.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In the morning, in the evening."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Зараз шоста година."
+   },
+   "words": [
+    "It's",
+    "six",
+    "o'clock",
+    "now",
+    "time",
+    "is"
+   ],
+   "answer": [
+    "It's",
+    "six",
+    "o'clock",
+    "now"
+   ],
+   "explanation": {
+    "uk": "It's six o'clock now."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Котра година?"
+   },
+   "answers": [
+    "What time is it",
+    "What's the time"
+   ],
+   "explanation": {
+    "uk": "What time is it?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What time is it?",
+   "prompt": {
+    "uk": "На годиннику 10:00. Що відповісти?"
+   },
+   "options": [
+    "It's ten o'clock.",
+    "It's ten years.",
+    "I'm ten."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's ten o'clock."
+   }
+  }
+ ]
+}

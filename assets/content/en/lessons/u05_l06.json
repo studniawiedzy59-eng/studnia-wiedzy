@@ -1,0 +1,198 @@
+{
+ "id": "u05_l06",
+ "unit": "u05",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: числа в житті"
+ },
+ "goal": {
+  "uk": "Впевнено розуміти вік, ціни й номери."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Числа трапляються всюди: вік, ціна, номер телефону. Тренуємо їх на слух і в розмові."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "seventy-three",
+   "prompt": {
+    "uk": "Прослухайте. Яке це число?"
+   },
+   "options": {
+    "uk": [
+     "73",
+     "37",
+     "13"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Seventy-three — 73."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "fourteen",
+   "prompt": {
+    "uk": "Прослухайте уважно. Яке це число?"
+   },
+   "options": {
+    "uk": [
+     "14",
+     "40",
+     "44"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "fourTEEN — 14."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати 86?"
+   },
+   "options": [
+    "eighty-six",
+    "sixty-eight",
+    "eighteen-six"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Eighty — 80, six — 6."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "п'ятдесят п'ять"
+   },
+   "answers": [
+    "fifty-five",
+    "fifty five"
+   ],
+   "explanation": {
+    "uk": "Fifty-five."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My father is sixty-two.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки років татові?"
+   },
+   "options": {
+    "uk": [
+     "62",
+     "26",
+     "72"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sixty-two — 62."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "How much is it?",
+   "prompt": {
+    "uk": "Це коштує 15 фунтів. Що відповість продавець?"
+   },
+   "options": [
+    "It's fifteen pounds.",
+    "It's fifty pounds.",
+    "It's five pounds."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fifteen — 15."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Here's your ___. Thank you!",
+   "options": [
+    "change",
+    "price",
+    "number"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Change — решта."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Який ваш номер телефону?"
+   },
+   "words": [
+    "What's",
+    "your",
+    "phone",
+    "number",
+    "email",
+    "my"
+   ],
+   "answer": [
+    "What's",
+    "your",
+    "phone",
+    "number"
+   ],
+   "explanation": {
+    "uk": "What's your phone number?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке число тут: a hundred?"
+   },
+   "options": {
+    "uk": [
+     "100",
+     "1000",
+     "10"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A hundred — сто."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What's your address?",
+   "prompt": {
+    "uk": "Що відповісти?"
+   },
+   "options": [
+    "Twelve Green Street.",
+    "Twelve years old.",
+    "Twelve pounds."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Адресу називають так: номер будинку й вулиця."
+   }
+  }
+ ]
+}

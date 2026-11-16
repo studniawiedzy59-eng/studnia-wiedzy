@@ -1,0 +1,327 @@
+{
+ "id": "u06_l05",
+ "unit": "u06",
+ "cefr": "A0",
+ "title": {
+  "uk": "О котрій поїзд?"
+ },
+ "goal": {
+  "uk": "Спитати, о котрій щось починається, і домовитися про час."
+ },
+ "rule": {
+  "uk": "What time is…? — «О котрій…?»: What time is the train? Відповідь: At + час. Час за розкладом читають двома числами: 10:15 — ten fifteen, 7:40 — seven forty."
+ },
+ "words": [
+  {
+   "id": "train",
+   "text": "train",
+   "ipa": "/treɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "поїзд"
+   },
+   "example": "What time is the train?",
+   "exampleTranslation": {
+    "uk": "О котрій поїзд?"
+   }
+  },
+  {
+   "id": "bus",
+   "text": "bus",
+   "ipa": "/bʌs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "автобус"
+   },
+   "example": "The bus is at ten.",
+   "exampleTranslation": {
+    "uk": "Автобус о десятій."
+   }
+  },
+  {
+   "id": "meeting",
+   "text": "meeting",
+   "ipa": "/ˈmiːtɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "зустріч, нарада"
+   },
+   "example": "The meeting is at two.",
+   "exampleTranslation": {
+    "uk": "Зустріч о другій."
+   }
+  },
+  {
+   "id": "lesson",
+   "text": "lesson",
+   "ipa": "/ˈlesn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "урок"
+   },
+   "example": "My lesson is at six.",
+   "exampleTranslation": {
+    "uk": "Мій урок о шостій."
+   }
+  },
+  {
+   "id": "breakfast",
+   "text": "breakfast",
+   "ipa": "/ˈbrekfəst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сніданок"
+   },
+   "example": "Breakfast is at eight.",
+   "exampleTranslation": {
+    "uk": "Сніданок о восьмій."
+   }
+  },
+  {
+   "id": "lunch",
+   "text": "lunch",
+   "ipa": "/lʌntʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "обід"
+   },
+   "example": "Lunch is at one.",
+   "exampleTranslation": {
+    "uk": "Обід о першій."
+   }
+  },
+  {
+   "id": "dinner",
+   "text": "dinner",
+   "ipa": "/ˈdɪnə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вечеря"
+   },
+   "example": "Dinner is at seven.",
+   "exampleTranslation": {
+    "uk": "Вечеря о сьомій."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Повторимо. Зараз 9:00 ранку. Як привітатися?"
+   },
+   "options": [
+    "Good morning!",
+    "Good night!",
+    "Good evening!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вранці — Good morning."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "train",
+     "right": {
+      "uk": "поїзд"
+     }
+    },
+    {
+     "left": "bus",
+     "right": {
+      "uk": "автобус"
+     }
+    },
+    {
+     "left": "meeting",
+     "right": {
+      "uk": "зустріч"
+     }
+    },
+    {
+     "left": "lesson",
+     "right": {
+      "uk": "урок"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Те, що має розклад."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "breakfast",
+     "right": {
+      "uk": "сніданок"
+     }
+    },
+    {
+     "left": "lunch",
+     "right": {
+      "uk": "обід"
+     }
+    },
+    {
+     "left": "dinner",
+     "right": {
+      "uk": "вечеря"
+     }
+    },
+    {
+     "left": "time",
+     "right": {
+      "uk": "час"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Три прийоми їжі за день."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "What time is the train?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "О котрій поїзд?",
+     "Де поїзд?",
+     "Скільки коштує поїзд?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "What time is…? — «О котрій…?»"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The bus is at ten fifteen.",
+   "prompt": {
+    "uk": "Прослухайте. О котрій автобус?"
+   },
+   "options": {
+    "uk": [
+     "10:15",
+     "10:50",
+     "15:10"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ten fifteen — 10:15."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як прочитати час 7:40?"
+   },
+   "options": {
+    "uk": [
+     "seven forty",
+     "seven fourteen",
+     "forty seven"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Спочатку година, потім хвилини: seven forty."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Breakfast is ___ half past seven.",
+   "options": [
+    "at",
+    "in",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед часом — at."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "О котрій зустріч?"
+   },
+   "words": [
+    "What",
+    "time",
+    "is",
+    "the",
+    "meeting",
+    "when",
+    "at"
+   ],
+   "answer": [
+    "What",
+    "time",
+    "is",
+    "the",
+    "meeting"
+   ],
+   "explanation": {
+    "uk": "What time is the meeting?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Обід о першій."
+   },
+   "answers": [
+    "Lunch is at one",
+    "Lunch is at one o'clock"
+   ],
+   "explanation": {
+    "uk": "Lunch is at one."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What time is dinner?",
+   "prompt": {
+    "uk": "Вечеря о сьомій тридцять. Що відповісти?"
+   },
+   "options": [
+    "At half past seven.",
+    "In seven thirty.",
+    "Seven pounds thirty."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At half past seven — о пів на восьму."
+   }
+  }
+ ]
+}

@@ -1,0 +1,291 @@
+{
+ "id": "u05_l01",
+ "unit": "u05",
+ "cefr": "A0",
+ "title": {
+  "uk": "Від 11 до 15"
+ },
+ "goal": {
+  "uk": "Назвати й розпізнати числа від одинадцяти до п'ятнадцяти."
+ },
+ "rule": {
+  "uk": "Eleven і twelve треба просто запам'ятати. Далі числа закінчуються на -teen: thirteen, fourteen, fifteen. Наголос у них падає на -teen."
+ },
+ "words": [
+  {
+   "id": "number",
+   "text": "number",
+   "ipa": "/ˈnʌmbə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "число, номер"
+   },
+   "example": "What number is it?",
+   "exampleTranslation": {
+    "uk": "Яке це число?"
+   }
+  },
+  {
+   "id": "eleven",
+   "text": "eleven",
+   "ipa": "/ɪˈlevn/",
+   "pos": "number",
+   "translation": {
+    "uk": "одинадцять"
+   },
+   "example": "I have eleven books.",
+   "exampleTranslation": {
+    "uk": "У мене одинадцять книжок."
+   }
+  },
+  {
+   "id": "twelve",
+   "text": "twelve",
+   "ipa": "/twelv/",
+   "pos": "number",
+   "translation": {
+    "uk": "дванадцять"
+   },
+   "example": "He's twelve.",
+   "exampleTranslation": {
+    "uk": "Йому дванадцять."
+   }
+  },
+  {
+   "id": "thirteen",
+   "text": "thirteen",
+   "ipa": "/ˌθɜːˈtiːn/",
+   "pos": "number",
+   "translation": {
+    "uk": "тринадцять"
+   },
+   "example": "She's thirteen.",
+   "exampleTranslation": {
+    "uk": "Їй тринадцять."
+   }
+  },
+  {
+   "id": "fourteen",
+   "text": "fourteen",
+   "ipa": "/ˌfɔːˈtiːn/",
+   "pos": "number",
+   "translation": {
+    "uk": "чотирнадцять"
+   },
+   "example": "It's fourteen pounds.",
+   "exampleTranslation": {
+    "uk": "Це коштує чотирнадцять фунтів."
+   }
+  },
+  {
+   "id": "fifteen",
+   "text": "fifteen",
+   "ipa": "/ˌfɪfˈtiːn/",
+   "pos": "number",
+   "translation": {
+    "uk": "п'ятнадцять"
+   },
+   "example": "My son is fifteen.",
+   "exampleTranslation": {
+    "uk": "Моєму синові п'ятнадцять."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "The phone is new ___ very expensive.",
+   "options": [
+    "but",
+    "very",
+    "many"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "But — «але»."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слово з числом"
+   },
+   "pairs": [
+    {
+     "left": "eleven",
+     "right": {
+      "uk": "11"
+     }
+    },
+    {
+     "left": "twelve",
+     "right": {
+      "uk": "12"
+     }
+    },
+    {
+     "left": "thirteen",
+     "right": {
+      "uk": "13"
+     }
+    },
+    {
+     "left": "fourteen",
+     "right": {
+      "uk": "14"
+     }
+    },
+    {
+     "left": "fifteen",
+     "right": {
+      "uk": "15"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Eleven і twelve — винятки, далі додається -teen."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "twelve",
+   "prompt": {
+    "uk": "Прослухайте. Яке це число?"
+   },
+   "options": {
+    "uk": [
+     "12",
+     "11",
+     "20"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twelve — дванадцять. Twenty — двадцять."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "fifteen",
+   "prompt": {
+    "uk": "Прослухайте. Яке це число?"
+   },
+   "options": {
+    "uk": [
+     "15",
+     "50",
+     "5"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fifteen — 15: наголос на кінці. Fifty — 50: наголос на початку."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Яке число пропущене?"
+   },
+   "sentence": "ten, eleven, ___, thirteen",
+   "options": [
+    "twelve",
+    "fourteen",
+    "twenty"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після eleven (11) іде twelve (12)."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Скільки буде ten + four?"
+   },
+   "options": [
+    "fourteen",
+    "forty",
+    "thirteen"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "10 + 4 = 14 — fourteen. Forty — це 40."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно написати число 15?"
+   },
+   "options": [
+    "fifteen",
+    "fiveteen",
+    "fiften"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fifteen: five змінюється на fif-."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "My daughter is thirteen years old.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки років доньці?"
+   },
+   "options": {
+    "uk": [
+     "13",
+     "30",
+     "3"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Thirteen — 13. Thirty — 30."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "одинадцять"
+   },
+   "answers": [
+    "eleven"
+   ],
+   "explanation": {
+    "uk": "Eleven — одинадцять."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "How old is your son?",
+   "prompt": {
+    "uk": "Вашому синові дванадцять. Що відповісти?"
+   },
+   "options": [
+    "He's twelve.",
+    "He's twenty.",
+    "She's twelve."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про сина — he: He's twelve."
+   }
+  }
+ ]
+}

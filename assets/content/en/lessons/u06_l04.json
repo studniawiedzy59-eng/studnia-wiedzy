@@ -1,0 +1,330 @@
+{
+ "id": "u06_l04",
+ "unit": "u06",
+ "cefr": "A0",
+ "title": {
+  "uk": "Доброго ранку!"
+ },
+ "goal": {
+  "uk": "Привітатися відповідно до часу доби й попрощатися до завтра."
+ },
+ "rule": {
+  "uk": "Вранці кажуть Good morning, удень Good afternoon, увечері Good evening. Good night — це не привітання, а прощання перед сном. See you tomorrow — «до завтра»."
+ },
+ "words": [
+  {
+   "id": "good_morning",
+   "text": "good morning",
+   "ipa": "/ˌɡʊd ˈmɔːnɪŋ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "доброго ранку"
+   },
+   "example": "Good morning, Anna!",
+   "exampleTranslation": {
+    "uk": "Доброго ранку, Анно!"
+   }
+  },
+  {
+   "id": "afternoon",
+   "text": "afternoon",
+   "ipa": "/ˌɑːftəˈnuːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "день (після дванадцятої)"
+   },
+   "example": "Good afternoon!",
+   "exampleTranslation": {
+    "uk": "Добрий день!"
+   }
+  },
+  {
+   "id": "good_evening",
+   "text": "good evening",
+   "ipa": "/ˌɡʊd ˈiːvnɪŋ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "добрий вечір"
+   },
+   "example": "Good evening!",
+   "exampleTranslation": {
+    "uk": "Добрий вечір!"
+   }
+  },
+  {
+   "id": "good_night",
+   "text": "good night",
+   "ipa": "/ˌɡʊd ˈnaɪt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "на добраніч"
+   },
+   "example": "Good night, Tom.",
+   "exampleTranslation": {
+    "uk": "На добраніч, Томе."
+   }
+  },
+  {
+   "id": "tomorrow",
+   "text": "tomorrow",
+   "ipa": "/təˈmɒrəʊ/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "завтра"
+   },
+   "example": "See you tomorrow.",
+   "exampleTranslation": {
+    "uk": "До завтра."
+   }
+  },
+  {
+   "id": "see_you",
+   "text": "see you",
+   "ipa": "/ˈsiː juː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "до зустрічі"
+   },
+   "example": "See you!",
+   "exampleTranslation": {
+    "uk": "До зустрічі!"
+   }
+  },
+  {
+   "id": "early",
+   "text": "early",
+   "ipa": "/ˈɜːli/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "рано, ранній"
+   },
+   "example": "It's very early.",
+   "exampleTranslation": {
+    "uk": "Ще дуже рано."
+   }
+  },
+  {
+   "id": "late",
+   "text": "late",
+   "ipa": "/leɪt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "пізно; той, що запізнився"
+   },
+   "example": "Sorry, I'm late.",
+   "exampleTranslation": {
+    "uk": "Вибачте, я запізнився."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "The shop is open ___ nine o'clock.",
+   "options": [
+    "at",
+    "in",
+    "to"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед годиною — at."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "good morning",
+     "right": {
+      "uk": "доброго ранку"
+     }
+    },
+    {
+     "left": "good evening",
+     "right": {
+      "uk": "добрий вечір"
+     }
+    },
+    {
+     "left": "good night",
+     "right": {
+      "uk": "на добраніч"
+     }
+    },
+    {
+     "left": "see you",
+     "right": {
+      "uk": "до зустрічі"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Good night — тільки на прощання."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "tomorrow",
+     "right": {
+      "uk": "завтра"
+     }
+    },
+    {
+     "left": "today",
+     "right": {
+      "uk": "сьогодні"
+     }
+    },
+    {
+     "left": "early",
+     "right": {
+      "uk": "рано"
+     }
+    },
+    {
+     "left": "late",
+     "right": {
+      "uk": "пізно"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Today — tomorrow, early — late."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Зараз 8:00 ранку. Як привітатися?"
+   },
+   "options": [
+    "Good morning!",
+    "Good evening!",
+    "Good night!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вранці — Good morning."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Зараз 15:00. Як привітатися?"
+   },
+   "options": [
+    "Good afternoon!",
+    "Good morning!",
+    "Good night!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після дванадцятої й до вечора — Good afternoon."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви йдете спати. Що сказати?"
+   },
+   "options": [
+    "Good night!",
+    "Good evening!",
+    "Good afternoon!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед сном — Good night."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "See you tomorrow!",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "До завтра",
+     "До побачення назавжди",
+     "Побачимося сьогодні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tomorrow — завтра."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вибачте, я запізнився."
+   },
+   "words": [
+    "Sorry",
+    "I'm",
+    "late",
+    "early",
+    "is"
+   ],
+   "answer": [
+    "Sorry",
+    "I'm",
+    "late"
+   ],
+   "explanation": {
+    "uk": "Sorry — «вибачте». I'm late — «я запізнився»."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "До завтра."
+   },
+   "answers": [
+    "See you tomorrow"
+   ],
+   "explanation": {
+    "uk": "See you tomorrow."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Good evening!",
+   "prompt": {
+    "uk": "Вас вітають увечері. Що відповісти?"
+   },
+   "options": [
+    "Good evening!",
+    "Good night!",
+    "See you tomorrow!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "На привітання відповідають тим самим: Good evening."
+   }
+  }
+ ]
+}

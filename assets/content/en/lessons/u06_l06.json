@@ -1,0 +1,196 @@
+{
+ "id": "u06_l06",
+ "unit": "u06",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: мій час"
+ },
+ "goal": {
+  "uk": "Спитати й назвати час, години роботи та розклад."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: What time is it?, o'clock, half past, quarter past і to, at, from… to…, open і closed, привітання за часом доби."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What time is it?",
+   "prompt": {
+    "uk": "На годиннику 3:30. Що відповісти?"
+   },
+   "options": [
+    "It's half past three.",
+    "It's half past four.",
+    "It's three o'clock."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "3:30 — half past three."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Котра година: quarter to ten?"
+   },
+   "options": {
+    "uk": [
+     "9:45",
+     "10:15",
+     "10:45"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Чверть до десятої — 9:45."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The bank is open ___ nine to five.",
+   "options": [
+    "from",
+    "at",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "From nine to five."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The train is at six forty.",
+   "prompt": {
+    "uk": "Прослухайте. О котрій поїзд?"
+   },
+   "options": {
+    "uk": [
+     "6:40",
+     "6:14",
+     "4:06"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Six forty — 6:40."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "translate",
+   "prompt": {
+    "uk": "Котра година?"
+   },
+   "answers": [
+    "What time is it",
+    "What's the time"
+   ],
+   "explanation": {
+    "uk": "What time is it?"
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Зараз 20:00. Ви заходите в ресторан. Як привітатися?"
+   },
+   "options": [
+    "Good evening!",
+    "Good night!",
+    "Good morning!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Увечері вітаються Good evening. Good night — прощання."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Магазин сьогодні зачинений."
+   },
+   "words": [
+    "The",
+    "shop",
+    "is",
+    "closed",
+    "today",
+    "open",
+    "tomorrow"
+   ],
+   "answer": [
+    "The",
+    "shop",
+    "is",
+    "closed",
+    "today"
+   ],
+   "explanation": {
+    "uk": "The shop is closed today."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Sorry, I'm ___. — No problem.",
+   "options": [
+    "late",
+    "early",
+    "closed"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sorry, I'm late — вибачте, я запізнився."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "What time is breakfast?",
+   "prompt": {
+    "uk": "Сніданок із сьомої до десятої. Що відповісти?"
+   },
+   "options": [
+    "From seven to ten.",
+    "At seven to ten pounds.",
+    "It's ten years."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "From seven to ten."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "See you tomorrow!",
+   "prompt": {
+    "uk": "З вами прощаються до завтра. Що відповісти?"
+   },
+   "options": [
+    "See you! Bye!",
+    "Good morning!",
+    "Nice to meet you."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "See you! Bye!"
+   }
+  }
+ ]
+}

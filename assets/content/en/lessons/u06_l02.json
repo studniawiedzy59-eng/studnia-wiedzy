@@ -1,0 +1,286 @@
+{
+ "id": "u06_l02",
+ "unit": "u06",
+ "cefr": "A0",
+ "title": {
+  "uk": "Пів на шосту"
+ },
+ "goal": {
+  "uk": "Назвати час із половиною та чвертю."
+ },
+ "rule": {
+  "uk": "Half past six — 6:30, дослівно «половина після шостої». Українською кажуть «пів на сьому», англійською — рахують від години, що минула. Quarter past six — 6:15. Quarter to seven — 6:45, «чверть до сьомої»."
+ },
+ "words": [
+  {
+   "id": "half_past",
+   "text": "half past",
+   "ipa": "/ˌhɑːf ˈpɑːst/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "пів години після"
+   },
+   "example": "It's half past six.",
+   "exampleTranslation": {
+    "uk": "Зараз пів на сьому (6:30)."
+   }
+  },
+  {
+   "id": "quarter",
+   "text": "quarter",
+   "ipa": "/ˈkwɔːtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "чверть (15 хвилин)"
+   },
+   "example": "It's quarter past two.",
+   "exampleTranslation": {
+    "uk": "Зараз чверть на третю (2:15)."
+   }
+  },
+  {
+   "id": "past",
+   "text": "past",
+   "ipa": "/pɑːst/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "після (про час)"
+   },
+   "example": "Ten past five.",
+   "exampleTranslation": {
+    "uk": "Десять хвилин на шосту (5:10)."
+   }
+  },
+  {
+   "id": "to",
+   "text": "to",
+   "ipa": "/tuː/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "до (про час)"
+   },
+   "example": "Quarter to seven.",
+   "exampleTranslation": {
+    "uk": "За чверть сьома (6:45)."
+   }
+  },
+  {
+   "id": "minute",
+   "text": "minute",
+   "ipa": "/ˈmɪnɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "хвилина"
+   },
+   "example": "Five minutes, please.",
+   "exampleTranslation": {
+    "uk": "П'ять хвилин, будь ласка."
+   }
+  },
+  {
+   "id": "hour",
+   "text": "hour",
+   "ipa": "/ˈaʊə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "година (60 хвилин)"
+   },
+   "example": "Two hours.",
+   "exampleTranslation": {
+    "uk": "Дві години."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What time is it?",
+   "prompt": {
+    "uk": "Повторимо. На годиннику 4:00. Що відповісти?"
+   },
+   "options": [
+    "It's four o'clock.",
+    "It's forty.",
+    "It's four years."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's four o'clock."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "half past",
+     "right": {
+      "uk": "пів години після"
+     }
+    },
+    {
+     "left": "quarter",
+     "right": {
+      "uk": "чверть"
+     }
+    },
+    {
+     "left": "minute",
+     "right": {
+      "uk": "хвилина"
+     }
+    },
+    {
+     "left": "hour",
+     "right": {
+      "uk": "година"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "В hour літера h не вимовляється."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Котра година: half past six?"
+   },
+   "options": {
+    "uk": [
+     "6:30",
+     "5:30",
+     "7:30"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Half past six — половина після шостої: 6:30."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Котра година: quarter past two?"
+   },
+   "options": {
+    "uk": [
+     "2:15",
+     "2:45",
+     "1:45"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Past — після: чверть після другої, 2:15."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Котра година: quarter to seven?"
+   },
+   "options": {
+    "uk": [
+     "6:45",
+     "7:15",
+     "7:45"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "To — до: чверть до сьомої, 6:45."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "It's half past nine.",
+   "prompt": {
+    "uk": "Прослухайте. Котра година?"
+   },
+   "options": {
+    "uk": [
+     "9:30",
+     "8:30",
+     "9:15"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Half past nine — 9:30."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's half ___ three.",
+   "options": [
+    "past",
+    "to",
+    "o'clock"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Половина — завжди half past."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати 8:15?"
+   },
+   "options": [
+    "quarter past eight",
+    "quarter to eight",
+    "half past eight"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "15 хвилин після восьмої — quarter past eight."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "пів на п'яту (4:30)"
+   },
+   "answers": [
+    "half past four",
+    "It's half past four"
+   ],
+   "explanation": {
+    "uk": "4:30 — half past four."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What time is it?",
+   "prompt": {
+    "uk": "На годиннику 11:45. Що відповісти?"
+   },
+   "options": [
+    "It's quarter to twelve.",
+    "It's quarter past twelve.",
+    "It's half past eleven."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "11:45 — чверть до дванадцятої: quarter to twelve."
+   }
+  }
+ ]
+}

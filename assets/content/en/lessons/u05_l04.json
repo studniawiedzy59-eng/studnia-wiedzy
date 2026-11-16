@@ -1,0 +1,249 @@
+{
+ "id": "u05_l04",
+ "unit": "u05",
+ "cefr": "A0",
+ "title": {
+  "uk": "Двадцять один, тридцять п'ять"
+ },
+ "goal": {
+  "uk": "Скласти будь-яке число до ста й зрозуміти ціну."
+ },
+ "rule": {
+  "uk": "Складене число — це десяток і одиниця через дефіс: twenty-one, thirty-five, ninety-nine. Ціну з копійками читають двома числами: £4.50 — four fifty."
+ },
+ "words": [
+  {
+   "id": "price",
+   "text": "price",
+   "ipa": "/praɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ціна"
+   },
+   "example": "What's the price?",
+   "exampleTranslation": {
+    "uk": "Яка ціна?"
+   }
+  },
+  {
+   "id": "cent",
+   "text": "cent",
+   "ipa": "/sent/",
+   "pos": "noun",
+   "translation": {
+    "uk": "цент"
+   },
+   "example": "It's fifty cents.",
+   "exampleTranslation": {
+    "uk": "Це коштує п'ятдесят центів."
+   }
+  },
+  {
+   "id": "change",
+   "text": "change",
+   "ipa": "/tʃeɪndʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "решта"
+   },
+   "example": "Here's your change.",
+   "exampleTranslation": {
+    "uk": "Ось ваша решта."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Повторимо. Скільки буде thirty + thirty?"
+   },
+   "options": [
+    "sixty",
+    "sixteen",
+    "thirteen"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "30 + 30 = 60 — sixty."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке це число: twenty-one?"
+   },
+   "options": {
+    "uk": [
+     "21",
+     "12",
+     "20"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twenty — 20, one — 1: разом 21."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке це число: forty-seven?"
+   },
+   "options": {
+    "uk": [
+     "47",
+     "74",
+     "14"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Forty — 40, seven — 7."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "thirty-five",
+   "prompt": {
+    "uk": "Прослухайте. Яке це число?"
+   },
+   "options": {
+    "uk": [
+     "35",
+     "53",
+     "25"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Thirty-five — 35."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "ninety-nine",
+   "prompt": {
+    "uk": "Прослухайте. Яке це число?"
+   },
+   "options": {
+    "uk": [
+     "99",
+     "19",
+     "90"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ninety-nine — 99."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати 68?"
+   },
+   "options": [
+    "sixty-eight",
+    "eighty-six",
+    "sixteen-eight"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Спочатку десяток: sixty, потім eight."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "price",
+     "right": {
+      "uk": "ціна"
+     }
+    },
+    {
+     "left": "change",
+     "right": {
+      "uk": "решта"
+     }
+    },
+    {
+     "left": "cent",
+     "right": {
+      "uk": "цент"
+     }
+    },
+    {
+     "left": "bill",
+     "right": {
+      "uk": "рахунок"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова, які чути біля каси."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "It's four fifty.",
+   "prompt": {
+    "uk": "Прослухайте ціну. Скільки це коштує?"
+   },
+   "options": {
+    "uk": [
+     "4,50",
+     "45",
+     "4,15"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Four fifty — чотири і п'ятдесят: 4,50."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "двадцять два"
+   },
+   "answers": [
+    "twenty-two",
+    "twenty two"
+   ],
+   "explanation": {
+    "uk": "Twenty-two — через дефіс."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "That's twelve pounds. — Here's twenty.",
+   "prompt": {
+    "uk": "Ви дали двадцять, а треба дванадцять. Що скаже касир?"
+   },
+   "options": [
+    "Here's your change.",
+    "Here's your menu.",
+    "That's all."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Change — решта."
+   }
+  }
+ ]
+}

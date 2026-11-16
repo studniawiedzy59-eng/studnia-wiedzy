@@ -1,0 +1,280 @@
+{
+ "id": "u05_l02",
+ "unit": "u05",
+ "cefr": "A0",
+ "title": {
+  "uk": "Від 16 до 19 і нуль"
+ },
+ "goal": {
+  "uk": "Назвати числа до дев'ятнадцяти й не плутати 13 з 30."
+ },
+ "rule": {
+  "uk": "Sixteen, seventeen, eighteen, nineteen будуються однаково: число + teen. Головна пастка — на слух: thirTEEN (13) і THIRty (30). У -teen наголос на кінці й довге «і»."
+ },
+ "words": [
+  {
+   "id": "sixteen",
+   "text": "sixteen",
+   "ipa": "/ˌsɪksˈtiːn/",
+   "pos": "number",
+   "translation": {
+    "uk": "шістнадцять"
+   },
+   "example": "She's sixteen.",
+   "exampleTranslation": {
+    "uk": "Їй шістнадцять."
+   }
+  },
+  {
+   "id": "seventeen",
+   "text": "seventeen",
+   "ipa": "/ˌsevnˈtiːn/",
+   "pos": "number",
+   "translation": {
+    "uk": "сімнадцять"
+   },
+   "example": "It's seventeen euros.",
+   "exampleTranslation": {
+    "uk": "Це коштує сімнадцять євро."
+   }
+  },
+  {
+   "id": "eighteen",
+   "text": "eighteen",
+   "ipa": "/ˌeɪˈtiːn/",
+   "pos": "number",
+   "translation": {
+    "uk": "вісімнадцять"
+   },
+   "example": "He's eighteen.",
+   "exampleTranslation": {
+    "uk": "Йому вісімнадцять."
+   }
+  },
+  {
+   "id": "nineteen",
+   "text": "nineteen",
+   "ipa": "/ˌnaɪnˈtiːn/",
+   "pos": "number",
+   "translation": {
+    "uk": "дев'ятнадцять"
+   },
+   "example": "I'm nineteen.",
+   "exampleTranslation": {
+    "uk": "Мені дев'ятнадцять."
+   }
+  },
+  {
+   "id": "zero",
+   "text": "zero",
+   "ipa": "/ˈzɪərəʊ/",
+   "pos": "number",
+   "translation": {
+    "uk": "нуль"
+   },
+   "example": "Zero, one, two.",
+   "exampleTranslation": {
+    "uk": "Нуль, один, два."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "fourteen",
+   "prompt": {
+    "uk": "Повторимо. Прослухайте. Яке це число?"
+   },
+   "options": {
+    "uk": [
+     "14",
+     "40",
+     "4"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fourteen — 14."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слово з числом"
+   },
+   "pairs": [
+    {
+     "left": "sixteen",
+     "right": {
+      "uk": "16"
+     }
+    },
+    {
+     "left": "seventeen",
+     "right": {
+      "uk": "17"
+     }
+    },
+    {
+     "left": "eighteen",
+     "right": {
+      "uk": "18"
+     }
+    },
+    {
+     "left": "nineteen",
+     "right": {
+      "uk": "19"
+     }
+    },
+    {
+     "left": "zero",
+     "right": {
+      "uk": "0"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Число + teen. В eighteen одна літера t."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "thirty",
+   "prompt": {
+    "uk": "Прослухайте уважно. Яке це число?"
+   },
+   "options": {
+    "uk": [
+     "30",
+     "13",
+     "3"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "THIRty — наголос на початку, це 30."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "sixteen",
+   "prompt": {
+    "uk": "Прослухайте уважно. Яке це число?"
+   },
+   "options": {
+    "uk": [
+     "16",
+     "60",
+     "6"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "sixTEEN — наголос на кінці, це 16."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Яке число пропущене?"
+   },
+   "sentence": "sixteen, seventeen, ___, nineteen",
+   "options": [
+    "eighteen",
+    "eleven",
+    "eighty"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "16, 17, 18, 19."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Скільки буде ten + nine?"
+   },
+   "options": [
+    "nineteen",
+    "ninety",
+    "eighteen"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "10 + 9 = 19 — nineteen."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке число найбільше?"
+   },
+   "options": [
+    "forty",
+    "fourteen",
+    "nineteen"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Forty — 40. Fourteen — 14, nineteen — 19."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "It's seventeen pounds.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки це коштує?"
+   },
+   "options": {
+    "uk": [
+     "17 фунтів",
+     "70 фунтів",
+     "7 фунтів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Seventeen — 17."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "вісімнадцять"
+   },
+   "answers": [
+    "eighteen"
+   ],
+   "explanation": {
+    "uk": "Eighteen — вісімнадцять."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "How old are you?",
+   "prompt": {
+    "uk": "Вам дев'ятнадцять. Що відповісти?"
+   },
+   "options": [
+    "I'm nineteen.",
+    "I'm ninety.",
+    "I have nineteen."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm nineteen."
+   }
+  }
+ ]
+}

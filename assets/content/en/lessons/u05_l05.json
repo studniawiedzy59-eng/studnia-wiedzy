@@ -1,0 +1,296 @@
+{
+ "id": "u05_l05",
+ "unit": "u05",
+ "cefr": "A0",
+ "title": {
+  "uk": "Мій номер телефону"
+ },
+ "goal": {
+  "uk": "Назвати номер телефону, адресу й електронну пошту."
+ },
+ "rule": {
+  "uk": "Номер телефону читають по одній цифрі. Нуль у номері часто називають «оу» (oh). В адресі пошти @ читається at, а крапка — dot."
+ },
+ "words": [
+  {
+   "id": "phone_number",
+   "text": "phone number",
+   "ipa": "/ˈfəʊn ˌnʌmbə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "номер телефону"
+   },
+   "example": "What's your phone number?",
+   "exampleTranslation": {
+    "uk": "Який ваш номер телефону?"
+   }
+  },
+  {
+   "id": "address",
+   "text": "address",
+   "ipa": "/əˈdres/",
+   "pos": "noun",
+   "translation": {
+    "uk": "адреса"
+   },
+   "example": "What's your address?",
+   "exampleTranslation": {
+    "uk": "Яка ваша адреса?"
+   }
+  },
+  {
+   "id": "street",
+   "text": "street",
+   "ipa": "/striːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вулиця"
+   },
+   "example": "I live in Green Street.",
+   "exampleTranslation": {
+    "uk": "Я живу на вулиці Грін."
+   }
+  },
+  {
+   "id": "email",
+   "text": "email",
+   "ipa": "/ˈiːmeɪl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "електронна пошта"
+   },
+   "example": "What's your email?",
+   "exampleTranslation": {
+    "uk": "Яка ваша електронна пошта?"
+   }
+  },
+  {
+   "id": "at",
+   "text": "at",
+   "ipa": "/æt/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "знак @ в адресі пошти"
+   },
+   "example": "anna at mail dot com",
+   "exampleTranslation": {
+    "uk": "anna@mail.com"
+   }
+  },
+  {
+   "id": "dot",
+   "text": "dot",
+   "ipa": "/dɒt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "крапка (в адресі)"
+   },
+   "example": "mail dot com",
+   "exampleTranslation": {
+    "uk": "mail.com"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "forty-two",
+   "prompt": {
+    "uk": "Повторимо. Прослухайте. Яке це число?"
+   },
+   "options": {
+    "uk": [
+     "42",
+     "24",
+     "14"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Forty-two — 42."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "phone number",
+     "right": {
+      "uk": "номер телефону"
+     }
+    },
+    {
+     "left": "address",
+     "right": {
+      "uk": "адреса"
+     }
+    },
+    {
+     "left": "street",
+     "right": {
+      "uk": "вулиця"
+     }
+    },
+    {
+     "left": "email",
+     "right": {
+      "uk": "електронна пошта"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Те, що питають в анкеті чи готелі."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "What's your phone number?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Номер телефону",
+     "Адресу",
+     "Ім'я"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Phone number — номер телефону."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "five, zero, seven, three, one",
+   "prompt": {
+    "uk": "Прослухайте номер"
+   },
+   "options": {
+    "uk": [
+     "5 0 7 3 1",
+     "5 0 7 1 3",
+     "5 7 0 3 1"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Номер називають по одній цифрі."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як прочитати anna@mail.com?"
+   },
+   "options": {
+    "uk": [
+     "anna at mail dot com",
+     "anna in mail dot com",
+     "anna and mail com"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "@ — at, крапка — dot."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What's ___ address?",
+   "options": [
+    "your",
+    "you",
+    "I"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "«Ваша адреса» — your address."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I live ___ London.",
+   "options": [
+    "in",
+    "dot",
+    "your"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У місті — in: I live in London."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Який ваш номер телефону?"
+   },
+   "words": [
+    "What's",
+    "your",
+    "phone",
+    "number",
+    "address",
+    "is"
+   ],
+   "answer": [
+    "What's",
+    "your",
+    "phone",
+    "number"
+   ],
+   "explanation": {
+    "uk": "What's your phone number?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Яка ваша адреса?"
+   },
+   "answers": [
+    "What's your address",
+    "What is your address"
+   ],
+   "explanation": {
+    "uk": "What's your address?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What's your email?",
+   "prompt": {
+    "uk": "Вас питають про пошту. Що відповісти?"
+   },
+   "options": [
+    "It's anna at mail dot com.",
+    "It's five pounds.",
+    "I'm from Ukraine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Адресу пошти називають через at і dot."
+   }
+  }
+ ]
+}
