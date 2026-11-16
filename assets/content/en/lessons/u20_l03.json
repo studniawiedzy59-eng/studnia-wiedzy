@@ -1,0 +1,330 @@
+{
+ "id": "u20_l03",
+ "unit": "u20",
+ "cefr": "A0",
+ "title": {
+  "uk": "Домашні справи"
+ },
+ "goal": {
+  "uk": "Розповісти, що ви робите по дому."
+ },
+ "rule": {
+  "uk": "Про домашню роботу кажуть do: do the housework, do the shopping, do the laundry (прати). Але посуд миють — wash the dishes, а їжу готують — cook або make. Tidy — «прибирати, наводити лад»."
+ },
+ "words": [
+  {
+   "id": "housework",
+   "text": "housework",
+   "ipa": "/ˈhaʊswɜːk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "хатня робота"
+   },
+   "example": "I do the housework.",
+   "exampleTranslation": {
+    "uk": "Я роблю хатню роботу."
+   }
+  },
+  {
+   "id": "dishes",
+   "text": "dishes",
+   "ipa": "/ˈdɪʃɪz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "посуд"
+   },
+   "example": "I wash the dishes.",
+   "exampleTranslation": {
+    "uk": "Я мию посуд."
+   }
+  },
+  {
+   "id": "laundry",
+   "text": "laundry",
+   "ipa": "/ˈlɔːndri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "прання"
+   },
+   "example": "I do the laundry.",
+   "exampleTranslation": {
+    "uk": "Я перу."
+   }
+  },
+  {
+   "id": "tidy",
+   "text": "tidy",
+   "ipa": "/ˈtaɪdi/",
+   "pos": "verb",
+   "translation": {
+    "uk": "прибирати, наводити лад"
+   },
+   "example": "I tidy my room.",
+   "exampleTranslation": {
+    "uk": "Я прибираю у своїй кімнаті."
+   }
+  },
+  {
+   "id": "clean",
+   "text": "clean",
+   "ipa": "/kliːn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "мити, чистити"
+   },
+   "example": "I clean the bathroom.",
+   "exampleTranslation": {
+    "uk": "Я мию ванну кімнату."
+   }
+  },
+  {
+   "id": "do_the_shopping",
+   "text": "do the shopping",
+   "ipa": "/ˌduː ðə ˈʃɒpɪŋ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "купувати продукти"
+   },
+   "example": "I do the shopping on Saturday.",
+   "exampleTranslation": {
+    "uk": "Я купую продукти в суботу."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I listen ___ music in the evening.",
+   "options": [
+    "to",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Listen to."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "housework",
+     "right": {
+      "uk": "хатня робота"
+     }
+    },
+    {
+     "left": "dishes",
+     "right": {
+      "uk": "посуд"
+     }
+    },
+    {
+     "left": "laundry",
+     "right": {
+      "uk": "прання"
+     }
+    },
+    {
+     "left": "tidy",
+     "right": {
+      "uk": "наводити лад"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Справи, які ніколи не закінчуються."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I wash the dishes after dinner.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина робить після вечері?"
+   },
+   "options": {
+    "uk": [
+     "Миє посуд",
+     "Пере",
+     "Прибирає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Wash the dishes."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ the laundry on Sunday.",
+   "options": [
+    "do",
+    "make",
+    "tidy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Do the laundry."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ the dishes every evening.",
+   "options": [
+    "wash",
+    "make",
+    "sleep"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Wash the dishes."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я купую продукти в суботу»?"
+   },
+   "options": [
+    "I do the shopping on Saturday.",
+    "I make the shopping on Saturday.",
+    "I do shopping in Saturday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Do the shopping on Saturday."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає tidy my room?"
+   },
+   "options": {
+    "uk": [
+     "Прибрати у своїй кімнаті",
+     "Помити кімнату",
+     "Вийти з кімнати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tidy — наводити лад."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "My husband cooks and I clean the kitchen.",
+   "prompt": {
+    "uk": "Прослухайте. Хто що робить?"
+   },
+   "options": {
+    "uk": [
+     "Чоловік готує, дружина миє кухню",
+     "Дружина готує, чоловік миє кухню",
+     "Обоє готують"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "My husband cooks. I clean."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "She does the housework.",
+    "She do the housework.",
+    "She dos the housework."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Do → does."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я мию посуд після вечері."
+   },
+   "words": [
+    "I",
+    "wash",
+    "the",
+    "dishes",
+    "after",
+    "dinner",
+    "do",
+    "before"
+   ],
+   "answer": [
+    "I",
+    "wash",
+    "the",
+    "dishes",
+    "after",
+    "dinner"
+   ],
+   "explanation": {
+    "uk": "I wash the dishes after dinner."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я роблю хатню роботу."
+   },
+   "answers": [
+    "I do the housework",
+    "I do housework"
+   ],
+   "explanation": {
+    "uk": "I do the housework."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Who does the laundry?",
+   "prompt": {
+    "uk": "Перете ви. Що відповісти?"
+   },
+   "options": [
+    "I do.",
+    "I am.",
+    "I does."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Коротка відповідь: I do."
+   }
+  }
+ ]
+}

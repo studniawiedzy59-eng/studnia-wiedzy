@@ -1,0 +1,226 @@
+{
+ "id": "u19_l06",
+ "unit": "u19",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: мій ранок"
+ },
+ "goal": {
+  "uk": "Зв'язно розповісти про свій ранок і про ранок близької людини."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Складаємо розповідь: коли встаю, що роблю спочатку й потім, як часто, як їду на роботу. І те саме про іншу людину — з -s."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я завжди встаю о сьомій."
+   },
+   "words": [
+    "I",
+    "always",
+    "get",
+    "up",
+    "at",
+    "seven",
+    "gets",
+    "on"
+   ],
+   "answer": [
+    "I",
+    "always",
+    "get",
+    "up",
+    "at",
+    "seven"
+   ],
+   "explanation": {
+    "uk": "I always get up at seven."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "First I have a shower, ___ I have breakfast.",
+   "options": [
+    "then",
+    "before",
+    "never"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "First…, then…"
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ her teeth after breakfast.",
+   "options": [
+    "brushes",
+    "brush",
+    "brushs"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після sh — -es: brushes."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я ніколи не п'ю кави."
+   },
+   "answers": [
+    "I never drink coffee"
+   ],
+   "explanation": {
+    "uk": "I never drink coffee."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I wake up at six, check my phone and make coffee.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина робить після того, як прокинеться?"
+   },
+   "options": {
+    "uk": [
+     "Перевіряє телефон і готує каву",
+     "Приймає душ і снідає",
+     "Одягається й виходить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Check my phone, make coffee."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "He sometimes walks to work.",
+    "He walks sometimes to work.",
+    "He sometimes walk to work."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sometimes перед дієсловом, дієслово з -s."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I go to work ___ foot.",
+   "options": [
+    "on",
+    "by",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On foot."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона починає роботу о дев'ятій."
+   },
+   "answers": [
+    "She starts work at nine",
+    "She starts work at nine o'clock"
+   ],
+   "explanation": {
+    "uk": "She starts work at nine."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "My son never makes the bed. He's always in a hurry.",
+   "prompt": {
+    "uk": "Прослухайте. Чого син ніколи не робить?"
+   },
+   "options": {
+    "uk": [
+     "Не застеляє ліжко",
+     "Не снідає",
+     "Не чистить зуби"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Never makes the bed."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "How do you go to work?",
+   "prompt": {
+    "uk": "Ви зазвичай їздите поїздом. Що відповісти?"
+   },
+   "options": [
+    "I usually take the train.",
+    "I take usually train.",
+    "I usually by train take."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I usually take the train."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What do you do after breakfast?",
+   "prompt": {
+    "uk": "Після сніданку ви чистите зуби й виходите. Що відповісти?"
+   },
+   "options": [
+    "I brush my teeth and leave home.",
+    "I brush teeth my and home leave.",
+    "I'm brush and leave."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I brush my teeth and leave home."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "translate",
+   "prompt": {
+    "uk": "Після роботи я йду додому пішки."
+   },
+   "answers": [
+    "After work I walk home",
+    "I walk home after work"
+   ],
+   "explanation": {
+    "uk": "After work I walk home."
+   }
+  }
+ ]
+}

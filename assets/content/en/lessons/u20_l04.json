@@ -1,0 +1,316 @@
+{
+ "id": "u20_l04",
+ "unit": "u20",
+ "cefr": "A0",
+ "title": {
+  "uk": "Як часто?"
+ },
+ "goal": {
+  "uk": "Спитати, як часто людина щось робить, і відповісти точно."
+ },
+ "rule": {
+  "uk": "How often…? — «Як часто…?». Відповіді: every day, once a week (раз на тиждень), twice a week (двічі), three times a month (тричі на місяць). Ці вирази стоять у кінці речення."
+ },
+ "words": [
+  {
+   "id": "how_often",
+   "text": "how often",
+   "ipa": "/ˌhaʊ ˈɒfn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "як часто"
+   },
+   "example": "How often do you cook?",
+   "exampleTranslation": {
+    "uk": "Як часто ви готуєте?"
+   }
+  },
+  {
+   "id": "once",
+   "text": "once",
+   "ipa": "/wʌns/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "один раз"
+   },
+   "example": "Once a week.",
+   "exampleTranslation": {
+    "uk": "Раз на тиждень."
+   }
+  },
+  {
+   "id": "twice",
+   "text": "twice",
+   "ipa": "/twaɪs/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "двічі"
+   },
+   "example": "Twice a day.",
+   "exampleTranslation": {
+    "uk": "Двічі на день."
+   }
+  },
+  {
+   "id": "times",
+   "text": "times",
+   "ipa": "/taɪmz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рази"
+   },
+   "example": "Three times a week.",
+   "exampleTranslation": {
+    "uk": "Тричі на тиждень."
+   }
+  },
+  {
+   "id": "a_week",
+   "text": "a week",
+   "ipa": "/ə ˈwiːk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "на тиждень"
+   },
+   "example": "Twice a week.",
+   "exampleTranslation": {
+    "uk": "Двічі на тиждень."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Who does the shopping?",
+   "prompt": {
+    "uk": "Повторимо. Продукти купуєте ви. Що відповісти?"
+   },
+   "options": [
+    "I do.",
+    "I am.",
+    "I shopping."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I do."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "once",
+     "right": {
+      "uk": "один раз"
+     }
+    },
+    {
+     "left": "twice",
+     "right": {
+      "uk": "двічі"
+     }
+    },
+    {
+     "left": "three times",
+     "right": {
+      "uk": "тричі"
+     }
+    },
+    {
+     "left": "how often",
+     "right": {
+      "uk": "як часто"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Один раз — once, два — twice, далі — число й times."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "How often do you go to the gym?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Як часто ви ходите до спортзалу",
+     "Коли ви ходите до спортзалу",
+     "Чи ходите ви до спортзалу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "How often — як часто."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Twice a week.",
+   "prompt": {
+    "uk": "Прослухайте. Як часто?"
+   },
+   "options": {
+    "uk": [
+     "Двічі на тиждень",
+     "Раз на тиждень",
+     "Двічі на день"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a week."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «раз на місяць»?"
+   },
+   "options": [
+    "once a month",
+    "one time in month",
+    "once in a months"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Once a month."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «тричі на день»?"
+   },
+   "options": [
+    "three times a day",
+    "three time a day",
+    "thrice in day"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Three times a day."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I go to the cinema ___ a month.",
+   "options": [
+    "once",
+    "one",
+    "first"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Once a month."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How ___ do you clean the flat?",
+   "options": [
+    "often",
+    "many",
+    "much"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How often."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "I do the laundry twice a week, on Monday and Friday.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина пере?"
+   },
+   "options": {
+    "uk": [
+     "У понеділок і п'ятницю",
+     "У вівторок і п'ятницю",
+     "Щодня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On Monday and Friday."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Як часто ви готуєте?"
+   },
+   "words": [
+    "How",
+    "often",
+    "do",
+    "you",
+    "cook",
+    "many",
+    "are"
+   ],
+   "answer": [
+    "How",
+    "often",
+    "do",
+    "you",
+    "cook"
+   ],
+   "explanation": {
+    "uk": "How often do you cook?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Двічі на тиждень."
+   },
+   "answers": [
+    "Twice a week",
+    "Two times a week"
+   ],
+   "explanation": {
+    "uk": "Twice a week."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How often do you see your parents?",
+   "prompt": {
+    "uk": "Ви бачитеся раз на тиждень. Що відповісти?"
+   },
+   "options": [
+    "Once a week.",
+    "One a week.",
+    "Often week."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Once a week."
+   }
+  }
+ ]
+}

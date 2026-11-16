@@ -1,0 +1,228 @@
+{
+ "id": "u21_l06",
+ "unit": "u21",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: питання й відповіді"
+ },
+ "goal": {
+  "uk": "Упевнено ставити питання й відповідати на них."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо питальні слова, How long і How far, вибір між are і do, відповіді I think so та I'm not sure, ввічливе Could you…?"
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ does the film start? — At eight.",
+   "options": [
+    "When",
+    "Where",
+    "Who"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Відповідь про час — When."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ you from Poland?",
+   "options": [
+    "Are",
+    "Do",
+    "Does"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Звідки ви — Are."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ your sister live in Kyiv?",
+   "options": [
+    "Does",
+    "Is",
+    "Do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Live — дія, sister — she: Does."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Як далеко готель?"
+   },
+   "words": [
+    "How",
+    "far",
+    "is",
+    "the",
+    "hotel",
+    "long",
+    "do"
+   ],
+   "answer": [
+    "How",
+    "far",
+    "is",
+    "the",
+    "hotel"
+   ],
+   "explanation": {
+    "uk": "How far is the hotel?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "translate",
+   "prompt": {
+    "uk": "Про що цей фільм?"
+   },
+   "answers": [
+    "What is the film about",
+    "What is this film about",
+    "What's the film about"
+   ],
+   "explanation": {
+    "uk": "What is the film about?"
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "How long do you work every day? — About eight hours.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки людина працює?"
+   },
+   "options": {
+    "uk": [
+     "Приблизно 8 годин",
+     "Рівно 8 годин",
+     "Приблизно 18 годин"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "About eight hours."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке питання правильне?"
+   },
+   "options": [
+    "What time do you get up?",
+    "What time are you get up?",
+    "What time you get up?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Get up — дія: do."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вас питають: Is the museum open on Monday? Ви не знаєте. Що відповісти?"
+   },
+   "options": [
+    "I'm not sure.",
+    "I'm not think so.",
+    "It depend."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm not sure."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Де туалети?"
+   },
+   "answers": [
+    "Where are the toilets",
+    "Where is the toilet"
+   ],
+   "explanation": {
+    "uk": "Where are the toilets?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Excuse me, could you tell me where the exit is?",
+   "prompt": {
+    "uk": "Прослухайте. Що шукає людина?"
+   },
+   "options": {
+    "uk": [
+     "Вихід",
+     "Вхід",
+     "Туалет"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The exit."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Do you like your job?",
+   "prompt": {
+    "uk": "Залежить від дня. Що відповісти?"
+   },
+   "options": [
+    "It depends.",
+    "I depend.",
+    "It's depends."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It depends."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Are you sure?",
+   "prompt": {
+    "uk": "Ви впевнені. Що відповісти?"
+   },
+   "options": [
+    "Yes, I am.",
+    "Yes, I do.",
+    "Yes, I sure."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "На Are you…? — Yes, I am."
+   }
+  }
+ ]
+}

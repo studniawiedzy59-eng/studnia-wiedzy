@@ -1,0 +1,223 @@
+{
+ "id": "u20_l06",
+ "unit": "u20",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: мій день"
+ },
+ "goal": {
+  "uk": "Розповісти про весь свій день і розпитати про день іншої людини."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо день від ранку до ночі: finish, come home, вечірні заняття, домашні справи, How often…?, питання з does."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я закінчую роботу о п'ятій."
+   },
+   "words": [
+    "I",
+    "finish",
+    "work",
+    "at",
+    "five",
+    "until",
+    "the"
+   ],
+   "answer": [
+    "I",
+    "finish",
+    "work",
+    "at",
+    "five"
+   ],
+   "explanation": {
+    "uk": "I finish work at five."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I work from eight ___ four.",
+   "options": [
+    "until",
+    "after",
+    "during"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "From eight until four."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я лягаю спати об одинадцятій."
+   },
+   "answers": [
+    "I go to bed at eleven",
+    "I go to bed at eleven o'clock"
+   ],
+   "explanation": {
+    "uk": "I go to bed at eleven."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "After dinner I wash the dishes, then I watch TV or read.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина робить одразу після вечері?"
+   },
+   "options": {
+    "uk": [
+     "Миє посуд",
+     "Дивиться телевізор",
+     "Читає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "After dinner I wash the dishes."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How ___ do you do the shopping? — Once a week.",
+   "options": [
+    "often",
+    "many",
+    "long"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How often."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "Does he cook dinner?",
+    "Does he cooks dinner?",
+    "Do he cook dinner?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Does he cook…?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ to music in the car.",
+   "options": [
+    "listens",
+    "listen",
+    "listening"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З she — listens."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я відвідую батьків раз на місяць."
+   },
+   "answers": [
+    "I visit my parents once a month"
+   ],
+   "explanation": {
+    "uk": "I visit my parents once a month."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "We don't go out during the week. We go out on Saturday.",
+   "prompt": {
+    "uk": "Прослухайте. Коли вони кудись виходять?"
+   },
+   "options": {
+    "uk": [
+     "У суботу",
+     "Протягом тижня",
+     "Щодня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "We go out on Saturday."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What time do you come home?",
+   "prompt": {
+    "uk": "Ви приходите о шостій. Що відповісти?"
+   },
+   "options": [
+    "I come home at six.",
+    "I come to home on six.",
+    "I'm come home six."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I come home at six."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What does your son do after school?",
+   "prompt": {
+    "uk": "Після школи син робить уроки й грає в теніс. Що відповісти?"
+   },
+   "options": [
+    "He does his homework and plays tennis.",
+    "He do his homework and play tennis.",
+    "He does homework and playing."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He does… and plays… Homework — домашнє завдання."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "translate",
+   "prompt": {
+    "uk": "Як часто ви готуєте?"
+   },
+   "answers": [
+    "How often do you cook"
+   ],
+   "explanation": {
+    "uk": "How often do you cook?"
+   }
+  }
+ ]
+}

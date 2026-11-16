@@ -1,0 +1,349 @@
+{
+ "id": "u19_l01",
+ "unit": "u19",
+ "cefr": "A0",
+ "title": {
+  "uk": "Я прокидаюся о сьомій"
+ },
+ "goal": {
+  "uk": "Розповісти, що ви робите вранці, і о котрій."
+ },
+ "rule": {
+  "uk": "Про звичні дії кажуть просто: I + дієслово. I get up at seven. Час ставлять у кінці з at. Wake up — прокинутися, get up — встати з ліжка: це дві різні дії."
+ },
+ "words": [
+  {
+   "id": "wake_up",
+   "text": "wake up",
+   "ipa": "/ˌweɪk ˈʌp/",
+   "pos": "verb",
+   "translation": {
+    "uk": "прокидатися"
+   },
+   "example": "I wake up at six.",
+   "exampleTranslation": {
+    "uk": "Я прокидаюся о шостій."
+   }
+  },
+  {
+   "id": "get_up",
+   "text": "get up",
+   "ipa": "/ˌɡet ˈʌp/",
+   "pos": "verb",
+   "translation": {
+    "uk": "вставати"
+   },
+   "example": "I get up at seven.",
+   "exampleTranslation": {
+    "uk": "Я встаю о сьомій."
+   }
+  },
+  {
+   "id": "have_a_shower",
+   "text": "have a shower",
+   "ipa": "/ˌhæv ə ˈʃaʊə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "приймати душ"
+   },
+   "example": "I have a shower.",
+   "exampleTranslation": {
+    "uk": "Я приймаю душ."
+   }
+  },
+  {
+   "id": "brush_my_teeth",
+   "text": "brush my teeth",
+   "ipa": "/ˌbrʌʃ maɪ ˈtiːθ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "чистити зуби"
+   },
+   "example": "I brush my teeth.",
+   "exampleTranslation": {
+    "uk": "Я чищу зуби."
+   }
+  },
+  {
+   "id": "get_dressed",
+   "text": "get dressed",
+   "ipa": "/ˌɡet ˈdrest/",
+   "pos": "verb",
+   "translation": {
+    "uk": "одягатися"
+   },
+   "example": "I get dressed.",
+   "exampleTranslation": {
+    "uk": "Я одягаюся."
+   }
+  },
+  {
+   "id": "have_breakfast",
+   "text": "have breakfast",
+   "ipa": "/ˌhæv ˈbrekfəst/",
+   "pos": "verb",
+   "translation": {
+    "uk": "снідати"
+   },
+   "example": "I have breakfast at eight.",
+   "exampleTranslation": {
+    "uk": "Я снідаю о восьмій."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Can I sit here?",
+   "prompt": {
+    "uk": "Повторимо. Ви дозволяєте. Що відповісти?"
+   },
+   "options": [
+    "Yes, of course.",
+    "I'm afraid, of course.",
+    "Yes, you can't."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, of course."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "wake up",
+     "right": {
+      "uk": "прокидатися"
+     }
+    },
+    {
+     "left": "get up",
+     "right": {
+      "uk": "вставати"
+     }
+    },
+    {
+     "left": "get dressed",
+     "right": {
+      "uk": "одягатися"
+     }
+    },
+    {
+     "left": "have breakfast",
+     "right": {
+      "uk": "снідати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Чотири ранкові дії."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "have a shower",
+     "right": {
+      "uk": "приймати душ"
+     }
+    },
+    {
+     "left": "brush my teeth",
+     "right": {
+      "uk": "чистити зуби"
+     }
+    },
+    {
+     "left": "have lunch",
+     "right": {
+      "uk": "обідати"
+     }
+    },
+    {
+     "left": "have dinner",
+     "right": {
+      "uk": "вечеряти"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "З їжею й душем англійською кажуть have."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I get up at half past six.",
+   "prompt": {
+    "uk": "Прослухайте. О котрій людина встає?"
+   },
+   "options": {
+    "uk": [
+     "О 6:30",
+     "О 7:30",
+     "О 6:15"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Half past six — 6:30."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що буває першим?"
+   },
+   "options": {
+    "uk": [
+     "wake up",
+     "get up",
+     "get dressed"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Спочатку прокидаються — wake up, потім встають — get up."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ a shower in the morning.",
+   "options": [
+    "have",
+    "do",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Have a shower."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I brush my ___.",
+   "options": [
+    "teeth",
+    "shower",
+    "breakfast"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Brush my teeth — чистити зуби."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I get up ___ seven o'clock.",
+   "options": [
+    "at",
+    "on",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед годиною — at."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "I wake up at six, but I get up at seven.",
+   "prompt": {
+    "uk": "Прослухайте. О котрій людина встає з ліжка?"
+   },
+   "options": {
+    "uk": [
+     "О сьомій",
+     "О шостій",
+     "О восьмій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Get up at seven."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я снідаю о восьмій."
+   },
+   "words": [
+    "I",
+    "have",
+    "breakfast",
+    "at",
+    "eight",
+    "am",
+    "on"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "breakfast",
+    "at",
+    "eight"
+   ],
+   "explanation": {
+    "uk": "I have breakfast at eight."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я встаю о сьомій."
+   },
+   "answers": [
+    "I get up at seven",
+    "I get up at seven o'clock"
+   ],
+   "explanation": {
+    "uk": "I get up at seven."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What time do you get up?",
+   "prompt": {
+    "uk": "Ви встаєте о шостій. Що відповісти?"
+   },
+   "options": [
+    "I get up at six.",
+    "I'm get up six.",
+    "I get up on six."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I get up at six."
+   }
+  }
+ ]
+}

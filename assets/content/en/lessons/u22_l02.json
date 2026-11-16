@@ -1,0 +1,361 @@
+{
+ "id": "u22_l02",
+ "unit": "u22",
+ "cefr": "A0",
+ "title": {
+  "uk": "Центр міста"
+ },
+ "goal": {
+  "uk": "Назвати ще місця й орієнтири."
+ },
+ "rule": {
+  "uk": "The city centre — центр міста. In the centre — у центрі. Bus stop — зупинка автобуса. Річку й міст називають з the: the river, the bridge."
+ },
+ "words": [
+  {
+   "id": "centre",
+   "text": "centre",
+   "ipa": "/ˈsentə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "центр"
+   },
+   "example": "I live in the centre.",
+   "exampleTranslation": {
+    "uk": "Я живу в центрі."
+   }
+  },
+  {
+   "id": "church",
+   "text": "church",
+   "ipa": "/tʃɜːtʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "церква"
+   },
+   "example": "An old church.",
+   "exampleTranslation": {
+    "uk": "Стара церква."
+   }
+  },
+  {
+   "id": "library",
+   "text": "library",
+   "ipa": "/ˈlaɪbrəri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "бібліотека"
+   },
+   "example": "The library is quiet.",
+   "exampleTranslation": {
+    "uk": "У бібліотеці тихо."
+   }
+  },
+  {
+   "id": "market",
+   "text": "market",
+   "ipa": "/ˈmɑːkɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ринок"
+   },
+   "example": "I buy fruit at the market.",
+   "exampleTranslation": {
+    "uk": "Я купую фрукти на ринку."
+   }
+  },
+  {
+   "id": "bus_stop",
+   "text": "bus stop",
+   "ipa": "/ˈbʌs stɒp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "автобусна зупинка"
+   },
+   "example": "Where is the bus stop?",
+   "exampleTranslation": {
+    "uk": "Де зупинка?"
+   }
+  },
+  {
+   "id": "bridge",
+   "text": "bridge",
+   "ipa": "/brɪdʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "міст"
+   },
+   "example": "An old bridge.",
+   "exampleTranslation": {
+    "uk": "Старий міст."
+   }
+  },
+  {
+   "id": "river",
+   "text": "river",
+   "ipa": "/ˈrɪvə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "річка"
+   },
+   "example": "The river is beautiful.",
+   "exampleTranslation": {
+    "uk": "Річка гарна."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I need a ___. I have a headache.",
+   "options": [
+    "pharmacy",
+    "museum",
+    "square"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "По ліки — у pharmacy."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "centre",
+     "right": {
+      "uk": "центр"
+     }
+    },
+    {
+     "left": "church",
+     "right": {
+      "uk": "церква"
+     }
+    },
+    {
+     "left": "library",
+     "right": {
+      "uk": "бібліотека"
+     }
+    },
+    {
+     "left": "market",
+     "right": {
+      "uk": "ринок"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Library — бібліотека, а не книгарня."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "bus stop",
+     "right": {
+      "uk": "зупинка"
+     }
+    },
+    {
+     "left": "bridge",
+     "right": {
+      "uk": "міст"
+     }
+    },
+    {
+     "left": "river",
+     "right": {
+      "uk": "річка"
+     }
+    },
+    {
+     "left": "street",
+     "right": {
+      "uk": "вулиця"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Орієнтири в місті."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The bus stop is in front of the library.",
+   "prompt": {
+    "uk": "Прослухайте. Де зупинка?"
+   },
+   "options": {
+    "uk": [
+     "Перед бібліотекою",
+     "За бібліотекою",
+     "Біля церкви"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In front of the library."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I live in the city centre, near the river.",
+   "prompt": {
+    "uk": "Прослухайте. Де живе людина?"
+   },
+   "options": {
+    "uk": [
+     "У центрі, біля річки",
+     "У селі біля річки",
+     "Біля мосту"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In the city centre, near the river."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Де беруть книжки почитати?"
+   },
+   "options": {
+    "uk": [
+     "library",
+     "market",
+     "church"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Library — бібліотека."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I buy vegetables at the ___.",
+   "options": [
+    "market",
+    "library",
+    "bridge"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Овочі купують на ринку."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is an old bridge over the ___.",
+   "options": [
+    "river",
+    "church",
+    "centre"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Міст — через річку."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «у центрі»?"
+   },
+   "options": [
+    "in the centre",
+    "on the centre",
+    "at centre"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In the centre."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Де автобусна зупинка?"
+   },
+   "words": [
+    "Where",
+    "is",
+    "the",
+    "bus",
+    "stop",
+    "are",
+    "station"
+   ],
+   "answer": [
+    "Where",
+    "is",
+    "the",
+    "bus",
+    "stop"
+   ],
+   "explanation": {
+    "uk": "Where is the bus stop?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я живу в центрі."
+   },
+   "answers": [
+    "I live in the centre",
+    "I live in the city centre"
+   ],
+   "explanation": {
+    "uk": "I live in the centre."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where do you buy fruit?",
+   "prompt": {
+    "uk": "Ви купуєте на ринку. Що відповісти?"
+   },
+   "options": [
+    "At the market.",
+    "On the market.",
+    "In market the."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At the market."
+   }
+  }
+ ]
+}

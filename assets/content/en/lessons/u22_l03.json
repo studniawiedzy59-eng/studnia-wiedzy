@@ -1,0 +1,323 @@
+{
+ "id": "u22_l03",
+ "unit": "u22",
+ "cefr": "A0",
+ "title": {
+  "uk": "На розі, навпроти"
+ },
+ "goal": {
+  "uk": "Пояснити, де розташоване місце."
+ },
+ "rule": {
+  "uk": "Opposite — навпроти: opposite the bank. On the corner — на розі. At the end of the street — у кінці вулиці. At the traffic lights — біля світлофора. Усі ці вирази відповідають на питання Where is…?"
+ },
+ "words": [
+  {
+   "id": "opposite",
+   "text": "opposite",
+   "ipa": "/ˈɒpəzɪt/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "навпроти"
+   },
+   "example": "Opposite the station.",
+   "exampleTranslation": {
+    "uk": "Навпроти вокзалу."
+   }
+  },
+  {
+   "id": "corner",
+   "text": "corner",
+   "ipa": "/ˈkɔːnə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ріг, кут"
+   },
+   "example": "On the corner.",
+   "exampleTranslation": {
+    "uk": "На розі."
+   }
+  },
+  {
+   "id": "end",
+   "text": "end",
+   "ipa": "/end/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кінець"
+   },
+   "example": "At the end of the street.",
+   "exampleTranslation": {
+    "uk": "У кінці вулиці."
+   }
+  },
+  {
+   "id": "road",
+   "text": "road",
+   "ipa": "/rəʊd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дорога"
+   },
+   "example": "A busy road.",
+   "exampleTranslation": {
+    "uk": "Жвава дорога."
+   }
+  },
+  {
+   "id": "traffic_lights",
+   "text": "traffic lights",
+   "ipa": "/ˈtræfɪk laɪts/",
+   "pos": "noun",
+   "translation": {
+    "uk": "світлофор"
+   },
+   "example": "At the traffic lights.",
+   "exampleTranslation": {
+    "uk": "Біля світлофора."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a bridge over the ___.",
+   "options": [
+    "river",
+    "library",
+    "market"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Міст через річку."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "opposite",
+     "right": {
+      "uk": "навпроти"
+     }
+    },
+    {
+     "left": "corner",
+     "right": {
+      "uk": "ріг"
+     }
+    },
+    {
+     "left": "end",
+     "right": {
+      "uk": "кінець"
+     }
+    },
+    {
+     "left": "road",
+     "right": {
+      "uk": "дорога"
+     }
+    },
+    {
+     "left": "traffic lights",
+     "right": {
+      "uk": "світлофор"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова, щоб пояснити, де що є."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The pharmacy is opposite the supermarket.",
+   "prompt": {
+    "uk": "Прослухайте. Де аптека?"
+   },
+   "options": {
+    "uk": [
+     "Навпроти супермаркету",
+     "Біля супермаркету",
+     "За супермаркетом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Opposite — навпроти."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's on the corner, next to the bank.",
+   "prompt": {
+    "uk": "Прослухайте. Де це?"
+   },
+   "options": {
+    "uk": [
+     "На розі, біля банку",
+     "У кінці вулиці",
+     "Навпроти банку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On the corner."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The café is ___ the corner.",
+   "options": [
+    "on",
+    "under",
+    "opposite"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On the corner."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The hotel is at the ___ of the street.",
+   "options": [
+    "end",
+    "corner",
+    "opposite"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At the end of the street."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The post office is ___ the church.",
+   "options": [
+    "opposite",
+    "end",
+    "corner"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Opposite the church — навпроти церкви."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «біля світлофора»?"
+   },
+   "options": [
+    "at the traffic lights",
+    "on the traffic light",
+    "in traffic lights"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At the traffic lights."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає a busy road?"
+   },
+   "options": {
+    "uk": [
+     "Дорога з великим рухом",
+     "Зайнята людина",
+     "Довга дорога"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Busy про дорогу — багато машин."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Банк навпроти вокзалу."
+   },
+   "words": [
+    "The",
+    "bank",
+    "is",
+    "opposite",
+    "the",
+    "station",
+    "on"
+   ],
+   "answer": [
+    "The",
+    "bank",
+    "is",
+    "opposite",
+    "the",
+    "station"
+   ],
+   "explanation": {
+    "uk": "The bank is opposite the station."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це на розі."
+   },
+   "answers": [
+    "It's on the corner",
+    "It is on the corner"
+   ],
+   "explanation": {
+    "uk": "It's on the corner."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Excuse me, where is the library?",
+   "prompt": {
+    "uk": "Бібліотека в кінці цієї вулиці. Що відповісти?"
+   },
+   "options": [
+    "It's at the end of this street.",
+    "It's on the end this street.",
+    "It's end of street at."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's at the end of this street."
+   }
+  }
+ ]
+}

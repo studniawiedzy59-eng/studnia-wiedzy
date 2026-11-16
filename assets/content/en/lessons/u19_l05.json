@@ -1,0 +1,318 @@
+{
+ "id": "u19_l05",
+ "unit": "u19",
+ "cefr": "A0",
+ "title": {
+  "uk": "Її ранок"
+ },
+ "goal": {
+  "uk": "Розповісти про ранок іншої людини."
+ },
+ "rule": {
+  "uk": "З he і she дієслово отримує -s: gets up, makes, leaves. Після ch, sh, s, o додають -es: watches, washes, goes. Have стає has. Слова частоти стоять там само: She always gets up early."
+ },
+ "words": [
+  {
+   "id": "goes",
+   "text": "goes",
+   "ipa": "/ɡəʊz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "іде, їде (з he, she)"
+   },
+   "example": "She goes to work by bus.",
+   "exampleTranslation": {
+    "uk": "Вона їздить на роботу автобусом."
+   }
+  },
+  {
+   "id": "wash",
+   "text": "wash",
+   "ipa": "/wɒʃ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "мити"
+   },
+   "example": "He washes his face.",
+   "exampleTranslation": {
+    "uk": "Він умивається."
+   }
+  },
+  {
+   "id": "face",
+   "text": "face",
+   "ipa": "/feɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "обличчя"
+   },
+   "example": "I wash my face.",
+   "exampleTranslation": {
+    "uk": "Я вмиваюся."
+   }
+  },
+  {
+   "id": "alarm",
+   "text": "alarm",
+   "ipa": "/əˈlɑːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "будильник"
+   },
+   "example": "My alarm is at six.",
+   "exampleTranslation": {
+    "uk": "Мій будильник на шосту."
+   }
+  },
+  {
+   "id": "in_a_hurry",
+   "text": "in a hurry",
+   "ipa": "/ɪn ə ˈhʌri/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "поспіхом"
+   },
+   "example": "He's always in a hurry.",
+   "exampleTranslation": {
+    "uk": "Він завжди поспішає."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "___ I have a shower, then I get dressed.",
+   "options": [
+    "First",
+    "After",
+    "Never"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "First…, then…"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "goes",
+     "right": {
+      "uk": "іде, їде"
+     }
+    },
+    {
+     "left": "wash",
+     "right": {
+      "uk": "мити"
+     }
+    },
+    {
+     "left": "face",
+     "right": {
+      "uk": "обличчя"
+     }
+    },
+    {
+     "left": "alarm",
+     "right": {
+      "uk": "будильник"
+     }
+    },
+    {
+     "left": "in a hurry",
+     "right": {
+      "uk": "поспіхом"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Нові слова про ранок."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ up at six.",
+   "options": [
+    "gets",
+    "get",
+    "getting"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З she — gets."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ to work by car.",
+   "options": [
+    "goes",
+    "go",
+    "gos"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go → goes."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My brother ___ breakfast at seven.",
+   "options": [
+    "has",
+    "have",
+    "haves"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Have → has."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно написати?"
+   },
+   "options": [
+    "washes",
+    "washs",
+    "washies"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після sh — -es: washes."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "She always gets up early.",
+    "She gets always up early.",
+    "She always get up early."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Always перед дієсловом, і дієслово з -s."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "He leaves home at seven and takes the train.",
+   "prompt": {
+    "uk": "Прослухайте. Як він їде на роботу?"
+   },
+   "options": {
+    "uk": [
+     "Поїздом",
+     "Автобусом",
+     "Машиною"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Takes the train."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "My wife is always in a hurry in the morning.",
+   "prompt": {
+    "uk": "Прослухайте. Що ви дізналися?"
+   },
+   "options": {
+    "uk": [
+     "Дружина вранці завжди поспішає",
+     "Дружина вранці ніколи не поспішає",
+     "Дружина завжди запізнюється"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In a hurry — поспіхом."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він умивається."
+   },
+   "words": [
+    "He",
+    "washes",
+    "his",
+    "face",
+    "wash",
+    "her"
+   ],
+   "answer": [
+    "He",
+    "washes",
+    "his",
+    "face"
+   ],
+   "explanation": {
+    "uk": "He washes his face."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона їздить на роботу автобусом."
+   },
+   "answers": [
+    "She goes to work by bus",
+    "She takes the bus to work"
+   ],
+   "explanation": {
+    "uk": "She goes to work by bus."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What time does your husband get up?",
+   "prompt": {
+    "uk": "Ваш чоловік встає о пів на шосту. Що відповісти?"
+   },
+   "options": [
+    "He gets up at half past five.",
+    "He get up at half past five.",
+    "He gets up on half past five."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He gets up at half past five."
+   }
+  }
+ ]
+}

@@ -1,0 +1,346 @@
+{
+ "id": "u19_l02",
+ "unit": "u19",
+ "cefr": "A0",
+ "title": {
+  "uk": "Дорога на роботу"
+ },
+ "goal": {
+  "uk": "Розповісти, коли ви виходите з дому і як дістаєтеся на роботу."
+ },
+ "rule": {
+  "uk": "Транспорт називають через by: by bus, by car, by train. Пішки — on foot або просто I walk. Leave home — виходити з дому. Start work — починати роботу. Перед work і home у цих виразах немає артикля."
+ },
+ "words": [
+  {
+   "id": "leave",
+   "text": "leave",
+   "ipa": "/liːv/",
+   "pos": "verb",
+   "translation": {
+    "uk": "виходити, залишати"
+   },
+   "example": "I leave home at eight.",
+   "exampleTranslation": {
+    "uk": "Я виходжу з дому о восьмій."
+   }
+  },
+  {
+   "id": "walk",
+   "text": "walk",
+   "ipa": "/wɔːk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "іти пішки"
+   },
+   "example": "I walk to work.",
+   "exampleTranslation": {
+    "uk": "Я ходжу на роботу пішки."
+   }
+  },
+  {
+   "id": "take",
+   "text": "take",
+   "ipa": "/teɪk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "їхати (транспортом); брати"
+   },
+   "example": "I take the bus.",
+   "exampleTranslation": {
+    "uk": "Я їду автобусом."
+   }
+  },
+  {
+   "id": "by_car",
+   "text": "by car",
+   "ipa": "/baɪ ˈkɑː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "машиною"
+   },
+   "example": "I go to work by car.",
+   "exampleTranslation": {
+    "uk": "Я їжджу на роботу машиною."
+   }
+  },
+  {
+   "id": "on_foot",
+   "text": "on foot",
+   "ipa": "/ɒn ˈfʊt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "пішки"
+   },
+   "example": "I go on foot.",
+   "exampleTranslation": {
+    "uk": "Я ходжу пішки."
+   }
+  },
+  {
+   "id": "start",
+   "text": "start",
+   "ipa": "/stɑːt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "починати"
+   },
+   "example": "I start work at nine.",
+   "exampleTranslation": {
+    "uk": "Я починаю роботу о дев'ятій."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ breakfast at half past seven.",
+   "options": [
+    "have",
+    "get",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Have breakfast."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "leave",
+     "right": {
+      "uk": "виходити"
+     }
+    },
+    {
+     "left": "walk",
+     "right": {
+      "uk": "іти пішки"
+     }
+    },
+    {
+     "left": "take",
+     "right": {
+      "uk": "їхати транспортом"
+     }
+    },
+    {
+     "left": "start",
+     "right": {
+      "uk": "починати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "У walk літера l не вимовляється."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "by car",
+     "right": {
+      "uk": "машиною"
+     }
+    },
+    {
+     "left": "by bus",
+     "right": {
+      "uk": "автобусом"
+     }
+    },
+    {
+     "left": "by train",
+     "right": {
+      "uk": "поїздом"
+     }
+    },
+    {
+     "left": "on foot",
+     "right": {
+      "uk": "пішки"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Транспорт — by, пішки — on foot."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I leave home at quarter to eight.",
+   "prompt": {
+    "uk": "Прослухайте. О котрій людина виходить?"
+   },
+   "options": {
+    "uk": [
+     "О 7:45",
+     "О 8:15",
+     "О 8:45"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Quarter to eight — 7:45."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I go to work ___ bus.",
+   "options": [
+    "by",
+    "on",
+    "with"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "By bus."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ the train to work.",
+   "options": [
+    "take",
+    "walk",
+    "go"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Take the train — їхати поїздом."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I start work at nine.",
+    "I start the work at nine.",
+    "I start to the work at nine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Start work — без артикля."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я ходжу на роботу пішки»?"
+   },
+   "options": [
+    "I walk to work.",
+    "I walk by foot.",
+    "I go on the foot work."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I walk to work або I go to work on foot."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "I take the bus at eight and I start work at nine.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина починає роботу?"
+   },
+   "options": {
+    "uk": [
+     "О дев'ятій",
+     "О восьмій",
+     "О десятій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Start work at nine."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я виходжу з дому о восьмій."
+   },
+   "words": [
+    "I",
+    "leave",
+    "home",
+    "at",
+    "eight",
+    "the",
+    "by"
+   ],
+   "answer": [
+    "I",
+    "leave",
+    "home",
+    "at",
+    "eight"
+   ],
+   "explanation": {
+    "uk": "I leave home at eight."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я їжджу на роботу машиною."
+   },
+   "answers": [
+    "I go to work by car",
+    "I drive to work"
+   ],
+   "explanation": {
+    "uk": "I go to work by car."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How do you go to work?",
+   "prompt": {
+    "uk": "Ви їздите автобусом. Що відповісти?"
+   },
+   "options": [
+    "By bus.",
+    "On bus.",
+    "With a bus."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "By bus."
+   }
+  }
+ ]
+}

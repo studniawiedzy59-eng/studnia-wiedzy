@@ -1,0 +1,230 @@
+{
+ "id": "u22_l06",
+ "unit": "u22",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: моє місто"
+ },
+ "goal": {
+  "uk": "Розповісти про своє місто й допомогти туристові."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо місця в місті, opposite, on the corner, at the end of, опис міста й You can…"
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Excuse me, is there a pharmacy near here?",
+   "prompt": {
+    "uk": "Аптека є, навпроти супермаркету. Що відповісти?"
+   },
+   "options": [
+    "Yes, there is. It's opposite the supermarket.",
+    "Yes, it is. Opposite supermarket.",
+    "Yes, there are opposite."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, there is. It's opposite the supermarket."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The bus stop is ___ the end of the street.",
+   "options": [
+    "at",
+    "on",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At the end of."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Банк на розі."
+   },
+   "words": [
+    "The",
+    "bank",
+    "is",
+    "on",
+    "the",
+    "corner",
+    "at"
+   ],
+   "answer": [
+    "The",
+    "bank",
+    "is",
+    "on",
+    "the",
+    "corner"
+   ],
+   "explanation": {
+    "uk": "The bank is on the corner."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я живу в центрі, біля річки."
+   },
+   "answers": [
+    "I live in the centre, near the river",
+    "I live in the city centre, near the river"
+   ],
+   "explanation": {
+    "uk": "I live in the centre, near the river."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My town is small but famous for its old church. There are many tourists in summer.",
+   "prompt": {
+    "uk": "Прослухайте. Чим відоме місто?"
+   },
+   "options": {
+    "uk": [
+     "Старою церквою",
+     "Музеєм",
+     "Мостом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Famous for its old church."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "You can go for a walk in the park.",
+    "You can going for a walk in the park.",
+    "You can go to a walk in park."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You can go for a walk."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is the museum ___ on Sunday, or do I need a ticket?",
+   "options": [
+    "free",
+    "safe",
+    "famous"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Free — безкоштовний."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Де автобусна зупинка?"
+   },
+   "answers": [
+    "Where is the bus stop",
+    "Where's the bus stop"
+   ],
+   "explanation": {
+    "uk": "Where is the bus stop?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "The centre is crowded and noisy, but it's safe.",
+   "prompt": {
+    "uk": "Прослухайте. Який центр?"
+   },
+   "options": {
+    "uk": [
+     "Людний і шумний, але безпечний",
+     "Тихий і безпечний",
+     "Людний і небезпечний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Crowded, noisy, safe."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Куди ви підете надіслати листа?"
+   },
+   "options": {
+    "uk": [
+     "post office",
+     "library",
+     "market"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Post office — пошта."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What is your city like?",
+   "prompt": {
+    "uk": "Ваше місто велике й сучасне. Що відповісти?"
+   },
+   "options": [
+    "It's big and modern.",
+    "It likes big and modern.",
+    "It's a big modern."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's big and modern."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How far is the station?",
+   "prompt": {
+    "uk": "До вокзалу приблизно кілометр. Що відповісти?"
+   },
+   "options": [
+    "It's about one kilometre.",
+    "It's about one kilometre long time.",
+    "It's far one kilometre."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's about one kilometre."
+   }
+  }
+ ]
+}

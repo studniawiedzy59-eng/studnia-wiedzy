@@ -1,0 +1,316 @@
+{
+ "id": "u21_l04",
+ "unit": "u21",
+ "cefr": "A0",
+ "title": {
+  "uk": "Не знаю, мабуть"
+ },
+ "goal": {
+  "uk": "Відповісти, коли ви не впевнені."
+ },
+ "rule": {
+  "uk": "Не завжди можна сказати yes або no. Корисні відповіді: I think so — «думаю, що так». I don't think so — «думаю, що ні». I'm not sure — «я не впевнений». Probably — «мабуть». It depends — «залежить»."
+ },
+ "words": [
+  {
+   "id": "i_think_so",
+   "text": "I think so",
+   "ipa": "/aɪ ˈθɪŋk səʊ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "думаю, що так"
+   },
+   "example": "Is it open? — I think so.",
+   "exampleTranslation": {
+    "uk": "Відчинено? — Думаю, що так."
+   }
+  },
+  {
+   "id": "i_dont_think_so",
+   "text": "I don't think so",
+   "ipa": "/aɪ ˌdəʊnt ˈθɪŋk səʊ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "думаю, що ні"
+   },
+   "example": "Is it far? — I don't think so.",
+   "exampleTranslation": {
+    "uk": "Це далеко? — Думаю, що ні."
+   }
+  },
+  {
+   "id": "im_not_sure",
+   "text": "I'm not sure",
+   "ipa": "/aɪm ˌnɒt ˈʃɔː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "я не впевнений"
+   },
+   "example": "I'm not sure.",
+   "exampleTranslation": {
+    "uk": "Я не впевнений."
+   }
+  },
+  {
+   "id": "probably",
+   "text": "probably",
+   "ipa": "/ˈprɒbəbli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "мабуть"
+   },
+   "example": "Probably tomorrow.",
+   "exampleTranslation": {
+    "uk": "Мабуть, завтра."
+   }
+  },
+  {
+   "id": "it_depends",
+   "text": "it depends",
+   "ipa": "/ɪt dɪˈpendz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "залежить"
+   },
+   "example": "It depends.",
+   "exampleTranslation": {
+    "uk": "Залежить."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "___ you speak Polish?",
+   "options": [
+    "Do",
+    "Are",
+    "Is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Speak — дія: Do."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "I think so",
+     "right": {
+      "uk": "думаю, що так"
+     }
+    },
+    {
+     "left": "I don't think so",
+     "right": {
+      "uk": "думаю, що ні"
+     }
+    },
+    {
+     "left": "I'm not sure",
+     "right": {
+      "uk": "я не впевнений"
+     }
+    },
+    {
+     "left": "probably",
+     "right": {
+      "uk": "мабуть"
+     }
+    },
+    {
+     "left": "it depends",
+     "right": {
+      "uk": "залежить"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Відповіді між «так» і «ні»."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Is the bank open today? — I think so.",
+   "prompt": {
+    "uk": "Прослухайте. Що відповіла людина?"
+   },
+   "options": {
+    "uk": [
+     "Думає, що відчинено",
+     "Думає, що зачинено",
+     "Не знає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I think so — думаю, що так."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'm not sure.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона не впевнена",
+     "Вона впевнена",
+     "Вона не згодна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm not sure."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вас питають: Is it far? Ви думаєте, що ні. Що відповісти?"
+   },
+   "options": [
+    "I don't think so.",
+    "I think not so.",
+    "I don't think it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't think so."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вас питають: Do you like parties? Залежить від вечірки. Що відповісти?"
+   },
+   "options": [
+    "It depends.",
+    "It depend.",
+    "I depends."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It depends."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is he at home? — ___. He's usually at home in the evening.",
+   "options": [
+    "Probably",
+    "Never",
+    "False"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Probably — мабуть."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is this the right bus? — I'm not ___.",
+   "options": [
+    "sure",
+    "think",
+    "depends"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm not sure."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка відповідь найбільш упевнена?"
+   },
+   "options": {
+    "uk": [
+     "Yes, of course.",
+     "I think so.",
+     "Probably."
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Of course — звичайно."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я не впевнений."
+   },
+   "words": [
+    "I'm",
+    "not",
+    "sure",
+    "don't",
+    "so"
+   ],
+   "answer": [
+    "I'm",
+    "not",
+    "sure"
+   ],
+   "explanation": {
+    "uk": "I'm not sure."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Думаю, що так."
+   },
+   "answers": [
+    "I think so"
+   ],
+   "explanation": {
+    "uk": "I think so."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is the supermarket open on Sunday?",
+   "prompt": {
+    "uk": "Ви не знаєте напевно. Що відповісти?"
+   },
+   "options": [
+    "I'm not sure. Probably.",
+    "I'm not think. Probably.",
+    "No, I don't sure."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm not sure. Probably."
+   }
+  }
+ ]
+}

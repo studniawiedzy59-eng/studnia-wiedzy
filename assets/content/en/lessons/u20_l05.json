@@ -1,0 +1,323 @@
+{
+ "id": "u20_l05",
+ "unit": "u20",
+ "cefr": "A0",
+ "title": {
+  "uk": "Що він робить на вихідних?"
+ },
+ "goal": {
+  "uk": "Розпитати про звички іншої людини."
+ },
+ "rule": {
+  "uk": "Питання про he і she — з does: What time does she get up? Does he work on Saturday? Після does дієслово вже без -s. Відповіді: Yes, he does. No, she doesn't."
+ },
+ "words": [
+  {
+   "id": "weekdays",
+   "text": "weekdays",
+   "ipa": "/ˈwiːkdeɪz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "будні"
+   },
+   "example": "On weekdays I work.",
+   "exampleTranslation": {
+    "uk": "У будні я працюю."
+   }
+  },
+  {
+   "id": "stay",
+   "text": "stay",
+   "ipa": "/steɪ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "залишатися"
+   },
+   "example": "I stay at home.",
+   "exampleTranslation": {
+    "uk": "Я залишаюся вдома."
+   }
+  },
+  {
+   "id": "visit",
+   "text": "visit",
+   "ipa": "/ˈvɪzɪt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "відвідувати"
+   },
+   "example": "I visit my parents.",
+   "exampleTranslation": {
+    "uk": "Я відвідую батьків."
+   }
+  },
+  {
+   "id": "go_out",
+   "text": "go out",
+   "ipa": "/ˌɡəʊ ˈaʊt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "кудись виходити (розважитися)"
+   },
+   "example": "We go out on Friday.",
+   "exampleTranslation": {
+    "uk": "У п'ятницю ми кудись виходимо."
+   }
+  },
+  {
+   "id": "during",
+   "text": "during",
+   "ipa": "/ˈdjʊərɪŋ/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "протягом, під час"
+   },
+   "example": "During the week.",
+   "exampleTranslation": {
+    "uk": "Протягом тижня."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I go to the gym ___ a week.",
+   "options": [
+    "twice",
+    "two",
+    "second"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a week."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "weekdays",
+     "right": {
+      "uk": "будні"
+     }
+    },
+    {
+     "left": "stay",
+     "right": {
+      "uk": "залишатися"
+     }
+    },
+    {
+     "left": "visit",
+     "right": {
+      "uk": "відвідувати"
+     }
+    },
+    {
+     "left": "go out",
+     "right": {
+      "uk": "кудись виходити"
+     }
+    },
+    {
+     "left": "during",
+     "right": {
+      "uk": "протягом"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Будні й вихідні."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What time ___ she get up?",
+   "options": [
+    "does",
+    "do",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З she — does."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Does he ___ on Saturday?",
+   "options": [
+    "work",
+    "works",
+    "working"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після does — без -s."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Does she go out on Friday? — Yes, she ___.",
+   "options": [
+    "does",
+    "do",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, she does."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "He doesn't work at the weekend.",
+    "He doesn't works at the weekend.",
+    "He don't work at the weekend."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Doesn't + work."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "On weekdays she gets up early, but at the weekend she stays in bed until ten.",
+   "prompt": {
+    "uk": "Прослухайте. Що вона робить на вихідних?"
+   },
+   "options": {
+    "uk": [
+     "Лежить у ліжку до десятої",
+     "Встає рано",
+     "Іде на роботу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Stays in bed until ten."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "Does your brother visit your parents?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Чи відвідує брат батьків",
+     "Де живе брат",
+     "Чи є у вас брат"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Does … visit…?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати «Коли він закінчує роботу?»"
+   },
+   "options": [
+    "When does he finish work?",
+    "When he finishes work?",
+    "When do he finish work?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "When does he finish work?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Що вона робить на вихідних?"
+   },
+   "words": [
+    "What",
+    "does",
+    "she",
+    "do",
+    "at",
+    "the",
+    "weekend",
+    "do"
+   ],
+   "answer": [
+    "What",
+    "does",
+    "she",
+    "do",
+    "at",
+    "the",
+    "weekend"
+   ],
+   "explanation": {
+    "uk": "What does she do at the weekend? Перше does — допоміжне, друге do — «робити»."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У будні я працюю."
+   },
+   "answers": [
+    "On weekdays I work",
+    "I work on weekdays"
+   ],
+   "explanation": {
+    "uk": "On weekdays I work."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Does your wife work at the weekend?",
+   "prompt": {
+    "uk": "Ваша дружина на вихідних не працює. Що відповісти?"
+   },
+   "options": [
+    "No, she doesn't.",
+    "No, she isn't.",
+    "No, she don't."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, she doesn't."
+   }
+  }
+ ]
+}

@@ -1,0 +1,301 @@
+{
+ "id": "u21_l03",
+ "unit": "u21",
+ "cefr": "A0",
+ "title": {
+  "uk": "Are you чи Do you?"
+ },
+ "goal": {
+  "uk": "Правильно вибрати між are і do в питанні."
+ },
+ "rule": {
+  "uk": "Головне правило питань. Якщо в реченні стан або опис (хто я, який, де) — питаємо з am / is / are: Are you tired? Is he at home? Якщо дія — з do / does: Do you work? Does she drive? Разом їх не ставлять."
+ },
+ "words": [
+  {
+   "id": "true",
+   "text": "true",
+   "ipa": "/truː/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "правдивий"
+   },
+   "example": "It's true.",
+   "exampleTranslation": {
+    "uk": "Це правда."
+   }
+  },
+  {
+   "id": "false",
+   "text": "false",
+   "ipa": "/fɔːls/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "хибний"
+   },
+   "example": "It's false.",
+   "exampleTranslation": {
+    "uk": "Це неправда."
+   }
+  },
+  {
+   "id": "correct",
+   "text": "correct",
+   "ipa": "/kəˈrekt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "правильний"
+   },
+   "example": "The correct answer.",
+   "exampleTranslation": {
+    "uk": "Правильна відповідь."
+   }
+  },
+  {
+   "id": "mistake",
+   "text": "mistake",
+   "ipa": "/mɪˈsteɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "помилка"
+   },
+   "example": "It's a mistake.",
+   "exampleTranslation": {
+    "uk": "Це помилка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "How ___ is the station? — One kilometre.",
+   "options": [
+    "far",
+    "long",
+    "much"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How far."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "true",
+     "right": {
+      "uk": "правдивий"
+     }
+    },
+    {
+     "left": "false",
+     "right": {
+      "uk": "хибний"
+     }
+    },
+    {
+     "left": "correct",
+     "right": {
+      "uk": "правильний"
+     }
+    },
+    {
+     "left": "mistake",
+     "right": {
+      "uk": "помилка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про правильне й неправильне."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ you tired?",
+   "options": [
+    "Are",
+    "Do",
+    "Does"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Tired — стан, тому Are."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ you work on Sunday?",
+   "options": [
+    "Do",
+    "Are",
+    "Is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Work — дія, тому Do."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ she at home?",
+   "options": [
+    "Is",
+    "Does",
+    "Do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At home — де вона: Is."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ he speak English?",
+   "options": [
+    "Does",
+    "Is",
+    "Are"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Speak — дія, з he — Does."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке питання правильне?"
+   },
+   "options": [
+    "Do you like coffee?",
+    "Are you like coffee?",
+    "Do you are like coffee?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Like — дія: Do you like…?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке питання правильне?"
+   },
+   "options": [
+    "Is your brother a doctor?",
+    "Does your brother a doctor?",
+    "Do your brother is a doctor?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Хто він — Is."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке питання правильне?"
+   },
+   "options": [
+    "Where does she live?",
+    "Where is she live?",
+    "Where she lives?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Live — дія: Where does she live?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Are you ready?",
+   "prompt": {
+    "uk": "Прослухайте. Як відповісти коротко «так»?"
+   },
+   "options": {
+    "uk": [
+     "Yes, I am.",
+     "Yes, I do.",
+     "Yes, I ready."
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "На Are you…? — Yes, I am."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Do you understand?",
+   "prompt": {
+    "uk": "Прослухайте. Як відповісти коротко «ні»?"
+   },
+   "options": {
+    "uk": [
+     "No, I don't.",
+     "No, I'm not.",
+     "No, I understand not."
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "На Do you…? — No, I don't."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він працює тут?"
+   },
+   "words": [
+    "Does",
+    "he",
+    "work",
+    "here",
+    "is",
+    "works"
+   ],
+   "answer": [
+    "Does",
+    "he",
+    "work",
+    "here"
+   ],
+   "explanation": {
+    "uk": "Does he work here?"
+   }
+  }
+ ]
+}

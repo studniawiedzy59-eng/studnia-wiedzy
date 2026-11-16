@@ -1,0 +1,327 @@
+{
+ "id": "u22_l05",
+ "unit": "u22",
+ "cefr": "A0",
+ "title": {
+  "uk": "Що тут можна побачити?"
+ },
+ "goal": {
+  "uk": "Спитати, що цікавого є в місті, і порадити щось."
+ },
+ "rule": {
+  "uk": "You can… — «можна…» про можливості: You can visit the museum. You can see the old town. Go for a walk — «піти прогулятися». Free ще означає «безкоштовний»: The museum is free."
+ },
+ "words": [
+  {
+   "id": "see",
+   "text": "see",
+   "ipa": "/siː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "бачити, оглядати"
+   },
+   "example": "You can see the bridge.",
+   "exampleTranslation": {
+    "uk": "Можна побачити міст."
+   }
+  },
+  {
+   "id": "sights",
+   "text": "sights",
+   "ipa": "/saɪts/",
+   "pos": "noun",
+   "translation": {
+    "uk": "визначні місця"
+   },
+   "example": "The sights of the city.",
+   "exampleTranslation": {
+    "uk": "Визначні місця міста."
+   }
+  },
+  {
+   "id": "tour",
+   "text": "tour",
+   "ipa": "/tʊə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "екскурсія"
+   },
+   "example": "A city tour.",
+   "exampleTranslation": {
+    "uk": "Екскурсія містом."
+   }
+  },
+  {
+   "id": "guide",
+   "text": "guide",
+   "ipa": "/ɡaɪd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гід, екскурсовод"
+   },
+   "example": "Our guide speaks English.",
+   "exampleTranslation": {
+    "uk": "Наш гід розмовляє англійською."
+   }
+  },
+  {
+   "id": "go_for_a_walk",
+   "text": "go for a walk",
+   "ipa": "/ˌɡəʊ fər ə ˈwɔːk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "піти прогулятися"
+   },
+   "example": "Let's go for a walk.",
+   "exampleTranslation": {
+    "uk": "Ходімо прогуляємося."
+   }
+  },
+  {
+   "id": "free",
+   "text": "free",
+   "ipa": "/friː/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "безкоштовний"
+   },
+   "example": "The museum is free on Sunday.",
+   "exampleTranslation": {
+    "uk": "У неділю музей безкоштовний."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Kyiv is ___ for its churches.",
+   "options": [
+    "famous",
+    "dangerous",
+    "crowded"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Famous for."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "see",
+     "right": {
+      "uk": "бачити"
+     }
+    },
+    {
+     "left": "sights",
+     "right": {
+      "uk": "визначні місця"
+     }
+    },
+    {
+     "left": "tour",
+     "right": {
+      "uk": "екскурсія"
+     }
+    },
+    {
+     "left": "guide",
+     "right": {
+      "uk": "гід"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова туриста."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "What can I see here?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає турист?"
+   },
+   "options": {
+    "uk": [
+     "Що тут можна побачити",
+     "Де я",
+     "Що це"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "What can I see?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "You can visit the museum. It's free on Sunday.",
+   "prompt": {
+    "uk": "Прослухайте. Що ви дізналися про музей?"
+   },
+   "options": {
+    "uk": [
+     "У неділю він безкоштовний",
+     "У неділю він зачинений",
+     "Він завжди безкоштовний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Free on Sunday."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає The tour is free?"
+   },
+   "options": {
+    "uk": [
+     "Екскурсія безкоштовна",
+     "Екскурсія вільна від людей",
+     "Гід вільний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Тут free — безкоштовний."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You ___ see the old bridge from here.",
+   "options": [
+    "can",
+    "are",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You can see."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Let's go ___ a walk in the park.",
+   "options": [
+    "for",
+    "to",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go for a walk."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "You can visit the church.",
+    "You can to visit the church.",
+    "You can visits the church."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після can — без to і без -s."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати про екскурсію?"
+   },
+   "options": [
+    "Is there a city tour?",
+    "Is it a city tour there?",
+    "There is a city tour?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is there a city tour?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ходімо прогуляємося."
+   },
+   "words": [
+    "Let's",
+    "go",
+    "for",
+    "a",
+    "walk",
+    "to",
+    "the"
+   ],
+   "answer": [
+    "Let's",
+    "go",
+    "for",
+    "a",
+    "walk"
+   ],
+   "explanation": {
+    "uk": "Let's go for a walk."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Наш гід розмовляє англійською."
+   },
+   "answers": [
+    "Our guide speaks English"
+   ],
+   "explanation": {
+    "uk": "Our guide speaks English."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What can I see in your city?",
+   "prompt": {
+    "uk": "У вашому місті є старий міст і музей. Що відповісти?"
+   },
+   "options": [
+    "You can see the old bridge and the museum.",
+    "You can to see old bridge and museum.",
+    "You see can the bridge."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You can see the old bridge and the museum."
+   }
+  }
+ ]
+}

@@ -1,0 +1,347 @@
+{
+ "id": "u22_l04",
+ "unit": "u22",
+ "cefr": "A0",
+ "title": {
+  "uk": "Яке у вас місто?"
+ },
+ "goal": {
+  "uk": "Описати місто або район."
+ },
+ "rule": {
+  "uk": "Міста описують тими самими конструкціями: It's a modern city. The centre is very crowded. Safe — безпечний, dangerous — небезпечний. Famous for… — «відомий чимось»: Lviv is famous for coffee."
+ },
+ "words": [
+  {
+   "id": "modern",
+   "text": "modern",
+   "ipa": "/ˈmɒdn/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "сучасний"
+   },
+   "example": "A modern city.",
+   "exampleTranslation": {
+    "uk": "Сучасне місто."
+   }
+  },
+  {
+   "id": "crowded",
+   "text": "crowded",
+   "ipa": "/ˈkraʊdɪd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "переповнений людьми"
+   },
+   "example": "The centre is crowded.",
+   "exampleTranslation": {
+    "uk": "У центрі повно людей."
+   }
+  },
+  {
+   "id": "safe",
+   "text": "safe",
+   "ipa": "/seɪf/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "безпечний"
+   },
+   "example": "It's a safe place.",
+   "exampleTranslation": {
+    "uk": "Це безпечне місце."
+   }
+  },
+  {
+   "id": "dangerous",
+   "text": "dangerous",
+   "ipa": "/ˈdeɪndʒərəs/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "небезпечний"
+   },
+   "example": "A dangerous road.",
+   "exampleTranslation": {
+    "uk": "Небезпечна дорога."
+   }
+  },
+  {
+   "id": "famous",
+   "text": "famous",
+   "ipa": "/ˈfeɪməs/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "відомий"
+   },
+   "example": "A famous museum.",
+   "exampleTranslation": {
+    "uk": "Відомий музей."
+   }
+  },
+  {
+   "id": "tourist",
+   "text": "tourist",
+   "ipa": "/ˈtʊərɪst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "турист"
+   },
+   "example": "There are many tourists.",
+   "exampleTranslation": {
+    "uk": "Тут багато туристів."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "The bank is ___ the corner.",
+   "options": [
+    "on",
+    "in",
+    "end"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On the corner."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "modern",
+     "right": {
+      "uk": "сучасний"
+     }
+    },
+    {
+     "left": "crowded",
+     "right": {
+      "uk": "переповнений"
+     }
+    },
+    {
+     "left": "famous",
+     "right": {
+      "uk": "відомий"
+     }
+    },
+    {
+     "left": "tourist",
+     "right": {
+      "uk": "турист"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для опису міста."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "safe",
+     "right": {
+      "uk": "безпечний"
+     }
+    },
+    {
+     "left": "dangerous",
+     "right": {
+      "uk": "небезпечний"
+     }
+    },
+    {
+     "left": "quiet",
+     "right": {
+      "uk": "тихий"
+     }
+    },
+    {
+     "left": "noisy",
+     "right": {
+      "uk": "шумний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Дві пари протилежних слів."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The city centre is very crowded at the weekend.",
+   "prompt": {
+    "uk": "Прослухайте. Що ви дізналися?"
+   },
+   "options": {
+    "uk": [
+     "На вихідних у центрі повно людей",
+     "На вихідних у центрі тихо",
+     "Центр зачинений на вихідні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Crowded — переповнений."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It's a small, quiet and safe town.",
+   "prompt": {
+    "uk": "Прослухайте. Яке це місто?"
+   },
+   "options": {
+    "uk": [
+     "Мале, тихе й безпечне",
+     "Мале, але небезпечне",
+     "Велике й шумне"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Small, quiet, safe."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This road is ___. Be careful!",
+   "options": [
+    "dangerous",
+    "safe",
+    "famous"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Be careful — будьте обережні: дорога небезпечна."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Paris is ___ for its museums.",
+   "options": [
+    "famous",
+    "modern",
+    "crowded"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Famous for — відомий чимось."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "There are many tourists in summer.",
+    "There is many tourists in summer.",
+    "There are many tourist in summer."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Багато туристів — there are, і tourists з -s."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що протилежне до modern?"
+   },
+   "options": {
+    "uk": [
+     "old",
+     "safe",
+     "near"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Modern — сучасний, old — старий."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це сучасне місто."
+   },
+   "words": [
+    "It's",
+    "a",
+    "modern",
+    "city",
+    "an",
+    "town"
+   ],
+   "answer": [
+    "It's",
+    "a",
+    "modern",
+    "city"
+   ],
+   "explanation": {
+    "uk": "It's a modern city."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це безпечне місце."
+   },
+   "answers": [
+    "It's a safe place",
+    "It is a safe place",
+    "This is a safe place"
+   ],
+   "explanation": {
+    "uk": "It's a safe place."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is your town like?",
+   "prompt": {
+    "uk": "Ваше місто мале й тихе. Що відповісти?"
+   },
+   "options": [
+    "It's small and quiet.",
+    "It likes small and quiet.",
+    "It's a small and a quiet."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What is it like? — яке воно. It's small and quiet."
+   }
+  }
+ ]
+}

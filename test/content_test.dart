@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:movira/domain/models.dart';
+import 'package:movira/domain/progress.dart';
 
 Map<String, dynamic> _read(String path) {
   return jsonDecode(File(path).readAsStringSync()) as Map<String, dynamic>;
@@ -17,6 +18,25 @@ void main() {
       expect(course.units.where((unit) => unit.cefr == level), hasLength(40), reason: level);
     }
     expect(course.units.map((unit) => unit.id).toSet(), hasLength(280));
+  });
+
+  test('lessons of the real course open strictly one after another', () {
+    final order = course.lessonIds;
+    final completed = <String>{};
+    for (var i = 0; i < order.length; i++) {
+      final open = [for (final id in order) if (isLessonUnlocked(order, completed, id)) id];
+      // Everything already finished plus exactly the next lesson.
+      expect(open, order.sublist(0, i + 1), reason: 'before finishing ${order[i]}');
+      completed.add(order[i]);
+    }
+  });
+
+  test('written units are a gapless run from the start of the course', () {
+    final written = [for (final unit in course.units) unit.lessonIds.isNotEmpty];
+    final firstEmpty = written.indexOf(false);
+    if (firstEmpty >= 0) {
+      expect(written.sublist(firstEmpty).contains(true), isFalse);
+    }
   });
 
   test('every listed lesson loads and its own answers are accepted', () {

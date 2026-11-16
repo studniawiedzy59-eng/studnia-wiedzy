@@ -1,0 +1,344 @@
+{
+ "id": "u20_l02",
+ "unit": "u20",
+ "cefr": "A0",
+ "title": {
+  "uk": "Вечір"
+ },
+ "goal": {
+  "uk": "Розповісти, що ви робите ввечері."
+ },
+ "rule": {
+  "uk": "Watch TV — без артикля. Listen to music — обов'язково з to. Go to bed — «лягати спати», sleep — «спати». In the evening — увечері, at night — уночі."
+ },
+ "words": [
+  {
+   "id": "watch_tv",
+   "text": "watch TV",
+   "ipa": "/ˌwɒtʃ tiː ˈviː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "дивитися телевізор"
+   },
+   "example": "I watch TV in the evening.",
+   "exampleTranslation": {
+    "uk": "Увечері я дивлюся телевізор."
+   }
+  },
+  {
+   "id": "read",
+   "text": "read",
+   "ipa": "/riːd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "читати"
+   },
+   "example": "I read books.",
+   "exampleTranslation": {
+    "uk": "Я читаю книжки."
+   }
+  },
+  {
+   "id": "listen_to",
+   "text": "listen to",
+   "ipa": "/ˈlɪsn tuː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "слухати"
+   },
+   "example": "I listen to music.",
+   "exampleTranslation": {
+    "uk": "Я слухаю музику."
+   }
+  },
+  {
+   "id": "relax",
+   "text": "relax",
+   "ipa": "/rɪˈlæks/",
+   "pos": "verb",
+   "translation": {
+    "uk": "відпочивати"
+   },
+   "example": "I relax after work.",
+   "exampleTranslation": {
+    "uk": "Після роботи я відпочиваю."
+   }
+  },
+  {
+   "id": "go_to_bed",
+   "text": "go to bed",
+   "ipa": "/ˌɡəʊ tə ˈbed/",
+   "pos": "verb",
+   "translation": {
+    "uk": "лягати спати"
+   },
+   "example": "I go to bed at eleven.",
+   "exampleTranslation": {
+    "uk": "Я лягаю спати об одинадцятій."
+   }
+  },
+  {
+   "id": "sleep",
+   "text": "sleep",
+   "ipa": "/sliːp/",
+   "pos": "verb",
+   "translation": {
+    "uk": "спати"
+   },
+   "example": "I sleep eight hours.",
+   "exampleTranslation": {
+    "uk": "Я сплю вісім годин."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I work ___ five, then I come home.",
+   "options": [
+    "until",
+    "after",
+    "first"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Until five — до п'ятої."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "watch TV",
+     "right": {
+      "uk": "дивитися телевізор"
+     }
+    },
+    {
+     "left": "read",
+     "right": {
+      "uk": "читати"
+     }
+    },
+    {
+     "left": "listen to",
+     "right": {
+      "uk": "слухати"
+     }
+    },
+    {
+     "left": "relax",
+     "right": {
+      "uk": "відпочивати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Вечірні заняття."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "go to bed",
+     "right": {
+      "uk": "лягати спати"
+     }
+    },
+    {
+     "left": "sleep",
+     "right": {
+      "uk": "спати"
+     }
+    },
+    {
+     "left": "get up",
+     "right": {
+      "uk": "вставати"
+     }
+    },
+    {
+     "left": "wake up",
+     "right": {
+      "uk": "прокидатися"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Початок і кінець дня."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I listen to music after work.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина робить після роботи?"
+   },
+   "options": {
+    "uk": [
+     "Слухає музику",
+     "Дивиться телевізор",
+     "Читає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Listen to music."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I listen ___ music in the car.",
+   "options": [
+    "to",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Listen to."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ TV after dinner.",
+   "options": [
+    "watch",
+    "see",
+    "look"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Телевізор — watch TV."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I go to bed at eleven.",
+    "I go to the bed at eleven.",
+    "I go bed at eleven."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go to bed — без the."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Увечері я читаю»?"
+   },
+   "options": [
+    "I read in the evening.",
+    "I read at the evening.",
+    "I read on evening."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In the evening."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "I usually go to bed at midnight and sleep six hours.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки людина спить?"
+   },
+   "options": {
+    "uk": [
+     "6 годин",
+     "8 годин",
+     "12 годин"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sleep six hours."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Після роботи я відпочиваю."
+   },
+   "words": [
+    "I",
+    "relax",
+    "after",
+    "work",
+    "before",
+    "the"
+   ],
+   "answer": [
+    "I",
+    "relax",
+    "after",
+    "work"
+   ],
+   "explanation": {
+    "uk": "I relax after work."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Увечері я дивлюся телевізор."
+   },
+   "answers": [
+    "I watch TV in the evening",
+    "In the evening I watch TV"
+   ],
+   "explanation": {
+    "uk": "I watch TV in the evening."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you do in the evening?",
+   "prompt": {
+    "uk": "Ви читаєте й слухаєте музику. Що відповісти?"
+   },
+   "options": [
+    "I read and listen to music.",
+    "I read and listen music to.",
+    "I'm read and listen."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I read and listen to music."
+   }
+  }
+ ]
+}

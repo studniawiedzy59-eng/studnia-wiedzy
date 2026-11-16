@@ -1,0 +1,340 @@
+{
+ "id": "u21_l02",
+ "unit": "u21",
+ "cefr": "A0",
+ "title": {
+  "uk": "Як довго? Як далеко?"
+ },
+ "goal": {
+  "uk": "Спитати про тривалість і відстань."
+ },
+ "rule": {
+  "uk": "How разом з іншим словом дає нове питання: How long…? — «Як довго? Скільки триває?». How far…? — «Як далеко?». Far — далеко, near — близько. About ще означає «приблизно»: about ten minutes."
+ },
+ "words": [
+  {
+   "id": "how_long",
+   "text": "how long",
+   "ipa": "/ˌhaʊ ˈlɒŋ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "як довго, скільки часу"
+   },
+   "example": "How long is the film?",
+   "exampleTranslation": {
+    "uk": "Скільки триває фільм?"
+   }
+  },
+  {
+   "id": "how_far",
+   "text": "how far",
+   "ipa": "/ˌhaʊ ˈfɑː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "як далеко"
+   },
+   "example": "How far is the station?",
+   "exampleTranslation": {
+    "uk": "Як далеко вокзал?"
+   }
+  },
+  {
+   "id": "far",
+   "text": "far",
+   "ipa": "/fɑː/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "далекий, далеко"
+   },
+   "example": "It isn't far.",
+   "exampleTranslation": {
+    "uk": "Це недалеко."
+   }
+  },
+  {
+   "id": "near",
+   "text": "near",
+   "ipa": "/nɪə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "близький, близько"
+   },
+   "example": "It's very near.",
+   "exampleTranslation": {
+    "uk": "Це дуже близько."
+   }
+  },
+  {
+   "id": "kilometre",
+   "text": "kilometre",
+   "ipa": "/ˈkɪləmiːtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кілометр"
+   },
+   "example": "Two kilometres.",
+   "exampleTranslation": {
+    "uk": "Два кілометри."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "___ do you work? — In a bank.",
+   "options": [
+    "Where",
+    "Who",
+    "When"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Where — де."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "how long",
+     "right": {
+      "uk": "як довго"
+     }
+    },
+    {
+     "left": "how far",
+     "right": {
+      "uk": "як далеко"
+     }
+    },
+    {
+     "left": "how often",
+     "right": {
+      "uk": "як часто"
+     }
+    },
+    {
+     "left": "how much",
+     "right": {
+      "uk": "скільки коштує"
+     }
+    },
+    {
+     "left": "how many",
+     "right": {
+      "uk": "скільки штук"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "How + слово = нове питання."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "far",
+     "right": {
+      "uk": "далеко"
+     }
+    },
+    {
+     "left": "near",
+     "right": {
+      "uk": "близько"
+     }
+    },
+    {
+     "left": "kilometre",
+     "right": {
+      "uk": "кілометр"
+     }
+    },
+    {
+     "left": "minute",
+     "right": {
+      "uk": "хвилина"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Far і near — протилежні слова."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "How far is the hotel?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Як далеко готель",
+     "Скільки коштує готель",
+     "Де готель"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "How far — як далеко."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It's about ten minutes on foot.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки йти?"
+   },
+   "options": {
+    "uk": [
+     "Приблизно 10 хвилин пішки",
+     "Рівно 10 хвилин машиною",
+     "Приблизно 10 кілометрів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "About ten minutes — приблизно десять хвилин."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How ___ is the film? — Two hours.",
+   "options": [
+    "long",
+    "far",
+    "often"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про тривалість — How long."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How ___ is the station? — Two kilometres.",
+   "options": [
+    "far",
+    "long",
+    "many"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про відстань — How far."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Це недалеко»?"
+   },
+   "options": [
+    "It isn't far.",
+    "It isn't near.",
+    "It doesn't far."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It isn't far."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає about five kilometres?"
+   },
+   "options": {
+    "uk": [
+     "Приблизно 5 кілометрів",
+     "Рівно 5 кілометрів",
+     "Про 5 кілометрів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "About — приблизно."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Як далеко вокзал?"
+   },
+   "words": [
+    "How",
+    "far",
+    "is",
+    "the",
+    "station",
+    "long",
+    "does"
+   ],
+   "answer": [
+    "How",
+    "far",
+    "is",
+    "the",
+    "station"
+   ],
+   "explanation": {
+    "uk": "How far is the station?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Скільки триває фільм?"
+   },
+   "answers": [
+    "How long is the film"
+   ],
+   "explanation": {
+    "uk": "How long is the film?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How far is your office?",
+   "prompt": {
+    "uk": "Офіс дуже близько, п'ять хвилин пішки. Що відповісти?"
+   },
+   "options": [
+    "It's very near. Five minutes on foot.",
+    "It's very far. Five minutes on foot.",
+    "It's five kilometres long."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's very near."
+   }
+  }
+ ]
+}

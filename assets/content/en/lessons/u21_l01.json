@@ -1,0 +1,344 @@
+{
+ "id": "u21_l01",
+ "unit": "u21",
+ "cefr": "A0",
+ "title": {
+  "uk": "Що? Хто? Де?"
+ },
+ "goal": {
+  "uk": "Ставити питання про річ, людину й місце."
+ },
+ "rule": {
+  "uk": "Питальне слово стоїть першим. What — про річ, who — про людину, where — про місце. З дією далі йде do: What do you want? Where do you live? З am / is / are do не потрібне: Who is she?"
+ },
+ "words": [
+  {
+   "id": "thing",
+   "text": "thing",
+   "ipa": "/θɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "річ"
+   },
+   "example": "What is this thing?",
+   "exampleTranslation": {
+    "uk": "Що це за річ?"
+   }
+  },
+  {
+   "id": "person",
+   "text": "person",
+   "ipa": "/ˈpɜːsn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "людина, особа"
+   },
+   "example": "She's a nice person.",
+   "exampleTranslation": {
+    "uk": "Вона приємна людина."
+   }
+  },
+  {
+   "id": "place",
+   "text": "place",
+   "ipa": "/pleɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "місце"
+   },
+   "example": "It's a beautiful place.",
+   "exampleTranslation": {
+    "uk": "Це гарне місце."
+   }
+  },
+  {
+   "id": "something",
+   "text": "something",
+   "ipa": "/ˈsʌmθɪŋ/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "щось"
+   },
+   "example": "I want something to eat.",
+   "exampleTranslation": {
+    "uk": "Я хочу щось поїсти."
+   }
+  },
+  {
+   "id": "about",
+   "text": "about",
+   "ipa": "/əˈbaʊt/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "про"
+   },
+   "example": "What is the film about?",
+   "exampleTranslation": {
+    "uk": "Про що цей фільм?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How often do you cook?",
+   "prompt": {
+    "uk": "Повторимо. Ви готуєте щодня. Що відповісти?"
+   },
+   "options": [
+    "Every day.",
+    "Every days.",
+    "Often day."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Every day."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "what",
+     "right": {
+      "uk": "що"
+     }
+    },
+    {
+     "left": "who",
+     "right": {
+      "uk": "хто"
+     }
+    },
+    {
+     "left": "where",
+     "right": {
+      "uk": "де"
+     }
+    },
+    {
+     "left": "when",
+     "right": {
+      "uk": "коли"
+     }
+    },
+    {
+     "left": "why",
+     "right": {
+      "uk": "чому"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "П'ять головних питальних слів."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "thing",
+     "right": {
+      "uk": "річ"
+     }
+    },
+    {
+     "left": "person",
+     "right": {
+      "uk": "людина"
+     }
+    },
+    {
+     "left": "place",
+     "right": {
+      "uk": "місце"
+     }
+    },
+    {
+     "left": "something",
+     "right": {
+      "uk": "щось"
+     }
+    },
+    {
+     "left": "about",
+     "right": {
+      "uk": "про"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Одна людина — person, багато — people."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яким словом питають про людину?"
+   },
+   "options": {
+    "uk": [
+     "who",
+     "what",
+     "where"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Who — хто."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яким словом питають про місце?"
+   },
+   "options": {
+    "uk": [
+     "where",
+     "when",
+     "who"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Where — де."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ do you live? — In Warsaw.",
+   "options": [
+    "Where",
+    "What",
+    "Who"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Відповідь про місце — питання Where."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ is that woman? — She's my boss.",
+   "options": [
+    "Who",
+    "What",
+    "Where"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про людину — Who."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What ___ you want for lunch?",
+   "options": [
+    "do",
+    "are",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З дією want — do."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "What is the book about?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Про що книжка",
+     "Чия це книжка",
+     "Де книжка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "About — про."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Що ви хочете?"
+   },
+   "words": [
+    "What",
+    "do",
+    "you",
+    "want",
+    "are",
+    "who"
+   ],
+   "answer": [
+    "What",
+    "do",
+    "you",
+    "want"
+   ],
+   "explanation": {
+    "uk": "What do you want?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Де ви працюєте?"
+   },
+   "answers": [
+    "Where do you work"
+   ],
+   "explanation": {
+    "uk": "Where do you work?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Who is that person?",
+   "prompt": {
+    "uk": "Це ваш сусід. Що відповісти?"
+   },
+   "options": [
+    "He's my neighbour.",
+    "It's a neighbour place.",
+    "He's something."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He's my neighbour."
+   }
+  }
+ ]
+}

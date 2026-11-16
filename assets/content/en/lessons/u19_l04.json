@@ -1,0 +1,347 @@
+{
+ "id": "u19_l04",
+ "unit": "u19",
+ "cefr": "A0",
+ "title": {
+  "uk": "Спочатку, потім, після"
+ },
+ "goal": {
+  "uk": "Розповісти про ранок по порядку."
+ },
+ "rule": {
+  "uk": "First — «спочатку», then — «потім». Before — «перед», after — «після»: before work, after breakfast. Make — «робити, готувати»: make coffee, make breakfast, make the bed (застеляти ліжко)."
+ },
+ "words": [
+  {
+   "id": "first",
+   "text": "first",
+   "ipa": "/fɜːst/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "спочатку"
+   },
+   "example": "First I have a shower.",
+   "exampleTranslation": {
+    "uk": "Спочатку я приймаю душ."
+   }
+  },
+  {
+   "id": "before",
+   "text": "before",
+   "ipa": "/bɪˈfɔː/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "перед, до"
+   },
+   "example": "Before work.",
+   "exampleTranslation": {
+    "uk": "Перед роботою."
+   }
+  },
+  {
+   "id": "after",
+   "text": "after",
+   "ipa": "/ˈɑːftə/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "після"
+   },
+   "example": "After breakfast.",
+   "exampleTranslation": {
+    "uk": "Після сніданку."
+   }
+  },
+  {
+   "id": "make",
+   "text": "make",
+   "ipa": "/meɪk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "робити, готувати"
+   },
+   "example": "I make coffee.",
+   "exampleTranslation": {
+    "uk": "Я готую каву."
+   }
+  },
+  {
+   "id": "check",
+   "text": "check",
+   "ipa": "/tʃek/",
+   "pos": "verb",
+   "translation": {
+    "uk": "перевіряти"
+   },
+   "example": "I check my phone.",
+   "exampleTranslation": {
+    "uk": "Я перевіряю телефон."
+   }
+  },
+  {
+   "id": "quick",
+   "text": "quick",
+   "ipa": "/kwɪk/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "швидкий"
+   },
+   "example": "A quick breakfast.",
+   "exampleTranslation": {
+    "uk": "Швидкий сніданок."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ drink coffee. I don't like it.",
+   "options": [
+    "never",
+    "always",
+    "often"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Never — ніколи."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "first",
+     "right": {
+      "uk": "спочатку"
+     }
+    },
+    {
+     "left": "then",
+     "right": {
+      "uk": "потім"
+     }
+    },
+    {
+     "left": "before",
+     "right": {
+      "uk": "перед"
+     }
+    },
+    {
+     "left": "after",
+     "right": {
+      "uk": "після"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова, що показують порядок."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "make",
+     "right": {
+      "uk": "готувати"
+     }
+    },
+    {
+     "left": "check",
+     "right": {
+      "uk": "перевіряти"
+     }
+    },
+    {
+     "left": "quick",
+     "right": {
+      "uk": "швидкий"
+     }
+    },
+    {
+     "left": "leave",
+     "right": {
+      "uk": "виходити"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Make coffee, check my phone."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "First I have a shower, then I get dressed.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина робить спочатку?"
+   },
+   "options": {
+    "uk": [
+     "Приймає душ",
+     "Одягається",
+     "Снідає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "First — спочатку."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I check my phone before breakfast.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина перевіряє телефон?"
+   },
+   "options": {
+    "uk": [
+     "Перед сніданком",
+     "Після сніданку",
+     "Під час сніданку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Before — перед."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I brush my teeth ___ breakfast.",
+   "options": [
+    "after",
+    "first",
+    "then"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "After breakfast — після сніданку."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ I get up, then I make coffee.",
+   "options": [
+    "First",
+    "After",
+    "Before"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "First…, then… — спочатку…, потім…"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «застеляти ліжко»?"
+   },
+   "options": [
+    "make the bed",
+    "do the bed",
+    "have the bed"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Make the bed."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає a quick shower?"
+   },
+   "options": {
+    "uk": [
+     "Швидкий душ",
+     "Холодний душ",
+     "Ранковий душ"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Quick — швидкий."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Після сніданку я виходжу з дому."
+   },
+   "words": [
+    "After",
+    "breakfast",
+    "I",
+    "leave",
+    "home",
+    "before",
+    "the"
+   ],
+   "answer": [
+    "After",
+    "breakfast",
+    "I",
+    "leave",
+    "home"
+   ],
+   "explanation": {
+    "uk": "After breakfast I leave home."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я готую каву."
+   },
+   "answers": [
+    "I make coffee"
+   ],
+   "explanation": {
+    "uk": "I make coffee."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you do before work?",
+   "prompt": {
+    "uk": "Перед роботою ви снідаєте й перевіряєте телефон. Що відповісти?"
+   },
+   "options": [
+    "I have breakfast and check my phone.",
+    "I breakfast and my phone check.",
+    "I'm have breakfast before."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have breakfast and check my phone."
+   }
+  }
+ ]
+}

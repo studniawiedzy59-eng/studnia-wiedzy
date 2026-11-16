@@ -1,0 +1,320 @@
+{
+ "id": "u20_l01",
+ "unit": "u20",
+ "cefr": "A0",
+ "title": {
+  "uk": "Робочий день"
+ },
+ "goal": {
+  "uk": "Розповісти про свій день: перерву, обід і кінець роботи."
+ },
+ "rule": {
+  "uk": "Finish — «закінчувати»: I finish work at five. Until — «до» якогось часу: I work until six. Come home — «приходити додому», теж без артикля й без to."
+ },
+ "words": [
+  {
+   "id": "finish",
+   "text": "finish",
+   "ipa": "/ˈfɪnɪʃ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "закінчувати"
+   },
+   "example": "I finish work at five.",
+   "exampleTranslation": {
+    "uk": "Я закінчую роботу о п'ятій."
+   }
+  },
+  {
+   "id": "until",
+   "text": "until",
+   "ipa": "/ənˈtɪl/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "до (якогось часу)"
+   },
+   "example": "I work until six.",
+   "exampleTranslation": {
+    "uk": "Я працюю до шостої."
+   }
+  },
+  {
+   "id": "break",
+   "text": "break",
+   "ipa": "/breɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "перерва"
+   },
+   "example": "I have a break at eleven.",
+   "exampleTranslation": {
+    "uk": "Об одинадцятій у мене перерва."
+   }
+  },
+  {
+   "id": "noon",
+   "text": "noon",
+   "ipa": "/nuːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "полудень"
+   },
+   "example": "At noon.",
+   "exampleTranslation": {
+    "uk": "Опівдні."
+   }
+  },
+  {
+   "id": "come_home",
+   "text": "come home",
+   "ipa": "/ˌkʌm ˈhəʊm/",
+   "pos": "verb",
+   "translation": {
+    "uk": "приходити додому"
+   },
+   "example": "I come home at six.",
+   "exampleTranslation": {
+    "uk": "Я приходжу додому о шостій."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How do you go to work?",
+   "prompt": {
+    "uk": "Повторимо. Ви ходите пішки. Що відповісти?"
+   },
+   "options": [
+    "On foot.",
+    "By foot the.",
+    "With foot."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On foot."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "finish",
+     "right": {
+      "uk": "закінчувати"
+     }
+    },
+    {
+     "left": "start",
+     "right": {
+      "uk": "починати"
+     }
+    },
+    {
+     "left": "break",
+     "right": {
+      "uk": "перерва"
+     }
+    },
+    {
+     "left": "noon",
+     "right": {
+      "uk": "полудень"
+     }
+    },
+    {
+     "left": "until",
+     "right": {
+      "uk": "до"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Start і finish — початок і кінець."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I finish work at half past five.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина закінчує роботу?"
+   },
+   "options": {
+    "uk": [
+     "О 5:30",
+     "О 6:30",
+     "О 5:15"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Half past five — 5:30."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I have lunch at noon.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина обідає?"
+   },
+   "options": {
+    "uk": [
+     "Опівдні",
+     "О першій",
+     "Увечері"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At noon — о дванадцятій дня."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I work from nine ___ five.",
+   "options": [
+    "until",
+    "at",
+    "before"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "From nine until five — з дев'ятої до п'ятої."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ a break at eleven.",
+   "options": [
+    "have",
+    "do",
+    "make"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Have a break."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I come home at six.",
+    "I come to home at six.",
+    "I come the home at six."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Come home — без to і без артикля."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я закінчую роботу о п'ятій»?"
+   },
+   "options": [
+    "I finish work at five.",
+    "I finish the work on five.",
+    "I'm finish work five."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I finish work at five."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "I work until six, then I come home.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина робить після шостої?"
+   },
+   "options": {
+    "uk": [
+     "Іде додому",
+     "Починає роботу",
+     "Обідає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Then I come home."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я працюю до шостої."
+   },
+   "words": [
+    "I",
+    "work",
+    "until",
+    "six",
+    "at",
+    "finish"
+   ],
+   "answer": [
+    "I",
+    "work",
+    "until",
+    "six"
+   ],
+   "explanation": {
+    "uk": "I work until six."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я приходжу додому о сьомій."
+   },
+   "answers": [
+    "I come home at seven",
+    "I come home at seven o'clock"
+   ],
+   "explanation": {
+    "uk": "I come home at seven."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What time do you finish work?",
+   "prompt": {
+    "uk": "Ви закінчуєте о четвертій. Що відповісти?"
+   },
+   "options": [
+    "I finish at four.",
+    "I finish on four.",
+    "I'm finish four."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I finish at four."
+   }
+  }
+ ]
+}

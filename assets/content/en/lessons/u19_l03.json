@@ -1,0 +1,306 @@
+{
+ "id": "u19_l03",
+ "unit": "u19",
+ "cefr": "A0",
+ "title": {
+  "uk": "Завжди, часто, ніколи"
+ },
+ "goal": {
+  "uk": "Сказати, як часто ви щось робите."
+ },
+ "rule": {
+  "uk": "Слова частоти: always (100 %) — usually — often — sometimes — never (0 %). Вони стоять перед дієсловом: I always have breakfast. Але після am / is / are: I'm never late. З never слово not уже не потрібне."
+ },
+ "words": [
+  {
+   "id": "always",
+   "text": "always",
+   "ipa": "/ˈɔːlweɪz/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "завжди"
+   },
+   "example": "I always have breakfast.",
+   "exampleTranslation": {
+    "uk": "Я завжди снідаю."
+   }
+  },
+  {
+   "id": "often",
+   "text": "often",
+   "ipa": "/ˈɒfn/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "часто"
+   },
+   "example": "I often walk to work.",
+   "exampleTranslation": {
+    "uk": "Я часто ходжу на роботу пішки."
+   }
+  },
+  {
+   "id": "sometimes",
+   "text": "sometimes",
+   "ipa": "/ˈsʌmtaɪmz/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "іноді"
+   },
+   "example": "I sometimes take the bus.",
+   "exampleTranslation": {
+    "uk": "Іноді я їжджу автобусом."
+   }
+  },
+  {
+   "id": "never",
+   "text": "never",
+   "ipa": "/ˈnevə/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "ніколи"
+   },
+   "example": "I never drink coffee.",
+   "exampleTranslation": {
+    "uk": "Я ніколи не п'ю кави."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I go to work ___ car.",
+   "options": [
+    "by",
+    "on",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "By car."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "always",
+     "right": {
+      "uk": "завжди"
+     }
+    },
+    {
+     "left": "often",
+     "right": {
+      "uk": "часто"
+     }
+    },
+    {
+     "left": "sometimes",
+     "right": {
+      "uk": "іноді"
+     }
+    },
+    {
+     "left": "never",
+     "right": {
+      "uk": "ніколи"
+     }
+    },
+    {
+     "left": "usually",
+     "right": {
+      "uk": "зазвичай"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Від 100 % до нуля: always, usually, often, sometimes, never."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає найбільшу частоту?"
+   },
+   "options": {
+    "uk": [
+     "always",
+     "often",
+     "sometimes"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Always — завжди."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I always get up at six.",
+    "I get always up at six.",
+    "Always I get up at six."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Слово частоти — перед дієсловом."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I'm never late.",
+    "I never am late.",
+    "I'm late never."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після am / is / are слово частоти стоїть за дієсловом."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я ніколи не п'ю кави»?"
+   },
+   "options": [
+    "I never drink coffee.",
+    "I don't never drink coffee.",
+    "I never don't drink coffee."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З never слово not не потрібне."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "I sometimes walk to work.",
+   "prompt": {
+    "uk": "Прослухайте. Як часто людина ходить пішки?"
+   },
+   "options": {
+    "uk": [
+     "Іноді",
+     "Завжди",
+     "Ніколи"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sometimes — іноді."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "She's often late.",
+   "prompt": {
+    "uk": "Прослухайте. Що ви дізналися?"
+   },
+   "options": {
+    "uk": [
+     "Вона часто запізнюється",
+     "Вона ніколи не запізнюється",
+     "Вона сьогодні запізнилася"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Often late — часто запізнюється."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ have a shower in the morning. Every day!",
+   "options": [
+    "always",
+    "never",
+    "sometimes"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Every day — це always."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я часто їжджу автобусом."
+   },
+   "words": [
+    "I",
+    "often",
+    "take",
+    "the",
+    "bus",
+    "never",
+    "by"
+   ],
+   "answer": [
+    "I",
+    "often",
+    "take",
+    "the",
+    "bus"
+   ],
+   "explanation": {
+    "uk": "I often take the bus."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я завжди снідаю."
+   },
+   "answers": [
+    "I always have breakfast"
+   ],
+   "explanation": {
+    "uk": "I always have breakfast."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you have breakfast every day?",
+   "prompt": {
+    "uk": "Ви не снідаєте взагалі. Що відповісти?"
+   },
+   "options": [
+    "No, I never have breakfast.",
+    "No, I always have breakfast.",
+    "No, I don't never."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I never have breakfast."
+   }
+  }
+ ]
+}

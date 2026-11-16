@@ -1,0 +1,315 @@
+{
+ "id": "u21_l05",
+ "unit": "u21",
+ "cefr": "A0",
+ "title": {
+  "uk": "Перепрошую, де тут туалет?"
+ },
+ "goal": {
+  "uk": "Ввічливо звернутися до незнайомої людини й знайти потрібне в будівлі."
+ },
+ "rule": {
+  "uk": "До незнайомих звертаються з Excuse me. Найввічливіше прохання — Could you…?: Could you help me, please? Це м'якше, ніж Can you…? На табличках: Entrance — вхід, Exit — вихід, Toilets — туалети, Information — довідка."
+ },
+ "words": [
+  {
+   "id": "could",
+   "text": "could",
+   "ipa": "/kʊd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "могли б (ввічливо)"
+   },
+   "example": "Could you help me?",
+   "exampleTranslation": {
+    "uk": "Чи не могли б ви мені допомогти?"
+   }
+  },
+  {
+   "id": "toilet",
+   "text": "toilet",
+   "ipa": "/ˈtɔɪlət/",
+   "pos": "noun",
+   "translation": {
+    "uk": "туалет"
+   },
+   "example": "Where are the toilets?",
+   "exampleTranslation": {
+    "uk": "Де туалети?"
+   }
+  },
+  {
+   "id": "exit",
+   "text": "exit",
+   "ipa": "/ˈeksɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вихід"
+   },
+   "example": "Where is the exit?",
+   "exampleTranslation": {
+    "uk": "Де вихід?"
+   }
+  },
+  {
+   "id": "entrance",
+   "text": "entrance",
+   "ipa": "/ˈentrəns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вхід"
+   },
+   "example": "The entrance is over there.",
+   "exampleTranslation": {
+    "uk": "Вхід он там."
+   }
+  },
+  {
+   "id": "information",
+   "text": "information",
+   "ipa": "/ˌɪnfəˈmeɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "інформація, довідка"
+   },
+   "example": "Where is information?",
+   "exampleTranslation": {
+    "uk": "Де довідка?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is it far?",
+   "prompt": {
+    "uk": "Повторимо. Ви думаєте, що ні. Що відповісти?"
+   },
+   "options": [
+    "I don't think so.",
+    "I think not so.",
+    "I'm not think."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't think so."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "toilet",
+     "right": {
+      "uk": "туалет"
+     }
+    },
+    {
+     "left": "exit",
+     "right": {
+      "uk": "вихід"
+     }
+    },
+    {
+     "left": "entrance",
+     "right": {
+      "uk": "вхід"
+     }
+    },
+    {
+     "left": "information",
+     "right": {
+      "uk": "довідка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Написи в аеропорту, на вокзалі, у торговому центрі."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Excuse me, where are the toilets?",
+   "prompt": {
+    "uk": "Прослухайте. Що шукає людина?"
+   },
+   "options": {
+    "uk": [
+     "Туалети",
+     "Вихід",
+     "Довідку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The toilets."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Could you repeat that, please?",
+   "prompt": {
+    "uk": "Прослухайте. Про що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Повторити",
+     "Допомогти",
+     "Показати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Repeat — повторити."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке прохання найввічливіше?"
+   },
+   "options": {
+    "uk": [
+     "Could you help me, please?",
+     "Can you help me?",
+     "Help me."
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Could you…, please? — найм'якше."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Excuse me, ___ you tell me the time, please?",
+   "options": [
+    "could",
+    "do",
+    "are"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Could you tell me…?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Where is the ___? I want to go out.",
+   "options": [
+    "exit",
+    "entrance",
+    "toilet"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вийти — через exit."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно почати питання до незнайомої людини?"
+   },
+   "options": [
+    "Excuse me, …",
+    "Sorry me, …",
+    "Hello you, …"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Excuse me."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає напис Entrance?"
+   },
+   "options": {
+    "uk": [
+     "Вхід",
+     "Вихід",
+     "Довідка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Entrance — вхід."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Де вихід?"
+   },
+   "words": [
+    "Where",
+    "is",
+    "the",
+    "exit",
+    "are",
+    "entrance"
+   ],
+   "answer": [
+    "Where",
+    "is",
+    "the",
+    "exit"
+   ],
+   "explanation": {
+    "uk": "Where is the exit?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Чи не могли б ви мені допомогти?"
+   },
+   "answers": [
+    "Could you help me",
+    "Could you help me, please"
+   ],
+   "explanation": {
+    "uk": "Could you help me?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Excuse me, could you help me?",
+   "prompt": {
+    "uk": "До вас звернулися по допомогу. Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "Yes, of course.",
+    "Yes, I could of.",
+    "No problem not."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, of course."
+   }
+  }
+ ]
+}

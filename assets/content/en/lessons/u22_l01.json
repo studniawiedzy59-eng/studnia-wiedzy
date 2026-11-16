@@ -1,0 +1,361 @@
+{
+ "id": "u22_l01",
+ "unit": "u22",
+ "cefr": "A0",
+ "title": {
+  "uk": "Місця в місті"
+ },
+ "goal": {
+  "uk": "Назвати головні місця в місті."
+ },
+ "rule": {
+  "uk": "Місця називають з a, коли вони будь-які: Is there a pharmacy near here? З the — коли зрозуміло, яке саме: the station, the park. Square — це площа."
+ },
+ "words": [
+  {
+   "id": "station",
+   "text": "station",
+   "ipa": "/ˈsteɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вокзал, станція"
+   },
+   "example": "Where is the station?",
+   "exampleTranslation": {
+    "uk": "Де вокзал?"
+   }
+  },
+  {
+   "id": "supermarket",
+   "text": "supermarket",
+   "ipa": "/ˈsuːpəmɑːkɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "супермаркет"
+   },
+   "example": "The supermarket is open.",
+   "exampleTranslation": {
+    "uk": "Супермаркет відчинений."
+   }
+  },
+  {
+   "id": "pharmacy",
+   "text": "pharmacy",
+   "ipa": "/ˈfɑːməsi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "аптека"
+   },
+   "example": "Is there a pharmacy near here?",
+   "exampleTranslation": {
+    "uk": "Тут поблизу є аптека?"
+   }
+  },
+  {
+   "id": "post_office",
+   "text": "post office",
+   "ipa": "/ˈpəʊst ˌɒfɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пошта"
+   },
+   "example": "The post office is closed.",
+   "exampleTranslation": {
+    "uk": "Пошта зачинена."
+   }
+  },
+  {
+   "id": "park",
+   "text": "park",
+   "ipa": "/pɑːk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "парк"
+   },
+   "example": "Let's go to the park.",
+   "exampleTranslation": {
+    "uk": "Ходімо в парк."
+   }
+  },
+  {
+   "id": "museum",
+   "text": "museum",
+   "ipa": "/mjuˈziːəm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "музей"
+   },
+   "example": "The museum is free.",
+   "exampleTranslation": {
+    "uk": "Музей безкоштовний."
+   }
+  },
+  {
+   "id": "square",
+   "text": "square",
+   "ipa": "/skweə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "площа"
+   },
+   "example": "The main square.",
+   "exampleTranslation": {
+    "uk": "Головна площа."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Excuse me, where is the exit?",
+   "prompt": {
+    "uk": "Повторимо. Вихід он там. Що відповісти?"
+   },
+   "options": [
+    "It's over there.",
+    "It's exit there.",
+    "I'm over there."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's over there."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "station",
+     "right": {
+      "uk": "вокзал"
+     }
+    },
+    {
+     "left": "supermarket",
+     "right": {
+      "uk": "супермаркет"
+     }
+    },
+    {
+     "left": "pharmacy",
+     "right": {
+      "uk": "аптека"
+     }
+    },
+    {
+     "left": "post office",
+     "right": {
+      "uk": "пошта"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Місця, які шукають найчастіше."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "park",
+     "right": {
+      "uk": "парк"
+     }
+    },
+    {
+     "left": "museum",
+     "right": {
+      "uk": "музей"
+     }
+    },
+    {
+     "left": "square",
+     "right": {
+      "uk": "площа"
+     }
+    },
+    {
+     "left": "bank",
+     "right": {
+      "uk": "банк"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Park — і «парк», і «паркуватися»."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Is there a pharmacy near here?",
+   "prompt": {
+    "uk": "Прослухайте. Що шукає людина?"
+   },
+   "options": {
+    "uk": [
+     "Аптеку",
+     "Пошту",
+     "Супермаркет"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A pharmacy — аптека."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The museum is in the main square.",
+   "prompt": {
+    "uk": "Прослухайте. Де музей?"
+   },
+   "options": {
+    "uk": [
+     "На головній площі",
+     "Біля вокзалу",
+     "У парку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In the main square — на головній площі."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Куди йдуть по ліки?"
+   },
+   "options": {
+    "uk": [
+     "pharmacy",
+     "post office",
+     "museum"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pharmacy — аптека."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Let's go to the ___. I need bread and milk.",
+   "options": [
+    "supermarket",
+    "museum",
+    "station"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "По продукти — у supermarket."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is there ___ post office near here?",
+   "options": [
+    "a",
+    "an",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Будь-яка пошта — a post office."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "Where is the station?",
+    "Where is a station the?",
+    "Where the station is?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Where is the station?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ходімо в парк."
+   },
+   "words": [
+    "Let's",
+    "go",
+    "to",
+    "the",
+    "park",
+    "at",
+    "a"
+   ],
+   "answer": [
+    "Let's",
+    "go",
+    "to",
+    "the",
+    "park"
+   ],
+   "explanation": {
+    "uk": "Let's go to the park."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Де аптека?"
+   },
+   "answers": [
+    "Where is the pharmacy",
+    "Where's the pharmacy"
+   ],
+   "explanation": {
+    "uk": "Where is the pharmacy?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is there a supermarket near here?",
+   "prompt": {
+    "uk": "Супермаркет є, біля банку. Що відповісти?"
+   },
+   "options": [
+    "Yes, there is. It's next to the bank.",
+    "Yes, it is. There's bank.",
+    "Yes, there are a bank."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, there is. It's next to the bank."
+   }
+  }
+ ]
+}
