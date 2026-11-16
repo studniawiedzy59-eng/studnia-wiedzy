@@ -226,6 +226,75 @@
    "explanation": {
     "uk": "Працівник у готелі не живе, тому просто Thank you."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "У вас є бронь на прізвище Kovalenko."
+   },
+   "character": {
+    "name": {
+     "uk": "Адміністратор готелю"
+    },
+    "avatar": "🧑‍💼"
+   },
+   "line": "Good evening! Do you have a booking?",
+   "options": [
+    "Yes, under the name Kovalenko.",
+    "Yes, on surname Kovalenko.",
+    "Yes, my booking is Kovalenko by."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Бронь «на ім'я» — under the name. «On surname» — калька."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви хочете дізнатися пароль від Wi-Fi."
+   },
+   "character": {
+    "name": {
+     "uk": "Адміністратор готелю"
+    },
+    "avatar": "🧑‍💼"
+   },
+   "line": "Here is your key card. Breakfast is included.",
+   "options": [
+    "Thank you. What's the Wi-Fi password?",
+    "Thank you. Say me the password for wifi.",
+    "Thanks. Password for internet is what?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What's the Wi-Fi password? — стандартне запитання. «Say me» — помилка, потрібно «tell me»."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "У номері не працює опалення."
+   },
+   "character": {
+    "name": {
+     "uk": "Адміністратор готелю"
+    },
+    "avatar": "🧑‍💼"
+   },
+   "line": "Is everything OK with your room?",
+   "options": [
+    "Actually, the heating doesn't work.",
+    "Not okay, heating is broken at me.",
+    "No, I have problem heating."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Actually, … — м'який спосіб поскаржитися. «At me» і «I have problem heating» — кальки."
+   }
   }
  ]
 }

@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -521,9 +522,12 @@ class DialogueView extends ConsumerStatefulWidget {
   ConsumerState<DialogueView> createState() => _DialogueViewState();
 }
 
-class _DialogueViewState extends ConsumerState<DialogueView> {
+class _DialogueViewState extends ConsumerState<DialogueView> with SingleTickerProviderStateMixin {
   int? _selected;
   late final List<int> _order = mixedOrder(widget.exercise.options.length);
+  late final AnimationController _pulse =
+      AnimationController(vsync: this, duration: const Duration(milliseconds: 420));
+  Timer? _stopTimer;
 
   @override
   void initState() {
@@ -531,8 +535,33 @@ class _DialogueViewState extends ConsumerState<DialogueView> {
     WidgetsBinding.instance.addPostFrameCallback((_) => _speak());
   }
 
+  void _startTalking() {
+    _pulse.repeat(reverse: true);
+    // The speech engine may not report its end, so the animation also stops
+    // after a time that matches the length of the line.
+    _stopTimer?.cancel();
+    _stopTimer = Timer(Duration(milliseconds: 900 + widget.exercise.line.length * 70), _stopTalking);
+  }
+
+  void _stopTalking() {
+    _stopTimer?.cancel();
+    if (!mounted) return;
+    _pulse.animateTo(0, duration: const Duration(milliseconds: 150));
+  }
+
   void _speak() {
-    if (mounted) ref.read(ttsProvider).speak(widget.exercise.line);
+    if (!mounted) return;
+    final tts = ref.read(ttsProvider);
+    tts.setCompletionHandler(_stopTalking);
+    _startTalking();
+    tts.speak(widget.exercise.line);
+  }
+
+  @override
+  void dispose() {
+    _stopTimer?.cancel();
+    _pulse.dispose();
+    super.dispose();
   }
 
   @override
@@ -551,10 +580,15 @@ class _DialogueViewState extends ConsumerState<DialogueView> {
           children: [
             Column(
               children: [
-                CircleAvatar(
-                  radius: 32,
-                  backgroundColor: AppColors.tint,
-                  child: Text(exercise.avatar, style: const TextStyle(fontSize: 34)),
+                ScaleTransition(
+                  scale: Tween<double>(begin: 1, end: 1.14).animate(
+                    CurvedAnimation(parent: _pulse, curve: Curves.easeInOut),
+                  ),
+                  child: CircleAvatar(
+                    radius: 32,
+                    backgroundColor: AppColors.tint,
+                    child: Text(exercise.avatar, style: const TextStyle(fontSize: 34)),
+                  ),
                 ),
                 const SizedBox(height: 4),
                 Text(

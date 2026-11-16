@@ -224,6 +224,75 @@
    "explanation": {
     "uk": "I can show you on the map."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви не знаєте, де бібліотека."
+   },
+   "character": {
+    "name": {
+     "uk": "Перехожий"
+    },
+    "avatar": "🧑‍🦱"
+   },
+   "line": "You look lost. Can I help?",
+   "options": [
+    "Yes, please. Where is the library?",
+    "Yes, tell me where library.",
+    "Yes, where is library?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, please. Where is the library? — ввічливо й з артиклем the."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви зрозуміли шлях і хочете подякувати."
+   },
+   "character": {
+    "name": {
+     "uk": "Перехожий"
+    },
+    "avatar": "🧑‍🦱"
+   },
+   "line": "Go straight on, then turn left. You can't miss it.",
+   "options": [
+    "Thanks a lot!",
+    "Thanks for your attention.",
+    "I understand you, thanks."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thanks a lot! — тепла коротка подяка. «For your attention» — калька."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви хочете перепитати, чи правильно зрозуміли шлях: прямо й ліворуч."
+   },
+   "character": {
+    "name": {
+     "uk": "Перехожий"
+    },
+    "avatar": "🧑‍🦱"
+   },
+   "line": "It's a five-minute walk.",
+   "options": [
+    "So, straight on, then left?",
+    "So, I must go right?",
+    "Left, then straight, you said?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "So, …? — природний спосіб перепитати. Інші варіанти плутають напрямок."
+   }
   }
  ]
 }

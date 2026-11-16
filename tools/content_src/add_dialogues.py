@@ -62,6 +62,64 @@ S = {
       "I'll bring… — обіцянка на місці. Після can не ставимо to."),
  ],
 }
+
+S.update({
+ "u10_l06": [
+  dlg("Подруга Лена", "👩", "Ви голодні й любите піцу.", "Are you hungry? We have pizza and salad.",
+      ["Yes, I'm hungry! Pizza, please.", "Yes, I have hunger. Pizza me.", "I am hungry for pizza yes."],
+      "I'm hungry — так кажуть про голод. «I have hunger» — калька з української."),
+  dlg("Подруга Лена", "👩", "Ви вже наїлися.", "Would you like some more rice?",
+      ["No, thank you. I'm full.", "No, thanks. I am satisfied.", "No more, I ate enough."],
+      "I'm full — природно про ситість. «Satisfied» звучить книжково."),
+  dlg("Подруга Лена", "👩", "Ви хочете води.", "What would you like to drink?",
+      ["Just water, please.", "Only water, thank you very.", "Water to me, please."],
+      "Just water, please — коротко й ввічливо. «Thank you very» — незакінчена фраза."),
+ ],
+ "u23_l06": [
+  dlg("Перехожий", "🧑‍🦱", "Ви не знаєте, де бібліотека.", "You look lost. Can I help?",
+      ["Yes, please. Where is the library?", "Yes, tell me where library.", "Yes, where is library?"],
+      "Yes, please. Where is the library? — ввічливо й з артиклем the."),
+  dlg("Перехожий", "🧑‍🦱", "Ви зрозуміли шлях і хочете подякувати.", "Go straight on, then turn left. You can't miss it.",
+      ["Thanks a lot!", "Thanks for your attention.", "I understand you, thanks."],
+      "Thanks a lot! — тепла коротка подяка. «For your attention» — калька."),
+  dlg("Перехожий", "🧑‍🦱", "Ви хочете перепитати, чи правильно зрозуміли шлях: прямо й ліворуч.", "It's a five-minute walk.",
+      ["So, straight on, then left?", "So, I must go right?", "Left, then straight, you said?"],
+      "So, …? — природний спосіб перепитати. Інші варіанти плутають напрямок."),
+ ],
+ "u26_l06": [
+  dlg("Працівниця аеропорту", "👩‍✈️", "Ви на реєстрації й подаєте паспорт.", "Good morning! Passport, please.",
+      ["Here you are.", "Take it.", "This is mine."],
+      "Here you are — те, що кажуть, коли щось передають."),
+  dlg("Працівниця аеропорту", "👩‍✈️", "У вас одна валіза.", "Do you have any bags to check in?",
+      ["Yes, one suitcase.", "Yes, I have one suitcase to give.", "One suitcase only I have."],
+      "Достатньо Yes, one suitcase. Зайві слова звучать неприродно."),
+  dlg("Працівниця аеропорту", "👩‍✈️", "Ви не розчули час посадки.", "Your gate is number twelve. Boarding starts at nine.",
+      ["Sorry, what time?", "Sorry, what is time?", "Repeat, please time."],
+      "Sorry, what time? — ввічливе перепитування. «What is time?» означає зовсім інше."),
+ ],
+ "u27_l06": [
+  dlg("Адміністратор готелю", "🧑‍💼", "У вас є бронь на прізвище Kovalenko.", "Good evening! Do you have a booking?",
+      ["Yes, under the name Kovalenko.", "Yes, on surname Kovalenko.", "Yes, my booking is Kovalenko by."],
+      "Бронь «на ім'я» — under the name. «On surname» — калька."),
+  dlg("Адміністратор готелю", "🧑‍💼", "Ви хочете дізнатися пароль від Wi-Fi.", "Here is your key card. Breakfast is included.",
+      ["Thank you. What's the Wi-Fi password?", "Thank you. Say me the password for wifi.", "Thanks. Password for internet is what?"],
+      "What's the Wi-Fi password? — стандартне запитання. «Say me» — помилка, потрібно «tell me»."),
+  dlg("Адміністратор готелю", "🧑‍💼", "У номері не працює опалення.", "Is everything OK with your room?",
+      ["Actually, the heating doesn't work.", "Not okay, heating is broken at me.", "No, I have problem heating."],
+      "Actually, … — м'який спосіб поскаржитися. «At me» і «I have problem heating» — кальки."),
+ ],
+ "u33_l06": [
+  dlg("Фармацевтка", "👩‍⚕️", "У вас болить голова.", "Hello! How can I help you?",
+      ["I have a headache. Do you have anything for it?", "My head is hurting, give me something.", "I have pain of head."],
+      "I have a headache — стандартна фраза. Anything for it? — природне прохання."),
+  dlg("Фармацевтка", "👩‍⚕️", "У вас немає алергії.", "Do you have any allergies?",
+      ["No, I'm not allergic to anything.", "No, I don't have allergy.", "No, I haven't allergy."],
+      "I'm allergic to… — стала фраза. «Have allergy» без артикля й форми — помилка."),
+  dlg("Фармацевтка", "👩‍⚕️", "Ви хочете спитати, скільки разів на день.", "Take one tablet after a meal, with water.",
+      ["How many times a day?", "How much times per day?", "Many times in a day?"],
+      "Times лічильне, тому How many times a day? Усе інше — кальки."),
+ ],
+})
 for lid, items in S.items():
     p = D / f"{lid}.json"
     d = json.loads(p.read_text())

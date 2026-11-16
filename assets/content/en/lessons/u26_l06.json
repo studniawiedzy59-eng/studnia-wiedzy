@@ -223,6 +223,75 @@
    "explanation": {
     "uk": "Aisle, please."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви на реєстрації й подаєте паспорт."
+   },
+   "character": {
+    "name": {
+     "uk": "Працівниця аеропорту"
+    },
+    "avatar": "👩‍✈️"
+   },
+   "line": "Good morning! Passport, please.",
+   "options": [
+    "Here you are.",
+    "Take it.",
+    "This is mine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Here you are — те, що кажуть, коли щось передають."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "У вас одна валіза."
+   },
+   "character": {
+    "name": {
+     "uk": "Працівниця аеропорту"
+    },
+    "avatar": "👩‍✈️"
+   },
+   "line": "Do you have any bags to check in?",
+   "options": [
+    "Yes, one suitcase.",
+    "Yes, I have one suitcase to give.",
+    "One suitcase only I have."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Достатньо Yes, one suitcase. Зайві слова звучать неприродно."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви не розчули час посадки."
+   },
+   "character": {
+    "name": {
+     "uk": "Працівниця аеропорту"
+    },
+    "avatar": "👩‍✈️"
+   },
+   "line": "Your gate is number twelve. Boarding starts at nine.",
+   "options": [
+    "Sorry, what time?",
+    "Sorry, what is time?",
+    "Repeat, please time."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sorry, what time? — ввічливе перепитування. «What is time?» означає зовсім інше."
+   }
   }
  ]
 }

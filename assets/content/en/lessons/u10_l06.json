@@ -184,6 +184,75 @@
    "explanation": {
     "uk": "I have yoghurt with fruit."
    }
+  },
+  {
+   "id": "e11",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви голодні й любите піцу."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Лена"
+    },
+    "avatar": "👩"
+   },
+   "line": "Are you hungry? We have pizza and salad.",
+   "options": [
+    "Yes, I'm hungry! Pizza, please.",
+    "Yes, I have hunger. Pizza me.",
+    "I am hungry for pizza yes."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm hungry — так кажуть про голод. «I have hunger» — калька з української."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви вже наїлися."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Лена"
+    },
+    "avatar": "👩"
+   },
+   "line": "Would you like some more rice?",
+   "options": [
+    "No, thank you. I'm full.",
+    "No, thanks. I am satisfied.",
+    "No more, I ate enough."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm full — природно про ситість. «Satisfied» звучить книжково."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви хочете води."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Лена"
+    },
+    "avatar": "👩"
+   },
+   "line": "What would you like to drink?",
+   "options": [
+    "Just water, please.",
+    "Only water, thank you very.",
+    "Water to me, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Just water, please — коротко й ввічливо. «Thank you very» — незакінчена фраза."
+   }
   }
  ]
 }

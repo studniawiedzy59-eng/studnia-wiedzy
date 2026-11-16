@@ -227,6 +227,75 @@
    "explanation": {
     "uk": "Three times a day."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "У вас болить голова."
+   },
+   "character": {
+    "name": {
+     "uk": "Фармацевтка"
+    },
+    "avatar": "👩‍⚕️"
+   },
+   "line": "Hello! How can I help you?",
+   "options": [
+    "I have a headache. Do you have anything for it?",
+    "My head is hurting, give me something.",
+    "I have pain of head."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a headache — стандартна фраза. Anything for it? — природне прохання."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "У вас немає алергії."
+   },
+   "character": {
+    "name": {
+     "uk": "Фармацевтка"
+    },
+    "avatar": "👩‍⚕️"
+   },
+   "line": "Do you have any allergies?",
+   "options": [
+    "No, I'm not allergic to anything.",
+    "No, I don't have allergy.",
+    "No, I haven't allergy."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm allergic to… — стала фраза. «Have allergy» без артикля й форми — помилка."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви хочете спитати, скільки разів на день."
+   },
+   "character": {
+    "name": {
+     "uk": "Фармацевтка"
+    },
+    "avatar": "👩‍⚕️"
+   },
+   "line": "Take one tablet after a meal, with water.",
+   "options": [
+    "How many times a day?",
+    "How much times per day?",
+    "Many times in a day?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Times лічильне, тому How many times a day? Усе інше — кальки."
+   }
   }
  ]
 }
