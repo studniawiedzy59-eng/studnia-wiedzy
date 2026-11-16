@@ -1,0 +1,328 @@
+{
+ "id": "u07_l03",
+ "unit": "u07",
+ "cefr": "A0",
+ "title": {
+  "uk": "Мій робочий тиждень"
+ },
+ "goal": {
+  "uk": "Розповісти, коли ви працюєте, навчаєтеся й відпочиваєте."
+ },
+ "rule": {
+  "uk": "Після I дієслово не змінюється: I work, I study. From Monday to Friday — з понеділка до п'ятниці. At home — удома, at work — на роботі, at school — у школі."
+ },
+ "words": [
+  {
+   "id": "work",
+   "text": "work",
+   "ipa": "/wɜːk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "працювати; робота"
+   },
+   "example": "I work from Monday to Friday.",
+   "exampleTranslation": {
+    "uk": "Я працюю з понеділка до п'ятниці."
+   }
+  },
+  {
+   "id": "study",
+   "text": "study",
+   "ipa": "/ˈstʌdi/",
+   "pos": "verb",
+   "translation": {
+    "uk": "навчатися"
+   },
+   "example": "I study English.",
+   "exampleTranslation": {
+    "uk": "Я вчу англійську."
+   }
+  },
+  {
+   "id": "home",
+   "text": "home",
+   "ipa": "/həʊm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дім"
+   },
+   "example": "I'm at home.",
+   "exampleTranslation": {
+    "uk": "Я вдома."
+   }
+  },
+  {
+   "id": "school",
+   "text": "school",
+   "ipa": "/skuːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "школа"
+   },
+   "example": "My son is at school.",
+   "exampleTranslation": {
+    "uk": "Мій син у школі."
+   }
+  },
+  {
+   "id": "office",
+   "text": "office",
+   "ipa": "/ˈɒfɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "офіс"
+   },
+   "example": "I work in the office.",
+   "exampleTranslation": {
+    "uk": "Я працюю в офісі."
+   }
+  },
+  {
+   "id": "day_off",
+   "text": "day off",
+   "ipa": "/ˌdeɪ ˈɒf/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вихідний день"
+   },
+   "example": "Sunday is my day off.",
+   "exampleTranslation": {
+    "uk": "Неділя — мій вихідний."
+   }
+  },
+  {
+   "id": "english",
+   "text": "English",
+   "ipa": "/ˈɪŋɡlɪʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "англійська мова"
+   },
+   "example": "I study English every day.",
+   "exampleTranslation": {
+    "uk": "Я вчу англійську щодня."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm free ___ Sunday.",
+   "options": [
+    "on",
+    "at",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед днем тижня — on."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "work",
+     "right": {
+      "uk": "працювати"
+     }
+    },
+    {
+     "left": "study",
+     "right": {
+      "uk": "навчатися"
+     }
+    },
+    {
+     "left": "office",
+     "right": {
+      "uk": "офіс"
+     }
+    },
+    {
+     "left": "school",
+     "right": {
+      "uk": "школа"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Work — і «працювати», і «робота»."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "home",
+     "right": {
+      "uk": "дім"
+     }
+    },
+    {
+     "left": "day off",
+     "right": {
+      "uk": "вихідний день"
+     }
+    },
+    {
+     "left": "English",
+     "right": {
+      "uk": "англійська мова"
+     }
+    },
+    {
+     "left": "week",
+     "right": {
+      "uk": "тиждень"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "English завжди з великої літери."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I work from Monday to Friday.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина працює?"
+   },
+   "options": {
+    "uk": [
+     "З понеділка до п'ятниці",
+     "З понеділка до суботи",
+     "У понеділок і п'ятницю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "From Monday to Friday."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ English every day.",
+   "options": [
+    "study",
+    "am",
+    "have"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I study English — я вчу англійську."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "On Sunday I'm ___ home.",
+   "options": [
+    "at",
+    "in",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Удома — at home."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Saturday is my day off.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Субота — мій вихідний",
+     "У суботу я працюю",
+     "Субота — робочий день"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Day off — вихідний день."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я працюю в офісі."
+   },
+   "words": [
+    "I",
+    "work",
+    "in",
+    "the",
+    "office",
+    "at",
+    "am"
+   ],
+   "answer": [
+    "I",
+    "work",
+    "in",
+    "the",
+    "office"
+   ],
+   "explanation": {
+    "uk": "I work in the office. Тут am не потрібне."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я вчу англійську."
+   },
+   "answers": [
+    "I study English",
+    "I'm studying English",
+    "I learn English"
+   ],
+   "explanation": {
+    "uk": "I study English."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Where do you work?",
+   "prompt": {
+    "uk": "Вас питають, де ви працюєте. Що відповісти?"
+   },
+   "options": [
+    "I work in the office.",
+    "I'm work office.",
+    "I work on Monday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Питають де: I work in the office."
+   }
+  }
+ ]
+}

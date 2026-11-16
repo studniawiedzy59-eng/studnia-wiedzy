@@ -1,0 +1,325 @@
+{
+ "id": "u10_l05",
+ "unit": "u10",
+ "cefr": "A0",
+ "title": {
+  "uk": "Що я їм на сніданок"
+ },
+ "goal": {
+  "uk": "Розповісти, що ви зазвичай їсте вранці, вдень і ввечері."
+ },
+ "rule": {
+  "uk": "For breakfast — «на сніданок», for lunch — «на обід», for dinner — «на вечерю». Про їжу часто кажуть have: I have toast for breakfast. Usually — «зазвичай», стоїть перед дієсловом: I usually have coffee."
+ },
+ "words": [
+  {
+   "id": "for",
+   "text": "for",
+   "ipa": "/fɔː/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "на, для"
+   },
+   "example": "For breakfast.",
+   "exampleTranslation": {
+    "uk": "На сніданок."
+   }
+  },
+  {
+   "id": "usually",
+   "text": "usually",
+   "ipa": "/ˈjuːʒuəli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "зазвичай"
+   },
+   "example": "I usually have tea.",
+   "exampleTranslation": {
+    "uk": "Я зазвичай п'ю чай."
+   }
+  },
+  {
+   "id": "toast",
+   "text": "toast",
+   "ipa": "/təʊst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тост, підсмажений хліб"
+   },
+   "example": "Toast with butter.",
+   "exampleTranslation": {
+    "uk": "Тост із маслом."
+   }
+  },
+  {
+   "id": "yoghurt",
+   "text": "yoghurt",
+   "ipa": "/ˈjɒɡət/",
+   "pos": "noun",
+   "translation": {
+    "uk": "йогурт"
+   },
+   "example": "Yoghurt with fruit.",
+   "exampleTranslation": {
+    "uk": "Йогурт із фруктами."
+   }
+  },
+  {
+   "id": "pizza",
+   "text": "pizza",
+   "ipa": "/ˈpiːtsə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "піца"
+   },
+   "example": "I love pizza.",
+   "exampleTranslation": {
+    "uk": "Я обожнюю піцу."
+   }
+  },
+  {
+   "id": "wine",
+   "text": "wine",
+   "ipa": "/waɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вино"
+   },
+   "example": "Red wine, please.",
+   "exampleTranslation": {
+    "uk": "Червоного вина, будь ласка."
+   }
+  },
+  {
+   "id": "beer",
+   "text": "beer",
+   "ipa": "/bɪə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пиво"
+   },
+   "example": "A beer, please.",
+   "exampleTranslation": {
+    "uk": "Пиво, будь ласка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Повторимо. Ви наїлися. Що сказати?"
+   },
+   "options": [
+    "I'm full.",
+    "I'm hungry.",
+    "I'm thirsty."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm full."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "toast",
+     "right": {
+      "uk": "тост"
+     }
+    },
+    {
+     "left": "yoghurt",
+     "right": {
+      "uk": "йогурт"
+     }
+    },
+    {
+     "left": "pizza",
+     "right": {
+      "uk": "піца"
+     }
+    },
+    {
+     "left": "usually",
+     "right": {
+      "uk": "зазвичай"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Toast і yoghurt — типовий сніданок."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "wine",
+     "right": {
+      "uk": "вино"
+     }
+    },
+    {
+     "left": "beer",
+     "right": {
+      "uk": "пиво"
+     }
+    },
+    {
+     "left": "juice",
+     "right": {
+      "uk": "сік"
+     }
+    },
+    {
+     "left": "water",
+     "right": {
+      "uk": "вода"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Напої."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "For breakfast I have toast and coffee.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина їсть на сніданок?"
+   },
+   "options": {
+    "uk": [
+     "Тост і каву",
+     "Тост і чай",
+     "Йогурт і каву"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Toast and coffee."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a sandwich ___ lunch.",
+   "options": [
+    "for",
+    "on",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "For lunch — на обід."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ have dinner at seven.",
+   "options": [
+    "usually",
+    "some",
+    "for"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I usually have dinner — зазвичай я вечеряю."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "A glass of red wine, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що замовляє людина?"
+   },
+   "options": {
+    "uk": [
+     "Червоне вино",
+     "Біле вино",
+     "Пиво"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Red wine — червоне вино. A glass of — «келих»."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "На сніданок я їм йогурт."
+   },
+   "words": [
+    "I",
+    "have",
+    "yoghurt",
+    "for",
+    "breakfast",
+    "eat",
+    "at"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "yoghurt",
+    "for",
+    "breakfast"
+   ],
+   "explanation": {
+    "uk": "I have yoghurt for breakfast."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я обожнюю піцу."
+   },
+   "answers": [
+    "I love pizza"
+   ],
+   "explanation": {
+    "uk": "I love pizza."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What do you usually have for breakfast?",
+   "prompt": {
+    "uk": "Ви зазвичай їсте яйця й тост. Що відповісти?"
+   },
+   "options": [
+    "I usually have eggs and toast.",
+    "I usually eggs and toast.",
+    "I'm usually eggs."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I usually have eggs and toast."
+   }
+  }
+ ]
+}

@@ -1,0 +1,323 @@
+{
+ "id": "u08_l02",
+ "unit": "u08",
+ "cefr": "A0",
+ "title": {
+  "uk": "Ще кольори"
+ },
+ "goal": {
+  "uk": "Назвати решту кольорів і відтінки: темний і світлий."
+ },
+ "rule": {
+  "uk": "Dark — темний, light — світлий. Їх ставлять перед кольором: dark blue, light green."
+ },
+ "words": [
+  {
+   "id": "orange",
+   "text": "orange",
+   "ipa": "/ˈɒrɪndʒ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "помаранчевий"
+   },
+   "example": "My bag is orange.",
+   "exampleTranslation": {
+    "uk": "Моя сумка помаранчева."
+   }
+  },
+  {
+   "id": "pink",
+   "text": "pink",
+   "ipa": "/pɪŋk/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "рожевий"
+   },
+   "example": "It's a pink dress.",
+   "exampleTranslation": {
+    "uk": "Це рожева сукня."
+   }
+  },
+  {
+   "id": "brown",
+   "text": "brown",
+   "ipa": "/braʊn/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "коричневий"
+   },
+   "example": "Brown shoes.",
+   "exampleTranslation": {
+    "uk": "Коричневе взуття."
+   }
+  },
+  {
+   "id": "grey",
+   "text": "grey",
+   "ipa": "/ɡreɪ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "сірий"
+   },
+   "example": "It's a grey car.",
+   "exampleTranslation": {
+    "uk": "Це сіра машина."
+   }
+  },
+  {
+   "id": "purple",
+   "text": "purple",
+   "ipa": "/ˈpɜːpl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "фіолетовий"
+   },
+   "example": "It's purple.",
+   "exampleTranslation": {
+    "uk": "Воно фіолетове."
+   }
+  },
+  {
+   "id": "dark",
+   "text": "dark",
+   "ipa": "/dɑːk/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "темний"
+   },
+   "example": "Dark blue.",
+   "exampleTranslation": {
+    "uk": "Темно-синій."
+   }
+  },
+  {
+   "id": "light",
+   "text": "light",
+   "ipa": "/laɪt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "світлий"
+   },
+   "example": "Light green.",
+   "exampleTranslation": {
+    "uk": "Світло-зелений."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "It's a ___ bus.",
+   "options": [
+    "yellow",
+    "colour",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A yellow bus — жовтий автобус."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "orange",
+     "right": {
+      "uk": "помаранчевий"
+     }
+    },
+    {
+     "left": "pink",
+     "right": {
+      "uk": "рожевий"
+     }
+    },
+    {
+     "left": "brown",
+     "right": {
+      "uk": "коричневий"
+     }
+    },
+    {
+     "left": "grey",
+     "right": {
+      "uk": "сірий"
+     }
+    },
+    {
+     "left": "purple",
+     "right": {
+      "uk": "фіолетовий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Ще п'ять кольорів."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "dark",
+     "right": {
+      "uk": "темний"
+     }
+    },
+    {
+     "left": "light",
+     "right": {
+      "uk": "світлий"
+     }
+    },
+    {
+     "left": "big",
+     "right": {
+      "uk": "великий"
+     }
+    },
+    {
+     "left": "small",
+     "right": {
+      "uk": "малий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Dark і light — про відтінок."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "dark blue",
+   "prompt": {
+    "uk": "Прослухайте. Який це колір?"
+   },
+   "options": {
+    "uk": [
+     "Темно-синій",
+     "Світло-синій",
+     "Темно-зелений"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Dark — темний."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My shoes are brown.",
+   "prompt": {
+    "uk": "Прослухайте. Якого кольору взуття?"
+   },
+   "options": {
+    "uk": [
+     "Коричневого",
+     "Сірого",
+     "Чорного"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Brown — коричневий."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «світло-зелений»?"
+   },
+   "options": [
+    "light green",
+    "green light",
+    "dark green"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Спочатку light, потім колір."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Червоний і білий разом дають…"
+   },
+   "options": {
+    "uk": [
+     "pink",
+     "purple",
+     "brown"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Red + white = pink."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's a ___ grey car.",
+   "options": [
+    "dark",
+    "very",
+    "colour"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Dark grey — темно-сірий."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "темно-синій"
+   },
+   "answers": [
+    "dark blue"
+   ],
+   "explanation": {
+    "uk": "Dark blue."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What colour are your shoes?",
+   "prompt": {
+    "uk": "Ваше взуття сіре. Що відповісти?"
+   },
+   "options": [
+    "They're grey.",
+    "It's a shoes.",
+    "I'm grey."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про кілька речей: They're grey — «вони сірі»."
+   }
+  }
+ ]
+}

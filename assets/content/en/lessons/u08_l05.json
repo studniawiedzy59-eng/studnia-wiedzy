@@ -1,0 +1,310 @@
+{
+ "id": "u08_l05",
+ "unit": "u08",
+ "cefr": "A0",
+ "title": {
+  "uk": "Є таке в синьому?"
+ },
+ "goal": {
+  "uk": "Попросити в магазині інший колір або розмір."
+ },
+ "rule": {
+  "uk": "Do you have this in blue? — «Є таке в синьому?». Щоб не повторювати назву речі, кажуть one: the red one — «червоний». Which one? — «Котрий?». Якщо берете: I'll take it."
+ },
+ "words": [
+  {
+   "id": "which",
+   "text": "which",
+   "ipa": "/wɪtʃ/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "котрий, який із"
+   },
+   "example": "Which one?",
+   "exampleTranslation": {
+    "uk": "Котрий?"
+   }
+  },
+  {
+   "id": "this_one",
+   "text": "this one",
+   "ipa": "/ˈðɪs wʌn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "ось цей"
+   },
+   "example": "This one, please.",
+   "exampleTranslation": {
+    "uk": "Ось цей, будь ласка."
+   }
+  },
+  {
+   "id": "that_one",
+   "text": "that one",
+   "ipa": "/ˈðæt wʌn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "он той"
+   },
+   "example": "That one, please.",
+   "exampleTranslation": {
+    "uk": "Он той, будь ласка."
+   }
+  },
+  {
+   "id": "size",
+   "text": "size",
+   "ipa": "/saɪz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "розмір"
+   },
+   "example": "What size?",
+   "exampleTranslation": {
+    "uk": "Який розмір?"
+   }
+  },
+  {
+   "id": "medium",
+   "text": "medium",
+   "ipa": "/ˈmiːdiəm/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "середній"
+   },
+   "example": "Medium, please.",
+   "exampleTranslation": {
+    "uk": "Середній, будь ласка."
+   }
+  },
+  {
+   "id": "ill_take_it",
+   "text": "I'll take it",
+   "ipa": "/aɪl ˈteɪk ɪt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "я це беру"
+   },
+   "example": "Great, I'll take it.",
+   "exampleTranslation": {
+    "uk": "Чудово, я це беру."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ long hair.",
+   "options": [
+    "has",
+    "have",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She has."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "which",
+     "right": {
+      "uk": "котрий"
+     }
+    },
+    {
+     "left": "this one",
+     "right": {
+      "uk": "ось цей"
+     }
+    },
+    {
+     "left": "that one",
+     "right": {
+      "uk": "он той"
+     }
+    },
+    {
+     "left": "size",
+     "right": {
+      "uk": "розмір"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "One замінює назву речі."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "small",
+     "right": {
+      "uk": "малий"
+     }
+    },
+    {
+     "left": "medium",
+     "right": {
+      "uk": "середній"
+     }
+    },
+    {
+     "left": "large",
+     "right": {
+      "uk": "великий"
+     }
+    },
+    {
+     "left": "I'll take it",
+     "right": {
+      "uk": "я це беру"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Три розміри: small, medium, large."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Do you have this in blue?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає покупець?"
+   },
+   "options": {
+    "uk": [
+     "Чи є таке в синьому",
+     "Чи є таке більше",
+     "Скільки коштує синє"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In blue — у синьому кольорі."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "What size?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає продавець?"
+   },
+   "options": {
+    "uk": [
+     "Який розмір?",
+     "Який колір?",
+     "Яка ціна?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Size — розмір."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Do you have this ___ black?",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У кольорі — in black."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Продавець показує дві куртки. Ви хочете червону. Що сказати?"
+   },
+   "options": [
+    "The red one, please.",
+    "The red, one please.",
+    "One red the, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The red one — «червону»."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Чудово, я це беру."
+   },
+   "words": [
+    "Great",
+    "I'll",
+    "take",
+    "it",
+    "have",
+    "one"
+   ],
+   "answer": [
+    "Great",
+    "I'll",
+    "take",
+    "it"
+   ],
+   "explanation": {
+    "uk": "Great, I'll take it."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ось цей, будь ласка."
+   },
+   "answers": [
+    "This one, please"
+   ],
+   "explanation": {
+    "uk": "This one, please."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Which one would you like?",
+   "prompt": {
+    "uk": "Вас питають, котрий ви хочете. Ви хочете зелений. Що відповісти?"
+   },
+   "options": [
+    "The green one, please.",
+    "Yes, I like.",
+    "It's green colour."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The green one, please."
+   }
+  }
+ ]
+}

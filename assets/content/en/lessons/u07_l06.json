@@ -1,0 +1,194 @@
+{
+ "id": "u07_l06",
+ "unit": "u07",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: мій тиждень"
+ },
+ "goal": {
+  "uk": "Розповісти про свій тиждень і домовитися про зустріч."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо дні тижня, on і at, I work, I study, I go to…, Let's…, Sorry, I'm busy."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What day is it today?",
+   "prompt": {
+    "uk": "Сьогодні середа. Що відповісти?"
+   },
+   "options": [
+    "It's Wednesday.",
+    "It's weekend.",
+    "On Wednesday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's Wednesday."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I work ___ Monday to Friday.",
+   "options": [
+    "from",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "From Monday to Friday."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "See you on Sunday ___ ten.",
+   "options": [
+    "at",
+    "on",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On + день, at + година."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "On Thursday I go to the gym.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина ходить до спортзалу?"
+   },
+   "options": {
+    "uk": [
+     "У четвер",
+     "У вівторок",
+     "У п'ятницю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Thursday — четвер."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "translate",
+   "prompt": {
+    "uk": "Субота — мій вихідний."
+   },
+   "answers": [
+    "Saturday is my day off"
+   ],
+   "explanation": {
+    "uk": "Saturday is my day off."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Зустріньмося в суботу."
+   },
+   "words": [
+    "Let's",
+    "meet",
+    "on",
+    "Saturday",
+    "at",
+    "sorry"
+   ],
+   "answer": [
+    "Let's",
+    "meet",
+    "on",
+    "Saturday"
+   ],
+   "explanation": {
+    "uk": "Let's meet on Saturday."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Let's go to the cinema on Friday.",
+   "prompt": {
+    "uk": "Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "Sure! What time?",
+    "Sorry, I'm busy.",
+    "It's Friday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sure! What time? — «Авжеж! О котрій?»"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я вчу англійську щодня»?"
+   },
+   "options": [
+    "I study English every day.",
+    "I'm study English every day.",
+    "I study English on every day."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I study English every day — без on."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "I'm free at the weekend.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина вільна?"
+   },
+   "options": {
+    "uk": [
+     "На вихідних",
+     "Цього тижня",
+     "У п'ятницю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At the weekend — на вихідних."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Are you free tomorrow?",
+   "prompt": {
+    "uk": "Завтра ви працюєте. Що відповісти?"
+   },
+   "options": [
+    "Sorry, I work tomorrow.",
+    "Yes, I work tomorrow.",
+    "Sure, I'm busy."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sorry, I work tomorrow."
+   }
+  }
+ ]
+}

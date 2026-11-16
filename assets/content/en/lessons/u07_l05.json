@@ -1,0 +1,328 @@
+{
+ "id": "u07_l05",
+ "unit": "u07",
+ "cefr": "A0",
+ "title": {
+  "uk": "Що я роблю цього тижня"
+ },
+ "goal": {
+  "uk": "Розповісти про свої плани на тиждень."
+ },
+ "rule": {
+  "uk": "I go to… — «я йду до…»: I go to the gym. День можна поставити на початок або в кінець: On Tuesday I go to the gym. Про день народження: My birthday is on Friday."
+ },
+ "words": [
+  {
+   "id": "go_to",
+   "text": "go to",
+   "ipa": "/ˈɡəʊ tuː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "іти, їхати до"
+   },
+   "example": "I go to the gym.",
+   "exampleTranslation": {
+    "uk": "Я ходжу до спортзалу."
+   }
+  },
+  {
+   "id": "gym",
+   "text": "gym",
+   "ipa": "/dʒɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "спортзал"
+   },
+   "example": "I go to the gym on Tuesday.",
+   "exampleTranslation": {
+    "uk": "У вівторок я ходжу до спортзалу."
+   }
+  },
+  {
+   "id": "cinema",
+   "text": "cinema",
+   "ipa": "/ˈsɪnəmə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кінотеатр"
+   },
+   "example": "Let's go to the cinema.",
+   "exampleTranslation": {
+    "uk": "Ходімо в кіно."
+   }
+  },
+  {
+   "id": "birthday",
+   "text": "birthday",
+   "ipa": "/ˈbɜːθdeɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "день народження"
+   },
+   "example": "My birthday is on Friday.",
+   "exampleTranslation": {
+    "uk": "Мій день народження в п'ятницю."
+   }
+  },
+  {
+   "id": "party",
+   "text": "party",
+   "ipa": "/ˈpɑːti/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вечірка"
+   },
+   "example": "I have a party on Saturday.",
+   "exampleTranslation": {
+    "uk": "У суботу в мене вечірка."
+   }
+  },
+  {
+   "id": "holiday",
+   "text": "holiday",
+   "ipa": "/ˈhɒlədeɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "відпустка, свято"
+   },
+   "example": "I'm on holiday next week.",
+   "exampleTranslation": {
+    "uk": "Наступного тижня я у відпустці."
+   }
+  },
+  {
+   "id": "then",
+   "text": "then",
+   "ipa": "/ðen/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "потім"
+   },
+   "example": "I work, then I go home.",
+   "exampleTranslation": {
+    "uk": "Я працюю, потім іду додому."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Let's meet tomorrow.",
+   "prompt": {
+    "uk": "Повторимо. Ви зайняті. Що відповісти?"
+   },
+   "options": [
+    "Sorry, I'm busy tomorrow.",
+    "Sure, I'm busy.",
+    "Let's tomorrow."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sorry, I'm busy tomorrow."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "gym",
+     "right": {
+      "uk": "спортзал"
+     }
+    },
+    {
+     "left": "cinema",
+     "right": {
+      "uk": "кінотеатр"
+     }
+    },
+    {
+     "left": "party",
+     "right": {
+      "uk": "вечірка"
+     }
+    },
+    {
+     "left": "birthday",
+     "right": {
+      "uk": "день народження"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Місця й події, заради яких домовляються."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "holiday",
+     "right": {
+      "uk": "відпустка"
+     }
+    },
+    {
+     "left": "then",
+     "right": {
+      "uk": "потім"
+     }
+    },
+    {
+     "left": "go to",
+     "right": {
+      "uk": "іти до"
+     }
+    },
+    {
+     "left": "next",
+     "right": {
+      "uk": "наступний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "On holiday — у відпустці."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "My birthday is on Friday.",
+   "prompt": {
+    "uk": "Прослухайте. Що буде в п'ятницю?"
+   },
+   "options": {
+    "uk": [
+     "День народження",
+     "Вечірка в друга",
+     "Відпустка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Birthday — день народження."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ to the gym on Tuesday.",
+   "options": [
+    "go",
+    "am",
+    "work"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I go to the gym."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Let's go ___ the cinema.",
+   "options": [
+    "to",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go to — іти до."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "I'm on holiday next week.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Наступного тижня я у відпустці",
+     "Цього тижня я у відпустці",
+     "Наступного тижня я працюю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Next week — наступного тижня."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У суботу в мене вечірка."
+   },
+   "words": [
+    "I",
+    "have",
+    "a",
+    "party",
+    "on",
+    "Saturday",
+    "go",
+    "at"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "party",
+    "on",
+    "Saturday"
+   ],
+   "explanation": {
+    "uk": "I have a party on Saturday."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ходімо в кіно."
+   },
+   "answers": [
+    "Let's go to the cinema"
+   ],
+   "explanation": {
+    "uk": "Let's go to the cinema."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "When is your birthday party?",
+   "prompt": {
+    "uk": "Вечірка в суботу о шостій. Що відповісти?"
+   },
+   "options": [
+    "On Saturday at six.",
+    "At Saturday on six.",
+    "In Saturday six."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On + день, at + година."
+   }
+  }
+ ]
+}

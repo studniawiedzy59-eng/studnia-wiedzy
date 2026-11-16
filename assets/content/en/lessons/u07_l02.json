@@ -1,0 +1,313 @@
+{
+ "id": "u07_l02",
+ "unit": "u07",
+ "cefr": "A0",
+ "title": {
+  "uk": "Вихідні"
+ },
+ "goal": {
+  "uk": "Назвати вихідні дні й сказати, коли ви вільні чи зайняті."
+ },
+ "rule": {
+  "uk": "Перед днем тижня ставлять on: on Saturday — у суботу. Про вихідні британці кажуть at the weekend. I'm free — «я вільний», I'm busy — «я зайнятий»."
+ },
+ "words": [
+  {
+   "id": "saturday",
+   "text": "Saturday",
+   "ipa": "/ˈsætədeɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "субота"
+   },
+   "example": "I'm free on Saturday.",
+   "exampleTranslation": {
+    "uk": "Я вільний у суботу."
+   }
+  },
+  {
+   "id": "sunday",
+   "text": "Sunday",
+   "ipa": "/ˈsʌndeɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "неділя"
+   },
+   "example": "See you on Sunday.",
+   "exampleTranslation": {
+    "uk": "До неділі."
+   }
+  },
+  {
+   "id": "weekend",
+   "text": "weekend",
+   "ipa": "/ˌwiːkˈend/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вихідні"
+   },
+   "example": "I'm at home at the weekend.",
+   "exampleTranslation": {
+    "uk": "На вихідних я вдома."
+   }
+  },
+  {
+   "id": "free",
+   "text": "free",
+   "ipa": "/friː/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "вільний"
+   },
+   "example": "I'm free today.",
+   "exampleTranslation": {
+    "uk": "Я сьогодні вільний."
+   }
+  },
+  {
+   "id": "busy",
+   "text": "busy",
+   "ipa": "/ˈbɪzi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "зайнятий"
+   },
+   "example": "I'm busy on Monday.",
+   "exampleTranslation": {
+    "uk": "У понеділок я зайнятий."
+   }
+  },
+  {
+   "id": "every",
+   "text": "every",
+   "ipa": "/ˈevri/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "кожен, кожна"
+   },
+   "example": "Every day.",
+   "exampleTranslation": {
+    "uk": "Кожного дня."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Який день пропущений?"
+   },
+   "sentence": "Tuesday, Wednesday, ___, Friday",
+   "options": [
+    "Thursday",
+    "Monday",
+    "Tuesday"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після середи — четвер."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "Saturday",
+     "right": {
+      "uk": "субота"
+     }
+    },
+    {
+     "left": "Sunday",
+     "right": {
+      "uk": "неділя"
+     }
+    },
+    {
+     "left": "weekend",
+     "right": {
+      "uk": "вихідні"
+     }
+    },
+    {
+     "left": "every",
+     "right": {
+      "uk": "кожен"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Saturday і Sunday — це the weekend."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "free",
+     "right": {
+      "uk": "вільний"
+     }
+    },
+    {
+     "left": "busy",
+     "right": {
+      "uk": "зайнятий"
+     }
+    },
+    {
+     "left": "early",
+     "right": {
+      "uk": "рано"
+     }
+    },
+    {
+     "left": "late",
+     "right": {
+      "uk": "пізно"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Free і busy — протилежні слова."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm free ___ Saturday.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед днем тижня — on."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm busy ___ nine o'clock.",
+   "options": [
+    "at",
+    "on",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед годиною — at. Не плутайте: on Saturday, але at nine."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "I'm busy on Sunday.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "У неділю я зайнятий",
+     "У суботу я зайнятий",
+     "У неділю я вільний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Busy — зайнятий, on Sunday — у неділю."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає every Friday?"
+   },
+   "options": {
+    "uk": [
+     "Кожної п'ятниці",
+     "Цієї п'ятниці",
+     "Наступної п'ятниці"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Every — кожен."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я вільний у суботу."
+   },
+   "words": [
+    "I'm",
+    "free",
+    "on",
+    "Saturday",
+    "at",
+    "busy"
+   ],
+   "answer": [
+    "I'm",
+    "free",
+    "on",
+    "Saturday"
+   ],
+   "explanation": {
+    "uk": "I'm free on Saturday."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "У понеділок я зайнятий."
+   },
+   "answers": [
+    "I'm busy on Monday",
+    "I am busy on Monday",
+    "On Monday I'm busy",
+    "On Monday I am busy"
+   ],
+   "explanation": {
+    "uk": "I'm busy on Monday."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Are you free on Saturday?",
+   "prompt": {
+    "uk": "У суботу ви вільні. Що відповісти?"
+   },
+   "options": [
+    "Yes, I'm free.",
+    "Yes, I'm busy.",
+    "It's Saturday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I'm free."
+   }
+  }
+ ]
+}

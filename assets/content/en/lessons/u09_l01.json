@@ -1,0 +1,327 @@
+{
+ "id": "u09_l01",
+ "unit": "u09",
+ "cefr": "A0",
+ "title": {
+  "uk": "Кімнати"
+ },
+ "goal": {
+  "uk": "Назвати житло й кімнати в ньому."
+ },
+ "rule": {
+  "uk": "I live in a flat — «я живу у квартирі». I live in a house — «у будинку». Показуючи житло, кажуть This is the kitchen: з the, бо кухня в домі одна."
+ },
+ "words": [
+  {
+   "id": "house",
+   "text": "house",
+   "ipa": "/haʊs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "будинок"
+   },
+   "example": "I live in a house.",
+   "exampleTranslation": {
+    "uk": "Я живу в будинку."
+   }
+  },
+  {
+   "id": "flat",
+   "text": "flat",
+   "ipa": "/flæt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "квартира"
+   },
+   "example": "I live in a flat.",
+   "exampleTranslation": {
+    "uk": "Я живу у квартирі."
+   }
+  },
+  {
+   "id": "kitchen",
+   "text": "kitchen",
+   "ipa": "/ˈkɪtʃɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кухня"
+   },
+   "example": "This is the kitchen.",
+   "exampleTranslation": {
+    "uk": "Це кухня."
+   }
+  },
+  {
+   "id": "bathroom",
+   "text": "bathroom",
+   "ipa": "/ˈbɑːθruːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ванна кімната"
+   },
+   "example": "Where is the bathroom?",
+   "exampleTranslation": {
+    "uk": "Де ванна кімната?"
+   }
+  },
+  {
+   "id": "bedroom",
+   "text": "bedroom",
+   "ipa": "/ˈbedruːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "спальня"
+   },
+   "example": "This is my bedroom.",
+   "exampleTranslation": {
+    "uk": "Це моя спальня."
+   }
+  },
+  {
+   "id": "living_room",
+   "text": "living room",
+   "ipa": "/ˈlɪvɪŋ ruːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вітальня"
+   },
+   "example": "The living room is big.",
+   "exampleTranslation": {
+    "uk": "Вітальня велика."
+   }
+  },
+  {
+   "id": "garden",
+   "text": "garden",
+   "ipa": "/ˈɡɑːdn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сад"
+   },
+   "example": "We have a garden.",
+   "exampleTranslation": {
+    "uk": "У нас є сад."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Which one would you like?",
+   "prompt": {
+    "uk": "Повторимо. Ви хочете синій. Що відповісти?"
+   },
+   "options": [
+    "The blue one, please.",
+    "Blue is one.",
+    "It's a blue."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The blue one, please."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "house",
+     "right": {
+      "uk": "будинок"
+     }
+    },
+    {
+     "left": "flat",
+     "right": {
+      "uk": "квартира"
+     }
+    },
+    {
+     "left": "kitchen",
+     "right": {
+      "uk": "кухня"
+     }
+    },
+    {
+     "left": "garden",
+     "right": {
+      "uk": "сад"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Flat — британське слово. В Америці кажуть apartment."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "bathroom",
+     "right": {
+      "uk": "ванна кімната"
+     }
+    },
+    {
+     "left": "bedroom",
+     "right": {
+      "uk": "спальня"
+     }
+    },
+    {
+     "left": "living room",
+     "right": {
+      "uk": "вітальня"
+     }
+    },
+    {
+     "left": "room",
+     "right": {
+      "uk": "кімната"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Bed + room = bedroom, bath + room = bathroom."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Where is the bathroom?",
+   "prompt": {
+    "uk": "Прослухайте. Що шукає людина?"
+   },
+   "options": {
+    "uk": [
+     "Ванну кімнату",
+     "Спальню",
+     "Кухню"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bathroom — ванна кімната. У гостях так питають і про туалет."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I live in a ___. It has two bedrooms.",
+   "options": [
+    "flat",
+    "kitchen",
+    "garden"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Живуть у квартирі — in a flat."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Де готують їжу?"
+   },
+   "options": {
+    "uk": [
+     "kitchen",
+     "bedroom",
+     "bathroom"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Kitchen — кухня."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "The living room is big, but the kitchen is small.",
+   "prompt": {
+    "uk": "Прослухайте. Що мале?"
+   },
+   "options": {
+    "uk": [
+     "Кухня",
+     "Вітальня",
+     "Спальня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The kitchen is small."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я живу у квартирі."
+   },
+   "words": [
+    "I",
+    "live",
+    "in",
+    "a",
+    "flat",
+    "house",
+    "the"
+   ],
+   "answer": [
+    "I",
+    "live",
+    "in",
+    "a",
+    "flat"
+   ],
+   "explanation": {
+    "uk": "I live in a flat."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це моя спальня."
+   },
+   "answers": [
+    "This is my bedroom"
+   ],
+   "explanation": {
+    "uk": "This is my bedroom."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Do you live in a house or a flat?",
+   "prompt": {
+    "uk": "Ви живете в будинку. Що відповісти?"
+   },
+   "options": [
+    "I live in a house.",
+    "I live a house.",
+    "I'm a house."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I live in a house."
+   }
+  }
+ ]
+}

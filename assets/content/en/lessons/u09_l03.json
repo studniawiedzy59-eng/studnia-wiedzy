@@ -1,0 +1,295 @@
+{
+ "id": "u09_l03",
+ "unit": "u09",
+ "cefr": "A0",
+ "title": {
+  "uk": "Чи є тут ліфт?"
+ },
+ "goal": {
+  "uk": "Спитати, чи щось є, і коротко відповісти."
+ },
+ "rule": {
+  "uk": "Питання будують перестановкою: There is a lift → Is there a lift? Коротка відповідь: Yes, there is або No, there isn't. Near here — «тут поблизу»."
+ },
+ "words": [
+  {
+   "id": "lift",
+   "text": "lift",
+   "ipa": "/lɪft/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ліфт"
+   },
+   "example": "Is there a lift?",
+   "exampleTranslation": {
+    "uk": "Тут є ліфт?"
+   }
+  },
+  {
+   "id": "balcony",
+   "text": "balcony",
+   "ipa": "/ˈbælkəni/",
+   "pos": "noun",
+   "translation": {
+    "uk": "балкон"
+   },
+   "example": "There is a balcony.",
+   "exampleTranslation": {
+    "uk": "Тут є балкон."
+   }
+  },
+  {
+   "id": "parking",
+   "text": "parking",
+   "ipa": "/ˈpɑːkɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "парковка"
+   },
+   "example": "Is there parking?",
+   "exampleTranslation": {
+    "uk": "Тут є парковка?"
+   }
+  },
+  {
+   "id": "wi-fi",
+   "text": "Wi-Fi",
+   "ipa": "/ˈwaɪ faɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вайфай"
+   },
+   "example": "Is there Wi-Fi?",
+   "exampleTranslation": {
+    "uk": "Тут є вайфай?"
+   }
+  },
+  {
+   "id": "isnt",
+   "text": "isn't",
+   "ipa": "/ˈɪznt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "немає, не є"
+   },
+   "example": "No, there isn't.",
+   "exampleTranslation": {
+    "uk": "Ні, немає."
+   }
+  },
+  {
+   "id": "near_here",
+   "text": "near here",
+   "ipa": "/ˌnɪə ˈhɪə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "тут поблизу"
+   },
+   "example": "Is there a shop near here?",
+   "exampleTranslation": {
+    "uk": "Тут поблизу є магазин?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "There ___ a fridge in the kitchen.",
+   "options": [
+    "is",
+    "are",
+    "have"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Одна річ — there is."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "lift",
+     "right": {
+      "uk": "ліфт"
+     }
+    },
+    {
+     "left": "balcony",
+     "right": {
+      "uk": "балкон"
+     }
+    },
+    {
+     "left": "parking",
+     "right": {
+      "uk": "парковка"
+     }
+    },
+    {
+     "left": "near here",
+     "right": {
+      "uk": "тут поблизу"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Це питають, коли шукають житло або готель."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Is there a lift?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Чи є ліфт",
+     "Де ліфт",
+     "Чи працює ліфт"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Is there…? — «Чи є…?»"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати «Тут є вайфай?»"
+   },
+   "options": [
+    "Is there Wi-Fi?",
+    "There is Wi-Fi?",
+    "Is Wi-Fi there is?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Питання починається з Is there."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вас питають Is there a balcony? Балкона немає. Що відповісти?"
+   },
+   "options": [
+    "No, there isn't.",
+    "No, it isn't there.",
+    "No, there not."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, there isn't."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is ___ a bank near here?",
+   "options": [
+    "there",
+    "this",
+    "it"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is there…?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Yes, there is. It's next to the café.",
+   "prompt": {
+    "uk": "Прослухайте. Що ви дізналися?"
+   },
+   "options": {
+    "uk": [
+     "Є, біля кафе",
+     "Немає",
+     "Є, у кафе"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, there is — «так, є». Next to — біля."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Тут поблизу є магазин?"
+   },
+   "words": [
+    "Is",
+    "there",
+    "a",
+    "shop",
+    "near",
+    "here",
+    "are",
+    "the"
+   ],
+   "answer": [
+    "Is",
+    "there",
+    "a",
+    "shop",
+    "near",
+    "here"
+   ],
+   "explanation": {
+    "uk": "Is there a shop near here?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Тут є ліфт?"
+   },
+   "answers": [
+    "Is there a lift",
+    "Is there a lift here"
+   ],
+   "explanation": {
+    "uk": "Is there a lift?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Is there parking?",
+   "prompt": {
+    "uk": "Парковка є. Що відповісти?"
+   },
+   "options": [
+    "Yes, there is.",
+    "Yes, it is parking.",
+    "Yes, there are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, there is."
+   }
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "id": "u10_l06",
+ "unit": "u10",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: їжа й напої"
+ },
+ "goal": {
+  "uk": "Розповісти про свої смаки й попросити їжу за столом."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо a і an, I like і I don't eat, I'm hungry, some і more, for breakfast."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "an orange",
+    "a orange",
+    "an tomato"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Orange — з голосного: an orange."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I don't ___ meat, but I eat fish.",
+   "options": [
+    "eat",
+    "drink",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't eat meat."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Would you like some more pasta?",
+   "prompt": {
+    "uk": "Ви хочете ще. Що відповісти?"
+   },
+   "options": [
+    "Yes, please. It's delicious!",
+    "No, please. It's delicious!",
+    "Yes, I'm full."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, please. It's delicious!"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можна мені трохи води?"
+   },
+   "answers": [
+    "Can I have some water",
+    "Can I have some water, please"
+   ],
+   "explanation": {
+    "uk": "Can I have some water?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "For lunch I usually have soup and a sandwich.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина їсть на обід?"
+   },
+   "options": {
+    "uk": [
+     "Суп і сендвіч",
+     "Салат і сендвіч",
+     "Суп і піцу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Soup and a sandwich."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я не п'ю пива."
+   },
+   "words": [
+    "I",
+    "don't",
+    "drink",
+    "beer",
+    "eat",
+    "wine"
+   ],
+   "answer": [
+    "I",
+    "don't",
+    "drink",
+    "beer"
+   ],
+   "explanation": {
+    "uk": "I don't drink beer."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «дві картоплини»?"
+   },
+   "options": [
+    "two potatoes",
+    "two potatos",
+    "two potato"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Potatoes — з -es."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___. Can I have a sandwich?",
+   "options": [
+    "hungry",
+    "thirsty",
+    "full"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Сендвіч просять, коли голодні."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я люблю овочі."
+   },
+   "answers": [
+    "I like vegetables",
+    "I love vegetables"
+   ],
+   "explanation": {
+    "uk": "I like vegetables."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What do you have for breakfast?",
+   "prompt": {
+    "uk": "Ви їсте йогурт із фруктами. Що відповісти?"
+   },
+   "options": [
+    "I have yoghurt with fruit.",
+    "I'm yoghurt with fruit.",
+    "I have breakfast for yoghurt."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have yoghurt with fruit."
+   }
+  }
+ ]
+}

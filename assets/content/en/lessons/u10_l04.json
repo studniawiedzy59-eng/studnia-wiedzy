@@ -1,0 +1,320 @@
+{
+ "id": "u10_l04",
+ "unit": "u10",
+ "cefr": "A0",
+ "title": {
+  "uk": "Я голодний"
+ },
+ "goal": {
+  "uk": "Сказати, що ви голодні чи хочете пити, і попросити ще."
+ },
+ "rule": {
+  "uk": "I'm hungry — «я голодний», I'm thirsty — «я хочу пити». Some — «трохи, кілька»: Can I have some water? Коли наїлися — I'm full. Про смачну їжу — It's delicious."
+ },
+ "words": [
+  {
+   "id": "hungry",
+   "text": "hungry",
+   "ipa": "/ˈhʌŋɡri/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "голодний"
+   },
+   "example": "I'm hungry.",
+   "exampleTranslation": {
+    "uk": "Я голодний."
+   }
+  },
+  {
+   "id": "thirsty",
+   "text": "thirsty",
+   "ipa": "/ˈθɜːsti/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "спраглий"
+   },
+   "example": "I'm thirsty.",
+   "exampleTranslation": {
+    "uk": "Я хочу пити."
+   }
+  },
+  {
+   "id": "full",
+   "text": "full",
+   "ipa": "/fʊl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "ситий; повний"
+   },
+   "example": "I'm full, thanks.",
+   "exampleTranslation": {
+    "uk": "Я ситий, дякую."
+   }
+  },
+  {
+   "id": "some",
+   "text": "some",
+   "ipa": "/sʌm/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "трохи, кілька"
+   },
+   "example": "Some water, please.",
+   "exampleTranslation": {
+    "uk": "Трохи води, будь ласка."
+   }
+  },
+  {
+   "id": "more",
+   "text": "more",
+   "ipa": "/mɔː/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "ще, більше"
+   },
+   "example": "Some more bread?",
+   "exampleTranslation": {
+    "uk": "Ще хліба?"
+   }
+  },
+  {
+   "id": "delicious",
+   "text": "delicious",
+   "ipa": "/dɪˈlɪʃəs/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "дуже смачний"
+   },
+   "example": "It's delicious!",
+   "exampleTranslation": {
+    "uk": "Це дуже смачно!"
+   }
+  },
+  {
+   "id": "want",
+   "text": "want",
+   "ipa": "/wɒnt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "хотіти"
+   },
+   "example": "I want a sandwich.",
+   "exampleTranslation": {
+    "uk": "Я хочу сендвіч."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ eat meat. I'm vegetarian.",
+   "options": [
+    "don't",
+    "not",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't eat meat."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "hungry",
+     "right": {
+      "uk": "голодний"
+     }
+    },
+    {
+     "left": "thirsty",
+     "right": {
+      "uk": "спраглий"
+     }
+    },
+    {
+     "left": "full",
+     "right": {
+      "uk": "ситий"
+     }
+    },
+    {
+     "left": "delicious",
+     "right": {
+      "uk": "дуже смачний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Hungry — хочу їсти, thirsty — хочу пити."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "some",
+     "right": {
+      "uk": "трохи"
+     }
+    },
+    {
+     "left": "more",
+     "right": {
+      "uk": "ще"
+     }
+    },
+    {
+     "left": "want",
+     "right": {
+      "uk": "хотіти"
+     }
+    },
+    {
+     "left": "very",
+     "right": {
+      "uk": "дуже"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Some more — «ще трохи»."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'm very thirsty.",
+   "prompt": {
+    "uk": "Прослухайте. Чого хоче людина?"
+   },
+   "options": {
+    "uk": [
+     "Пити",
+     "Їсти",
+     "Спати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Thirsty — хочу пити."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви хочете їсти. Що сказати?"
+   },
+   "options": [
+    "I'm hungry.",
+    "I'm full.",
+    "I'm thirsty."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm hungry."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I have ___ water, please?",
+   "options": [
+    "some",
+    "an",
+    "are"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Some water — трохи води."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Would you like some more soup?",
+   "prompt": {
+    "uk": "Прослухайте. Що вам пропонують?"
+   },
+   "options": {
+    "uk": [
+     "Ще супу",
+     "Ще хліба",
+     "Рахунок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Some more soup — ще супу."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це дуже смачно!"
+   },
+   "words": [
+    "It's",
+    "delicious",
+    "full",
+    "some"
+   ],
+   "answer": [
+    "It's",
+    "delicious"
+   ],
+   "explanation": {
+    "uk": "It's delicious!"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я голодний."
+   },
+   "answers": [
+    "I'm hungry",
+    "I am hungry"
+   ],
+   "explanation": {
+    "uk": "I'm hungry."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Would you like some more?",
+   "prompt": {
+    "uk": "Ви наїлися. Що відповісти?"
+   },
+   "options": [
+    "No, thanks. I'm full.",
+    "No, thanks. I'm hungry.",
+    "Yes, I'm full."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, thanks. I'm full."
+   }
+  }
+ ]
+}

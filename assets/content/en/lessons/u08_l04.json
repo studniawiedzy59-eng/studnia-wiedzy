@@ -1,0 +1,321 @@
+{
+ "id": "u08_l04",
+ "unit": "u08",
+ "cefr": "A0",
+ "title": {
+  "uk": "Як він виглядає?"
+ },
+ "goal": {
+  "uk": "Описати людину: колір очей, волосся, одяг."
+ },
+ "rule": {
+  "uk": "I have, але he has і she has: She has blue eyes. Hair — завжди однина: long hair. Порядок слів: довжина, потім колір — long brown hair."
+ },
+ "words": [
+  {
+   "id": "has",
+   "text": "has",
+   "ipa": "/hæz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "має (з he, she, it)"
+   },
+   "example": "She has blue eyes.",
+   "exampleTranslation": {
+    "uk": "У неї сині очі."
+   }
+  },
+  {
+   "id": "eyes",
+   "text": "eyes",
+   "ipa": "/aɪz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "очі"
+   },
+   "example": "He has brown eyes.",
+   "exampleTranslation": {
+    "uk": "У нього карі очі."
+   }
+  },
+  {
+   "id": "hair",
+   "text": "hair",
+   "ipa": "/heə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "волосся"
+   },
+   "example": "She has long hair.",
+   "exampleTranslation": {
+    "uk": "У неї довге волосся."
+   }
+  },
+  {
+   "id": "long",
+   "text": "long",
+   "ipa": "/lɒŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "довгий"
+   },
+   "example": "Long hair.",
+   "exampleTranslation": {
+    "uk": "Довге волосся."
+   }
+  },
+  {
+   "id": "short",
+   "text": "short",
+   "ipa": "/ʃɔːt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "короткий"
+   },
+   "example": "Short hair.",
+   "exampleTranslation": {
+    "uk": "Коротке волосся."
+   }
+  },
+  {
+   "id": "dress",
+   "text": "dress",
+   "ipa": "/dres/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сукня"
+   },
+   "example": "A red dress.",
+   "exampleTranslation": {
+    "uk": "Червона сукня."
+   }
+  },
+  {
+   "id": "jacket",
+   "text": "jacket",
+   "ipa": "/ˈdʒækɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "куртка, піджак"
+   },
+   "example": "A black jacket.",
+   "exampleTranslation": {
+    "uk": "Чорна куртка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ like pink.",
+   "options": [
+    "don't",
+    "not",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't like pink."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "eyes",
+     "right": {
+      "uk": "очі"
+     }
+    },
+    {
+     "left": "hair",
+     "right": {
+      "uk": "волосся"
+     }
+    },
+    {
+     "left": "long",
+     "right": {
+      "uk": "довгий"
+     }
+    },
+    {
+     "left": "short",
+     "right": {
+      "uk": "короткий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Long і short — протилежні слова."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "dress",
+     "right": {
+      "uk": "сукня"
+     }
+    },
+    {
+     "left": "jacket",
+     "right": {
+      "uk": "куртка"
+     }
+    },
+    {
+     "left": "shoes",
+     "right": {
+      "uk": "взуття"
+     }
+    },
+    {
+     "left": "bag",
+     "right": {
+      "uk": "сумка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Одяг і речі."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ green eyes.",
+   "options": [
+    "has",
+    "have",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З he і she — has."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ short hair.",
+   "options": [
+    "have",
+    "has",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З I — have."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "He has short dark hair.",
+   "prompt": {
+    "uk": "Прослухайте. Яке в нього волосся?"
+   },
+   "options": {
+    "uk": [
+     "Коротке темне",
+     "Довге темне",
+     "Коротке світле"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Short — коротке, dark — темне."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «довге каштанове волосся»?"
+   },
+   "options": [
+    "long brown hair",
+    "brown long hair",
+    "long brown hairs"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Спочатку довжина, потім колір. Hair — без -s."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У неї сині очі."
+   },
+   "words": [
+    "She",
+    "has",
+    "blue",
+    "eyes",
+    "have",
+    "is"
+   ],
+   "answer": [
+    "She",
+    "has",
+    "blue",
+    "eyes"
+   ],
+   "explanation": {
+    "uk": "She has blue eyes."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "У нього чорна куртка."
+   },
+   "answers": [
+    "He has a black jacket"
+   ],
+   "explanation": {
+    "uk": "He has a black jacket."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Who is Anna?",
+   "prompt": {
+    "uk": "Анна — жінка в червоній сукні з довгим волоссям. Як її описати?"
+   },
+   "options": [
+    "She has long hair and a red dress.",
+    "She have long hair and red dress.",
+    "He has long hair and a red dress."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She has… — про жінку, і has, а не have."
+   }
+  }
+ ]
+}

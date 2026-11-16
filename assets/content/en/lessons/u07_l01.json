@@ -1,0 +1,334 @@
+{
+ "id": "u07_l01",
+ "unit": "u07",
+ "cefr": "A0",
+ "title": {
+  "uk": "Від понеділка до п'ятниці"
+ },
+ "goal": {
+  "uk": "Назвати робочі дні тижня й сказати, який сьогодні день."
+ },
+ "rule": {
+  "uk": "Дні тижня англійською завжди пишуть з великої літери. What day is it today? — «Який сьогодні день?». Відповідь: It's Monday."
+ },
+ "words": [
+  {
+   "id": "day",
+   "text": "day",
+   "ipa": "/deɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "день"
+   },
+   "example": "What day is it today?",
+   "exampleTranslation": {
+    "uk": "Який сьогодні день?"
+   }
+  },
+  {
+   "id": "week",
+   "text": "week",
+   "ipa": "/wiːk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тиждень"
+   },
+   "example": "This week.",
+   "exampleTranslation": {
+    "uk": "Цього тижня."
+   }
+  },
+  {
+   "id": "monday",
+   "text": "Monday",
+   "ipa": "/ˈmʌndeɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "понеділок"
+   },
+   "example": "It's Monday.",
+   "exampleTranslation": {
+    "uk": "Сьогодні понеділок."
+   }
+  },
+  {
+   "id": "tuesday",
+   "text": "Tuesday",
+   "ipa": "/ˈtjuːzdeɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вівторок"
+   },
+   "example": "It's Tuesday.",
+   "exampleTranslation": {
+    "uk": "Сьогодні вівторок."
+   }
+  },
+  {
+   "id": "wednesday",
+   "text": "Wednesday",
+   "ipa": "/ˈwenzdeɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "середа"
+   },
+   "example": "It's Wednesday.",
+   "exampleTranslation": {
+    "uk": "Сьогодні середа."
+   }
+  },
+  {
+   "id": "thursday",
+   "text": "Thursday",
+   "ipa": "/ˈθɜːzdeɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "четвер"
+   },
+   "example": "It's Thursday.",
+   "exampleTranslation": {
+    "uk": "Сьогодні четвер."
+   }
+  },
+  {
+   "id": "friday",
+   "text": "Friday",
+   "ipa": "/ˈfraɪdeɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "п'ятниця"
+   },
+   "example": "It's Friday.",
+   "exampleTranslation": {
+    "uk": "Сьогодні п'ятниця."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What time is it?",
+   "prompt": {
+    "uk": "Повторимо. На годиннику 6:15. Що відповісти?"
+   },
+   "options": [
+    "It's quarter past six.",
+    "It's quarter to six.",
+    "It's half past six."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "6:15 — quarter past six."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "Monday",
+     "right": {
+      "uk": "понеділок"
+     }
+    },
+    {
+     "left": "Tuesday",
+     "right": {
+      "uk": "вівторок"
+     }
+    },
+    {
+     "left": "Wednesday",
+     "right": {
+      "uk": "середа"
+     }
+    },
+    {
+     "left": "Thursday",
+     "right": {
+      "uk": "четвер"
+     }
+    },
+    {
+     "left": "Friday",
+     "right": {
+      "uk": "п'ятниця"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "У Wednesday перша d не вимовляється."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It's Thursday.",
+   "prompt": {
+    "uk": "Прослухайте. Який сьогодні день?"
+   },
+   "options": {
+    "uk": [
+     "Четвер",
+     "Вівторок",
+     "П'ятниця"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Thursday — четвер. Tuesday — вівторок."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Tuesday",
+   "prompt": {
+    "uk": "Прослухайте. Який це день?"
+   },
+   "options": {
+    "uk": [
+     "Вівторок",
+     "Четвер",
+     "Понеділок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tuesday — вівторок."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Який день пропущений?"
+   },
+   "sentence": "Monday, Tuesday, ___, Thursday",
+   "options": [
+    "Wednesday",
+    "Friday",
+    "Monday"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після вівторка — середа."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно написати «середа»?"
+   },
+   "options": [
+    "Wednesday",
+    "Wensday",
+    "wednesday"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Wednesday — з великої літери і з d після Wed."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "day",
+     "right": {
+      "uk": "день"
+     }
+    },
+    {
+     "left": "week",
+     "right": {
+      "uk": "тиждень"
+     }
+    },
+    {
+     "left": "today",
+     "right": {
+      "uk": "сьогодні"
+     }
+    },
+    {
+     "left": "tomorrow",
+     "right": {
+      "uk": "завтра"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Day — день, week — тиждень."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Який сьогодні день?"
+   },
+   "words": [
+    "What",
+    "day",
+    "is",
+    "it",
+    "today",
+    "time",
+    "week"
+   ],
+   "answer": [
+    "What",
+    "day",
+    "is",
+    "it",
+    "today"
+   ],
+   "explanation": {
+    "uk": "What day is it today?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Сьогодні п'ятниця."
+   },
+   "answers": [
+    "It's Friday",
+    "It is Friday",
+    "Today is Friday",
+    "It's Friday today"
+   ],
+   "explanation": {
+    "uk": "It's Friday."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What day is it today?",
+   "prompt": {
+    "uk": "Сьогодні понеділок. Що відповісти?"
+   },
+   "options": [
+    "It's Monday.",
+    "It's morning.",
+    "It's one o'clock."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's Monday."
+   }
+  }
+ ]
+}

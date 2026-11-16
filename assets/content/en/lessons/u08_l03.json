@@ -1,0 +1,338 @@
+{
+ "id": "u08_l03",
+ "unit": "u08",
+ "cefr": "A0",
+ "title": {
+  "uk": "Мій улюблений колір"
+ },
+ "goal": {
+  "uk": "Сказати, що вам подобається, а що ні."
+ },
+ "rule": {
+  "uk": "I like… — «мені подобається…». I don't like… — «мені не подобається…». I love… — сильніше: «я обожнюю…». My favourite colour is blue — «мій улюблений колір синій»."
+ },
+ "words": [
+  {
+   "id": "like",
+   "text": "like",
+   "ipa": "/laɪk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "подобатися, любити"
+   },
+   "example": "I like blue.",
+   "exampleTranslation": {
+    "uk": "Мені подобається синій."
+   }
+  },
+  {
+   "id": "dont_like",
+   "text": "don't like",
+   "ipa": "/ˌdəʊnt ˈlaɪk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "не подобається"
+   },
+   "example": "I don't like grey.",
+   "exampleTranslation": {
+    "uk": "Мені не подобається сірий."
+   }
+  },
+  {
+   "id": "love",
+   "text": "love",
+   "ipa": "/lʌv/",
+   "pos": "verb",
+   "translation": {
+    "uk": "любити, обожнювати"
+   },
+   "example": "I love red.",
+   "exampleTranslation": {
+    "uk": "Я обожнюю червоний."
+   }
+  },
+  {
+   "id": "favourite",
+   "text": "favourite",
+   "ipa": "/ˈfeɪvərɪt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "улюблений"
+   },
+   "example": "My favourite colour is green.",
+   "exampleTranslation": {
+    "uk": "Мій улюблений колір зелений."
+   }
+  },
+  {
+   "id": "sky",
+   "text": "sky",
+   "ipa": "/skaɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "небо"
+   },
+   "example": "The sky is blue.",
+   "exampleTranslation": {
+    "uk": "Небо синє."
+   }
+  },
+  {
+   "id": "sun",
+   "text": "sun",
+   "ipa": "/sʌn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сонце"
+   },
+   "example": "The sun is yellow.",
+   "exampleTranslation": {
+    "uk": "Сонце жовте."
+   }
+  },
+  {
+   "id": "tree",
+   "text": "tree",
+   "ipa": "/triː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дерево"
+   },
+   "example": "The tree is green.",
+   "exampleTranslation": {
+    "uk": "Дерево зелене."
+   }
+  },
+  {
+   "id": "flower",
+   "text": "flower",
+   "ipa": "/ˈflaʊə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "квітка"
+   },
+   "example": "It's a red flower.",
+   "exampleTranslation": {
+    "uk": "Це червона квітка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Повторимо. Як сказати «темно-зелений»?"
+   },
+   "options": [
+    "dark green",
+    "light green",
+    "green dark"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Dark green."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "like",
+     "right": {
+      "uk": "подобатися"
+     }
+    },
+    {
+     "left": "love",
+     "right": {
+      "uk": "обожнювати"
+     }
+    },
+    {
+     "left": "favourite",
+     "right": {
+      "uk": "улюблений"
+     }
+    },
+    {
+     "left": "don't like",
+     "right": {
+      "uk": "не подобається"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Like — подобається, love — сильніше."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "sky",
+     "right": {
+      "uk": "небо"
+     }
+    },
+    {
+     "left": "sun",
+     "right": {
+      "uk": "сонце"
+     }
+    },
+    {
+     "left": "tree",
+     "right": {
+      "uk": "дерево"
+     }
+    },
+    {
+     "left": "flower",
+     "right": {
+      "uk": "квітка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Sun (сонце) і son (син) звучать однаково."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "My favourite colour is purple.",
+   "prompt": {
+    "uk": "Прослухайте. Який улюблений колір людини?"
+   },
+   "options": {
+    "uk": [
+     "Фіолетовий",
+     "Рожевий",
+     "Синій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Purple — фіолетовий."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ like grey.",
+   "options": [
+    "don't",
+    "not",
+    "no"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "«Не подобається» — I don't like."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The sky is ___.",
+   "options": [
+    "blue",
+    "green",
+    "brown"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Небо синє — blue."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "I love flowers.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Я обожнюю квіти",
+     "Мені не подобаються квіти",
+     "У мене є квіти"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I love — я обожнюю."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мій улюблений колір синій."
+   },
+   "words": [
+    "My",
+    "favourite",
+    "colour",
+    "is",
+    "blue",
+    "like",
+    "the"
+   ],
+   "answer": [
+    "My",
+    "favourite",
+    "colour",
+    "is",
+    "blue"
+   ],
+   "explanation": {
+    "uk": "My favourite colour is blue."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мені подобається зелений."
+   },
+   "answers": [
+    "I like green"
+   ],
+   "explanation": {
+    "uk": "I like green."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What's your favourite colour?",
+   "prompt": {
+    "uk": "Ваш улюблений колір червоний. Що відповісти?"
+   },
+   "options": [
+    "It's red.",
+    "I don't like red.",
+    "It's a colour."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's red або My favourite colour is red."
+   }
+  }
+ ]
+}

@@ -1,0 +1,339 @@
+{
+ "id": "u09_l05",
+ "unit": "u09",
+ "cefr": "A0",
+ "title": {
+  "uk": "Яке у вас житло?"
+ },
+ "goal": {
+  "uk": "Описати житло й сказати, скільки коштує оренда."
+ },
+ "rule": {
+  "uk": "Описуємо тими самими фразами: My flat is quiet. It's small but comfortable. Про оренду: The rent is five hundred pounds a month — «за місяць»."
+ },
+ "words": [
+  {
+   "id": "quiet",
+   "text": "quiet",
+   "ipa": "/ˈkwaɪət/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "тихий"
+   },
+   "example": "The street is quiet.",
+   "exampleTranslation": {
+    "uk": "Вулиця тиха."
+   }
+  },
+  {
+   "id": "noisy",
+   "text": "noisy",
+   "ipa": "/ˈnɔɪzi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "шумний"
+   },
+   "example": "My flat is noisy.",
+   "exampleTranslation": {
+    "uk": "У моїй квартирі шумно."
+   }
+  },
+  {
+   "id": "clean",
+   "text": "clean",
+   "ipa": "/kliːn/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "чистий"
+   },
+   "example": "The room is clean.",
+   "exampleTranslation": {
+    "uk": "Кімната чиста."
+   }
+  },
+  {
+   "id": "dirty",
+   "text": "dirty",
+   "ipa": "/ˈdɜːti/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "брудний"
+   },
+   "example": "The kitchen is dirty.",
+   "exampleTranslation": {
+    "uk": "Кухня брудна."
+   }
+  },
+  {
+   "id": "comfortable",
+   "text": "comfortable",
+   "ipa": "/ˈkʌmftəbl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "зручний, затишний"
+   },
+   "example": "The sofa is comfortable.",
+   "exampleTranslation": {
+    "uk": "Диван зручний."
+   }
+  },
+  {
+   "id": "rent",
+   "text": "rent",
+   "ipa": "/rent/",
+   "pos": "noun",
+   "translation": {
+    "uk": "орендна плата"
+   },
+   "example": "How much is the rent?",
+   "exampleTranslation": {
+    "uk": "Скільки коштує оренда?"
+   }
+  },
+  {
+   "id": "month",
+   "text": "month",
+   "ipa": "/mʌnθ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "місяць"
+   },
+   "example": "Six hundred pounds a month.",
+   "exampleTranslation": {
+    "uk": "Шістсот фунтів на місяць."
+   }
+  },
+  {
+   "id": "neighbour",
+   "text": "neighbour",
+   "ipa": "/ˈneɪbə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сусід, сусідка"
+   },
+   "example": "My neighbour is nice.",
+   "exampleTranslation": {
+    "uk": "Мій сусід приємний."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "The picture is ___ the wall.",
+   "options": [
+    "on",
+    "between",
+    "behind"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On the wall."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "quiet",
+     "right": {
+      "uk": "тихий"
+     }
+    },
+    {
+     "left": "noisy",
+     "right": {
+      "uk": "шумний"
+     }
+    },
+    {
+     "left": "clean",
+     "right": {
+      "uk": "чистий"
+     }
+    },
+    {
+     "left": "dirty",
+     "right": {
+      "uk": "брудний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Дві пари протилежних слів."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "comfortable",
+     "right": {
+      "uk": "зручний"
+     }
+    },
+    {
+     "left": "rent",
+     "right": {
+      "uk": "орендна плата"
+     }
+    },
+    {
+     "left": "month",
+     "right": {
+      "uk": "місяць"
+     }
+    },
+    {
+     "left": "neighbour",
+     "right": {
+      "uk": "сусід"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "У comfortable чути три склади: «камф-те-бл»."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "How much is the rent?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Скільки коштує оренда",
+     "Скільки тут кімнат",
+     "Де квартира"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Rent — орендна плата."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It's four hundred pounds a month.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки коштує оренда?"
+   },
+   "options": {
+    "uk": [
+     "400 фунтів на місяць",
+     "400 фунтів на тиждень",
+     "40 фунтів на місяць"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Four hundred — 400, a month — на місяць."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My street is very ___. I can't sleep.",
+   "options": [
+    "noisy",
+    "quiet",
+    "clean"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Шумно — noisy. I can't sleep — «я не можу спати»."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The flat is small ___ comfortable.",
+   "options": [
+    "but",
+    "or",
+    "very"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Small but comfortable — мала, але затишна."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мої сусіди дуже приємні."
+   },
+   "words": [
+    "My",
+    "neighbours",
+    "are",
+    "very",
+    "nice",
+    "is",
+    "noisy"
+   ],
+   "answer": [
+    "My",
+    "neighbours",
+    "are",
+    "very",
+    "nice"
+   ],
+   "explanation": {
+    "uk": "My neighbours are very nice."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Кімната чиста."
+   },
+   "answers": [
+    "The room is clean"
+   ],
+   "explanation": {
+    "uk": "The room is clean."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Is your flat quiet?",
+   "prompt": {
+    "uk": "У вас шумна квартира. Що відповісти?"
+   },
+   "options": [
+    "No, it's noisy.",
+    "No, it's quiet.",
+    "Yes, it's noisy."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, it's noisy."
+   }
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "id": "u09_l06",
+ "unit": "u09",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: мій дім"
+ },
+ "goal": {
+  "uk": "Розповісти про своє житло й розпитати про чуже."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо кімнати, there is і there are, Is there…?, слова про місце й опис житла."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я живу у квартирі."
+   },
+   "words": [
+    "I",
+    "live",
+    "in",
+    "a",
+    "flat",
+    "at",
+    "house"
+   ],
+   "answer": [
+    "I",
+    "live",
+    "in",
+    "a",
+    "flat"
+   ],
+   "explanation": {
+    "uk": "I live in a flat."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There ___ two bedrooms and a living room.",
+   "options": [
+    "are",
+    "is",
+    "has"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Першими йдуть two bedrooms — множина, тому are."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Is there a balcony?",
+   "prompt": {
+    "uk": "Балкона немає. Що відповісти?"
+   },
+   "options": [
+    "No, there isn't.",
+    "No, there aren't balcony.",
+    "No, it isn't have."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, there isn't."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The bathroom is between the kitchen and the bedroom.",
+   "prompt": {
+    "uk": "Прослухайте. Де ванна кімната?"
+   },
+   "options": {
+    "uk": [
+     "Між кухнею і спальнею",
+     "За кухнею",
+     "Біля спальні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Between — між."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "translate",
+   "prompt": {
+    "uk": "Тут є вайфай?"
+   },
+   "answers": [
+    "Is there Wi-Fi",
+    "Is there Wi-Fi here"
+   ],
+   "explanation": {
+    "uk": "Is there Wi-Fi?"
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «На кухні є холодильник»?"
+   },
+   "options": [
+    "There is a fridge in the kitchen.",
+    "There are a fridge in the kitchen.",
+    "The kitchen there is fridge."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is a fridge in the kitchen."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How much is the ___? — Five hundred pounds a month.",
+   "options": [
+    "rent",
+    "flat",
+    "month"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Rent — орендна плата."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "My flat is small but clean and quiet.",
+   "prompt": {
+    "uk": "Прослухайте. Яка квартира?"
+   },
+   "options": {
+    "uk": [
+     "Мала, чиста й тиха",
+     "Велика й тиха",
+     "Мала й шумна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Small, clean, quiet."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Диван зручний."
+   },
+   "answers": [
+    "The sofa is comfortable"
+   ],
+   "explanation": {
+    "uk": "The sofa is comfortable."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Is there a shop near here?",
+   "prompt": {
+    "uk": "Магазин є, біля банку. Що відповісти?"
+   },
+   "options": [
+    "Yes, there is. It's next to the bank.",
+    "Yes, it is. There's bank.",
+    "Yes, there are next bank."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, there is. It's next to the bank."
+   }
+  }
+ ]
+}

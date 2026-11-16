@@ -1,0 +1,340 @@
+{
+ "id": "u10_l03",
+ "unit": "u10",
+ "cefr": "A0",
+ "title": {
+  "uk": "М'ясо, риба і що я їм"
+ },
+ "goal": {
+  "uk": "Сказати, що ви їсте й п'єте, а чого ні."
+ },
+ "rule": {
+  "uk": "I eat… — «я їм…», I drink… — «я п'ю…». Заперечення таке саме, як із like: I don't eat meat. I don't drink coffee. I'm vegetarian — «я вегетаріанець»."
+ },
+ "words": [
+  {
+   "id": "eat",
+   "text": "eat",
+   "ipa": "/iːt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "їсти"
+   },
+   "example": "I eat fish.",
+   "exampleTranslation": {
+    "uk": "Я їм рибу."
+   }
+  },
+  {
+   "id": "drink",
+   "text": "drink",
+   "ipa": "/drɪŋk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "пити"
+   },
+   "example": "I drink tea.",
+   "exampleTranslation": {
+    "uk": "Я п'ю чай."
+   }
+  },
+  {
+   "id": "meat",
+   "text": "meat",
+   "ipa": "/miːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "м'ясо"
+   },
+   "example": "I don't eat meat.",
+   "exampleTranslation": {
+    "uk": "Я не їм м'яса."
+   }
+  },
+  {
+   "id": "fish",
+   "text": "fish",
+   "ipa": "/fɪʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "риба"
+   },
+   "example": "Fish with rice.",
+   "exampleTranslation": {
+    "uk": "Риба з рисом."
+   }
+  },
+  {
+   "id": "butter",
+   "text": "butter",
+   "ipa": "/ˈbʌtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вершкове масло"
+   },
+   "example": "Bread and butter.",
+   "exampleTranslation": {
+    "uk": "Хліб із маслом."
+   }
+  },
+  {
+   "id": "salt",
+   "text": "salt",
+   "ipa": "/sɔːlt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сіль"
+   },
+   "example": "Can I have the salt?",
+   "exampleTranslation": {
+    "uk": "Можна мені сіль?"
+   }
+  },
+  {
+   "id": "pepper",
+   "text": "pepper",
+   "ipa": "/ˈpepə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "перець"
+   },
+   "example": "Salt and pepper.",
+   "exampleTranslation": {
+    "uk": "Сіль і перець."
+   }
+  },
+  {
+   "id": "vegetarian",
+   "text": "vegetarian",
+   "ipa": "/ˌvedʒəˈteəriən/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "вегетаріанський; вегетаріанець"
+   },
+   "example": "I'm vegetarian.",
+   "exampleTranslation": {
+    "uk": "Я вегетаріанець."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Chicken with ___, please.",
+   "options": [
+    "rice",
+    "an",
+    "eat"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Chicken with rice."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "eat",
+     "right": {
+      "uk": "їсти"
+     }
+    },
+    {
+     "left": "drink",
+     "right": {
+      "uk": "пити"
+     }
+    },
+    {
+     "left": "meat",
+     "right": {
+      "uk": "м'ясо"
+     }
+    },
+    {
+     "left": "fish",
+     "right": {
+      "uk": "риба"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Meat (м'ясо) і meet (зустріти) звучать однаково."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "butter",
+     "right": {
+      "uk": "масло"
+     }
+    },
+    {
+     "left": "salt",
+     "right": {
+      "uk": "сіль"
+     }
+    },
+    {
+     "left": "pepper",
+     "right": {
+      "uk": "перець"
+     }
+    },
+    {
+     "left": "bread",
+     "right": {
+      "uk": "хліб"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Те, що стоїть на столі."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I don't eat meat.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Я не їм м'яса",
+     "Я не їм риби",
+     "Я їм м'ясо"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't eat — я не їм."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ drink coffee in the evening.",
+   "options": [
+    "don't",
+    "not",
+    "am not"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't drink."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ fish, but I don't eat meat.",
+   "options": [
+    "eat",
+    "drink",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Рибу їдять — eat."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Can I have the salt, please?",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Сіль",
+     "Перець",
+     "Масло"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Salt — сіль."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я не п'ю каву."
+   },
+   "words": [
+    "I",
+    "don't",
+    "drink",
+    "coffee",
+    "eat",
+    "not"
+   ],
+   "answer": [
+    "I",
+    "don't",
+    "drink",
+    "coffee"
+   ],
+   "explanation": {
+    "uk": "I don't drink coffee."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я вегетаріанець."
+   },
+   "answers": [
+    "I'm vegetarian",
+    "I am vegetarian",
+    "I'm a vegetarian",
+    "I am a vegetarian"
+   ],
+   "explanation": {
+    "uk": "I'm vegetarian."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Would you like the chicken or the fish?",
+   "prompt": {
+    "uk": "Ви не їсте м'яса. Що відповісти?"
+   },
+   "options": [
+    "The fish, please. I don't eat meat.",
+    "The chicken, please. I don't eat meat.",
+    "I don't fish."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Курка — це м'ясо, тому The fish, please."
+   }
+  }
+ ]
+}

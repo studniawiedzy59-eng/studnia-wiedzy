@@ -1,0 +1,194 @@
+{
+ "id": "u08_l06",
+ "unit": "u08",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: кольори навколо"
+ },
+ "goal": {
+  "uk": "Назвати колір будь-якої речі, описати людину й попросити потрібний колір у магазині."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо кольори, dark і light, I like і I don't like, he has і she has, the red one."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What colour is the sky?",
+   "prompt": {
+    "uk": "Що відповісти?"
+   },
+   "options": [
+    "It's blue.",
+    "It's green.",
+    "It's a sky."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The sky is blue."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «світло-сірий»?"
+   },
+   "options": [
+    "light grey",
+    "grey light",
+    "dark grey"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Light grey."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ brown eyes and short hair.",
+   "options": [
+    "has",
+    "have",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He has."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мій улюблений колір зелений."
+   },
+   "answers": [
+    "My favourite colour is green"
+   ],
+   "explanation": {
+    "uk": "My favourite colour is green."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "She has long dark hair and a yellow dress.",
+   "prompt": {
+    "uk": "Прослухайте. Як виглядає жінка?"
+   },
+   "options": {
+    "uk": [
+     "Довге темне волосся, жовта сукня",
+     "Коротке темне волосся, жовта сукня",
+     "Довге світле волосся, зелена сукня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Long dark hair, a yellow dress."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мені не подобається рожевий."
+   },
+   "words": [
+    "I",
+    "don't",
+    "like",
+    "pink",
+    "not",
+    "love"
+   ],
+   "answer": [
+    "I",
+    "don't",
+    "like",
+    "pink"
+   ],
+   "explanation": {
+    "uk": "I don't like pink."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Do you have this ___ medium?",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In medium — у середньому розмірі."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "Which one would you like?",
+   "prompt": {
+    "uk": "Ви хочете чорну. Що відповісти?"
+   },
+   "options": [
+    "The black one, please.",
+    "Black is one.",
+    "I'm black one."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The black one, please."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "It's forty pounds. — OK, I'll take it.",
+   "prompt": {
+    "uk": "Прослухайте. Що вирішив покупець?"
+   },
+   "options": {
+    "uk": [
+     "Купити",
+     "Не купувати",
+     "Попросити інший колір"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I'll take it — я це беру."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What colour is your car?",
+   "prompt": {
+    "uk": "У вас темно-синя машина. Що відповісти?"
+   },
+   "options": [
+    "It's dark blue.",
+    "It's blue dark.",
+    "I have dark."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's dark blue."
+   }
+  }
+ ]
+}

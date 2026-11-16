@@ -1,0 +1,289 @@
+{
+ "id": "u07_l04",
+ "unit": "u07",
+ "cefr": "A0",
+ "title": {
+  "uk": "Зустріньмося в суботу"
+ },
+ "goal": {
+  "uk": "Запропонувати зустріч, погодитися або відмовитися."
+ },
+ "rule": {
+  "uk": "Let's… — «давай…»: Let's meet on Saturday. Погодитися: OK, Sure, Great. Відмовитися ввічливо: Sorry, I'm busy. Next week — наступного тижня, без on."
+ },
+ "words": [
+  {
+   "id": "lets",
+   "text": "let's",
+   "ipa": "/lets/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "давай, давайте"
+   },
+   "example": "Let's meet on Friday.",
+   "exampleTranslation": {
+    "uk": "Зустріньмося в п'ятницю."
+   }
+  },
+  {
+   "id": "ok",
+   "text": "OK",
+   "ipa": "/ˌəʊˈkeɪ/",
+   "pos": "exclamation",
+   "translation": {
+    "uk": "добре, гаразд"
+   },
+   "example": "OK, see you!",
+   "exampleTranslation": {
+    "uk": "Добре, до зустрічі!"
+   }
+  },
+  {
+   "id": "sure",
+   "text": "sure",
+   "ipa": "/ʃɔː/",
+   "pos": "exclamation",
+   "translation": {
+    "uk": "звичайно, авжеж"
+   },
+   "example": "Sure!",
+   "exampleTranslation": {
+    "uk": "Авжеж!"
+   }
+  },
+  {
+   "id": "sorry",
+   "text": "sorry",
+   "ipa": "/ˈsɒri/",
+   "pos": "exclamation",
+   "translation": {
+    "uk": "вибачте, на жаль"
+   },
+   "example": "Sorry, I'm busy.",
+   "exampleTranslation": {
+    "uk": "На жаль, я зайнятий."
+   }
+  },
+  {
+   "id": "maybe",
+   "text": "maybe",
+   "ipa": "/ˈmeɪbi/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "можливо"
+   },
+   "example": "Maybe tomorrow.",
+   "exampleTranslation": {
+    "uk": "Можливо, завтра."
+   }
+  },
+  {
+   "id": "next",
+   "text": "next",
+   "ipa": "/nekst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "наступний"
+   },
+   "example": "Next week.",
+   "exampleTranslation": {
+    "uk": "Наступного тижня."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ from Monday to Friday.",
+   "options": [
+    "work",
+    "am",
+    "day"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I work — я працюю."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "let's",
+     "right": {
+      "uk": "давай"
+     }
+    },
+    {
+     "left": "sure",
+     "right": {
+      "uk": "звичайно"
+     }
+    },
+    {
+     "left": "sorry",
+     "right": {
+      "uk": "вибачте"
+     }
+    },
+    {
+     "left": "maybe",
+     "right": {
+      "uk": "можливо"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Чотири слова, щоб домовитися."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Let's meet on Saturday.",
+   "prompt": {
+    "uk": "Прослухайте. Що пропонує людина?"
+   },
+   "options": {
+    "uk": [
+     "Зустрітися в суботу",
+     "Зустрітися в неділю",
+     "Попрацювати в суботу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Let's meet — зустріньмося."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вам пропонують зустріч, і ви згодні. Що сказати?"
+   },
+   "options": [
+    "Sure!",
+    "Sorry.",
+    "Goodbye."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sure — «авжеж»."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви не можете прийти. Як відмовитися ввічливо?"
+   },
+   "options": [
+    "Sorry, I'm busy.",
+    "No.",
+    "I'm free."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sorry, I'm busy — ввічлива відмова."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ meet at six.",
+   "options": [
+    "Let's",
+    "Sorry",
+    "Next"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Пропозиція починається з Let's."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає next week?"
+   },
+   "options": {
+    "uk": [
+     "Наступного тижня",
+     "Цього тижня",
+     "Кожного тижня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Next — наступний."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Зустріньмося в п'ятницю."
+   },
+   "words": [
+    "Let's",
+    "meet",
+    "on",
+    "Friday",
+    "at",
+    "maybe"
+   ],
+   "answer": [
+    "Let's",
+    "meet",
+    "on",
+    "Friday"
+   ],
+   "explanation": {
+    "uk": "Let's meet on Friday."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можливо, завтра."
+   },
+   "answers": [
+    "Maybe tomorrow"
+   ],
+   "explanation": {
+    "uk": "Maybe tomorrow."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Let's meet on Friday at seven.",
+   "prompt": {
+    "uk": "Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "OK, see you on Friday!",
+    "Sorry, it's Friday.",
+    "I'm seven."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "OK, see you on Friday!"
+   }
+  }
+ ]
+}

@@ -1,0 +1,315 @@
+{
+ "id": "u09_l02",
+ "unit": "u09",
+ "cefr": "A0",
+ "title": {
+  "uk": "Тут є диван"
+ },
+ "goal": {
+  "uk": "Розповісти, що є в кімнаті."
+ },
+ "rule": {
+  "uk": "There is… — «є, стоїть, лежить…» про одну річ: There is a sofa. There are… — про кілька: There are two chairs. Скорочено: There's a sofa."
+ },
+ "words": [
+  {
+   "id": "there_is",
+   "text": "there is",
+   "ipa": "/ðeər ˈɪz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "є (одна річ)"
+   },
+   "example": "There is a sofa.",
+   "exampleTranslation": {
+    "uk": "Тут є диван."
+   }
+  },
+  {
+   "id": "there_are",
+   "text": "there are",
+   "ipa": "/ðeər ˈɑː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "є (кілька речей)"
+   },
+   "example": "There are two beds.",
+   "exampleTranslation": {
+    "uk": "Тут є два ліжка."
+   }
+  },
+  {
+   "id": "sofa",
+   "text": "sofa",
+   "ipa": "/ˈsəʊfə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "диван"
+   },
+   "example": "The sofa is new.",
+   "exampleTranslation": {
+    "uk": "Диван новий."
+   }
+  },
+  {
+   "id": "tv",
+   "text": "TV",
+   "ipa": "/ˌtiː ˈviː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "телевізор"
+   },
+   "example": "There is a TV.",
+   "exampleTranslation": {
+    "uk": "Тут є телевізор."
+   }
+  },
+  {
+   "id": "fridge",
+   "text": "fridge",
+   "ipa": "/frɪdʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "холодильник"
+   },
+   "example": "The milk is in the fridge.",
+   "exampleTranslation": {
+    "uk": "Молоко в холодильнику."
+   }
+  },
+  {
+   "id": "lamp",
+   "text": "lamp",
+   "ipa": "/læmp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "лампа"
+   },
+   "example": "There is a lamp on the table.",
+   "exampleTranslation": {
+    "uk": "На столі є лампа."
+   }
+  },
+  {
+   "id": "shower",
+   "text": "shower",
+   "ipa": "/ˈʃaʊə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "душ"
+   },
+   "example": "There is a shower.",
+   "exampleTranslation": {
+    "uk": "Тут є душ."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "This is the ___. The fridge is here.",
+   "options": [
+    "kitchen",
+    "bedroom",
+    "garden"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Холодильник стоїть на кухні."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "sofa",
+     "right": {
+      "uk": "диван"
+     }
+    },
+    {
+     "left": "TV",
+     "right": {
+      "uk": "телевізор"
+     }
+    },
+    {
+     "left": "fridge",
+     "right": {
+      "uk": "холодильник"
+     }
+    },
+    {
+     "left": "lamp",
+     "right": {
+      "uk": "лампа"
+     }
+    },
+    {
+     "left": "shower",
+     "right": {
+      "uk": "душ"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Речі, які є майже в кожному домі."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There ___ a sofa in the living room.",
+   "options": [
+    "is",
+    "are",
+    "have"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Одна річ — there is."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There ___ two bedrooms.",
+   "options": [
+    "are",
+    "is",
+    "has"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Кілька — there are."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "There is a TV in the bedroom.",
+   "prompt": {
+    "uk": "Прослухайте. Де телевізор?"
+   },
+   "options": {
+    "uk": [
+     "У спальні",
+     "У вітальні",
+     "На кухні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In the bedroom."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "There are four chairs in the kitchen.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки стільців на кухні?"
+   },
+   "options": {
+    "uk": [
+     "4",
+     "14",
+     "5"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Four chairs."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «У ванній є душ»?"
+   },
+   "options": [
+    "There is a shower in the bathroom.",
+    "There are a shower in the bathroom.",
+    "It is a shower in the bathroom."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is a shower…"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "На столі є лампа."
+   },
+   "words": [
+    "There",
+    "is",
+    "a",
+    "lamp",
+    "on",
+    "the",
+    "table",
+    "are"
+   ],
+   "answer": [
+    "There",
+    "is",
+    "a",
+    "lamp",
+    "on",
+    "the",
+    "table"
+   ],
+   "explanation": {
+    "uk": "There is a lamp on the table."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Тут є два ліжка."
+   },
+   "answers": [
+    "There are two beds"
+   ],
+   "explanation": {
+    "uk": "There are two beds."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Where is the milk?",
+   "prompt": {
+    "uk": "Молоко в холодильнику. Що відповісти?"
+   },
+   "options": [
+    "It's in the fridge.",
+    "There is fridge.",
+    "It's on the shower."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's in the fridge."
+   }
+  }
+ ]
+}

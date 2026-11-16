@@ -1,0 +1,299 @@
+{
+ "id": "u08_l01",
+ "unit": "u08",
+ "cefr": "A0",
+ "title": {
+  "uk": "Червоний, синій, зелений"
+ },
+ "goal": {
+  "uk": "Назвати основні кольори й спитати, якого кольору річ."
+ },
+ "rule": {
+  "uk": "What colour is it? — «Якого це кольору?». Відповідь: It's red. Колір стоїть перед річчю: a red car. У Британії пишуть colour, в Америці — color."
+ },
+ "words": [
+  {
+   "id": "colour",
+   "text": "colour",
+   "ipa": "/ˈkʌlə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "колір"
+   },
+   "example": "What colour is it?",
+   "exampleTranslation": {
+    "uk": "Якого це кольору?"
+   }
+  },
+  {
+   "id": "red",
+   "text": "red",
+   "ipa": "/red/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "червоний"
+   },
+   "example": "It's a red car.",
+   "exampleTranslation": {
+    "uk": "Це червона машина."
+   }
+  },
+  {
+   "id": "blue",
+   "text": "blue",
+   "ipa": "/bluː/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "синій, блакитний"
+   },
+   "example": "My bag is blue.",
+   "exampleTranslation": {
+    "uk": "Моя сумка синя."
+   }
+  },
+  {
+   "id": "green",
+   "text": "green",
+   "ipa": "/ɡriːn/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "зелений"
+   },
+   "example": "It's a green door.",
+   "exampleTranslation": {
+    "uk": "Це зелені двері."
+   }
+  },
+  {
+   "id": "yellow",
+   "text": "yellow",
+   "ipa": "/ˈjeləʊ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "жовтий"
+   },
+   "example": "It's a yellow bus.",
+   "exampleTranslation": {
+    "uk": "Це жовтий автобус."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Let's meet on Sunday.",
+   "prompt": {
+    "uk": "Повторимо. Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "Sure!",
+    "Sorry.",
+    "It's Sunday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sure! — «Авжеж!»"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "red",
+     "right": {
+      "uk": "червоний"
+     }
+    },
+    {
+     "left": "blue",
+     "right": {
+      "uk": "синій"
+     }
+    },
+    {
+     "left": "green",
+     "right": {
+      "uk": "зелений"
+     }
+    },
+    {
+     "left": "yellow",
+     "right": {
+      "uk": "жовтий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Чотири основні кольори."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "black",
+     "right": {
+      "uk": "чорний"
+     }
+    },
+    {
+     "left": "white",
+     "right": {
+      "uk": "білий"
+     }
+    },
+    {
+     "left": "colour",
+     "right": {
+      "uk": "колір"
+     }
+    },
+    {
+     "left": "new",
+     "right": {
+      "uk": "новий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Black і white ви знаєте з кафе."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "What colour is it?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Якого це кольору?",
+     "Що це?",
+     "Скільки це коштує?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "What colour — якого кольору."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It's a yellow bus.",
+   "prompt": {
+    "uk": "Прослухайте. Якого кольору автобус?"
+   },
+   "options": {
+    "uk": [
+     "Жовтого",
+     "Зеленого",
+     "Червоного"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Yellow — жовтий."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «червона машина»?"
+   },
+   "options": [
+    "a red car",
+    "a car red",
+    "red a car"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Колір стоїть перед річчю."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My car is ___.",
+   "options": [
+    "blue",
+    "colour",
+    "what"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My car is blue — моя машина синя."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Якого це кольору?"
+   },
+   "words": [
+    "What",
+    "colour",
+    "is",
+    "it",
+    "red",
+    "are"
+   ],
+   "answer": [
+    "What",
+    "colour",
+    "is",
+    "it"
+   ],
+   "explanation": {
+    "uk": "What colour is it?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це зелені двері."
+   },
+   "answers": [
+    "It's a green door",
+    "It is a green door",
+    "This is a green door"
+   ],
+   "explanation": {
+    "uk": "It's a green door. Door — однина."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What colour is your bag?",
+   "prompt": {
+    "uk": "Ваша сумка чорна. Що відповісти?"
+   },
+   "options": [
+    "It's black.",
+    "It's a bag.",
+    "I'm black bag."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's black."
+   }
+  }
+ ]
+}

@@ -1,0 +1,328 @@
+{
+ "id": "u09_l04",
+ "unit": "u09",
+ "cefr": "A0",
+ "title": {
+  "uk": "На стіні, за дверима"
+ },
+ "goal": {
+  "uk": "Точніше описати, де що стоїть."
+ },
+ "rule": {
+  "uk": "Between — між двома речами: between the bed and the window. Behind — за, позаду. In front of — перед. On the wall — на стіні."
+ },
+ "words": [
+  {
+   "id": "between",
+   "text": "between",
+   "ipa": "/bɪˈtwiːn/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "між"
+   },
+   "example": "Between the sofa and the door.",
+   "exampleTranslation": {
+    "uk": "Між диваном і дверима."
+   }
+  },
+  {
+   "id": "behind",
+   "text": "behind",
+   "ipa": "/bɪˈhaɪnd/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "за, позаду"
+   },
+   "example": "It's behind the door.",
+   "exampleTranslation": {
+    "uk": "Воно за дверима."
+   }
+  },
+  {
+   "id": "in_front_of",
+   "text": "in front of",
+   "ipa": "/ɪn ˈfrʌnt əv/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "перед"
+   },
+   "example": "In front of the house.",
+   "exampleTranslation": {
+    "uk": "Перед будинком."
+   }
+  },
+  {
+   "id": "wall",
+   "text": "wall",
+   "ipa": "/wɔːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "стіна"
+   },
+   "example": "On the wall.",
+   "exampleTranslation": {
+    "uk": "На стіні."
+   }
+  },
+  {
+   "id": "picture",
+   "text": "picture",
+   "ipa": "/ˈpɪktʃə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "картина"
+   },
+   "example": "There is a picture on the wall.",
+   "exampleTranslation": {
+    "uk": "На стіні є картина."
+   }
+  },
+  {
+   "id": "mirror",
+   "text": "mirror",
+   "ipa": "/ˈmɪrə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дзеркало"
+   },
+   "example": "The mirror is in the bathroom.",
+   "exampleTranslation": {
+    "uk": "Дзеркало у ванній."
+   }
+  },
+  {
+   "id": "shelf",
+   "text": "shelf",
+   "ipa": "/ʃelf/",
+   "pos": "noun",
+   "translation": {
+    "uk": "полиця"
+   },
+   "example": "The books are on the shelf.",
+   "exampleTranslation": {
+    "uk": "Книжки на полиці."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is there a shower?",
+   "prompt": {
+    "uk": "Повторимо. Душ є. Що відповісти?"
+   },
+   "options": [
+    "Yes, there is.",
+    "Yes, there are.",
+    "Yes, it has."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, there is."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "between",
+     "right": {
+      "uk": "між"
+     }
+    },
+    {
+     "left": "behind",
+     "right": {
+      "uk": "за"
+     }
+    },
+    {
+     "left": "in front of",
+     "right": {
+      "uk": "перед"
+     }
+    },
+    {
+     "left": "next to",
+     "right": {
+      "uk": "біля"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про місце."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "wall",
+     "right": {
+      "uk": "стіна"
+     }
+    },
+    {
+     "left": "picture",
+     "right": {
+      "uk": "картина"
+     }
+    },
+    {
+     "left": "mirror",
+     "right": {
+      "uk": "дзеркало"
+     }
+    },
+    {
+     "left": "shelf",
+     "right": {
+      "uk": "полиця"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Те, що висить на стіні."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The car is in front of the house.",
+   "prompt": {
+    "uk": "Прослухайте. Де машина?"
+   },
+   "options": {
+    "uk": [
+     "Перед будинком",
+     "За будинком",
+     "Біля будинку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In front of — перед."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a picture ___ the wall.",
+   "options": [
+    "on",
+    "in",
+    "between"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "На стіні — on the wall."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The table is ___ the sofa and the TV.",
+   "options": [
+    "between",
+    "behind",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Між двома речами — between."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Your bag is behind the door.",
+   "prompt": {
+    "uk": "Прослухайте. Де сумка?"
+   },
+   "options": {
+    "uk": [
+     "За дверима",
+     "Перед дверима",
+     "Біля дверей"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Behind — за."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Книжки на полиці."
+   },
+   "words": [
+    "The",
+    "books",
+    "are",
+    "on",
+    "the",
+    "shelf",
+    "is",
+    "in"
+   ],
+   "answer": [
+    "The",
+    "books",
+    "are",
+    "on",
+    "the",
+    "shelf"
+   ],
+   "explanation": {
+    "uk": "The books are on the shelf."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Дзеркало у ванній."
+   },
+   "answers": [
+    "The mirror is in the bathroom"
+   ],
+   "explanation": {
+    "uk": "The mirror is in the bathroom."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Where is the lamp?",
+   "prompt": {
+    "uk": "Лампа стоїть між ліжком і вікном. Що відповісти?"
+   },
+   "options": [
+    "It's between the bed and the window.",
+    "It's behind the bed and the window.",
+    "There are between bed and window."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Between the bed and the window."
+   }
+  }
+ ]
+}

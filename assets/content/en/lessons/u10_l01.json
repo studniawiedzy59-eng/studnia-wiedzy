@@ -1,0 +1,307 @@
+{
+ "id": "u10_l01",
+ "unit": "u10",
+ "cefr": "A0",
+ "title": {
+  "uk": "Фрукти і слово an"
+ },
+ "goal": {
+  "uk": "Назвати фрукти й правильно вибрати a чи an."
+ },
+ "rule": {
+  "uk": "Перед словом, що починається з голосного звука, замість a кажуть an: an apple, an orange, an egg. Так легше вимовити. Перед приголосним лишається a: a banana, a lemon."
+ },
+ "words": [
+  {
+   "id": "fruit",
+   "text": "fruit",
+   "ipa": "/fruːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "фрукти"
+   },
+   "example": "I like fruit.",
+   "exampleTranslation": {
+    "uk": "Я люблю фрукти."
+   }
+  },
+  {
+   "id": "apple",
+   "text": "apple",
+   "ipa": "/ˈæpl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "яблуко"
+   },
+   "example": "An apple, please.",
+   "exampleTranslation": {
+    "uk": "Яблуко, будь ласка."
+   }
+  },
+  {
+   "id": "banana",
+   "text": "banana",
+   "ipa": "/bəˈnɑːnə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "банан"
+   },
+   "example": "I have a banana.",
+   "exampleTranslation": {
+    "uk": "У мене є банан."
+   }
+  },
+  {
+   "id": "orange",
+   "text": "orange",
+   "ipa": "/ˈɒrɪndʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "апельсин"
+   },
+   "example": "An orange.",
+   "exampleTranslation": {
+    "uk": "Апельсин."
+   }
+  },
+  {
+   "id": "lemon",
+   "text": "lemon",
+   "ipa": "/ˈlemən/",
+   "pos": "noun",
+   "translation": {
+    "uk": "лимон"
+   },
+   "example": "Tea with lemon.",
+   "exampleTranslation": {
+    "uk": "Чай із лимоном."
+   }
+  },
+  {
+   "id": "egg",
+   "text": "egg",
+   "ipa": "/eɡ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "яйце"
+   },
+   "example": "An egg.",
+   "exampleTranslation": {
+    "uk": "Яйце."
+   }
+  },
+  {
+   "id": "an",
+   "text": "an",
+   "ipa": "/ən/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "один, одна (перед голосним звуком)"
+   },
+   "example": "An apple.",
+   "exampleTranslation": {
+    "uk": "Яблуко."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is there a lift?",
+   "prompt": {
+    "uk": "Повторимо. Ліфта немає. Що відповісти?"
+   },
+   "options": [
+    "No, there isn't.",
+    "No, there aren't.",
+    "No, it isn't lift."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, there isn't."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "apple",
+     "right": {
+      "uk": "яблуко"
+     }
+    },
+    {
+     "left": "banana",
+     "right": {
+      "uk": "банан"
+     }
+    },
+    {
+     "left": "orange",
+     "right": {
+      "uk": "апельсин"
+     }
+    },
+    {
+     "left": "lemon",
+     "right": {
+      "uk": "лимон"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Orange — і колір, і фрукт."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "an apple",
+    "a apple",
+    "an banana"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Apple починається з голосного, тому an."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "a banana",
+    "an banana",
+    "a egg"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Banana починається з приголосного — a. Egg — an egg."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'd like ___ orange juice, please.",
+   "options": [
+    "an",
+    "a",
+    "are"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Orange починається з голосного: an orange juice."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I have ___ lemon?",
+   "options": [
+    "a",
+    "an",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Lemon — з приголосного: a lemon."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Tea with lemon, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Чай із лимоном",
+     "Чай із молоком",
+     "Сік із лимоном"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "With lemon — з лимоном."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене є яблуко й банан."
+   },
+   "words": [
+    "I",
+    "have",
+    "an",
+    "apple",
+    "and",
+    "a",
+    "banana",
+    "egg"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "an",
+    "apple",
+    "and",
+    "a",
+    "banana"
+   ],
+   "explanation": {
+    "uk": "An apple, але a banana."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я люблю фрукти."
+   },
+   "answers": [
+    "I like fruit",
+    "I love fruit"
+   ],
+   "explanation": {
+    "uk": "I like fruit. Fruit тут без -s."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Would you like an apple or an orange?",
+   "prompt": {
+    "uk": "Ви хочете яблуко. Що відповісти?"
+   },
+   "options": [
+    "An apple, please.",
+    "A apple, please.",
+    "Yes, I like."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "An apple, please."
+   }
+  }
+ ]
+}

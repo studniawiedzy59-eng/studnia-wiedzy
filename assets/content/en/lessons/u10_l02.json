@@ -1,0 +1,320 @@
+{
+ "id": "u10_l02",
+ "unit": "u10",
+ "cefr": "A0",
+ "title": {
+  "uk": "Овочі"
+ },
+ "goal": {
+  "uk": "Назвати овочі та гарніри."
+ },
+ "rule": {
+  "uk": "Більшість назв овочів мають множину на -s: carrots, onions. Після o додають -es: potatoes, tomatoes. Rice і pasta множини не мають."
+ },
+ "words": [
+  {
+   "id": "vegetables",
+   "text": "vegetables",
+   "ipa": "/ˈvedʒtəblz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "овочі"
+   },
+   "example": "I like vegetables.",
+   "exampleTranslation": {
+    "uk": "Я люблю овочі."
+   }
+  },
+  {
+   "id": "potato",
+   "text": "potato",
+   "ipa": "/pəˈteɪtəʊ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "картопля, картоплина"
+   },
+   "example": "Chicken with potatoes.",
+   "exampleTranslation": {
+    "uk": "Курка з картоплею."
+   }
+  },
+  {
+   "id": "tomato",
+   "text": "tomato",
+   "ipa": "/təˈmɑːtəʊ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "помідор"
+   },
+   "example": "A tomato salad.",
+   "exampleTranslation": {
+    "uk": "Салат із помідорів."
+   }
+  },
+  {
+   "id": "onion",
+   "text": "onion",
+   "ipa": "/ˈʌnjən/",
+   "pos": "noun",
+   "translation": {
+    "uk": "цибуля, цибулина"
+   },
+   "example": "No onion, please.",
+   "exampleTranslation": {
+    "uk": "Без цибулі, будь ласка."
+   }
+  },
+  {
+   "id": "carrot",
+   "text": "carrot",
+   "ipa": "/ˈkærət/",
+   "pos": "noun",
+   "translation": {
+    "uk": "морква, морквина"
+   },
+   "example": "Carrot soup.",
+   "exampleTranslation": {
+    "uk": "Морквяний суп."
+   }
+  },
+  {
+   "id": "rice",
+   "text": "rice",
+   "ipa": "/raɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рис"
+   },
+   "example": "Chicken with rice.",
+   "exampleTranslation": {
+    "uk": "Курка з рисом."
+   }
+  },
+  {
+   "id": "pasta",
+   "text": "pasta",
+   "ipa": "/ˈpæstə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "макарони, паста"
+   },
+   "example": "Pasta with cheese.",
+   "exampleTranslation": {
+    "uk": "Паста із сиром."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Повторимо. Як правильно?"
+   },
+   "options": [
+    "an egg",
+    "a egg",
+    "an lemon"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Egg — з голосного: an egg."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "potato",
+     "right": {
+      "uk": "картопля"
+     }
+    },
+    {
+     "left": "tomato",
+     "right": {
+      "uk": "помідор"
+     }
+    },
+    {
+     "left": "onion",
+     "right": {
+      "uk": "цибуля"
+     }
+    },
+    {
+     "left": "carrot",
+     "right": {
+      "uk": "морква"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Чотири овочі для супу."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "rice",
+     "right": {
+      "uk": "рис"
+     }
+    },
+    {
+     "left": "pasta",
+     "right": {
+      "uk": "макарони"
+     }
+    },
+    {
+     "left": "vegetables",
+     "right": {
+      "uk": "овочі"
+     }
+    },
+    {
+     "left": "fruit",
+     "right": {
+      "uk": "фрукти"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Rice і pasta — гарніри."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Chicken with rice, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що замовляє людина?"
+   },
+   "options": {
+    "uk": [
+     "Курку з рисом",
+     "Курку з картоплею",
+     "Рис з овочами"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "With rice — з рисом."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «три помідори»?"
+   },
+   "options": [
+    "three tomatoes",
+    "three tomatos",
+    "three tomato"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після o — -es: tomatoes."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "No ___, please. I don't like it.",
+   "options": [
+    "onion",
+    "an",
+    "like"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No onion — без цибулі."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Soup with potatoes and carrots.",
+   "prompt": {
+    "uk": "Прослухайте. З чим суп?"
+   },
+   "options": {
+    "uk": [
+     "З картоплею й морквою",
+     "З картоплею й цибулею",
+     "З рисом і морквою"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Potatoes and carrots."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я люблю овочі."
+   },
+   "words": [
+    "I",
+    "like",
+    "vegetables",
+    "fruit",
+    "an"
+   ],
+   "answer": [
+    "I",
+    "like",
+    "vegetables"
+   ],
+   "explanation": {
+    "uk": "I like vegetables."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Паста із сиром, будь ласка."
+   },
+   "answers": [
+    "Pasta with cheese, please"
+   ],
+   "explanation": {
+    "uk": "Pasta with cheese, please."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Rice or potatoes?",
+   "prompt": {
+    "uk": "Ви хочете картоплю. Що відповісти?"
+   },
+   "options": [
+    "Potatoes, please.",
+    "Yes, please.",
+    "A potatoes."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Potatoes, please."
+   }
+  }
+ ]
+}
