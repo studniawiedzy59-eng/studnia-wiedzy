@@ -1,0 +1,320 @@
+{
+ "id": "u44_l01",
+ "unit": "u44",
+ "cefr": "A1",
+ "title": {
+  "uk": "Який він за характером?"
+ },
+ "goal": {
+  "uk": "Описати людину кількома словами."
+ },
+ "rule": {
+  "uk": "Характер описуємо через is + прикметник: He is shy. She is polite. Shy — сором'язливий, polite — ввічливий, rude — грубий, honest — чесний, lazy — лінивий. Рівно ті ж слова підходять і до мене: I'm shy."
+ },
+ "words": [
+  {
+   "id": "shy",
+   "text": "shy",
+   "ipa": "/ʃaɪ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "сором'язливий"
+   },
+   "example": "My brother is shy.",
+   "exampleTranslation": {
+    "uk": "Мій брат сором'язливий."
+   }
+  },
+  {
+   "id": "polite",
+   "text": "polite",
+   "ipa": "/pəˈlaɪt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "ввічливий"
+   },
+   "example": "She is always polite.",
+   "exampleTranslation": {
+    "uk": "Вона завжди ввічлива."
+   }
+  },
+  {
+   "id": "rude",
+   "text": "rude",
+   "ipa": "/ruːd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "грубий"
+   },
+   "example": "Don't be rude.",
+   "exampleTranslation": {
+    "uk": "Не будьте грубі."
+   }
+  },
+  {
+   "id": "honest",
+   "text": "honest",
+   "ipa": "/ˈɒnɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "чесний"
+   },
+   "example": "He is an honest man.",
+   "exampleTranslation": {
+    "uk": "Він чесна людина."
+   }
+  },
+  {
+   "id": "lazy",
+   "text": "lazy",
+   "ipa": "/ˈleɪzi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "лінивий"
+   },
+   "example": "I'm lazy on Sundays.",
+   "exampleTranslation": {
+    "uk": "По неділях я лінивий."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Can you describe your brother?",
+   "prompt": {
+    "uk": "Повторимо. Він високий, кучерявий. Що відповісти?"
+   },
+   "options": [
+    "He is tall and has curly hair.",
+    "He tall and curly hair is.",
+    "He has tall and is curly."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is tall, has curly hair."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "shy",
+     "right": {
+      "uk": "сором'язливий"
+     }
+    },
+    {
+     "left": "polite",
+     "right": {
+      "uk": "ввічливий"
+     }
+    },
+    {
+     "left": "rude",
+     "right": {
+      "uk": "грубий"
+     }
+    },
+    {
+     "left": "honest",
+     "right": {
+      "uk": "чесний"
+     }
+    },
+    {
+     "left": "lazy",
+     "right": {
+      "uk": "лінивий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про характер."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My brother is shy.",
+   "prompt": {
+    "uk": "Прослухайте. Який брат?"
+   },
+   "options": {
+    "uk": [
+     "Сором'язливий",
+     "Грубий",
+     "Лінивий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Shy."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She is always polite.",
+   "prompt": {
+    "uk": "Прослухайте. Яка вона?"
+   },
+   "options": {
+    "uk": [
+     "Завжди ввічлива",
+     "Завжди сумна",
+     "Завжди зайнята"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Polite."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "He is an honest man.",
+   "prompt": {
+    "uk": "Прослухайте. Який чоловік?"
+   },
+   "options": {
+    "uk": [
+     "Чесний",
+     "Лінивий",
+     "Грубий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Honest."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My brother is ___. He doesn't talk to new people.",
+   "options": [
+    "shy",
+    "rude",
+    "lazy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Shy."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Don't be ___!",
+   "options": [
+    "rude",
+    "polite",
+    "honest"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Don't be rude."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ an honest man.",
+   "options": [
+    "is",
+    "has",
+    "does"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He is."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово описує людину, що не любить працювати?"
+   },
+   "options": [
+    "lazy",
+    "polite",
+    "shy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Lazy."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вона завжди ввічлива."
+   },
+   "words": [
+    "She",
+    "is",
+    "always",
+    "polite",
+    "has",
+    "rude"
+   ],
+   "answer": [
+    "She",
+    "is",
+    "always",
+    "polite"
+   ],
+   "explanation": {
+    "uk": "She is always polite."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мій брат сором'язливий."
+   },
+   "answers": [
+    "My brother is shy"
+   ],
+   "explanation": {
+    "uk": "My brother is shy."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is your sister shy?",
+   "prompt": {
+    "uk": "Ні, вона відкрита. Що відповісти?"
+   },
+   "options": [
+    "No, she isn't.",
+    "No, she doesn't.",
+    "No, she hasn't."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, she isn't."
+   }
+  }
+ ]
+}

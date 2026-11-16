@@ -1,0 +1,323 @@
+{
+ "id": "u43_l05",
+ "unit": "u43",
+ "cefr": "A1",
+ "title": {
+  "uk": "Вік і зріст"
+ },
+ "goal": {
+  "uk": "Сказати, скільки людині років і який у неї зріст."
+ },
+ "rule": {
+  "uk": "Teenager — підліток, middle-aged — середніх років, elderly — літній. Height — зріст. Скільки: How tall are you? — I'm 180 centimetres tall. Centimetre — сантиметр (1 m = 100 cm). Окремо: I'm 1.80 m tall."
+ },
+ "words": [
+  {
+   "id": "teenager",
+   "text": "teenager",
+   "ipa": "/ˈtiːneɪdʒə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "підліток"
+   },
+   "example": "My son is a teenager.",
+   "exampleTranslation": {
+    "uk": "Мій син — підліток."
+   }
+  },
+  {
+   "id": "middle-aged",
+   "text": "middle-aged",
+   "ipa": "/ˌmɪdl ˈeɪdʒd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "середніх років"
+   },
+   "example": "He is a middle-aged man.",
+   "exampleTranslation": {
+    "uk": "Він чоловік середніх років."
+   }
+  },
+  {
+   "id": "elderly",
+   "text": "elderly",
+   "ipa": "/ˈeldəli/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "літній"
+   },
+   "example": "The elderly woman is my neighbour.",
+   "exampleTranslation": {
+    "uk": "Літня жінка — моя сусідка."
+   }
+  },
+  {
+   "id": "height",
+   "text": "height",
+   "ipa": "/haɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "зріст"
+   },
+   "example": "What is your height?",
+   "exampleTranslation": {
+    "uk": "Який у вас зріст?"
+   }
+  },
+  {
+   "id": "centimetre",
+   "text": "centimetre",
+   "ipa": "/ˈsentɪmiːtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сантиметр"
+   },
+   "example": "I'm 180 centimetres tall.",
+   "exampleTranslation": {
+    "uk": "Мій зріст 180 сантиметрів."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What does she look like?",
+   "prompt": {
+    "uk": "Повторимо. Вона елегантна. Що відповісти?"
+   },
+   "options": [
+    "She looks elegant.",
+    "She is elegant looks.",
+    "She elegant look."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She looks elegant."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "teenager",
+     "right": {
+      "uk": "підліток"
+     }
+    },
+    {
+     "left": "middle-aged",
+     "right": {
+      "uk": "середніх років"
+     }
+    },
+    {
+     "left": "elderly",
+     "right": {
+      "uk": "літній"
+     }
+    },
+    {
+     "left": "height",
+     "right": {
+      "uk": "зріст"
+     }
+    },
+    {
+     "left": "centimetre",
+     "right": {
+      "uk": "сантиметр"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про вік і зріст."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My son is a teenager.",
+   "prompt": {
+    "uk": "Прослухайте. Хто син?"
+   },
+   "options": {
+    "uk": [
+     "Підліток",
+     "Школяр",
+     "Літній"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Teenager."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The elderly woman is my neighbour.",
+   "prompt": {
+    "uk": "Прослухайте. Хто сусідка?"
+   },
+   "options": {
+    "uk": [
+     "Літня жінка",
+     "Підліток",
+     "Дівчинка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Elderly."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I'm one hundred and eighty centimetres tall.",
+   "prompt": {
+    "uk": "Прослухайте. Який зріст?"
+   },
+   "options": {
+    "uk": [
+     "180 см",
+     "170 см",
+     "190 см"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "180."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My son is a ___.",
+   "options": [
+    "teenager",
+    "elderly",
+    "height"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Teenager."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How ___ are you?",
+   "options": [
+    "tall",
+    "height",
+    "high"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How tall…?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm 180 ___ tall.",
+   "options": [
+    "centimetres",
+    "centimetre",
+    "heights"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Centimetres — множина."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати про зріст?"
+   },
+   "options": [
+    "How tall are you?",
+    "How high are you?",
+    "What tall are you?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How tall are you?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він чоловік середніх років."
+   },
+   "words": [
+    "He",
+    "is",
+    "a",
+    "middle-aged",
+    "man",
+    "are",
+    "elderly"
+   ],
+   "answer": [
+    "He",
+    "is",
+    "a",
+    "middle-aged",
+    "man"
+   ],
+   "explanation": {
+    "uk": "He is a middle-aged man."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Який у вас зріст?"
+   },
+   "answers": [
+    "What is your height",
+    "How tall are you"
+   ],
+   "explanation": {
+    "uk": "What is your height?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How tall is your brother?",
+   "prompt": {
+    "uk": "Метр вісімдесят п'ять. Що відповісти?"
+   },
+   "options": [
+    "He is one metre eighty-five.",
+    "He tall one eighty five.",
+    "He is eighty-five metre."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "One metre eighty-five."
+   }
+  }
+ ]
+}

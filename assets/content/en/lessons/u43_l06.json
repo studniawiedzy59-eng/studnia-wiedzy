@@ -1,0 +1,226 @@
+{
+ "id": "u43_l06",
+ "unit": "u43",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: зовнішність"
+ },
+ "goal": {
+  "uk": "Закріпити опис зовнішності."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: What does he look like?, is + прикметник і has + частина тіла, волосся (blonde, curly, straight, bald), прикмети (freckles, scar, tattoo), компліменти (handsome, pretty, stylish) і зріст."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What does she look like?",
+   "prompt": {
+    "uk": "Вона струнка й світловолоса. Що відповісти?"
+   },
+   "options": [
+    "She is slim and she has blonde hair.",
+    "She is slim and has blonde.",
+    "She slim and blonde hair is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is slim, has blonde hair."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ curly hair.",
+   "options": [
+    "has",
+    "is",
+    "have"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Has curly hair."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My uncle ___ bald.",
+   "options": [
+    "is",
+    "has",
+    "have"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is bald."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "У неї ластовиння."
+   },
+   "answers": [
+    "She has freckles"
+   ],
+   "explanation": {
+    "uk": "She has freckles."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "He is a middle-aged man. He has a moustache and glasses.",
+   "prompt": {
+    "uk": "Прослухайте. Що є в чоловіка?"
+   },
+   "options": {
+    "uk": [
+     "Вуса й окуляри",
+     "Борода й окуляри",
+     "Вуса й татуювання"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A moustache and glasses."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How ___ is your brother?",
+   "options": [
+    "tall",
+    "height",
+    "centimetres"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How tall…?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "She has straight hair.",
+    "She is straight hair.",
+    "She have straight hair."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Has straight hair."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Він дуже гарний."
+   },
+   "answers": [
+    "He is very handsome"
+   ],
+   "explanation": {
+    "uk": "He is very handsome."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вона висока й струнка."
+   },
+   "words": [
+    "She",
+    "is",
+    "tall",
+    "and",
+    "slim",
+    "has",
+    "are"
+   ],
+   "answer": [
+    "She",
+    "is",
+    "tall",
+    "and",
+    "slim"
+   ],
+   "explanation": {
+    "uk": "She is tall and slim."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "She looks elegant. Her jacket is stylish.",
+   "prompt": {
+    "uk": "Прослухайте. Що стильне?"
+   },
+   "options": {
+    "uk": [
+     "Куртка",
+     "Сукня",
+     "Сумка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Jacket."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My son is a ___.",
+   "options": [
+    "teenager",
+    "elderly",
+    "bald"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Teenager."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Can you describe your brother?",
+   "prompt": {
+    "uk": "Він високий, із кучерявим волоссям. Що відповісти?"
+   },
+   "options": [
+    "He is tall and has curly hair.",
+    "He tall and curly hair is.",
+    "He has tall and is curly."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is tall, has curly hair."
+   }
+  }
+ ]
+}

@@ -1,0 +1,318 @@
+{
+ "id": "u43_l04",
+ "unit": "u43",
+ "cefr": "A1",
+ "title": {
+  "uk": "Приємна зовнішність"
+ },
+ "goal": {
+  "uk": "Сказати комплімент про зовнішність."
+ },
+ "rule": {
+  "uk": "Handsome — гарний (про чоловіка), pretty — гарненька (про жінку, дівчину), good-looking — привабливий (про будь-кого). Stylish — стильний, elegant — елегантний. Зазвичай handsome кажуть про чоловіка, а pretty — про жінку."
+ },
+ "words": [
+  {
+   "id": "handsome",
+   "text": "handsome",
+   "ipa": "/ˈhænsəm/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "гарний (про чоловіка)"
+   },
+   "example": "He is very handsome.",
+   "exampleTranslation": {
+    "uk": "Він дуже гарний."
+   }
+  },
+  {
+   "id": "pretty",
+   "text": "pretty",
+   "ipa": "/ˈprɪti/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "гарненька"
+   },
+   "example": "She is pretty.",
+   "exampleTranslation": {
+    "uk": "Вона гарненька."
+   }
+  },
+  {
+   "id": "good-looking",
+   "text": "good-looking",
+   "ipa": "/ˌɡʊd ˈlʊkɪŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "привабливий"
+   },
+   "example": "They are good-looking.",
+   "exampleTranslation": {
+    "uk": "Вони привабливі."
+   }
+  },
+  {
+   "id": "stylish",
+   "text": "stylish",
+   "ipa": "/ˈstaɪlɪʃ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "стильний"
+   },
+   "example": "Your jacket is stylish.",
+   "exampleTranslation": {
+    "uk": "Ваша куртка стильна."
+   }
+  },
+  {
+   "id": "elegant",
+   "text": "elegant",
+   "ipa": "/ˈelɪɡənt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "елегантний"
+   },
+   "example": "She looks elegant.",
+   "exampleTranslation": {
+    "uk": "Вона виглядає елегантно."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What does he look like?",
+   "prompt": {
+    "uk": "Повторимо. Він має вуса. Що відповісти?"
+   },
+   "options": [
+    "He has a moustache.",
+    "He is a moustache.",
+    "He has moustaches is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He has a moustache."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "handsome",
+     "right": {
+      "uk": "гарний (чол.)"
+     }
+    },
+    {
+     "left": "pretty",
+     "right": {
+      "uk": "гарненька"
+     }
+    },
+    {
+     "left": "good-looking",
+     "right": {
+      "uk": "привабливий"
+     }
+    },
+    {
+     "left": "stylish",
+     "right": {
+      "uk": "стильний"
+     }
+    },
+    {
+     "left": "elegant",
+     "right": {
+      "uk": "елегантний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова-компліменти."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "He is very handsome.",
+   "prompt": {
+    "uk": "Прослухайте. Що кажуть про чоловіка?"
+   },
+   "options": {
+    "uk": [
+     "Що він гарний",
+     "Що він високий",
+     "Що він лисий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Handsome."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Your jacket is stylish.",
+   "prompt": {
+    "uk": "Прослухайте. Що стильне?"
+   },
+   "options": {
+    "uk": [
+     "Куртка",
+     "Капелюх",
+     "Сумка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The jacket."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "She looks elegant in that dress.",
+   "prompt": {
+    "uk": "Прослухайте. У чому вона елегантна?"
+   },
+   "options": {
+    "uk": [
+     "У сукні",
+     "У куртці",
+     "У костюмі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Dress."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She is ___. (гарненька)",
+   "options": [
+    "pretty",
+    "handsome",
+    "bald"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pretty — про жінку."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is very ___. (гарний)",
+   "options": [
+    "handsome",
+    "pretty",
+    "curly"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Handsome — про чоловіка."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Your jacket is ___.",
+   "options": [
+    "stylish",
+    "pale",
+    "scar"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Stylish."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово підійде і для чоловіка, і для жінки?"
+   },
+   "options": [
+    "good-looking",
+    "handsome",
+    "pretty"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Good-looking — універсальне."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вона виглядає елегантно."
+   },
+   "words": [
+    "She",
+    "looks",
+    "elegant",
+    "is",
+    "look"
+   ],
+   "answer": [
+    "She",
+    "looks",
+    "elegant"
+   ],
+   "explanation": {
+    "uk": "She looks elegant."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Він дуже гарний."
+   },
+   "answers": [
+    "He is very handsome"
+   ],
+   "explanation": {
+    "uk": "He is very handsome."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "You look great today!",
+   "prompt": {
+    "uk": "Подякуйте. Що відповісти?"
+   },
+   "options": [
+    "Thank you!",
+    "Thank you looking!",
+    "You welcome look."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thank you!"
+   }
+  }
+ ]
+}

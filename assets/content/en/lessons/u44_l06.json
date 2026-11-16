@@ -1,0 +1,224 @@
+{
+ "id": "u44_l06",
+ "unit": "u44",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: характер"
+ },
+ "goal": {
+  "uk": "Закріпити слова про характер."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: прикметники характеру (shy, polite, generous, patient, reliable, hard-working…), very / quite / a bit / too, і різницю What is he like? та What does he look like?"
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is your sister like?",
+   "prompt": {
+    "uk": "Вона добра й працьовита. Що відповісти?"
+   },
+   "options": [
+    "She is kind and hard-working.",
+    "She has kind and hard-working.",
+    "She looks like kind."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is kind and hard-working."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is ___ shy. He never talks to new people.",
+   "options": [
+    "very",
+    "too much",
+    "bit"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Very shy."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What does he ___ like? — He is tall.",
+   "options": [
+    "look",
+    "is",
+    "like"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What does he look like?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я довіряю своєму другові."
+   },
+   "answers": [
+    "I trust my friend"
+   ],
+   "explanation": {
+    "uk": "I trust my friend."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "She is quite shy, but she has a great sense of humour.",
+   "prompt": {
+    "uk": "Прослухайте. Що в неї чудове?"
+   },
+   "options": {
+    "uk": [
+     "Почуття гумору",
+     "Зовнішність",
+     "Голос"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sense of humour."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке запитання про характер?"
+   },
+   "options": [
+    "What is he like?",
+    "What does he look like?",
+    "Where is he from?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What is he like?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вона не дуже терпляча."
+   },
+   "words": [
+    "She",
+    "isn't",
+    "very",
+    "patient",
+    "is",
+    "too"
+   ],
+   "answer": [
+    "She",
+    "isn't",
+    "very",
+    "patient"
+   ],
+   "explanation": {
+    "uk": "She isn't very patient."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My uncle is ___. He gives presents to everyone.",
+   "options": [
+    "generous",
+    "rude",
+    "lazy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Generous."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Наш менеджер надійний."
+   },
+   "answers": [
+    "Our manager is reliable"
+   ],
+   "explanation": {
+    "uk": "Our manager is reliable."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "My sister is talkative and my brother is quiet.",
+   "prompt": {
+    "uk": "Прослухайте. Хто мовчазний?"
+   },
+   "options": {
+    "uk": [
+     "Брат",
+     "Сестра",
+     "Обоє"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Brother."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I get ___ with my colleagues.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Get on with."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is he honest?",
+   "prompt": {
+    "uk": "Так, дуже. Що відповісти?"
+   },
+   "options": [
+    "Yes, he is very honest.",
+    "Yes, he very honest.",
+    "Yes, he has honest."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, he is very honest."
+   }
+  }
+ ]
+}

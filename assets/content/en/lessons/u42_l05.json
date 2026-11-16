@@ -1,0 +1,320 @@
+{
+ "id": "u42_l05",
+ "unit": "u42",
+ "cefr": "A1",
+ "title": {
+  "uk": "Родинні свята"
+ },
+ "goal": {
+  "uk": "Розповісти, як родина збирається разом."
+ },
+ "rule": {
+  "uk": "Get together — збиратися разом: We get together on Sundays. Celebrate — святкувати. Anniversary — річниця. Get married — одружитися. Get married — «одружитися»; так кажуть найчастіше."
+ },
+ "words": [
+  {
+   "id": "get_together",
+   "text": "get together",
+   "ipa": "/ˌɡet təˈɡeðə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "збиратися разом"
+   },
+   "example": "We get together on Sundays.",
+   "exampleTranslation": {
+    "uk": "Ми збираємося по неділях."
+   }
+  },
+  {
+   "id": "celebrate",
+   "text": "celebrate",
+   "ipa": "/ˈselɪbreɪt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "святкувати"
+   },
+   "example": "We celebrate my birthday.",
+   "exampleTranslation": {
+    "uk": "Ми святкуємо мій день народження."
+   }
+  },
+  {
+   "id": "anniversary",
+   "text": "anniversary",
+   "ipa": "/ˌænɪˈvɜːsəri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "річниця"
+   },
+   "example": "Today is their wedding anniversary.",
+   "exampleTranslation": {
+    "uk": "Сьогодні річниця їхнього весілля."
+   }
+  },
+  {
+   "id": "get_married",
+   "text": "get married",
+   "ipa": "/ˌɡet ˈmærid/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "одружитися"
+   },
+   "example": "My cousin is getting married.",
+   "exampleTranslation": {
+    "uk": "Мій двоюрідний брат одружується."
+   }
+  },
+  {
+   "id": "relatives",
+   "text": "relatives",
+   "ipa": "/ˈrelətɪvz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "родичі"
+   },
+   "example": "All my relatives come.",
+   "exampleTranslation": {
+    "uk": "Усі мої родичі приходять."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How many sisters have you got?",
+   "prompt": {
+    "uk": "Повторимо. Дві. Що відповісти?"
+   },
+   "options": [
+    "I've got two sisters.",
+    "I have two sister.",
+    "I got two sisters."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I've got two sisters."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "get together",
+     "right": {
+      "uk": "збиратися разом"
+     }
+    },
+    {
+     "left": "celebrate",
+     "right": {
+      "uk": "святкувати"
+     }
+    },
+    {
+     "left": "anniversary",
+     "right": {
+      "uk": "річниця"
+     }
+    },
+    {
+     "left": "get married",
+     "right": {
+      "uk": "одружитися"
+     }
+    },
+    {
+     "left": "relatives",
+     "right": {
+      "uk": "родичі"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про родинні свята."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "We get together on Sundays.",
+   "prompt": {
+    "uk": "Прослухайте. Коли збирається родина?"
+   },
+   "options": {
+    "uk": [
+     "По неділях",
+     "По суботах",
+     "По п'ятницях"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sundays."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Today is their wedding anniversary.",
+   "prompt": {
+    "uk": "Прослухайте. Що сьогодні?"
+   },
+   "options": {
+    "uk": [
+     "Річниця весілля",
+     "День народження",
+     "Новий рік"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Anniversary."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My cousin is getting married in June.",
+   "prompt": {
+    "uk": "Прослухайте. Коли весілля?"
+   },
+   "options": {
+    "uk": [
+     "У червні",
+     "У липні",
+     "У травні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "June."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ my birthday every year.",
+   "options": [
+    "celebrate",
+    "anniversary",
+    "relatives"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Celebrate."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We get ___ on Sundays.",
+   "options": [
+    "together",
+    "married",
+    "relatives"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Get together."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My cousin is getting ___.",
+   "options": [
+    "married",
+    "together",
+    "celebrate"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Getting married."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Ми збираємося по неділях»?"
+   },
+   "options": [
+    "We get together on Sundays.",
+    "We get together in Sundays.",
+    "We are get together Sundays."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On Sundays."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми святкуємо мій день народження."
+   },
+   "words": [
+    "We",
+    "celebrate",
+    "my",
+    "birthday",
+    "celebrates",
+    "are"
+   ],
+   "answer": [
+    "We",
+    "celebrate",
+    "my",
+    "birthday"
+   ],
+   "explanation": {
+    "uk": "We celebrate my birthday."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Усі мої родичі приходять."
+   },
+   "answers": [
+    "All my relatives come"
+   ],
+   "explanation": {
+    "uk": "All my relatives come."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "When does your family get together?",
+   "prompt": {
+    "uk": "На свята. Що відповісти?"
+   },
+   "options": [
+    "We get together on holidays.",
+    "We together on holidays get.",
+    "We are together holidays."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We get together on holidays."
+   }
+  }
+ ]
+}

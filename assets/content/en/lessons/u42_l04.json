@@ -1,0 +1,323 @@
+{
+ "id": "u42_l04",
+ "unit": "u42",
+ "cefr": "A1",
+ "title": {
+  "uk": "Скільки нас?"
+ },
+ "goal": {
+  "uk": "Розповісти про розмір родини."
+ },
+ "rule": {
+  "uk": "Have got — те саме, що have, але розмовніше: I've got a brother. She's got two sisters. Запитання: Have you got…? — Yes, I have. / No, I haven't. Скорочення: I've, he's, she's."
+ },
+ "words": [
+  {
+   "id": "have_got",
+   "text": "have got",
+   "ipa": "/ˌhæv ˈɡɒt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "мати (розмовне)"
+   },
+   "example": "I've got a brother.",
+   "exampleTranslation": {
+    "uk": "У мене є брат."
+   }
+  },
+  {
+   "id": "big_family",
+   "text": "big family",
+   "ipa": "/ˌbɪɡ ˈfæməli/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "велика родина"
+   },
+   "example": "We have a big family.",
+   "exampleTranslation": {
+    "uk": "У нас велика родина."
+   }
+  },
+  {
+   "id": "havent",
+   "text": "haven't",
+   "ipa": "/ˈhævnt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "не маю"
+   },
+   "example": "I haven't got a sister.",
+   "exampleTranslation": {
+    "uk": "У мене немає сестри."
+   }
+  },
+  {
+   "id": "hasnt",
+   "text": "hasn't",
+   "ipa": "/ˈhæznt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "не має"
+   },
+   "example": "She hasn't got a car.",
+   "exampleTranslation": {
+    "uk": "У неї немає машини."
+   }
+  },
+  {
+   "id": "only",
+   "text": "only",
+   "ipa": "/ˈəʊnli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "лише"
+   },
+   "example": "I've only got one brother.",
+   "exampleTranslation": {
+    "uk": "У мене лише один брат."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Whose bag is this?",
+   "prompt": {
+    "uk": "Повторимо. Мами. Що відповісти?"
+   },
+   "options": [
+    "It's my mum's.",
+    "It's my mum.",
+    "It's of my mum."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's my mum's."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "have got",
+     "right": {
+      "uk": "мати"
+     }
+    },
+    {
+     "left": "big family",
+     "right": {
+      "uk": "велика родина"
+     }
+    },
+    {
+     "left": "haven't",
+     "right": {
+      "uk": "не маю"
+     }
+    },
+    {
+     "left": "hasn't",
+     "right": {
+      "uk": "не має"
+     }
+    },
+    {
+     "left": "only",
+     "right": {
+      "uk": "лише"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про розмір родини."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I've got two brothers and a sister.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки в людини братів?"
+   },
+   "options": {
+    "uk": [
+     "Два",
+     "Три",
+     "Один"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Two brothers."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She hasn't got a car.",
+   "prompt": {
+    "uk": "Прослухайте. Чого немає в жінки?"
+   },
+   "options": {
+    "uk": [
+     "Машини",
+     "Будинку",
+     "Телефона"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A car."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "How many brothers have you got?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Про кількість братів",
+     "Про вік брата",
+     "Про ім'я брата"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "How many."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ got a brother.",
+   "options": [
+    "have",
+    "has",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have got."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ got two sisters.",
+   "options": [
+    "has",
+    "have",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She has got."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ got a car.",
+   "options": [
+    "haven't",
+    "hasn't",
+    "don't has"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I haven't got."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "Have you got a sister?",
+    "Do you got a sister?",
+    "Are you got a sister?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Have you got…?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене немає сестри."
+   },
+   "words": [
+    "I",
+    "haven't",
+    "got",
+    "a",
+    "sister",
+    "hasn't",
+    "am"
+   ],
+   "answer": [
+    "I",
+    "haven't",
+    "got",
+    "a",
+    "sister"
+   ],
+   "explanation": {
+    "uk": "I haven't got a sister."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У нас велика родина."
+   },
+   "answers": [
+    "We have a big family",
+    "We've got a big family"
+   ],
+   "explanation": {
+    "uk": "We have a big family."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Have you got a brother?",
+   "prompt": {
+    "uk": "Ні. Що відповісти?"
+   },
+   "options": [
+    "No, I haven't.",
+    "No, I don't have.",
+    "No, I'm not."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I haven't."
+   }
+  }
+ ]
+}

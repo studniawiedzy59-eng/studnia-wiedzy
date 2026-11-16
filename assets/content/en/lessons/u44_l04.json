@@ -1,0 +1,321 @@
+{
+ "id": "u44_l04",
+ "unit": "u44",
+ "cefr": "A1",
+ "title": {
+  "uk": "Дуже, трохи, надто"
+ },
+ "goal": {
+  "uk": "Додати відтінок до характеру."
+ },
+ "rule": {
+  "uk": "Перед прикметником: very — «дуже», quite — «досить», a bit — «трохи», too — «занадто». He is quite shy. She is a bit lazy. He talks too much. Not very — «не дуже»: She isn't very patient."
+ },
+ "words": [
+  {
+   "id": "quite",
+   "text": "quite",
+   "ipa": "/kwaɪt/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "досить"
+   },
+   "example": "He is quite shy.",
+   "exampleTranslation": {
+    "uk": "Він досить сором'язливий."
+   }
+  },
+  {
+   "id": "a_bit",
+   "text": "a bit",
+   "ipa": "/ə ˈbɪt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "трохи"
+   },
+   "example": "She is a bit lazy.",
+   "exampleTranslation": {
+    "uk": "Вона трохи лінива."
+   }
+  },
+  {
+   "id": "extremely",
+   "text": "extremely",
+   "ipa": "/ɪkˈstriːmli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "надзвичайно"
+   },
+   "example": "She is extremely patient.",
+   "exampleTranslation": {
+    "uk": "Вона надзвичайно терпляча."
+   }
+  },
+  {
+   "id": "not_very",
+   "text": "not very",
+   "ipa": "/ˌnɒt ˈveri/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "не дуже"
+   },
+   "example": "She isn't very patient.",
+   "exampleTranslation": {
+    "uk": "Вона не дуже терпляча."
+   }
+  },
+  {
+   "id": "rather",
+   "text": "rather",
+   "ipa": "/ˈrɑːðə/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "досить, доволі"
+   },
+   "example": "He is rather quiet.",
+   "exampleTranslation": {
+    "uk": "Він доволі мовчазний."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Our manager is ___.",
+   "options": [
+    "reliable",
+    "talkative",
+    "rude"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Reliable."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "quite",
+     "right": {
+      "uk": "досить"
+     }
+    },
+    {
+     "left": "a bit",
+     "right": {
+      "uk": "трохи"
+     }
+    },
+    {
+     "left": "extremely",
+     "right": {
+      "uk": "надзвичайно"
+     }
+    },
+    {
+     "left": "not very",
+     "right": {
+      "uk": "не дуже"
+     }
+    },
+    {
+     "left": "rather",
+     "right": {
+      "uk": "доволі"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова, що змінюють значення."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "He is quite shy.",
+   "prompt": {
+    "uk": "Прослухайте. Який він?"
+   },
+   "options": {
+    "uk": [
+     "Досить сором'язливий",
+     "Дуже грубий",
+     "Трохи лінивий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Quite shy."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She is a bit lazy.",
+   "prompt": {
+    "uk": "Прослухайте. Яка вона?"
+   },
+   "options": {
+    "uk": [
+     "Трохи лінива",
+     "Дуже лінива",
+     "Працьовита"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A bit lazy."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "He talks too much.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Він говорить занадто багато",
+     "Він мало говорить",
+     "Він добре говорить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Too much."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She is ___ shy. She never talks to new people.",
+   "options": [
+    "very",
+    "a bit",
+    "not very"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Very — дуже."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She isn't ___ patient.",
+   "options": [
+    "very",
+    "too",
+    "quite not"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Not very."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is ___ honest.",
+   "options": [
+    "really",
+    "too",
+    "a bit of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Really honest."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке речення означає «Він говорить занадто багато»?"
+   },
+   "options": [
+    "He talks too much.",
+    "He talks very much too.",
+    "He too talks much."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Too much."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він досить сором'язливий."
+   },
+   "words": [
+    "He",
+    "is",
+    "quite",
+    "shy",
+    "has",
+    "too"
+   ],
+   "answer": [
+    "He",
+    "is",
+    "quite",
+    "shy"
+   ],
+   "explanation": {
+    "uk": "He is quite shy."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона не дуже терпляча."
+   },
+   "answers": [
+    "She isn't very patient",
+    "She is not very patient"
+   ],
+   "explanation": {
+    "uk": "She isn't very patient."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is your sister shy?",
+   "prompt": {
+    "uk": "Трохи. Що відповісти?"
+   },
+   "options": [
+    "She is a bit shy.",
+    "She a bit is shy.",
+    "She is bit a shy."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She is a bit shy."
+   }
+  }
+ ]
+}

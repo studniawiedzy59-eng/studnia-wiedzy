@@ -1,0 +1,325 @@
+{
+ "id": "u42_l01",
+ "unit": "u42",
+ "cefr": "A1",
+ "title": {
+  "uk": "Родичі"
+ },
+ "goal": {
+  "uk": "Назвати родичів, окрім найближчих."
+ },
+ "rule": {
+  "uk": "Раніше ви вчили mother, father, brother, sister, uncle, aunt, cousin. Додаємо: nephew — племінник, niece — племінниця, grandparents — бабуся й дідусь разом, relatives — родичі, twins — близнюки. Relative — один родич, relatives — кілька."
+ },
+ "words": [
+  {
+   "id": "nephew",
+   "text": "nephew",
+   "ipa": "/ˈnefjuː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "племінник"
+   },
+   "example": "My nephew is five.",
+   "exampleTranslation": {
+    "uk": "Моєму племіннику п'ять років."
+   }
+  },
+  {
+   "id": "niece",
+   "text": "niece",
+   "ipa": "/niːs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "племінниця"
+   },
+   "example": "My niece likes dancing.",
+   "exampleTranslation": {
+    "uk": "Моя племінниця любить танцювати."
+   }
+  },
+  {
+   "id": "grandparents",
+   "text": "grandparents",
+   "ipa": "/ˈɡrænpeərənts/",
+   "pos": "noun",
+   "translation": {
+    "uk": "бабуся й дідусь"
+   },
+   "example": "My grandparents live in a village.",
+   "exampleTranslation": {
+    "uk": "Мої бабуся й дідусь живуть у селі."
+   }
+  },
+  {
+   "id": "relative",
+   "text": "relative",
+   "ipa": "/ˈrelətɪv/",
+   "pos": "noun",
+   "translation": {
+    "uk": "родич"
+   },
+   "example": "He is my relative.",
+   "exampleTranslation": {
+    "uk": "Він мій родич."
+   }
+  },
+  {
+   "id": "twins",
+   "text": "twins",
+   "ipa": "/twɪnz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "близнюки"
+   },
+   "example": "My sisters are twins.",
+   "exampleTranslation": {
+    "uk": "Мої сестри — близнючки."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where were you born?",
+   "prompt": {
+    "uk": "Повторимо. У Львові. Що відповісти?"
+   },
+   "options": [
+    "I was born in Lviv.",
+    "I born in Lviv.",
+    "I am born Lviv."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I was born in Lviv."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "nephew",
+     "right": {
+      "uk": "племінник"
+     }
+    },
+    {
+     "left": "niece",
+     "right": {
+      "uk": "племінниця"
+     }
+    },
+    {
+     "left": "grandparents",
+     "right": {
+      "uk": "бабуся й дідусь"
+     }
+    },
+    {
+     "left": "relative",
+     "right": {
+      "uk": "родич"
+     }
+    },
+    {
+     "left": "twins",
+     "right": {
+      "uk": "близнюки"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про родичів."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My nephew is five.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки років племіннику?"
+   },
+   "options": {
+    "uk": [
+     "П'ять",
+     "Шість",
+     "Сім"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Five."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "My grandparents live in a village.",
+   "prompt": {
+    "uk": "Прослухайте. Де живуть бабуся й дідусь?"
+   },
+   "options": {
+    "uk": [
+     "У селі",
+     "У місті",
+     "За кордоном"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In a village."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My sisters are twins.",
+   "prompt": {
+    "uk": "Прослухайте. Хто такі сестри?"
+   },
+   "options": {
+    "uk": [
+     "Близнючки",
+     "Подруги",
+     "Колеги"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twins."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ is five years old.",
+   "options": [
+    "nephew",
+    "twins",
+    "relative"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Nephew — племінник."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ live in a village.",
+   "options": [
+    "grandparents",
+    "nephew",
+    "niece"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Grandparents."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My sisters ___ twins.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sisters — are."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Моя племінниця»?"
+   },
+   "options": [
+    "My niece",
+    "My nephew",
+    "My relatives"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Niece — племінниця."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мої бабуся й дідусь живуть у селі."
+   },
+   "words": [
+    "My",
+    "grandparents",
+    "live",
+    "in",
+    "a",
+    "village",
+    "lives",
+    "on"
+   ],
+   "answer": [
+    "My",
+    "grandparents",
+    "live",
+    "in",
+    "a",
+    "village"
+   ],
+   "explanation": {
+    "uk": "My grandparents live in a village."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Він мій родич."
+   },
+   "answers": [
+    "He is my relative",
+    "He's my relative"
+   ],
+   "explanation": {
+    "uk": "He is my relative."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you have twins in your family?",
+   "prompt": {
+    "uk": "Так, ваші сестри. Що відповісти?"
+   },
+   "options": [
+    "Yes, my sisters are twins.",
+    "Yes, my sisters is twins.",
+    "Yes, twins are I."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, my sisters are twins."
+   }
+  }
+ ]
+}

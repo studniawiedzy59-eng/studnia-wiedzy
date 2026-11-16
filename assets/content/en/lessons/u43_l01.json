@@ -1,0 +1,322 @@
+{
+ "id": "u43_l01",
+ "unit": "u43",
+ "cefr": "A1",
+ "title": {
+  "uk": "Який він на вигляд?"
+ },
+ "goal": {
+  "uk": "Спитати про зовнішність і відповісти загалом."
+ },
+ "rule": {
+  "uk": "What does he look like? — «Який він на вигляд?» Відповідь: He is tall and slim. Is + прикметник (tall, slim) і has + частина тіла (He has dark hair). Describe — описувати, appearance — зовнішність."
+ },
+ "words": [
+  {
+   "id": "look_like",
+   "text": "look like",
+   "ipa": "/ˈlʊk laɪk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "виглядати як"
+   },
+   "example": "What does she look like?",
+   "exampleTranslation": {
+    "uk": "Як вона виглядає?"
+   }
+  },
+  {
+   "id": "describe",
+   "text": "describe",
+   "ipa": "/dɪˈskraɪb/",
+   "pos": "verb",
+   "translation": {
+    "uk": "описувати"
+   },
+   "example": "Can you describe him?",
+   "exampleTranslation": {
+    "uk": "Ви можете його описати?"
+   }
+  },
+  {
+   "id": "appearance",
+   "text": "appearance",
+   "ipa": "/əˈpɪərəns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "зовнішність"
+   },
+   "example": "His appearance is neat.",
+   "exampleTranslation": {
+    "uk": "Його зовнішність охайна."
+   }
+  },
+  {
+   "id": "slim",
+   "text": "slim",
+   "ipa": "/slɪm/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "стрункий"
+   },
+   "example": "She is tall and slim.",
+   "exampleTranslation": {
+    "uk": "Вона висока й струнка."
+   }
+  },
+  {
+   "id": "medium_height",
+   "text": "medium height",
+   "ipa": "/ˌmiːdiəm ˈhaɪt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "середнього зросту"
+   },
+   "example": "He is of medium height.",
+   "exampleTranslation": {
+    "uk": "Він середнього зросту."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Have you got a brother?",
+   "prompt": {
+    "uk": "Повторимо. Ні. Що відповісти?"
+   },
+   "options": [
+    "No, I haven't.",
+    "No, I don't have.",
+    "No, I'm not."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I haven't."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "look like",
+     "right": {
+      "uk": "виглядати як"
+     }
+    },
+    {
+     "left": "describe",
+     "right": {
+      "uk": "описувати"
+     }
+    },
+    {
+     "left": "appearance",
+     "right": {
+      "uk": "зовнішність"
+     }
+    },
+    {
+     "left": "slim",
+     "right": {
+      "uk": "стрункий"
+     }
+    },
+    {
+     "left": "medium height",
+     "right": {
+      "uk": "середнього зросту"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для опису зовнішності."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "What does she look like?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Як вона виглядає",
+     "Де вона живе",
+     "Ким вона працює"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Look like."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She is tall and slim.",
+   "prompt": {
+    "uk": "Прослухайте. Яка жінка?"
+   },
+   "options": {
+    "uk": [
+     "Висока й струнка",
+     "Низька й струнка",
+     "Висока й повна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tall and slim."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "He is of medium height.",
+   "prompt": {
+    "uk": "Прослухайте. Який він на зріст?"
+   },
+   "options": {
+    "uk": [
+     "Середній",
+     "Високий",
+     "Низький"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Medium height."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What does he ___ like?",
+   "options": [
+    "look",
+    "looks",
+    "looking"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What does he look like?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She is tall and ___.",
+   "options": [
+    "slim",
+    "slims",
+    "slimming"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Slim."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can you ___ him?",
+   "options": [
+    "describe",
+    "appearance",
+    "slim"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Describe."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати про зовнішність?"
+   },
+   "options": [
+    "What does he look like?",
+    "How does he look like?",
+    "What he looks like?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What does he look like?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вона висока й струнка."
+   },
+   "words": [
+    "She",
+    "is",
+    "tall",
+    "and",
+    "slim",
+    "has",
+    "are"
+   ],
+   "answer": [
+    "She",
+    "is",
+    "tall",
+    "and",
+    "slim"
+   ],
+   "explanation": {
+    "uk": "She is tall and slim."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Як вона виглядає?"
+   },
+   "answers": [
+    "What does she look like"
+   ],
+   "explanation": {
+    "uk": "What does she look like?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What does your brother look like?",
+   "prompt": {
+    "uk": "Він високий. Що відповісти?"
+   },
+   "options": [
+    "He is tall.",
+    "He has tall.",
+    "He looks like tall."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He is tall."
+   }
+  }
+ ]
+}

@@ -1,0 +1,230 @@
+{
+ "id": "u42_l06",
+ "unit": "u42",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: сім'я й родичі"
+ },
+ "goal": {
+  "uk": "Закріпити слова про родину й присвійний 's."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: родичів (nephew, niece, grandparents), older / younger, Whose…? і 's, have got / haven't got, get together, celebrate, get married."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ is five years old. (племінник)",
+   "options": [
+    "nephew",
+    "niece",
+    "twins"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Nephew — племінник."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "Have you got a brother?",
+   "prompt": {
+    "uk": "Так, старший. Що відповісти?"
+   },
+   "options": [
+    "Yes, I've got an older brother.",
+    "Yes, I got older brother.",
+    "Yes, I have older a brother."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I've got an older brother."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is my ___ house.",
+   "options": [
+    "parents'",
+    "parents's",
+    "parent"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Parents' house."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене немає сестри."
+   },
+   "answers": [
+    "I haven't got a sister",
+    "I don't have a sister"
+   ],
+   "explanation": {
+    "uk": "I haven't got a sister."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I'm an only child. My cousin is like a brother.",
+   "prompt": {
+    "uk": "Прослухайте. Хто як брат?"
+   },
+   "options": {
+    "uk": [
+     "Двоюрідний брат",
+     "Племінник",
+     "Друг"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cousin."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ got two sisters.",
+   "options": [
+    "has",
+    "have",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She has got."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "He is two years older than me.",
+    "He is two years old than me.",
+    "He two years older me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Older than."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Чий це телефон?"
+   },
+   "answers": [
+    "Whose phone is this",
+    "Whose is this phone"
+   ],
+   "explanation": {
+    "uk": "Whose phone is this?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We get ___ on Sundays.",
+   "options": [
+    "together",
+    "married",
+    "anniversary"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Get together."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Today is my parents' wedding anniversary. We celebrate.",
+   "prompt": {
+    "uk": "Прослухайте. Що святкують?"
+   },
+   "options": {
+    "uk": [
+     "Річницю весілля батьків",
+     "День народження",
+     "Новий рік"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Anniversary."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мій молодший брат — студент."
+   },
+   "words": [
+    "My",
+    "younger",
+    "brother",
+    "is",
+    "a",
+    "student",
+    "older",
+    "are"
+   ],
+   "answer": [
+    "My",
+    "younger",
+    "brother",
+    "is",
+    "a",
+    "student"
+   ],
+   "explanation": {
+    "uk": "My younger brother is a student."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How many relatives come?",
+   "prompt": {
+    "uk": "Багато. Що відповісти?"
+   },
+   "options": [
+    "A lot of relatives come.",
+    "A lot relatives comes.",
+    "Much relatives come."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A lot of relatives come."
+   }
+  }
+ ]
+}

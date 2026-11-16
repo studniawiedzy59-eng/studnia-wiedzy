@@ -1,0 +1,321 @@
+{
+ "id": "u44_l03",
+ "unit": "u44",
+ "cefr": "A1",
+ "title": {
+  "uk": "Працьовитий і балакучий"
+ },
+ "goal": {
+  "uk": "Описати риси на роботі й у спілкуванні."
+ },
+ "rule": {
+  "uk": "Hard-working — працьовитий, talkative — балакучий, confident — впевнений, curious — допитливий, reliable — надійний. Приклад: Our manager is reliable. My little brother is curious: he asks a lot of questions."
+ },
+ "words": [
+  {
+   "id": "hard-working",
+   "text": "hard-working",
+   "ipa": "/ˌhɑːd ˈwɜːkɪŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "працьовитий"
+   },
+   "example": "She is hard-working.",
+   "exampleTranslation": {
+    "uk": "Вона працьовита."
+   }
+  },
+  {
+   "id": "talkative",
+   "text": "talkative",
+   "ipa": "/ˈtɔːkətɪv/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "балакучий"
+   },
+   "example": "My sister is talkative.",
+   "exampleTranslation": {
+    "uk": "Моя сестра балакуча."
+   }
+  },
+  {
+   "id": "confident",
+   "text": "confident",
+   "ipa": "/ˈkɒnfɪdənt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "впевнений"
+   },
+   "example": "He is confident.",
+   "exampleTranslation": {
+    "uk": "Він упевнений у собі."
+   }
+  },
+  {
+   "id": "curious",
+   "text": "curious",
+   "ipa": "/ˈkjʊəriəs/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "допитливий"
+   },
+   "example": "Children are curious.",
+   "exampleTranslation": {
+    "uk": "Діти допитливі."
+   }
+  },
+  {
+   "id": "reliable",
+   "text": "reliable",
+   "ipa": "/rɪˈlaɪəbl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "надійний"
+   },
+   "example": "Our manager is reliable.",
+   "exampleTranslation": {
+    "uk": "Наш менеджер надійний."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is your neighbour helpful?",
+   "prompt": {
+    "uk": "Повторимо. Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, he is.",
+    "Yes, he does.",
+    "Yes, he has."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, he is."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "hard-working",
+     "right": {
+      "uk": "працьовитий"
+     }
+    },
+    {
+     "left": "talkative",
+     "right": {
+      "uk": "балакучий"
+     }
+    },
+    {
+     "left": "confident",
+     "right": {
+      "uk": "впевнений"
+     }
+    },
+    {
+     "left": "curious",
+     "right": {
+      "uk": "допитливий"
+     }
+    },
+    {
+     "left": "reliable",
+     "right": {
+      "uk": "надійний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Риси характеру."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "She is hard-working.",
+   "prompt": {
+    "uk": "Прослухайте. Яка вона?"
+   },
+   "options": {
+    "uk": [
+     "Працьовита",
+     "Лінива",
+     "Сором'язлива"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hard-working."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "My sister is very talkative.",
+   "prompt": {
+    "uk": "Прослухайте. Яка сестра?"
+   },
+   "options": {
+    "uk": [
+     "Балакуча",
+     "Мовчазна",
+     "Грубувата"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Talkative."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Our manager is reliable.",
+   "prompt": {
+    "uk": "Прослухайте. Який менеджер?"
+   },
+   "options": {
+    "uk": [
+     "Надійний",
+     "Грубий",
+     "Лінивий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Reliable."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My sister talks a lot. She is ___.",
+   "options": [
+    "talkative",
+    "shy",
+    "calm"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Talkative."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Children are ___. They ask a lot of questions.",
+   "options": [
+    "curious",
+    "lazy",
+    "rude"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Curious."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is very ___. He believes in himself.",
+   "options": [
+    "confident",
+    "shy",
+    "lazy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Confident."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово описує людину, на яку можна покластися?"
+   },
+   "options": [
+    "reliable",
+    "talkative",
+    "curious"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Reliable."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Наш менеджер надійний."
+   },
+   "words": [
+    "Our",
+    "manager",
+    "is",
+    "reliable",
+    "are",
+    "lazy"
+   ],
+   "answer": [
+    "Our",
+    "manager",
+    "is",
+    "reliable"
+   ],
+   "explanation": {
+    "uk": "Our manager is reliable."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона працьовита."
+   },
+   "answers": [
+    "She is hard-working",
+    "She's hard-working"
+   ],
+   "explanation": {
+    "uk": "She is hard-working."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is your colleague talkative?",
+   "prompt": {
+    "uk": "Ні, він мовчазний. Що відповісти?"
+   },
+   "options": [
+    "No, he is quiet.",
+    "No, he quiet is.",
+    "No, he has quiet."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, he is quiet."
+   }
+  }
+ ]
+}

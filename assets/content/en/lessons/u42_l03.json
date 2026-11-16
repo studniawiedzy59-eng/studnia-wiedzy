@@ -1,0 +1,323 @@
+{
+ "id": "u42_l03",
+ "unit": "u42",
+ "cefr": "A1",
+ "title": {
+  "uk": "Чий це? Присвійний 's"
+ },
+ "goal": {
+  "uk": "Показувати, кому належить річ чи людина."
+ },
+ "rule": {
+  "uk": "Whose…? — «Чий?». Відповідь: ім'я + 's: It's Tom's book. Anna's mother. Для багатьох людей — s': my parents' house — будинок моїх батьків. Тут 's не означає «is», це «належить»."
+ },
+ "words": [
+  {
+   "id": "mum",
+   "text": "mum",
+   "ipa": "/mʌm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мама (розмовне)"
+   },
+   "example": "My mum is a teacher.",
+   "exampleTranslation": {
+    "uk": "Моя мама — вчителька."
+   }
+  },
+  {
+   "id": "dad",
+   "text": "dad",
+   "ipa": "/dæd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тато (розмовне)"
+   },
+   "example": "My dad is a driver.",
+   "exampleTranslation": {
+    "uk": "Мій тато — водій."
+   }
+  },
+  {
+   "id": "parents",
+   "text": "parents'",
+   "ipa": "/ˈpeərənts/",
+   "pos": "noun",
+   "translation": {
+    "uk": "батьків (належить)"
+   },
+   "example": "This is my parents' house.",
+   "exampleTranslation": {
+    "uk": "Це будинок моїх батьків."
+   }
+  },
+  {
+   "id": "toms",
+   "text": "Tom's",
+   "ipa": "/ˈtɒmz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "Томів"
+   },
+   "example": "This is Tom's brother.",
+   "exampleTranslation": {
+    "uk": "Це брат Тома."
+   }
+  },
+  {
+   "id": "belong_to",
+   "text": "belong to",
+   "ipa": "/bɪˈlɒŋ tə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "належати"
+   },
+   "example": "This bag belongs to Anna.",
+   "exampleTranslation": {
+    "uk": "Ця сумка належить Анні."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Are you older than your brother?",
+   "prompt": {
+    "uk": "Повторимо. Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, I am.",
+    "Yes, I do.",
+    "Yes, I older."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I am."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "mum",
+     "right": {
+      "uk": "мама"
+     }
+    },
+    {
+     "left": "dad",
+     "right": {
+      "uk": "тато"
+     }
+    },
+    {
+     "left": "parents'",
+     "right": {
+      "uk": "батьків"
+     }
+    },
+    {
+     "left": "Tom's",
+     "right": {
+      "uk": "Томів"
+     }
+    },
+    {
+     "left": "belong to",
+     "right": {
+      "uk": "належати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для приналежності."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "This is my parents' house.",
+   "prompt": {
+    "uk": "Прослухайте. Чий це будинок?"
+   },
+   "options": {
+    "uk": [
+     "Батьків",
+     "Друга",
+     "Сусіда"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Parents'."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "This is Tom's brother.",
+   "prompt": {
+    "uk": "Прослухайте. Хто це?"
+   },
+   "options": {
+    "uk": [
+     "Брат Тома",
+     "Брат Анни",
+     "Тато Тома"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tom's brother."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "This bag belongs to Anna.",
+   "prompt": {
+    "uk": "Прослухайте. Чия сумка?"
+   },
+   "options": {
+    "uk": [
+     "Анни",
+     "Тома",
+     "Ольги"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Anna's."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is ___ brother. (Tom)",
+   "options": [
+    "Tom's",
+    "Tom",
+    "Toms"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Tom's brother."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is my ___ house.",
+   "options": [
+    "parents'",
+    "parents's",
+    "parent"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Parents' house."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ book is this? — It's Anna's.",
+   "options": [
+    "Whose",
+    "Who",
+    "What"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Whose — чий."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Мамина сумка»?"
+   },
+   "options": [
+    "My mum's bag",
+    "My mum bag",
+    "My mums bag"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Mum's — належить мамі."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це мамина сумка."
+   },
+   "words": [
+    "This",
+    "is",
+    "my",
+    "mum's",
+    "bag",
+    "mums",
+    "are"
+   ],
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "mum's",
+    "bag"
+   ],
+   "explanation": {
+    "uk": "This is my mum's bag."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Чия це книжка?"
+   },
+   "answers": [
+    "Whose book is this",
+    "Whose is this book"
+   ],
+   "explanation": {
+    "uk": "Whose book is this?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Whose phone is this?",
+   "prompt": {
+    "uk": "Це Томів телефон. Що відповісти?"
+   },
+   "options": [
+    "It's Tom's.",
+    "It's Tom.",
+    "It's of Tom."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's Tom's."
+   }
+  }
+ ]
+}

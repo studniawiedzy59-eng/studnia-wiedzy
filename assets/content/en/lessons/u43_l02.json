@@ -1,0 +1,320 @@
+{
+ "id": "u43_l02",
+ "unit": "u43",
+ "cefr": "A1",
+ "title": {
+  "uk": "Волосся"
+ },
+ "goal": {
+  "uk": "Описати волосся й бороду."
+ },
+ "rule": {
+  "uk": "Волосся: He has curly hair — кучеряве, straight hair — пряме, blonde hair — світле. Bald — лисий. Moustache — вуса. Has + опис + hair. Is bald — без hair: He is bald."
+ },
+ "words": [
+  {
+   "id": "blonde",
+   "text": "blonde",
+   "ipa": "/blɒnd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "світлий (про волосся)"
+   },
+   "example": "She has blonde hair.",
+   "exampleTranslation": {
+    "uk": "У неї світле волосся."
+   }
+  },
+  {
+   "id": "curly",
+   "text": "curly",
+   "ipa": "/ˈkɜːli/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "кучерявий"
+   },
+   "example": "He has curly hair.",
+   "exampleTranslation": {
+    "uk": "У нього кучеряве волосся."
+   }
+  },
+  {
+   "id": "straight",
+   "text": "straight",
+   "ipa": "/streɪt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "прямий (про волосся)"
+   },
+   "example": "She has straight hair.",
+   "exampleTranslation": {
+    "uk": "У неї пряме волосся."
+   }
+  },
+  {
+   "id": "bald",
+   "text": "bald",
+   "ipa": "/bɔːld/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "лисий"
+   },
+   "example": "My uncle is bald.",
+   "exampleTranslation": {
+    "uk": "Мій дядько лисий."
+   }
+  },
+  {
+   "id": "moustache",
+   "text": "moustache",
+   "ipa": "/məˈstɑːʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вуса"
+   },
+   "example": "He has a moustache.",
+   "exampleTranslation": {
+    "uk": "У нього вуса."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What does she look like?",
+   "prompt": {
+    "uk": "Повторимо. Вона висока. Що відповісти?"
+   },
+   "options": [
+    "She is tall.",
+    "She has tall.",
+    "She tall is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She is tall."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "blonde",
+     "right": {
+      "uk": "світлий"
+     }
+    },
+    {
+     "left": "curly",
+     "right": {
+      "uk": "кучерявий"
+     }
+    },
+    {
+     "left": "straight",
+     "right": {
+      "uk": "прямий"
+     }
+    },
+    {
+     "left": "bald",
+     "right": {
+      "uk": "лисий"
+     }
+    },
+    {
+     "left": "moustache",
+     "right": {
+      "uk": "вуса"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про волосся."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "She has blonde hair.",
+   "prompt": {
+    "uk": "Прослухайте. Яке в неї волосся?"
+   },
+   "options": {
+    "uk": [
+     "Світле",
+     "Темне",
+     "Руде"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Blonde."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He has curly hair.",
+   "prompt": {
+    "uk": "Прослухайте. Яке в нього волосся?"
+   },
+   "options": {
+    "uk": [
+     "Кучеряве",
+     "Пряме",
+     "Лисий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Curly."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My uncle is bald and he has a moustache.",
+   "prompt": {
+    "uk": "Прослухайте. Що є в дядька?"
+   },
+   "options": {
+    "uk": [
+     "Вуса",
+     "Борода",
+     "Окуляри"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A moustache."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She has ___ hair.",
+   "options": [
+    "blonde",
+    "bald",
+    "moustache"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Blonde hair."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My uncle ___ bald.",
+   "options": [
+    "is",
+    "has",
+    "have"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is bald."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ a moustache.",
+   "options": [
+    "has",
+    "is",
+    "have"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Has a moustache."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «У неї пряме волосся»?"
+   },
+   "options": [
+    "She has straight hair.",
+    "She is straight hair.",
+    "She have straight hair."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Has straight hair."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У нього кучеряве волосся."
+   },
+   "words": [
+    "He",
+    "has",
+    "curly",
+    "hair",
+    "is",
+    "have"
+   ],
+   "answer": [
+    "He",
+    "has",
+    "curly",
+    "hair"
+   ],
+   "explanation": {
+    "uk": "He has curly hair."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мій дядько лисий."
+   },
+   "answers": [
+    "My uncle is bald"
+   ],
+   "explanation": {
+    "uk": "My uncle is bald."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What colour is her hair?",
+   "prompt": {
+    "uk": "Світле. Що відповісти?"
+   },
+   "options": [
+    "It's blonde.",
+    "She is blonde hair.",
+    "It has blonde."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's blonde."
+   }
+  }
+ ]
+}

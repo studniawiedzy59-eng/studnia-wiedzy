@@ -1,0 +1,325 @@
+{
+ "id": "u42_l02",
+ "unit": "u42",
+ "cefr": "A1",
+ "title": {
+  "uk": "Старший, молодший"
+ },
+ "goal": {
+  "uk": "Сказати, хто старший чи молодший."
+ },
+ "rule": {
+  "uk": "Older — старший, younger — молодший: my older brother, my younger sister. Only child — єдина дитина. Різницю у віці: two years older — на два роки старший. Перше слово в парі: He is two years older than me."
+ },
+ "words": [
+  {
+   "id": "older",
+   "text": "older",
+   "ipa": "/ˈəʊldə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "старший"
+   },
+   "example": "My older brother is thirty.",
+   "exampleTranslation": {
+    "uk": "Моєму старшому братові тридцять."
+   }
+  },
+  {
+   "id": "younger",
+   "text": "younger",
+   "ipa": "/ˈjʌŋɡə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "молодший"
+   },
+   "example": "My younger sister is a student.",
+   "exampleTranslation": {
+    "uk": "Моя молодша сестра — студентка."
+   }
+  },
+  {
+   "id": "only_child",
+   "text": "only child",
+   "ipa": "/ˌəʊnli ˈtʃaɪld/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "єдина дитина"
+   },
+   "example": "I am an only child.",
+   "exampleTranslation": {
+    "uk": "Я єдина дитина в родині."
+   }
+  },
+  {
+   "id": "than",
+   "text": "than",
+   "ipa": "/ðæn/",
+   "pos": "conjunction",
+   "translation": {
+    "uk": "ніж"
+   },
+   "example": "He is older than me.",
+   "exampleTranslation": {
+    "uk": "Він старший за мене."
+   }
+  },
+  {
+   "id": "years_older",
+   "text": "years older",
+   "ipa": "/ˌjɪəz ˈəʊldə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "років старший"
+   },
+   "example": "He is two years older.",
+   "exampleTranslation": {
+    "uk": "Він на два роки старший."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ live in a village.",
+   "options": [
+    "grandparents",
+    "nephew",
+    "twins"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Grandparents."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "older",
+     "right": {
+      "uk": "старший"
+     }
+    },
+    {
+     "left": "younger",
+     "right": {
+      "uk": "молодший"
+     }
+    },
+    {
+     "left": "only child",
+     "right": {
+      "uk": "єдина дитина"
+     }
+    },
+    {
+     "left": "than",
+     "right": {
+      "uk": "ніж"
+     }
+    },
+    {
+     "left": "years older",
+     "right": {
+      "uk": "років старший"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про вік у родині."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My older brother is thirty.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки років брату?"
+   },
+   "options": {
+    "uk": [
+     "Тридцять",
+     "Двадцять",
+     "Сорок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Thirty."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I am an only child.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона єдина дитина",
+     "У неї є брат",
+     "У неї близнюки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Only child."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "He is two years older than me.",
+   "prompt": {
+    "uk": "Прослухайте. Яка різниця у віці?"
+   },
+   "options": {
+    "uk": [
+     "Два роки",
+     "Три роки",
+     "Рік"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Two years."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ sister is a student.",
+   "options": [
+    "younger",
+    "older",
+    "only"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Younger — молодша."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is older ___ me.",
+   "options": [
+    "than",
+    "that",
+    "then"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Older than."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I am an ___ child.",
+   "options": [
+    "only",
+    "older",
+    "twins"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Only child."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Він на два роки старший»?"
+   },
+   "options": [
+    "He is two years older.",
+    "He is two year older.",
+    "He is older two years of."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Two years older."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мій старший брат — лікар."
+   },
+   "words": [
+    "My",
+    "older",
+    "brother",
+    "is",
+    "a",
+    "doctor",
+    "than",
+    "are"
+   ],
+   "answer": [
+    "My",
+    "older",
+    "brother",
+    "is",
+    "a",
+    "doctor"
+   ],
+   "explanation": {
+    "uk": "My older brother is a doctor."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я єдина дитина."
+   },
+   "answers": [
+    "I am an only child",
+    "I'm an only child"
+   ],
+   "explanation": {
+    "uk": "I am an only child."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Are you older than your sister?",
+   "prompt": {
+    "uk": "Ні, ви молодші. Що відповісти?"
+   },
+   "options": [
+    "No, I'm younger.",
+    "No, I younger.",
+    "No, I'm younger than."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I'm younger."
+   }
+  }
+ ]
+}

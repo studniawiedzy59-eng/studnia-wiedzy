@@ -1,0 +1,322 @@
+{
+ "id": "u44_l02",
+ "unit": "u44",
+ "cefr": "A1",
+ "title": {
+  "uk": "Добрі риси"
+ },
+ "goal": {
+  "uk": "Сказати добре про людину."
+ },
+ "rule": {
+  "uk": "Generous — щедрий, helpful — той, хто охоче допомагає, patient — терплячий, calm — спокійний, brave — сміливий. Приклад: He is generous. She is patient with children. Прийменник: patient with — терплячий до."
+ },
+ "words": [
+  {
+   "id": "generous",
+   "text": "generous",
+   "ipa": "/ˈdʒenərəs/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "щедрий"
+   },
+   "example": "My uncle is generous.",
+   "exampleTranslation": {
+    "uk": "Мій дядько щедрий."
+   }
+  },
+  {
+   "id": "helpful",
+   "text": "helpful",
+   "ipa": "/ˈhelpfl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "готовий допомогти"
+   },
+   "example": "Our neighbour is helpful.",
+   "exampleTranslation": {
+    "uk": "Наш сусід охоче допомагає."
+   }
+  },
+  {
+   "id": "patient",
+   "text": "patient",
+   "ipa": "/ˈpeɪʃnt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "терплячий"
+   },
+   "example": "She is patient with children.",
+   "exampleTranslation": {
+    "uk": "Вона терпляча з дітьми."
+   }
+  },
+  {
+   "id": "calm",
+   "text": "calm",
+   "ipa": "/kɑːm/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "спокійний"
+   },
+   "example": "He stays calm.",
+   "exampleTranslation": {
+    "uk": "Він залишається спокійним."
+   }
+  },
+  {
+   "id": "brave",
+   "text": "brave",
+   "ipa": "/breɪv/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "сміливий"
+   },
+   "example": "The firefighter is brave.",
+   "exampleTranslation": {
+    "uk": "Пожежник сміливий."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Don't be ___!",
+   "options": [
+    "rude",
+    "generous",
+    "calm"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Rude."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "generous",
+     "right": {
+      "uk": "щедрий"
+     }
+    },
+    {
+     "left": "helpful",
+     "right": {
+      "uk": "готовий допомогти"
+     }
+    },
+    {
+     "left": "patient",
+     "right": {
+      "uk": "терплячий"
+     }
+    },
+    {
+     "left": "calm",
+     "right": {
+      "uk": "спокійний"
+     }
+    },
+    {
+     "left": "brave",
+     "right": {
+      "uk": "сміливий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Добрі риси."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My uncle is generous.",
+   "prompt": {
+    "uk": "Прослухайте. Який дядько?"
+   },
+   "options": {
+    "uk": [
+     "Щедрий",
+     "Лінивий",
+     "Грубий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Generous."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She is patient with children.",
+   "prompt": {
+    "uk": "Прослухайте. З ким вона терпляча?"
+   },
+   "options": {
+    "uk": [
+     "З дітьми",
+     "З колегами",
+     "З сусідами"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "With children."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The firefighter is brave.",
+   "prompt": {
+    "uk": "Прослухайте. Який пожежник?"
+   },
+   "options": {
+    "uk": [
+     "Сміливий",
+     "Спокійний",
+     "Щедрий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Brave."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Our neighbour is very ___. He always helps.",
+   "options": [
+    "helpful",
+    "lazy",
+    "rude"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Helpful."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She is patient ___ children.",
+   "options": [
+    "with",
+    "at",
+    "of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Patient with."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is always ___ and never shouts.",
+   "options": [
+    "calm",
+    "rude",
+    "lazy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Calm."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «спокійний»?"
+   },
+   "options": [
+    "calm",
+    "brave",
+    "generous"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Calm."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вона терпляча з дітьми."
+   },
+   "words": [
+    "She",
+    "is",
+    "patient",
+    "with",
+    "children",
+    "has",
+    "at"
+   ],
+   "answer": [
+    "She",
+    "is",
+    "patient",
+    "with",
+    "children"
+   ],
+   "explanation": {
+    "uk": "She is patient with children."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мій дядько щедрий."
+   },
+   "answers": [
+    "My uncle is generous"
+   ],
+   "explanation": {
+    "uk": "My uncle is generous."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is your neighbour helpful?",
+   "prompt": {
+    "uk": "Так, дуже. Що відповісти?"
+   },
+   "options": [
+    "Yes, he is very helpful.",
+    "Yes, he very helpful.",
+    "Yes, he has helpful."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, he is very helpful."
+   }
+  }
+ ]
+}

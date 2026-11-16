@@ -1,0 +1,318 @@
+{
+ "id": "u43_l03",
+ "unit": "u43",
+ "cefr": "A1",
+ "title": {
+  "uk": "Особливі прикмети"
+ },
+ "goal": {
+  "uk": "Розповісти про приємні й помітні дрібниці."
+ },
+ "rule": {
+  "uk": "Freckles — ластовиння, tattoo — татуювання, earring — сережка, scar — шрам. Skin — шкіра. Кажуть: She has freckles. He has a tattoo on his arm. Is і has: She is tall (стан), she has freckles (є що-небудь)."
+ },
+ "words": [
+  {
+   "id": "freckles",
+   "text": "freckles",
+   "ipa": "/ˈfreklz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ластовиння"
+   },
+   "example": "She has freckles.",
+   "exampleTranslation": {
+    "uk": "У неї ластовиння."
+   }
+  },
+  {
+   "id": "tattoo",
+   "text": "tattoo",
+   "ipa": "/tæˈtuː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "татуювання"
+   },
+   "example": "He has a tattoo on his arm.",
+   "exampleTranslation": {
+    "uk": "У нього татуювання на руці."
+   }
+  },
+  {
+   "id": "earring",
+   "text": "earring",
+   "ipa": "/ˈɪərɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сережка"
+   },
+   "example": "She is wearing earrings.",
+   "exampleTranslation": {
+    "uk": "На ній сережки."
+   }
+  },
+  {
+   "id": "scar",
+   "text": "scar",
+   "ipa": "/skɑː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шрам"
+   },
+   "example": "He has a small scar.",
+   "exampleTranslation": {
+    "uk": "У нього маленький шрам."
+   }
+  },
+  {
+   "id": "skin",
+   "text": "skin",
+   "ipa": "/skɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шкіра"
+   },
+   "example": "Her skin is pale.",
+   "exampleTranslation": {
+    "uk": "Її шкіра бліда."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "She has ___ hair. (світле)",
+   "options": [
+    "blonde",
+    "bald",
+    "curly hair"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Blonde."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "freckles",
+     "right": {
+      "uk": "ластовиння"
+     }
+    },
+    {
+     "left": "tattoo",
+     "right": {
+      "uk": "татуювання"
+     }
+    },
+    {
+     "left": "earring",
+     "right": {
+      "uk": "сережка"
+     }
+    },
+    {
+     "left": "scar",
+     "right": {
+      "uk": "шрам"
+     }
+    },
+    {
+     "left": "skin",
+     "right": {
+      "uk": "шкіра"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про прикмети."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "She has freckles.",
+   "prompt": {
+    "uk": "Прослухайте. Що є в дівчини?"
+   },
+   "options": {
+    "uk": [
+     "Ластовиння",
+     "Шрам",
+     "Татуювання"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Freckles."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He has a tattoo on his arm.",
+   "prompt": {
+    "uk": "Прослухайте. Де татуювання?"
+   },
+   "options": {
+    "uk": [
+     "На руці",
+     "На нозі",
+     "На шиї"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On his arm."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "She is wearing earrings.",
+   "prompt": {
+    "uk": "Прослухайте. Що на ній?"
+   },
+   "options": {
+    "uk": [
+     "Сережки",
+     "Кільце",
+     "Капелюх"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Earrings."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He has a small ___ on his face.",
+   "options": [
+    "scar",
+    "skin",
+    "freckles"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Scar."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ freckles.",
+   "options": [
+    "has",
+    "is",
+    "have"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Has freckles."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Her ___ is pale.",
+   "options": [
+    "skin",
+    "scar",
+    "earring"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Skin."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «У нього татуювання»?"
+   },
+   "options": [
+    "He has a tattoo.",
+    "He is a tattoo.",
+    "He have tattoo."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Has a tattoo."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У неї ластовиння."
+   },
+   "words": [
+    "She",
+    "has",
+    "freckles",
+    "is",
+    "have"
+   ],
+   "answer": [
+    "She",
+    "has",
+    "freckles"
+   ],
+   "explanation": {
+    "uk": "She has freckles."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У нього маленький шрам."
+   },
+   "answers": [
+    "He has a small scar"
+   ],
+   "explanation": {
+    "uk": "He has a small scar."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Has he got a tattoo?",
+   "prompt": {
+    "uk": "Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, he has.",
+    "Yes, he is.",
+    "Yes, he does has."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, he has."
+   }
+  }
+ ]
+}

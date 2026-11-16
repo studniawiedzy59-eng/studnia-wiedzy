@@ -1,0 +1,322 @@
+{
+ "id": "u44_l05",
+ "unit": "u44",
+ "cefr": "A1",
+ "title": {
+  "uk": "Який він насправді?"
+ },
+ "goal": {
+  "uk": "Спитати про характер і відповісти."
+ },
+ "rule": {
+  "uk": "Увага! What is he like? — про характер: He is kind and polite. What does he look like? — про зовнішність: He is tall. Також: get on with — ладнати з кимось: I get on with my brother. Personality — характер, особистість."
+ },
+ "words": [
+  {
+   "id": "what_is_he_like",
+   "text": "what is he like",
+   "ipa": "/ˌwɒt ɪz hi ˈlaɪk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "який він (за характером)"
+   },
+   "example": "What is your boss like?",
+   "exampleTranslation": {
+    "uk": "Який у вас начальник?"
+   }
+  },
+  {
+   "id": "personality",
+   "text": "personality",
+   "ipa": "/ˌpɜːsəˈnæləti/",
+   "pos": "noun",
+   "translation": {
+    "uk": "характер, особистість"
+   },
+   "example": "She has a great personality.",
+   "exampleTranslation": {
+    "uk": "У неї чудовий характер."
+   }
+  },
+  {
+   "id": "get_on_with",
+   "text": "get on with",
+   "ipa": "/ˌɡet ˈɒn wɪð/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "ладнати з"
+   },
+   "example": "I get on with my brother.",
+   "exampleTranslation": {
+    "uk": "Я ладнаю з братом."
+   }
+  },
+  {
+   "id": "trust",
+   "text": "trust",
+   "ipa": "/trʌst/",
+   "pos": "verb",
+   "translation": {
+    "uk": "довіряти"
+   },
+   "example": "I trust my friend.",
+   "exampleTranslation": {
+    "uk": "Я довіряю своєму другові."
+   }
+  },
+  {
+   "id": "sense_of_humour",
+   "text": "sense of humour",
+   "ipa": "/ˌsens əv ˈhjuːmə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "почуття гумору"
+   },
+   "example": "He has a good sense of humour.",
+   "exampleTranslation": {
+    "uk": "У нього гарне почуття гумору."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is she shy?",
+   "prompt": {
+    "uk": "Повторимо. Трохи. Що відповісти?"
+   },
+   "options": [
+    "She is a bit shy.",
+    "She a bit is shy.",
+    "She is bit a shy."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A bit shy."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "what is he like",
+     "right": {
+      "uk": "який він (характер)"
+     }
+    },
+    {
+     "left": "personality",
+     "right": {
+      "uk": "характер"
+     }
+    },
+    {
+     "left": "get on with",
+     "right": {
+      "uk": "ладнати з"
+     }
+    },
+    {
+     "left": "trust",
+     "right": {
+      "uk": "довіряти"
+     }
+    },
+    {
+     "left": "sense of humour",
+     "right": {
+      "uk": "почуття гумору"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про характер."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "What is your boss like?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Про характер начальника",
+     "Про зовнішність начальника",
+     "Про вік начальника"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Character."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I get on with my brother.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона ладнає з братом",
+     "Вона свариться з братом",
+     "Вона не бачить брата"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Gets on."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "He has a good sense of humour.",
+   "prompt": {
+    "uk": "Прослухайте. Що в нього гарне?"
+   },
+   "options": {
+    "uk": [
+     "Почуття гумору",
+     "Голос",
+     "Зовнішність"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sense of humour."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What is she ___?",
+   "options": [
+    "like",
+    "look",
+    "likes"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What is she like?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ my friend.",
+   "options": [
+    "trust",
+    "get on",
+    "personality"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Trust — довіряти."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I get ___ with my brother.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Get on with."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати про характер?"
+   },
+   "options": [
+    "What is she like?",
+    "What does she like?",
+    "What does she look like?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What is she like?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У неї чудовий характер."
+   },
+   "words": [
+    "She",
+    "has",
+    "a",
+    "great",
+    "personality",
+    "is",
+    "have"
+   ],
+   "answer": [
+    "She",
+    "has",
+    "a",
+    "great",
+    "personality"
+   ],
+   "explanation": {
+    "uk": "She has a great personality."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я довіряю своєму другові."
+   },
+   "answers": [
+    "I trust my friend"
+   ],
+   "explanation": {
+    "uk": "I trust my friend."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is your boss like?",
+   "prompt": {
+    "uk": "Він добрий і терплячий. Що відповісти?"
+   },
+   "options": [
+    "He is kind and patient.",
+    "He has kind and patient.",
+    "He looks like kind."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is kind and patient."
+   }
+  }
+ ]
+}
