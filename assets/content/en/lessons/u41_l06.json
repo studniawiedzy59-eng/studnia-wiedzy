@@ -1,0 +1,235 @@
+{
+ "id": "u41_l06",
+ "unit": "u41",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: знайомство докладніше"
+ },
+ "goal": {
+  "uk": "Закріпити знайомство, ім'я, походження, роботу й цілі."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: Let me introduce…, Pleased to meet you, my nickname is…, I was born in…, I grew up in…, I work as…, I study at…, because, goal, improve."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Дозвольте познайомити вас із другом."
+   },
+   "words": [
+    "Let",
+    "me",
+    "introduce",
+    "my",
+    "friend",
+    "to",
+    "are"
+   ],
+   "answer": [
+    "Let",
+    "me",
+    "introduce",
+    "my",
+    "friend"
+   ],
+   "explanation": {
+    "uk": "Let me introduce my friend."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "This is my partner, Olga.",
+   "prompt": {
+    "uk": "Ви хочете ввічливо відповісти. Що сказати?"
+   },
+   "options": [
+    "Pleased to meet you, Olga.",
+    "Pleased meet Olga you.",
+    "Olga, I pleased."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pleased to meet you."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My hometown ___ Lviv.",
+   "options": [
+    "is",
+    "are",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My hometown is."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я народився у Києві."
+   },
+   "answers": [
+    "I was born in Kyiv"
+   ],
+   "explanation": {
+    "uk": "I was born in Kyiv."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I grew up in a small town. Now I study at university.",
+   "prompt": {
+    "uk": "Прослухайте. Де вчиться людина зараз?"
+   },
+   "options": {
+    "uk": [
+     "В університеті",
+     "У школі",
+     "У місті"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At university."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I work ___ a nurse.",
+   "options": [
+    "as",
+    "at",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Work as."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати повне ім'я?"
+   },
+   "options": [
+    "What is your full name?",
+    "How is your full name?",
+    "Who is name full?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What is your full name?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Усі звуть мене Алекс."
+   },
+   "answers": [
+    "Everyone calls me Alex"
+   ],
+   "explanation": {
+    "uk": "Everyone calls me Alex."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I learn English ___ I need it for work.",
+   "options": [
+    "because",
+    "goal",
+    "improve"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Because."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "My goal is to improve my English. I have an exam in June.",
+   "prompt": {
+    "uk": "Прослухайте. Яка ціль?"
+   },
+   "options": {
+    "uk": [
+     "Покращити англійську",
+     "Знайти роботу",
+     "Переїхати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Improve."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене робота на повний день."
+   },
+   "words": [
+    "I",
+    "have",
+    "a",
+    "full-time",
+    "job",
+    "part-time",
+    "am"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "full-time",
+    "job"
+   ],
+   "explanation": {
+    "uk": "I have a full-time job."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Why do you learn English?",
+   "prompt": {
+    "uk": "Для подорожей. Що відповісти?"
+   },
+   "options": [
+    "Because I like to travel.",
+    "Because I like travel to.",
+    "Because for travelling like."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Because I like to travel."
+   }
+  }
+ ]
+}

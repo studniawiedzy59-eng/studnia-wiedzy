@@ -1,0 +1,324 @@
+{
+ "id": "u41_l05",
+ "unit": "u41",
+ "cefr": "A1",
+ "title": {
+  "uk": "Навіщо вам англійська?"
+ },
+ "goal": {
+  "uk": "Пояснити, чому ви вчите англійську."
+ },
+ "rule": {
+  "uk": "Because — «тому що»: I learn English because I like it. For work, for travel, for fun — для роботи, подорожей, розваги. To improve — покращити: I want to improve my English. A goal — ціль."
+ },
+ "words": [
+  {
+   "id": "reason",
+   "text": "reason",
+   "ipa": "/ˈriːzn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "причина"
+   },
+   "example": "My reason is simple: I like it.",
+   "exampleTranslation": {
+    "uk": "Моя причина проста: мені подобається."
+   }
+  },
+  {
+   "id": "goal",
+   "text": "goal",
+   "ipa": "/ɡəʊl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ціль"
+   },
+   "example": "My goal is to speak well.",
+   "exampleTranslation": {
+    "uk": "Моя ціль — добре говорити."
+   }
+  },
+  {
+   "id": "improve",
+   "text": "improve",
+   "ipa": "/ɪmˈpruːv/",
+   "pos": "verb",
+   "translation": {
+    "uk": "покращувати"
+   },
+   "example": "I want to improve my English.",
+   "exampleTranslation": {
+    "uk": "Я хочу покращити англійську."
+   }
+  },
+  {
+   "id": "for_fun",
+   "text": "for fun",
+   "ipa": "/fə ˈfʌn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "для розваги"
+   },
+   "example": "I study English for fun.",
+   "exampleTranslation": {
+    "uk": "Я вчу англійську для задоволення."
+   }
+  },
+  {
+   "id": "exam",
+   "text": "exam",
+   "ipa": "/ɪɡˈzæm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "іспит"
+   },
+   "example": "I have an English exam.",
+   "exampleTranslation": {
+    "uk": "У мене іспит з англійської."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you do?",
+   "prompt": {
+    "uk": "Повторимо. Ви працюєте медсестрою. Що відповісти?"
+   },
+   "options": [
+    "I work as a nurse.",
+    "I work nurse as.",
+    "I am work nurse."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I work as a nurse."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "reason",
+     "right": {
+      "uk": "причина"
+     }
+    },
+    {
+     "left": "goal",
+     "right": {
+      "uk": "ціль"
+     }
+    },
+    {
+     "left": "improve",
+     "right": {
+      "uk": "покращувати"
+     }
+    },
+    {
+     "left": "for fun",
+     "right": {
+      "uk": "для розваги"
+     }
+    },
+    {
+     "left": "exam",
+     "right": {
+      "uk": "іспит"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про навчання."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I learn English because I like it.",
+   "prompt": {
+    "uk": "Прослухайте. Чому людина вчить англійську?"
+   },
+   "options": {
+    "uk": [
+     "Їй подобається",
+     "Для роботи",
+     "Для іспиту"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Because I like it."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "My goal is to speak well.",
+   "prompt": {
+    "uk": "Прослухайте. Яка ціль?"
+   },
+   "options": {
+    "uk": [
+     "Добре говорити",
+     "Добре писати",
+     "Скласти іспит"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "To speak well."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I have an English exam in June.",
+   "prompt": {
+    "uk": "Прослухайте. Коли іспит?"
+   },
+   "options": {
+    "uk": [
+     "У червні",
+     "У липні",
+     "У травні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "June."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I study English ___ I like it.",
+   "options": [
+    "because",
+    "goal",
+    "for"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Because."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I want to ___ my English.",
+   "options": [
+    "improve",
+    "exam",
+    "because"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Improve."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I study English ___ fun.",
+   "options": [
+    "for",
+    "to",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "For fun."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Моя ціль — говорити добре»?"
+   },
+   "options": [
+    "My goal is to speak well.",
+    "My goal speak well is.",
+    "I goal to speak well."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Goal is to…"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я хочу покращити англійську."
+   },
+   "words": [
+    "I",
+    "want",
+    "to",
+    "improve",
+    "my",
+    "English",
+    "because",
+    "goal"
+   ],
+   "answer": [
+    "I",
+    "want",
+    "to",
+    "improve",
+    "my",
+    "English"
+   ],
+   "explanation": {
+    "uk": "I want to improve my English."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене іспит з англійської."
+   },
+   "answers": [
+    "I have an English exam"
+   ],
+   "explanation": {
+    "uk": "I have an English exam."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Why do you learn English?",
+   "prompt": {
+    "uk": "Для роботи. Що відповісти?"
+   },
+   "options": [
+    "Because I need it for work.",
+    "Because I need for the work it.",
+    "Because for work need."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Because I need it for work."
+   }
+  }
+ ]
+}

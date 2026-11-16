@@ -1,0 +1,322 @@
+{
+ "id": "u41_l03",
+ "unit": "u41",
+ "cefr": "A1",
+ "title": {
+  "uk": "Де я виріс"
+ },
+ "goal": {
+  "uk": "Розповісти, де ви народилися й виросли."
+ },
+ "rule": {
+  "uk": "Hometown — рідне місто. I was born in Lviv. — «Я народився у Львові». I grew up in a small town. — «Я виріс у маленькому місті». Was — це минулий час від am/is, зараз вчимо лише цю фразу. Native — рідний: my native language. Move — переїжджати: We moved to Kyiv (moved — минулий час, переїхали)."
+ },
+ "words": [
+  {
+   "id": "hometown",
+   "text": "hometown",
+   "ipa": "/ˈhəʊmtaʊn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рідне місто"
+   },
+   "example": "My hometown is Lviv.",
+   "exampleTranslation": {
+    "uk": "Моє рідне місто — Львів."
+   }
+  },
+  {
+   "id": "move",
+   "text": "move",
+   "ipa": "/muːv/",
+   "pos": "verb",
+   "translation": {
+    "uk": "переїжджати"
+   },
+   "example": "We moved to Kyiv.",
+   "exampleTranslation": {
+    "uk": "Ми переїхали до Києва."
+   }
+  },
+  {
+   "id": "grow_up",
+   "text": "grow up",
+   "ipa": "/ˌɡrəʊ ˈʌp/",
+   "pos": "verb",
+   "translation": {
+    "uk": "рости, дорослішати"
+   },
+   "example": "I grew up in a small town.",
+   "exampleTranslation": {
+    "uk": "Я виріс у маленькому місті."
+   }
+  },
+  {
+   "id": "native",
+   "text": "native",
+   "ipa": "/ˈneɪtɪv/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "рідний"
+   },
+   "example": "My native language is Ukrainian.",
+   "exampleTranslation": {
+    "uk": "Моя рідна мова — українська."
+   }
+  },
+  {
+   "id": "originally",
+   "text": "originally",
+   "ipa": "/əˈrɪdʒənəli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "спочатку, родом"
+   },
+   "example": "I'm originally from Poland.",
+   "exampleTranslation": {
+    "uk": "Я родом із Польщі."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How do you pronounce your name?",
+   "prompt": {
+    "uk": "Повторимо. Що відповісти?"
+   },
+   "options": [
+    "It's Anna.",
+    "It Anna is.",
+    "Name Anna it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's Anna."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "hometown",
+     "right": {
+      "uk": "рідне місто"
+     }
+    },
+    {
+     "left": "move",
+     "right": {
+      "uk": "переїжджати"
+     }
+    },
+    {
+     "left": "grow up",
+     "right": {
+      "uk": "рости"
+     }
+    },
+    {
+     "left": "native",
+     "right": {
+      "uk": "рідний"
+     }
+    },
+    {
+     "left": "originally",
+     "right": {
+      "uk": "родом"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про місце народження."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I was born in Kyiv.",
+   "prompt": {
+    "uk": "Прослухайте. Де народилася людина?"
+   },
+   "options": {
+    "uk": [
+     "У Києві",
+     "У Львові",
+     "В Одесі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Kyiv."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I grew up in a small town.",
+   "prompt": {
+    "uk": "Прослухайте. Де виросла людина?"
+   },
+   "options": {
+    "uk": [
+     "У маленькому місті",
+     "У великому місті",
+     "У селі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A small town."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My native language is Ukrainian.",
+   "prompt": {
+    "uk": "Прослухайте. Яка рідна мова?"
+   },
+   "options": {
+    "uk": [
+     "Українська",
+     "Польська",
+     "Англійська"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ukrainian."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ is Lviv.",
+   "options": [
+    "hometown",
+    "native",
+    "originally"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hometown."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ born in Kyiv.",
+   "options": [
+    "was",
+    "am",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I was born."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ from Poland.",
+   "options": [
+    "originally",
+    "native",
+    "grew"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Originally from."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я виріс у маленькому місті»?"
+   },
+   "options": [
+    "I grew up in a small town.",
+    "I grow up in small town.",
+    "I am grown in a town small."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I grew up."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я народився у Києві."
+   },
+   "words": [
+    "I",
+    "was",
+    "born",
+    "in",
+    "Kyiv",
+    "am",
+    "were"
+   ],
+   "answer": [
+    "I",
+    "was",
+    "born",
+    "in",
+    "Kyiv"
+   ],
+   "explanation": {
+    "uk": "I was born in Kyiv."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Моя рідна мова — українська."
+   },
+   "answers": [
+    "My native language is Ukrainian"
+   ],
+   "explanation": {
+    "uk": "My native language is Ukrainian."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where were you born?",
+   "prompt": {
+    "uk": "У Львові. Що відповісти?"
+   },
+   "options": [
+    "I was born in Lviv.",
+    "I born in Lviv.",
+    "I am born Lviv."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I was born in Lviv."
+   }
+  }
+ ]
+}

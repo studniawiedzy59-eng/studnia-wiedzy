@@ -1,0 +1,323 @@
+{
+ "id": "u41_l02",
+ "unit": "u41",
+ "cefr": "A1",
+ "title": {
+  "uk": "Як вас звати?"
+ },
+ "goal": {
+  "uk": "Спитати й сказати повне ім'я та прізвисько."
+ },
+ "rule": {
+  "uk": "First name — ім'я, surname — прізвище, full name — повне ім'я. Nickname — прізвисько, коротка форма: Alexander — Alex. Фрази: Everyone calls me Alex. — «Усі звуть мене Алекс». How do you pronounce it? — «Як це вимовляється?»"
+ },
+ "words": [
+  {
+   "id": "first_name",
+   "text": "first name",
+   "ipa": "/ˈfɜːst neɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ім'я"
+   },
+   "example": "My first name is Alexander.",
+   "exampleTranslation": {
+    "uk": "Моє ім'я Олександр."
+   }
+  },
+  {
+   "id": "full_name",
+   "text": "full name",
+   "ipa": "/ˈfʊl neɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "повне ім'я"
+   },
+   "example": "What is your full name?",
+   "exampleTranslation": {
+    "uk": "Яке ваше повне ім'я?"
+   }
+  },
+  {
+   "id": "nickname",
+   "text": "nickname",
+   "ipa": "/ˈnɪkneɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "прізвисько, коротке ім'я"
+   },
+   "example": "My nickname is Alex.",
+   "exampleTranslation": {
+    "uk": "Мене звуть Алекс (коротко)."
+   }
+  },
+  {
+   "id": "everyone",
+   "text": "everyone",
+   "ipa": "/ˈevriwʌn/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "усі, кожен"
+   },
+   "example": "Everyone calls me Alex.",
+   "exampleTranslation": {
+    "uk": "Усі звуть мене Алекс."
+   }
+  },
+  {
+   "id": "pronounce",
+   "text": "pronounce",
+   "ipa": "/prəˈnaʊns/",
+   "pos": "verb",
+   "translation": {
+    "uk": "вимовляти"
+   },
+   "example": "How do you pronounce it?",
+   "exampleTranslation": {
+    "uk": "Як це вимовляється?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Let me introduce my friend.",
+   "prompt": {
+    "uk": "Повторимо. Що ви скажете?"
+   },
+   "options": [
+    "Pleased to meet you.",
+    "I am pleased you.",
+    "Meet you pleased."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pleased to meet you."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "first name",
+     "right": {
+      "uk": "ім'я"
+     }
+    },
+    {
+     "left": "full name",
+     "right": {
+      "uk": "повне ім'я"
+     }
+    },
+    {
+     "left": "nickname",
+     "right": {
+      "uk": "прізвисько"
+     }
+    },
+    {
+     "left": "everyone",
+     "right": {
+      "uk": "усі"
+     }
+    },
+    {
+     "left": "pronounce",
+     "right": {
+      "uk": "вимовляти"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про ім'я."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "What is your full name?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Про повне ім'я",
+     "Про вік",
+     "Про адресу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Full name."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "My nickname is Alex.",
+   "prompt": {
+    "uk": "Прослухайте. Як звати людину коротко?"
+   },
+   "options": {
+    "uk": [
+     "Алекс",
+     "Алан",
+     "Алі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Alex."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "How do you pronounce your surname?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Як вимовляється прізвище",
+     "Як пишеться прізвище",
+     "Звідки прізвище"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pronounce."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ name is Alexander.",
+   "options": [
+    "first",
+    "full",
+    "nick"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "First name — ім'я."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Everyone ___ me Alex.",
+   "options": [
+    "calls",
+    "call",
+    "calling"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Everyone + calls."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How do you ___ your name?",
+   "options": [
+    "pronounce",
+    "nickname",
+    "everyone"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pronounce."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Усі звуть мене Алекс»?"
+   },
+   "options": [
+    "Everyone calls me Alex.",
+    "Everyone call me Alex.",
+    "All people calling Alex me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Everyone calls."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Яке ваше повне ім'я?"
+   },
+   "words": [
+    "What",
+    "is",
+    "your",
+    "full",
+    "name",
+    "are",
+    "nickname"
+   ],
+   "answer": [
+    "What",
+    "is",
+    "your",
+    "full",
+    "name"
+   ],
+   "explanation": {
+    "uk": "What is your full name?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Як це вимовляється?"
+   },
+   "answers": [
+    "How do you pronounce it",
+    "How do you pronounce that"
+   ],
+   "explanation": {
+    "uk": "How do you pronounce it?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What should I call you?",
+   "prompt": {
+    "uk": "Просто Алекс. Що відповісти?"
+   },
+   "options": [
+    "Just call me Alex.",
+    "Just calling me Alex.",
+    "Just Alex call."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Just call me Alex."
+   }
+  }
+ ]
+}

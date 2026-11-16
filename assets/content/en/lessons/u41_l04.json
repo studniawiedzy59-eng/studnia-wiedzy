@@ -1,0 +1,322 @@
+{
+ "id": "u41_l04",
+ "unit": "u41",
+ "cefr": "A1",
+ "title": {
+  "uk": "Чим ви займаєтеся"
+ },
+ "goal": {
+  "uk": "Докладніше розповісти про роботу чи навчання."
+ },
+ "rule": {
+  "uk": "I work as… — «Я працюю на посаді…»: I work as a nurse. I study at… — «Я вчуся в…»: I study at university. Full-time — повний день, part-time — неповний. Self-employed — працює на себе."
+ },
+ "words": [
+  {
+   "id": "work_as",
+   "text": "work as",
+   "ipa": "/ˈwɜːk əz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "працювати на посаді"
+   },
+   "example": "I work as a nurse.",
+   "exampleTranslation": {
+    "uk": "Я працюю медсестрою."
+   }
+  },
+  {
+   "id": "study_at",
+   "text": "study at",
+   "ipa": "/ˈstʌdi ət/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "вчитися в"
+   },
+   "example": "I study at university.",
+   "exampleTranslation": {
+    "uk": "Я вчуся в університеті."
+   }
+  },
+  {
+   "id": "workplace",
+   "text": "workplace",
+   "ipa": "/ˈwɜːkpleɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "місце роботи"
+   },
+   "example": "My workplace is near my home.",
+   "exampleTranslation": {
+    "uk": "Моє місце роботи поруч із домом."
+   }
+  },
+  {
+   "id": "career",
+   "text": "career",
+   "ipa": "/kəˈrɪə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кар'єра"
+   },
+   "example": "She has a good career.",
+   "exampleTranslation": {
+    "uk": "У неї хороша кар'єра."
+   }
+  },
+  {
+   "id": "university",
+   "text": "university",
+   "ipa": "/ˌjuːnɪˈvɜːsəti/",
+   "pos": "noun",
+   "translation": {
+    "uk": "університет"
+   },
+   "example": "He studies at university.",
+   "exampleTranslation": {
+    "uk": "Він вчиться в університеті."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where were you born?",
+   "prompt": {
+    "uk": "Повторимо. У Києві. Що відповісти?"
+   },
+   "options": [
+    "I was born in Kyiv.",
+    "I born in Kyiv.",
+    "I am born Kyiv."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I was born in Kyiv."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "work as",
+     "right": {
+      "uk": "працювати на посаді"
+     }
+    },
+    {
+     "left": "study at",
+     "right": {
+      "uk": "вчитися в"
+     }
+    },
+    {
+     "left": "workplace",
+     "right": {
+      "uk": "місце роботи"
+     }
+    },
+    {
+     "left": "career",
+     "right": {
+      "uk": "кар'єра"
+     }
+    },
+    {
+     "left": "university",
+     "right": {
+      "uk": "університет"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про роботу й навчання."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I work as a nurse in a hospital.",
+   "prompt": {
+    "uk": "Прослухайте. Ким працює людина?"
+   },
+   "options": {
+    "uk": [
+     "Медсестрою",
+     "Лікарем",
+     "Вчителем"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A nurse."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I study at university.",
+   "prompt": {
+    "uk": "Прослухайте. Де вчиться людина?"
+   },
+   "options": {
+    "uk": [
+     "В університеті",
+     "У школі",
+     "На курсах"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "University."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "She has a part-time job.",
+   "prompt": {
+    "uk": "Прослухайте. Яка в неї робота?"
+   },
+   "options": {
+    "uk": [
+     "На неповний день",
+     "На повний день",
+     "Вона безробітна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Part-time."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ as a driver.",
+   "options": [
+    "work",
+    "study",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I work as."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He studies ___ university.",
+   "options": [
+    "at",
+    "as",
+    "in a"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Study at."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___ job: from nine to five.",
+   "options": [
+    "full-time",
+    "part-time",
+    "native"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Повний день — full-time."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я вчуся в університеті»?"
+   },
+   "options": [
+    "I study at university.",
+    "I work at university.",
+    "I am study university."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Study at."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я працюю медсестрою."
+   },
+   "words": [
+    "I",
+    "work",
+    "as",
+    "a",
+    "nurse",
+    "at",
+    "am"
+   ],
+   "answer": [
+    "I",
+    "work",
+    "as",
+    "a",
+    "nurse"
+   ],
+   "explanation": {
+    "uk": "I work as a nurse."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене робота на повний день."
+   },
+   "answers": [
+    "I have a full-time job"
+   ],
+   "explanation": {
+    "uk": "I have a full-time job."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you do?",
+   "prompt": {
+    "uk": "Ви студент і працюєте неповний день. Що відповісти?"
+   },
+   "options": [
+    "I study at university and have a part-time job.",
+    "I study university and part-time have.",
+    "I am study and part-time work job."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Study and part-time job."
+   }
+  }
+ ]
+}

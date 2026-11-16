@@ -1,0 +1,322 @@
+{
+ "id": "u41_l01",
+ "unit": "u41",
+ "cefr": "A1",
+ "title": {
+  "uk": "Хто це?"
+ },
+ "goal": {
+  "uk": "Представити людину й відповісти на знайомство."
+ },
+ "rule": {
+  "uk": "Let me introduce… — «Дозвольте вас познайомити…». Let me introduce my friend Tom. Відповідь: Pleased to meet you — «Приємно познайомитися» (трохи офіційніше, ніж Nice to meet you). Introduce — знайомити, представляти."
+ },
+ "words": [
+  {
+   "id": "introduce",
+   "text": "introduce",
+   "ipa": "/ˌɪntrəˈdjuːs/",
+   "pos": "verb",
+   "translation": {
+    "uk": "знайомити, представляти"
+   },
+   "example": "Let me introduce my friend.",
+   "exampleTranslation": {
+    "uk": "Дозвольте познайомити вас із другом."
+   }
+  },
+  {
+   "id": "pleased_to_meet_you",
+   "text": "pleased to meet you",
+   "ipa": "/ˌpliːzd tə ˈmiːt ju/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "приємно познайомитися"
+   },
+   "example": "Pleased to meet you, Tom.",
+   "exampleTranslation": {
+    "uk": "Приємно познайомитися, Томе."
+   }
+  },
+  {
+   "id": "classmate",
+   "text": "classmate",
+   "ipa": "/ˈklɑːsmeɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "однокласник, одногрупник"
+   },
+   "example": "This is my classmate, Olga.",
+   "exampleTranslation": {
+    "uk": "Це моя одногрупниця Ольга."
+   }
+  },
+  {
+   "id": "partner",
+   "text": "partner",
+   "ipa": "/ˈpɑːtnə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "партнер, партнерка"
+   },
+   "example": "This is my partner, Mark.",
+   "exampleTranslation": {
+    "uk": "Це мій партнер Марк."
+   }
+  },
+  {
+   "id": "this_is",
+   "text": "this is",
+   "ipa": "/ˈðɪs ɪz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "це (при знайомстві)"
+   },
+   "example": "This is my brother.",
+   "exampleTranslation": {
+    "uk": "Це мій брат."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Hello! I'm Anna. Nice to meet you.",
+   "prompt": {
+    "uk": "Повторимо. Що відповісти?"
+   },
+   "options": [
+    "Nice to meet you too.",
+    "I meet you nice.",
+    "Yes, meet."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Nice to meet you too."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "introduce",
+     "right": {
+      "uk": "знайомити"
+     }
+    },
+    {
+     "left": "pleased to meet you",
+     "right": {
+      "uk": "приємно познайомитися"
+     }
+    },
+    {
+     "left": "classmate",
+     "right": {
+      "uk": "одногрупник"
+     }
+    },
+    {
+     "left": "partner",
+     "right": {
+      "uk": "партнер"
+     }
+    },
+    {
+     "left": "this is",
+     "right": {
+      "uk": "це (при знайомстві)"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для знайомства."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Let me introduce my friend Tom.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Знайомить із другом",
+     "Прощається",
+     "Дякує"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Introduce."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "This is my classmate, Olga.",
+   "prompt": {
+    "uk": "Прослухайте. Хто така Ольга?"
+   },
+   "options": {
+    "uk": [
+     "Одногрупниця",
+     "Сестра",
+     "Вчителька"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Classmate."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "This is my partner, Mark.",
+   "prompt": {
+    "uk": "Прослухайте. Хто такий Марк?"
+   },
+   "options": {
+    "uk": [
+     "Партнер",
+     "Брат",
+     "Колега"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Partner."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Let me ___ my friend Tom.",
+   "options": [
+    "introduce",
+    "pleased",
+    "classmate"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Let me introduce."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Pleased to ___ you.",
+   "options": [
+    "meet",
+    "see me",
+    "know"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pleased to meet you."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This ___ my partner.",
+   "options": [
+    "is",
+    "are",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This is."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як відповісти на знайомство офіційно?"
+   },
+   "options": [
+    "Pleased to meet you.",
+    "I am pleased you.",
+    "Meet you pleased."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pleased to meet you."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Дозвольте познайомити вас із другом."
+   },
+   "words": [
+    "Let",
+    "me",
+    "introduce",
+    "my",
+    "friend",
+    "to",
+    "are"
+   ],
+   "answer": [
+    "Let",
+    "me",
+    "introduce",
+    "my",
+    "friend"
+   ],
+   "explanation": {
+    "uk": "Let me introduce my friend."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це моя одногрупниця."
+   },
+   "answers": [
+    "This is my classmate"
+   ],
+   "explanation": {
+    "uk": "This is my classmate."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Tom, this is Olga.",
+   "prompt": {
+    "uk": "Ви Том. Що відповісти?"
+   },
+   "options": [
+    "Pleased to meet you, Olga.",
+    "Pleased meet Olga you.",
+    "Olga, I am pleased."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pleased to meet you, Olga."
+   }
+  }
+ ]
+}
