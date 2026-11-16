@@ -221,6 +221,75 @@
    "explanation": {
     "uk": "No problem. I'll do it."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви згодні."
+   },
+   "character": {
+    "name": {
+     "uk": "Начальниця"
+    },
+    "avatar": "👩‍💼"
+   },
+   "line": "Could you send me the report by Friday?",
+   "options": [
+    "Certainly. I'll do it today.",
+    "Yes, I send you, no problem.",
+    "I can to send it Friday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Certainly. I'll do it — ввічлива робоча згода."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви маєте дзвінок із клієнтом о третій."
+   },
+   "character": {
+    "name": {
+     "uk": "Начальниця"
+    },
+    "avatar": "👩‍💼"
+   },
+   "line": "Are you free for a meeting at three?",
+   "options": [
+    "Sorry, I have a call with a client. How about four?",
+    "Sorry, I have call with client. Maybe four?",
+    "No, I am busy, do four."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How about four? — ввічливо пропонуємо інший час."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви згодні лише один раз."
+   },
+   "character": {
+    "name": {
+     "uk": "Начальниця"
+    },
+    "avatar": "👩‍💼"
+   },
+   "line": "Can you work late tomorrow?",
+   "options": [
+    "Yes, once is fine, but not every week.",
+    "Yes, one time, no every week.",
+    "Okay, but often I can't."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Once — «один раз». Not every week — «не щотижня»."
+   }
   }
  ]
 }

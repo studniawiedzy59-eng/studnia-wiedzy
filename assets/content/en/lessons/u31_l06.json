@@ -224,6 +224,75 @@
    "explanation": {
     "uk": "Happy birthday!"
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ваш день народження дванадцятого травня."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Кейт"
+    },
+    "avatar": "👩‍🦱"
+   },
+   "line": "When is your birthday?",
+   "options": [
+    "It's on the twelfth of May.",
+    "Twelve May.",
+    "It is at twelve of May."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Дату називаємо порядковим числівником: on the twelfth of May."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вас вітають, і ви дякуєте."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Кейт"
+    },
+    "avatar": "👩‍🦱"
+   },
+   "line": "Happy birthday!",
+   "options": [
+    "Thank you so much!",
+    "Thanks, and you the same.",
+    "Thank to you!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thank you so much! — тепла подяка."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви народилися в 1998 році."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Кейт"
+    },
+    "avatar": "👩‍🦱"
+   },
+   "line": "When were you born?",
+   "options": [
+    "I was born in 1998.",
+    "I born in 1998.",
+    "I am born 1998."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I was born in… — стала фраза."
+   }
   }
  ]
 }

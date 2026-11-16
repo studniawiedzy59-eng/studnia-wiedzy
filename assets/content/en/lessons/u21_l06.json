@@ -223,6 +223,75 @@
    "explanation": {
     "uk": "На Are you…? — Yes, I am."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Туалет там, ліворуч."
+   },
+   "character": {
+    "name": {
+     "uk": "Турист"
+    },
+    "avatar": "🧳"
+   },
+   "line": "Excuse me, is there a toilet near here?",
+   "options": [
+    "Yes, over there, on the left.",
+    "Yes, there it is, on left side.",
+    "Yes, toilet is there left."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Over there, on the left — чітка відповідь."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Туалет зовсім близько."
+   },
+   "character": {
+    "name": {
+     "uk": "Турист"
+    },
+    "avatar": "🧳"
+   },
+   "line": "Is it far?",
+   "options": [
+    "No, it's very near.",
+    "No, near is.",
+    "No, it is not distant."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, it's very near — природно й коротко."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви не впевнені, що магазин відчинений."
+   },
+   "character": {
+    "name": {
+     "uk": "Турист"
+    },
+    "avatar": "🧳"
+   },
+   "line": "Do you think it's open now?",
+   "options": [
+    "I'm not sure. Maybe.",
+    "I don't sure. Maybe.",
+    "I am not certain not."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm not sure — з am, не з don't."
+   }
   }
  ]
 }

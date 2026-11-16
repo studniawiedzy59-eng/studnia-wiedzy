@@ -187,6 +187,75 @@
    "explanation": {
     "uk": "На заперечення — Me neither."
    }
+  },
+  {
+   "id": "e11",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви любите поп-музику."
+   },
+   "character": {
+    "name": {
+     "uk": "Бен"
+    },
+    "avatar": "🧑‍🎤"
+   },
+   "line": "What kind of music do you like?",
+   "options": [
+    "I like pop.",
+    "I am liking pop.",
+    "I love to pop music."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Like стоїть у простому часі: I like pop, без -ing."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви не любите фільми жахів."
+   },
+   "character": {
+    "name": {
+     "uk": "Бен"
+    },
+    "avatar": "🧑‍🎤"
+   },
+   "line": "I love horror films. You too?",
+   "options": [
+    "Not really. I prefer comedies.",
+    "No, I hate it very.",
+    "Not so, I like comedy more."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Not really — м'яка відмова. Prefer — «віддавати перевагу»."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви теж любите бігати."
+   },
+   "character": {
+    "name": {
+     "uk": "Бен"
+    },
+    "avatar": "🧑‍🎤"
+   },
+   "line": "I really like running.",
+   "options": [
+    "Me too!",
+    "Me also yes!",
+    "I too like very."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Me too! — «я теж»."
+   }
   }
  ]
 }

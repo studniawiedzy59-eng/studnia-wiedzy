@@ -223,6 +223,75 @@
    "explanation": {
     "uk": "Here's ten. Keep the change."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам потрібен квиток до центру в один бік."
+   },
+   "character": {
+    "name": {
+     "uk": "Касирка"
+    },
+    "avatar": "🎫"
+   },
+   "line": "Hello! Where to?",
+   "options": [
+    "A single to the centre, please.",
+    "One ticket to the centre in one side.",
+    "Ticket for one way to centre."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Квиток в один бік — a single."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви дали п'ять фунтів і не чекаєте решти."
+   },
+   "character": {
+    "name": {
+     "uk": "Касирка"
+    },
+    "avatar": "🎫"
+   },
+   "line": "That's two pounds fifty.",
+   "options": [
+    "Keep the change.",
+    "Take the rest.",
+    "Remainder is yours."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Keep the change — стандартна фраза, коли решту залишають собі."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам треба вийти на третій зупинці."
+   },
+   "character": {
+    "name": {
+     "uk": "Касирка"
+    },
+    "avatar": "🎫"
+   },
+   "line": "Get off at the third stop.",
+   "options": [
+    "Third stop. Thanks!",
+    "I go off on third stop.",
+    "Third stop, understand, thanks."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Коротко повторити й подякувати — найприродніше."
+   }
   }
  ]
 }

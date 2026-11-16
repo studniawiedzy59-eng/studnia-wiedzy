@@ -191,6 +191,75 @@
    "explanation": {
     "uk": "See you! Bye!"
    }
+  },
+  {
+   "id": "e11",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Зараз пів на третю."
+   },
+   "character": {
+    "name": {
+     "uk": "Перехожий"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Excuse me, what time is it?",
+   "options": [
+    "It's half past two.",
+    "Now is half three.",
+    "Two and a half hours."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Half past two — «пів на третю». Дослівне «half three» англійською означає інше."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Магазин відчиняється о дев'ятій."
+   },
+   "character": {
+    "name": {
+     "uk": "Перехожий"
+    },
+    "avatar": "🧑"
+   },
+   "line": "What time does the shop open?",
+   "options": [
+    "It opens at nine.",
+    "It open in nine.",
+    "From nine hours."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Час називаємо з at: at nine. Слово hours не потрібне."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви прощаєтесь і бажаєте гарного вечора."
+   },
+   "character": {
+    "name": {
+     "uk": "Перехожий"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Thanks for your help! See you tomorrow.",
+   "options": [
+    "See you! Have a nice evening.",
+    "I will see you tomorrow yes.",
+    "Good tomorrow."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "See you! Have a nice evening — коротке тепле прощання."
+   }
   }
  ]
 }

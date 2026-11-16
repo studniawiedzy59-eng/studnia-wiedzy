@@ -188,6 +188,75 @@
    "explanation": {
     "uk": "Sure, no problem."
    }
+  },
+  {
+   "id": "e11",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви добре плаваєте."
+   },
+   "character": {
+    "name": {
+     "uk": "Тренерка Анна"
+    },
+    "avatar": "🧑‍🏫"
+   },
+   "line": "Can you swim?",
+   "options": [
+    "Yes, I can. Quite well.",
+    "Yes, I can swimming.",
+    "Yes, I know swim."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can + дієслово без to й без -ing. «Know swim» — калька."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Грати на гітарі ви не вмієте."
+   },
+   "character": {
+    "name": {
+     "uk": "Тренерка Анна"
+    },
+    "avatar": "🧑‍🏫"
+   },
+   "line": "Can you play the guitar?",
+   "options": [
+    "No, I can't, sorry.",
+    "No, I not can.",
+    "No, I am not able play."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Заперечення — can't."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви готові допомогти."
+   },
+   "character": {
+    "name": {
+     "uk": "Тренерка Анна"
+    },
+    "avatar": "🧑‍🏫"
+   },
+   "line": "Can you help me, please?",
+   "options": [
+    "Sure! What do you need?",
+    "Yes, I help you what.",
+    "Of course you can."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sure! What do you need? — природна згода."
+   }
   }
  ]
 }

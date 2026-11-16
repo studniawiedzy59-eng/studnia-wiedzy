@@ -188,6 +188,75 @@
    "explanation": {
     "uk": "I speak three languages."
    }
+  },
+  {
+   "id": "e11",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви з Польщі."
+   },
+   "character": {
+    "name": {
+     "uk": "Мандрівниця Софія"
+    },
+    "avatar": "👩‍🦰"
+   },
+   "line": "Where are you from?",
+   "options": [
+    "I'm from Poland.",
+    "I'm Polish from.",
+    "I am Poland."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm from + країна. «I am Poland» означає, що ви — сама країна."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Англійською ви говорите небагато."
+   },
+   "character": {
+    "name": {
+     "uk": "Мандрівниця Софія"
+    },
+    "avatar": "👩‍🦰"
+   },
+   "line": "Do you speak English?",
+   "options": [
+    "A little.",
+    "Little little.",
+    "A bit small."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A little — стандартне «трохи»."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви не встигли зрозуміти й просите повторити повільніше."
+   },
+   "character": {
+    "name": {
+     "uk": "Мандрівниця Софія"
+    },
+    "avatar": "👩‍🦰"
+   },
+   "line": "It's a long story, and there are many details.",
+   "options": [
+    "Sorry, can you repeat that slowly?",
+    "Sorry, say me again slow.",
+    "Repeat, I don't hear."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can you repeat that slowly? — ввічливе прохання. «Say me» — помилка."
+   }
   }
  ]
 }

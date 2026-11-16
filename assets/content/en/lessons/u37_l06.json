@@ -225,6 +225,75 @@
    "explanation": {
     "uk": "No, I'm not."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви готуєте вечерю."
+   },
+   "character": {
+    "name": {
+     "uk": "Мама по телефону"
+    },
+    "avatar": "📱"
+   },
+   "line": "What are you doing?",
+   "options": [
+    "I'm cooking dinner.",
+    "I cook dinner now.",
+    "I am cook dinner."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Зараз — am/is/are + -ing: I'm cooking."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Зараз ви не можете говорити."
+   },
+   "character": {
+    "name": {
+     "uk": "Мама по телефону"
+    },
+    "avatar": "📱"
+   },
+   "line": "Are you busy right now?",
+   "options": [
+    "Yes, a bit. Can I call you later?",
+    "Yes, I am too busy for you.",
+    "Yes, I busy now."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, a bit — м'яка відповідь, а не «too busy for you»."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви їдете додому."
+   },
+   "character": {
+    "name": {
+     "uk": "Мама по телефону"
+    },
+    "avatar": "📱"
+   },
+   "line": "Where are you?",
+   "options": [
+    "I'm on my way home.",
+    "I go home now.",
+    "I am walking to the home."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On my way home — «я вже в дорозі»."
+   }
   }
  ]
 }

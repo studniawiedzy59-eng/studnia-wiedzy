@@ -120,6 +120,9 @@ S.update({
       "Times лічильне, тому How many times a day? Усе інше — кальки."),
  ],
 })
+from dialogues_more import M
+for lid, items in M.items():
+    S[lid] = [dlg(*t) for t in items]
 for lid, items in S.items():
     p = D / f"{lid}.json"
     d = json.loads(p.read_text())

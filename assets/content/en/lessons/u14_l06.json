@@ -186,6 +186,75 @@
    "explanation": {
     "uk": "No, I don't. I work part-time."
    }
+  },
+  {
+   "id": "e11",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви медсестра і працюєте в лікарні."
+   },
+   "character": {
+    "name": {
+     "uk": "Колега Марк"
+    },
+    "avatar": "👨‍💼"
+   },
+   "line": "So, what do you do?",
+   "options": [
+    "I'm a nurse. I work in a hospital.",
+    "I work nurse in hospital.",
+    "I am working by nurse."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Професію називаємо з I'm a… Після work ставимо in або at, а не нове слово без прийменника."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Робота подобається, але вона складна."
+   },
+   "character": {
+    "name": {
+     "uk": "Колега Марк"
+    },
+    "avatar": "👨‍💼"
+   },
+   "line": "Do you like your job?",
+   "options": [
+    "Yes, but it's hard.",
+    "Yes, but is hard job.",
+    "Yes, but heavy it is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Складна робота — hard. Heavy означає «важкий» фізично."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "У вас неповний робочий день."
+   },
+   "character": {
+    "name": {
+     "uk": "Колега Марк"
+    },
+    "avatar": "👨‍💼"
+   },
+   "line": "Is it full-time?",
+   "options": [
+    "No, it's part-time.",
+    "No, it is half-time.",
+    "No, it's not full day."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Неповна зайнятість — part-time. «Half-time» — калька."
+   }
   }
  ]
 }

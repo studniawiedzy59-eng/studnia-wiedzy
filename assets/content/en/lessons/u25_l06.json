@@ -222,6 +222,75 @@
    "explanation": {
     "uk": "No, it isn't. It's the train to London."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам потрібні два квитки до Лондона."
+   },
+   "character": {
+    "name": {
+     "uk": "Працівник вокзалу"
+    },
+    "avatar": "👨‍✈️"
+   },
+   "line": "Good morning. Can I help you?",
+   "options": [
+    "Two tickets to London, please.",
+    "I want tickets London.",
+    "Give me two tickets on London."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Two tickets to London, please — ввічливо й чітко."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви не розчули номер платформи."
+   },
+   "character": {
+    "name": {
+     "uk": "Працівник вокзалу"
+    },
+    "avatar": "👨‍✈️"
+   },
+   "line": "The next train is at ten past nine from platform four.",
+   "options": [
+    "Sorry, which platform?",
+    "Sorry, what is platform?",
+    "Which is platform sorry?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sorry, which platform? — ввічливе перепитування."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Потяг запізнюється на десять хвилин."
+   },
+   "character": {
+    "name": {
+     "uk": "Працівник вокзалу"
+    },
+    "avatar": "👨‍✈️"
+   },
+   "line": "The train is delayed by ten minutes.",
+   "options": [
+    "Oh, OK. Thanks for letting me know.",
+    "Oh no, thanks for your informing.",
+    "Why delay? Say me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thanks for letting me know — стандартна подяка за новину."
+   }
   }
  ]
 }

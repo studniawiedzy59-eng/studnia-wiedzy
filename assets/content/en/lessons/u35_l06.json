@@ -224,6 +224,75 @@
    "explanation": {
     "uk": "На Are you…? — Yes, I am."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви любите фотографувати."
+   },
+   "character": {
+    "name": {
+     "uk": "Міа"
+    },
+    "avatar": "🧑‍🎨"
+   },
+   "line": "Do you have any hobbies?",
+   "options": [
+    "Yes, I love photography.",
+    "Yes, I am photographing.",
+    "Yes, my hobby is to make photos."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Photography — «фотографія як хобі». Make photos — калька."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви ще початківець."
+   },
+   "character": {
+    "name": {
+     "uk": "Міа"
+    },
+    "avatar": "🧑‍🎨"
+   },
+   "line": "Are you any good at it?",
+   "options": [
+    "Not really. I'm still a beginner.",
+    "No, I am beginner yet.",
+    "I am beginner only still."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Not really — м'яка відповідь, still a beginner — «поки початківець»."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам цікаво, і ви питаєте, як вступити."
+   },
+   "character": {
+    "name": {
+     "uk": "Міа"
+    },
+    "avatar": "🧑‍🎨"
+   },
+   "line": "You should join our club!",
+   "options": [
+    "Sounds fun! How do I join?",
+    "Interesting! How to join?",
+    "It is interest. How join?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sounds fun! — тепла реакція, How do I join? — повне запитання."
+   }
   }
  ]
 }

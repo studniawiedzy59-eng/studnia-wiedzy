@@ -221,6 +221,75 @@
    "explanation": {
     "uk": "Sure, no problem."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Це ви, Анна."
+   },
+   "character": {
+    "name": {
+     "uk": "Дзвінок від Тома"
+    },
+    "avatar": "📞"
+   },
+   "line": "Hello? Is that Anna?",
+   "options": [
+    "Yes, speaking.",
+    "Yes, it is me, I am Anna.",
+    "Yes, I am here."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Speaking — «слухаю», стандартна відповідь по телефону."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Містера Брауна немає на місці."
+   },
+   "character": {
+    "name": {
+     "uk": "Дзвінок від Тома"
+    },
+    "avatar": "📞"
+   },
+   "line": "Can I speak to Mr Brown, please?",
+   "options": [
+    "I'm sorry, he's not here. Can I take a message?",
+    "He is absent now, say message.",
+    "No Mr Brown here."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can I take a message? — ввічлива пропозиція передати."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви зайняті й передзвоните пізніше."
+   },
+   "character": {
+    "name": {
+     "uk": "Дзвінок від Тома"
+    },
+    "avatar": "📞"
+   },
+   "line": "Are you free to talk now?",
+   "options": [
+    "Sorry, I'm busy. Can I call you back later?",
+    "Now no, later I will call you back.",
+    "I am busy, call me again, goodbye."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Call you back later — «передзвоню пізніше»."
+   }
   }
  ]
 }

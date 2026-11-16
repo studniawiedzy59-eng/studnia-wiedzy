@@ -223,6 +223,75 @@
    "explanation": {
     "uk": "Summer, because it's warm and sunny."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Погода сонячна й тепла."
+   },
+   "character": {
+    "name": {
+     "uk": "Сусід"
+    },
+    "avatar": "🧑‍🦳"
+   },
+   "line": "Lovely day, isn't it?",
+   "options": [
+    "Yes, it's beautiful. So sunny!",
+    "Yes, weather is beautiful very.",
+    "Yes, today the sun shines strong."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Small talk про погоду: Yes, it's beautiful."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "У прогнозі обіцяють дощ."
+   },
+   "character": {
+    "name": {
+     "uk": "Сусід"
+    },
+    "avatar": "🧑‍🦳"
+   },
+   "line": "Do you know what the weather's like tomorrow?",
+   "options": [
+    "The forecast says rain.",
+    "The forecast tells rain.",
+    "Forecast is rain will."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The forecast says… — природно."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам теж дуже холодно."
+   },
+   "character": {
+    "name": {
+     "uk": "Сусід"
+    },
+    "avatar": "🧑‍🦳"
+   },
+   "line": "It's freezing today!",
+   "options": [
+    "I know! I'm so cold.",
+    "Yes, to me cold much.",
+    "Yes, freezing is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I know! — «справді!», I'm so cold — «мені дуже холодно»."
+   }
   }
  ]
 }

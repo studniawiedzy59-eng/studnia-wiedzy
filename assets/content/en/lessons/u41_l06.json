@@ -230,6 +230,75 @@
    "explanation": {
     "uk": "Because I like to travel."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви відповідаєте ввічливо."
+   },
+   "character": {
+    "name": {
+     "uk": "Марк"
+    },
+    "avatar": "👨‍💼"
+   },
+   "line": "Let me introduce myself. I'm Mark, and this is my partner, Olga.",
+   "options": [
+    "Pleased to meet you both.",
+    "Pleased meet you two.",
+    "Nice to meet you, both people."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pleased to meet you both — ввічливо до двох людей."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ваше прізвище — Kovalenko."
+   },
+   "character": {
+    "name": {
+     "uk": "Марк"
+    },
+    "avatar": "👨‍💼"
+   },
+   "line": "Sorry, how do you pronounce your surname?",
+   "options": [
+    "It's ko-va-LEN-ko. Everyone says it wrong!",
+    "It reads as Kovalenko.",
+    "It is pronouncing like ko-va-len-ko."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Відповідаємо звучанням і наголосом."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви виросли у Львові."
+   },
+   "character": {
+    "name": {
+     "uk": "Марк"
+    },
+    "avatar": "👨‍💼"
+   },
+   "line": "Where did you grow up?",
+   "options": [
+    "I grew up in Lviv.",
+    "I grown in Lviv.",
+    "I was grown in Lviv."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Grew up — «виріс». Інші форми помилкові."
+   }
   }
  ]
 }

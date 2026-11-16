@@ -185,6 +185,75 @@
    "explanation": {
     "uk": "Вас питають, хто у вас є: I have a sister."
    }
+  },
+  {
+   "id": "e11",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "На фото ваша сестра Анна."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Who is that in the photo?",
+   "options": [
+    "That's my sister, Anna.",
+    "This is mine sister Anna.",
+    "It is sister my Anna."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Показуючи на фото, кажемо That's my sister. Порядок слів: my sister, а не «sister my»."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Їй двадцять п'ять."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "How old is she?",
+   "options": [
+    "She's twenty-five.",
+    "She has twenty-five years.",
+    "Her are twenty-five."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про вік кажемо is, а не has: She is twenty-five."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вона не студентка, а вчителька."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Is she a student?",
+   "options": [
+    "No, she's a teacher.",
+    "No, she is teacher.",
+    "No, she not student, she teacher."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед професією ставимо a: she's a teacher."
+   }
   }
  ]
 }

@@ -221,6 +221,75 @@
    "explanation": {
     "uk": "After work I walk home."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви встаєте о шостій."
+   },
+   "character": {
+    "name": {
+     "uk": "Сусід Джейк"
+    },
+    "avatar": "🧑"
+   },
+   "line": "You're up early! What time do you get up?",
+   "options": [
+    "I get up at six.",
+    "I wake up in six.",
+    "I rise at six hours."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Get up at six — звичний вираз. Слово hours не потрібне."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви ходите на роботу пішки."
+   },
+   "character": {
+    "name": {
+     "uk": "Сусід Джейк"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Do you walk to work?",
+   "options": [
+    "Yes, I walk to work.",
+    "Yes, I go by feet.",
+    "Yes, I walk on legs."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Пішки — walk, або on foot. «By feet» — калька."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Іноді ви поспішаєте й не снідаєте вдома."
+   },
+   "character": {
+    "name": {
+     "uk": "Сусід Джейк"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Do you have breakfast at home?",
+   "options": [
+    "Not always. Sometimes I'm in a hurry.",
+    "Not every time. Sometimes I hurry.",
+    "No always, sometimes in hurry."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Not always — «не завжди». In a hurry — «у поспіху»."
+   }
   }
  ]
 }

@@ -229,6 +229,75 @@
    "explanation": {
     "uk": "You're welcome!"
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви знайомитеся. Вас звати Анна."
+   },
+   "character": {
+    "name": {
+     "uk": "Новенький Сем"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Hi! I'm new here. I'm Sam. What's your name?",
+   "options": [
+    "Hi, Sam! I'm Anna. Nice to meet you.",
+    "Hi! Me Anna, nice meet you.",
+    "I name Anna."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm Anna — природно."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви з України й працюєте вчителькою."
+   },
+   "character": {
+    "name": {
+     "uk": "Новенький Сем"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Where are you from, and what do you do?",
+   "options": [
+    "I'm from Ukraine. I'm a teacher.",
+    "I from Ukraine, I work teacher.",
+    "Ukraine me, teacher."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Два короткі речення: I'm from… I'm a…"
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви раді й погоджуєтеся."
+   },
+   "character": {
+    "name": {
+     "uk": "Новенький Сем"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Would you like to have a coffee?",
+   "options": [
+    "I'd love to! Thank you.",
+    "I like to have, thanks.",
+    "Yes, I will coffee."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd love to! — тепла згода."
+   }
   }
  ]
 }

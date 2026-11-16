@@ -218,6 +218,75 @@
    "explanation": {
     "uk": "Go home and rest. Take care!"
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "У вас болить голова й горло."
+   },
+   "character": {
+    "name": {
+     "uk": "Колега Лена"
+    },
+    "avatar": "👩"
+   },
+   "line": "You look tired. What's the matter?",
+   "options": [
+    "I have a headache and a sore throat.",
+    "I have pain in head and throat sick.",
+    "My head and throat are ill."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Headache і sore throat — готові слова для болю."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви погоджуєтесь і зателефонуєте лікарю."
+   },
+   "character": {
+    "name": {
+     "uk": "Колега Лена"
+    },
+    "avatar": "👩"
+   },
+   "line": "You should see a doctor.",
+   "options": [
+    "You're right. I'll call the doctor.",
+    "Right you. I call doctor.",
+    "Yes, I go doctor to."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You're right — «ви маєте рацію»."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви дякуєте за побажання."
+   },
+   "character": {
+    "name": {
+     "uk": "Колега Лена"
+    },
+    "avatar": "👩"
+   },
+   "line": "Get well soon!",
+   "options": [
+    "Thanks! I hope so.",
+    "Thank, I will healthy.",
+    "Yes, I will be healthy."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thanks! I hope so — природна відповідь."
+   }
   }
  ]
 }

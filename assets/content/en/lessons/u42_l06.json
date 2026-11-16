@@ -225,6 +225,75 @@
    "explanation": {
     "uk": "A lot of relatives come."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви єдина дитина в родині."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Алекс"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Have you got any brothers or sisters?",
+   "options": [
+    "No, I'm an only child.",
+    "No, I am the one child.",
+    "No, I have not siblings."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Only child — «єдина дитина»."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "На фото ваш двоюрідний брат Дмитро."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Алекс"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Who's that?",
+   "options": [
+    "That's my cousin, Dmytro.",
+    "That is Dmytro, cousin of me.",
+    "This is the brother of my uncle."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "That's my cousin — коротко й природно."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Бабуся й дідусь живуть у селі."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Алекс"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Do your grandparents live near you?",
+   "options": [
+    "No, they live in a village.",
+    "No, they live at the village.",
+    "No, they are living village."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Живуть у селі — in a village."
+   }
   }
  ]
 }

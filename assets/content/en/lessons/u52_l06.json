@@ -219,6 +219,75 @@
    "explanation": {
     "uk": "No, there isn't enough."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам потрібно півкіло яблук."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавець овочів"
+    },
+    "avatar": "🧑‍🌾"
+   },
+   "line": "What would you like?",
+   "options": [
+    "Half a kilo of apples, please.",
+    "Apples half kilo, please.",
+    "Half of kilo apples."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Half a kilo of apples — стала форма."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ще дюжину яєць."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавець овочів"
+    },
+    "avatar": "🧑‍🌾"
+   },
+   "line": "Anything else?",
+   "options": [
+    "Yes, a dozen eggs, please.",
+    "Yes, twelve pieces of egg.",
+    "Yes, dozen of eggs me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A dozen eggs — дюжина яєць."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам потрібен пакет."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавець овочів"
+    },
+    "avatar": "🧑‍🌾"
+   },
+   "line": "That's all? Would you like a bag?",
+   "options": [
+    "Yes, please. How much is it?",
+    "Yes, give a package.",
+    "Yes, bag me please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, please — ввічливо; потім можна спитати ціну."
+   }
   }
  ]
 }

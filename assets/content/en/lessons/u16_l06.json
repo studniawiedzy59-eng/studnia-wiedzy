@@ -185,6 +185,75 @@
    "explanation": {
     "uk": "No, I don't. Thank you."
    }
+  },
+  {
+   "id": "e11",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "У вас є кіт."
+   },
+   "character": {
+    "name": {
+     "uk": "Сусідка Анна"
+    },
+    "avatar": "👵"
+   },
+   "line": "Do you have a pet?",
+   "options": [
+    "Yes, I have a cat.",
+    "Yes, I am have cat.",
+    "Yes, at me is a cat."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "«У мене є» — I have. «At me is» — калька з української."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Зарядки у вас немає."
+   },
+   "character": {
+    "name": {
+     "uk": "Сусідка Анна"
+    },
+    "avatar": "👵"
+   },
+   "line": "Do you have a phone charger?",
+   "options": [
+    "No, I don't. Sorry.",
+    "No, I haven't charger.",
+    "No, at me no charger."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У відповіді повторюємо дієслово: No, I don't. Не кажемо «I haven't charger»."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви не знаєте, котра година."
+   },
+   "character": {
+    "name": {
+     "uk": "Сусідка Анна"
+    },
+    "avatar": "👵"
+   },
+   "line": "Any idea what time it is?",
+   "options": [
+    "Sorry, no idea.",
+    "I am not knowing.",
+    "I don't know to say."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sorry, no idea — розмовно й природно."
+   }
   }
  ]
 }

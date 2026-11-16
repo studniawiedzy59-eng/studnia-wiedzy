@@ -223,6 +223,75 @@
    "explanation": {
     "uk": "Nothing special."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви вільні."
+   },
+   "character": {
+    "name": {
+     "uk": "Бен"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Are you free tonight?",
+   "options": [
+    "Yes! What do you have in mind?",
+    "Yes, I free. What you want?",
+    "Yes, what plans you have?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What do you have in mind? — «що ви придумали?»"
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам подобається ідея, і ви принесете сік."
+   },
+   "character": {
+    "name": {
+     "uk": "Бен"
+    },
+    "avatar": "🧑"
+   },
+   "line": "How about a board game night at my place?",
+   "options": [
+    "Sounds great! I'll bring some juice.",
+    "Good idea! I bring juice.",
+    "Great! I will take juice with me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'll bring… — пропозиція принести."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви радите комедію."
+   },
+   "character": {
+    "name": {
+     "uk": "Бен"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Can you suggest a good film?",
+   "options": [
+    "Try this comedy. It's really funny.",
+    "I advise you this comedy, it is funny very.",
+    "Look this comedy, funny much."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Try this… — розмовна порада."
+   }
   }
  ]
 }

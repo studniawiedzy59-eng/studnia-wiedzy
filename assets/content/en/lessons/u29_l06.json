@@ -226,6 +226,75 @@
    "explanation": {
     "uk": "Про штани — they і them."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам потрібен светр."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавчиня"
+    },
+    "avatar": "👗"
+   },
+   "line": "Can I help you? Are you looking for something?",
+   "options": [
+    "Yes, I'm looking for a jumper.",
+    "Yes, I search a jumper.",
+    "Yes, I need sweater to buy."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm looking for… — що кажуть у магазині."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Светр вам завеликий."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавчиня"
+    },
+    "avatar": "👗"
+   },
+   "line": "How does it fit?",
+   "options": [
+    "It's a bit loose.",
+    "It is big for me very.",
+    "It sits big."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Loose — «вільний, завеликий» про одяг."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Подобається, але дорого."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавчиня"
+    },
+    "avatar": "👗"
+   },
+   "line": "Do you like it?",
+   "options": [
+    "Yes, but it's too expensive.",
+    "Yes, but is much expensive.",
+    "Yes, but price big."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Too expensive — «занадто дорого»."
+   }
   }
  ]
 }
