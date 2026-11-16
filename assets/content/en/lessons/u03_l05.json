@@ -1,0 +1,325 @@
+{
+ "id": "u03_l05",
+ "unit": "u03",
+ "cefr": "A0",
+ "title": {
+  "uk": "Хто це?"
+ },
+ "goal": {
+  "uk": "Спитати, хто це, сказати, ким людина працює, і заперечити."
+ },
+ "rule": {
+  "uk": "Who is this? — «Хто це?». Перед професією ставлять a: She's a doctor. Щоб сказати «не», додають not після is або am: He's not my brother. I'm not a teacher."
+ },
+ "words": [
+  {
+   "id": "who",
+   "text": "who",
+   "ipa": "/huː/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "хто"
+   },
+   "example": "Who is this?",
+   "exampleTranslation": {
+    "uk": "Хто це?"
+   }
+  },
+  {
+   "id": "man",
+   "text": "man",
+   "ipa": "/mæn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "чоловік (людина)"
+   },
+   "example": "Who is this man?",
+   "exampleTranslation": {
+    "uk": "Хто цей чоловік?"
+   }
+  },
+  {
+   "id": "woman",
+   "text": "woman",
+   "ipa": "/ˈwʊmən/",
+   "pos": "noun",
+   "translation": {
+    "uk": "жінка"
+   },
+   "example": "This woman is my mother.",
+   "exampleTranslation": {
+    "uk": "Ця жінка — моя мама."
+   }
+  },
+  {
+   "id": "teacher",
+   "text": "teacher",
+   "ipa": "/ˈtiːtʃə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "учитель, учителька"
+   },
+   "example": "She's a teacher.",
+   "exampleTranslation": {
+    "uk": "Вона вчителька."
+   }
+  },
+  {
+   "id": "doctor",
+   "text": "doctor",
+   "ipa": "/ˈdɒktə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "лікар, лікарка"
+   },
+   "example": "My father is a doctor.",
+   "exampleTranslation": {
+    "uk": "Мій тато лікар."
+   }
+  },
+  {
+   "id": "student",
+   "text": "student",
+   "ipa": "/ˈstjuːdnt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "студент, студентка"
+   },
+   "example": "I'm a student.",
+   "exampleTranslation": {
+    "uk": "Я студент."
+   }
+  },
+  {
+   "id": "not",
+   "text": "not",
+   "ipa": "/nɒt/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "не"
+   },
+   "example": "He's not my brother.",
+   "exampleTranslation": {
+    "uk": "Він не мій брат."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How old are you?",
+   "prompt": {
+    "uk": "Повторимо. Вам сорок. Що відповісти?"
+   },
+   "options": [
+    "I'm forty.",
+    "I have forty.",
+    "I'm fine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про вік — I'm і число."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "teacher",
+     "right": {
+      "uk": "учитель"
+     }
+    },
+    {
+     "left": "doctor",
+     "right": {
+      "uk": "лікар"
+     }
+    },
+    {
+     "left": "student",
+     "right": {
+      "uk": "студент"
+     }
+    },
+    {
+     "left": "who",
+     "right": {
+      "uk": "хто"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Три професії й питальне слово who."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "man",
+     "right": {
+      "uk": "чоловік"
+     }
+    },
+    {
+     "left": "woman",
+     "right": {
+      "uk": "жінка"
+     }
+    },
+    {
+     "left": "boy",
+     "right": {
+      "uk": "хлопчик"
+     }
+    },
+    {
+     "left": "girl",
+     "right": {
+      "uk": "дівчинка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Man і woman — про дорослих, boy і girl — про дітей."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Who is this?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Хто це?",
+     "Що це?",
+     "Де це?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Who — хто. What — що, where — де."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She's ___ doctor.",
+   "options": [
+    "a",
+    "my",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед професією потрібне a: a doctor, a teacher."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He's ___ my brother. He's my friend.",
+   "options": [
+    "not",
+    "no",
+    "a"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "«Не» всередині речення — not. No — це окрема відповідь «ні»."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "My mother is a teacher.",
+   "prompt": {
+    "uk": "Прослухайте. Ким працює мама?"
+   },
+   "options": {
+    "uk": [
+     "Учителькою",
+     "Лікаркою",
+     "Вона студентка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A teacher — учителька."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я не студент."
+   },
+   "words": [
+    "I'm",
+    "not",
+    "a",
+    "student",
+    "no",
+    "is"
+   ],
+   "answer": [
+    "I'm",
+    "not",
+    "a",
+    "student"
+   ],
+   "explanation": {
+    "uk": "I'm not a student: not стоїть після I'm."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Хто це?"
+   },
+   "answers": [
+    "Who is this",
+    "Who's this"
+   ],
+   "explanation": {
+    "uk": "Who is this?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Who is this woman?",
+   "prompt": {
+    "uk": "Це ваша сестра. Що відповісти?"
+   },
+   "options": [
+    "She's my sister.",
+    "He's my sister.",
+    "I'm a sister."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про жінку — she: She's my sister."
+   }
+  }
+ ]
+}

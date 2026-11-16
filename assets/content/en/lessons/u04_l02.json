@@ -1,0 +1,324 @@
+{
+ "id": "u04_l02",
+ "unit": "u04",
+ "cefr": "A0",
+ "title": {
+  "uk": "Що це?"
+ },
+ "goal": {
+  "uk": "Спитати, що це, і назвати речі в кімнаті."
+ },
+ "rule": {
+  "uk": "This — про те, що поруч, that — про те, що далі. What's this? — «Що це?». Відповідь починається з It's: It's a table. It's — скорочення від it is."
+ },
+ "words": [
+  {
+   "id": "that",
+   "text": "that",
+   "ipa": "/ðæt/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "те, той (далі від вас)"
+   },
+   "example": "What's that?",
+   "exampleTranslation": {
+    "uk": "Що то?"
+   }
+  },
+  {
+   "id": "room",
+   "text": "room",
+   "ipa": "/ruːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кімната"
+   },
+   "example": "This is my room.",
+   "exampleTranslation": {
+    "uk": "Це моя кімната."
+   }
+  },
+  {
+   "id": "table",
+   "text": "table",
+   "ipa": "/ˈteɪbl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "стіл"
+   },
+   "example": "It's a table.",
+   "exampleTranslation": {
+    "uk": "Це стіл."
+   }
+  },
+  {
+   "id": "chair",
+   "text": "chair",
+   "ipa": "/tʃeə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "стілець"
+   },
+   "example": "It's a chair.",
+   "exampleTranslation": {
+    "uk": "Це стілець."
+   }
+  },
+  {
+   "id": "bed",
+   "text": "bed",
+   "ipa": "/bed/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ліжко"
+   },
+   "example": "It's a large bed.",
+   "exampleTranslation": {
+    "uk": "Це велике ліжко."
+   }
+  },
+  {
+   "id": "door",
+   "text": "door",
+   "ipa": "/dɔː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "двері"
+   },
+   "example": "That's the door.",
+   "exampleTranslation": {
+    "uk": "То двері."
+   }
+  },
+  {
+   "id": "window",
+   "text": "window",
+   "ipa": "/ˈwɪndəʊ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вікно"
+   },
+   "example": "It's a small window.",
+   "exampleTranslation": {
+    "uk": "Це мале вікно."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___. I'm from Ukraine.",
+   "options": [
+    "passport",
+    "pen",
+    "chair"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Паспорт показує, звідки ви."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "table",
+     "right": {
+      "uk": "стіл"
+     }
+    },
+    {
+     "left": "chair",
+     "right": {
+      "uk": "стілець"
+     }
+    },
+    {
+     "left": "bed",
+     "right": {
+      "uk": "ліжко"
+     }
+    },
+    {
+     "left": "room",
+     "right": {
+      "uk": "кімната"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Меблі й сама кімната."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "door",
+     "right": {
+      "uk": "двері"
+     }
+    },
+    {
+     "left": "window",
+     "right": {
+      "uk": "вікно"
+     }
+    },
+    {
+     "left": "this",
+     "right": {
+      "uk": "це (поруч)"
+     }
+    },
+    {
+     "left": "that",
+     "right": {
+      "uk": "те (далі)"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "This — близько, that — далеко."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "What's this?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Що це?",
+     "Хто це?",
+     "Де це?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "What — що. What's this? — «Що це?»"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What's this? ___ a key.",
+   "options": [
+    "It's",
+    "He's",
+    "I'm"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про річ кажуть it: It's a key."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Річ лежить далеко від вас. Як спитати?"
+   },
+   "options": [
+    "What's that?",
+    "What's this?",
+    "Who's that?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Далеко — that. Who питає про людину."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "It's a large room.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це велика кімната",
+     "Це мала кімната",
+     "Це велике ліжко"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Large — велика, room — кімната."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це мале вікно."
+   },
+   "words": [
+    "It's",
+    "a",
+    "small",
+    "window",
+    "that",
+    "large"
+   ],
+   "answer": [
+    "It's",
+    "a",
+    "small",
+    "window"
+   ],
+   "explanation": {
+    "uk": "It's a small window: слово small стоїть перед window."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Що це?"
+   },
+   "answers": [
+    "What's this",
+    "What is this"
+   ],
+   "explanation": {
+    "uk": "What's this?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What's that?",
+   "prompt": {
+    "uk": "Вам показують на двері. Що відповісти?"
+   },
+   "options": [
+    "It's a door.",
+    "He's a door.",
+    "This is my door, thanks."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про річ: It's a…"
+   }
+  }
+ ]
+}

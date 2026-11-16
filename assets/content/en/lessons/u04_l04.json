@@ -1,0 +1,291 @@
+{
+ "id": "u04_l04",
+ "unit": "u04",
+ "cefr": "A0",
+ "title": {
+  "uk": "Один і багато"
+ },
+ "goal": {
+  "uk": "Говорити про кілька речей і спитати, скільки їх."
+ },
+ "rule": {
+  "uk": "Коли речей більше однієї, до слова додають -s: a key — two keys. Замість this кажуть these, замість that — those, і замість is — are: These are my keys. How many…? — «Скільки…?»"
+ },
+ "words": [
+  {
+   "id": "these",
+   "text": "these",
+   "ipa": "/ðiːz/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "ці (поруч)"
+   },
+   "example": "These are my keys.",
+   "exampleTranslation": {
+    "uk": "Це мої ключі."
+   }
+  },
+  {
+   "id": "those",
+   "text": "those",
+   "ipa": "/ðəʊz/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "ті (далі)"
+   },
+   "example": "Those are my bags.",
+   "exampleTranslation": {
+    "uk": "То мої сумки."
+   }
+  },
+  {
+   "id": "how_many",
+   "text": "how many",
+   "ipa": "/ˌhaʊ ˈmeni/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "скільки (штук)"
+   },
+   "example": "How many bags?",
+   "exampleTranslation": {
+    "uk": "Скільки сумок?"
+   }
+  },
+  {
+   "id": "glasses",
+   "text": "glasses",
+   "ipa": "/ˈɡlɑːsɪz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "окуляри"
+   },
+   "example": "Where are my glasses?",
+   "exampleTranslation": {
+    "uk": "Де мої окуляри?"
+   }
+  },
+  {
+   "id": "shoes",
+   "text": "shoes",
+   "ipa": "/ʃuːz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "взуття, черевики"
+   },
+   "example": "These are my shoes.",
+   "exampleTranslation": {
+    "uk": "Це моє взуття."
+   }
+  },
+  {
+   "id": "photo",
+   "text": "photo",
+   "ipa": "/ˈfəʊtəʊ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "фото"
+   },
+   "example": "I have two photos.",
+   "exampleTranslation": {
+    "uk": "У мене є два фото."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "My phone is ___ the table.",
+   "options": [
+    "on",
+    "how",
+    "these"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "«На столі» — on the table."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "these",
+     "right": {
+      "uk": "ці"
+     }
+    },
+    {
+     "left": "those",
+     "right": {
+      "uk": "ті"
+     }
+    },
+    {
+     "left": "how many",
+     "right": {
+      "uk": "скільки"
+     }
+    },
+    {
+     "left": "photo",
+     "right": {
+      "uk": "фото"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "This — these, that — those."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «три квитки»?"
+   },
+   "options": [
+    "three tickets",
+    "three ticket",
+    "tickets three"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Більше одного — додаємо -s."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "These ___ my shoes.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З these і those стоїть are."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ are my glasses.",
+   "options": [
+    "These",
+    "This",
+    "It"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Окуляри — завжди множина, тому these."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "How many bags?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають в аеропорту?"
+   },
+   "options": {
+    "uk": [
+     "Скільки сумок?",
+     "Де сумки?",
+     "Чиї це сумки?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "How many — скільки."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "I have two bags and four books.",
+   "prompt": {
+    "uk": "Прослухайте. Що є в людини?"
+   },
+   "options": {
+    "uk": [
+     "2 сумки й 4 книжки",
+     "4 сумки й 2 книжки",
+     "2 сумки й 5 книжок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Two bags, four books."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це мої ключі."
+   },
+   "words": [
+    "These",
+    "are",
+    "my",
+    "keys",
+    "is",
+    "this"
+   ],
+   "answer": [
+    "These",
+    "are",
+    "my",
+    "keys"
+   ],
+   "explanation": {
+    "uk": "These are my keys."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Де мої окуляри?"
+   },
+   "answers": [
+    "Where are my glasses"
+   ],
+   "explanation": {
+    "uk": "Where are my glasses? З множиною — are."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "How many children do you have?",
+   "prompt": {
+    "uk": "У вас двоє дітей. Що відповісти?"
+   },
+   "options": [
+    "I have two children.",
+    "I have two child.",
+    "I'm two children."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Two children — множина від child."
+   }
+  }
+ ]
+}

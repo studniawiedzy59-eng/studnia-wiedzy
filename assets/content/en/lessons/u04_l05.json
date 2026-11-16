@@ -1,0 +1,338 @@
+{
+ "id": "u04_l05",
+ "unit": "u04",
+ "cefr": "A0",
+ "title": {
+  "uk": "Який він?"
+ },
+ "goal": {
+  "uk": "Описати річ: нова чи стара, велика, гарна, дорога чи дешева."
+ },
+ "rule": {
+  "uk": "Слово, що описує, стоїть перед річчю: a new phone. Або після is: My phone is new. Very — «дуже»: very big. But — «але»: It's nice but expensive."
+ },
+ "words": [
+  {
+   "id": "new",
+   "text": "new",
+   "ipa": "/njuː/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "новий"
+   },
+   "example": "It's a new phone.",
+   "exampleTranslation": {
+    "uk": "Це новий телефон."
+   }
+  },
+  {
+   "id": "big",
+   "text": "big",
+   "ipa": "/bɪɡ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "великий"
+   },
+   "example": "It's a big room.",
+   "exampleTranslation": {
+    "uk": "Це велика кімната."
+   }
+  },
+  {
+   "id": "bad",
+   "text": "bad",
+   "ipa": "/bæd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "поганий"
+   },
+   "example": "It's a bad photo.",
+   "exampleTranslation": {
+    "uk": "Це погане фото."
+   }
+  },
+  {
+   "id": "beautiful",
+   "text": "beautiful",
+   "ipa": "/ˈbjuːtɪfl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "гарний, красивий"
+   },
+   "example": "It's a beautiful room.",
+   "exampleTranslation": {
+    "uk": "Це гарна кімната."
+   }
+  },
+  {
+   "id": "cheap",
+   "text": "cheap",
+   "ipa": "/tʃiːp/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "дешевий"
+   },
+   "example": "The ticket is cheap.",
+   "exampleTranslation": {
+    "uk": "Квиток дешевий."
+   }
+  },
+  {
+   "id": "expensive",
+   "text": "expensive",
+   "ipa": "/ɪkˈspensɪv/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "дорогий"
+   },
+   "example": "The phone is expensive.",
+   "exampleTranslation": {
+    "uk": "Телефон дорогий."
+   }
+  },
+  {
+   "id": "very",
+   "text": "very",
+   "ipa": "/ˈveri/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "дуже"
+   },
+   "example": "It's very good.",
+   "exampleTranslation": {
+    "uk": "Це дуже добре."
+   }
+  },
+  {
+   "id": "but",
+   "text": "but",
+   "ipa": "/bʌt/",
+   "pos": "conjunction",
+   "translation": {
+    "uk": "але"
+   },
+   "example": "It's nice but expensive.",
+   "exampleTranslation": {
+    "uk": "Воно гарне, але дороге."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "These ___ my books.",
+   "options": [
+    "are",
+    "is",
+    "but"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З these — are."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "new",
+     "right": {
+      "uk": "новий"
+     }
+    },
+    {
+     "left": "big",
+     "right": {
+      "uk": "великий"
+     }
+    },
+    {
+     "left": "bad",
+     "right": {
+      "uk": "поганий"
+     }
+    },
+    {
+     "left": "beautiful",
+     "right": {
+      "uk": "гарний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Big і large означають те саме — «великий»."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "cheap",
+     "right": {
+      "uk": "дешевий"
+     }
+    },
+    {
+     "left": "expensive",
+     "right": {
+      "uk": "дорогий"
+     }
+    },
+    {
+     "left": "very",
+     "right": {
+      "uk": "дуже"
+     }
+    },
+    {
+     "left": "but",
+     "right": {
+      "uk": "але"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Cheap і expensive — протилежні слова."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «новий телефон»?"
+   },
+   "options": [
+    "a new phone",
+    "a phone new",
+    "new a phone"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Порядок: a + яке + що."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My car is ___ old.",
+   "options": [
+    "very",
+    "but",
+    "a"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Very old — дуже стара."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The room is small ___ beautiful.",
+   "options": [
+    "but",
+    "very",
+    "or"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "But — «але»: мала, але гарна."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "It's very expensive.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина про ціну?"
+   },
+   "options": {
+    "uk": [
+     "Це дуже дорого",
+     "Це дуже дешево",
+     "Це недорого"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Expensive — дорогий."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Моя сумка дуже велика."
+   },
+   "words": [
+    "My",
+    "bag",
+    "is",
+    "very",
+    "big",
+    "but",
+    "a"
+   ],
+   "answer": [
+    "My",
+    "bag",
+    "is",
+    "very",
+    "big"
+   ],
+   "explanation": {
+    "uk": "My bag is very big."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це гарне фото."
+   },
+   "answers": [
+    "It's a beautiful photo",
+    "It is a beautiful photo",
+    "This is a beautiful photo"
+   ],
+   "explanation": {
+    "uk": "It's a beautiful photo."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "How much is it? — It's fifty pounds.",
+   "prompt": {
+    "uk": "Ви вважаєте, що це дорого. Що сказати?"
+   },
+   "options": [
+    "It's very expensive.",
+    "It's very cheap.",
+    "It's very new."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Дорого — expensive."
+   }
+  }
+ ]
+}

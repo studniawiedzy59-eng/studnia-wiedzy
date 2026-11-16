@@ -1,0 +1,320 @@
+{
+ "id": "u03_l04",
+ "unit": "u03",
+ "cefr": "A0",
+ "title": {
+  "uk": "Скільки вам років?"
+ },
+ "goal": {
+  "uk": "Спитати про вік і назвати свій."
+ },
+ "rule": {
+  "uk": "How old are you? — «Скільки вам років?». Відповідь: I'm thirty або I'm thirty years old. Англійською кажуть «я є тридцять», тому потрібне am, а не have. Про інших: He's five. She's twenty."
+ },
+ "words": [
+  {
+   "id": "how_old",
+   "text": "how old",
+   "ipa": "/ˌhaʊ ˈəʊld/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "скільки років"
+   },
+   "example": "How old are you?",
+   "exampleTranslation": {
+    "uk": "Скільки вам років?"
+   }
+  },
+  {
+   "id": "year",
+   "text": "year",
+   "ipa": "/jɪə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рік"
+   },
+   "example": "I'm thirty years old.",
+   "exampleTranslation": {
+    "uk": "Мені тридцять років."
+   }
+  },
+  {
+   "id": "old",
+   "text": "old",
+   "ipa": "/əʊld/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "старий; (про вік) має стільки років"
+   },
+   "example": "He's ten years old.",
+   "exampleTranslation": {
+    "uk": "Йому десять років."
+   }
+  },
+  {
+   "id": "young",
+   "text": "young",
+   "ipa": "/jʌŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "молодий"
+   },
+   "example": "She's young.",
+   "exampleTranslation": {
+    "uk": "Вона молода."
+   }
+  },
+  {
+   "id": "twenty",
+   "text": "twenty",
+   "ipa": "/ˈtwenti/",
+   "pos": "number",
+   "translation": {
+    "uk": "двадцять"
+   },
+   "example": "I'm twenty.",
+   "exampleTranslation": {
+    "uk": "Мені двадцять."
+   }
+  },
+  {
+   "id": "thirty",
+   "text": "thirty",
+   "ipa": "/ˈθɜːti/",
+   "pos": "number",
+   "translation": {
+    "uk": "тридцять"
+   },
+   "example": "She's thirty.",
+   "exampleTranslation": {
+    "uk": "Їй тридцять."
+   }
+  },
+  {
+   "id": "forty",
+   "text": "forty",
+   "ipa": "/ˈfɔːti/",
+   "pos": "number",
+   "translation": {
+    "uk": "сорок"
+   },
+   "example": "He's forty.",
+   "exampleTranslation": {
+    "uk": "Йому сорок."
+   }
+  },
+  {
+   "id": "fifty",
+   "text": "fifty",
+   "ipa": "/ˈfɪfti/",
+   "pos": "number",
+   "translation": {
+    "uk": "п'ятдесят"
+   },
+   "example": "My father is fifty.",
+   "exampleTranslation": {
+    "uk": "Моєму татові п'ятдесят."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ two cats.",
+   "options": [
+    "have",
+    "are",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "«У нас є» — we have."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слово з числом"
+   },
+   "pairs": [
+    {
+     "left": "twenty",
+     "right": {
+      "uk": "20"
+     }
+    },
+    {
+     "left": "thirty",
+     "right": {
+      "uk": "30"
+     }
+    },
+    {
+     "left": "forty",
+     "right": {
+      "uk": "40"
+     }
+    },
+    {
+     "left": "fifty",
+     "right": {
+      "uk": "50"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Десятки закінчуються на -ty."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "How old are you?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Скільки вам років?",
+     "Як справи?",
+     "Звідки ви?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "How old are you? — про вік. How are you? — про справи."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'm forty years old.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки років людині?"
+   },
+   "options": {
+    "uk": [
+     "40",
+     "14",
+     "50"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Forty — сорок."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ thirty.",
+   "options": [
+    "am",
+    "have",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про вік англійською кажуть I am, а не I have."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My son is ten ___ old.",
+   "options": [
+    "years",
+    "year",
+    "old"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Більше одного року — years."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Їй двадцять»?"
+   },
+   "options": [
+    "She's twenty.",
+    "She has twenty.",
+    "Her twenty."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She's twenty = she is twenty."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Скільки вам років?"
+   },
+   "words": [
+    "How",
+    "old",
+    "are",
+    "you",
+    "is",
+    "years"
+   ],
+   "answer": [
+    "How",
+    "old",
+    "are",
+    "you"
+   ],
+   "explanation": {
+    "uk": "How old are you?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мені тридцять років."
+   },
+   "answers": [
+    "I'm thirty years old",
+    "I am thirty years old",
+    "I'm thirty",
+    "I am thirty"
+   ],
+   "explanation": {
+    "uk": "I'm thirty years old. Можна коротко: I'm thirty."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "How old is your daughter?",
+   "prompt": {
+    "uk": "Вашій доньці п'ять років. Що відповісти?"
+   },
+   "options": [
+    "She's five.",
+    "He's five.",
+    "I'm five."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про доньку — she: She's five."
+   }
+  }
+ ]
+}

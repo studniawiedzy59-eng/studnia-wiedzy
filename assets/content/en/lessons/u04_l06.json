@@ -1,0 +1,192 @@
+{
+ "id": "u04_l06",
+ "unit": "u04",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: мої речі"
+ },
+ "goal": {
+  "uk": "Назвати свої речі, сказати, де вони, і описати їх."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо весь розділ: This is…, These are…, What's this?, Where is…?, on / in / under / next to, How many…?, new, big, expensive."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where is your passport?",
+   "prompt": {
+    "uk": "Паспорт у вашій сумці. Що відповісти?"
+   },
+   "options": [
+    "It's in my bag.",
+    "It's on my bag.",
+    "These are in my bag."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Усередині сумки — in my bag."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це мої ключі."
+   },
+   "words": [
+    "These",
+    "are",
+    "my",
+    "keys",
+    "is",
+    "those"
+   ],
+   "answer": [
+    "These",
+    "are",
+    "my",
+    "keys"
+   ],
+   "explanation": {
+    "uk": "These are my keys."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What's that? ___ a window.",
+   "options": [
+    "It's",
+    "These",
+    "He's"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про одну річ — It's."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Де мій телефон?"
+   },
+   "answers": [
+    "Where is my phone",
+    "Where's my phone"
+   ],
+   "explanation": {
+    "uk": "Where is my phone?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My wallet is ___ the table, next to the book.",
+   "options": [
+    "on",
+    "how",
+    "many"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "На столі — on the table."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "How many tickets?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Скільки квитків?",
+     "Де квитки?",
+     "Скільки коштує квиток?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "How many — скільки штук. How much — скільки коштує."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «У мене новий телефон»?"
+   },
+   "options": [
+    "I have a new phone.",
+    "I have a phone new.",
+    "I'm a new phone."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a new phone."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Моя кімната мала, але гарна."
+   },
+   "answers": [
+    "My room is small but beautiful",
+    "My room is small but nice"
+   ],
+   "explanation": {
+    "uk": "My room is small but beautiful."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "The shoes are under the bed.",
+   "prompt": {
+    "uk": "Прослухайте. Де взуття?"
+   },
+   "options": {
+    "uk": [
+     "Під ліжком",
+     "На ліжку",
+     "Біля дверей"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Under the bed — під ліжком."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Where are my glasses?",
+   "prompt": {
+    "uk": "Окуляри лежать на столі. Що відповісти?"
+   },
+   "options": [
+    "On the table.",
+    "It's a table.",
+    "I have a table."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Досить короткої відповіді з місцем: On the table."
+   }
+  }
+ ]
+}

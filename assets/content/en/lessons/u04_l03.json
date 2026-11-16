@@ -1,0 +1,338 @@
+{
+ "id": "u04_l03",
+ "unit": "u04",
+ "cefr": "A0",
+ "title": {
+  "uk": "Де мій телефон?"
+ },
+ "goal": {
+  "uk": "Спитати, де річ, і сказати, де вона лежить."
+ },
+ "rule": {
+  "uk": "Where is…? — «Де…?»: Where is my phone? Місце називають маленькими словами: on — на, in — у, under — під, next to — біля. It's on the table. Якщо не знаєте — I don't know."
+ },
+ "words": [
+  {
+   "id": "on",
+   "text": "on",
+   "ipa": "/ɒn/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "на"
+   },
+   "example": "It's on the table.",
+   "exampleTranslation": {
+    "uk": "Він на столі."
+   }
+  },
+  {
+   "id": "under",
+   "text": "under",
+   "ipa": "/ˈʌndə/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "під"
+   },
+   "example": "It's under the bed.",
+   "exampleTranslation": {
+    "uk": "Воно під ліжком."
+   }
+  },
+  {
+   "id": "next_to",
+   "text": "next to",
+   "ipa": "/ˈnekst tuː/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "біля, поруч із"
+   },
+   "example": "It's next to the door.",
+   "exampleTranslation": {
+    "uk": "Воно біля дверей."
+   }
+  },
+  {
+   "id": "there",
+   "text": "there",
+   "ipa": "/ðeə/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "там"
+   },
+   "example": "It's there.",
+   "exampleTranslation": {
+    "uk": "Воно там."
+   }
+  },
+  {
+   "id": "car",
+   "text": "car",
+   "ipa": "/kɑː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "машина"
+   },
+   "example": "It's in the car.",
+   "exampleTranslation": {
+    "uk": "Воно в машині."
+   }
+  },
+  {
+   "id": "floor",
+   "text": "floor",
+   "ipa": "/flɔː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "підлога"
+   },
+   "example": "It's on the floor.",
+   "exampleTranslation": {
+    "uk": "Воно на підлозі."
+   }
+  },
+  {
+   "id": "pocket",
+   "text": "pocket",
+   "ipa": "/ˈpɒkɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кишеня"
+   },
+   "example": "It's in my pocket.",
+   "exampleTranslation": {
+    "uk": "Він у моїй кишені."
+   }
+  },
+  {
+   "id": "i_dont_know",
+   "text": "I don't know",
+   "ipa": "/aɪ ˌdəʊnt ˈnəʊ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "я не знаю"
+   },
+   "example": "I don't know.",
+   "exampleTranslation": {
+    "uk": "Я не знаю."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What's this?",
+   "prompt": {
+    "uk": "Повторимо. Вам показують стілець. Що відповісти?"
+   },
+   "options": [
+    "It's a chair.",
+    "It's a table.",
+    "He's a chair."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Chair — стілець."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "on",
+     "right": {
+      "uk": "на"
+     }
+    },
+    {
+     "left": "under",
+     "right": {
+      "uk": "під"
+     }
+    },
+    {
+     "left": "next to",
+     "right": {
+      "uk": "біля"
+     }
+    },
+    {
+     "left": "in",
+     "right": {
+      "uk": "у"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Чотири слова, якими описують місце."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "car",
+     "right": {
+      "uk": "машина"
+     }
+    },
+    {
+     "left": "floor",
+     "right": {
+      "uk": "підлога"
+     }
+    },
+    {
+     "left": "pocket",
+     "right": {
+      "uk": "кишеня"
+     }
+    },
+    {
+     "left": "there",
+     "right": {
+      "uk": "там"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Here — тут, there — там."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Where is my phone?",
+   "prompt": {
+    "uk": "Прослухайте. Що шукає людина?"
+   },
+   "options": {
+    "uk": [
+     "Телефон",
+     "Ключ",
+     "Гаманець"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Where is my phone? — «Де мій телефон?»"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The book is ___ the table.",
+   "options": [
+    "on",
+    "how",
+    "there"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "«На столі» — on the table."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My wallet is ___ my bag.",
+   "options": [
+    "in",
+    "on",
+    "next"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Усередині — in: in my bag."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "It's under the bed.",
+   "prompt": {
+    "uk": "Прослухайте. Де лежить річ?"
+   },
+   "options": {
+    "uk": [
+     "Під ліжком",
+     "На ліжку",
+     "Біля ліжка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Under — під."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він у моїй кишені."
+   },
+   "words": [
+    "It's",
+    "in",
+    "my",
+    "pocket",
+    "on",
+    "the"
+   ],
+   "answer": [
+    "It's",
+    "in",
+    "my",
+    "pocket"
+   ],
+   "explanation": {
+    "uk": "It's in my pocket."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Де мій ключ?"
+   },
+   "answers": [
+    "Where is my key",
+    "Where's my key"
+   ],
+   "explanation": {
+    "uk": "Where is my key?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Where is the car?",
+   "prompt": {
+    "uk": "Ви не знаєте, де машина. Що відповісти?"
+   },
+   "options": [
+    "I don't know.",
+    "It's a car.",
+    "Yes, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Не знаєте — I don't know."
+   }
+  }
+ ]
+}

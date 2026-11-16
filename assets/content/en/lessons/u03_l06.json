@@ -1,0 +1,190 @@
+{
+ "id": "u03_l06",
+ "unit": "u03",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: розповідь про сім'ю"
+ },
+ "goal": {
+  "uk": "Розповісти про свою сім'ю: хто є, як звати, скільки років, ким працюють."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Складаємо розповідь про сім'ю з усього, що було в розділі: This is…, He's…, Her name is…, I have…, She's thirty, He's a doctor."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це моя сім'я."
+   },
+   "words": [
+    "This",
+    "is",
+    "my",
+    "family",
+    "his",
+    "are"
+   ],
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "family"
+   ],
+   "explanation": {
+    "uk": "This is my family."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ a husband and two children.",
+   "options": [
+    "have",
+    "am",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "«У мене є» — I have."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мій чоловік — лікар."
+   },
+   "answers": [
+    "My husband is a doctor"
+   ],
+   "explanation": {
+    "uk": "My husband is a doctor. Перед професією — a."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He's forty years ___.",
+   "options": [
+    "old",
+    "young",
+    "year"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вік: forty years old."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is my son. ___ name is Max.",
+   "options": [
+    "His",
+    "Her",
+    "He"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "«Його ім'я» — his name."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "This is my daughter. Her name is Kate. She's ten.",
+   "prompt": {
+    "uk": "Прослухайте. Що ви дізналися?"
+   },
+   "options": {
+    "uk": [
+     "Доньку звати Кейт, їй 10",
+     "Сина звати Кейт, йому 10",
+     "Доньку звати Кейт, їй 2"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Daughter — донька, her name — її ім'я, she's ten — їй десять."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Who is this man?",
+   "prompt": {
+    "uk": "На фото ваш тато. Що відповісти?"
+   },
+   "options": [
+    "He's my father.",
+    "She's my father.",
+    "He's my son."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про чоловіка — he: He's my father."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «У нас є собака й кіт»?"
+   },
+   "options": [
+    "We have a dog and a cat.",
+    "We are a dog and a cat.",
+    "We have dog and cat a."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We have… і a перед кожною твариною."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона не моя сестра."
+   },
+   "answers": [
+    "She's not my sister",
+    "She is not my sister",
+    "She isn't my sister"
+   ],
+   "explanation": {
+    "uk": "She's not my sister."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Do you have a brother or a sister?",
+   "prompt": {
+    "uk": "У вас є сестра. Що відповісти?"
+   },
+   "options": [
+    "I have a sister.",
+    "I'm a sister.",
+    "Her name is sister."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вас питають, хто у вас є: I have a sister."
+   }
+  }
+ ]
+}

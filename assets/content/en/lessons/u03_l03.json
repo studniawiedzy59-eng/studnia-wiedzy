@@ -1,0 +1,339 @@
+{
+ "id": "u03_l03",
+ "unit": "u03",
+ "cefr": "A0",
+ "title": {
+  "uk": "У мене є"
+ },
+ "goal": {
+  "uk": "Сказати, хто і що у вас є."
+ },
+ "rule": {
+  "uk": "I have… — «у мене є…»: I have a brother. We have… — «у нас є…». Про багатьох додають -s: two brothers, three cats. Виняток: child — children."
+ },
+ "words": [
+  {
+   "id": "we",
+   "text": "we",
+   "ipa": "/wiː/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "ми"
+   },
+   "example": "We have a dog.",
+   "exampleTranslation": {
+    "uk": "У нас є собака."
+   }
+  },
+  {
+   "id": "child",
+   "text": "child",
+   "ipa": "/tʃaɪld/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дитина"
+   },
+   "example": "I have a child.",
+   "exampleTranslation": {
+    "uk": "У мене є дитина."
+   }
+  },
+  {
+   "id": "children",
+   "text": "children",
+   "ipa": "/ˈtʃɪldrən/",
+   "pos": "noun",
+   "translation": {
+    "uk": "діти"
+   },
+   "example": "We have two children.",
+   "exampleTranslation": {
+    "uk": "У нас двоє дітей."
+   }
+  },
+  {
+   "id": "parents",
+   "text": "parents",
+   "ipa": "/ˈpeərənts/",
+   "pos": "noun",
+   "translation": {
+    "uk": "батьки"
+   },
+   "example": "My parents live in Ukraine.",
+   "exampleTranslation": {
+    "uk": "Мої батьки живуть в Україні."
+   }
+  },
+  {
+   "id": "boy",
+   "text": "boy",
+   "ipa": "/bɔɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "хлопчик"
+   },
+   "example": "I have a boy.",
+   "exampleTranslation": {
+    "uk": "У мене хлопчик."
+   }
+  },
+  {
+   "id": "girl",
+   "text": "girl",
+   "ipa": "/ɡɜːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дівчинка"
+   },
+   "example": "We have a girl.",
+   "exampleTranslation": {
+    "uk": "У нас дівчинка."
+   }
+  },
+  {
+   "id": "dog",
+   "text": "dog",
+   "ipa": "/dɒɡ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "собака"
+   },
+   "example": "I have a dog.",
+   "exampleTranslation": {
+    "uk": "У мене є собака."
+   }
+  },
+  {
+   "id": "cat",
+   "text": "cat",
+   "ipa": "/kæt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кіт"
+   },
+   "example": "We have two cats.",
+   "exampleTranslation": {
+    "uk": "У нас два коти."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "___ name is Anna.",
+   "options": [
+    "Her",
+    "She",
+    "He"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "«Її ім'я» — her name."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "child",
+     "right": {
+      "uk": "дитина"
+     }
+    },
+    {
+     "left": "children",
+     "right": {
+      "uk": "діти"
+     }
+    },
+    {
+     "left": "parents",
+     "right": {
+      "uk": "батьки"
+     }
+    },
+    {
+     "left": "we",
+     "right": {
+      "uk": "ми"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Child — одна дитина, children — діти. Це слово треба запам'ятати."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "boy",
+     "right": {
+      "uk": "хлопчик"
+     }
+    },
+    {
+     "left": "girl",
+     "right": {
+      "uk": "дівчинка"
+     }
+    },
+    {
+     "left": "dog",
+     "right": {
+      "uk": "собака"
+     }
+    },
+    {
+     "left": "cat",
+     "right": {
+      "uk": "кіт"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Boy і girl — про дітей."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We have two children.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки дітей у сім'ї?"
+   },
+   "options": {
+    "uk": [
+     "Двоє",
+     "Троє",
+     "Одна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Two children — двоє дітей."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ a sister.",
+   "options": [
+    "have",
+    "am",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "«У мене є» — I have."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «три коти»?"
+   },
+   "options": [
+    "three cats",
+    "three cat",
+    "cats three"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Коли предметів більше одного, додають -s: cats."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We have two ___.",
+   "options": [
+    "children",
+    "child",
+    "childs"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Форма множини — children, а не childs."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене є брат і сестра."
+   },
+   "words": [
+    "I",
+    "have",
+    "a",
+    "brother",
+    "and",
+    "a",
+    "sister",
+    "is"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "brother",
+    "and",
+    "a",
+    "sister"
+   ],
+   "explanation": {
+    "uk": "I have a brother and a sister."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "У нас є собака."
+   },
+   "answers": [
+    "We have a dog"
+   ],
+   "explanation": {
+    "uk": "We have a dog."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Do you have children?",
+   "prompt": {
+    "uk": "Вас питають, чи є у вас діти. У вас є син. Що відповісти?"
+   },
+   "options": [
+    "Yes, I have a son.",
+    "Yes, I'm a son.",
+    "No, thank you."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Відповідь: Yes, I have… і хто саме."
+   }
+  }
+ ]
+}

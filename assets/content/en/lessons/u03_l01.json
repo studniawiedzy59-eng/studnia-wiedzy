@@ -1,0 +1,337 @@
+{
+ "id": "u03_l01",
+ "unit": "u03",
+ "cefr": "A0",
+ "title": {
+  "uk": "Моя сім'я"
+ },
+ "goal": {
+  "uk": "Назвати членів сім'ї й представити їх."
+ },
+ "rule": {
+  "uk": "Щоб представити людину, кажуть This is…: This is my mother — «Це моя мама». Слово is пропускати не можна. My не змінюється: my mother, my father, my friend."
+ },
+ "words": [
+  {
+   "id": "family",
+   "text": "family",
+   "ipa": "/ˈfæməli/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сім'я"
+   },
+   "example": "This is my family.",
+   "exampleTranslation": {
+    "uk": "Це моя сім'я."
+   }
+  },
+  {
+   "id": "mother",
+   "text": "mother",
+   "ipa": "/ˈmʌðə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мама, мати"
+   },
+   "example": "This is my mother.",
+   "exampleTranslation": {
+    "uk": "Це моя мама."
+   }
+  },
+  {
+   "id": "father",
+   "text": "father",
+   "ipa": "/ˈfɑːðə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тато, батько"
+   },
+   "example": "My father is from Ukraine.",
+   "exampleTranslation": {
+    "uk": "Мій тато з України."
+   }
+  },
+  {
+   "id": "brother",
+   "text": "brother",
+   "ipa": "/ˈbrʌðə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "брат"
+   },
+   "example": "This is my brother.",
+   "exampleTranslation": {
+    "uk": "Це мій брат."
+   }
+  },
+  {
+   "id": "sister",
+   "text": "sister",
+   "ipa": "/ˈsɪstə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сестра"
+   },
+   "example": "My sister is here.",
+   "exampleTranslation": {
+    "uk": "Моя сестра тут."
+   }
+  },
+  {
+   "id": "friend",
+   "text": "friend",
+   "ipa": "/frend/",
+   "pos": "noun",
+   "translation": {
+    "uk": "друг, подруга"
+   },
+   "example": "This is my friend Anna.",
+   "exampleTranslation": {
+    "uk": "Це моя подруга Анна."
+   }
+  },
+  {
+   "id": "this",
+   "text": "this",
+   "ipa": "/ðɪs/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "це, цей"
+   },
+   "example": "This is Tom.",
+   "exampleTranslation": {
+    "uk": "Це Том."
+   }
+  },
+  {
+   "id": "is",
+   "text": "is",
+   "ipa": "/ɪz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "є (з he, she, it, this)"
+   },
+   "example": "This is my family.",
+   "exampleTranslation": {
+    "uk": "Це моя сім'я."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Card or cash?",
+   "prompt": {
+    "uk": "Повторимо. Ви платите карткою. Що відповісти?"
+   },
+   "options": [
+    "Card, please.",
+    "Coffee, please.",
+    "That's all."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Card or cash? — карткою чи готівкою?"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "mother",
+     "right": {
+      "uk": "мама"
+     }
+    },
+    {
+     "left": "father",
+     "right": {
+      "uk": "тато"
+     }
+    },
+    {
+     "left": "brother",
+     "right": {
+      "uk": "брат"
+     }
+    },
+    {
+     "left": "sister",
+     "right": {
+      "uk": "сестра"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Усі чотири слова закінчуються на -er, а th у них звучить дзвінко."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "family",
+     "right": {
+      "uk": "сім'я"
+     }
+    },
+    {
+     "left": "friend",
+     "right": {
+      "uk": "друг"
+     }
+    },
+    {
+     "left": "this",
+     "right": {
+      "uk": "це"
+     }
+    },
+    {
+     "left": "my",
+     "right": {
+      "uk": "мій, моя"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "My — і «мій», і «моя»: слово не змінюється."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "This is my brother.",
+   "prompt": {
+    "uk": "Прослухайте. Кого представляє людина?"
+   },
+   "options": {
+    "uk": [
+     "Брата",
+     "Тата",
+     "Друга"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Brother — брат. Father — тато."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This ___ my mother.",
+   "options": [
+    "is",
+    "are",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після this завжди is: This is…"
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is ___ sister.",
+   "options": [
+    "my",
+    "I",
+    "you"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My sister — моя сестра. I означає «я»."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це моя сім'я."
+   },
+   "words": [
+    "This",
+    "is",
+    "my",
+    "family",
+    "are",
+    "your"
+   ],
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "family"
+   ],
+   "explanation": {
+    "uk": "This is my family."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "My father is from Ukraine.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Мій тато з України",
+     "Мій брат з України",
+     "Мій тато живе в Україні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Father — тато, is from — «є з»."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це мій друг."
+   },
+   "answers": [
+    "This is my friend"
+   ],
+   "explanation": {
+    "uk": "This is my friend. Friend — і друг, і подруга."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "This is my sister, Anna.",
+   "prompt": {
+    "uk": "Вам представили людину. Що сказати?"
+   },
+   "options": [
+    "Nice to meet you, Anna.",
+    "I'm fine, thanks.",
+    "Here you are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після знайомства кажуть Nice to meet you."
+   }
+  }
+ ]
+}

@@ -1,0 +1,336 @@
+{
+ "id": "u04_l01",
+ "unit": "u04",
+ "cefr": "A0",
+ "title": {
+  "uk": "Мої речі"
+ },
+ "goal": {
+  "uk": "Назвати речі, які завжди з вами."
+ },
+ "rule": {
+  "uk": "Про одну річ кажуть із a або з my: a key, my key. Обидва слова разом не ставлять. Фрази ті самі, що й раніше: This is my phone. I have a ticket."
+ },
+ "words": [
+  {
+   "id": "phone",
+   "text": "phone",
+   "ipa": "/fəʊn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "телефон"
+   },
+   "example": "This is my phone.",
+   "exampleTranslation": {
+    "uk": "Це мій телефон."
+   }
+  },
+  {
+   "id": "key",
+   "text": "key",
+   "ipa": "/kiː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ключ"
+   },
+   "example": "I have a key.",
+   "exampleTranslation": {
+    "uk": "У мене є ключ."
+   }
+  },
+  {
+   "id": "bag",
+   "text": "bag",
+   "ipa": "/bæɡ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сумка"
+   },
+   "example": "This is my bag.",
+   "exampleTranslation": {
+    "uk": "Це моя сумка."
+   }
+  },
+  {
+   "id": "book",
+   "text": "book",
+   "ipa": "/bʊk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "книжка"
+   },
+   "example": "I have a book.",
+   "exampleTranslation": {
+    "uk": "У мене є книжка."
+   }
+  },
+  {
+   "id": "pen",
+   "text": "pen",
+   "ipa": "/pen/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ручка"
+   },
+   "example": "Can I have a pen, please?",
+   "exampleTranslation": {
+    "uk": "Можна мені ручку, будь ласка?"
+   }
+  },
+  {
+   "id": "wallet",
+   "text": "wallet",
+   "ipa": "/ˈwɒlɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гаманець"
+   },
+   "example": "This is my wallet.",
+   "exampleTranslation": {
+    "uk": "Це мій гаманець."
+   }
+  },
+  {
+   "id": "passport",
+   "text": "passport",
+   "ipa": "/ˈpɑːspɔːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "паспорт"
+   },
+   "example": "Here is my passport.",
+   "exampleTranslation": {
+    "uk": "Ось мій паспорт."
+   }
+  },
+  {
+   "id": "ticket",
+   "text": "ticket",
+   "ipa": "/ˈtɪkɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "квиток"
+   },
+   "example": "I have a ticket.",
+   "exampleTranslation": {
+    "uk": "У мене є квиток."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "She's ___ teacher.",
+   "options": [
+    "a",
+    "my",
+    "not"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед професією — a."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "phone",
+     "right": {
+      "uk": "телефон"
+     }
+    },
+    {
+     "left": "key",
+     "right": {
+      "uk": "ключ"
+     }
+    },
+    {
+     "left": "bag",
+     "right": {
+      "uk": "сумка"
+     }
+    },
+    {
+     "left": "book",
+     "right": {
+      "uk": "книжка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Phone пишеться через ph, а читається як «ф»."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "pen",
+     "right": {
+      "uk": "ручка"
+     }
+    },
+    {
+     "left": "wallet",
+     "right": {
+      "uk": "гаманець"
+     }
+    },
+    {
+     "left": "passport",
+     "right": {
+      "uk": "паспорт"
+     }
+    },
+    {
+     "left": "ticket",
+     "right": {
+      "uk": "квиток"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Passport і ticket знадобляться в кожній подорожі."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Can I have a pen, please?",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Ручку",
+     "Ключ",
+     "Квиток"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A pen — ручка."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно сказати «мій ключ»?"
+   },
+   "options": [
+    "my key",
+    "a my key",
+    "my a key"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My і a разом не вживають: або my key, або a key."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is my ___. I pay by card.",
+   "options": [
+    "wallet",
+    "book",
+    "key"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Картку тримають у гаманці — wallet."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене є квиток."
+   },
+   "words": [
+    "I",
+    "have",
+    "a",
+    "ticket",
+    "is",
+    "my"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "ticket"
+   ],
+   "explanation": {
+    "uk": "I have a ticket."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "Your passport, please.",
+   "prompt": {
+    "uk": "Вас просять про це в аеропорту. Що треба показати?"
+   },
+   "options": {
+    "uk": [
+     "Паспорт",
+     "Квиток",
+     "Телефон"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Your passport, please — «ваш паспорт, будь ласка»."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це моя сумка."
+   },
+   "answers": [
+    "This is my bag"
+   ],
+   "explanation": {
+    "uk": "This is my bag."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Your ticket, please.",
+   "prompt": {
+    "uk": "Ви подаєте квиток. Що сказати?"
+   },
+   "options": [
+    "Here you are.",
+    "Excuse me.",
+    "That's all."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Коли щось подають, кажуть Here you are."
+   }
+  }
+ ]
+}

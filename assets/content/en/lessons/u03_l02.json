@@ -1,0 +1,335 @@
+{
+ "id": "u03_l02",
+ "unit": "u03",
+ "cefr": "A0",
+ "title": {
+  "uk": "Він і вона"
+ },
+ "goal": {
+  "uk": "Розповісти про іншу людину: хто це і як його або її звати."
+ },
+ "rule": {
+  "uk": "He — «він», she — «вона». З ними стоїть is, у розмові скорочено: he's, she's. His — «його», her — «її»: His name is Tom. Her name is Anna."
+ },
+ "words": [
+  {
+   "id": "he",
+   "text": "he",
+   "ipa": "/hiː/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "він"
+   },
+   "example": "He's my brother.",
+   "exampleTranslation": {
+    "uk": "Він мій брат."
+   }
+  },
+  {
+   "id": "she",
+   "text": "she",
+   "ipa": "/ʃiː/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "вона"
+   },
+   "example": "She's my sister.",
+   "exampleTranslation": {
+    "uk": "Вона моя сестра."
+   }
+  },
+  {
+   "id": "his",
+   "text": "his",
+   "ipa": "/hɪz/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "його"
+   },
+   "example": "His name is Tom.",
+   "exampleTranslation": {
+    "uk": "Його звати Том."
+   }
+  },
+  {
+   "id": "her",
+   "text": "her",
+   "ipa": "/hɜː/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "її"
+   },
+   "example": "Her name is Anna.",
+   "exampleTranslation": {
+    "uk": "Її звати Анна."
+   }
+  },
+  {
+   "id": "husband",
+   "text": "husband",
+   "ipa": "/ˈhʌzbənd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "чоловік (у шлюбі)"
+   },
+   "example": "This is my husband.",
+   "exampleTranslation": {
+    "uk": "Це мій чоловік."
+   }
+  },
+  {
+   "id": "wife",
+   "text": "wife",
+   "ipa": "/waɪf/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дружина"
+   },
+   "example": "She's my wife.",
+   "exampleTranslation": {
+    "uk": "Вона моя дружина."
+   }
+  },
+  {
+   "id": "son",
+   "text": "son",
+   "ipa": "/sʌn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "син"
+   },
+   "example": "He's my son.",
+   "exampleTranslation": {
+    "uk": "Він мій син."
+   }
+  },
+  {
+   "id": "daughter",
+   "text": "daughter",
+   "ipa": "/ˈdɔːtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "донька"
+   },
+   "example": "This is my daughter.",
+   "exampleTranslation": {
+    "uk": "Це моя донька."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "This is my ___, Tom.",
+   "options": [
+    "brother",
+    "sister",
+    "mother"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Том — чоловіче ім'я, тому brother."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "he",
+     "right": {
+      "uk": "він"
+     }
+    },
+    {
+     "left": "she",
+     "right": {
+      "uk": "вона"
+     }
+    },
+    {
+     "left": "his",
+     "right": {
+      "uk": "його"
+     }
+    },
+    {
+     "left": "her",
+     "right": {
+      "uk": "її"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "He — his, she — her: пари для чоловіка й жінки."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "husband",
+     "right": {
+      "uk": "чоловік"
+     }
+    },
+    {
+     "left": "wife",
+     "right": {
+      "uk": "дружина"
+     }
+    },
+    {
+     "left": "son",
+     "right": {
+      "uk": "син"
+     }
+    },
+    {
+     "left": "daughter",
+     "right": {
+      "uk": "донька"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "У daughter літери gh не вимовляються."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is Anna. ___ is my wife.",
+   "options": [
+    "She",
+    "He",
+    "Her"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про жінку — she. Her означає «її»."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is my son. ___ name is Max.",
+   "options": [
+    "His",
+    "He",
+    "Her"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "«Його ім'я» — his name."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "She's my daughter.",
+   "prompt": {
+    "uk": "Прослухайте. Хто це?"
+   },
+   "options": {
+    "uk": [
+     "Її донька",
+     "Її сестра",
+     "Її син"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "She's — це she is. Daughter — донька."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Її звати Анна."
+   },
+   "words": [
+    "Her",
+    "name",
+    "is",
+    "Anna",
+    "his",
+    "she"
+   ],
+   "answer": [
+    "Her",
+    "name",
+    "is",
+    "Anna"
+   ],
+   "explanation": {
+    "uk": "Her name is Anna — дослівно «її ім'я є Анна»."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Він мій чоловік»?"
+   },
+   "options": [
+    "He's my husband.",
+    "His my husband.",
+    "She's my husband."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He's = he is. His означає «його»."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Він мій син."
+   },
+   "answers": [
+    "He's my son",
+    "He is my son"
+   ],
+   "explanation": {
+    "uk": "He's my son."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What's his name?",
+   "prompt": {
+    "uk": "Вас питають про вашого брата. Що відповісти?"
+   },
+   "options": [
+    "His name is Tom.",
+    "Her name is Tom.",
+    "My name is Tom."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Питають про нього — відповідь починається з His name is…"
+   }
+  }
+ ]
+}
