@@ -1,0 +1,345 @@
+{
+ "id": "u31_l02",
+ "unit": "u31",
+ "cefr": "A0",
+ "title": {
+  "uk": "Від липня до грудня"
+ },
+ "goal": {
+  "uk": "Назвати решту місяців."
+ },
+ "rule": {
+  "uk": "Останні чотири місяці закінчуються однаково: September, October, November, December. Наголос у них на другому складі. У July наголос теж на кінці."
+ },
+ "words": [
+  {
+   "id": "july",
+   "text": "July",
+   "ipa": "/dʒuˈlaɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "липень"
+   },
+   "example": "In July.",
+   "exampleTranslation": {
+    "uk": "У липні."
+   }
+  },
+  {
+   "id": "august",
+   "text": "August",
+   "ipa": "/ˈɔːɡəst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "серпень"
+   },
+   "example": "In August.",
+   "exampleTranslation": {
+    "uk": "У серпні."
+   }
+  },
+  {
+   "id": "september",
+   "text": "September",
+   "ipa": "/sepˈtembə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вересень"
+   },
+   "example": "In September.",
+   "exampleTranslation": {
+    "uk": "У вересні."
+   }
+  },
+  {
+   "id": "october",
+   "text": "October",
+   "ipa": "/ɒkˈtəʊbə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "жовтень"
+   },
+   "example": "In October.",
+   "exampleTranslation": {
+    "uk": "У жовтні."
+   }
+  },
+  {
+   "id": "november",
+   "text": "November",
+   "ipa": "/nəʊˈvembə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "листопад"
+   },
+   "example": "In November.",
+   "exampleTranslation": {
+    "uk": "У листопаді."
+   }
+  },
+  {
+   "id": "december",
+   "text": "December",
+   "ipa": "/dɪˈsembə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "грудень"
+   },
+   "example": "In December.",
+   "exampleTranslation": {
+    "uk": "У грудні."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Який місяць пропущений?"
+   },
+   "sentence": "March, April, ___, June",
+   "options": [
+    "May",
+    "July",
+    "January"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після квітня — травень."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "July",
+     "right": {
+      "uk": "липень"
+     }
+    },
+    {
+     "left": "August",
+     "right": {
+      "uk": "серпень"
+     }
+    },
+    {
+     "left": "September",
+     "right": {
+      "uk": "вересень"
+     }
+    },
+    {
+     "left": "October",
+     "right": {
+      "uk": "жовтень"
+     }
+    },
+    {
+     "left": "November",
+     "right": {
+      "uk": "листопад"
+     }
+    },
+    {
+     "left": "December",
+     "right": {
+      "uk": "грудень"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Друга половина року."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "October",
+   "prompt": {
+    "uk": "Прослухайте. Який це місяць?"
+   },
+   "options": {
+    "uk": [
+     "Жовтень",
+     "Серпень",
+     "Грудень"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "October — жовтень."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "School starts in September.",
+   "prompt": {
+    "uk": "Прослухайте. Коли починається школа?"
+   },
+   "options": {
+    "uk": [
+     "У вересні",
+     "У серпні",
+     "У жовтні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In September."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We go on holiday in July or August.",
+   "prompt": {
+    "uk": "Прослухайте. Коли вони їдуть у відпустку?"
+   },
+   "options": {
+    "uk": [
+     "У липні або серпні",
+     "У червні або липні",
+     "У серпні або вересні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In July or August."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Який місяць пропущений?"
+   },
+   "sentence": "September, October, ___, December",
+   "options": [
+    "November",
+    "August",
+    "July"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після жовтня — листопад."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Який місяць пропущений?"
+   },
+   "sentence": "June, ___, August",
+   "options": [
+    "July",
+    "May",
+    "September"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Між червнем і серпнем — липень."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Який місяць останній у році?"
+   },
+   "options": {
+    "uk": [
+     "December",
+     "November",
+     "October"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "December — грудень."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Які місяці літні?"
+   },
+   "options": {
+    "uk": [
+     "June, July, August",
+     "March, April, May",
+     "September, October, November"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Summer: June, July, August."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "It often snows in December.",
+    "It often snows on December.",
+    "It often snow in december."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In December, з великої літери, snows з -s."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У листопаді часто дощить."
+   },
+   "words": [
+    "It",
+    "often",
+    "rains",
+    "in",
+    "November",
+    "on",
+    "rain"
+   ],
+   "answer": [
+    "It",
+    "often",
+    "rains",
+    "in",
+    "November"
+   ],
+   "explanation": {
+    "uk": "It often rains in November."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "translate",
+   "prompt": {
+    "uk": "У серпні жарко."
+   },
+   "answers": [
+    "It's hot in August",
+    "It is hot in August",
+    "In August it's hot"
+   ],
+   "explanation": {
+    "uk": "It's hot in August."
+   }
+  }
+ ]
+}

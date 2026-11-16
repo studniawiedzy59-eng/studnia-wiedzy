@@ -1,0 +1,372 @@
+{
+ "id": "u32_l02",
+ "unit": "u32",
+ "cefr": "A0",
+ "title": {
+  "uk": "Обличчя й решта"
+ },
+ "goal": {
+  "uk": "Назвати частини обличчя й тіла, які найчастіше болять."
+ },
+ "rule": {
+  "uk": "Tooth, як і foot, має особливу множину: one tooth — two teeth. У knee літера k не вимовляється. Stomach читається «стамек»."
+ },
+ "words": [
+  {
+   "id": "nose",
+   "text": "nose",
+   "ipa": "/nəʊz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ніс"
+   },
+   "example": "A small nose.",
+   "exampleTranslation": {
+    "uk": "Малий ніс."
+   }
+  },
+  {
+   "id": "mouth",
+   "text": "mouth",
+   "ipa": "/maʊθ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рот"
+   },
+   "example": "Open your mouth.",
+   "exampleTranslation": {
+    "uk": "Відкрийте рот."
+   }
+  },
+  {
+   "id": "ear",
+   "text": "ear",
+   "ipa": "/ɪə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вухо"
+   },
+   "example": "My left ear.",
+   "exampleTranslation": {
+    "uk": "Моє ліве вухо."
+   }
+  },
+  {
+   "id": "neck",
+   "text": "neck",
+   "ipa": "/nek/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шия"
+   },
+   "example": "A long neck.",
+   "exampleTranslation": {
+    "uk": "Довга шия."
+   }
+  },
+  {
+   "id": "stomach",
+   "text": "stomach",
+   "ipa": "/ˈstʌmək/",
+   "pos": "noun",
+   "translation": {
+    "uk": "живіт, шлунок"
+   },
+   "example": "My stomach.",
+   "exampleTranslation": {
+    "uk": "Мій живіт."
+   }
+  },
+  {
+   "id": "knee",
+   "text": "knee",
+   "ipa": "/niː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "коліно"
+   },
+   "example": "My right knee.",
+   "exampleTranslation": {
+    "uk": "Моє праве коліно."
+   }
+  },
+  {
+   "id": "finger",
+   "text": "finger",
+   "ipa": "/ˈfɪŋɡə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "палець (на руці)"
+   },
+   "example": "Ten fingers.",
+   "exampleTranslation": {
+    "uk": "Десять пальців."
+   }
+  },
+  {
+   "id": "tooth",
+   "text": "tooth",
+   "ipa": "/tuːθ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "зуб"
+   },
+   "example": "A white tooth.",
+   "exampleTranslation": {
+    "uk": "Білий зуб."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I have two hands and two ___.",
+   "options": [
+    "feet",
+    "foots",
+    "foot"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Foot → feet."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "nose",
+     "right": {
+      "uk": "ніс"
+     }
+    },
+    {
+     "left": "mouth",
+     "right": {
+      "uk": "рот"
+     }
+    },
+    {
+     "left": "ear",
+     "right": {
+      "uk": "вухо"
+     }
+    },
+    {
+     "left": "neck",
+     "right": {
+      "uk": "шия"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Частини голови."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "stomach",
+     "right": {
+      "uk": "живіт"
+     }
+    },
+    {
+     "left": "knee",
+     "right": {
+      "uk": "коліно"
+     }
+    },
+    {
+     "left": "finger",
+     "right": {
+      "uk": "палець"
+     }
+    },
+    {
+     "left": "tooth",
+     "right": {
+      "uk": "зуб"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Те, що часто болить."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Open your mouth, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Відкрити рот",
+     "Закрити рот",
+     "Показати зуби"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Open your mouth."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "She has blue eyes and a small nose.",
+   "prompt": {
+    "uk": "Прослухайте. Який у неї ніс?"
+   },
+   "options": {
+    "uk": [
+     "Малий",
+     "Великий",
+     "Довгий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A small nose."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «два зуби»?"
+   },
+   "options": [
+    "two teeth",
+    "two tooths",
+    "two tooth"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Tooth → teeth."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Чим ви слухаєте?"
+   },
+   "options": {
+    "uk": [
+     "ears",
+     "eyes",
+     "knees"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ears — вуха."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що на руці?"
+   },
+   "options": {
+    "uk": [
+     "fingers",
+     "knees",
+     "teeth"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fingers — пальці на руці."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have ten ___.",
+   "options": [
+    "fingers",
+    "ears",
+    "necks"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ten fingers."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We hear with our ___.",
+   "options": [
+    "ears",
+    "eyes",
+    "mouths"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hear — чути: вухами."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Відкрийте рот, будь ласка."
+   },
+   "words": [
+    "Open",
+    "your",
+    "mouth",
+    "please",
+    "close",
+    "my"
+   ],
+   "answer": [
+    "Open",
+    "your",
+    "mouth",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Open your mouth, please."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "translate",
+   "prompt": {
+    "uk": "Моє праве коліно."
+   },
+   "answers": [
+    "My right knee"
+   ],
+   "explanation": {
+    "uk": "My right knee."
+   }
+  }
+ ]
+}

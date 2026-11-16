@@ -1,0 +1,321 @@
+{
+ "id": "u32_l03",
+ "unit": "u32",
+ "cefr": "A0",
+ "title": {
+  "uk": "У мене болить спина"
+ },
+ "goal": {
+  "uk": "Сказати, що саме болить."
+ },
+ "rule": {
+  "uk": "Hurt — «боліти»: My back hurts. Якщо болить кілька частин — без -s: My legs hurt. Для частих болів є готові слова з -ache: headache, stomach ache, toothache. Перед headache і stomach ache кажуть I have a…, а toothache у Британії вживають без a: I have toothache. A sore throat — біль у горлі."
+ },
+ "words": [
+  {
+   "id": "hurt",
+   "text": "hurt",
+   "ipa": "/hɜːt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "боліти"
+   },
+   "example": "My back hurts.",
+   "exampleTranslation": {
+    "uk": "У мене болить спина."
+   }
+  },
+  {
+   "id": "pain",
+   "text": "pain",
+   "ipa": "/peɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "біль"
+   },
+   "example": "I have a pain in my arm.",
+   "exampleTranslation": {
+    "uk": "У мене болить рука."
+   }
+  },
+  {
+   "id": "stomach_ache",
+   "text": "stomach ache",
+   "ipa": "/ˈstʌmək eɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "біль у животі"
+   },
+   "example": "I have a stomach ache.",
+   "exampleTranslation": {
+    "uk": "У мене болить живіт."
+   }
+  },
+  {
+   "id": "toothache",
+   "text": "toothache",
+   "ipa": "/ˈtuːθeɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "зубний біль"
+   },
+   "example": "I have toothache.",
+   "exampleTranslation": {
+    "uk": "У мене болить зуб."
+   }
+  },
+  {
+   "id": "sore_throat",
+   "text": "sore throat",
+   "ipa": "/ˌsɔː ˈθrəʊt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "біль у горлі"
+   },
+   "example": "I have a sore throat.",
+   "exampleTranslation": {
+    "uk": "У мене болить горло."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "We hear with our ___.",
+   "options": [
+    "ears",
+    "eyes",
+    "teeth"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ears."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "hurt",
+     "right": {
+      "uk": "боліти"
+     }
+    },
+    {
+     "left": "pain",
+     "right": {
+      "uk": "біль"
+     }
+    },
+    {
+     "left": "stomach ache",
+     "right": {
+      "uk": "біль у животі"
+     }
+    },
+    {
+     "left": "toothache",
+     "right": {
+      "uk": "зубний біль"
+     }
+    },
+    {
+     "left": "sore throat",
+     "right": {
+      "uk": "біль у горлі"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Head + ache = headache, tooth + ache = toothache."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My back hurts.",
+   "prompt": {
+    "uk": "Прослухайте. Що болить?"
+   },
+   "options": {
+    "uk": [
+     "Спина",
+     "Шия",
+     "Голова"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "My back."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I have a sore throat and a cough.",
+   "prompt": {
+    "uk": "Прослухайте. Що з людиною?"
+   },
+   "options": {
+    "uk": [
+     "Болить горло й кашель",
+     "Болить голова й кашель",
+     "Болить горло й живіт"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A sore throat and a cough."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My feet hurt.",
+   "prompt": {
+    "uk": "Прослухайте. Що болить?"
+   },
+   "options": {
+    "uk": [
+     "Стопи",
+     "Зуби",
+     "Руки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "My feet."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My knee ___.",
+   "options": [
+    "hurts",
+    "hurt",
+    "is hurt"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Одне коліно — hurts."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My legs ___.",
+   "options": [
+    "hurt",
+    "hurts",
+    "hurting"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Кілька — hurt, без -s."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a stomach ___.",
+   "options": [
+    "ache",
+    "hurt",
+    "sick"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A stomach ache."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «У мене болить голова»?"
+   },
+   "options": [
+    "I have a headache.",
+    "I have head hurt.",
+    "My head is a pain."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a headache або My head hurts."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «У неї болить зуб»?"
+   },
+   "options": [
+    "She has toothache.",
+    "She have toothache.",
+    "Her tooth hurt."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She has toothache."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене болить спина."
+   },
+   "words": [
+    "My",
+    "back",
+    "hurts",
+    "hurt",
+    "is"
+   ],
+   "answer": [
+    "My",
+    "back",
+    "hurts"
+   ],
+   "explanation": {
+    "uk": "My back hurts."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What's the problem?",
+   "prompt": {
+    "uk": "У вас болить живіт. Що відповісти?"
+   },
+   "options": [
+    "I have a stomach ache.",
+    "I'm a stomach ache.",
+    "My stomach hurt is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a stomach ache."
+   }
+  }
+ ]
+}

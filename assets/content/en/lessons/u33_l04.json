@@ -1,0 +1,325 @@
+{
+ "id": "u33_l04",
+ "unit": "u33",
+ "cefr": "A0",
+ "title": {
+  "uk": "Запис до лікаря"
+ },
+ "goal": {
+  "uk": "Записатися до лікаря й сказати, відколи ви хворієте."
+ },
+ "rule": {
+  "uk": "I'd like to make an appointment — «я хотів би записатися». Лікар спитає How long? — «Як довго?». Відповідають коротко. Since — «від якогось моменту»: since yesterday, since Monday. For — «протягом»: for three days."
+ },
+ "words": [
+  {
+   "id": "make_an_appointment",
+   "text": "make an appointment",
+   "ipa": "/ˌmeɪk ən əˈpɔɪntmənt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "записатися на прийом"
+   },
+   "example": "I'd like to make an appointment.",
+   "exampleTranslation": {
+    "uk": "Я хотів би записатися."
+   }
+  },
+  {
+   "id": "yesterday",
+   "text": "yesterday",
+   "ipa": "/ˈjestədeɪ/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "учора"
+   },
+   "example": "Since yesterday.",
+   "exampleTranslation": {
+    "uk": "Від учора."
+   }
+  },
+  {
+   "id": "since",
+   "text": "since",
+   "ipa": "/sɪns/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "від, з (якогось моменту)"
+   },
+   "example": "Since Monday.",
+   "exampleTranslation": {
+    "uk": "Від понеділка."
+   }
+  },
+  {
+   "id": "health",
+   "text": "health",
+   "ipa": "/helθ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "здоров'я"
+   },
+   "example": "Good health.",
+   "exampleTranslation": {
+    "uk": "Добре здоров'я."
+   }
+  },
+  {
+   "id": "insurance",
+   "text": "insurance",
+   "ipa": "/ɪnˈʃʊərəns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "страховка"
+   },
+   "example": "Health insurance.",
+   "exampleTranslation": {
+    "uk": "Медична страховка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Take the tablets ___ five days.",
+   "options": [
+    "for",
+    "since",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "For five days."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "make an appointment",
+     "right": {
+      "uk": "записатися на прийом"
+     }
+    },
+    {
+     "left": "yesterday",
+     "right": {
+      "uk": "учора"
+     }
+    },
+    {
+     "left": "since",
+     "right": {
+      "uk": "від"
+     }
+    },
+    {
+     "left": "health",
+     "right": {
+      "uk": "здоров'я"
+     }
+    },
+    {
+     "left": "insurance",
+     "right": {
+      "uk": "страховка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Today — сьогодні, tomorrow — завтра, yesterday — учора."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'd like to make an appointment with the doctor.",
+   "prompt": {
+    "uk": "Прослухайте. Чого хоче людина?"
+   },
+   "options": {
+    "uk": [
+     "Записатися до лікаря",
+     "Скасувати запис",
+     "Купити ліки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Make an appointment."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Is tomorrow at ten OK?",
+   "prompt": {
+    "uk": "Прослухайте. Який час пропонують?"
+   },
+   "options": {
+    "uk": [
+     "Завтра о десятій",
+     "Сьогодні о десятій",
+     "Учора о десятій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tomorrow at ten."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Do you have health insurance?",
+   "prompt": {
+    "uk": "Прослухайте. Що питають?"
+   },
+   "options": {
+    "uk": [
+     "Чи є медична страховка",
+     "Чи є рецепт",
+     "Чи є запис"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Health insurance."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How long? — ___ yesterday.",
+   "options": [
+    "Since",
+    "For",
+    "At"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Від моменту — since."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How long? — ___ three days.",
+   "options": [
+    "For",
+    "Since",
+    "In"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Протягом — for."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'd like to ___ an appointment, please.",
+   "options": [
+    "make",
+    "do",
+    "take"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Make an appointment."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає since Monday?"
+   },
+   "options": {
+    "uk": [
+     "Від понеділка",
+     "До понеділка",
+     "Щопонеділка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Since — від."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я хотів би записатися на прийом."
+   },
+   "words": [
+    "I'd",
+    "like",
+    "to",
+    "make",
+    "an",
+    "appointment",
+    "do"
+   ],
+   "answer": [
+    "I'd",
+    "like",
+    "to",
+    "make",
+    "an",
+    "appointment"
+   ],
+   "explanation": {
+    "uk": "I'd like to make an appointment."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Від учора."
+   },
+   "answers": [
+    "Since yesterday"
+   ],
+   "explanation": {
+    "uk": "Since yesterday."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is Friday at nine OK for you?",
+   "prompt": {
+    "uk": "Час вам підходить. Що відповісти?"
+   },
+   "options": [
+    "Yes, that's fine. Thank you.",
+    "Yes, that's Friday fine me.",
+    "No, that's fine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, that's fine. Thank you."
+   }
+  }
+ ]
+}

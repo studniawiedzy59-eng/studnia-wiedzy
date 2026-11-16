@@ -1,0 +1,306 @@
+{
+ "id": "u31_l04",
+ "unit": "u31",
+ "cefr": "A0",
+ "title": {
+  "uk": "Коли у вас день народження?"
+ },
+ "goal": {
+  "uk": "Назвати день народження й рік."
+ },
+ "rule": {
+  "uk": "З точною датою — on: on the tenth of June. З місяцем чи роком — in: in June, in 1990. Роки читають парами: 1990 — nineteen ninety, 2026 — twenty twenty-six. I was born in… — «я народився в…»: запам'ятайте цю фразу цілою."
+ },
+ "words": [
+  {
+   "id": "i_was_born",
+   "text": "I was born",
+   "ipa": "/aɪ wəz ˈbɔːn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "я народився, я народилася"
+   },
+   "example": "I was born in 1990.",
+   "exampleTranslation": {
+    "uk": "Я народився 1990 року."
+   }
+  },
+  {
+   "id": "date_of_birth",
+   "text": "date of birth",
+   "ipa": "/ˌdeɪt əv ˈbɜːθ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дата народження"
+   },
+   "example": "What's your date of birth?",
+   "exampleTranslation": {
+    "uk": "Яка ваша дата народження?"
+   }
+  },
+  {
+   "id": "thousand",
+   "text": "thousand",
+   "ipa": "/ˈθaʊznd/",
+   "pos": "number",
+   "translation": {
+    "uk": "тисяча"
+   },
+   "example": "Two thousand.",
+   "exampleTranslation": {
+    "uk": "Дві тисячі."
+   }
+  },
+  {
+   "id": "when_is_your_birthday?",
+   "text": "When is your birthday?",
+   "ipa": "/ˌwen ɪz jɔː ˈbɜːθdeɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "Коли у вас день народження?"
+   },
+   "example": "When is your birthday?",
+   "exampleTranslation": {
+    "uk": "Коли у вас день народження?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What's the date today?",
+   "prompt": {
+    "uk": "Повторимо. Сьогодні перше травня. Що відповісти?"
+   },
+   "options": [
+    "It's the first of May.",
+    "It's the one of May.",
+    "It's first in May."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's the first of May."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "I was born",
+     "right": {
+      "uk": "я народився"
+     }
+    },
+    {
+     "left": "date of birth",
+     "right": {
+      "uk": "дата народження"
+     }
+    },
+    {
+     "left": "thousand",
+     "right": {
+      "uk": "тисяча"
+     }
+    },
+    {
+     "left": "birthday",
+     "right": {
+      "uk": "день народження"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Birthday святкують щороку, date of birth пишуть в анкеті."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My birthday is on the tenth of June.",
+   "prompt": {
+    "uk": "Прослухайте. Коли день народження?"
+   },
+   "options": {
+    "uk": [
+     "10 червня",
+     "10 липня",
+     "20 червня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On the tenth of June."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I was born in nineteen eighty-five.",
+   "prompt": {
+    "uk": "Прослухайте. Якого року народилася людина?"
+   },
+   "options": {
+    "uk": [
+     "1985",
+     "1958",
+     "1995"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nineteen eighty-five — 1985."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "twenty twenty-six",
+   "prompt": {
+    "uk": "Прослухайте. Який це рік?"
+   },
+   "options": {
+    "uk": [
+     "2026",
+     "2062",
+     "2022"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twenty twenty-six — 2026."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як прочитати рік 1999?"
+   },
+   "options": {
+    "uk": [
+     "nineteen ninety-nine",
+     "one thousand nine hundred ninety-nine",
+     "ninety nineteen-nine"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Роки читають парами: 19 і 99."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My birthday is ___ the fifth of May.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З точною датою — on."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I was born ___ 1992.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З роком — in."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ born in Kyiv.",
+   "options": [
+    "was",
+    "am",
+    "have"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I was born."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я народився 1990 року."
+   },
+   "words": [
+    "I",
+    "was",
+    "born",
+    "in",
+    "1990",
+    "am",
+    "on"
+   ],
+   "answer": [
+    "I",
+    "was",
+    "born",
+    "in",
+    "1990"
+   ],
+   "explanation": {
+    "uk": "I was born in 1990."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Коли у вас день народження?"
+   },
+   "answers": [
+    "When is your birthday",
+    "When's your birthday"
+   ],
+   "explanation": {
+    "uk": "When is your birthday?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "When is your birthday?",
+   "prompt": {
+    "uk": "Ваш день народження третього серпня. Що відповісти?"
+   },
+   "options": [
+    "It's on the third of August.",
+    "It's in the third of August.",
+    "It's on three August."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's on the third of August."
+   }
+  }
+ ]
+}

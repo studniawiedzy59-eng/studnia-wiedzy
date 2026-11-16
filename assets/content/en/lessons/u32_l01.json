@@ -1,0 +1,353 @@
+{
+ "id": "u32_l01",
+ "unit": "u32",
+ "cefr": "A0",
+ "title": {
+  "uk": "Тіло"
+ },
+ "goal": {
+  "uk": "Назвати основні частини тіла."
+ },
+ "rule": {
+  "uk": "Частини тіла вживають із my, your, his, her: my hand, her back. Foot має особливу множину: one foot — two feet. Back ви знаєте з go back; як назва частини тіла це «спина»."
+ },
+ "words": [
+  {
+   "id": "body",
+   "text": "body",
+   "ipa": "/ˈbɒdi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тіло"
+   },
+   "example": "The human body.",
+   "exampleTranslation": {
+    "uk": "Людське тіло."
+   }
+  },
+  {
+   "id": "head",
+   "text": "head",
+   "ipa": "/hed/",
+   "pos": "noun",
+   "translation": {
+    "uk": "голова"
+   },
+   "example": "My head.",
+   "exampleTranslation": {
+    "uk": "Моя голова."
+   }
+  },
+  {
+   "id": "arm",
+   "text": "arm",
+   "ipa": "/ɑːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рука (від плеча)"
+   },
+   "example": "My left arm.",
+   "exampleTranslation": {
+    "uk": "Моя ліва рука."
+   }
+  },
+  {
+   "id": "hand",
+   "text": "hand",
+   "ipa": "/hænd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рука (кисть)"
+   },
+   "example": "My right hand.",
+   "exampleTranslation": {
+    "uk": "Моя права рука."
+   }
+  },
+  {
+   "id": "leg",
+   "text": "leg",
+   "ipa": "/leɡ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "нога (вся)"
+   },
+   "example": "My leg.",
+   "exampleTranslation": {
+    "uk": "Моя нога."
+   }
+  },
+  {
+   "id": "foot",
+   "text": "foot",
+   "ipa": "/fʊt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "стопа"
+   },
+   "example": "My left foot.",
+   "exampleTranslation": {
+    "uk": "Моя ліва стопа."
+   }
+  },
+  {
+   "id": "back",
+   "text": "back",
+   "ipa": "/bæk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "спина"
+   },
+   "example": "My back.",
+   "exampleTranslation": {
+    "uk": "Моя спина."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "It's my birthday today!",
+   "prompt": {
+    "uk": "Повторимо. Що відповісти?"
+   },
+   "options": [
+    "Happy birthday!",
+    "Merry Christmas!",
+    "You're welcome!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Happy birthday!"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "head",
+     "right": {
+      "uk": "голова"
+     }
+    },
+    {
+     "left": "arm",
+     "right": {
+      "uk": "рука від плеча"
+     }
+    },
+    {
+     "left": "hand",
+     "right": {
+      "uk": "кисть"
+     }
+    },
+    {
+     "left": "leg",
+     "right": {
+      "uk": "нога"
+     }
+    },
+    {
+     "left": "foot",
+     "right": {
+      "uk": "стопа"
+     }
+    },
+    {
+     "left": "back",
+     "right": {
+      "uk": "спина"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Arm — уся рука, hand — лише кисть. Leg — уся нога, foot — стопа."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My left hand.",
+   "prompt": {
+    "uk": "Прослухайте. Про що мова?"
+   },
+   "options": {
+    "uk": [
+     "Ліва рука (кисть)",
+     "Права рука (кисть)",
+     "Ліва нога"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Left hand."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He has long legs.",
+   "prompt": {
+    "uk": "Прослухайте. Що в нього довге?"
+   },
+   "options": {
+    "uk": [
+     "Ноги",
+     "Руки",
+     "Волосся"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Long legs."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «дві стопи»?"
+   },
+   "options": [
+    "two feet",
+    "two foots",
+    "two foot"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Foot → feet."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Чим ви пишете?"
+   },
+   "options": {
+    "uk": [
+     "hand",
+     "foot",
+     "back"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hand — кисть."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "На чому носять капелюх?"
+   },
+   "options": {
+    "uk": [
+     "head",
+     "arm",
+     "leg"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Head — голова."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have two arms and two ___.",
+   "options": [
+    "legs",
+    "heads",
+    "backs"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Two arms and two legs."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Put your ___ in your pockets. It's cold.",
+   "options": [
+    "hands",
+    "feet",
+    "legs"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У кишені ховають hands."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У нього великі стопи."
+   },
+   "words": [
+    "He",
+    "has",
+    "big",
+    "feet",
+    "foot",
+    "have"
+   ],
+   "answer": [
+    "He",
+    "has",
+    "big",
+    "feet"
+   ],
+   "explanation": {
+    "uk": "He has big feet."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Моя права рука."
+   },
+   "answers": [
+    "My right hand",
+    "My right arm"
+   ],
+   "explanation": {
+    "uk": "My right hand."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Which hand do you write with?",
+   "prompt": {
+    "uk": "Ви пишете правою. Що відповісти?"
+   },
+   "options": [
+    "My right hand.",
+    "My right foot.",
+    "My hand right the."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My right hand."
+   }
+  }
+ ]
+}

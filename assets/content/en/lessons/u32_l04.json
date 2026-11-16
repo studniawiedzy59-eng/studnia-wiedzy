@@ -1,0 +1,335 @@
+{
+ "id": "u32_l04",
+ "unit": "u32",
+ "cefr": "A0",
+ "title": {
+  "uk": "Як ви почуваєтеся?"
+ },
+ "goal": {
+  "uk": "Розповісти про самопочуття й спитати про нього."
+ },
+ "rule": {
+  "uk": "How do you feel? — «Як ви почуваєтеся?». Відповідь: I feel… і слово-опис: I feel sick. I feel tired. I feel better — «мені краще». I feel worse — «мені гірше». What's the matter? — «Що сталося? Що з вами?»"
+ },
+ "words": [
+  {
+   "id": "feel",
+   "text": "feel",
+   "ipa": "/fiːl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "почуватися"
+   },
+   "example": "I feel fine.",
+   "exampleTranslation": {
+    "uk": "Я почуваюся добре."
+   }
+  },
+  {
+   "id": "sick",
+   "text": "sick",
+   "ipa": "/sɪk/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "хворий; той, кого нудить"
+   },
+   "example": "I feel sick.",
+   "exampleTranslation": {
+    "uk": "Мене нудить."
+   }
+  },
+  {
+   "id": "better",
+   "text": "better",
+   "ipa": "/ˈbetə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "кращий, краще"
+   },
+   "example": "I feel better today.",
+   "exampleTranslation": {
+    "uk": "Сьогодні мені краще."
+   }
+  },
+  {
+   "id": "worse",
+   "text": "worse",
+   "ipa": "/wɜːs/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "гірший, гірше"
+   },
+   "example": "I feel worse.",
+   "exampleTranslation": {
+    "uk": "Мені гірше."
+   }
+  },
+  {
+   "id": "dizzy",
+   "text": "dizzy",
+   "ipa": "/ˈdɪzi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "той, у кого паморочиться голова"
+   },
+   "example": "I feel dizzy.",
+   "exampleTranslation": {
+    "uk": "У мене паморочиться голова."
+   }
+  },
+  {
+   "id": "whats_the_matter?",
+   "text": "What's the matter?",
+   "ipa": "/ˌwɒts ðə ˈmætə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "Що сталося?"
+   },
+   "example": "What's the matter?",
+   "exampleTranslation": {
+    "uk": "Що сталося?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What's the problem?",
+   "prompt": {
+    "uk": "Повторимо. У вас болить горло. Що відповісти?"
+   },
+   "options": [
+    "I have a sore throat.",
+    "I'm sore throat.",
+    "My throat hurt it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a sore throat."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "feel",
+     "right": {
+      "uk": "почуватися"
+     }
+    },
+    {
+     "left": "sick",
+     "right": {
+      "uk": "хворий"
+     }
+    },
+    {
+     "left": "better",
+     "right": {
+      "uk": "краще"
+     }
+    },
+    {
+     "left": "worse",
+     "right": {
+      "uk": "гірше"
+     }
+    },
+    {
+     "left": "dizzy",
+     "right": {
+      "uk": "паморочиться голова"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Better і worse — протилежні слова."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "How do you feel today?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Як ви сьогодні почуваєтеся",
+     "Що ви сьогодні робите",
+     "Де ви сьогодні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "How do you feel?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I feel much better, thank you.",
+   "prompt": {
+    "uk": "Прослухайте. Як почувається людина?"
+   },
+   "options": {
+    "uk": [
+     "Набагато краще",
+     "Гірше",
+     "Так само"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Much better — набагато краще."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "What's the matter? You look tired.",
+   "prompt": {
+    "uk": "Прослухайте. Що помітив співрозмовник?"
+   },
+   "options": {
+    "uk": [
+     "Що людина має втомлений вигляд",
+     "Що людина весела",
+     "Що людина запізнилася"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "You look tired — у вас утомлений вигляд."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ dizzy. Can I sit here?",
+   "options": [
+    "feel",
+    "have",
+    "hurt"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I feel dizzy."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How ___ you feel?",
+   "options": [
+    "do",
+    "are",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Feel — дія: How do you feel?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I feel ___ today. I can go to work.",
+   "options": [
+    "better",
+    "worse",
+    "sick"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Можна на роботу — отже, better."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "She feels sick.",
+    "She feel sick.",
+    "She is feel sick."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З she — feels."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Сьогодні мені краще."
+   },
+   "words": [
+    "I",
+    "feel",
+    "better",
+    "today",
+    "am",
+    "worse"
+   ],
+   "answer": [
+    "I",
+    "feel",
+    "better",
+    "today"
+   ],
+   "explanation": {
+    "uk": "I feel better today."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Що сталося?"
+   },
+   "answers": [
+    "What's the matter",
+    "What is the matter",
+    "What's wrong"
+   ],
+   "explanation": {
+    "uk": "What's the matter?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What's the matter?",
+   "prompt": {
+    "uk": "У вас паморочиться голова. Що відповісти?"
+   },
+   "options": [
+    "I feel dizzy.",
+    "I'm feel dizzy.",
+    "I have dizzy."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I feel dizzy."
+   }
+  }
+ ]
+}

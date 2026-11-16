@@ -1,0 +1,357 @@
+{
+ "id": "u31_l03",
+ "unit": "u31",
+ "cefr": "A0",
+ "title": {
+  "uk": "Яке сьогодні число?"
+ },
+ "goal": {
+  "uk": "Назвати дату."
+ },
+ "rule": {
+  "uk": "У датах уживають порядкові числа: the first, the second, the third, а далі до числа додають -th: the fourth, the tenth. Є винятки в написанні: fifth, twelfth, twentieth. What's the date today? — It's the fifth of May."
+ },
+ "words": [
+  {
+   "id": "date",
+   "text": "date",
+   "ipa": "/deɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дата, число"
+   },
+   "example": "What's the date today?",
+   "exampleTranslation": {
+    "uk": "Яке сьогодні число?"
+   }
+  },
+  {
+   "id": "fourth",
+   "text": "fourth",
+   "ipa": "/fɔːθ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "четвертий"
+   },
+   "example": "The fourth of July.",
+   "exampleTranslation": {
+    "uk": "Четверте липня."
+   }
+  },
+  {
+   "id": "fifth",
+   "text": "fifth",
+   "ipa": "/fɪfθ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "п'ятий"
+   },
+   "example": "The fifth of May.",
+   "exampleTranslation": {
+    "uk": "П'яте травня."
+   }
+  },
+  {
+   "id": "twelfth",
+   "text": "twelfth",
+   "ipa": "/twelfθ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "дванадцятий"
+   },
+   "example": "The twelfth of June.",
+   "exampleTranslation": {
+    "uk": "Дванадцяте червня."
+   }
+  },
+  {
+   "id": "twentieth",
+   "text": "twentieth",
+   "ipa": "/ˈtwentiəθ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "двадцятий"
+   },
+   "example": "The twentieth of March.",
+   "exampleTranslation": {
+    "uk": "Двадцяте березня."
+   }
+  },
+  {
+   "id": "thirtieth",
+   "text": "thirtieth",
+   "ipa": "/ˈθɜːtiəθ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "тридцятий"
+   },
+   "example": "The thirtieth of April.",
+   "exampleTranslation": {
+    "uk": "Тридцяте квітня."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "School starts ___ September.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In September."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слово з числом"
+   },
+   "pairs": [
+    {
+     "left": "first",
+     "right": {
+      "uk": "1-ше"
+     }
+    },
+    {
+     "left": "second",
+     "right": {
+      "uk": "2-ге"
+     }
+    },
+    {
+     "left": "third",
+     "right": {
+      "uk": "3-тє"
+     }
+    },
+    {
+     "left": "fourth",
+     "right": {
+      "uk": "4-те"
+     }
+    },
+    {
+     "left": "fifth",
+     "right": {
+      "uk": "5-те"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Перші три — особливі, далі додаємо -th."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слово з числом"
+   },
+   "pairs": [
+    {
+     "left": "twelfth",
+     "right": {
+      "uk": "12-те"
+     }
+    },
+    {
+     "left": "twentieth",
+     "right": {
+      "uk": "20-те"
+     }
+    },
+    {
+     "left": "thirtieth",
+     "right": {
+      "uk": "30-те"
+     }
+    },
+    {
+     "left": "tenth",
+     "right": {
+      "uk": "10-те"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Ten → tenth, twelve → twelfth, twenty → twentieth."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "What's the date today?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Яке сьогодні число",
+     "Який сьогодні день тижня",
+     "Котра година"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The date — число."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It's the fifth of October.",
+   "prompt": {
+    "uk": "Прослухайте. Яка дата?"
+   },
+   "options": {
+    "uk": [
+     "5 жовтня",
+     "15 жовтня",
+     "5 серпня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The fifth of October."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "It's the twenty-first of December.",
+   "prompt": {
+    "uk": "Прослухайте. Яка дата?"
+   },
+   "options": {
+    "uk": [
+     "21 грудня",
+     "20 грудня",
+     "12 грудня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twenty-first — двадцять перше."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «третє травня»?"
+   },
+   "options": [
+    "the third of May",
+    "the three of May",
+    "third the May"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The third of May."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно написати «п'ятий»?"
+   },
+   "options": [
+    "fifth",
+    "fiveth",
+    "fivth"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Five → fifth."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's the tenth ___ June.",
+   "options": [
+    "of",
+    "in",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The tenth of June."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's ___ first of January.",
+   "options": [
+    "the",
+    "a",
+    "an"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перед порядковим числом у даті — the."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Сьогодні четверте липня."
+   },
+   "words": [
+    "It's",
+    "the",
+    "fourth",
+    "of",
+    "July",
+    "four",
+    "in"
+   ],
+   "answer": [
+    "It's",
+    "the",
+    "fourth",
+    "of",
+    "July"
+   ],
+   "explanation": {
+    "uk": "It's the fourth of July."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What's the date today?",
+   "prompt": {
+    "uk": "Сьогодні двадцяте березня. Що відповісти?"
+   },
+   "options": [
+    "It's the twentieth of March.",
+    "It's the twenty of March.",
+    "It's twentieth in March."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's the twentieth of March."
+   }
+  }
+ ]
+}

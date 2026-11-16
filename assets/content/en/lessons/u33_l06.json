@@ -1,0 +1,232 @@
+{
+ "id": "u33_l06",
+ "unit": "u33",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: аптека й лікар"
+ },
+ "goal": {
+  "uk": "Купити ліки, записатися до лікаря й зрозуміти його вказівки."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: Do you have anything for…?, I'm allergic to…, Take two tablets twice a day, I'd like to make an appointment, since і for, It's nothing serious."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У вас є щось від головного болю?"
+   },
+   "words": [
+    "Do",
+    "you",
+    "have",
+    "anything",
+    "for",
+    "a",
+    "headache",
+    "to"
+   ],
+   "answer": [
+    "Do",
+    "you",
+    "have",
+    "anything",
+    "for",
+    "a",
+    "headache"
+   ],
+   "explanation": {
+    "uk": "Do you have anything for a headache?"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm allergic ___ penicillin.",
+   "options": [
+    "to",
+    "for",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Allergic to."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Take one tablet twice a day after meals for a week.",
+   "prompt": {
+    "uk": "Прослухайте. Як довго приймати?"
+   },
+   "options": {
+    "uk": [
+     "Тиждень",
+     "Два дні",
+     "Місяць"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "For a week."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Потрібен рецепт?"
+   },
+   "answers": [
+    "Do I need a prescription"
+   ],
+   "explanation": {
+    "uk": "Do I need a prescription?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A cough? How long? — ___ Monday.",
+   "options": [
+    "Since",
+    "For",
+    "In"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Від понеділка — since."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A cough? How long? — ___ four days.",
+   "options": [
+    "For",
+    "Since",
+    "At"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Протягом — for."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я хотів би записатися»?"
+   },
+   "options": [
+    "I'd like to make an appointment.",
+    "I'd like to do an appointment.",
+    "I like make appointment."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Make an appointment."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Нічого серйозного."
+   },
+   "answers": [
+    "It's nothing serious",
+    "It is nothing serious",
+    "Nothing serious"
+   ],
+   "explanation": {
+    "uk": "It's nothing serious."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "Lie down and breathe in. Does it hurt here?",
+   "prompt": {
+    "uk": "Прослухайте. Що просить лікар спочатку?"
+   },
+   "options": {
+    "uk": [
+     "Лягти й вдихнути",
+     "Сісти й відкрити рот",
+     "Встати й видихнути"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Lie down, breathe in."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Який документ дає лікар для аптеки?"
+   },
+   "options": {
+    "uk": [
+     "prescription",
+     "receipt",
+     "insurance"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Prescription — рецепт."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Can I help you?",
+   "prompt": {
+    "uk": "У вас кашель і болить горло. Що спитати?"
+   },
+   "options": [
+    "Do you have anything for a cough and a sore throat?",
+    "Do you have something a cough for?",
+    "I cough and sore."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Do you have anything for a cough and a sore throat?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How often do I take the drops?",
+   "prompt": {
+    "uk": "Тричі на день. Що відповість аптекар?"
+   },
+   "options": [
+    "Three times a day.",
+    "Three time in day.",
+    "Third a day."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Three times a day."
+   }
+  }
+ ]
+}

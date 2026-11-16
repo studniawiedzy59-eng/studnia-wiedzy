@@ -1,0 +1,365 @@
+{
+ "id": "u34_l05",
+ "unit": "u34",
+ "cefr": "A0",
+ "title": {
+  "uk": "Інтернет і застосунки"
+ },
+ "goal": {
+  "uk": "Говорити про інтернет, застосунки й зв'язок."
+ },
+ "rule": {
+  "uk": "An app — застосунок. Download — завантажити. Online — в інтернеті. A website — сайт. A link — посилання. There's no signal — «немає зв'язку». Connect to Wi-Fi — під'єднатися до вайфаю."
+ },
+ "words": [
+  {
+   "id": "app",
+   "text": "app",
+   "ipa": "/æp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "застосунок"
+   },
+   "example": "A good app.",
+   "exampleTranslation": {
+    "uk": "Хороший застосунок."
+   }
+  },
+  {
+   "id": "download",
+   "text": "download",
+   "ipa": "/ˌdaʊnˈləʊd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "завантажувати"
+   },
+   "example": "Download the app.",
+   "exampleTranslation": {
+    "uk": "Завантажте застосунок."
+   }
+  },
+  {
+   "id": "online",
+   "text": "online",
+   "ipa": "/ˌɒnˈlaɪn/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "в інтернеті"
+   },
+   "example": "I buy tickets online.",
+   "exampleTranslation": {
+    "uk": "Я купую квитки в інтернеті."
+   }
+  },
+  {
+   "id": "website",
+   "text": "website",
+   "ipa": "/ˈwebsaɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сайт"
+   },
+   "example": "The hotel website.",
+   "exampleTranslation": {
+    "uk": "Сайт готелю."
+   }
+  },
+  {
+   "id": "link",
+   "text": "link",
+   "ipa": "/lɪŋk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "посилання"
+   },
+   "example": "Send me the link.",
+   "exampleTranslation": {
+    "uk": "Надішліть мені посилання."
+   }
+  },
+  {
+   "id": "signal",
+   "text": "signal",
+   "ipa": "/ˈsɪɡnəl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сигнал, зв'язок"
+   },
+   "example": "There's no signal.",
+   "exampleTranslation": {
+    "uk": "Немає зв'язку."
+   }
+  },
+  {
+   "id": "connect",
+   "text": "connect",
+   "ipa": "/kəˈnekt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "під'єднуватися"
+   },
+   "example": "Connect to Wi-Fi.",
+   "exampleTranslation": {
+    "uk": "Під'єднайтеся до вайфаю."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Sorry, I'm late!",
+   "prompt": {
+    "uk": "Повторимо. Що відповісти по-дружньому?"
+   },
+   "options": [
+    "No worries.",
+    "Sounds good late.",
+    "You're late me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No worries."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "app",
+     "right": {
+      "uk": "застосунок"
+     }
+    },
+    {
+     "left": "download",
+     "right": {
+      "uk": "завантажувати"
+     }
+    },
+    {
+     "left": "online",
+     "right": {
+      "uk": "в інтернеті"
+     }
+    },
+    {
+     "left": "website",
+     "right": {
+      "uk": "сайт"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про інтернет."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "link",
+     "right": {
+      "uk": "посилання"
+     }
+    },
+    {
+     "left": "signal",
+     "right": {
+      "uk": "зв'язок"
+     }
+    },
+    {
+     "left": "connect",
+     "right": {
+      "uk": "під'єднуватися"
+     }
+    },
+    {
+     "left": "password",
+     "right": {
+      "uk": "пароль"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Усе для під'єднання."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "You can download the app for free.",
+   "prompt": {
+    "uk": "Прослухайте. Що ви дізналися?"
+   },
+   "options": {
+    "uk": [
+     "Застосунок можна завантажити безкоштовно",
+     "Застосунок платний",
+     "Застосунку немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "For free — безкоштовно."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "There's no signal here.",
+   "prompt": {
+    "uk": "Прослухайте. У чому проблема?"
+   },
+   "options": {
+    "uk": [
+     "Немає зв'язку",
+     "Немає вайфаю",
+     "Сів телефон"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "No signal."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "Can you send me the link?",
+   "prompt": {
+    "uk": "Прослухайте. Про що просять?"
+   },
+   "options": {
+    "uk": [
+     "Надіслати посилання",
+     "Надіслати пароль",
+     "Завантажити застосунок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Send me the link."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I buy my tickets ___.",
+   "options": [
+    "online",
+    "website",
+    "signal"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Online — в інтернеті."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I ___ to the Wi-Fi?",
+   "options": [
+    "connect",
+    "download",
+    "link"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Connect to the Wi-Fi."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ the app. It's very good.",
+   "options": [
+    "Download",
+    "Connect",
+    "Reply"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Download the app."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "an app",
+    "a app",
+    "an website"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "App — з голосного: an app."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Надішліть мені посилання, будь ласка."
+   },
+   "words": [
+    "Send",
+    "me",
+    "the",
+    "link",
+    "please",
+    "app",
+    "to"
+   ],
+   "answer": [
+    "Send",
+    "me",
+    "the",
+    "link",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Send me the link, please."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Can I connect to the Wi-Fi?",
+   "prompt": {
+    "uk": "Вам дозволяють і кажуть пароль. Що відповість працівник?"
+   },
+   "options": [
+    "Yes, of course. The password is coffee123.",
+    "Yes, of course. The signal is coffee.",
+    "No, the password yes."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, of course. The password is…"
+   }
+  }
+ ]
+}

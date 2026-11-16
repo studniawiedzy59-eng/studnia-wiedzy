@@ -57,6 +57,16 @@ def check_exercise(ex, langs, where):
                 err(where, "answer index out of range")
     if kind == "listening" and not str(ex.get("audioText", "")).strip():
         err(where, "listening needs audioText")
+    # Text meant to be read aloud or typed in English must not contain Cyrillic.
+    english = [str(ex.get("audioText", ""))]
+    english += [str(a) for a in ex.get("answers", [])]
+    english += [str(w) for w in ex.get("words", [])]
+    english += [str(pair.get("left", "")) for pair in ex.get("pairs", [])]
+    if isinstance(ex.get("options"), list):
+        english += [str(o) for o in ex["options"]]
+    for text in english:
+        if any("\u0400" <= ch <= "\u04ff" for ch in text):
+            err(where, f"Cyrillic in an English field: {text!r}")
     if kind == "fill_blank" and "___" not in str(ex.get("sentence", "")):
         err(where, "sentence must contain ___")
     if kind == "matching":

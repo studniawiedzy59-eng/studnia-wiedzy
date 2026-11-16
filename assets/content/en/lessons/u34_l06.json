@@ -1,0 +1,226 @@
+{
+ "id": "u34_l06",
+ "unit": "u34",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: зв'язок"
+ },
+ "goal": {
+  "uk": "Поговорити телефоном, залишити повідомлення й написати коротке повідомлення."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: This is…, Can I speak to…?, Just a moment, Can I leave a message?, call me back, On my way, Sounds good, download і connect."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Who's calling, please?",
+   "prompt": {
+    "uk": "Ви Олена з банку. Що відповісти?"
+   },
+   "options": [
+    "This is Olena from the bank.",
+    "I'm calling Olena bank.",
+    "Here is Olena of bank."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This is Olena from the bank."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можна поговорити з менеджером?"
+   },
+   "words": [
+    "Can",
+    "I",
+    "speak",
+    "to",
+    "the",
+    "manager",
+    "with"
+   ],
+   "answer": [
+    "Can",
+    "I",
+    "speak",
+    "to",
+    "the",
+    "manager"
+   ],
+   "explanation": {
+    "uk": "Can I speak to the manager?"
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He's not here. Can I ___ a message?",
+   "options": [
+    "take",
+    "speak",
+    "reply"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Працівник пропонує: Can I take a message?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можете передзвонити мені?"
+   },
+   "answers": [
+    "Can you call me back"
+   ],
+   "explanation": {
+    "uk": "Can you call me back?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Hold on, please. She's on the phone.",
+   "prompt": {
+    "uk": "Прослухайте. Що вам кажуть?"
+   },
+   "options": {
+    "uk": [
+     "Зачекати, вона розмовляє телефоном",
+     "Передзвонити завтра",
+     "Що її немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hold on — зачекайте."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ my way. See you soon!",
+   "options": [
+    "on",
+    "in",
+    "to"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On my way."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вам пишуть: Let's meet at six. Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "Sounds good!",
+    "No worries wrong.",
+    "Wrong number!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sounds good!"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене сідає батарея."
+   },
+   "answers": [
+    "My battery is low"
+   ],
+   "explanation": {
+    "uk": "My battery is low."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "There's no signal here. I'll call you later.",
+   "prompt": {
+    "uk": "Прослухайте. Чому людина зателефонує пізніше?"
+   },
+   "options": {
+    "uk": [
+     "Немає зв'язку",
+     "Вона зайнята",
+     "Сів телефон"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "No signal."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "Download the app and connect to the Wi-Fi.",
+    "Download app the and connect Wi-Fi to.",
+    "Downloads the app and connects."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Download the app and connect to the Wi-Fi."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Sorry, wrong number.",
+   "prompt": {
+    "uk": "Вам зателефонували помилково й вибачилися. Що відповісти?"
+   },
+   "options": [
+    "No worries.",
+    "Sounds good.",
+    "Hold on."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No worries."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Can you send me the link?",
+   "prompt": {
+    "uk": "Ви згодні надіслати. Що відповісти?"
+   },
+   "options": [
+    "Sure, no problem.",
+    "Sure, no signal.",
+    "Sure, wrong number."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sure, no problem."
+   }
+  }
+ ]
+}

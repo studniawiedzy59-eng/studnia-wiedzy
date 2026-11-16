@@ -1,0 +1,320 @@
+{
+ "id": "u34_l04",
+ "unit": "u34",
+ "cefr": "A0",
+ "title": {
+  "uk": "Коротке повідомлення"
+ },
+ "goal": {
+  "uk": "Написати й зрозуміти короткі повідомлення."
+ },
+ "rule": {
+  "uk": "У повідомленнях пишуть коротко. On my way — «уже їду». See you soon — «до скорої зустрічі». Sounds good — «звучить добре, згода». No worries — «нічого страшного». Reply — «відповісти на повідомлення»."
+ },
+ "words": [
+  {
+   "id": "on_my_way",
+   "text": "on my way",
+   "ipa": "/ɒn maɪ ˈweɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "уже їду, уже йду"
+   },
+   "example": "I'm on my way.",
+   "exampleTranslation": {
+    "uk": "Я вже їду."
+   }
+  },
+  {
+   "id": "soon",
+   "text": "soon",
+   "ipa": "/suːn/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "скоро"
+   },
+   "example": "See you soon.",
+   "exampleTranslation": {
+    "uk": "До скорої зустрічі."
+   }
+  },
+  {
+   "id": "sounds_good",
+   "text": "sounds good",
+   "ipa": "/ˌsaʊndz ˈɡʊd/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "звучить добре, згода"
+   },
+   "example": "Sounds good!",
+   "exampleTranslation": {
+    "uk": "Згода!"
+   }
+  },
+  {
+   "id": "no_worries",
+   "text": "no worries",
+   "ipa": "/ˌnəʊ ˈwʌriz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "нічого страшного"
+   },
+   "example": "No worries.",
+   "exampleTranslation": {
+    "uk": "Нічого страшного."
+   }
+  },
+  {
+   "id": "reply",
+   "text": "reply",
+   "ipa": "/rɪˈplaɪ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "відповідати на повідомлення"
+   },
+   "example": "Please reply.",
+   "exampleTranslation": {
+    "uk": "Відпишіть, будь ласка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm busy now. Can you call me ___?",
+   "options": [
+    "back",
+    "soon",
+    "low"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Call me back."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "on my way",
+     "right": {
+      "uk": "уже їду"
+     }
+    },
+    {
+     "left": "soon",
+     "right": {
+      "uk": "скоро"
+     }
+    },
+    {
+     "left": "sounds good",
+     "right": {
+      "uk": "згода"
+     }
+    },
+    {
+     "left": "no worries",
+     "right": {
+      "uk": "нічого страшного"
+     }
+    },
+    {
+     "left": "reply",
+     "right": {
+      "uk": "відписати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Мова коротких повідомлень."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'm on my way. See you soon!",
+   "prompt": {
+    "uk": "Прослухайте. Що пише людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона вже їде й скоро буде",
+     "Вона ще вдома",
+     "Вона не приїде"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On my way, see you soon."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Sorry, I'm late. — No worries.",
+   "prompt": {
+    "uk": "Прослухайте. Як відповіли на вибачення?"
+   },
+   "options": {
+    "uk": [
+     "Нічого страшного",
+     "Це погано",
+     "Не приходьте"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "No worries."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Let's meet at seven. — Sounds good!",
+   "prompt": {
+    "uk": "Прослухайте. Чи згодна друга людина?"
+   },
+   "options": {
+    "uk": [
+     "Так",
+     "Ні",
+     "Вона не впевнена"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sounds good — згода."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вам пишуть: Sorry, I can't come today. Що відповісти по-дружньому?"
+   },
+   "options": [
+    "No worries. See you soon!",
+    "No worry you. See soon!",
+    "Sounds bad wrong."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No worries. See you soon!"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ my way.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On my way."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "See you ___!",
+   "options": [
+    "soon",
+    "low",
+    "back"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "See you soon."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Please ___ to my message.",
+   "options": [
+    "reply",
+    "send",
+    "leave"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Reply to my message."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я вже їду."
+   },
+   "words": [
+    "I'm",
+    "on",
+    "my",
+    "way",
+    "in",
+    "the"
+   ],
+   "answer": [
+    "I'm",
+    "on",
+    "my",
+    "way"
+   ],
+   "explanation": {
+    "uk": "I'm on my way."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "До скорої зустрічі!"
+   },
+   "answers": [
+    "See you soon"
+   ],
+   "explanation": {
+    "uk": "See you soon!"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Let's have lunch tomorrow at one.",
+   "prompt": {
+    "uk": "Друг пише це. Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "Sounds good! See you tomorrow.",
+    "Sounds good! See you yesterday.",
+    "No worries good."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sounds good! See you tomorrow."
+   }
+  }
+ ]
+}

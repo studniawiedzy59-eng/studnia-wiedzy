@@ -1,0 +1,344 @@
+{
+ "id": "u31_l01",
+ "unit": "u31",
+ "cefr": "A0",
+ "title": {
+  "uk": "Від січня до червня"
+ },
+ "goal": {
+  "uk": "Назвати перші шість місяців."
+ },
+ "rule": {
+  "uk": "Місяці англійською завжди пишуть з великої літери. З місяцем уживають in: in January — у січні. May збігається зі словом may, але як місяць це завжди May."
+ },
+ "words": [
+  {
+   "id": "january",
+   "text": "January",
+   "ipa": "/ˈdʒænjuəri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "січень"
+   },
+   "example": "In January.",
+   "exampleTranslation": {
+    "uk": "У січні."
+   }
+  },
+  {
+   "id": "february",
+   "text": "February",
+   "ipa": "/ˈfebruəri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "лютий"
+   },
+   "example": "In February.",
+   "exampleTranslation": {
+    "uk": "У лютому."
+   }
+  },
+  {
+   "id": "march",
+   "text": "March",
+   "ipa": "/mɑːtʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "березень"
+   },
+   "example": "In March.",
+   "exampleTranslation": {
+    "uk": "У березні."
+   }
+  },
+  {
+   "id": "april",
+   "text": "April",
+   "ipa": "/ˈeɪprəl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "квітень"
+   },
+   "example": "In April.",
+   "exampleTranslation": {
+    "uk": "У квітні."
+   }
+  },
+  {
+   "id": "may",
+   "text": "May",
+   "ipa": "/meɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "травень"
+   },
+   "example": "In May.",
+   "exampleTranslation": {
+    "uk": "У травні."
+   }
+  },
+  {
+   "id": "june",
+   "text": "June",
+   "ipa": "/dʒuːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "червень"
+   },
+   "example": "In June.",
+   "exampleTranslation": {
+    "uk": "У червні."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What's the weather like?",
+   "prompt": {
+    "uk": "Повторимо. Надворі дощ і вітер. Що відповісти?"
+   },
+   "options": [
+    "It's rainy and windy.",
+    "It likes rainy and windy.",
+    "It's rain and wind the."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's rainy and windy."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "January",
+     "right": {
+      "uk": "січень"
+     }
+    },
+    {
+     "left": "February",
+     "right": {
+      "uk": "лютий"
+     }
+    },
+    {
+     "left": "March",
+     "right": {
+      "uk": "березень"
+     }
+    },
+    {
+     "left": "April",
+     "right": {
+      "uk": "квітень"
+     }
+    },
+    {
+     "left": "May",
+     "right": {
+      "uk": "травень"
+     }
+    },
+    {
+     "left": "June",
+     "right": {
+      "uk": "червень"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Перша половина року."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "February",
+   "prompt": {
+    "uk": "Прослухайте. Який це місяць?"
+   },
+   "options": {
+    "uk": [
+     "Лютий",
+     "Січень",
+     "Квітень"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "February — лютий."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "My holiday is in June.",
+   "prompt": {
+    "uk": "Прослухайте. Коли відпустка?"
+   },
+   "options": {
+    "uk": [
+     "У червні",
+     "У січні",
+     "У травні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In June."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It's cold in January and February.",
+   "prompt": {
+    "uk": "Прослухайте. Про які місяці мова?"
+   },
+   "options": {
+    "uk": [
+     "Січень і лютий",
+     "Березень і квітень",
+     "Травень і червень"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "January and February."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Який місяць пропущений?"
+   },
+   "sentence": "January, February, ___, April",
+   "options": [
+    "March",
+    "May",
+    "June"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після лютого — березень."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Який місяць пропущений?"
+   },
+   "sentence": "April, ___, June",
+   "options": [
+    "May",
+    "March",
+    "January"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Між квітнем і червнем — травень."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My birthday is ___ March.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З місяцем — in."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно написати?"
+   },
+   "options": [
+    "February",
+    "february",
+    "Febuary"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З великої літери, і після b іде r."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Який місяць перший у році?"
+   },
+   "options": {
+    "uk": [
+     "January",
+     "June",
+     "March"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "January — січень."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У травні тепло."
+   },
+   "words": [
+    "It's",
+    "warm",
+    "in",
+    "May",
+    "on",
+    "cold"
+   ],
+   "answer": [
+    "It's",
+    "warm",
+    "in",
+    "May"
+   ],
+   "explanation": {
+    "uk": "It's warm in May."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "When is your holiday?",
+   "prompt": {
+    "uk": "Ваша відпустка у квітні. Що відповісти?"
+   },
+   "options": [
+    "In April.",
+    "On April.",
+    "At April."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In April."
+   }
+  }
+ ]
+}

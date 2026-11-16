@@ -1,0 +1,321 @@
+{
+ "id": "u33_l05",
+ "unit": "u33",
+ "cefr": "A0",
+ "title": {
+  "uk": "У кабінеті лікаря"
+ },
+ "goal": {
+  "uk": "Зрозуміти вказівки лікаря."
+ },
+ "rule": {
+  "uk": "Лікар каже короткими наказами: Open your mouth. Breathe in — «вдихніть». Lie down — «ляжте». Does it hurt here? — «Тут болить?». Добра новина: It's nothing serious — «нічого серйозного». Come back in a week — «прийдіть через тиждень»."
+ },
+ "words": [
+  {
+   "id": "breathe",
+   "text": "breathe",
+   "ipa": "/briːð/",
+   "pos": "verb",
+   "translation": {
+    "uk": "дихати"
+   },
+   "example": "Breathe in.",
+   "exampleTranslation": {
+    "uk": "Вдихніть."
+   }
+  },
+  {
+   "id": "lie_down",
+   "text": "lie down",
+   "ipa": "/ˌlaɪ ˈdaʊn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "лягти"
+   },
+   "example": "Lie down, please.",
+   "exampleTranslation": {
+    "uk": "Ляжте, будь ласка."
+   }
+  },
+  {
+   "id": "serious",
+   "text": "serious",
+   "ipa": "/ˈsɪəriəs/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "серйозний"
+   },
+   "example": "Is it serious?",
+   "exampleTranslation": {
+    "uk": "Це серйозно?"
+   }
+  },
+  {
+   "id": "nothing",
+   "text": "nothing",
+   "ipa": "/ˈnʌθɪŋ/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "нічого"
+   },
+   "example": "It's nothing serious.",
+   "exampleTranslation": {
+    "uk": "Нічого серйозного."
+   }
+  },
+  {
+   "id": "come_back",
+   "text": "come back",
+   "ipa": "/ˌkʌm ˈbæk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "прийти знову, повернутися"
+   },
+   "example": "Come back in a week.",
+   "exampleTranslation": {
+    "uk": "Прийдіть через тиждень."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is tomorrow at ten OK?",
+   "prompt": {
+    "uk": "Повторимо. Вам підходить. Що відповісти?"
+   },
+   "options": [
+    "Yes, that's fine.",
+    "Yes, I'm fine ten.",
+    "No, that's fine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, that's fine."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "breathe",
+     "right": {
+      "uk": "дихати"
+     }
+    },
+    {
+     "left": "lie down",
+     "right": {
+      "uk": "лягти"
+     }
+    },
+    {
+     "left": "serious",
+     "right": {
+      "uk": "серйозний"
+     }
+    },
+    {
+     "left": "nothing",
+     "right": {
+      "uk": "нічого"
+     }
+    },
+    {
+     "left": "come back",
+     "right": {
+      "uk": "прийти знову"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова з кабінету лікаря."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Lie down, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Лягти",
+     "Сісти",
+     "Встати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Lie down — лягти."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Breathe in. And out.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже лікар?"
+   },
+   "options": {
+    "uk": [
+     "Вдихніть і видихніть",
+     "Відкрийте рот",
+     "Зайдіть і вийдіть"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Breathe in, breathe out."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Does it hurt here?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає лікар?"
+   },
+   "options": {
+    "uk": [
+     "Чи болить тут",
+     "Де болить",
+     "Відколи болить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Does it hurt here?"
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "It's nothing serious. Come back in a week.",
+   "prompt": {
+    "uk": "Прослухайте. Що сказав лікар?"
+   },
+   "options": {
+    "uk": [
+     "Нічого серйозного, прийти через тиждень",
+     "Це серйозно, прийти завтра",
+     "Нічого серйозного, приходити не треба"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nothing serious, in a week."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is it ___, doctor? — No, it's just a cold.",
+   "options": [
+    "serious",
+    "nothing",
+    "health"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is it serious?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Come back ___ a week.",
+   "options": [
+    "in",
+    "for",
+    "since"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In a week — через тиждень."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Does it ___ here? — Yes, a lot.",
+   "options": [
+    "hurt",
+    "hurts",
+    "pain"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після does — hurt."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Нічого серйозного."
+   },
+   "words": [
+    "It's",
+    "nothing",
+    "serious",
+    "anything",
+    "not"
+   ],
+   "answer": [
+    "It's",
+    "nothing",
+    "serious"
+   ],
+   "explanation": {
+    "uk": "It's nothing serious."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це серйозно?"
+   },
+   "answers": [
+    "Is it serious"
+   ],
+   "explanation": {
+    "uk": "Is it serious?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Does it hurt here?",
+   "prompt": {
+    "uk": "Так, сильно болить. Що відповісти?"
+   },
+   "options": [
+    "Yes, it does. A lot.",
+    "Yes, it is. A lot.",
+    "Yes, it hurt lot a."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it does. A lot."
+   }
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "id": "u31_l06",
+ "unit": "u31",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: календар"
+ },
+ "goal": {
+  "uk": "Назвати будь-яку дату, свій день народження й привітати зі святом."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: дванадцять місяців, in + місяць, on + дата, порядкові числа, роки, I was born in…, привітання."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My birthday is ___ October.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З місяцем — in."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My birthday is ___ the ninth of October.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З датою — on."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Сьогодні двадцяте березня."
+   },
+   "words": [
+    "It's",
+    "the",
+    "twentieth",
+    "of",
+    "March",
+    "twenty",
+    "in"
+   ],
+   "answer": [
+    "It's",
+    "the",
+    "twentieth",
+    "of",
+    "March"
+   ],
+   "explanation": {
+    "uk": "It's the twentieth of March."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я народився 1988 року."
+   },
+   "answers": [
+    "I was born in 1988"
+   ],
+   "explanation": {
+    "uk": "I was born in 1988."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My date of birth is the third of February, nineteen ninety-four.",
+   "prompt": {
+    "uk": "Прослухайте. Яка дата народження?"
+   },
+   "options": {
+    "uk": [
+     "3 лютого 1994",
+     "13 лютого 1994",
+     "3 лютого 1949"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The third of February, 1994."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Який місяць іде після серпня?"
+   },
+   "options": {
+    "uk": [
+     "September",
+     "July",
+     "October"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "After August — September."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «перше січня»?"
+   },
+   "options": [
+    "the first of January",
+    "the one of January",
+    "first January the"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The first of January."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Яке сьогодні число?"
+   },
+   "answers": [
+    "What's the date today",
+    "What is the date today"
+   ],
+   "explanation": {
+    "uk": "What's the date today?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "We always visit my grandmother at Easter.",
+   "prompt": {
+    "uk": "Прослухайте. Коли вони відвідують бабусю?"
+   },
+   "options": {
+    "uk": [
+     "На Великдень",
+     "На Різдво",
+     "На Новий рік"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At Easter."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як прочитати рік 2010?"
+   },
+   "options": {
+    "uk": [
+     "twenty ten",
+     "two zero one zero",
+     "twenty-one zero"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twenty ten."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "When is your wedding?",
+   "prompt": {
+    "uk": "Весілля чотирнадцятого червня. Що відповісти?"
+   },
+   "options": [
+    "It's on the fourteenth of June.",
+    "It's in the fourteenth of June.",
+    "It's on fourteen June."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On the fourteenth of June."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "It's my birthday today!",
+   "prompt": {
+    "uk": "Друг каже це. Що відповісти?"
+   },
+   "options": [
+    "Happy birthday!",
+    "Merry Christmas!",
+    "Thank you!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Happy birthday!"
+   }
+  }
+ ]
+}

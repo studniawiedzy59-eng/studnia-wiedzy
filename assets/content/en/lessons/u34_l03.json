@@ -1,0 +1,322 @@
+{
+ "id": "u34_l03",
+ "unit": "u34",
+ "cefr": "A0",
+ "title": {
+  "uk": "Його немає. Щось передати?"
+ },
+ "goal": {
+  "uk": "Залишити повідомлення й попросити передзвонити."
+ },
+ "rule": {
+  "uk": "Якщо людини немає: Can I leave a message? — «Можна залишити повідомлення?». Can you call me back? — «Можете передзвонити мені?». I'll call later — «я зателефоную пізніше». Якщо помилилися: Sorry, wrong number."
+ },
+ "words": [
+  {
+   "id": "leave_a_message",
+   "text": "leave a message",
+   "ipa": "/ˌliːv ə ˈmesɪdʒ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "залишити повідомлення"
+   },
+   "example": "Can I leave a message?",
+   "exampleTranslation": {
+    "uk": "Можна залишити повідомлення?"
+   }
+  },
+  {
+   "id": "call_back",
+   "text": "call back",
+   "ipa": "/ˌkɔːl ˈbæk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "передзвонити"
+   },
+   "example": "Can you call me back?",
+   "exampleTranslation": {
+    "uk": "Можете передзвонити мені?"
+   }
+  },
+  {
+   "id": "later",
+   "text": "later",
+   "ipa": "/ˈleɪtə/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "пізніше"
+   },
+   "example": "I'll call later.",
+   "exampleTranslation": {
+    "uk": "Я зателефоную пізніше."
+   }
+  },
+  {
+   "id": "wrong_number",
+   "text": "wrong number",
+   "ipa": "/ˌrɒŋ ˈnʌmbə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "не той номер"
+   },
+   "example": "Sorry, wrong number.",
+   "exampleTranslation": {
+    "uk": "Вибачте, ви помилилися номером."
+   }
+  },
+  {
+   "id": "voicemail",
+   "text": "voicemail",
+   "ipa": "/ˈvɔɪsmeɪl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "голосова пошта"
+   },
+   "example": "Leave a voicemail.",
+   "exampleTranslation": {
+    "uk": "Залиште голосове повідомлення."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Can I speak to Tom, please?",
+   "prompt": {
+    "uk": "Повторимо. Том тут. Що відповісти?"
+   },
+   "options": [
+    "Just a moment, please.",
+    "Who's Tom, please?",
+    "Hold Tom."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Just a moment, please."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "leave a message",
+     "right": {
+      "uk": "залишити повідомлення"
+     }
+    },
+    {
+     "left": "call back",
+     "right": {
+      "uk": "передзвонити"
+     }
+    },
+    {
+     "left": "later",
+     "right": {
+      "uk": "пізніше"
+     }
+    },
+    {
+     "left": "wrong number",
+     "right": {
+      "uk": "не той номер"
+     }
+    },
+    {
+     "left": "voicemail",
+     "right": {
+      "uk": "голосова пошта"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Коли людини немає на місці."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "He's not here. Can I take a message?",
+   "prompt": {
+    "uk": "Прослухайте. Що вам пропонують?"
+   },
+   "options": {
+    "uk": [
+     "Передати повідомлення",
+     "Зачекати",
+     "Передзвонити на інший номер"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Take a message — прийняти повідомлення."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Can you call me back after five?",
+   "prompt": {
+    "uk": "Прослухайте. Про що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Передзвонити після п'ятої",
+     "Зателефонувати о п'ятій ранку",
+     "Не телефонувати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Call me back after five."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Sorry, you have the wrong number.",
+   "prompt": {
+    "uk": "Прослухайте. Що сталося?"
+   },
+   "options": {
+    "uk": [
+     "Ви помилилися номером",
+     "Номер зайнятий",
+     "Номер змінився"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The wrong number."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I ___ a message?",
+   "options": [
+    "leave",
+    "live",
+    "reply"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Leave a message."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can you call me ___ tomorrow?",
+   "options": [
+    "back",
+    "soon",
+    "low"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Call me back."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm busy now. I'll call ___.",
+   "options": [
+    "later",
+    "late",
+    "last"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Later — пізніше."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви набрали не той номер. Що сказати?"
+   },
+   "options": [
+    "Sorry, wrong number.",
+    "Sorry, bad number me.",
+    "Sorry, I'm wrong."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sorry, wrong number."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можете передзвонити мені?"
+   },
+   "words": [
+    "Can",
+    "you",
+    "call",
+    "me",
+    "back",
+    "later",
+    "to"
+   ],
+   "answer": [
+    "Can",
+    "you",
+    "call",
+    "me",
+    "back"
+   ],
+   "explanation": {
+    "uk": "Can you call me back?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можна залишити повідомлення?"
+   },
+   "answers": [
+    "Can I leave a message"
+   ],
+   "explanation": {
+    "uk": "Can I leave a message?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "She's not here. Can I take a message?",
+   "prompt": {
+    "uk": "Ви просите, щоб вона передзвонила. Що відповісти?"
+   },
+   "options": [
+    "Yes, please. Can she call me back?",
+    "Yes, please. Can she call back me to?",
+    "No, I take a message."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can she call me back?"
+   }
+  }
+ ]
+}

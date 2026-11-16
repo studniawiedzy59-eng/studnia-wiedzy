@@ -1,0 +1,317 @@
+{
+ "id": "u33_l02",
+ "unit": "u33",
+ "cefr": "A0",
+ "title": {
+  "uk": "Сироп, краплі, алергія"
+ },
+ "goal": {
+  "uk": "Уточнити, які ліки потрібні, і попередити про алергію."
+ },
+ "rule": {
+  "uk": "I'm allergic to… — «у мене алергія на…»: I'm allergic to penicillin. Це важливо сказати до того, як вам дадуть ліки. A prescription — рецепт: Do I need a prescription? — «Потрібен рецепт?»"
+ },
+ "words": [
+  {
+   "id": "syrup",
+   "text": "syrup",
+   "ipa": "/ˈsɪrəp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сироп"
+   },
+   "example": "Cough syrup.",
+   "exampleTranslation": {
+    "uk": "Сироп від кашлю."
+   }
+  },
+  {
+   "id": "drops",
+   "text": "drops",
+   "ipa": "/drɒps/",
+   "pos": "noun",
+   "translation": {
+    "uk": "краплі"
+   },
+   "example": "Eye drops.",
+   "exampleTranslation": {
+    "uk": "Краплі для очей."
+   }
+  },
+  {
+   "id": "allergy",
+   "text": "allergy",
+   "ipa": "/ˈælədʒi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "алергія"
+   },
+   "example": "I have an allergy.",
+   "exampleTranslation": {
+    "uk": "У мене алергія."
+   }
+  },
+  {
+   "id": "allergic_to",
+   "text": "allergic to",
+   "ipa": "/əˈlɜːdʒɪk tuː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "алергічний на"
+   },
+   "example": "I'm allergic to nuts.",
+   "exampleTranslation": {
+    "uk": "У мене алергія на горіхи."
+   }
+  },
+  {
+   "id": "prescription",
+   "text": "prescription",
+   "ipa": "/prɪˈskrɪpʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рецепт (від лікаря)"
+   },
+   "example": "Do I need a prescription?",
+   "exampleTranslation": {
+    "uk": "Потрібен рецепт?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Do you have anything ___ a sore throat?",
+   "options": [
+    "for",
+    "at",
+    "with"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Anything for."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "syrup",
+     "right": {
+      "uk": "сироп"
+     }
+    },
+    {
+     "left": "drops",
+     "right": {
+      "uk": "краплі"
+     }
+    },
+    {
+     "left": "allergy",
+     "right": {
+      "uk": "алергія"
+     }
+    },
+    {
+     "left": "prescription",
+     "right": {
+      "uk": "рецепт"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Prescription дає лікар. Receipt — це чек у магазині."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'm allergic to penicillin.",
+   "prompt": {
+    "uk": "Прослухайте. Про що попереджає людина?"
+   },
+   "options": {
+    "uk": [
+     "Про алергію на пеніцилін",
+     "Про те, що їй потрібен пеніцилін",
+     "Про те, що вона не знає ліків"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Allergic to — алергія на."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Do I need a prescription?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає покупець?"
+   },
+   "options": {
+    "uk": [
+     "Чи потрібен рецепт",
+     "Чи є знижка",
+     "Чи потрібен чек"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A prescription — рецепт."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Cough syrup for a child, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що й для кого?"
+   },
+   "options": {
+    "uk": [
+     "Сироп від кашлю для дитини",
+     "Краплі для дитини",
+     "Сироп від кашлю для дорослого"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cough syrup for a child."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm allergic ___ nuts.",
+   "options": [
+    "to",
+    "for",
+    "of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Allergic to."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My eyes hurt. Do you have eye ___?",
+   "options": [
+    "drops",
+    "syrup",
+    "plasters"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Для очей — eye drops."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You need a ___ from your doctor for this medicine.",
+   "options": [
+    "prescription",
+    "receipt",
+    "reservation"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Від лікаря — prescription."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I have an allergy.",
+    "I have a allergy.",
+    "I am an allergy."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Allergy — з голосного: an allergy."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Потрібен рецепт?"
+   },
+   "words": [
+    "Do",
+    "I",
+    "need",
+    "a",
+    "prescription",
+    "am",
+    "receipt"
+   ],
+   "answer": [
+    "Do",
+    "I",
+    "need",
+    "a",
+    "prescription"
+   ],
+   "explanation": {
+    "uk": "Do I need a prescription?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене алергія на горіхи."
+   },
+   "answers": [
+    "I'm allergic to nuts",
+    "I am allergic to nuts"
+   ],
+   "explanation": {
+    "uk": "I'm allergic to nuts."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Are you allergic to anything?",
+   "prompt": {
+    "uk": "Алергії у вас немає. Що відповісти?"
+   },
+   "options": [
+    "No, I'm not.",
+    "No, I don't.",
+    "No, I haven't allergic."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "На Are you…? — No, I'm not."
+   }
+  }
+ ]
+}

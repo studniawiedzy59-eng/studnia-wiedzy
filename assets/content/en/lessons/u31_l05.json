@@ -1,0 +1,330 @@
+{
+ "id": "u31_l05",
+ "unit": "u31",
+ "cefr": "A0",
+ "title": {
+  "uk": "Свята й привітання"
+ },
+ "goal": {
+  "uk": "Назвати головні свята й привітати людину."
+ },
+ "rule": {
+  "uk": "Привітання: Happy birthday! — «З днем народження!». Merry Christmas! — «З Різдвом!». Happy New Year! — «З Новим роком!». Happy Easter! — «З Великоднем!». З назвою свята уживають at: at Christmas, at Easter. A present — подарунок."
+ },
+ "words": [
+  {
+   "id": "christmas",
+   "text": "Christmas",
+   "ipa": "/ˈkrɪsməs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "Різдво"
+   },
+   "example": "Merry Christmas!",
+   "exampleTranslation": {
+    "uk": "З Різдвом!"
+   }
+  },
+  {
+   "id": "easter",
+   "text": "Easter",
+   "ipa": "/ˈiːstə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "Великдень"
+   },
+   "example": "Happy Easter!",
+   "exampleTranslation": {
+    "uk": "З Великоднем!"
+   }
+  },
+  {
+   "id": "new_year",
+   "text": "New Year",
+   "ipa": "/ˌnjuː ˈjɪə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "Новий рік"
+   },
+   "example": "Happy New Year!",
+   "exampleTranslation": {
+    "uk": "З Новим роком!"
+   }
+  },
+  {
+   "id": "wedding",
+   "text": "wedding",
+   "ipa": "/ˈwedɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "весілля"
+   },
+   "example": "My sister's wedding.",
+   "exampleTranslation": {
+    "uk": "Весілля моєї сестри."
+   }
+  },
+  {
+   "id": "present",
+   "text": "present",
+   "ipa": "/ˈpreznt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "подарунок"
+   },
+   "example": "A birthday present.",
+   "exampleTranslation": {
+    "uk": "Подарунок на день народження."
+   }
+  },
+  {
+   "id": "happy_birthday",
+   "text": "Happy birthday",
+   "ipa": "/ˌhæpi ˈbɜːθdeɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "з днем народження"
+   },
+   "example": "Happy birthday!",
+   "exampleTranslation": {
+    "uk": "З днем народження!"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I was born ___ the second of July.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З точною датою — on."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "Christmas",
+     "right": {
+      "uk": "Різдво"
+     }
+    },
+    {
+     "left": "Easter",
+     "right": {
+      "uk": "Великдень"
+     }
+    },
+    {
+     "left": "New Year",
+     "right": {
+      "uk": "Новий рік"
+     }
+    },
+    {
+     "left": "wedding",
+     "right": {
+      "uk": "весілля"
+     }
+    },
+    {
+     "left": "present",
+     "right": {
+      "uk": "подарунок"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "У Christmas літера t не вимовляється."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Merry Christmas and a Happy New Year!",
+   "prompt": {
+    "uk": "Прослухайте. З чим вітають?"
+   },
+   "options": {
+    "uk": [
+     "З Різдвом і Новим роком",
+     "З Великоднем",
+     "З днем народження"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Merry Christmas, Happy New Year."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The wedding is on the twelfth of September.",
+   "prompt": {
+    "uk": "Прослухайте. Коли весілля?"
+   },
+   "options": {
+    "uk": [
+     "12 вересня",
+     "20 вересня",
+     "12 листопада"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The twelfth of September."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "This is a present for you. Happy birthday!",
+   "prompt": {
+    "uk": "Прослухайте. Що відбувається?"
+   },
+   "options": {
+    "uk": [
+     "Людині дарують подарунок на день народження",
+     "Людина купує подарунок",
+     "Людина запрошує на весілля"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A present for you."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "У друга день народження. Що сказати?"
+   },
+   "options": [
+    "Happy birthday!",
+    "Merry birthday!",
+    "Good birthday!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Happy birthday!"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як привітати з Різдвом?"
+   },
+   "options": [
+    "Merry Christmas!",
+    "Happy Christmas day you!",
+    "Good Christmas!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Merry Christmas!"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We visit my parents ___ Christmas.",
+   "options": [
+    "at",
+    "in",
+    "under"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Зі святом — at Christmas."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I need a ___ for my mother's birthday.",
+   "options": [
+    "present",
+    "wedding",
+    "date"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A present — подарунок."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "З Новим роком!"
+   },
+   "words": [
+    "Happy",
+    "New",
+    "Year",
+    "Merry",
+    "birthday"
+   ],
+   "answer": [
+    "Happy",
+    "New",
+    "Year"
+   ],
+   "explanation": {
+    "uk": "Happy New Year!"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "З днем народження!"
+   },
+   "answers": [
+    "Happy birthday"
+   ],
+   "explanation": {
+    "uk": "Happy birthday!"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Happy birthday! This is for you.",
+   "prompt": {
+    "uk": "Вам подарували подарунок. Що відповісти?"
+   },
+   "options": [
+    "Thank you very much!",
+    "You're welcome!",
+    "Happy birthday!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thank you very much!"
+   }
+  }
+ ]
+}

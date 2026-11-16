@@ -1,0 +1,308 @@
+{
+ "id": "u33_l03",
+ "unit": "u33",
+ "cefr": "A0",
+ "title": {
+  "uk": "Як приймати ліки"
+ },
+ "goal": {
+  "uk": "Зрозуміти, як і коли приймати ліки."
+ },
+ "rule": {
+  "uk": "Про ліки кажуть take: Take two tablets. Скільки разів: three times a day. Коли: after meals — після їжі, before bed — перед сном. Як довго: for five days — п'ять днів."
+ },
+ "words": [
+  {
+   "id": "take_a_tablet",
+   "text": "take a tablet",
+   "ipa": "/ˌteɪk ə ˈtæblət/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "прийняти таблетку"
+   },
+   "example": "Take one tablet.",
+   "exampleTranslation": {
+    "uk": "Прийміть одну таблетку."
+   }
+  },
+  {
+   "id": "meal",
+   "text": "meal",
+   "ipa": "/miːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "прийом їжі"
+   },
+   "example": "After meals.",
+   "exampleTranslation": {
+    "uk": "Після їжі."
+   }
+  },
+  {
+   "id": "before_bed",
+   "text": "before bed",
+   "ipa": "/bɪˌfɔː ˈbed/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "перед сном"
+   },
+   "example": "Take it before bed.",
+   "exampleTranslation": {
+    "uk": "Приймайте це перед сном."
+   }
+  },
+  {
+   "id": "with_water",
+   "text": "with water",
+   "ipa": "/wɪð ˈwɔːtə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "запиваючи водою"
+   },
+   "example": "Take it with water.",
+   "exampleTranslation": {
+    "uk": "Запивайте водою."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Are you allergic to anything?",
+   "prompt": {
+    "uk": "Повторимо. У вас алергія на пеніцилін. Що відповісти?"
+   },
+   "options": [
+    "Yes, I'm allergic to penicillin.",
+    "Yes, I'm allergic for penicillin.",
+    "Yes, I have penicillin."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm allergic to penicillin."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "take a tablet",
+     "right": {
+      "uk": "прийняти таблетку"
+     }
+    },
+    {
+     "left": "meal",
+     "right": {
+      "uk": "прийом їжі"
+     }
+    },
+    {
+     "left": "before bed",
+     "right": {
+      "uk": "перед сном"
+     }
+    },
+    {
+     "left": "with water",
+     "right": {
+      "uk": "запиваючи водою"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Як приймати ліки."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Take two tablets three times a day.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки таблеток на день виходить?"
+   },
+   "options": {
+    "uk": [
+     "Шість",
+     "П'ять",
+     "Три"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Two tablets × three times = six."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Take one tablet after meals.",
+   "prompt": {
+    "uk": "Прослухайте. Коли приймати?"
+   },
+   "options": {
+    "uk": [
+     "Після їжі",
+     "Перед їжею",
+     "Перед сном"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "After meals."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Take the syrup before bed for five days.",
+   "prompt": {
+    "uk": "Прослухайте. Як приймати сироп?"
+   },
+   "options": {
+    "uk": [
+     "Перед сном, п'ять днів",
+     "Після їжі, п'ять днів",
+     "Перед сном, п'ять разів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Before bed, for five days."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Take one tablet twice ___ day.",
+   "options": [
+    "a",
+    "the",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a day."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Take it ___ five days.",
+   "options": [
+    "for",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "For five days — протягом п'яти днів."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Take the tablets ___ meals, not before.",
+   "options": [
+    "after",
+    "until",
+    "during"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "After meals."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "Take two tablets with water.",
+    "Eat two tablets with water.",
+    "Drink two tablets with water."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про ліки — take."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає once a day before bed?"
+   },
+   "options": {
+    "uk": [
+     "Раз на день перед сном",
+     "Двічі на день після сну",
+     "Раз на день після їжі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Once a day, before bed."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Приймайте одну таблетку після їжі."
+   },
+   "words": [
+    "Take",
+    "one",
+    "tablet",
+    "after",
+    "meals",
+    "before",
+    "a"
+   ],
+   "answer": [
+    "Take",
+    "one",
+    "tablet",
+    "after",
+    "meals"
+   ],
+   "explanation": {
+    "uk": "Take one tablet after meals."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How often do I take it?",
+   "prompt": {
+    "uk": "Аптекар каже: двічі на день. Що він відповість?"
+   },
+   "options": [
+    "Twice a day.",
+    "Two a day times.",
+    "Second day."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a day."
+   }
+  }
+ ]
+}

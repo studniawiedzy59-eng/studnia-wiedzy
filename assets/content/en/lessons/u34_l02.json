@@ -1,0 +1,305 @@
+{
+ "id": "u34_l02",
+ "unit": "u34",
+ "cefr": "A0",
+ "title": {
+  "uk": "Алло, це Анна"
+ },
+ "goal": {
+  "uk": "Почати телефонну розмову й попросити потрібну людину."
+ },
+ "rule": {
+  "uk": "По телефону кажуть не I'm Anna, а This is Anna. Попросити когось: Can I speak to Tom, please? У відповідь можуть спитати: Who's calling? — «Хто телефонує?». Just a moment і Hold on означають «зачекайте хвилинку»."
+ },
+ "words": [
+  {
+   "id": "speak_to",
+   "text": "speak to",
+   "ipa": "/ˈspiːk tuː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "поговорити з"
+   },
+   "example": "Can I speak to Tom?",
+   "exampleTranslation": {
+    "uk": "Можна поговорити з Томом?"
+   }
+  },
+  {
+   "id": "whos_calling?",
+   "text": "Who's calling?",
+   "ipa": "/ˌhuːz ˈkɔːlɪŋ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "Хто телефонує?"
+   },
+   "example": "Who's calling, please?",
+   "exampleTranslation": {
+    "uk": "Хто телефонує?"
+   }
+  },
+  {
+   "id": "just_a_moment",
+   "text": "just a moment",
+   "ipa": "/ˌdʒʌst ə ˈməʊmənt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "хвилинку"
+   },
+   "example": "Just a moment, please.",
+   "exampleTranslation": {
+    "uk": "Хвилинку, будь ласка."
+   }
+  },
+  {
+   "id": "hold_on",
+   "text": "hold on",
+   "ipa": "/ˌhəʊld ˈɒn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "зачекати на лінії"
+   },
+   "example": "Hold on, please.",
+   "exampleTranslation": {
+    "uk": "Зачекайте, будь ласка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "___ me a message later.",
+   "options": [
+    "Send",
+    "Speak",
+    "Low"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Send me a message."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "speak to",
+     "right": {
+      "uk": "поговорити з"
+     }
+    },
+    {
+     "left": "Who's calling?",
+     "right": {
+      "uk": "Хто телефонує?"
+     }
+    },
+    {
+     "left": "just a moment",
+     "right": {
+      "uk": "хвилинку"
+     }
+    },
+    {
+     "left": "hold on",
+     "right": {
+      "uk": "зачекати на лінії"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Чотири фрази телефонної розмови."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Hello, this is Anna. Can I speak to Tom, please?",
+   "prompt": {
+    "uk": "Прослухайте. Хто телефонує й кого просить?"
+   },
+   "options": {
+    "uk": [
+     "Анна просить Тома",
+     "Том просить Анну",
+     "Анна шукає телефон"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "This is Anna. Speak to Tom."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Who's calling, please?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Хто телефонує",
+     "Кого вам покликати",
+     "Куди ви телефонуєте"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Who's calling?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Just a moment, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що вам кажуть?"
+   },
+   "options": {
+    "uk": [
+     "Зачекати хвилинку",
+     "Передзвонити пізніше",
+     "Говорити голосніше"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Just a moment."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви телефонуєте. Як назватися?"
+   },
+   "options": [
+    "This is Olena.",
+    "I'm Olena here.",
+    "Here Olena is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "По телефону — This is…"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I speak ___ the manager, please?",
+   "options": [
+    "to",
+    "at",
+    "for"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Speak to."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Hello, ___ is Mark from the bank.",
+   "options": [
+    "this",
+    "I",
+    "here"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This is Mark."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ on, please. He's here.",
+   "options": [
+    "Hold",
+    "Stay",
+    "Speak"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hold on."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можна поговорити з Анною, будь ласка?"
+   },
+   "words": [
+    "Can",
+    "I",
+    "speak",
+    "to",
+    "Anna",
+    "please",
+    "with"
+   ],
+   "answer": [
+    "Can",
+    "I",
+    "speak",
+    "to",
+    "Anna",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Can I speak to Anna, please?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Хвилинку, будь ласка."
+   },
+   "answers": [
+    "Just a moment, please",
+    "One moment, please"
+   ],
+   "explanation": {
+    "uk": "Just a moment, please."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Who's calling, please?",
+   "prompt": {
+    "uk": "Вас звати Сем, ви з готелю. Що відповісти?"
+   },
+   "options": [
+    "This is Sam from the hotel.",
+    "I'm calling Sam hotel.",
+    "Here is Sam of hotel."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This is Sam from the hotel."
+   }
+  }
+ ]
+}

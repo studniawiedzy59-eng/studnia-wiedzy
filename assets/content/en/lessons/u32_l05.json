@@ -1,0 +1,346 @@
+{
+ "id": "u32_l05",
+ "unit": "u32",
+ "cefr": "A0",
+ "title": {
+  "uk": "Одужуйте!"
+ },
+ "goal": {
+  "uk": "Дати просту пораду хворому й викликати допомогу."
+ },
+ "rule": {
+  "uk": "Поради дають наказовою формою: Rest — «відпочиньте». Stay in bed. Drink a lot of water. See a doctor — «зверніться до лікаря». Побажання: Get well soon! — «Одужуйте швидше!». Take care — «бережіть себе». У біді: Call an ambulance! — «Викличте швидку!»"
+ },
+ "words": [
+  {
+   "id": "rest",
+   "text": "rest",
+   "ipa": "/rest/",
+   "pos": "verb",
+   "translation": {
+    "uk": "відпочивати, лежати"
+   },
+   "example": "You need to rest.",
+   "exampleTranslation": {
+    "uk": "Вам треба відпочити."
+   }
+  },
+  {
+   "id": "see_a_doctor",
+   "text": "see a doctor",
+   "ipa": "/ˌsiː ə ˈdɒktə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "звернутися до лікаря"
+   },
+   "example": "See a doctor today.",
+   "exampleTranslation": {
+    "uk": "Зверніться до лікаря сьогодні."
+   }
+  },
+  {
+   "id": "get_well_soon",
+   "text": "get well soon",
+   "ipa": "/ˌɡet wel ˈsuːn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "одужуйте швидше"
+   },
+   "example": "Get well soon!",
+   "exampleTranslation": {
+    "uk": "Одужуйте швидше!"
+   }
+  },
+  {
+   "id": "take_care",
+   "text": "take care",
+   "ipa": "/ˌteɪk ˈkeə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "бережіть себе"
+   },
+   "example": "Take care!",
+   "exampleTranslation": {
+    "uk": "Бережіть себе!"
+   }
+  },
+  {
+   "id": "ambulance",
+   "text": "ambulance",
+   "ipa": "/ˈæmbjələns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "швидка допомога"
+   },
+   "example": "Call an ambulance!",
+   "exampleTranslation": {
+    "uk": "Викличте швидку!"
+   }
+  },
+  {
+   "id": "emergency",
+   "text": "emergency",
+   "ipa": "/ɪˈmɜːdʒənsi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "надзвичайна ситуація"
+   },
+   "example": "It's an emergency.",
+   "exampleTranslation": {
+    "uk": "Це терміново."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ sick. I can't go to work.",
+   "options": [
+    "feel",
+    "hurt",
+    "rest"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I feel sick."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "rest",
+     "right": {
+      "uk": "відпочивати"
+     }
+    },
+    {
+     "left": "see a doctor",
+     "right": {
+      "uk": "звернутися до лікаря"
+     }
+    },
+    {
+     "left": "get well soon",
+     "right": {
+      "uk": "одужуйте швидше"
+     }
+    },
+    {
+     "left": "take care",
+     "right": {
+      "uk": "бережіть себе"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Що кажуть хворому."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "ambulance",
+     "right": {
+      "uk": "швидка допомога"
+     }
+    },
+    {
+     "left": "emergency",
+     "right": {
+      "uk": "надзвичайна ситуація"
+     }
+    },
+    {
+     "left": "hospital",
+     "right": {
+      "uk": "лікарня"
+     }
+    },
+    {
+     "left": "nurse",
+     "right": {
+      "uk": "медсестра"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для термінових випадків."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Stay in bed and drink a lot of water.",
+   "prompt": {
+    "uk": "Прослухайте. Що радять?"
+   },
+   "options": {
+    "uk": [
+     "Лежати й багато пити",
+     "Іти на роботу",
+     "Викликати швидку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Stay in bed, drink a lot of water."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Call an ambulance! It's an emergency!",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Викликати швидку",
+     "Піти до аптеки",
+     "Зачекати до завтра"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Call an ambulance."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "Get well soon!",
+   "prompt": {
+    "uk": "Прослухайте. Що вам бажають?"
+   },
+   "options": {
+    "uk": [
+     "Швидше одужати",
+     "Гарного дня",
+     "Гарної дороги"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Get well soon."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You have a temperature. ___ a doctor.",
+   "options": [
+    "See",
+    "Rest",
+    "Feel"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "See a doctor."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Call ___ ambulance!",
+   "options": [
+    "an",
+    "a",
+    "some"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ambulance — з голосного: an."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Друг захворів. Що побажати?"
+   },
+   "options": [
+    "Get well soon!",
+    "Have a nice trip!",
+    "Happy birthday!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Get well soon!"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вам треба відпочити."
+   },
+   "words": [
+    "You",
+    "need",
+    "to",
+    "rest",
+    "feel",
+    "are"
+   ],
+   "answer": [
+    "You",
+    "need",
+    "to",
+    "rest"
+   ],
+   "explanation": {
+    "uk": "You need to rest."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Бережіть себе!"
+   },
+   "answers": [
+    "Take care"
+   ],
+   "explanation": {
+    "uk": "Take care!"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "I have a cold and a headache.",
+   "prompt": {
+    "uk": "Друг каже це. Що порадити?"
+   },
+   "options": [
+    "Stay in bed and rest. Get well soon!",
+    "Go to work and rest. Get well soon!",
+    "Call a taxi and feel."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Stay in bed and rest. Get well soon!"
+   }
+  }
+ ]
+}

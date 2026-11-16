@@ -1,0 +1,223 @@
+{
+ "id": "u32_l06",
+ "unit": "u32",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: тіло й самопочуття"
+ },
+ "goal": {
+  "uk": "Сказати, що болить, як ви почуваєтеся, і дати пораду."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: частини тіла, feet і teeth, My back hurts, I have a headache, I feel sick, better і worse, Get well soon."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My feet ___.",
+   "options": [
+    "hurt",
+    "hurts",
+    "hurting"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Feet — множина: hurt."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене болить коліно."
+   },
+   "words": [
+    "My",
+    "knee",
+    "hurts",
+    "hurt",
+    "is"
+   ],
+   "answer": [
+    "My",
+    "knee",
+    "hurts"
+   ],
+   "explanation": {
+    "uk": "My knee hurts."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «два зуби»?"
+   },
+   "options": [
+    "two teeth",
+    "two tooths",
+    "two teeths"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Teeth."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене болить горло."
+   },
+   "answers": [
+    "I have a sore throat",
+    "My throat hurts"
+   ],
+   "explanation": {
+    "uk": "I have a sore throat."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I have a stomach ache and I feel dizzy.",
+   "prompt": {
+    "uk": "Прослухайте. Що з людиною?"
+   },
+   "options": {
+    "uk": [
+     "Болить живіт і паморочиться голова",
+     "Болить голова й горло",
+     "Болить живіт і зуб"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A stomach ache, dizzy."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How do you ___ today? — Much better, thanks.",
+   "options": [
+    "feel",
+    "hurt",
+    "have"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How do you feel?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Чим ви бачите?"
+   },
+   "options": {
+    "uk": [
+     "eyes",
+     "ears",
+     "fingers"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Eyes — очі."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мені гірше."
+   },
+   "answers": [
+    "I feel worse"
+   ],
+   "explanation": {
+    "uk": "I feel worse."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "He can't walk. His leg hurts a lot. Call an ambulance!",
+   "prompt": {
+    "uk": "Прослухайте. Що сталося?"
+   },
+   "options": {
+    "uk": [
+     "У нього сильно болить нога",
+     "У нього болить рука",
+     "Він утомився"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "His leg hurts a lot."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "She has a headache.",
+    "She has headache a.",
+    "She is a headache."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She has a headache."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What's the matter?",
+   "prompt": {
+    "uk": "У вас сильно болить спина. Що відповісти?"
+   },
+   "options": [
+    "My back hurts a lot.",
+    "My back hurt a lot is.",
+    "I'm back pain."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My back hurts a lot."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "I feel sick today.",
+   "prompt": {
+    "uk": "Колега каже це. Що відповісти?"
+   },
+   "options": [
+    "Go home and rest. Take care!",
+    "Happy birthday! Take care!",
+    "What a lovely day!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go home and rest. Take care!"
+   }
+  }
+ ]
+}

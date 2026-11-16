@@ -1,0 +1,339 @@
+{
+ "id": "u34_l01",
+ "unit": "u34",
+ "cefr": "A0",
+ "title": {
+  "uk": "Телефон"
+ },
+ "goal": {
+  "uk": "Говорити про дзвінки й повідомлення."
+ },
+ "rule": {
+  "uk": "A message — повідомлення. A text — коротке повідомлення на телефон; це ще й дієслово: Text me — «напишіть мені». Send — надсилати. Answer ви знаєте як «відповідь»; answer the phone — «взяти слухавку». My battery is low — «батарея сідає»."
+ },
+ "words": [
+  {
+   "id": "message",
+   "text": "message",
+   "ipa": "/ˈmesɪdʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "повідомлення"
+   },
+   "example": "I have a message.",
+   "exampleTranslation": {
+    "uk": "У мене є повідомлення."
+   }
+  },
+  {
+   "id": "text",
+   "text": "text",
+   "ipa": "/tekst/",
+   "pos": "verb",
+   "translation": {
+    "uk": "писати повідомлення"
+   },
+   "example": "Text me later.",
+   "exampleTranslation": {
+    "uk": "Напишіть мені пізніше."
+   }
+  },
+  {
+   "id": "send",
+   "text": "send",
+   "ipa": "/send/",
+   "pos": "verb",
+   "translation": {
+    "uk": "надсилати"
+   },
+   "example": "Send me a message.",
+   "exampleTranslation": {
+    "uk": "Надішліть мені повідомлення."
+   }
+  },
+  {
+   "id": "answer",
+   "text": "answer",
+   "ipa": "/ˈɑːnsə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "відповідати"
+   },
+   "example": "He doesn't answer the phone.",
+   "exampleTranslation": {
+    "uk": "Він не бере слухавку."
+   }
+  },
+  {
+   "id": "battery",
+   "text": "battery",
+   "ipa": "/ˈbætri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "батарея"
+   },
+   "example": "My battery is low.",
+   "exampleTranslation": {
+    "uk": "У мене сідає батарея."
+   }
+  },
+  {
+   "id": "low",
+   "text": "low",
+   "ipa": "/ləʊ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "низький"
+   },
+   "example": "Low battery.",
+   "exampleTranslation": {
+    "uk": "Низький заряд."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How often do I take the tablets?",
+   "prompt": {
+    "uk": "Повторимо. Двічі на день. Що відповість аптекар?"
+   },
+   "options": [
+    "Twice a day.",
+    "Two a day.",
+    "Second day."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a day."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "message",
+     "right": {
+      "uk": "повідомлення"
+     }
+    },
+    {
+     "left": "text",
+     "right": {
+      "uk": "писати повідомлення"
+     }
+    },
+    {
+     "left": "send",
+     "right": {
+      "uk": "надсилати"
+     }
+    },
+    {
+     "left": "answer",
+     "right": {
+      "uk": "відповідати"
+     }
+    },
+    {
+     "left": "battery",
+     "right": {
+      "uk": "батарея"
+     }
+    },
+    {
+     "left": "low",
+     "right": {
+      "uk": "низький"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про телефон."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Send me a message.",
+   "prompt": {
+    "uk": "Прослухайте. Про що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Надіслати їй повідомлення",
+     "Зателефонувати їй",
+     "Дати їй телефон"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Send me a message."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She doesn't answer the phone.",
+   "prompt": {
+    "uk": "Прослухайте. Що відбувається?"
+   },
+   "options": {
+    "uk": [
+     "Вона не бере слухавку",
+     "У неї немає телефона",
+     "Вона телефонує"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Doesn't answer the phone."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My battery is low. Do you have a charger?",
+   "prompt": {
+    "uk": "Прослухайте. Що потрібно людині?"
+   },
+   "options": {
+    "uk": [
+     "Зарядка",
+     "Новий телефон",
+     "Номер телефону"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A charger."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ me a message, please.",
+   "options": [
+    "Send",
+    "Answer",
+    "Speak"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Send me a message."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He doesn't ___ the phone.",
+   "options": [
+    "answer",
+    "send",
+    "text"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Answer the phone."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My battery is ___. I need a charger.",
+   "options": [
+    "low",
+    "slow",
+    "late"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Low battery."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Напишіть мені»?"
+   },
+   "options": [
+    "Text me.",
+    "Text to me it.",
+    "Message me to."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Text me."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Надішліть мені повідомлення."
+   },
+   "words": [
+    "Send",
+    "me",
+    "a",
+    "message",
+    "text",
+    "I"
+   ],
+   "answer": [
+    "Send",
+    "me",
+    "a",
+    "message"
+   ],
+   "explanation": {
+    "uk": "Send me a message."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене сідає батарея."
+   },
+   "answers": [
+    "My battery is low"
+   ],
+   "explanation": {
+    "uk": "My battery is low."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Can you call me tomorrow?",
+   "prompt": {
+    "uk": "Ви згодні, але краще напишете. Що відповісти?"
+   },
+   "options": [
+    "Sure. I can text you.",
+    "Sure. I can text to you it.",
+    "Sure. I answer battery."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sure. I can text you."
+   }
+  }
+ ]
+}

@@ -1,0 +1,341 @@
+{
+ "id": "u33_l01",
+ "unit": "u33",
+ "cefr": "A0",
+ "title": {
+  "uk": "Ліки"
+ },
+ "goal": {
+  "uk": "Назвати найпростіші ліки й попросити щось від болю."
+ },
+ "rule": {
+  "uk": "В аптеці питають так: Do you have anything for a headache? — «У вас є щось від головного болю?». For тут означає «від». Tablets — таблетки, painkillers — знеболювальне, a plaster — пластир, cream — крем, мазь."
+ },
+ "words": [
+  {
+   "id": "medicine",
+   "text": "medicine",
+   "ipa": "/ˈmedsn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ліки"
+   },
+   "example": "I need some medicine.",
+   "exampleTranslation": {
+    "uk": "Мені потрібні ліки."
+   }
+  },
+  {
+   "id": "tablets",
+   "text": "tablets",
+   "ipa": "/ˈtæbləts/",
+   "pos": "noun",
+   "translation": {
+    "uk": "таблетки"
+   },
+   "example": "Two tablets.",
+   "exampleTranslation": {
+    "uk": "Дві таблетки."
+   }
+  },
+  {
+   "id": "painkillers",
+   "text": "painkillers",
+   "ipa": "/ˈpeɪnkɪləz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "знеболювальне"
+   },
+   "example": "Do you have painkillers?",
+   "exampleTranslation": {
+    "uk": "У вас є знеболювальне?"
+   }
+  },
+  {
+   "id": "plaster",
+   "text": "plaster",
+   "ipa": "/ˈplɑːstə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пластир"
+   },
+   "example": "I need a plaster.",
+   "exampleTranslation": {
+    "uk": "Мені потрібен пластир."
+   }
+  },
+  {
+   "id": "cream",
+   "text": "cream",
+   "ipa": "/kriːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "крем, мазь"
+   },
+   "example": "A cream for my hands.",
+   "exampleTranslation": {
+    "uk": "Крем для рук."
+   }
+  },
+  {
+   "id": "anything_for",
+   "text": "anything for",
+   "ipa": "/ˈeniθɪŋ fɔː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "щось від"
+   },
+   "example": "Do you have anything for a cough?",
+   "exampleTranslation": {
+    "uk": "У вас є щось від кашлю?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "I feel sick today.",
+   "prompt": {
+    "uk": "Повторимо. Колега захворів. Що порадити?"
+   },
+   "options": [
+    "Go home and rest.",
+    "Go to work and rest.",
+    "Happy birthday!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go home and rest."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "medicine",
+     "right": {
+      "uk": "ліки"
+     }
+    },
+    {
+     "left": "tablets",
+     "right": {
+      "uk": "таблетки"
+     }
+    },
+    {
+     "left": "painkillers",
+     "right": {
+      "uk": "знеболювальне"
+     }
+    },
+    {
+     "left": "plaster",
+     "right": {
+      "uk": "пластир"
+     }
+    },
+    {
+     "left": "cream",
+     "right": {
+      "uk": "крем"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Pain + killers = «убивці болю»."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Do you have anything for a headache?",
+   "prompt": {
+    "uk": "Прослухайте. Що шукає покупець?"
+   },
+   "options": {
+    "uk": [
+     "Щось від головного болю",
+     "Щось від кашлю",
+     "Щось від болю в животі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Anything for a headache."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I need a plaster for my finger.",
+   "prompt": {
+    "uk": "Прослухайте. Що потрібно людині?"
+   },
+   "options": {
+    "uk": [
+     "Пластир на палець",
+     "Крем для рук",
+     "Таблетки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A plaster for my finger."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "These tablets are for a sore throat.",
+   "prompt": {
+    "uk": "Прослухайте. Від чого таблетки?"
+   },
+   "options": {
+    "uk": [
+     "Від болю в горлі",
+     "Від головного болю",
+     "Від кашлю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "For a sore throat."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Do you have anything ___ a cold?",
+   "options": [
+    "for",
+    "to",
+    "of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Anything for — щось від."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My head hurts. I need some ___.",
+   "options": [
+    "painkillers",
+    "plasters",
+    "cream"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Від болю — painkillers."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Do you have ___ for toothache?",
+   "options": [
+    "anything",
+    "any",
+    "a"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У питанні — anything."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що клеять на порізаний палець?"
+   },
+   "options": {
+    "uk": [
+     "a plaster",
+     "a tablet",
+     "a cream"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A plaster — пластир."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У вас є щось від кашлю?"
+   },
+   "words": [
+    "Do",
+    "you",
+    "have",
+    "anything",
+    "for",
+    "a",
+    "cough",
+    "some"
+   ],
+   "answer": [
+    "Do",
+    "you",
+    "have",
+    "anything",
+    "for",
+    "a",
+    "cough"
+   ],
+   "explanation": {
+    "uk": "Do you have anything for a cough?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мені потрібне знеболювальне."
+   },
+   "answers": [
+    "I need painkillers",
+    "I need some painkillers"
+   ],
+   "explanation": {
+    "uk": "I need painkillers."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Can I help you?",
+   "prompt": {
+    "uk": "У вас болить живіт. Що спитати в аптекаря?"
+   },
+   "options": [
+    "Do you have anything for a stomach ache?",
+    "Do you have something a stomach ache for?",
+    "I'm anything for stomach."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Do you have anything for a stomach ache?"
+   }
+  }
+ ]
+}
