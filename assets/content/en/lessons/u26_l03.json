@@ -1,0 +1,342 @@
+{
+ "id": "u26_l03",
+ "unit": "u26",
+ "cefr": "A0",
+ "title": {
+  "uk": "Контроль безпеки"
+ },
+ "goal": {
+  "uk": "Зрозуміти вказівки на контролі безпеки."
+ },
+ "rule": {
+  "uk": "На контролі кажуть короткими наказами: Put your bag here — «покладіть сумку сюди». Take off your jacket — «зніміть куртку». Put — класти, take off — знімати (про одяг). Liquids — рідини. Belt — ремінь. Tray — лоток."
+ },
+ "words": [
+  {
+   "id": "security",
+   "text": "security",
+   "ipa": "/sɪˈkjʊərəti/",
+   "pos": "noun",
+   "translation": {
+    "uk": "контроль безпеки"
+   },
+   "example": "Go to security.",
+   "exampleTranslation": {
+    "uk": "Ідіть на контроль безпеки."
+   }
+  },
+  {
+   "id": "put",
+   "text": "put",
+   "ipa": "/pʊt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "класти"
+   },
+   "example": "Put your bag here.",
+   "exampleTranslation": {
+    "uk": "Покладіть сумку сюди."
+   }
+  },
+  {
+   "id": "take_off",
+   "text": "take off",
+   "ipa": "/ˌteɪk ˈɒf/",
+   "pos": "verb",
+   "translation": {
+    "uk": "знімати (одяг)"
+   },
+   "example": "Take off your jacket.",
+   "exampleTranslation": {
+    "uk": "Зніміть куртку."
+   }
+  },
+  {
+   "id": "liquids",
+   "text": "liquids",
+   "ipa": "/ˈlɪkwɪdz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рідини"
+   },
+   "example": "Do you have any liquids?",
+   "exampleTranslation": {
+    "uk": "У вас є рідини?"
+   }
+  },
+  {
+   "id": "belt",
+   "text": "belt",
+   "ipa": "/belt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ремінь"
+   },
+   "example": "Take off your belt.",
+   "exampleTranslation": {
+    "uk": "Зніміть ремінь."
+   }
+  },
+  {
+   "id": "tray",
+   "text": "tray",
+   "ipa": "/treɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "лоток"
+   },
+   "example": "Put it in the tray.",
+   "exampleTranslation": {
+    "uk": "Покладіть це в лоток."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you have any luggage?",
+   "prompt": {
+    "uk": "Повторимо. У вас лише ручна поклажа. Що відповісти?"
+   },
+   "options": [
+    "Only hand luggage.",
+    "Only luggage hand heavy.",
+    "No, I check in."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Only hand luggage."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "security",
+     "right": {
+      "uk": "контроль безпеки"
+     }
+    },
+    {
+     "left": "put",
+     "right": {
+      "uk": "класти"
+     }
+    },
+    {
+     "left": "take off",
+     "right": {
+      "uk": "знімати"
+     }
+    },
+    {
+     "left": "liquids",
+     "right": {
+      "uk": "рідини"
+     }
+    },
+    {
+     "left": "belt",
+     "right": {
+      "uk": "ремінь"
+     }
+    },
+    {
+     "left": "tray",
+     "right": {
+      "uk": "лоток"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова з контролю безпеки."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Put your laptop in the tray, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Покласти ноутбук у лоток",
+     "Зняти куртку",
+     "Показати паспорт"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Put … in the tray."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Take off your shoes, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зняти?"
+   },
+   "options": {
+    "uk": [
+     "Взуття",
+     "Ремінь",
+     "Куртку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Take off your shoes."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Do you have any liquids in your bag?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Чи є в сумці рідини",
+     "Чи є у вас сумка",
+     "Чи це ваша сумка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Any liquids — рідини."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ your phone and keys in the tray.",
+   "options": [
+    "Put",
+    "Take off",
+    "Check"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Put — покладіть."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Take ___ your belt and jacket, please.",
+   "options": [
+    "off",
+    "on",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Take off — зніміть."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Do you have any ___? — Yes, a bottle of water.",
+   "options": [
+    "liquids",
+    "belts",
+    "trays"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вода — це liquid."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає Take off your jacket?"
+   },
+   "options": {
+    "uk": [
+     "Зніміть куртку",
+     "Візьміть куртку",
+     "Покладіть куртку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Take off — знімати."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Покладіть сумку сюди."
+   },
+   "words": [
+    "Put",
+    "your",
+    "bag",
+    "here",
+    "take",
+    "off"
+   ],
+   "answer": [
+    "Put",
+    "your",
+    "bag",
+    "here"
+   ],
+   "explanation": {
+    "uk": "Put your bag here."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Зніміть ремінь, будь ласка."
+   },
+   "answers": [
+    "Take off your belt, please",
+    "Please take off your belt"
+   ],
+   "explanation": {
+    "uk": "Take off your belt, please."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you have a laptop in your bag?",
+   "prompt": {
+    "uk": "Ноутбук у вас є. Що відповісти?"
+   },
+   "options": [
+    "Yes, I do.",
+    "Yes, I am.",
+    "Yes, I put."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I do."
+   }
+  }
+ ]
+}

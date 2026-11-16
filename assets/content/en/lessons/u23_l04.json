@@ -1,0 +1,317 @@
+{
+ "id": "u23_l04",
+ "unit": "u23",
+ "cefr": "A0",
+ "title": {
+  "uk": "Це п'ять хвилин пішки"
+ },
+ "goal": {
+  "uk": "Зрозуміти, як далеко йти, і вказівку з орієнтирами."
+ },
+ "rule": {
+  "uk": "Відстань: about two hundred metres — приблизно двісті метрів. Час: It's a five-minute walk — «це п'ять хвилин пішки». Until — «аж до»: Go straight on until the bridge. After that — «після цього». You can't miss it — «ви не проминете»."
+ },
+ "words": [
+  {
+   "id": "metre",
+   "text": "metre",
+   "ipa": "/ˈmiːtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "метр"
+   },
+   "example": "About a hundred metres.",
+   "exampleTranslation": {
+    "uk": "Приблизно сто метрів."
+   }
+  },
+  {
+   "id": "a_five-minute_walk",
+   "text": "a five-minute walk",
+   "ipa": "/ə ˌfaɪv mɪnɪt ˈwɔːk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "п'ять хвилин пішки"
+   },
+   "example": "It's a five-minute walk.",
+   "exampleTranslation": {
+    "uk": "Це п'ять хвилин пішки."
+   }
+  },
+  {
+   "id": "after_that",
+   "text": "after that",
+   "ipa": "/ˌɑːftə ˈðæt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "після цього"
+   },
+   "example": "After that, turn left.",
+   "exampleTranslation": {
+    "uk": "Після цього поверніть ліворуч."
+   }
+  },
+  {
+   "id": "you_cant_miss_it",
+   "text": "you can't miss it",
+   "ipa": "/juː ˌkɑːnt ˈmɪs ɪt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "ви не проминете"
+   },
+   "example": "It's a big building. You can't miss it.",
+   "exampleTranslation": {
+    "uk": "Це велика будівля. Ви не проминете."
+   }
+  },
+  {
+   "id": "building",
+   "text": "building",
+   "ipa": "/ˈbɪldɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "будівля"
+   },
+   "example": "A big white building.",
+   "exampleTranslation": {
+    "uk": "Велика біла будівля."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "The bank is ___ the left.",
+   "options": [
+    "on",
+    "at",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On the left."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "metre",
+     "right": {
+      "uk": "метр"
+     }
+    },
+    {
+     "left": "building",
+     "right": {
+      "uk": "будівля"
+     }
+    },
+    {
+     "left": "after that",
+     "right": {
+      "uk": "після цього"
+     }
+    },
+    {
+     "left": "you can't miss it",
+     "right": {
+      "uk": "ви не проминете"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для точнішої вказівки."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It's about three hundred metres.",
+   "prompt": {
+    "uk": "Прослухайте. Як далеко?"
+   },
+   "options": {
+    "uk": [
+     "Приблизно 300 метрів",
+     "Приблизно 3 кілометри",
+     "Рівно 30 метрів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Three hundred metres."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's a ten-minute walk.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки йти?"
+   },
+   "options": {
+    "uk": [
+     "10 хвилин пішки",
+     "10 хвилин машиною",
+     "10 кілометрів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A ten-minute walk."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Go straight on until the bridge. After that, turn right.",
+   "prompt": {
+    "uk": "Прослухайте. Де повернути праворуч?"
+   },
+   "options": {
+    "uk": [
+     "Після мосту",
+     "Перед мостом",
+     "Одразу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Until the bridge, after that turn right."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Go straight on ___ the traffic lights.",
+   "options": [
+    "until",
+    "after that",
+    "metre"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Until — аж до."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's a big red ___. You can't miss it.",
+   "options": [
+    "building",
+    "metre",
+    "walk"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A big red building."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Це п'ять хвилин пішки»?"
+   },
+   "options": [
+    "It's a five-minute walk.",
+    "It's a five-minutes walk.",
+    "It's five minute walking."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A five-minute walk — minute без -s."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає You can't miss it?"
+   },
+   "options": {
+    "uk": [
+     "Ви обов'язково це побачите",
+     "Ви не можете туди йти",
+     "Ви це пропустили"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "You can't miss it — ви не проминете."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Після цього поверніть ліворуч."
+   },
+   "words": [
+    "After",
+    "that",
+    "turn",
+    "left",
+    "until",
+    "right"
+   ],
+   "answer": [
+    "After",
+    "that",
+    "turn",
+    "left"
+   ],
+   "explanation": {
+    "uk": "After that, turn left."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це приблизно сто метрів."
+   },
+   "answers": [
+    "It's about a hundred metres",
+    "It's about one hundred metres",
+    "It is about a hundred metres"
+   ],
+   "explanation": {
+    "uk": "It's about a hundred metres."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is the museum far?",
+   "prompt": {
+    "uk": "Музей близько, п'ять хвилин пішки. Що відповісти?"
+   },
+   "options": [
+    "No, it's a five-minute walk.",
+    "No, it's far five minutes.",
+    "Yes, it's a five-minute walk near."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, it's a five-minute walk."
+   }
+  }
+ ]
+}

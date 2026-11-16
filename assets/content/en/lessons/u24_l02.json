@@ -1,0 +1,320 @@
+{
+ "id": "u24_l02",
+ "unit": "u24",
+ "cefr": "A0",
+ "title": {
+  "uk": "Квиток в один бік"
+ },
+ "goal": {
+  "uk": "Купити квиток на автобус чи поїзд."
+ },
+ "rule": {
+  "uk": "У Британії квиток в один бік — a single, туди й назад — a return. Ви знаєте single як «неодружений» і return як «повертати»; у транспорті це назви квитків. A single to Oxford, please. Fare — плата за проїзд."
+ },
+ "words": [
+  {
+   "id": "a_single",
+   "text": "a single",
+   "ipa": "/ə ˈsɪŋɡl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "квиток в один бік"
+   },
+   "example": "A single to Oxford, please.",
+   "exampleTranslation": {
+    "uk": "Квиток до Оксфорда в один бік, будь ласка."
+   }
+  },
+  {
+   "id": "a_return",
+   "text": "a return",
+   "ipa": "/ə rɪˈtɜːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "квиток туди й назад"
+   },
+   "example": "A return, please.",
+   "exampleTranslation": {
+    "uk": "Туди й назад, будь ласка."
+   }
+  },
+  {
+   "id": "fare",
+   "text": "fare",
+   "ipa": "/feə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "плата за проїзд"
+   },
+   "example": "How much is the fare?",
+   "exampleTranslation": {
+    "uk": "Скільки коштує проїзд?"
+   }
+  },
+  {
+   "id": "ticket_machine",
+   "text": "ticket machine",
+   "ipa": "/ˈtɪkɪt məˌʃiːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "автомат із квитками"
+   },
+   "example": "There is a ticket machine.",
+   "exampleTranslation": {
+    "uk": "Там є автомат із квитками."
+   }
+  },
+  {
+   "id": "day_ticket",
+   "text": "day ticket",
+   "ipa": "/ˈdeɪ ˌtɪkɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "квиток на день"
+   },
+   "example": "A day ticket, please.",
+   "exampleTranslation": {
+    "uk": "Квиток на день, будь ласка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I go to work ___ tram.",
+   "options": [
+    "by",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "By tram."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "a single",
+     "right": {
+      "uk": "квиток в один бік"
+     }
+    },
+    {
+     "left": "a return",
+     "right": {
+      "uk": "квиток туди й назад"
+     }
+    },
+    {
+     "left": "fare",
+     "right": {
+      "uk": "плата за проїзд"
+     }
+    },
+    {
+     "left": "ticket machine",
+     "right": {
+      "uk": "автомат із квитками"
+     }
+    },
+    {
+     "left": "day ticket",
+     "right": {
+      "uk": "квиток на день"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Види квитків."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "A return to London, please.",
+   "prompt": {
+    "uk": "Прослухайте. Який квиток просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Туди й назад",
+     "В один бік",
+     "На день"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A return — туди й назад."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Single or return?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає касир?"
+   },
+   "options": {
+    "uk": [
+     "В один бік чи туди й назад",
+     "Один квиток чи два",
+     "Карткою чи готівкою"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Single or return?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви їдете й сьогодні ж повертаєтеся. Який квиток потрібен?"
+   },
+   "options": {
+    "uk": [
+     "a return",
+     "a single",
+     "a fare"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A return."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ to Oxford, please. Not a return.",
+   "options": [
+    "single",
+    "return",
+    "fare"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "В один бік — a single."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How much is the ___ to the airport?",
+   "options": [
+    "fare",
+    "single",
+    "machine"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The fare — плата за проїзд."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як попросити квиток на день?"
+   },
+   "options": [
+    "A day ticket, please.",
+    "A ticket day, please.",
+    "Day a ticket, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A day ticket, please."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Два квитки до центру, будь ласка»?"
+   },
+   "options": [
+    "Two tickets to the centre, please.",
+    "Two ticket to centre, please.",
+    "Tickets two the centre, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Two tickets to the centre, please."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Квиток туди й назад до Лондона, будь ласка."
+   },
+   "words": [
+    "A",
+    "return",
+    "to",
+    "London",
+    "please",
+    "single",
+    "the"
+   ],
+   "answer": [
+    "A",
+    "return",
+    "to",
+    "London",
+    "please"
+   ],
+   "explanation": {
+    "uk": "A return to London, please."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Скільки коштує проїзд?"
+   },
+   "answers": [
+    "How much is the fare"
+   ],
+   "explanation": {
+    "uk": "How much is the fare?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Single or return?",
+   "prompt": {
+    "uk": "Вам потрібен квиток в один бік. Що відповісти?"
+   },
+   "options": [
+    "Single, please.",
+    "Return, please.",
+    "I'm single, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Single, please."
+   }
+  }
+ ]
+}

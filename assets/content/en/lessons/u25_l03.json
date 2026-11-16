@@ -1,0 +1,322 @@
+{
+ "id": "u25_l03",
+ "unit": "u25",
+ "cefr": "A0",
+ "title": {
+  "uk": "Поїзд запізнюється"
+ },
+ "goal": {
+  "uk": "Дізнатися, з якої платформи й чи вчасно їде поїзд."
+ },
+ "rule": {
+  "uk": "Which platform does the train leave from? — «З якої платформи відправляється поїзд?». Leave — відправлятися, arrive — прибувати. On time — вчасно, delayed — затримується, cancelled — скасований."
+ },
+ "words": [
+  {
+   "id": "arrive",
+   "text": "arrive",
+   "ipa": "/əˈraɪv/",
+   "pos": "verb",
+   "translation": {
+    "uk": "прибувати"
+   },
+   "example": "The train arrives at six.",
+   "exampleTranslation": {
+    "uk": "Поїзд прибуває о шостій."
+   }
+  },
+  {
+   "id": "on_time",
+   "text": "on time",
+   "ipa": "/ɒn ˈtaɪm/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "вчасно"
+   },
+   "example": "The train is on time.",
+   "exampleTranslation": {
+    "uk": "Поїзд їде вчасно."
+   }
+  },
+  {
+   "id": "delayed",
+   "text": "delayed",
+   "ipa": "/dɪˈleɪd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "той, що затримується"
+   },
+   "example": "The train is delayed.",
+   "exampleTranslation": {
+    "uk": "Поїзд затримується."
+   }
+  },
+  {
+   "id": "cancelled",
+   "text": "cancelled",
+   "ipa": "/ˈkænsəld/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "скасований"
+   },
+   "example": "The train is cancelled.",
+   "exampleTranslation": {
+    "uk": "Поїзд скасовано."
+   }
+  },
+  {
+   "id": "which_platform",
+   "text": "which platform",
+   "ipa": "/ˌwɪtʃ ˈplætfɔːm/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "яка платформа"
+   },
+   "example": "Which platform?",
+   "exampleTranslation": {
+    "uk": "Яка платформа?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "First or second class?",
+   "prompt": {
+    "uk": "Повторимо. Вам другий. Що відповісти?"
+   },
+   "options": [
+    "Second class, please.",
+    "Two class.",
+    "Second, adult."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Second class, please."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "arrive",
+     "right": {
+      "uk": "прибувати"
+     }
+    },
+    {
+     "left": "leave",
+     "right": {
+      "uk": "відправлятися"
+     }
+    },
+    {
+     "left": "on time",
+     "right": {
+      "uk": "вчасно"
+     }
+    },
+    {
+     "left": "delayed",
+     "right": {
+      "uk": "затримується"
+     }
+    },
+    {
+     "left": "cancelled",
+     "right": {
+      "uk": "скасований"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Leave і arrive — початок і кінець поїздки."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The train to Oxford is delayed.",
+   "prompt": {
+    "uk": "Прослухайте. Що з поїздом?"
+   },
+   "options": {
+    "uk": [
+     "Затримується",
+     "Скасований",
+     "Їде вчасно"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Delayed — затримується."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The train leaves from platform nine.",
+   "prompt": {
+    "uk": "Прослухайте. Звідки відправляється поїзд?"
+   },
+   "options": {
+    "uk": [
+     "З дев'ятої платформи",
+     "З п'ятої платформи",
+     "О дев'ятій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "From platform nine."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The train arrives at half past four.",
+   "prompt": {
+    "uk": "Прослухайте. Коли прибуває поїзд?"
+   },
+   "options": {
+    "uk": [
+     "О 4:30",
+     "О 5:30",
+     "О 4:15"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Half past four."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is the train ___ time?",
+   "options": [
+    "on",
+    "at",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On time — вчасно."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The train is ___. There are no trains today.",
+   "options": [
+    "cancelled",
+    "on time",
+    "delayed"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Поїздів немає — cancelled."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Which platform does the train leave ___?",
+   "options": [
+    "from",
+    "to",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Leave from."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "The train arrives at six.",
+    "The train arrive at six.",
+    "The train is arrive at six."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The train — it: arrives."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Поїзд їде вчасно?"
+   },
+   "words": [
+    "Is",
+    "the",
+    "train",
+    "on",
+    "time",
+    "does",
+    "at"
+   ],
+   "answer": [
+    "Is",
+    "the",
+    "train",
+    "on",
+    "time"
+   ],
+   "explanation": {
+    "uk": "Is the train on time?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Поїзд затримується."
+   },
+   "answers": [
+    "The train is delayed"
+   ],
+   "explanation": {
+    "uk": "The train is delayed."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Excuse me, which platform for London?",
+   "prompt": {
+    "uk": "Поїзд до Лондона з другої платформи. Що відповісти?"
+   },
+   "options": [
+    "Platform two.",
+    "Two platform the.",
+    "Second class."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Platform two."
+   }
+  }
+ ]
+}

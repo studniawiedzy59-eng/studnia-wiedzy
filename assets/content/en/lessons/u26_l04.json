@@ -1,0 +1,323 @@
+{
+ "id": "u26_l04",
+ "unit": "u26",
+ "cefr": "A0",
+ "title": {
+  "uk": "Посадка"
+ },
+ "goal": {
+  "uk": "Зрозуміти, коли й куди йти на посадку."
+ },
+ "rule": {
+  "uk": "Boarding — посадка. Now boarding — «посадка триває». Final call — «останній виклик». Queue — черга (читається «к'ю»). Row — ряд: row twelve, seat A. On board — на борту."
+ },
+ "words": [
+  {
+   "id": "boarding",
+   "text": "boarding",
+   "ipa": "/ˈbɔːdɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "посадка"
+   },
+   "example": "Boarding starts at nine.",
+   "exampleTranslation": {
+    "uk": "Посадка починається о дев'ятій."
+   }
+  },
+  {
+   "id": "final_call",
+   "text": "final call",
+   "ipa": "/ˌfaɪnl ˈkɔːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "останній виклик"
+   },
+   "example": "This is the final call.",
+   "exampleTranslation": {
+    "uk": "Це останній виклик."
+   }
+  },
+  {
+   "id": "queue",
+   "text": "queue",
+   "ipa": "/kjuː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "черга"
+   },
+   "example": "There's a long queue.",
+   "exampleTranslation": {
+    "uk": "Тут довга черга."
+   }
+  },
+  {
+   "id": "row",
+   "text": "row",
+   "ipa": "/rəʊ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ряд"
+   },
+   "example": "Row twelve.",
+   "exampleTranslation": {
+    "uk": "Дванадцятий ряд."
+   }
+  },
+  {
+   "id": "on_board",
+   "text": "on board",
+   "ipa": "/ɒn ˈbɔːd/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "на борту"
+   },
+   "example": "Welcome on board.",
+   "exampleTranslation": {
+    "uk": "Вітаємо на борту."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Take ___ your jacket, please.",
+   "options": [
+    "off",
+    "on",
+    "to"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Take off."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "boarding",
+     "right": {
+      "uk": "посадка"
+     }
+    },
+    {
+     "left": "final call",
+     "right": {
+      "uk": "останній виклик"
+     }
+    },
+    {
+     "left": "queue",
+     "right": {
+      "uk": "черга"
+     }
+    },
+    {
+     "left": "row",
+     "right": {
+      "uk": "ряд"
+     }
+    },
+    {
+     "left": "on board",
+     "right": {
+      "uk": "на борту"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "У queue вимовляється лише перша літера."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Boarding starts at quarter past nine.",
+   "prompt": {
+    "uk": "Прослухайте. Коли починається посадка?"
+   },
+   "options": {
+    "uk": [
+     "О 9:15",
+     "О 9:45",
+     "О 8:45"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Quarter past nine."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "This is the final call for the flight to Warsaw.",
+   "prompt": {
+    "uk": "Прослухайте. Що це означає?"
+   },
+   "options": {
+    "uk": [
+     "Останній виклик на рейс до Варшави",
+     "Рейс до Варшави скасовано",
+     "Рейс до Варшави прибув"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Final call — останній виклик."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Your seat is in row fourteen.",
+   "prompt": {
+    "uk": "Прослухайте. Який ряд?"
+   },
+   "options": {
+    "uk": [
+     "14",
+     "40",
+     "4"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Row fourteen."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There's a long ___ at security.",
+   "options": [
+    "queue",
+    "row",
+    "call"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A long queue — довга черга."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Welcome on ___!",
+   "options": [
+    "board",
+    "boarding",
+    "row"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Welcome on board."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My seat is in ___ twenty, seat C.",
+   "options": [
+    "row",
+    "queue",
+    "gate"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Row twenty."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви чуєте final call на свій рейс. Що робити?"
+   },
+   "options": {
+    "uk": [
+     "Негайно йти до виходу на посадку",
+     "Іти на реєстрацію",
+     "Чекати наступного оголошення"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Final call — треба поспішати до gate."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Посадка починається о дев'ятій."
+   },
+   "words": [
+    "Boarding",
+    "starts",
+    "at",
+    "nine",
+    "start",
+    "on"
+   ],
+   "answer": [
+    "Boarding",
+    "starts",
+    "at",
+    "nine"
+   ],
+   "explanation": {
+    "uk": "Boarding starts at nine."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Тут довга черга."
+   },
+   "answers": [
+    "There's a long queue",
+    "There is a long queue"
+   ],
+   "explanation": {
+    "uk": "There's a long queue."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Excuse me, is this the queue for the flight to Kyiv?",
+   "prompt": {
+    "uk": "Так, це вона. Що відповісти?"
+   },
+   "options": [
+    "Yes, it is.",
+    "Yes, it does.",
+    "Yes, I'm queue."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it is."
+   }
+  }
+ ]
+}

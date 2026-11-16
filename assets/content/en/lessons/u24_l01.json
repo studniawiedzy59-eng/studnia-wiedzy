@@ -1,0 +1,346 @@
+{
+ "id": "u24_l01",
+ "unit": "u24",
+ "cefr": "A0",
+ "title": {
+  "uk": "Види транспорту"
+ },
+ "goal": {
+  "uk": "Назвати транспорт і сказати, чим ви їздите."
+ },
+ "rule": {
+  "uk": "Bus, train, car і bike ви вже знаєте. Усі види транспорту вживають із by: by taxi, by tram, by plane. The underground — метро в Лондоні, з the."
+ },
+ "words": [
+  {
+   "id": "taxi",
+   "text": "taxi",
+   "ipa": "/ˈtæksi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "таксі"
+   },
+   "example": "Let's take a taxi.",
+   "exampleTranslation": {
+    "uk": "Візьмімо таксі."
+   }
+  },
+  {
+   "id": "tram",
+   "text": "tram",
+   "ipa": "/træm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "трамвай"
+   },
+   "example": "I go by tram.",
+   "exampleTranslation": {
+    "uk": "Я їжджу трамваєм."
+   }
+  },
+  {
+   "id": "underground",
+   "text": "underground",
+   "ipa": "/ˈʌndəɡraʊnd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "метро"
+   },
+   "example": "I take the underground.",
+   "exampleTranslation": {
+    "uk": "Я їжджу на метро."
+   }
+  },
+  {
+   "id": "plane",
+   "text": "plane",
+   "ipa": "/pleɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "літак"
+   },
+   "example": "We go by plane.",
+   "exampleTranslation": {
+    "uk": "Ми летимо літаком."
+   }
+  },
+  {
+   "id": "boat",
+   "text": "boat",
+   "ipa": "/bəʊt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "човен, катер"
+   },
+   "example": "A small boat.",
+   "exampleTranslation": {
+    "uk": "Малий човен."
+   }
+  },
+  {
+   "id": "motorbike",
+   "text": "motorbike",
+   "ipa": "/ˈməʊtəbaɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мотоцикл"
+   },
+   "example": "He has a motorbike.",
+   "exampleTranslation": {
+    "uk": "У нього є мотоцикл."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Thank you very much!",
+   "prompt": {
+    "uk": "Повторимо. Вам подякували. Що відповісти?"
+   },
+   "options": [
+    "You're welcome.",
+    "Please.",
+    "Very much."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You're welcome."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "taxi",
+     "right": {
+      "uk": "таксі"
+     }
+    },
+    {
+     "left": "tram",
+     "right": {
+      "uk": "трамвай"
+     }
+    },
+    {
+     "left": "underground",
+     "right": {
+      "uk": "метро"
+     }
+    },
+    {
+     "left": "plane",
+     "right": {
+      "uk": "літак"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Міський і далекий транспорт."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "boat",
+     "right": {
+      "uk": "човен"
+     }
+    },
+    {
+     "left": "motorbike",
+     "right": {
+      "uk": "мотоцикл"
+     }
+    },
+    {
+     "left": "bike",
+     "right": {
+      "uk": "велосипед"
+     }
+    },
+    {
+     "left": "train",
+     "right": {
+      "uk": "поїзд"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Bike — велосипед, motorbike — мотоцикл."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I go to work by tram.",
+   "prompt": {
+    "uk": "Прослухайте. Чим людина їздить на роботу?"
+   },
+   "options": {
+    "uk": [
+     "Трамваєм",
+     "Поїздом",
+     "На метро"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "By tram."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Let's take a taxi. It's late.",
+   "prompt": {
+    "uk": "Прослухайте. Що пропонує людина?"
+   },
+   "options": {
+    "uk": [
+     "Узяти таксі",
+     "Піти пішки",
+     "Сісти на автобус"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Take a taxi."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We go to Spain ___ plane.",
+   "options": [
+    "by",
+    "on",
+    "with"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "By plane."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I take the ___ in London. It's fast.",
+   "options": [
+    "underground",
+    "boat",
+    "motorbike"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The underground — метро."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I go by taxi.",
+    "I go by the taxi.",
+    "I go with taxi."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "By taxi — без артикля."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Який транспорт літає?"
+   },
+   "options": {
+    "uk": [
+     "plane",
+     "tram",
+     "boat"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Plane — літак."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Візьмімо таксі."
+   },
+   "words": [
+    "Let's",
+    "take",
+    "a",
+    "taxi",
+    "by",
+    "the"
+   ],
+   "answer": [
+    "Let's",
+    "take",
+    "a",
+    "taxi"
+   ],
+   "explanation": {
+    "uk": "Let's take a taxi."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я їжджу трамваєм."
+   },
+   "answers": [
+    "I go by tram",
+    "I take the tram"
+   ],
+   "explanation": {
+    "uk": "I go by tram."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How do you get to work?",
+   "prompt": {
+    "uk": "Ви їздите на метро. Що відповісти?"
+   },
+   "options": [
+    "I take the underground.",
+    "I take by underground.",
+    "I'm underground."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I take the underground."
+   }
+  }
+ ]
+}

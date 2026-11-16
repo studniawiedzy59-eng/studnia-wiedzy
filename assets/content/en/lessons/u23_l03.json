@@ -1,0 +1,325 @@
+{
+ "id": "u23_l03",
+ "unit": "u23",
+ "cefr": "A0",
+ "title": {
+  "uk": "Як дістатися до вокзалу?"
+ },
+ "goal": {
+  "uk": "Спитати дорогу й зрозуміти, з якого боку потрібне місце."
+ },
+ "rule": {
+  "uk": "How do I get to…? — «Як мені дістатися до…?». On the left — «ліворуч, з лівого боку». On the right — «праворуч». Which way? — «У який бік?». This way — «сюди»."
+ },
+ "words": [
+  {
+   "id": "get_to",
+   "text": "get to",
+   "ipa": "/ˈɡet tuː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "дістатися до"
+   },
+   "example": "How do I get to the station?",
+   "exampleTranslation": {
+    "uk": "Як мені дістатися до вокзалу?"
+   }
+  },
+  {
+   "id": "way",
+   "text": "way",
+   "ipa": "/weɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шлях, напрямок"
+   },
+   "example": "Which way?",
+   "exampleTranslation": {
+    "uk": "У який бік?"
+   }
+  },
+  {
+   "id": "on_the_left",
+   "text": "on the left",
+   "ipa": "/ɒn ðə ˈleft/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "ліворуч, з лівого боку"
+   },
+   "example": "It's on the left.",
+   "exampleTranslation": {
+    "uk": "Це ліворуч."
+   }
+  },
+  {
+   "id": "on_the_right",
+   "text": "on the right",
+   "ipa": "/ɒn ðə ˈraɪt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "праворуч, з правого боку"
+   },
+   "example": "The bank is on the right.",
+   "exampleTranslation": {
+    "uk": "Банк праворуч."
+   }
+  },
+  {
+   "id": "sign",
+   "text": "sign",
+   "ipa": "/saɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "знак, вказівник"
+   },
+   "example": "Follow the signs.",
+   "exampleTranslation": {
+    "uk": "Ідіть за вказівниками."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "___ the road and turn left.",
+   "options": [
+    "Cross",
+    "Along",
+    "Second"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Cross the road."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "get to",
+     "right": {
+      "uk": "дістатися до"
+     }
+    },
+    {
+     "left": "way",
+     "right": {
+      "uk": "шлях"
+     }
+    },
+    {
+     "left": "sign",
+     "right": {
+      "uk": "вказівник"
+     }
+    },
+    {
+     "left": "on the left",
+     "right": {
+      "uk": "ліворуч"
+     }
+    },
+    {
+     "left": "on the right",
+     "right": {
+      "uk": "праворуч"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "У sign літера g не вимовляється."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "How do I get to the museum?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Як дістатися до музею",
+     "Де музей",
+     "Чи далеко музей"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "How do I get to…?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The pharmacy is on the left, next to the bank.",
+   "prompt": {
+    "uk": "Прослухайте. Де аптека?"
+   },
+   "options": {
+    "uk": [
+     "Ліворуч, біля банку",
+     "Праворуч, біля банку",
+     "Навпроти банку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On the left."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати дорогу до готелю?"
+   },
+   "options": [
+    "How do I get to the hotel?",
+    "How I get the hotel?",
+    "How do I get the hotel to?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How do I get to the hotel?"
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The café is ___ the right.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On the right."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How do I ___ to the airport?",
+   "options": [
+    "get",
+    "turn",
+    "way"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Get to."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Which ___ is the city centre?",
+   "options": [
+    "way",
+    "sign",
+    "left"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Which way…?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає This way, please?"
+   },
+   "options": {
+    "uk": [
+     "Сюди, будь ласка",
+     "Це шлях, будь ласка",
+     "Іншим шляхом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "This way — сюди."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Як мені дістатися до вокзалу?"
+   },
+   "words": [
+    "How",
+    "do",
+    "I",
+    "get",
+    "to",
+    "the",
+    "station",
+    "way"
+   ],
+   "answer": [
+    "How",
+    "do",
+    "I",
+    "get",
+    "to",
+    "the",
+    "station"
+   ],
+   "explanation": {
+    "uk": "How do I get to the station?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це ліворуч."
+   },
+   "answers": [
+    "It's on the left",
+    "It is on the left"
+   ],
+   "explanation": {
+    "uk": "It's on the left."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Excuse me, how do I get to the park?",
+   "prompt": {
+    "uk": "Парк прямо, він буде праворуч. Що відповісти?"
+   },
+   "options": [
+    "Go straight on. It's on the right.",
+    "Go straight on. It's in the right.",
+    "Straight go. Right is it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go straight on. It's on the right."
+   }
+  }
+ ]
+}

@@ -1,0 +1,229 @@
+{
+ "id": "u23_l06",
+ "unit": "u23",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: дорога"
+ },
+ "goal": {
+  "uk": "Спитати дорогу, зрозуміти відповідь і пояснити шлях іншій людині."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: turn left і right, go straight on, take the first left, cross, go past, on the left, until, a five-minute walk, Thank you very much — You're welcome."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Excuse me, how do I get to the bank?",
+   "prompt": {
+    "uk": "Банк прямо, потім перший поворот ліворуч. Що відповісти?"
+   },
+   "options": [
+    "Go straight on and take the first left.",
+    "Go left on and take the first straight.",
+    "Go straight and left the first take."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go straight on and take the first left."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Go ___ the church and turn right.",
+   "options": [
+    "past",
+    "cross",
+    "third"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go past the church."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Перейдіть дорогу біля світлофора."
+   },
+   "words": [
+    "Cross",
+    "the",
+    "road",
+    "at",
+    "the",
+    "traffic",
+    "lights",
+    "along"
+   ],
+   "answer": [
+    "Cross",
+    "the",
+    "road",
+    "at",
+    "the",
+    "traffic",
+    "lights"
+   ],
+   "explanation": {
+    "uk": "Cross the road at the traffic lights."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я заблукав."
+   },
+   "answers": [
+    "I'm lost",
+    "I am lost"
+   ],
+   "explanation": {
+    "uk": "I'm lost."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Take the third right, then go straight on until the river.",
+   "prompt": {
+    "uk": "Прослухайте. Який поворот потрібен?"
+   },
+   "options": {
+    "uk": [
+     "Третій праворуч",
+     "Другий праворуч",
+     "Третій ліворуч"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The third right."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The hotel is ___ the right, opposite the park.",
+   "options": [
+    "on",
+    "at",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On the right."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Це десять хвилин пішки»?"
+   },
+   "options": [
+    "It's a ten-minute walk.",
+    "It's a ten-minutes walk.",
+    "It's ten minute by walk."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A ten-minute walk."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Як мені дістатися до аеропорту?"
+   },
+   "answers": [
+    "How do I get to the airport"
+   ],
+   "explanation": {
+    "uk": "How do I get to the airport?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "This is the wrong way. Go back and turn left at the bridge.",
+   "prompt": {
+    "uk": "Прослухайте. Що не так?"
+   },
+   "options": {
+    "uk": [
+     "Людина йде не туди",
+     "Людина йде правильно",
+     "Міст зачинений"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The wrong way."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вам подякували. Що відповісти?"
+   },
+   "options": [
+    "You're welcome.",
+    "Thank you very much.",
+    "Please, thank you."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You're welcome."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Is it far?",
+   "prompt": {
+    "uk": "Це близько, приблизно двісті метрів. Що відповісти?"
+   },
+   "options": [
+    "No, it's about two hundred metres.",
+    "No, it's about two hundred metre far.",
+    "Yes, it's near two hundred."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, it's about two hundred metres."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Sorry, I don't understand.",
+   "prompt": {
+    "uk": "Людина не зрозуміла ваше пояснення. Що запропонувати?"
+   },
+   "options": [
+    "I can show you on the map.",
+    "I can map you.",
+    "You can't miss me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I can show you on the map."
+   }
+  }
+ ]
+}

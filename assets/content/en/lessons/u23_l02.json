@@ -1,0 +1,325 @@
+{
+ "id": "u23_l02",
+ "unit": "u23",
+ "cefr": "A0",
+ "title": {
+  "uk": "Перший поворот ліворуч"
+ },
+ "goal": {
+  "uk": "Зрозуміти вказівки з кількома кроками."
+ },
+ "rule": {
+  "uk": "Take the first left — «перший поворот ліворуч». Take the second right — «другий праворуч». Порядкові слова: first, second, third. Cross the road — перейти дорогу. Go along the street — іти вздовж вулиці. Go past the bank — пройти повз банк."
+ },
+ "words": [
+  {
+   "id": "second",
+   "text": "second",
+   "ipa": "/ˈsekənd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "другий"
+   },
+   "example": "The second street.",
+   "exampleTranslation": {
+    "uk": "Друга вулиця."
+   }
+  },
+  {
+   "id": "third",
+   "text": "third",
+   "ipa": "/θɜːd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "третій"
+   },
+   "example": "The third door.",
+   "exampleTranslation": {
+    "uk": "Треті двері."
+   }
+  },
+  {
+   "id": "cross",
+   "text": "cross",
+   "ipa": "/krɒs/",
+   "pos": "verb",
+   "translation": {
+    "uk": "переходити"
+   },
+   "example": "Cross the road.",
+   "exampleTranslation": {
+    "uk": "Перейдіть дорогу."
+   }
+  },
+  {
+   "id": "along",
+   "text": "along",
+   "ipa": "/əˈlɒŋ/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "уздовж"
+   },
+   "example": "Go along this street.",
+   "exampleTranslation": {
+    "uk": "Ідіть цією вулицею."
+   }
+  },
+  {
+   "id": "go_past",
+   "text": "go past",
+   "ipa": "/ˌɡəʊ ˈpɑːst/",
+   "pos": "verb",
+   "translation": {
+    "uk": "проходити повз"
+   },
+   "example": "Go past the church.",
+   "exampleTranslation": {
+    "uk": "Пройдіть повз церкву."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Go ___ on, then turn left.",
+   "options": [
+    "straight",
+    "right",
+    "lost"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go straight on."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "first",
+     "right": {
+      "uk": "перший"
+     }
+    },
+    {
+     "left": "second",
+     "right": {
+      "uk": "другий"
+     }
+    },
+    {
+     "left": "third",
+     "right": {
+      "uk": "третій"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Перший, другий, третій."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "cross",
+     "right": {
+      "uk": "переходити"
+     }
+    },
+    {
+     "left": "along",
+     "right": {
+      "uk": "уздовж"
+     }
+    },
+    {
+     "left": "go past",
+     "right": {
+      "uk": "проходити повз"
+     }
+    },
+    {
+     "left": "turn",
+     "right": {
+      "uk": "повертати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Дії в дорозі."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Take the second left.",
+   "prompt": {
+    "uk": "Прослухайте. Який поворот потрібен?"
+   },
+   "options": {
+    "uk": [
+     "Другий ліворуч",
+     "Перший ліворуч",
+     "Другий праворуч"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The second left."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Cross the road and go past the supermarket.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Перейти дорогу й пройти повз супермаркет",
+     "Повернути біля супермаркету",
+     "Зайти в супермаркет"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cross the road, go past the supermarket."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Take the ___ right. It's street number one.",
+   "options": [
+    "first",
+    "third",
+    "along"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Number one — first."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ the road at the traffic lights.",
+   "options": [
+    "Cross",
+    "Along",
+    "Past"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Cross the road."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Go ___ this street to the end.",
+   "options": [
+    "along",
+    "cross",
+    "third"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go along this street."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «третя вулиця праворуч»?"
+   },
+   "options": [
+    "the third street on the right",
+    "the three street on right",
+    "third the street right"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The third street on the right."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Перший поворот ліворуч."
+   },
+   "words": [
+    "Take",
+    "the",
+    "first",
+    "left",
+    "second",
+    "turn"
+   ],
+   "answer": [
+    "Take",
+    "the",
+    "first",
+    "left"
+   ],
+   "explanation": {
+    "uk": "Take the first left."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Перейдіть дорогу."
+   },
+   "answers": [
+    "Cross the road"
+   ],
+   "explanation": {
+    "uk": "Cross the road."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Excuse me, where is the post office?",
+   "prompt": {
+    "uk": "Треба пройти повз банк і повернути у другу вулицю праворуч. Що відповісти?"
+   },
+   "options": [
+    "Go past the bank and take the second right.",
+    "Go past the bank and take the two right.",
+    "Go the bank past and second right take."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go past the bank and take the second right."
+   }
+  }
+ ]
+}

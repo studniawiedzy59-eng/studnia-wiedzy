@@ -1,0 +1,321 @@
+{
+ "id": "u25_l04",
+ "unit": "u25",
+ "cefr": "A0",
+ "title": {
+  "uk": "У вагоні"
+ },
+ "goal": {
+  "uk": "Знайти своє місце й порозумітися з іншими пасажирами."
+ },
+ "rule": {
+  "uk": "Is this the train to…? — «Це поїзд до…?». Is this seat free? — «Вільно?». Якщо зайнято: Sorry, it's taken. Місця бувають біля вікна — a window seat, і біля проходу — an aisle seat (літера s не вимовляється). Miss the train — запізнитися на поїзд."
+ },
+ "words": [
+  {
+   "id": "taken",
+   "text": "taken",
+   "ipa": "/ˈteɪkən/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "зайнятий"
+   },
+   "example": "Sorry, this seat is taken.",
+   "exampleTranslation": {
+    "uk": "Вибачте, це місце зайняте."
+   }
+  },
+  {
+   "id": "window_seat",
+   "text": "window seat",
+   "ipa": "/ˈwɪndəʊ siːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "місце біля вікна"
+   },
+   "example": "I'd like a window seat.",
+   "exampleTranslation": {
+    "uk": "Я хотів би місце біля вікна."
+   }
+  },
+  {
+   "id": "aisle_seat",
+   "text": "aisle seat",
+   "ipa": "/ˈaɪl siːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "місце біля проходу"
+   },
+   "example": "An aisle seat, please.",
+   "exampleTranslation": {
+    "uk": "Місце біля проходу, будь ласка."
+   }
+  },
+  {
+   "id": "miss",
+   "text": "miss",
+   "ipa": "/mɪs/",
+   "pos": "verb",
+   "translation": {
+    "uk": "пропустити, запізнитися на"
+   },
+   "example": "Don't miss the train!",
+   "exampleTranslation": {
+    "uk": "Не запізніться на поїзд!"
+   }
+  },
+  {
+   "id": "tickets,_please",
+   "text": "tickets, please",
+   "ipa": "/ˈtɪkɪts pliːz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "ваші квитки, будь ласка"
+   },
+   "example": "Tickets, please.",
+   "exampleTranslation": {
+    "uk": "Ваші квитки, будь ласка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "The train is ___. It leaves at ten, not at nine.",
+   "options": [
+    "delayed",
+    "cancelled",
+    "on time"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Пізніше, ніж треба — delayed."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "taken",
+     "right": {
+      "uk": "зайнятий"
+     }
+    },
+    {
+     "left": "free",
+     "right": {
+      "uk": "вільний"
+     }
+    },
+    {
+     "left": "window seat",
+     "right": {
+      "uk": "місце біля вікна"
+     }
+    },
+    {
+     "left": "aisle seat",
+     "right": {
+      "uk": "місце біля проходу"
+     }
+    },
+    {
+     "left": "miss",
+     "right": {
+      "uk": "пропустити"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Free і taken — про місце."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Is this the train to Oxford?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає пасажир?"
+   },
+   "options": {
+    "uk": [
+     "Чи це поїзд до Оксфорда",
+     "Де поїзд до Оксфорда",
+     "Коли поїзд до Оксфорда"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Is this the train to…?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Sorry, this seat is taken.",
+   "prompt": {
+    "uk": "Прослухайте. Що вам відповіли?"
+   },
+   "options": {
+    "uk": [
+     "Місце зайняте",
+     "Місце вільне",
+     "Це не той вагон"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Taken — зайняте."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Tickets, please.",
+   "prompt": {
+    "uk": "Прослухайте. Хто це каже й чого хоче?"
+   },
+   "options": {
+    "uk": [
+     "Контролер просить квитки",
+     "Касир продає квитки",
+     "Пасажир шукає квиток"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tickets, please."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "an aisle seat",
+    "a aisle seat",
+    "an window seat"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Aisle починається з голосного звука: an aisle seat."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'd like a ___ seat. I like looking out.",
+   "options": [
+    "window",
+    "aisle",
+    "taken"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Біля вікна — a window seat."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Hurry up! We can't ___ the train.",
+   "options": [
+    "miss",
+    "arrive",
+    "cross"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Miss the train — запізнитися на поїзд. Hurry up — поспішіть."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Хтось сидить на вашому місці. Що сказати?"
+   },
+   "options": [
+    "Excuse me, I think this is my seat.",
+    "Excuse me, you are my seat.",
+    "Sorry, this seat is me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Excuse me, I think this is my seat."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вибачте, це місце зайняте."
+   },
+   "words": [
+    "Sorry",
+    "this",
+    "seat",
+    "is",
+    "taken",
+    "free",
+    "are"
+   ],
+   "answer": [
+    "Sorry",
+    "this",
+    "seat",
+    "is",
+    "taken"
+   ],
+   "explanation": {
+    "uk": "Sorry, this seat is taken."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це поїзд до Лондона?"
+   },
+   "answers": [
+    "Is this the train to London"
+   ],
+   "explanation": {
+    "uk": "Is this the train to London?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Tickets, please.",
+   "prompt": {
+    "uk": "Ви подаєте квиток контролерові. Що сказати?"
+   },
+   "options": [
+    "Here you are.",
+    "You're welcome.",
+    "It's taken."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Here you are."
+   }
+  }
+ ]
+}

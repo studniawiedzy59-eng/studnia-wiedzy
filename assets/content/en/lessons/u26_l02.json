@@ -1,0 +1,319 @@
+{
+ "id": "u26_l02",
+ "unit": "u26",
+ "cefr": "A0",
+ "title": {
+  "uk": "Реєстрація на рейс"
+ },
+ "goal": {
+  "uk": "Пройти реєстрацію й здати багаж."
+ },
+ "rule": {
+  "uk": "На стійці: I'd like to check in, please. Вас спитають про багаж: Do you have any luggage? Suitcase — валіза, hand luggage — ручна поклажа. Heavy — важкий. Light ви знаєте як «світлий»; про вагу це «легкий»."
+ },
+ "words": [
+  {
+   "id": "check_in",
+   "text": "check in",
+   "ipa": "/ˌtʃek ˈɪn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "реєструватися"
+   },
+   "example": "I'd like to check in.",
+   "exampleTranslation": {
+    "uk": "Я хотів би зареєструватися."
+   }
+  },
+  {
+   "id": "suitcase",
+   "text": "suitcase",
+   "ipa": "/ˈsuːtkeɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "валіза"
+   },
+   "example": "One suitcase.",
+   "exampleTranslation": {
+    "uk": "Одна валіза."
+   }
+  },
+  {
+   "id": "hand_luggage",
+   "text": "hand luggage",
+   "ipa": "/ˈhænd ˌlʌɡɪdʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ручна поклажа"
+   },
+   "example": "Only hand luggage.",
+   "exampleTranslation": {
+    "uk": "Лише ручна поклажа."
+   }
+  },
+  {
+   "id": "heavy",
+   "text": "heavy",
+   "ipa": "/ˈhevi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "важкий"
+   },
+   "example": "My suitcase is heavy.",
+   "exampleTranslation": {
+    "uk": "Моя валіза важка."
+   }
+  },
+  {
+   "id": "light",
+   "text": "light",
+   "ipa": "/laɪt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "легкий"
+   },
+   "example": "This bag is light.",
+   "exampleTranslation": {
+    "uk": "Ця сумка легка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Your flight leaves from ___ fifteen.",
+   "options": [
+    "gate",
+    "pass",
+    "check-in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Gate fifteen."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "suitcase",
+     "right": {
+      "uk": "валіза"
+     }
+    },
+    {
+     "left": "hand luggage",
+     "right": {
+      "uk": "ручна поклажа"
+     }
+    },
+    {
+     "left": "heavy",
+     "right": {
+      "uk": "важкий"
+     }
+    },
+    {
+     "left": "light",
+     "right": {
+      "uk": "легкий"
+     }
+    },
+    {
+     "left": "check in",
+     "right": {
+      "uk": "реєструватися"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Heavy і light — про вагу."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'd like to check in, please.",
+   "prompt": {
+    "uk": "Прослухайте. Чого хоче пасажир?"
+   },
+   "options": {
+    "uk": [
+     "Зареєструватися на рейс",
+     "Купити квиток",
+     "Здати квиток"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Check in — зареєструватися."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Do you have any luggage? — Yes, one suitcase.",
+   "prompt": {
+    "uk": "Прослухайте. Який багаж у пасажира?"
+   },
+   "options": {
+    "uk": [
+     "Одна валіза",
+     "Лише ручна поклажа",
+     "Дві валізи"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "One suitcase."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Your suitcase is too heavy.",
+   "prompt": {
+    "uk": "Прослухайте. У чому проблема?"
+   },
+   "options": {
+    "uk": [
+     "Валіза заважка",
+     "Валіза завелика",
+     "Валізи немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Too heavy — заважка."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I only have hand ___.",
+   "options": [
+    "luggage",
+    "suitcase",
+    "pass"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hand luggage."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This bag isn't heavy. It's very ___.",
+   "options": [
+    "light",
+    "taken",
+    "delayed"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Light — легка."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я хотів би зареєструватися»?"
+   },
+   "options": [
+    "I'd like to check in.",
+    "I'd like check in to.",
+    "I like to checking in."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd like to check in."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вас питають: Window or aisle? Ви хочете біля вікна. Що відповісти?"
+   },
+   "options": [
+    "Window, please.",
+    "Aisle, please.",
+    "Gate, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Window, please."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене одна валіза."
+   },
+   "words": [
+    "I",
+    "have",
+    "one",
+    "suitcase",
+    "am",
+    "luggage"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "one",
+    "suitcase"
+   ],
+   "explanation": {
+    "uk": "I have one suitcase."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Моя валіза важка."
+   },
+   "answers": [
+    "My suitcase is heavy"
+   ],
+   "explanation": {
+    "uk": "My suitcase is heavy."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Can I see your passport, please?",
+   "prompt": {
+    "uk": "Ви подаєте паспорт. Що сказати?"
+   },
+   "options": [
+    "Here you are.",
+    "Yes, I can.",
+    "I'd like to check in it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Here you are."
+   }
+  }
+ ]
+}

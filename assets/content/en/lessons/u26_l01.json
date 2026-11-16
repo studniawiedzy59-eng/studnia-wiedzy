@@ -1,0 +1,325 @@
+{
+ "id": "u26_l01",
+ "unit": "u26",
+ "cefr": "A0",
+ "title": {
+  "uk": "В аеропорту"
+ },
+ "goal": {
+  "uk": "Зорієнтуватися в аеропорту."
+ },
+ "rule": {
+  "uk": "Flight — рейс. Check-in — реєстрація. Boarding pass — посадковий талон. Gate — вихід на посадку. Terminal — термінал. Departures і arrivals ви знаєте з вокзалу."
+ },
+ "words": [
+  {
+   "id": "flight",
+   "text": "flight",
+   "ipa": "/flaɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рейс, політ"
+   },
+   "example": "My flight is at ten.",
+   "exampleTranslation": {
+    "uk": "Мій рейс о десятій."
+   }
+  },
+  {
+   "id": "check-in",
+   "text": "check-in",
+   "ipa": "/ˈtʃek ɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "реєстрація"
+   },
+   "example": "Where is check-in?",
+   "exampleTranslation": {
+    "uk": "Де реєстрація?"
+   }
+  },
+  {
+   "id": "boarding_pass",
+   "text": "boarding pass",
+   "ipa": "/ˈbɔːdɪŋ pɑːs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "посадковий талон"
+   },
+   "example": "Here's my boarding pass.",
+   "exampleTranslation": {
+    "uk": "Ось мій посадковий талон."
+   }
+  },
+  {
+   "id": "gate",
+   "text": "gate",
+   "ipa": "/ɡeɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вихід на посадку"
+   },
+   "example": "Gate twelve.",
+   "exampleTranslation": {
+    "uk": "Вихід дванадцять."
+   }
+  },
+  {
+   "id": "terminal",
+   "text": "terminal",
+   "ipa": "/ˈtɜːmɪnl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "термінал"
+   },
+   "example": "Terminal two.",
+   "exampleTranslation": {
+    "uk": "Другий термінал."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Tickets, please.",
+   "prompt": {
+    "uk": "Повторимо. Що сказати, подаючи квиток?"
+   },
+   "options": [
+    "Here you are.",
+    "You're welcome.",
+    "Yes, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Here you are."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "flight",
+     "right": {
+      "uk": "рейс"
+     }
+    },
+    {
+     "left": "check-in",
+     "right": {
+      "uk": "реєстрація"
+     }
+    },
+    {
+     "left": "boarding pass",
+     "right": {
+      "uk": "посадковий талон"
+     }
+    },
+    {
+     "left": "gate",
+     "right": {
+      "uk": "вихід на посадку"
+     }
+    },
+    {
+     "left": "terminal",
+     "right": {
+      "uk": "термінал"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "П'ять слів, без яких в аеропорту не обійтися."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Where is check-in?",
+   "prompt": {
+    "uk": "Прослухайте. Що шукає пасажир?"
+   },
+   "options": {
+    "uk": [
+     "Реєстрацію",
+     "Вихід на посадку",
+     "Термінал"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Check-in — реєстрація."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Your flight leaves from gate twenty-two.",
+   "prompt": {
+    "uk": "Прослухайте. Який вихід?"
+   },
+   "options": {
+    "uk": [
+     "22",
+     "12",
+     "20"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Gate twenty-two."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My flight is at half past six in the morning.",
+   "prompt": {
+    "uk": "Прослухайте. Коли рейс?"
+   },
+   "options": {
+    "uk": [
+     "О 6:30 ранку",
+     "О 6:30 вечора",
+     "О 7:30 ранку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Half past six in the morning."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I see your ___ pass, please?",
+   "options": [
+    "boarding",
+    "flight",
+    "gate"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Boarding pass."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ is delayed. It leaves at nine, not at eight.",
+   "options": [
+    "flight",
+    "gate",
+    "check-in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My flight is delayed."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Which ___ is it? — Terminal one.",
+   "options": [
+    "terminal",
+    "flight",
+    "pass"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Terminal one."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Де ви сідаєте в літак?"
+   },
+   "options": {
+    "uk": [
+     "at the gate",
+     "at check-in",
+     "at arrivals"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "У літак ідуть через gate."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мій рейс о десятій."
+   },
+   "words": [
+    "My",
+    "flight",
+    "is",
+    "at",
+    "ten",
+    "gate",
+    "on"
+   ],
+   "answer": [
+    "My",
+    "flight",
+    "is",
+    "at",
+    "ten"
+   ],
+   "explanation": {
+    "uk": "My flight is at ten."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Де реєстрація?"
+   },
+   "answers": [
+    "Where is check-in",
+    "Where is the check-in"
+   ],
+   "explanation": {
+    "uk": "Where is check-in?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Which gate is the flight to London?",
+   "prompt": {
+    "uk": "Рейс до Лондона — вихід вісім. Що відповісти?"
+   },
+   "options": [
+    "Gate eight.",
+    "Eight the gate.",
+    "Flight eight."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Gate eight."
+   }
+  }
+ ]
+}

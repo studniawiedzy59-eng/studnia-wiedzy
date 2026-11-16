@@ -1,0 +1,227 @@
+{
+ "id": "u25_l06",
+ "unit": "u25",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: поїздка поїздом"
+ },
+ "goal": {
+  "uk": "Пройти весь шлях: каса, платформа, вагон, оголошення."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: ticket office, A return to…, please, first or second class, Which platform?, on time і delayed, Is this seat free?, The next station is…"
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Квиток туди й назад до Оксфорда, будь ласка."
+   },
+   "words": [
+    "A",
+    "return",
+    "to",
+    "Oxford",
+    "please",
+    "single",
+    "from"
+   ],
+   "answer": [
+    "A",
+    "return",
+    "to",
+    "Oxford",
+    "please"
+   ],
+   "explanation": {
+    "uk": "A return to Oxford, please."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "First or second class?",
+   "prompt": {
+    "uk": "Вам другий клас. Що відповісти?"
+   },
+   "options": [
+    "Second class, please.",
+    "Second platform, please.",
+    "Class two."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Second class, please."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Which platform does the train leave ___?",
+   "options": [
+    "from",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Leave from."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Поїзд їде вчасно?"
+   },
+   "answers": [
+    "Is the train on time"
+   ],
+   "explanation": {
+    "uk": "Is the train on time?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The train to London is cancelled. The next train leaves at eleven.",
+   "prompt": {
+    "uk": "Прослухайте. Що робити?"
+   },
+   "options": {
+    "uk": [
+     "Чекати поїзда об одинадцятій",
+     "Іти на іншу платформу",
+     "Їхати зараз"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The next train leaves at eleven."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Excuse me, is this seat ___? — No, it's taken.",
+   "options": [
+    "free",
+    "delayed",
+    "next"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is this seat free?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "The train arrives at nine.",
+    "The train arrive at nine.",
+    "The train arriving at nine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Arrives."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Коли найближчий поїзд до Лондона?"
+   },
+   "answers": [
+    "When is the next train to London"
+   ],
+   "explanation": {
+    "uk": "When is the next train to London?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "Attention, please. The train on platform three is the ten fifteen to Oxford.",
+   "prompt": {
+    "uk": "Прослухайте. Куди й коли їде поїзд із третьої платформи?"
+   },
+   "options": {
+    "uk": [
+     "До Оксфорда о 10:15",
+     "До Лондона о 10:15",
+     "До Оксфорда о 10:50"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The ten fifteen to Oxford."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке місце біля вікна?"
+   },
+   "options": {
+    "uk": [
+     "a window seat",
+     "an aisle seat",
+     "a waiting room"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A window seat."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Tickets, please.",
+   "prompt": {
+    "uk": "Що сказати, подаючи квиток?"
+   },
+   "options": [
+    "Here you are.",
+    "Mind the gap.",
+    "It's delayed."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Here you are."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is this the train to Oxford?",
+   "prompt": {
+    "uk": "Ні, це поїзд до Лондона. Що відповісти?"
+   },
+   "options": [
+    "No, it isn't. It's the train to London.",
+    "No, it doesn't. It's train London.",
+    "Yes, it's the train to London."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, it isn't. It's the train to London."
+   }
+  }
+ ]
+}

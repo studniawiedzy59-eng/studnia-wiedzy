@@ -1,0 +1,349 @@
+{
+ "id": "u25_l01",
+ "unit": "u25",
+ "cefr": "A0",
+ "title": {
+  "uk": "На вокзалі"
+ },
+ "goal": {
+  "uk": "Зорієнтуватися на вокзалі: каса, розклад, платформа."
+ },
+ "rule": {
+  "uk": "Головні слова вокзалу: platform — платформа, ticket office — каса, timetable — розклад. На табло: Departures — відправлення, Arrivals — прибуття."
+ },
+ "words": [
+  {
+   "id": "platform",
+   "text": "platform",
+   "ipa": "/ˈplætfɔːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "платформа"
+   },
+   "example": "Platform three.",
+   "exampleTranslation": {
+    "uk": "Третя платформа."
+   }
+  },
+  {
+   "id": "ticket_office",
+   "text": "ticket office",
+   "ipa": "/ˈtɪkɪt ˌɒfɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "квиткова каса"
+   },
+   "example": "Where is the ticket office?",
+   "exampleTranslation": {
+    "uk": "Де каса?"
+   }
+  },
+  {
+   "id": "timetable",
+   "text": "timetable",
+   "ipa": "/ˈtaɪmteɪbl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "розклад"
+   },
+   "example": "Look at the timetable.",
+   "exampleTranslation": {
+    "uk": "Подивіться на розклад."
+   }
+  },
+  {
+   "id": "departures",
+   "text": "departures",
+   "ipa": "/dɪˈpɑːtʃəz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "відправлення"
+   },
+   "example": "Departures are on the left.",
+   "exampleTranslation": {
+    "uk": "Відправлення ліворуч."
+   }
+  },
+  {
+   "id": "arrivals",
+   "text": "arrivals",
+   "ipa": "/əˈraɪvlz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "прибуття"
+   },
+   "example": "Arrivals are on the right.",
+   "exampleTranslation": {
+    "uk": "Прибуття праворуч."
+   }
+  },
+  {
+   "id": "waiting_room",
+   "text": "waiting room",
+   "ipa": "/ˈweɪtɪŋ ruːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "зал очікування"
+   },
+   "example": "The waiting room is over there.",
+   "exampleTranslation": {
+    "uk": "Зал очікування он там."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How long does it take?",
+   "prompt": {
+    "uk": "Повторимо. Дорога триває дві години. Що відповісти?"
+   },
+   "options": [
+    "It takes two hours.",
+    "It take two hours.",
+    "It's takes two hour."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It takes two hours."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "platform",
+     "right": {
+      "uk": "платформа"
+     }
+    },
+    {
+     "left": "ticket office",
+     "right": {
+      "uk": "каса"
+     }
+    },
+    {
+     "left": "timetable",
+     "right": {
+      "uk": "розклад"
+     }
+    },
+    {
+     "left": "waiting room",
+     "right": {
+      "uk": "зал очікування"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Місця на вокзалі."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "departures",
+     "right": {
+      "uk": "відправлення"
+     }
+    },
+    {
+     "left": "arrivals",
+     "right": {
+      "uk": "прибуття"
+     }
+    },
+    {
+     "left": "entrance",
+     "right": {
+      "uk": "вхід"
+     }
+    },
+    {
+     "left": "exit",
+     "right": {
+      "uk": "вихід"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Написи на табло й табличках."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Where is the ticket office?",
+   "prompt": {
+    "uk": "Прослухайте. Що шукає людина?"
+   },
+   "options": {
+    "uk": [
+     "Касу",
+     "Платформу",
+     "Зал очікування"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ticket office — каса."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The train to London is on platform five.",
+   "prompt": {
+    "uk": "Прослухайте. З якої платформи поїзд?"
+   },
+   "options": {
+    "uk": [
+     "З п'ятої",
+     "З дев'ятої",
+     "З четвертої"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Platform five."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви зустрічаєте друга з поїзда. Яке табло дивитися?"
+   },
+   "options": {
+    "uk": [
+     "Arrivals",
+     "Departures",
+     "Timetable"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Arrivals — прибуття."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви їдете самі. Яке табло дивитися?"
+   },
+   "options": {
+    "uk": [
+     "Departures",
+     "Arrivals",
+     "Exit"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Departures — відправлення."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Look at the ___. The train is at ten fifteen.",
+   "options": [
+    "timetable",
+    "platform",
+    "arrivals"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Час дивляться в розкладі."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The train is on ___ two.",
+   "options": [
+    "platform",
+    "timetable",
+    "office"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Platform two."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Де квиткова каса?"
+   },
+   "words": [
+    "Where",
+    "is",
+    "the",
+    "ticket",
+    "office",
+    "are",
+    "room"
+   ],
+   "answer": [
+    "Where",
+    "is",
+    "the",
+    "ticket",
+    "office"
+   ],
+   "explanation": {
+    "uk": "Where is the ticket office?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Третя платформа."
+   },
+   "answers": [
+    "Platform three"
+   ],
+   "explanation": {
+    "uk": "Platform three — число після слова."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Excuse me, where is platform four?",
+   "prompt": {
+    "uk": "Четверта платформа он там, ліворуч. Що відповісти?"
+   },
+   "options": [
+    "It's over there, on the left.",
+    "It's there over, in left.",
+    "Platform is four left."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's over there, on the left."
+   }
+  }
+ ]
+}

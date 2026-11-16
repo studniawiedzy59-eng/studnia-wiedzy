@@ -1,0 +1,306 @@
+{
+ "id": "u24_l03",
+ "unit": "u24",
+ "cefr": "A0",
+ "title": {
+  "uk": "В автобусі"
+ },
+ "goal": {
+  "uk": "Спитати, чи автобус їде туди, куди треба, і де виходити."
+ },
+ "rule": {
+  "uk": "Does this bus go to the centre? — «Цей автобус їде до центру?». Get on — сідати в транспорт, get off — виходити. The next stop — наступна зупинка. Where do I get off? — «Де мені виходити?»"
+ },
+ "words": [
+  {
+   "id": "get_on",
+   "text": "get on",
+   "ipa": "/ˌɡet ˈɒn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "сідати (в автобус, поїзд)"
+   },
+   "example": "Get on the bus here.",
+   "exampleTranslation": {
+    "uk": "Сідайте на автобус тут."
+   }
+  },
+  {
+   "id": "get_off",
+   "text": "get off",
+   "ipa": "/ˌɡet ˈɒf/",
+   "pos": "verb",
+   "translation": {
+    "uk": "виходити (з транспорту)"
+   },
+   "example": "Get off at the next stop.",
+   "exampleTranslation": {
+    "uk": "Виходьте на наступній зупинці."
+   }
+  },
+  {
+   "id": "stop",
+   "text": "stop",
+   "ipa": "/stɒp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "зупинка"
+   },
+   "example": "The next stop.",
+   "exampleTranslation": {
+    "uk": "Наступна зупинка."
+   }
+  },
+  {
+   "id": "seat",
+   "text": "seat",
+   "ipa": "/siːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "місце для сидіння"
+   },
+   "example": "Is this seat free?",
+   "exampleTranslation": {
+    "uk": "Це місце вільне?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ to Oxford, please. Not a single.",
+   "options": [
+    "return",
+    "single",
+    "fare"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Туди й назад — a return."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "get on",
+     "right": {
+      "uk": "сідати"
+     }
+    },
+    {
+     "left": "get off",
+     "right": {
+      "uk": "виходити"
+     }
+    },
+    {
+     "left": "stop",
+     "right": {
+      "uk": "зупинка"
+     }
+    },
+    {
+     "left": "seat",
+     "right": {
+      "uk": "місце"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Get on і get off — протилежні дії."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Does this bus go to the station?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає пасажир?"
+   },
+   "options": {
+    "uk": [
+     "Чи їде автобус до вокзалу",
+     "Де вокзал",
+     "Коли автобус до вокзалу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Does this bus go to…?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Get off at the next stop.",
+   "prompt": {
+    "uk": "Прослухайте. Де виходити?"
+   },
+   "options": {
+    "uk": [
+     "На наступній зупинці",
+     "На останній зупинці",
+     "Біля вокзалу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The next stop."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Take the number twelve.",
+   "prompt": {
+    "uk": "Прослухайте. Який автобус потрібен?"
+   },
+   "options": {
+    "uk": [
+     "12",
+     "20",
+     "2"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Number twelve — дванадцятий."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Where do I get ___? — At the museum.",
+   "options": [
+    "off",
+    "on",
+    "to"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Виходити — get off."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ this bus go to the airport?",
+   "options": [
+    "Does",
+    "Do",
+    "Is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This bus — it: Does."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Excuse me, is this ___ free?",
+   "options": [
+    "seat",
+    "stop",
+    "fare"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Seat — місце."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати, де виходити?"
+   },
+   "options": [
+    "Where do I get off?",
+    "Where I get off?",
+    "Where do I off get?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Where do I get off?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Цей автобус їде до центру?"
+   },
+   "words": [
+    "Does",
+    "this",
+    "bus",
+    "go",
+    "to",
+    "the",
+    "centre",
+    "is"
+   ],
+   "answer": [
+    "Does",
+    "this",
+    "bus",
+    "go",
+    "to",
+    "the",
+    "centre"
+   ],
+   "explanation": {
+    "uk": "Does this bus go to the centre?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це місце вільне?"
+   },
+   "answers": [
+    "Is this seat free"
+   ],
+   "explanation": {
+    "uk": "Is this seat free?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Does this bus go to the centre?",
+   "prompt": {
+    "uk": "Ні, потрібен п'ятий номер. Що відповість водій?"
+   },
+   "options": [
+    "No, take the number five.",
+    "No, it is number five go.",
+    "Yes, take the number five."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, take the number five."
+   }
+  }
+ ]
+}

@@ -1,0 +1,323 @@
+{
+ "id": "u26_l05",
+ "unit": "u26",
+ "cefr": "A0",
+ "title": {
+  "uk": "Після прильоту"
+ },
+ "goal": {
+  "uk": "Пройти паспортний контроль і забрати багаж."
+ },
+ "rule": {
+  "uk": "Після прильоту: passport control — паспортний контроль, baggage reclaim — видача багажу, customs — митниця. На контролі питають: What's the purpose of your visit? — «Яка мета вашого візиту?». Відповідь: On holiday або On business. For two weeks — на два тижні."
+ },
+ "words": [
+  {
+   "id": "passport_control",
+   "text": "passport control",
+   "ipa": "/ˈpɑːspɔːt kənˌtrəʊl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "паспортний контроль"
+   },
+   "example": "Go to passport control.",
+   "exampleTranslation": {
+    "uk": "Ідіть на паспортний контроль."
+   }
+  },
+  {
+   "id": "baggage_reclaim",
+   "text": "baggage reclaim",
+   "ipa": "/ˈbæɡɪdʒ rɪˌkleɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "видача багажу"
+   },
+   "example": "Where is baggage reclaim?",
+   "exampleTranslation": {
+    "uk": "Де видача багажу?"
+   }
+  },
+  {
+   "id": "customs",
+   "text": "customs",
+   "ipa": "/ˈkʌstəmz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "митниця"
+   },
+   "example": "Go through customs.",
+   "exampleTranslation": {
+    "uk": "Пройдіть митницю."
+   }
+  },
+  {
+   "id": "purpose",
+   "text": "purpose",
+   "ipa": "/ˈpɜːpəs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мета"
+   },
+   "example": "The purpose of your visit.",
+   "exampleTranslation": {
+    "uk": "Мета вашого візиту."
+   }
+  },
+  {
+   "id": "on_business",
+   "text": "on business",
+   "ipa": "/ɒn ˈbɪznəs/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "у справах, у відрядженні"
+   },
+   "example": "I'm here on business.",
+   "exampleTranslation": {
+    "uk": "Я тут у справах."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Your seat is in row ten.",
+   "prompt": {
+    "uk": "Повторимо. Вам назвали ряд. Як подякувати?"
+   },
+   "options": [
+    "Thank you.",
+    "You're welcome.",
+    "Here you are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thank you."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "passport control",
+     "right": {
+      "uk": "паспортний контроль"
+     }
+    },
+    {
+     "left": "baggage reclaim",
+     "right": {
+      "uk": "видача багажу"
+     }
+    },
+    {
+     "left": "customs",
+     "right": {
+      "uk": "митниця"
+     }
+    },
+    {
+     "left": "purpose",
+     "right": {
+      "uk": "мета"
+     }
+    },
+    {
+     "left": "on business",
+     "right": {
+      "uk": "у справах"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Після прильоту йдуть саме в такому порядку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "What's the purpose of your visit?",
+   "prompt": {
+    "uk": "Прослухайте. Що питають на контролі?"
+   },
+   "options": {
+    "uk": [
+     "Мету візиту",
+     "Звідки ви",
+     "На скільки ви приїхали"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The purpose of your visit."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'm here on holiday for two weeks.",
+   "prompt": {
+    "uk": "Прослухайте. Що відповів пасажир?"
+   },
+   "options": {
+    "uk": [
+     "У відпустці, на два тижні",
+     "У справах, на два тижні",
+     "У відпустці, на два дні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On holiday, for two weeks."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Where is baggage reclaim?",
+   "prompt": {
+    "uk": "Прослухайте. Що шукає пасажир?"
+   },
+   "options": {
+    "uk": [
+     "Видачу багажу",
+     "Митницю",
+     "Паспортний контроль"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Baggage reclaim."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm here ___ business.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On business."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm here ___ ten days.",
+   "options": [
+    "for",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "For ten days — на десять днів."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What's the ___ of your visit?",
+   "options": [
+    "purpose",
+    "customs",
+    "control"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The purpose of your visit."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Де ви забираєте валізу?"
+   },
+   "options": {
+    "uk": [
+     "baggage reclaim",
+     "passport control",
+     "check-in"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Baggage reclaim."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я тут у відпустці."
+   },
+   "words": [
+    "I'm",
+    "here",
+    "on",
+    "holiday",
+    "business",
+    "in"
+   ],
+   "answer": [
+    "I'm",
+    "here",
+    "on",
+    "holiday"
+   ],
+   "explanation": {
+    "uk": "I'm here on holiday."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Де видача багажу?"
+   },
+   "answers": [
+    "Where is baggage reclaim",
+    "Where is the baggage reclaim"
+   ],
+   "explanation": {
+    "uk": "Where is baggage reclaim?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What's the purpose of your visit?",
+   "prompt": {
+    "uk": "Ви приїхали у справах. Що відповісти?"
+   },
+   "options": [
+    "I'm here on business.",
+    "I'm here in business.",
+    "My purpose is customs."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm here on business."
+   }
+  }
+ ]
+}

@@ -1,0 +1,306 @@
+{
+ "id": "u25_l02",
+ "unit": "u25",
+ "cefr": "A0",
+ "title": {
+  "uk": "Купуємо квиток на поїзд"
+ },
+ "goal": {
+  "uk": "Купити квиток у касі: куди, який, для кого."
+ },
+ "rule": {
+  "uk": "Повна фраза в касі: A return to Oxford, please. Касир може спитати: First or second class? — «Перший чи другий клас?». Квитки бувають для дорослих і дітей: one adult and one child. The next train — найближчий поїзд."
+ },
+ "words": [
+  {
+   "id": "class",
+   "text": "class",
+   "ipa": "/klɑːs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "клас"
+   },
+   "example": "Second class, please.",
+   "exampleTranslation": {
+    "uk": "Другий клас, будь ласка."
+   }
+  },
+  {
+   "id": "adult",
+   "text": "adult",
+   "ipa": "/ˈædʌlt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дорослий"
+   },
+   "example": "Two adults, please.",
+   "exampleTranslation": {
+    "uk": "Два дорослих, будь ласка."
+   }
+  },
+  {
+   "id": "carriage",
+   "text": "carriage",
+   "ipa": "/ˈkærɪdʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вагон"
+   },
+   "example": "Carriage number four.",
+   "exampleTranslation": {
+    "uk": "Четвертий вагон."
+   }
+  },
+  {
+   "id": "the_next_train",
+   "text": "the next train",
+   "ipa": "/ðə ˌnekst ˈtreɪn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "найближчий поїзд"
+   },
+   "example": "When is the next train?",
+   "exampleTranslation": {
+    "uk": "Коли найближчий поїзд?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "The train to Oxford is on ___ six.",
+   "options": [
+    "platform",
+    "timetable",
+    "arrivals"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Platform six."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "class",
+     "right": {
+      "uk": "клас"
+     }
+    },
+    {
+     "left": "adult",
+     "right": {
+      "uk": "дорослий"
+     }
+    },
+    {
+     "left": "carriage",
+     "right": {
+      "uk": "вагон"
+     }
+    },
+    {
+     "left": "the next train",
+     "right": {
+      "uk": "найближчий поїзд"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова з квитка."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "First or second class?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає касир?"
+   },
+   "options": {
+    "uk": [
+     "Перший чи другий клас",
+     "Один чи два квитки",
+     "Сьогодні чи завтра"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "First or second class?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "When is the next train to London?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає пасажир?"
+   },
+   "options": {
+    "uk": [
+     "Коли найближчий поїзд до Лондона",
+     "Де поїзд до Лондона",
+     "Скільки коштує до Лондона"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The next train — найближчий поїзд."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Two adults and one child, please.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки квитків і для кого?"
+   },
+   "options": {
+    "uk": [
+     "Два дорослих і один дитячий",
+     "Один дорослий і два дитячих",
+     "Три дорослих"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Two adults, one child."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як попросити квиток туди й назад до Оксфорда?"
+   },
+   "options": [
+    "A return to Oxford, please.",
+    "A return for Oxford, please.",
+    "Return Oxford to, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A return to Oxford, please."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "One ___ and two children, please.",
+   "options": [
+    "adult",
+    "class",
+    "carriage"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "One adult."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Second ___, please.",
+   "options": [
+    "class",
+    "adult",
+    "train"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Second class."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "When is the ___ train to the airport?",
+   "options": [
+    "next",
+    "adult",
+    "class"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The next train."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Коли найближчий поїзд до Лондона?"
+   },
+   "words": [
+    "When",
+    "is",
+    "the",
+    "next",
+    "train",
+    "to",
+    "London",
+    "class"
+   ],
+   "answer": [
+    "When",
+    "is",
+    "the",
+    "next",
+    "train",
+    "to",
+    "London"
+   ],
+   "explanation": {
+    "uk": "When is the next train to London?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Два дорослих, будь ласка."
+   },
+   "answers": [
+    "Two adults, please"
+   ],
+   "explanation": {
+    "uk": "Two adults, please."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "First or second class?",
+   "prompt": {
+    "uk": "Вам потрібен другий клас. Що відповісти?"
+   },
+   "options": [
+    "Second class, please.",
+    "Class second, please.",
+    "Two class, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Second class, please."
+   }
+  }
+ ]
+}

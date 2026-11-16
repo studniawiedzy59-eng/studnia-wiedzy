@@ -1,0 +1,228 @@
+{
+ "id": "u24_l06",
+ "unit": "u24",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: у дорозі містом"
+ },
+ "goal": {
+  "uk": "Вибрати транспорт, купити квиток і доїхати куди треба."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: by tram і by taxi, a single і a return, get on і get off, Does this bus go to…?, Keep the change, How long does it take?"
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I go to work ___ underground. It's fast.",
+   "options": [
+    "by",
+    "on",
+    "with"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "By underground."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "Single or return?",
+   "prompt": {
+    "uk": "Ви їдете й повертаєтеся. Що відповісти?"
+   },
+   "options": [
+    "Return, please.",
+    "Single, please.",
+    "Two, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Return, please."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Цей автобус їде до аеропорту?"
+   },
+   "words": [
+    "Does",
+    "this",
+    "bus",
+    "go",
+    "to",
+    "the",
+    "airport",
+    "do"
+   ],
+   "answer": [
+    "Does",
+    "this",
+    "bus",
+    "go",
+    "to",
+    "the",
+    "airport"
+   ],
+   "explanation": {
+    "uk": "Does this bus go to the airport?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Де мені виходити?"
+   },
+   "answers": [
+    "Where do I get off"
+   ],
+   "explanation": {
+    "uk": "Where do I get off?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Take the number seven and get off at the third stop.",
+   "prompt": {
+    "uk": "Прослухайте. Де виходити?"
+   },
+   "options": {
+    "uk": [
+     "На третій зупинці",
+     "На сьомій зупинці",
+     "На наступній зупинці"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The third stop."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How long does it ___? — About an hour.",
+   "options": [
+    "take",
+    "takes",
+    "taking"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після does — take."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Це прямий поїзд?»"
+   },
+   "options": [
+    "Is it a direct train?",
+    "Does it a direct train?",
+    "Is it direct a train?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is it a direct train?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Скільки коштує до вокзалу?"
+   },
+   "answers": [
+    "How much is it to the station"
+   ],
+   "explanation": {
+    "uk": "How much is it to the station?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "The journey takes two hours. You change at Oxford.",
+   "prompt": {
+    "uk": "Прослухайте. Що відбувається в Оксфорді?"
+   },
+   "options": {
+    "uk": [
+     "Пересадка",
+     "Кінець поїздки",
+     "Початок поїздки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "You change at Oxford."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви в таксі, приїхали. Що сказати водієві?"
+   },
+   "options": [
+    "Stop here, please.",
+    "Get off here me.",
+    "Here change, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Stop here, please."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Is this seat free?",
+   "prompt": {
+    "uk": "Місце вільне. Що відповісти?"
+   },
+   "options": [
+    "Yes, it is.",
+    "Yes, it does.",
+    "Yes, I'm free."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it is."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "That's nine pounds fifty.",
+   "prompt": {
+    "uk": "Ви даєте десять і решти не хочете. Що сказати?"
+   },
+   "options": [
+    "Here's ten. Keep the change.",
+    "Here's ten. Change me.",
+    "Ten, you're welcome."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Here's ten. Keep the change."
+   }
+  }
+ ]
+}

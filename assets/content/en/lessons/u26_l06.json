@@ -1,0 +1,228 @@
+{
+ "id": "u26_l06",
+ "unit": "u26",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: від реєстрації до виходу з аеропорту"
+ },
+ "goal": {
+  "uk": "Пройти весь аеропорт: реєстрація, контроль, посадка, прильот."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: I'd like to check in, hand luggage, Put… і Take off…, gate, boarding, final call, passport control, On holiday і On business."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я хотів би зареєструватися."
+   },
+   "words": [
+    "I'd",
+    "like",
+    "to",
+    "check",
+    "in",
+    "on",
+    "off"
+   ],
+   "answer": [
+    "I'd",
+    "like",
+    "to",
+    "check",
+    "in"
+   ],
+   "explanation": {
+    "uk": "I'd like to check in."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "Do you have any luggage?",
+   "prompt": {
+    "uk": "У вас одна валіза й ручна поклажа. Що відповісти?"
+   },
+   "options": [
+    "One suitcase and hand luggage.",
+    "One luggage and hand suitcase heavy.",
+    "Yes, I'm luggage."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "One suitcase and hand luggage."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ your phone in the tray, please.",
+   "options": [
+    "Put",
+    "Take off",
+    "Check in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Put."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мій рейс затримується."
+   },
+   "answers": [
+    "My flight is delayed"
+   ],
+   "explanation": {
+    "uk": "My flight is delayed."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The flight to Kyiv is now boarding at gate nine.",
+   "prompt": {
+    "uk": "Прослухайте. Що відбувається?"
+   },
+   "options": {
+    "uk": [
+     "Триває посадка на рейс до Києва, вихід 9",
+     "Рейс до Києва затримується",
+     "Рейс до Києва прибув, вихід 9"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Now boarding at gate nine."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My seat is in ___ eighteen.",
+   "options": [
+    "row",
+    "queue",
+    "gate"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Row eighteen."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "My suitcase is too heavy.",
+    "My suitcase is too much heavy.",
+    "My suitcase too heavy is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Too heavy."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я тут на два тижні."
+   },
+   "answers": [
+    "I'm here for two weeks",
+    "I am here for two weeks"
+   ],
+   "explanation": {
+    "uk": "I'm here for two weeks."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "Take off your belt and put your bag in the tray.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зняти?"
+   },
+   "options": {
+    "uk": [
+     "Ремінь",
+     "Взуття",
+     "Куртку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Take off your belt."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що йде одразу після прильоту?"
+   },
+   "options": {
+    "uk": [
+     "passport control",
+     "check-in",
+     "boarding"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Після прильоту — passport control."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What's the purpose of your visit?",
+   "prompt": {
+    "uk": "Ви приїхали у відпустку. Що відповісти?"
+   },
+   "options": [
+    "I'm here on holiday.",
+    "I'm here on business.",
+    "I'm holiday here."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm here on holiday."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Window or aisle?",
+   "prompt": {
+    "uk": "Ви хочете біля проходу. Що відповісти?"
+   },
+   "options": [
+    "Aisle, please.",
+    "Window, please.",
+    "Row, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Aisle, please."
+   }
+  }
+ ]
+}

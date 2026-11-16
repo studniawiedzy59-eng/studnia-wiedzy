@@ -1,0 +1,320 @@
+{
+ "id": "u24_l04",
+ "unit": "u24",
+ "cefr": "A0",
+ "title": {
+  "uk": "У таксі"
+ },
+ "goal": {
+  "uk": "Сказати таксистові адресу, спитати ціну й розплатитися."
+ },
+ "rule": {
+  "uk": "Can you take me to…? — «Відвезіть мене до…». How much is it to the airport? — «Скільки коштує до аеропорту?». Stop here, please — «зупиніться тут». Keep the change — «решти не треба»."
+ },
+ "words": [
+  {
+   "id": "airport",
+   "text": "airport",
+   "ipa": "/ˈeəpɔːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "аеропорт"
+   },
+   "example": "To the airport, please.",
+   "exampleTranslation": {
+    "uk": "До аеропорту, будь ласка."
+   }
+  },
+  {
+   "id": "keep_the_change",
+   "text": "keep the change",
+   "ipa": "/ˌkiːp ðə ˈtʃeɪndʒ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "решти не треба"
+   },
+   "example": "Here's twenty. Keep the change.",
+   "exampleTranslation": {
+    "uk": "Ось двадцять. Решти не треба."
+   }
+  },
+  {
+   "id": "traffic",
+   "text": "traffic",
+   "ipa": "/ˈtræfɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рух транспорту, затори"
+   },
+   "example": "There's a lot of traffic.",
+   "exampleTranslation": {
+    "uk": "На дорогах великий рух."
+   }
+  },
+  {
+   "id": "fast",
+   "text": "fast",
+   "ipa": "/fɑːst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "швидкий, швидко"
+   },
+   "example": "The train is fast.",
+   "exampleTranslation": {
+    "uk": "Поїзд швидкий."
+   }
+  },
+  {
+   "id": "slow",
+   "text": "slow",
+   "ipa": "/sləʊ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "повільний"
+   },
+   "example": "The bus is slow.",
+   "exampleTranslation": {
+    "uk": "Автобус повільний."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where do I get off?",
+   "prompt": {
+    "uk": "Повторимо. Вам на наступній. Що відповість водій?"
+   },
+   "options": [
+    "At the next stop.",
+    "On next the stop.",
+    "At the seat."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At the next stop."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "airport",
+     "right": {
+      "uk": "аеропорт"
+     }
+    },
+    {
+     "left": "traffic",
+     "right": {
+      "uk": "рух транспорту"
+     }
+    },
+    {
+     "left": "fast",
+     "right": {
+      "uk": "швидкий"
+     }
+    },
+    {
+     "left": "slow",
+     "right": {
+      "uk": "повільний"
+     }
+    },
+    {
+     "left": "keep the change",
+     "right": {
+      "uk": "решти не треба"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Fast і slow — протилежні слова."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Can you take me to the airport, please?",
+   "prompt": {
+    "uk": "Прослухайте. Куди їде пасажир?"
+   },
+   "options": {
+    "uk": [
+     "До аеропорту",
+     "До вокзалу",
+     "До готелю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "To the airport."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There's a lot of traffic today.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже водій?"
+   },
+   "options": {
+    "uk": [
+     "Сьогодні великий рух",
+     "Сьогодні мало машин",
+     "Сьогодні дорога закрита"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A lot of traffic — багато машин."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати таксистові, щоб зупинився?"
+   },
+   "options": [
+    "Stop here, please.",
+    "Stop you here.",
+    "Here stop me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Stop here, please."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає Keep the change?"
+   },
+   "options": {
+    "uk": [
+     "Решти не треба",
+     "Дайте решту",
+     "Розміняйте гроші"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Keep the change."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How much is it ___ the station?",
+   "options": [
+    "to",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "To the station."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can you ___ me to this address, please?",
+   "options": [
+    "take",
+    "get",
+    "go"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Take me to…"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The underground is ___. The bus is slow.",
+   "options": [
+    "fast",
+    "late",
+    "far"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fast — швидкий."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "До аеропорту, будь ласка."
+   },
+   "words": [
+    "To",
+    "the",
+    "airport",
+    "please",
+    "at",
+    "a"
+   ],
+   "answer": [
+    "To",
+    "the",
+    "airport",
+    "please"
+   ],
+   "explanation": {
+    "uk": "To the airport, please."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Зупиніться тут, будь ласка."
+   },
+   "answers": [
+    "Stop here, please",
+    "Please stop here"
+   ],
+   "explanation": {
+    "uk": "Stop here, please."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "That's eighteen pounds.",
+   "prompt": {
+    "uk": "Ви даєте двадцять і решти не хочете. Що сказати?"
+   },
+   "options": [
+    "Here's twenty. Keep the change.",
+    "Here's twenty. Keep the traffic.",
+    "Twenty change, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Here's twenty. Keep the change."
+   }
+  }
+ ]
+}

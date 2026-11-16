@@ -1,0 +1,326 @@
+{
+ "id": "u25_l05",
+ "unit": "u25",
+ "cefr": "A0",
+ "title": {
+  "uk": "Оголошення"
+ },
+ "goal": {
+  "uk": "Зрозуміти найважливіше в оголошеннях на вокзалі й у поїзді."
+ },
+ "rule": {
+  "uk": "Оголошення починаються словом Attention, please. Далі — куди, коли і з якої платформи: The train to Oxford leaves from platform two. У поїзді: The next station is… У метро: Mind the gap — «обережно, проміжок між вагоном і платформою»."
+ },
+ "words": [
+  {
+   "id": "attention",
+   "text": "attention",
+   "ipa": "/əˈtenʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "увага"
+   },
+   "example": "Attention, please.",
+   "exampleTranslation": {
+    "uk": "Увага, будь ласка."
+   }
+  },
+  {
+   "id": "passenger",
+   "text": "passenger",
+   "ipa": "/ˈpæsɪndʒə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пасажир"
+   },
+   "example": "All passengers.",
+   "exampleTranslation": {
+    "uk": "Усі пасажири."
+   }
+  },
+  {
+   "id": "mind_the_gap",
+   "text": "mind the gap",
+   "ipa": "/ˌmaɪnd ðə ˈɡæp/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "обережно, проміжок"
+   },
+   "example": "Please mind the gap.",
+   "exampleTranslation": {
+    "uk": "Будьте обережні, проміжок."
+   }
+  },
+  {
+   "id": "the_next_station",
+   "text": "the next station",
+   "ipa": "/ðə ˌnekst ˈsteɪʃn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "наступна станція"
+   },
+   "example": "The next station is Oxford.",
+   "exampleTranslation": {
+    "uk": "Наступна станція — Оксфорд."
+   }
+  },
+  {
+   "id": "change_here",
+   "text": "change here",
+   "ipa": "/ˌtʃeɪndʒ ˈhɪə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "пересадка тут"
+   },
+   "example": "Change here for the airport.",
+   "exampleTranslation": {
+    "uk": "Тут пересадка до аеропорту."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is this seat free?",
+   "prompt": {
+    "uk": "Повторимо. Місце зайняте. Що відповісти?"
+   },
+   "options": [
+    "Sorry, it's taken.",
+    "Sorry, it's free.",
+    "Yes, it's taken."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sorry, it's taken."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "attention",
+     "right": {
+      "uk": "увага"
+     }
+    },
+    {
+     "left": "passenger",
+     "right": {
+      "uk": "пасажир"
+     }
+    },
+    {
+     "left": "the next station",
+     "right": {
+      "uk": "наступна станція"
+     }
+    },
+    {
+     "left": "change here",
+     "right": {
+      "uk": "пересадка тут"
+     }
+    },
+    {
+     "left": "mind the gap",
+     "right": {
+      "uk": "обережно, проміжок"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова з оголошень."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Attention, please. The train to London is delayed.",
+   "prompt": {
+    "uk": "Прослухайте оголошення. Що сталося?"
+   },
+   "options": {
+    "uk": [
+     "Поїзд до Лондона затримується",
+     "Поїзд до Лондона скасовано",
+     "Поїзд до Лондона прибув"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Delayed."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The train to Oxford leaves from platform seven at ten twenty.",
+   "prompt": {
+    "uk": "Прослухайте. Яка платформа й котра година?"
+   },
+   "options": {
+    "uk": [
+     "Платформа 7, 10:20",
+     "Платформа 10, 7:20",
+     "Платформа 7, 10:12"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Platform seven, ten twenty."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The next station is Victoria. Change here for the airport.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити, якщо вам в аеропорт?"
+   },
+   "options": {
+    "uk": [
+     "Пересісти на Victoria",
+     "Їхати далі",
+     "Вийти на наступній після Victoria"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Change here for the airport."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "Please mind the gap.",
+   "prompt": {
+    "uk": "Прослухайте. Про що попереджають?"
+   },
+   "options": {
+    "uk": [
+     "Про проміжок між вагоном і платформою",
+     "Про затримку поїзда",
+     "Про зачинені двері"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Mind the gap."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___, please. The train is cancelled.",
+   "options": [
+    "Attention",
+    "Passenger",
+    "Station"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Attention, please."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ station is London.",
+   "options": [
+    "next",
+    "gap",
+    "here"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The next station."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Хто такі passengers?"
+   },
+   "options": {
+    "uk": [
+     "Люди, які їдуть у транспорті",
+     "Працівники вокзалу",
+     "Водії"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Passengers — пасажири."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Наступна станція — Оксфорд."
+   },
+   "words": [
+    "The",
+    "next",
+    "station",
+    "is",
+    "Oxford",
+    "stop",
+    "are"
+   ],
+   "answer": [
+    "The",
+    "next",
+    "station",
+    "is",
+    "Oxford"
+   ],
+   "explanation": {
+    "uk": "The next station is Oxford."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Увага, будь ласка."
+   },
+   "answers": [
+    "Attention, please"
+   ],
+   "explanation": {
+    "uk": "Attention, please."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Excuse me, is the next station Oxford?",
+   "prompt": {
+    "uk": "Так, наступна — Оксфорд. Що відповісти?"
+   },
+   "options": [
+    "Yes, it is.",
+    "Yes, it does.",
+    "Yes, it's next the."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it is."
+   }
+  }
+ ]
+}

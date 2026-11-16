@@ -1,0 +1,325 @@
+{
+ "id": "u24_l05",
+ "unit": "u24",
+ "cefr": "A0",
+ "title": {
+  "uk": "Скільки триває дорога?"
+ },
+ "goal": {
+  "uk": "Спитати про тривалість поїздки й пересадки."
+ },
+ "rule": {
+  "uk": "How long does it take? — «Скільки це триває?». Відповідь: It takes twenty minutes. Change — «пересідати»: Change at Victoria. Ви знаєте change як «решту»; у транспорті це пересадка. A direct train — прямий поїзд, без пересадок."
+ },
+ "words": [
+  {
+   "id": "it_takes",
+   "text": "it takes",
+   "ipa": "/ɪt ˈteɪks/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "це триває, займає"
+   },
+   "example": "It takes an hour.",
+   "exampleTranslation": {
+    "uk": "Це триває годину."
+   }
+  },
+  {
+   "id": "change",
+   "text": "change",
+   "ipa": "/tʃeɪndʒ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "пересідати"
+   },
+   "example": "Change at the next station.",
+   "exampleTranslation": {
+    "uk": "Пересядьте на наступній станції."
+   }
+  },
+  {
+   "id": "direct",
+   "text": "direct",
+   "ipa": "/dəˈrekt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "прямий, без пересадок"
+   },
+   "example": "A direct train.",
+   "exampleTranslation": {
+    "uk": "Прямий поїзд."
+   }
+  },
+  {
+   "id": "line",
+   "text": "line",
+   "ipa": "/laɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "лінія"
+   },
+   "example": "The red line.",
+   "exampleTranslation": {
+    "uk": "Червона лінія."
+   }
+  },
+  {
+   "id": "journey",
+   "text": "journey",
+   "ipa": "/ˈdʒɜːni/",
+   "pos": "noun",
+   "translation": {
+    "uk": "поїздка, дорога"
+   },
+   "example": "A long journey.",
+   "exampleTranslation": {
+    "uk": "Довга дорога."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Can you ___ me to the airport?",
+   "options": [
+    "take",
+    "keep",
+    "stop"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Take me to…"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "it takes",
+     "right": {
+      "uk": "це триває"
+     }
+    },
+    {
+     "left": "change",
+     "right": {
+      "uk": "пересідати"
+     }
+    },
+    {
+     "left": "direct",
+     "right": {
+      "uk": "прямий"
+     }
+    },
+    {
+     "left": "line",
+     "right": {
+      "uk": "лінія"
+     }
+    },
+    {
+     "left": "journey",
+     "right": {
+      "uk": "поїздка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про дорогу."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "How long does it take?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Скільки це триває",
+     "Як це далеко",
+     "Скільки це коштує"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "How long does it take?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It takes about forty minutes.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки триває дорога?"
+   },
+   "options": {
+    "uk": [
+     "Приблизно 40 хвилин",
+     "Приблизно 14 хвилин",
+     "4 години"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Forty minutes."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Take the blue line and change at the centre.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити в центрі?"
+   },
+   "options": {
+    "uk": [
+     "Пересісти",
+     "Вийти й іти пішки",
+     "Купити квиток"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Change — пересісти."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How long ___ it take?",
+   "options": [
+    "does",
+    "is",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How long does it take?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It ___ two hours by train.",
+   "options": [
+    "takes",
+    "take",
+    "is taking"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It takes."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is it a ___ train, or do I change?",
+   "options": [
+    "direct",
+    "slow",
+    "journey"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A direct train — без пересадок."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає Change at Victoria?"
+   },
+   "options": {
+    "uk": [
+     "Пересядьте на станції Victoria",
+     "Візьміть решту на Victoria",
+     "Вийдіть на Victoria"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Change — пересідати."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Скільки це триває?"
+   },
+   "words": [
+    "How",
+    "long",
+    "does",
+    "it",
+    "take",
+    "far",
+    "is"
+   ],
+   "answer": [
+    "How",
+    "long",
+    "does",
+    "it",
+    "take"
+   ],
+   "explanation": {
+    "uk": "How long does it take?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це триває годину."
+   },
+   "answers": [
+    "It takes an hour",
+    "It takes one hour"
+   ],
+   "explanation": {
+    "uk": "It takes an hour."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How long does the journey take?",
+   "prompt": {
+    "uk": "Дорога триває приблизно три години. Що відповісти?"
+   },
+   "options": [
+    "It takes about three hours.",
+    "It takes about three hour.",
+    "It's take three hours."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It takes about three hours."
+   }
+  }
+ ]
+}

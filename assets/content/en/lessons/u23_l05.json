@@ -1,0 +1,325 @@
+{
+ "id": "u23_l05",
+ "unit": "u23",
+ "cefr": "A0",
+ "title": {
+  "uk": "Дуже дякую!"
+ },
+ "goal": {
+  "uk": "Перепитати, якщо не зрозуміли, і подякувати за допомогу."
+ },
+ "rule": {
+  "uk": "Якщо не зрозуміли: Could you show me on the map? Перевірити напрямок: Is this the right way to the station? Якщо пішли не туди, вам скажуть Go back — «поверніться». Подяка: Thank you very much. Відповідь: You're welcome — «будь ласка, прошу»."
+ },
+ "words": [
+  {
+   "id": "youre_welcome",
+   "text": "you're welcome",
+   "ipa": "/jɔː ˈwelkəm/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "будь ласка (у відповідь на подяку)"
+   },
+   "example": "Thank you. — You're welcome.",
+   "exampleTranslation": {
+    "uk": "Дякую. — Будь ласка."
+   }
+  },
+  {
+   "id": "very_much",
+   "text": "very much",
+   "ipa": "/ˌveri ˈmʌtʃ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "дуже"
+   },
+   "example": "Thank you very much.",
+   "exampleTranslation": {
+    "uk": "Дуже дякую."
+   }
+  },
+  {
+   "id": "go_back",
+   "text": "go back",
+   "ipa": "/ˌɡəʊ ˈbæk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "повертатися назад"
+   },
+   "example": "Go back to the corner.",
+   "exampleTranslation": {
+    "uk": "Поверніться до рогу."
+   }
+  },
+  {
+   "id": "the_right_way",
+   "text": "the right way",
+   "ipa": "/ðə ˌraɪt ˈweɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "правильний шлях"
+   },
+   "example": "Is this the right way?",
+   "exampleTranslation": {
+    "uk": "Я правильно йду?"
+   }
+  },
+  {
+   "id": "the_wrong_way",
+   "text": "the wrong way",
+   "ipa": "/ðə ˌrɒŋ ˈweɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "неправильний шлях"
+   },
+   "example": "This is the wrong way.",
+   "exampleTranslation": {
+    "uk": "Це не той шлях."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "It's a big building. You can't ___ it.",
+   "options": [
+    "miss",
+    "walk",
+    "turn"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You can't miss it."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "you're welcome",
+     "right": {
+      "uk": "будь ласка (на подяку)"
+     }
+    },
+    {
+     "left": "very much",
+     "right": {
+      "uk": "дуже"
+     }
+    },
+    {
+     "left": "go back",
+     "right": {
+      "uk": "повертатися назад"
+     }
+    },
+    {
+     "left": "the right way",
+     "right": {
+      "uk": "правильний шлях"
+     }
+    },
+    {
+     "left": "the wrong way",
+     "right": {
+      "uk": "неправильний шлях"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Please кажуть, коли просять. You're welcome — коли вам подякували."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Is this the right way to the station?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Чи правильно вона йде до вокзалу",
+     "Де вокзал",
+     "Чи далеко вокзал"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The right way — правильний шлях."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "No, this is the wrong way. Go back to the traffic lights.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Повернутися до світлофора",
+     "Іти прямо до світлофора",
+     "Повернути біля світлофора"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Go back — поверніться."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вам кажуть Thank you very much. Що відповісти?"
+   },
+   "options": [
+    "You're welcome.",
+    "Please.",
+    "Yes, thank you."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You're welcome."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви не зрозуміли пояснення. Що попросити?"
+   },
+   "options": [
+    "Could you show me on the map?",
+    "Could you map me?",
+    "Show the map you?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Could you show me on the map?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Thank you very ___!",
+   "options": [
+    "much",
+    "many",
+    "well"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thank you very much."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is the wrong way. Go ___.",
+   "options": [
+    "back",
+    "past",
+    "along"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go back."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is this the right ___ to the centre?",
+   "options": [
+    "way",
+    "sign",
+    "walk"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The right way."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я правильно йду до вокзалу?"
+   },
+   "words": [
+    "Is",
+    "this",
+    "the",
+    "right",
+    "way",
+    "to",
+    "the",
+    "station",
+    "wrong"
+   ],
+   "answer": [
+    "Is",
+    "this",
+    "the",
+    "right",
+    "way",
+    "to",
+    "the",
+    "station"
+   ],
+   "explanation": {
+    "uk": "Is this the right way to the station?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Дуже дякую."
+   },
+   "answers": [
+    "Thank you very much",
+    "Thanks very much"
+   ],
+   "explanation": {
+    "uk": "Thank you very much."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "It's the second street on the left.",
+   "prompt": {
+    "uk": "Вам пояснили дорогу. Що сказати?"
+   },
+   "options": [
+    "Thank you very much!",
+    "You're welcome!",
+    "Go back!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thank you very much!"
+   }
+  }
+ ]
+}
