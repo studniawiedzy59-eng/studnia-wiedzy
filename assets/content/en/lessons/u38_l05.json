@@ -1,0 +1,326 @@
+{
+ "id": "u38_l05",
+ "unit": "u38",
+ "cefr": "A0",
+ "title": {
+  "uk": "Де саме?"
+ },
+ "goal": {
+  "uk": "Точніше сказати, де щось розташоване."
+ },
+ "rule": {
+  "uk": "Додаткові прийменники місця: across — «через», «навпроти»; around — «навколо»; above — «над, вище»; in the middle of — «посередині»; at the back — «ззаду». Приклад: There is a fountain in the middle of the park."
+ },
+ "words": [
+  {
+   "id": "across",
+   "text": "across",
+   "ipa": "/əˈkrɒs/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "через, навпроти"
+   },
+   "example": "The bank is across the street.",
+   "exampleTranslation": {
+    "uk": "Банк навпроти, через вулицю."
+   }
+  },
+  {
+   "id": "around",
+   "text": "around",
+   "ipa": "/əˈraʊnd/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "навколо"
+   },
+   "example": "There are trees around the lake.",
+   "exampleTranslation": {
+    "uk": "Навколо озера є дерева."
+   }
+  },
+  {
+   "id": "above",
+   "text": "above",
+   "ipa": "/əˈbʌv/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "над, вище"
+   },
+   "example": "There is a lamp above the table.",
+   "exampleTranslation": {
+    "uk": "Над столом є лампа."
+   }
+  },
+  {
+   "id": "in_the_middle_of",
+   "text": "in the middle of",
+   "ipa": "/ɪn ðə ˈmɪdl əv/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "посередині"
+   },
+   "example": "There is a fountain in the middle of the park.",
+   "exampleTranslation": {
+    "uk": "Посеред парку є фонтан."
+   }
+  },
+  {
+   "id": "at_the_back",
+   "text": "at the back",
+   "ipa": "/ət ðə ˈbæk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "ззаду"
+   },
+   "example": "There is a garage at the back.",
+   "exampleTranslation": {
+    "uk": "Ззаду є гараж."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is there a garage?",
+   "prompt": {
+    "uk": "Повторимо. Ні, немає. Що відповісти?"
+   },
+   "options": [
+    "No, there isn't.",
+    "No, there aren't.",
+    "No, it isn't."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, there isn't."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "across",
+     "right": {
+      "uk": "через, навпроти"
+     }
+    },
+    {
+     "left": "around",
+     "right": {
+      "uk": "навколо"
+     }
+    },
+    {
+     "left": "above",
+     "right": {
+      "uk": "над, вище"
+     }
+    },
+    {
+     "left": "in the middle of",
+     "right": {
+      "uk": "посередині"
+     }
+    },
+    {
+     "left": "at the back",
+     "right": {
+      "uk": "ззаду"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Прийменники місця."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "There are trees around the lake.",
+   "prompt": {
+    "uk": "Прослухайте. Де дерева?"
+   },
+   "options": {
+    "uk": [
+     "Навколо озера",
+     "Над озером",
+     "У парку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Around."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There is a fountain in the middle of the park.",
+   "prompt": {
+    "uk": "Прослухайте. Де фонтан?"
+   },
+   "options": {
+    "uk": [
+     "Посеред парку",
+     "Біля воріт",
+     "Ззаду"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In the middle."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The bank is across the street.",
+   "prompt": {
+    "uk": "Прослухайте. Де банк?"
+   },
+   "options": {
+    "uk": [
+     "Навпроти, через вулицю",
+     "Поруч",
+     "Ззаду"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Across the street."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a lamp ___ the table.",
+   "options": [
+    "above",
+    "around",
+    "across"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Above — над."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There are flowers ___ the fountain.",
+   "options": [
+    "around",
+    "above",
+    "at the back"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Around — навколо."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The bank is ___ the street.",
+   "options": [
+    "across",
+    "around",
+    "in the middle"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Across the street."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Посеред парку є озеро»?"
+   },
+   "options": [
+    "There is a lake in the middle of the park.",
+    "There is a lake middle the park.",
+    "There are lake in the middle park."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In the middle of."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ззаду є гараж."
+   },
+   "words": [
+    "There",
+    "is",
+    "a",
+    "garage",
+    "at",
+    "the",
+    "back",
+    "are",
+    "above"
+   ],
+   "answer": [
+    "There",
+    "is",
+    "a",
+    "garage",
+    "at",
+    "the",
+    "back"
+   ],
+   "explanation": {
+    "uk": "There is a garage at the back."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Навколо озера є дерева."
+   },
+   "answers": [
+    "There are trees around the lake"
+   ],
+   "explanation": {
+    "uk": "There are trees around the lake."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where is the bank?",
+   "prompt": {
+    "uk": "Він навпроти, через вулицю. Що відповісти?"
+   },
+   "options": [
+    "It is across the street.",
+    "It is around the street.",
+    "There is across street."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It is across the street."
+   }
+  }
+ ]
+}

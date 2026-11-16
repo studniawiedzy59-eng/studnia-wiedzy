@@ -1,0 +1,244 @@
+{
+ "id": "u38_l06",
+ "unit": "u38",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: Тут є…"
+ },
+ "goal": {
+  "uk": "Закріпити there is / there are і прийменники місця."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: there is / there are, питання Is there…? Are there any…?, кількість (a lot of, a few, nobody) і прийменники: across, around, above, in the middle of, at the back."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У парку є озеро."
+   },
+   "words": [
+    "There",
+    "is",
+    "a",
+    "lake",
+    "in",
+    "the",
+    "park",
+    "are",
+    "has"
+   ],
+   "answer": [
+    "There",
+    "is",
+    "a",
+    "lake",
+    "in",
+    "the",
+    "park"
+   ],
+   "explanation": {
+    "uk": "There is a lake in the park."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "Is there a bench near the fountain?",
+   "prompt": {
+    "uk": "Так, є. Що відповісти?"
+   },
+   "options": [
+    "Yes, there is.",
+    "Yes, it is.",
+    "Yes, there are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, there is."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There ___ a lot of people here.",
+   "options": [
+    "are",
+    "is",
+    "has"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A lot of people — there are."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Тут нікого немає."
+   },
+   "answers": [
+    "There is nobody here",
+    "There's nobody here"
+   ],
+   "explanation": {
+    "uk": "There is nobody here."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "There is a playground at the back of the park.",
+   "prompt": {
+    "uk": "Прослухайте. Де майданчик?"
+   },
+   "options": {
+    "uk": [
+     "Ззаду парку",
+     "Посеред парку",
+     "Біля озера"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At the back."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Are there ___ birds on the roof?",
+   "options": [
+    "any",
+    "a",
+    "an"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Are there any + множина."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "There are a few chairs.",
+    "There is a few chairs.",
+    "There are few a chair."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There are a few + множина."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Навколо озера є дерева."
+   },
+   "answers": [
+    "There are trees around the lake"
+   ],
+   "explanation": {
+    "uk": "There are trees around the lake."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There ___ any stairs.",
+   "options": [
+    "aren't",
+    "isn't",
+    "doesn't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There aren't any."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "There are curtains on the window and a carpet on the floor.",
+   "prompt": {
+    "uk": "Прослухайте. Що є на підлозі?"
+   },
+   "options": {
+    "uk": [
+     "Килим",
+     "Штори",
+     "Лампа"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A carpet."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Над столом є лампа."
+   },
+   "words": [
+    "There",
+    "is",
+    "a",
+    "lamp",
+    "above",
+    "the",
+    "table",
+    "are",
+    "around"
+   ],
+   "answer": [
+    "There",
+    "is",
+    "a",
+    "lamp",
+    "above",
+    "the",
+    "table"
+   ],
+   "explanation": {
+    "uk": "There is a lamp above the table."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is there a garage?",
+   "prompt": {
+    "uk": "Ні, але є двір. Що відповісти?"
+   },
+   "options": [
+    "No, there isn't, but there is a yard.",
+    "No, there isn't, but there are yard.",
+    "No, it isn't, but there is yard."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, there isn't, but there is a yard."
+   }
+  }
+ ]
+}

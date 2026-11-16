@@ -1,0 +1,234 @@
+{
+ "id": "u40_l02",
+ "unit": "u40",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Підсумок: моя родина й дім"
+ },
+ "goal": {
+  "uk": "Розповісти про родину, дім і речі."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: This is my…, I have…, There is…, прикметники й числа. Складіть розповідь: This is my family. I have a brother. We live in a flat."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you have a brother?",
+   "prompt": {
+    "uk": "Так, ви маєте брата. Що відповісти?"
+   },
+   "options": [
+    "Yes, I have a brother.",
+    "Yes, I has a brother.",
+    "Yes, I am a brother."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I have a brother."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is ___ mother.",
+   "options": [
+    "my",
+    "me",
+    "I"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My mother."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ in a flat.",
+   "options": [
+    "live",
+    "lives",
+    "living"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We live."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There ___ a sofa in the room.",
+   "options": [
+    "is",
+    "are",
+    "has"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is a sofa."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це моя родина."
+   },
+   "words": [
+    "This",
+    "is",
+    "my",
+    "family",
+    "me",
+    "are"
+   ],
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "family"
+   ],
+   "explanation": {
+    "uk": "This is my family."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми живемо в квартирі."
+   },
+   "words": [
+    "We",
+    "live",
+    "in",
+    "a",
+    "flat",
+    "lives",
+    "on"
+   ],
+   "answer": [
+    "We",
+    "live",
+    "in",
+    "a",
+    "flat"
+   ],
+   "explanation": {
+    "uk": "We live in a flat."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене є брат."
+   },
+   "answers": [
+    "I have a brother"
+   ],
+   "explanation": {
+    "uk": "I have a brother."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "У кімнаті є диван."
+   },
+   "answers": [
+    "There is a sofa in the room",
+    "There's a sofa in the room"
+   ],
+   "explanation": {
+    "uk": "There is a sofa."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "This is my sister. She is twenty. She has a cat.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки років сестрі?"
+   },
+   "options": {
+    "uk": [
+     "Двадцять",
+     "Двадцять п'ять",
+     "Тридцять"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twenty."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Моя кімната велика»?"
+   },
+   "options": [
+    "My room is big.",
+    "My room big is.",
+    "I room is big."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My room is big."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "There is a big carpet on the floor and a lamp above the table.",
+   "prompt": {
+    "uk": "Прослухайте. Де лампа?"
+   },
+   "options": {
+    "uk": [
+     "Над столом",
+     "На підлозі",
+     "На стелі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Above the table."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How many people are there in your family?",
+   "prompt": {
+    "uk": "У вас четверо. Що відповісти?"
+   },
+   "options": [
+    "There are four of us.",
+    "There is four we.",
+    "We are four people have."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There are four of us."
+   }
+  }
+ ]
+}

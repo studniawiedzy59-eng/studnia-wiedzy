@@ -1,0 +1,321 @@
+{
+ "id": "u37_l02",
+ "unit": "u37",
+ "cefr": "A0",
+ "title": {
+  "uk": "Я зараз не…"
+ },
+ "goal": {
+  "uk": "Сказати, що ви чогось зараз НЕ робите."
+ },
+ "rule": {
+  "uk": "Заперечення: am / is / are + not + дієслово з -ing. I'm not sleeping. He isn't working. They aren't laughing. Не змінюйте -ing: після not дієслово теж із -ing."
+ },
+ "words": [
+  {
+   "id": "cry",
+   "text": "cry",
+   "ipa": "/kraɪ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "плакати"
+   },
+   "example": "The baby is crying.",
+   "exampleTranslation": {
+    "uk": "Дитина плаче."
+   }
+  },
+  {
+   "id": "talk",
+   "text": "talk",
+   "ipa": "/tɔːk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "розмовляти"
+   },
+   "example": "They are talking on the phone.",
+   "exampleTranslation": {
+    "uk": "Вони розмовляють по телефону."
+   }
+  },
+  {
+   "id": "shout",
+   "text": "shout",
+   "ipa": "/ʃaʊt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "кричати"
+   },
+   "example": "Why are you shouting?",
+   "exampleTranslation": {
+    "uk": "Чому ти кричиш?"
+   }
+  },
+  {
+   "id": "whisper",
+   "text": "whisper",
+   "ipa": "/ˈwɪspə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "шепотіти"
+   },
+   "example": "Why are you whispering?",
+   "exampleTranslation": {
+    "uk": "Чому ти шепочеш?"
+   }
+  },
+  {
+   "id": "hurry",
+   "text": "hurry",
+   "ipa": "/ˈhʌri/",
+   "pos": "verb",
+   "translation": {
+    "uk": "поспішати"
+   },
+   "example": "We aren't hurrying.",
+   "exampleTranslation": {
+    "uk": "Ми не поспішаємо."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What are you doing at the moment?",
+   "prompt": {
+    "uk": "Повторимо. Ви читаєте. Що відповісти?"
+   },
+   "options": [
+    "I'm reading.",
+    "I read now.",
+    "I'm read."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm reading."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "cry",
+     "right": {
+      "uk": "плакати"
+     }
+    },
+    {
+     "left": "talk",
+     "right": {
+      "uk": "розмовляти"
+     }
+    },
+    {
+     "left": "shout",
+     "right": {
+      "uk": "кричати"
+     }
+    },
+    {
+     "left": "whisper",
+     "right": {
+      "uk": "шепотіти"
+     }
+    },
+    {
+     "left": "hurry",
+     "right": {
+      "uk": "поспішати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для заперечення."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The baby is crying.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить дитина?"
+   },
+   "options": {
+    "uk": [
+     "Плаче",
+     "Спить",
+     "Сміється"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Crying — плаче."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He isn't working today.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Він сьогодні не працює",
+     "Він працює",
+     "Він хворий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Isn't working."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We aren't waiting for the bus.",
+   "prompt": {
+    "uk": "Прослухайте. Чого вони не роблять?"
+   },
+   "options": {
+    "uk": [
+     "Не чекають автобус",
+     "Не їдуть автобусом",
+     "Не йдуть пішки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Aren't waiting."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ sleeping.",
+   "options": [
+    "not",
+    "no",
+    "don't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm not + -ing."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ working today.",
+   "options": [
+    "isn't",
+    "aren't",
+    "don't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She isn't."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "They aren't ___ on the phone.",
+   "options": [
+    "talking",
+    "talk",
+    "talks"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після aren't — дієслово з -ing."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "He isn't working today.",
+    "He isn't work today.",
+    "He doesn't working today."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Isn't + -ing."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вона не плаче."
+   },
+   "words": [
+    "She",
+    "isn't",
+    "crying",
+    "aren't",
+    "cry"
+   ],
+   "answer": [
+    "She",
+    "isn't",
+    "crying"
+   ],
+   "explanation": {
+    "uk": "She isn't crying."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я зараз не працюю."
+   },
+   "answers": [
+    "I'm not working at the moment",
+    "I'm not working now",
+    "I am not working now",
+    "I am not working at the moment"
+   ],
+   "explanation": {
+    "uk": "I'm not working."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Are they talking?",
+   "prompt": {
+    "uk": "Ні, вони мовчать. Що відповісти?"
+   },
+   "options": [
+    "No, they aren't.",
+    "No, they don't.",
+    "No, they not."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, they aren't."
+   }
+  }
+ ]
+}

@@ -1,0 +1,234 @@
+{
+ "id": "u40_l06",
+ "unit": "u40",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Фінальний тест A0"
+ },
+ "goal": {
+  "uk": "Перевірити все, що ви вивчили на рівні A0."
+ },
+ "rule": {
+  "uk": "Це підсумкове повторення. Нових слів немає. Якщо ви без труднощів проходите цей урок, ви готові до рівня A1: можете розповісти про себе, попросити каву, спитати дорогу й запросити друга."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Hello! How are you?",
+   "prompt": {
+    "uk": "У вас усе добре. Що відповісти?"
+   },
+   "options": [
+    "I'm fine, thank you. And you?",
+    "I fine, thank you. And you?",
+    "I'm fine, thank you. And are you?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm fine, thank you. And you?"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мене звати Анна, мені двадцять п'ять."
+   },
+   "words": [
+    "My",
+    "name",
+    "is",
+    "Anna",
+    "I'm",
+    "twenty-five",
+    "I",
+    "have"
+   ],
+   "answer": [
+    "My",
+    "name",
+    "is",
+    "Anna",
+    "I'm",
+    "twenty-five"
+   ],
+   "explanation": {
+    "uk": "My name is Anna. I'm twenty-five."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Excuse me, where ___ the station?",
+   "options": [
+    "is",
+    "are",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Where is…?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можна мені каву, будь ласка?"
+   },
+   "answers": [
+    "Can I have a coffee, please",
+    "Can I have a coffee please"
+   ],
+   "explanation": {
+    "uk": "Can I have a coffee, please?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Would you like to come to dinner on Saturday?",
+   "prompt": {
+    "uk": "Прослухайте. Коли вечеря?"
+   },
+   "options": {
+    "uk": [
+     "У суботу",
+     "У неділю",
+     "У п'ятницю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On Saturday."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "There is a bench near the lake.",
+    "There are a bench near the lake.",
+    "It have a bench near the lake."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is a bench."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ listening to music now.",
+   "options": [
+    "is",
+    "are",
+    "does"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She is + -ing."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Що ти робиш?"
+   },
+   "answers": [
+    "What are you doing"
+   ],
+   "explanation": {
+    "uk": "What are you doing?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I get up ___ seven.",
+   "options": [
+    "at",
+    "in",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At seven."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "I'm afraid I can't. I have to work. Maybe another time?",
+   "prompt": {
+    "uk": "Прослухайте. Чому людина не може?"
+   },
+   "options": {
+    "uk": [
+     "Їй треба працювати",
+     "Вона хвора",
+     "Вона в готелі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I have to work."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ходімо?"
+   },
+   "words": [
+    "Shall",
+    "we",
+    "go",
+    "do",
+    "are"
+   ],
+   "answer": [
+    "Shall",
+    "we",
+    "go"
+   ],
+   "explanation": {
+    "uk": "Shall we go?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Thank you for the invitation!",
+   "prompt": {
+    "uk": "Ви раді. Що відповісти?"
+   },
+   "options": [
+    "You're welcome!",
+    "I'm welcome!",
+    "Welcome thank!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You're welcome!"
+   }
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "id": "u40_l05",
+ "unit": "u40",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Підсумок: подорож і самопочуття"
+ },
+ "goal": {
+  "uk": "Подорожувати, розповісти про самопочуття й запросити."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: квиток, готель, погода, I have a headache, Would you like to…?, I'd love to, I'm afraid I can't. Складіть розмову: Would you like to come? — I'd love to!"
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Would you like to come to my party?",
+   "prompt": {
+    "uk": "Ви раді. Що відповісти?"
+   },
+   "options": [
+    "I'd love to!",
+    "I love to it!",
+    "I'd like love."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd love to!"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm afraid I ___ come.",
+   "options": [
+    "can't",
+    "don't",
+    "isn't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I can't."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___.",
+   "options": [
+    "headache",
+    "head ache is",
+    "headaches I"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A headache."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It is ___ today.",
+   "options": [
+    "sunny",
+    "sun",
+    "suns"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It is sunny."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мені потрібен лікар."
+   },
+   "words": [
+    "I",
+    "need",
+    "a",
+    "doctor",
+    "am",
+    "needs"
+   ],
+   "answer": [
+    "I",
+    "need",
+    "a",
+    "doctor"
+   ],
+   "explanation": {
+    "uk": "I need a doctor."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Один квиток, будь ласка."
+   },
+   "words": [
+    "One",
+    "ticket",
+    "please",
+    "a",
+    "two"
+   ],
+   "answer": [
+    "One",
+    "ticket",
+    "please"
+   ],
+   "explanation": {
+    "uk": "One ticket, please."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "translate",
+   "prompt": {
+    "uk": "На жаль, не можу."
+   },
+   "answers": [
+    "I'm afraid I can't",
+    "Unfortunately, I can't"
+   ],
+   "explanation": {
+    "uk": "I'm afraid I can't."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Яка сьогодні погода?"
+   },
+   "answers": [
+    "What's the weather like today",
+    "What is the weather like today"
+   ],
+   "explanation": {
+    "uk": "What's the weather like today?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "I'd like a room for two nights, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Номер на дві ночі",
+     "Квиток на потяг",
+     "Столик на двох"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A room for two nights."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «У мене болить голова»?"
+   },
+   "options": [
+    "I have a headache.",
+    "I am headache.",
+    "My head have pain."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a headache."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Hello, Anna? It's Tom. Can I leave a message?",
+   "prompt": {
+    "uk": "Прослухайте. Що просить Том?"
+   },
+   "options": {
+    "uk": [
+     "Залишити повідомлення",
+     "Купити квиток",
+     "Замовити столик"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Leave a message."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where shall we meet?",
+   "prompt": {
+    "uk": "Біля вокзалу. Що відповісти?"
+   },
+   "options": [
+    "How about in front of the station?",
+    "How about front station?",
+    "Meet in station front shall."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In front of the station."
+   }
+  }
+ ]
+}

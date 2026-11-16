@@ -1,0 +1,327 @@
+{
+ "id": "u38_l03",
+ "unit": "u38",
+ "cefr": "A0",
+ "title": {
+  "uk": "Багато чи мало?"
+ },
+ "goal": {
+  "uk": "Сказати, скільки чогось є."
+ },
+ "rule": {
+  "uk": "A lot of / lots of — «багато»: There are a lot of people. A few — «кілька» (лічильні речі): There are a few chairs. Nobody — «ніхто»: There is nobody here. Everybody — «усі»: Everybody is here."
+ },
+ "words": [
+  {
+   "id": "a_lot_of",
+   "text": "a lot of",
+   "ipa": "/ə ˈlɒt əv/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "багато"
+   },
+   "example": "There are a lot of people here.",
+   "exampleTranslation": {
+    "uk": "Тут багато людей."
+   }
+  },
+  {
+   "id": "lots_of",
+   "text": "lots of",
+   "ipa": "/ˈlɒts əv/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "дуже багато"
+   },
+   "example": "There are lots of flowers.",
+   "exampleTranslation": {
+    "uk": "Там дуже багато квітів."
+   }
+  },
+  {
+   "id": "a_few",
+   "text": "a few",
+   "ipa": "/ə ˈfjuː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "кілька"
+   },
+   "example": "There are a few chairs.",
+   "exampleTranslation": {
+    "uk": "Є кілька стільців."
+   }
+  },
+  {
+   "id": "nobody",
+   "text": "nobody",
+   "ipa": "/ˈnəʊbədi/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "ніхто"
+   },
+   "example": "There is nobody here.",
+   "exampleTranslation": {
+    "uk": "Тут нікого немає."
+   }
+  },
+  {
+   "id": "everybody",
+   "text": "everybody",
+   "ipa": "/ˈevribɒdi/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "усі"
+   },
+   "example": "Everybody is here.",
+   "exampleTranslation": {
+    "uk": "Усі тут."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is there a bench near the lake?",
+   "prompt": {
+    "uk": "Повторимо. Так, є. Що відповісти?"
+   },
+   "options": [
+    "Yes, there is.",
+    "Yes, it is.",
+    "Yes, there are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, there is."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "a lot of",
+     "right": {
+      "uk": "багато"
+     }
+    },
+    {
+     "left": "lots of",
+     "right": {
+      "uk": "дуже багато"
+     }
+    },
+    {
+     "left": "a few",
+     "right": {
+      "uk": "кілька"
+     }
+    },
+    {
+     "left": "nobody",
+     "right": {
+      "uk": "ніхто"
+     }
+    },
+    {
+     "left": "everybody",
+     "right": {
+      "uk": "усі"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про кількість."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "There are a lot of people here.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Тут багато людей",
+     "Тут нікого немає",
+     "Тут кілька людей"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A lot of."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There are a few chairs in the room.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки стільців?"
+   },
+   "options": {
+    "uk": [
+     "Кілька",
+     "Багато",
+     "Жодного"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A few."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "There is nobody here.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Тут нікого немає",
+     "Усі тут",
+     "Тут хтось є"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nobody."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There are ___ flowers in the park.",
+   "options": [
+    "lots of",
+    "nobody",
+    "a"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Lots of flowers."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There ___ nobody here.",
+   "options": [
+    "is",
+    "are",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Nobody — як один: there is."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Everybody ___ here.",
+   "options": [
+    "is",
+    "are",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Everybody + is."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Є кілька стільців»?"
+   },
+   "options": [
+    "There are a few chairs.",
+    "There is a few chairs.",
+    "There are few of chair."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There are a few + chairs."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Тут багато людей."
+   },
+   "words": [
+    "There",
+    "are",
+    "a",
+    "lot",
+    "of",
+    "people",
+    "here",
+    "is",
+    "lots"
+   ],
+   "answer": [
+    "There",
+    "are",
+    "a",
+    "lot",
+    "of",
+    "people",
+    "here"
+   ],
+   "explanation": {
+    "uk": "There are a lot of people here."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Тут нікого немає."
+   },
+   "answers": [
+    "There is nobody here",
+    "There's nobody here"
+   ],
+   "explanation": {
+    "uk": "There is nobody here."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is everybody here?",
+   "prompt": {
+    "uk": "Так, усі. Що відповісти?"
+   },
+   "options": [
+    "Yes, everybody is here.",
+    "Yes, everybody are here.",
+    "Yes, nobody is here."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, everybody is here."
+   }
+  }
+ ]
+}

@@ -1,0 +1,325 @@
+{
+ "id": "u37_l04",
+ "unit": "u37",
+ "cefr": "A0",
+ "title": {
+  "uk": "Правопис з -ing"
+ },
+ "goal": {
+  "uk": "Правильно додавати -ing до дієслів."
+ },
+ "rule": {
+  "uk": "Здебільшого просто додаємо -ing: read — reading. Дієслово на німе -e: -e відпадає: write — writing, make — making. Короткі дієслова на «приголосна + голосна + приголосна» подвоюють останню літеру: sit — sitting, run — running."
+ },
+ "words": [
+  {
+   "id": "writing",
+   "text": "writing",
+   "ipa": "/ˈraɪtɪŋ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "пишу, пише (write без e)"
+   },
+   "example": "I'm writing a letter.",
+   "exampleTranslation": {
+    "uk": "Я пишу листа."
+   }
+  },
+  {
+   "id": "making",
+   "text": "making",
+   "ipa": "/ˈmeɪkɪŋ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "готую, готує (make без e)"
+   },
+   "example": "She is making tea.",
+   "exampleTranslation": {
+    "uk": "Вона готує чай."
+   }
+  },
+  {
+   "id": "sitting",
+   "text": "sitting",
+   "ipa": "/ˈsɪtɪŋ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "сиджу, сидить (sit + t)"
+   },
+   "example": "He is sitting on the sofa.",
+   "exampleTranslation": {
+    "uk": "Він сидить на дивані."
+   }
+  },
+  {
+   "id": "stopping",
+   "text": "stopping",
+   "ipa": "/ˈstɒpɪŋ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "зупиняюсь, зупиняється (stop + p)"
+   },
+   "example": "The bus is stopping.",
+   "exampleTranslation": {
+    "uk": "Автобус зупиняється."
+   }
+  },
+  {
+   "id": "planning",
+   "text": "planning",
+   "ipa": "/ˈplænɪŋ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "планую, планує (plan + n)"
+   },
+   "example": "We are planning a trip.",
+   "exampleTranslation": {
+    "uk": "Ми плануємо подорож."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is he doing?",
+   "prompt": {
+    "uk": "Повторимо. Він телефонує. Що відповісти?"
+   },
+   "options": [
+    "He is calling his friend.",
+    "He calls friend now.",
+    "He is call his friend."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He is calling."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "writing",
+     "right": {
+      "uk": "пишу, пише"
+     }
+    },
+    {
+     "left": "making",
+     "right": {
+      "uk": "готую, готує"
+     }
+    },
+    {
+     "left": "sitting",
+     "right": {
+      "uk": "сиджу, сидить"
+     }
+    },
+    {
+     "left": "stopping",
+     "right": {
+      "uk": "зупиняюсь, зупиняється"
+     }
+    },
+    {
+     "left": "planning",
+     "right": {
+      "uk": "планую, планує"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Дієслова з особливим -ing."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'm writing a letter.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Пише листа",
+     "Читає листа",
+     "Отримує листа"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Writing."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She is making tea.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить жінка?"
+   },
+   "options": {
+    "uk": [
+     "Готує чай",
+     "П'є чай",
+     "Купує чай"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Making tea."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "They are running in the park.",
+   "prompt": {
+    "uk": "Прослухайте. Де бігають люди?"
+   },
+   "options": {
+    "uk": [
+     "У парку",
+     "На вулиці",
+     "У залі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In the park."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is ___ on the sofa.",
+   "options": [
+    "sitting",
+    "siting",
+    "sit"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "sit — sitting (дві t)."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ a letter.",
+   "options": [
+    "writing",
+    "writeing",
+    "writting"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "write — writing (без e)."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She is ___ in the sea.",
+   "options": [
+    "swimming",
+    "swiming",
+    "swims"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "swim — swimming."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма правильна?"
+   },
+   "options": [
+    "making",
+    "makeing",
+    "makking"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "make — making."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вони бігають у парку."
+   },
+   "words": [
+    "They",
+    "are",
+    "running",
+    "in",
+    "the",
+    "park",
+    "run",
+    "is"
+   ],
+   "answer": [
+    "They",
+    "are",
+    "running",
+    "in",
+    "the",
+    "park"
+   ],
+   "explanation": {
+    "uk": "They are running in the park."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона готує чай."
+   },
+   "answers": [
+    "She is making tea",
+    "She's making tea"
+   ],
+   "explanation": {
+    "uk": "She is making tea."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What are they doing?",
+   "prompt": {
+    "uk": "Вони плавають. Що відповісти?"
+   },
+   "options": [
+    "They are swimming.",
+    "They swiming.",
+    "They are swim."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "They are swimming."
+   }
+  }
+ ]
+}

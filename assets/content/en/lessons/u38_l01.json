@@ -1,0 +1,327 @@
+{
+ "id": "u38_l01",
+ "unit": "u38",
+ "cefr": "A0",
+ "title": {
+  "uk": "У парку"
+ },
+ "goal": {
+  "uk": "Описати, що є в парку."
+ },
+ "rule": {
+  "uk": "There is + один предмет: There is a bench. There are + багато: There are two birds. Скорочено: There's a lake. Якщо не знаєте, скільки, кажіть так само: There is a fountain near the gate."
+ },
+ "words": [
+  {
+   "id": "bench",
+   "text": "bench",
+   "ipa": "/bentʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "лавка"
+   },
+   "example": "There is a bench near the lake.",
+   "exampleTranslation": {
+    "uk": "Біля озера є лавка."
+   }
+  },
+  {
+   "id": "fountain",
+   "text": "fountain",
+   "ipa": "/ˈfaʊntɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "фонтан"
+   },
+   "example": "There is a fountain in the park.",
+   "exampleTranslation": {
+    "uk": "У парку є фонтан."
+   }
+  },
+  {
+   "id": "lake",
+   "text": "lake",
+   "ipa": "/leɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "озеро"
+   },
+   "example": "The lake is big.",
+   "exampleTranslation": {
+    "uk": "Озеро велике."
+   }
+  },
+  {
+   "id": "hill",
+   "text": "hill",
+   "ipa": "/hɪl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пагорб"
+   },
+   "example": "There is a hill behind the park.",
+   "exampleTranslation": {
+    "uk": "Позаду парку є пагорб."
+   }
+  },
+  {
+   "id": "bird",
+   "text": "bird",
+   "ipa": "/bɜːd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "птах"
+   },
+   "example": "There are two birds on the tree.",
+   "exampleTranslation": {
+    "uk": "На дереві є два птахи."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What are you doing now?",
+   "prompt": {
+    "uk": "Повторимо. Ви слухаєте музику. Що відповісти?"
+   },
+   "options": [
+    "I'm listening to music.",
+    "I listen to music now.",
+    "I'm listen to music."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm listening."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "bench",
+     "right": {
+      "uk": "лавка"
+     }
+    },
+    {
+     "left": "fountain",
+     "right": {
+      "uk": "фонтан"
+     }
+    },
+    {
+     "left": "lake",
+     "right": {
+      "uk": "озеро"
+     }
+    },
+    {
+     "left": "hill",
+     "right": {
+      "uk": "пагорб"
+     }
+    },
+    {
+     "left": "bird",
+     "right": {
+      "uk": "птах"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про парк."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "There is a bench near the lake.",
+   "prompt": {
+    "uk": "Прослухайте. Де лавка?"
+   },
+   "options": {
+    "uk": [
+     "Біля озера",
+     "Біля фонтана",
+     "Біля пагорба"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Near the lake."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There are two birds on the tree.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки птахів?"
+   },
+   "options": {
+    "uk": [
+     "Два",
+     "Три",
+     "Один"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Two birds."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "There is a fountain in the park.",
+   "prompt": {
+    "uk": "Прослухайте. Що є в парку?"
+   },
+   "options": {
+    "uk": [
+     "Фонтан",
+     "Озеро",
+     "Міст"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A fountain."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There ___ a bench near the lake.",
+   "options": [
+    "is",
+    "are",
+    "have"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Один предмет — there is."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There ___ two birds on the tree.",
+   "options": [
+    "are",
+    "is",
+    "has"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Два птахи — there are."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a hill ___ the park.",
+   "options": [
+    "behind",
+    "at the",
+    "of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Behind — позаду."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «У парку є фонтан»?"
+   },
+   "options": [
+    "There is a fountain in the park.",
+    "There have a fountain in the park.",
+    "It is a fountain in the park."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is + a fountain."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Біля озера є лавка."
+   },
+   "words": [
+    "There",
+    "is",
+    "a",
+    "bench",
+    "near",
+    "the",
+    "lake",
+    "are",
+    "has"
+   ],
+   "answer": [
+    "There",
+    "is",
+    "a",
+    "bench",
+    "near",
+    "the",
+    "lake"
+   ],
+   "explanation": {
+    "uk": "There is a bench near the lake."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У парку є озеро."
+   },
+   "answers": [
+    "There is a lake in the park",
+    "There's a lake in the park"
+   ],
+   "explanation": {
+    "uk": "There is a lake."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is there a lake in the park?",
+   "prompt": {
+    "uk": "Так, є. Що відповісти?"
+   },
+   "options": [
+    "Yes, there is.",
+    "Yes, it is.",
+    "Yes, there are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, there is."
+   }
+  }
+ ]
+}

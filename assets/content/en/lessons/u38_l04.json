@@ -1,0 +1,327 @@
+{
+ "id": "u38_l04",
+ "unit": "u38",
+ "cefr": "A0",
+ "title": {
+  "uk": "Є? Немає!"
+ },
+ "goal": {
+  "uk": "Запитати, чи щось є, і відповісти."
+ },
+ "rule": {
+  "uk": "Питання: Is there a…? Are there any…? Відповідь: Yes, there is. / No, there isn't. Yes, there are. / No, there aren't. З множиною в запереченні — any: There aren't any chairs."
+ },
+ "words": [
+  {
+   "id": "playground",
+   "text": "playground",
+   "ipa": "/ˈpleɪɡraʊnd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дитячий майданчик"
+   },
+   "example": "There is a playground near my house.",
+   "exampleTranslation": {
+    "uk": "Біля мого дому є дитячий майданчик."
+   }
+  },
+  {
+   "id": "garage",
+   "text": "garage",
+   "ipa": "/ˈɡærɑːʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гараж"
+   },
+   "example": "Is there a garage?",
+   "exampleTranslation": {
+    "uk": "Є гараж?"
+   }
+  },
+  {
+   "id": "yard",
+   "text": "yard",
+   "ipa": "/jɑːd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "двір"
+   },
+   "example": "There is a small yard.",
+   "exampleTranslation": {
+    "uk": "Є маленький двір."
+   }
+  },
+  {
+   "id": "stairs",
+   "text": "stairs",
+   "ipa": "/steəz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сходи"
+   },
+   "example": "There are stairs to the roof.",
+   "exampleTranslation": {
+    "uk": "Є сходи на дах."
+   }
+  },
+  {
+   "id": "roof",
+   "text": "roof",
+   "ipa": "/ruːf/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дах"
+   },
+   "example": "There is a bird on the roof.",
+   "exampleTranslation": {
+    "uk": "На даху є птах."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Are there a lot of people in the park?",
+   "prompt": {
+    "uk": "Повторимо. Так, є. Що відповісти?"
+   },
+   "options": [
+    "Yes, there are.",
+    "Yes, there is.",
+    "Yes, they are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, there are."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "playground",
+     "right": {
+      "uk": "дитячий майданчик"
+     }
+    },
+    {
+     "left": "garage",
+     "right": {
+      "uk": "гараж"
+     }
+    },
+    {
+     "left": "yard",
+     "right": {
+      "uk": "двір"
+     }
+    },
+    {
+     "left": "stairs",
+     "right": {
+      "uk": "сходи"
+     }
+    },
+    {
+     "left": "roof",
+     "right": {
+      "uk": "дах"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про будинок і двір."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Is there a garage near the house?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Про гараж",
+     "Про двір",
+     "Про дах"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A garage."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "No, there isn't. There is a small yard.",
+   "prompt": {
+    "uk": "Прослухайте. Що є?"
+   },
+   "options": {
+    "uk": [
+     "Маленький двір",
+     "Гараж",
+     "Майданчик"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A small yard."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "There aren't any stairs.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Сходів немає",
+     "Сходи є",
+     "Є один поверх"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Aren't any."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is there ___ playground near here?",
+   "options": [
+    "a",
+    "any",
+    "an"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is there a + однина."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Are there ___ chairs in the room?",
+   "options": [
+    "any",
+    "a",
+    "an"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Are there any + множина."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "No, there ___.",
+   "options": [
+    "isn't",
+    "aren't",
+    "doesn't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is there a → No, there isn't."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно спитати?"
+   },
+   "options": [
+    "Is there a garage?",
+    "There is a garage?",
+    "Is it a garage there?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is there a…?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Біля дому є двір?"
+   },
+   "words": [
+    "Is",
+    "there",
+    "a",
+    "yard",
+    "near",
+    "the",
+    "house",
+    "are",
+    "any"
+   ],
+   "answer": [
+    "Is",
+    "there",
+    "a",
+    "yard",
+    "near",
+    "the",
+    "house"
+   ],
+   "explanation": {
+    "uk": "Is there a yard near the house?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Сходів немає."
+   },
+   "answers": [
+    "There aren't any stairs",
+    "There are no stairs"
+   ],
+   "explanation": {
+    "uk": "There aren't any stairs."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Are there any stairs to the roof?",
+   "prompt": {
+    "uk": "Ні, немає. Що відповісти?"
+   },
+   "options": [
+    "No, there aren't.",
+    "No, there isn't.",
+    "No, they aren't."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, there aren't."
+   }
+  }
+ ]
+}

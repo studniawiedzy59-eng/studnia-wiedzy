@@ -1,0 +1,322 @@
+{
+ "id": "u37_l05",
+ "unit": "u37",
+ "cefr": "A0",
+ "title": {
+  "uk": "Зараз чи зазвичай?"
+ },
+ "goal": {
+  "uk": "Розрізняти те, що відбувається зараз, і те, що буває завжди."
+ },
+ "rule": {
+  "uk": "Звичка або факт: Present Simple — I usually drink tea. Дія саме зараз: Present Continuous — I'm drinking coffee now. Слова-підказки: always, usually, every day → звичка. Now, at the moment, today → зараз."
+ },
+ "words": [
+  {
+   "id": "every_day",
+   "text": "every day",
+   "ipa": "/ˈevri ˌdeɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "щодня"
+   },
+   "example": "I walk every day.",
+   "exampleTranslation": {
+    "uk": "Я ходжу пішки щодня."
+   }
+  },
+  {
+   "id": "this_week",
+   "text": "this week",
+   "ipa": "/ðɪs ˈwiːk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "цього тижня"
+   },
+   "example": "This week I'm working at home.",
+   "exampleTranslation": {
+    "uk": "Цього тижня я працюю вдома."
+   }
+  },
+  {
+   "id": "these_days",
+   "text": "these days",
+   "ipa": "/ˈðiːz deɪz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "ці дні, останнім часом"
+   },
+   "example": "These days I'm learning English.",
+   "exampleTranslation": {
+    "uk": "Останнім часом я вивчаю англійську."
+   }
+  },
+  {
+   "id": "in_the_garden",
+   "text": "in the garden",
+   "ipa": "/ɪn ðə ˈɡɑːdn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "у саду"
+   },
+   "example": "She is working in the garden.",
+   "exampleTranslation": {
+    "uk": "Вона працює в саду."
+   }
+  },
+  {
+   "id": "at_home",
+   "text": "at home",
+   "ipa": "/ət ˈhəʊm/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "вдома"
+   },
+   "example": "I'm at home now.",
+   "exampleTranslation": {
+    "uk": "Я зараз удома."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What are you doing now?",
+   "prompt": {
+    "uk": "Повторимо. Ви пишете листа. Що відповісти?"
+   },
+   "options": [
+    "I'm writing a letter.",
+    "I write a letter now.",
+    "I'm writeing a letter."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm writing."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "every day",
+     "right": {
+      "uk": "щодня"
+     }
+    },
+    {
+     "left": "this week",
+     "right": {
+      "uk": "цього тижня"
+     }
+    },
+    {
+     "left": "these days",
+     "right": {
+      "uk": "останнім часом"
+     }
+    },
+    {
+     "left": "in the garden",
+     "right": {
+      "uk": "у саду"
+     }
+    },
+    {
+     "left": "at home",
+     "right": {
+      "uk": "вдома"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для порівняння."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I walk every day.",
+   "prompt": {
+    "uk": "Прослухайте. Як часто людина ходить пішки?"
+   },
+   "options": {
+    "uk": [
+     "Щодня",
+     "Зараз",
+     "Рідко"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Every day."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Today I'm working at home.",
+   "prompt": {
+    "uk": "Прослухайте. Де людина працює сьогодні?"
+   },
+   "options": {
+    "uk": [
+     "Вдома",
+     "В офісі",
+     "У кафе"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At home."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I usually drink tea, but today I'm drinking coffee.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина п'є сьогодні?"
+   },
+   "options": {
+    "uk": [
+     "Каву",
+     "Чай",
+     "Воду"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Coffee."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ to work every day.",
+   "options": [
+    "walk",
+    "am walking",
+    "walking"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Every day — звичка: Present Simple."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Today I ___ working at home.",
+   "options": [
+    "am",
+    "do",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Today — зараз: am + -ing."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She usually ___ tea, but now she is drinking coffee.",
+   "options": [
+    "drinks",
+    "is drinking",
+    "drink"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Usually — Present Simple."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке речення про те, що відбувається зараз?"
+   },
+   "options": [
+    "He is sleeping now.",
+    "He sleeps every day.",
+    "He always sleeps."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is sleeping + now."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Сьогодні я працюю вдома."
+   },
+   "words": [
+    "Today",
+    "I'm",
+    "working",
+    "at",
+    "home",
+    "work",
+    "am"
+   ],
+   "answer": [
+    "Today",
+    "I'm",
+    "working",
+    "at",
+    "home"
+   ],
+   "explanation": {
+    "uk": "Today I'm working at home."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я ходжу пішки щодня."
+   },
+   "answers": [
+    "I walk every day"
+   ],
+   "explanation": {
+    "uk": "Every day — Present Simple."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you usually drink coffee?",
+   "prompt": {
+    "uk": "Так, але зараз п'єте чай. Що відповісти?"
+   },
+   "options": [
+    "Yes, but now I'm drinking tea.",
+    "Yes, but now I drink tea.",
+    "Yes, but now I'm drink tea."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, but now I'm drinking tea."
+   }
+  }
+ ]
+}

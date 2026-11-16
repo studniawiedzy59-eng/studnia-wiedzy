@@ -1,0 +1,321 @@
+{
+ "id": "u39_l03",
+ "unit": "u39",
+ "cefr": "A0",
+ "title": {
+  "uk": "Як це пишеться?"
+ },
+ "goal": {
+  "uk": "Заповнити форму й перепитати написання."
+ },
+ "rule": {
+  "uk": "Fill in — заповнити (форму). Tick — поставити «пташку» ✓. Write down — записати. How do you spell…? — «Як це пишеться?» Відповідь: A-N-N-A. Якщо помилилися — це a mistake."
+ },
+ "words": [
+  {
+   "id": "fill_in",
+   "text": "fill in",
+   "ipa": "/ˌfɪl ˈɪn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "заповнювати"
+   },
+   "example": "Please fill in the form.",
+   "exampleTranslation": {
+    "uk": "Заповніть форму, будь ласка."
+   }
+  },
+  {
+   "id": "tick",
+   "text": "tick",
+   "ipa": "/tɪk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "позначити галочкою"
+   },
+   "example": "Tick the box.",
+   "exampleTranslation": {
+    "uk": "Поставте галочку."
+   }
+  },
+  {
+   "id": "write_down",
+   "text": "write down",
+   "ipa": "/ˌraɪt ˈdaʊn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "записати"
+   },
+   "example": "Write down your address.",
+   "exampleTranslation": {
+    "uk": "Запишіть свою адресу."
+   }
+  },
+  {
+   "id": "circle",
+   "text": "circle",
+   "ipa": "/ˈsɜːkl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "обвести"
+   },
+   "example": "Circle the right answer.",
+   "exampleTranslation": {
+    "uk": "Обведіть правильну відповідь."
+   }
+  },
+  {
+   "id": "cross_out",
+   "text": "cross out",
+   "ipa": "/ˌkrɒs ˈaʊt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "закреслити"
+   },
+   "example": "Cross out the mistake.",
+   "exampleTranslation": {
+    "uk": "Закресліть помилку."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is your occupation?",
+   "prompt": {
+    "uk": "Повторимо. Ви лікар. Що відповісти?"
+   },
+   "options": [
+    "I'm a doctor.",
+    "I doctor am.",
+    "I'm doctor a."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm a doctor."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "fill in",
+     "right": {
+      "uk": "заповнювати"
+     }
+    },
+    {
+     "left": "tick",
+     "right": {
+      "uk": "позначити галочкою"
+     }
+    },
+    {
+     "left": "write down",
+     "right": {
+      "uk": "записати"
+     }
+    },
+    {
+     "left": "circle",
+     "right": {
+      "uk": "обвести"
+     }
+    },
+    {
+     "left": "cross out",
+     "right": {
+      "uk": "закреслити"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для форми."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "How do you spell your name?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Як пишеться ім'я",
+     "Де ви живете",
+     "Скільки вам років"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Spell."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Please tick the box.",
+   "prompt": {
+    "uk": "Прослухайте. Що просять зробити?"
+   },
+   "options": {
+    "uk": [
+     "Поставити галочку",
+     "Підписати",
+     "Заповнити анкету"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tick."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Write down your address.",
+   "prompt": {
+    "uk": "Прослухайте. Що просять записати?"
+   },
+   "options": {
+    "uk": [
+     "Адресу",
+     "Вік",
+     "Телефон"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Address."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How do you ___ your name?",
+   "options": [
+    "spell",
+    "write",
+    "say"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How do you spell…?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Please ___ the box.",
+   "options": [
+    "tick",
+    "spell",
+    "mistake"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Tick the box."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Sorry, I made a ___.",
+   "options": [
+    "mistake",
+    "spell",
+    "tick"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A mistake — помилка."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як перепитати написання?"
+   },
+   "options": [
+    "How do you spell that?",
+    "How you spell that?",
+    "What spell that?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How do you spell that?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Запишіть вашу адресу."
+   },
+   "words": [
+    "Write",
+    "down",
+    "your",
+    "address",
+    "fill",
+    "tick"
+   ],
+   "answer": [
+    "Write",
+    "down",
+    "your",
+    "address"
+   ],
+   "explanation": {
+    "uk": "Write down your address."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Як це пишеться?"
+   },
+   "answers": [
+    "How do you spell that",
+    "How do you spell it"
+   ],
+   "explanation": {
+    "uk": "How do you spell that?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How do you spell Anna?",
+   "prompt": {
+    "uk": "Назвіть по літерах. Що відповісти?"
+   },
+   "options": [
+    "A, N, N, A.",
+    "A, N, A.",
+    "A, M, M, A."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A-N-N-A."
+   }
+  }
+ ]
+}

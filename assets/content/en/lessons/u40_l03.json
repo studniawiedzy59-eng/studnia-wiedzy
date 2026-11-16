@@ -1,0 +1,232 @@
+{
+ "id": "u40_l03",
+ "unit": "u40",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Підсумок: мій день"
+ },
+ "goal": {
+  "uk": "Розповісти про свій день за годинами."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: час (It's seven o'clock), звички (I get up, I go to work), Present Simple та Present Continuous. Складіть розповідь: I get up at seven. I have breakfast at eight. Now I'm working."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What time do you get up?",
+   "prompt": {
+    "uk": "О сьомій. Що відповісти?"
+   },
+   "options": [
+    "I get up at seven.",
+    "I get up in seven.",
+    "I getting up at seven."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At seven."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ breakfast at eight.",
+   "options": [
+    "have",
+    "am",
+    "has"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have breakfast."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ to work every day.",
+   "options": [
+    "goes",
+    "go",
+    "going"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She goes."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Now I ___ working.",
+   "options": [
+    "am",
+    "do",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Now — am + -ing."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я встаю о сьомій."
+   },
+   "words": [
+    "I",
+    "get",
+    "up",
+    "at",
+    "seven",
+    "gets",
+    "in"
+   ],
+   "answer": [
+    "I",
+    "get",
+    "up",
+    "at",
+    "seven"
+   ],
+   "explanation": {
+    "uk": "I get up at seven."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Зараз я працюю."
+   },
+   "words": [
+    "Now",
+    "I'm",
+    "working",
+    "work",
+    "is"
+   ],
+   "answer": [
+    "Now",
+    "I'm",
+    "working"
+   ],
+   "explanation": {
+    "uk": "Now I'm working."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я їду на роботу."
+   },
+   "answers": [
+    "I go to work"
+   ],
+   "explanation": {
+    "uk": "I go to work."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Котра година?"
+   },
+   "answers": [
+    "What time is it",
+    "What's the time"
+   ],
+   "explanation": {
+    "uk": "What time is it?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "I get up at seven. I have breakfast at eight. I go to work at nine.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина їсть сніданок?"
+   },
+   "options": {
+    "uk": [
+     "О восьмій",
+     "О сьомій",
+     "О дев'ятій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At eight."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке речення про звичку?"
+   },
+   "options": [
+    "I walk to work every day.",
+    "I'm walking to work now.",
+    "I walking to work."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Every day — звичка."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "It's half past two.",
+   "prompt": {
+    "uk": "Прослухайте. Котра година?"
+   },
+   "options": {
+    "uk": [
+     "Пів на третю",
+     "Друга година",
+     "Третя година"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Half past two."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What are you doing now?",
+   "prompt": {
+    "uk": "Ви читаєте. Що відповісти?"
+   },
+   "options": [
+    "I'm reading.",
+    "I read now.",
+    "I'm read."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm reading."
+   }
+  }
+ ]
+}

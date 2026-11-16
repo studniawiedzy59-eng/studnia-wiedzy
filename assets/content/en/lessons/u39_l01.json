@@ -1,0 +1,320 @@
+{
+ "id": "u39_l01",
+ "unit": "u39",
+ "cefr": "A0",
+ "title": {
+  "uk": "Анкета"
+ },
+ "goal": {
+  "uk": "Розуміти пункти анкети й відповідати на них."
+ },
+ "rule": {
+  "uk": "В анкеті вас питають коротко: Name, Age, Nationality, Occupation. Відповідайте теж коротко: Age: 25. Nationality: Ukrainian. Occupation: teacher. Підпис — signature. Анкета — form."
+ },
+ "words": [
+  {
+   "id": "form",
+   "text": "form",
+   "ipa": "/fɔːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "анкета, бланк"
+   },
+   "example": "Please fill in this form.",
+   "exampleTranslation": {
+    "uk": "Заповніть, будь ласка, цю анкету."
+   }
+  },
+  {
+   "id": "age",
+   "text": "age",
+   "ipa": "/eɪdʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вік"
+   },
+   "example": "Age: twenty-five.",
+   "exampleTranslation": {
+    "uk": "Вік: двадцять п'ять."
+   }
+  },
+  {
+   "id": "nationality",
+   "text": "nationality",
+   "ipa": "/ˌnæʃəˈnæləti/",
+   "pos": "noun",
+   "translation": {
+    "uk": "національність, громадянство"
+   },
+   "example": "Nationality: Ukrainian.",
+   "exampleTranslation": {
+    "uk": "Громадянство: українське."
+   }
+  },
+  {
+   "id": "occupation",
+   "text": "occupation",
+   "ipa": "/ˌɒkjuˈpeɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "заняття, професія"
+   },
+   "example": "Occupation: teacher.",
+   "exampleTranslation": {
+    "uk": "Професія: вчитель."
+   }
+  },
+  {
+   "id": "signature",
+   "text": "signature",
+   "ipa": "/ˈsɪɡnətʃə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "підпис"
+   },
+   "example": "Your signature, please.",
+   "exampleTranslation": {
+    "uk": "Ваш підпис, будь ласка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is there a garage near the house?",
+   "prompt": {
+    "uk": "Повторимо. Ні, немає. Що відповісти?"
+   },
+   "options": [
+    "No, there isn't.",
+    "No, there aren't.",
+    "No, it isn't."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, there isn't."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "form",
+     "right": {
+      "uk": "анкета"
+     }
+    },
+    {
+     "left": "age",
+     "right": {
+      "uk": "вік"
+     }
+    },
+    {
+     "left": "nationality",
+     "right": {
+      "uk": "національність"
+     }
+    },
+    {
+     "left": "occupation",
+     "right": {
+      "uk": "професія"
+     }
+    },
+    {
+     "left": "signature",
+     "right": {
+      "uk": "підпис"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Пункти анкети."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Please fill in this form.",
+   "prompt": {
+    "uk": "Прослухайте. Що просять зробити?"
+   },
+   "options": {
+    "uk": [
+     "Заповнити анкету",
+     "Підписати лист",
+     "Купити квиток"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fill in this form."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Occupation: teacher.",
+   "prompt": {
+    "uk": "Прослухайте. Що вказано в анкеті?"
+   },
+   "options": {
+    "uk": [
+     "Професія — вчитель",
+     "Вік — вчитель",
+     "Ім'я — вчитель"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Occupation — професія."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Your signature, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що просять?"
+   },
+   "options": {
+    "uk": [
+     "Підпис",
+     "Адресу",
+     "Паспорт"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Signature."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Name: Anna. ___: 25.",
+   "options": [
+    "Age",
+    "Form",
+    "Signature"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Age — вік."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Nationality: ___.",
+   "options": [
+    "Ukrainian",
+    "Ukraine",
+    "Ukrainians"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У анкеті — прикметник: Ukrainian."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Occupation: ___.",
+   "options": [
+    "doctor",
+    "a doctor is",
+    "I doctor"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Коротко: doctor."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що пишуть у пункті Age?"
+   },
+   "options": [
+    "25",
+    "Ukrainian",
+    "Teacher"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Age — вік, число."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ваш підпис, будь ласка."
+   },
+   "words": [
+    "Your",
+    "signature",
+    "please",
+    "form",
+    "age"
+   ],
+   "answer": [
+    "Your",
+    "signature",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Your signature, please."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вік: двадцять п'ять."
+   },
+   "answers": [
+    "Age: twenty-five",
+    "Age twenty-five",
+    "Age: 25"
+   ],
+   "explanation": {
+    "uk": "Age: twenty-five."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is your occupation?",
+   "prompt": {
+    "uk": "Ви вчитель. Що відповісти?"
+   },
+   "options": [
+    "I'm a teacher.",
+    "I teacher am.",
+    "I'm teacher a."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm a teacher."
+   }
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "id": "u40_l04",
+ "unit": "u40",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Підсумок: у місті"
+ },
+ "goal": {
+  "uk": "Орієнтуватися в місті: дорога, транспорт, кафе."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: Excuse me, where is…?, Go straight, Turn left, Can I have…?, How much is it? Складіть розмову: Excuse me, where is the station? — Go straight, then turn left."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Excuse me, where is the station?",
+   "prompt": {
+    "uk": "Ви знаєте дорогу: прямо, потім ліворуч. Що відповісти?"
+   },
+   "options": [
+    "Go straight, then turn left.",
+    "Go straight, then left turn.",
+    "Straight go, then turning left."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go straight, then turn left."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Excuse me, ___ is the bank?",
+   "options": [
+    "where",
+    "what",
+    "who"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Where is…?"
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Turn ___ at the corner.",
+   "options": [
+    "left",
+    "leave",
+    "lefts"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Turn left."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I ___ a coffee, please?",
+   "options": [
+    "have",
+    "am",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can I have…?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Скільки це коштує?"
+   },
+   "words": [
+    "How",
+    "much",
+    "is",
+    "it",
+    "many",
+    "are"
+   ],
+   "answer": [
+    "How",
+    "much",
+    "is",
+    "it"
+   ],
+   "explanation": {
+    "uk": "How much is it?"
+   }
+  },
+  {
+   "id": "e6",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мені, будь ласка, каву."
+   },
+   "words": [
+    "Can",
+    "I",
+    "have",
+    "a",
+    "coffee",
+    "please",
+    "do",
+    "am"
+   ],
+   "answer": [
+    "Can",
+    "I",
+    "have",
+    "a",
+    "coffee",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Can I have a coffee, please?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "translate",
+   "prompt": {
+    "uk": "Де вокзал?"
+   },
+   "answers": [
+    "Where is the station"
+   ],
+   "explanation": {
+    "uk": "Where is the station?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ідіть прямо."
+   },
+   "answers": [
+    "Go straight"
+   ],
+   "explanation": {
+    "uk": "Go straight."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "Go straight, then turn right. The bank is on the left.",
+   "prompt": {
+    "uk": "Прослухайте. Де банк?"
+   },
+   "options": {
+    "uk": [
+     "Ліворуч",
+     "Праворуч",
+     "Прямо"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On the left."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати ціну?"
+   },
+   "options": [
+    "How much is it?",
+    "How many is it?",
+    "What is much it?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How much is it?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "A table for two, please.",
+   "prompt": {
+    "uk": "Прослухайте. Де людина?"
+   },
+   "options": {
+    "uk": [
+     "У ресторані",
+     "У банку",
+     "На вокзалі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A table for two — у ресторані."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Would you like tea or coffee?",
+   "prompt": {
+    "uk": "Ви хочете каву. Що відповісти?"
+   },
+   "options": [
+    "Coffee, please.",
+    "I coffee, please.",
+    "Coffee I, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Coffee, please."
+   }
+  }
+ ]
+}

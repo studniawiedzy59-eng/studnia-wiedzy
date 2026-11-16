@@ -1,0 +1,230 @@
+{
+ "id": "u37_l06",
+ "unit": "u37",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: що відбувається зараз"
+ },
+ "goal": {
+  "uk": "Закріпити Present Continuous."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: am / is / are + -ing, заперечення isn't / aren't, питання What are you doing?, правопис writing, sitting, running, а також різницю між «зараз» і «щодня»."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я зараз читаю."
+   },
+   "words": [
+    "I'm",
+    "reading",
+    "now",
+    "read",
+    "is"
+   ],
+   "answer": [
+    "I'm",
+    "reading",
+    "now"
+   ],
+   "explanation": {
+    "uk": "I'm reading now."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "What is he doing?",
+   "prompt": {
+    "uk": "Він стоїть біля дверей. Що відповісти?"
+   },
+   "options": [
+    "He is standing near the door.",
+    "He stands near door now.",
+    "He is stand near the door."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He is standing."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ crying.",
+   "options": [
+    "isn't",
+    "aren't",
+    "don't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She isn't."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Що ти робиш?"
+   },
+   "answers": [
+    "What are you doing"
+   ],
+   "explanation": {
+    "uk": "What are you doing?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "They are talking on the phone at the moment.",
+   "prompt": {
+    "uk": "Прослухайте. Що роблять люди?"
+   },
+   "options": {
+    "uk": [
+     "Розмовляють по телефону",
+     "Дивляться телевізор",
+     "Вечеряють"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Talking on the phone."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is ___ a letter.",
+   "options": [
+    "writing",
+    "writeing",
+    "write"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "write — writing."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "Are you listening to music?",
+    "Do you listening to music?",
+    "Is you listening music?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Are you + -ing?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я зараз не працюю."
+   },
+   "answers": [
+    "I'm not working now",
+    "I am not working now",
+    "I'm not working at the moment",
+    "I am not working at the moment"
+   ],
+   "explanation": {
+    "uk": "I'm not working."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I usually walk to work, but today I ___ driving.",
+   "options": [
+    "am",
+    "do",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Today — Present Continuous."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "I'm calling my mother. She is cooking dinner.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить мама?"
+   },
+   "options": {
+    "uk": [
+     "Готує вечерю",
+     "Прибирає",
+     "Спить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cooking dinner."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вони не сміються."
+   },
+   "words": [
+    "They",
+    "aren't",
+    "laughing",
+    "isn't",
+    "laugh"
+   ],
+   "answer": [
+    "They",
+    "aren't",
+    "laughing"
+   ],
+   "explanation": {
+    "uk": "They aren't laughing."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Are you sleeping?",
+   "prompt": {
+    "uk": "Ні, ви читаєте. Що відповісти?"
+   },
+   "options": [
+    "No, I'm not. I'm reading.",
+    "No, I don't. I'm reading.",
+    "No, I'm not. I read now."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I'm not."
+   }
+  }
+ ]
+}

@@ -1,0 +1,321 @@
+{
+ "id": "u37_l03",
+ "unit": "u37",
+ "cefr": "A0",
+ "title": {
+  "uk": "Що ти робиш?"
+ },
+ "goal": {
+  "uk": "Запитати, що людина робить зараз, і відповісти."
+ },
+ "rule": {
+  "uk": "Питання: Am / Is / Are на початок. Are you listening? Is he working? Коротка відповідь: Yes, I am. No, he isn't. Питання з what: What are you doing? — «Що ти робиш?» Відповідь: I'm cooking dinner."
+ },
+ "words": [
+  {
+   "id": "what_are_you_doing",
+   "text": "what are you doing",
+   "ipa": "/ˌwɒt ə ju ˈduːɪŋ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "що ти робиш"
+   },
+   "example": "What are you doing?",
+   "exampleTranslation": {
+    "uk": "Що ти робиш?"
+   }
+  },
+  {
+   "id": "ask",
+   "text": "ask",
+   "ipa": "/ɑːsk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "питати"
+   },
+   "example": "I'm asking a question.",
+   "exampleTranslation": {
+    "uk": "Я ставлю запитання."
+   }
+  },
+  {
+   "id": "choose",
+   "text": "choose",
+   "ipa": "/tʃuːz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "вибирати"
+   },
+   "example": "She is choosing a dress.",
+   "exampleTranslation": {
+    "uk": "Вона вибирає сукню."
+   }
+  },
+  {
+   "id": "have_dinner",
+   "text": "have dinner",
+   "ipa": "/ˌhæv ˈdɪnə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "вечеряти"
+   },
+   "example": "We are having dinner.",
+   "exampleTranslation": {
+    "uk": "Ми вечеряємо."
+   }
+  },
+  {
+   "id": "practise",
+   "text": "practise",
+   "ipa": "/ˈpræktɪs/",
+   "pos": "verb",
+   "translation": {
+    "uk": "тренуватися"
+   },
+   "example": "I'm practising English.",
+   "exampleTranslation": {
+    "uk": "Я практикую англійську."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "She is ___ to music.",
+   "options": [
+    "listening",
+    "listen",
+    "listens"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is + -ing."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "what are you doing",
+     "right": {
+      "uk": "що ти робиш"
+     }
+    },
+    {
+     "left": "ask",
+     "right": {
+      "uk": "питати"
+     }
+    },
+    {
+     "left": "choose",
+     "right": {
+      "uk": "вибирати"
+     }
+    },
+    {
+     "left": "have dinner",
+     "right": {
+      "uk": "вечеряти"
+     }
+    },
+    {
+     "left": "practise",
+     "right": {
+      "uk": "тренуватися"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для запитань."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "What are you doing?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Що ти робиш",
+     "Куди ти йдеш",
+     "Хто ти"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "What are you doing?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'm calling my mother.",
+   "prompt": {
+    "uk": "Прослухайте. Кому телефонує людина?"
+   },
+   "options": {
+    "uk": [
+     "Мамі",
+     "Другові",
+     "Лікареві"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "My mother."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We are having dinner.",
+   "prompt": {
+    "uk": "Прослухайте. Що роблять люди?"
+   },
+   "options": {
+    "uk": [
+     "Вечеряють",
+     "Готують",
+     "Йдуть у ресторан"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Having dinner."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ you listening to me?",
+   "options": [
+    "Are",
+    "Do",
+    "Is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Are you…?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What ___ you doing?",
+   "options": [
+    "are",
+    "do",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What are you doing?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is he working? — No, he ___.",
+   "options": [
+    "isn't",
+    "doesn't",
+    "not"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, he isn't."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як відповісти на «What are you doing?» — ви вечеряєте?"
+   },
+   "options": [
+    "I'm having dinner.",
+    "I have dinner now.",
+    "I'm have dinner."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm having dinner."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Що вона робить?"
+   },
+   "words": [
+    "What",
+    "is",
+    "she",
+    "doing",
+    "does",
+    "are"
+   ],
+   "answer": [
+    "What",
+    "is",
+    "she",
+    "doing"
+   ],
+   "explanation": {
+    "uk": "What is she doing?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я телефоную мамі."
+   },
+   "answers": [
+    "I'm calling my mother",
+    "I am calling my mother"
+   ],
+   "explanation": {
+    "uk": "I'm calling my mother."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Are you practising English?",
+   "prompt": {
+    "uk": "Так, зараз. Що відповісти?"
+   },
+   "options": [
+    "Yes, I am.",
+    "Yes, I do.",
+    "Yes, I practising."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I am."
+   }
+  }
+ ]
+}

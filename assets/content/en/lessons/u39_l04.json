@@ -1,0 +1,318 @@
+{
+ "id": "u39_l04",
+ "unit": "u39",
+ "cefr": "A0",
+ "title": {
+  "uk": "Записка"
+ },
+ "goal": {
+  "uk": "Залишити коротку записку."
+ },
+ "rule": {
+  "uk": "У записці пишуть коротко. Початок: Dear Tom, — «Любий Томе». Короткі повідомлення: Gone out. Back soon. — «Пішов. Скоро повернуся». Кінець: Best wishes, Anna — «З найкращими побажаннями, Анна». Записка — a note."
+ },
+ "words": [
+  {
+   "id": "note",
+   "text": "note",
+   "ipa": "/nəʊt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "записка"
+   },
+   "example": "I'm leaving you a note.",
+   "exampleTranslation": {
+    "uk": "Залишаю вам записку."
+   }
+  },
+  {
+   "id": "dear",
+   "text": "dear",
+   "ipa": "/dɪə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "шановний, любий"
+   },
+   "example": "Dear Tom,",
+   "exampleTranslation": {
+    "uk": "Любий Томе,"
+   }
+  },
+  {
+   "id": "gone_out",
+   "text": "gone out",
+   "ipa": "/ˌɡɒn ˈaʊt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "пішов"
+   },
+   "example": "Gone out. Back at six.",
+   "exampleTranslation": {
+    "uk": "Пішов. Повернуся о шостій."
+   }
+  },
+  {
+   "id": "back_soon",
+   "text": "back soon",
+   "ipa": "/ˌbæk ˈsuːn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "скоро повернуся"
+   },
+   "example": "Back soon.",
+   "exampleTranslation": {
+    "uk": "Скоро повернуся."
+   }
+  },
+  {
+   "id": "best_wishes",
+   "text": "best wishes",
+   "ipa": "/ˌbest ˈwɪʃɪz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "з найкращими побажаннями"
+   },
+   "example": "Best wishes, Anna.",
+   "exampleTranslation": {
+    "uk": "З найкращими побажаннями, Анна."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "How do you ___ your name?",
+   "options": [
+    "spell",
+    "tick",
+    "mistake"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Spell."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "note",
+     "right": {
+      "uk": "записка"
+     }
+    },
+    {
+     "left": "dear",
+     "right": {
+      "uk": "любий"
+     }
+    },
+    {
+     "left": "gone out",
+     "right": {
+      "uk": "пішов"
+     }
+    },
+    {
+     "left": "back soon",
+     "right": {
+      "uk": "скоро повернуся"
+     }
+    },
+    {
+     "left": "best wishes",
+     "right": {
+      "uk": "з найкращими побажаннями"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для записки."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Dear Tom, I've gone out. Back at six. Anna.",
+   "prompt": {
+    "uk": "Прослухайте. Коли повернеться Анна?"
+   },
+   "options": {
+    "uk": [
+     "О шостій",
+     "О п'ятій",
+     "О сьомій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Back at six."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Gone out. Back soon.",
+   "prompt": {
+    "uk": "Прослухайте. Що написано?"
+   },
+   "options": {
+    "uk": [
+     "Пішов, скоро повернуся",
+     "Сплю",
+     "Тут немає нікого"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Gone out, back soon."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Best wishes, Anna.",
+   "prompt": {
+    "uk": "Прослухайте. Що це?"
+   },
+   "options": {
+    "uk": [
+     "Закінчення записки",
+     "Початок записки",
+     "Адреса"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Best wishes."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ Tom, I've gone out.",
+   "options": [
+    "Dear",
+    "Best",
+    "Back"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Dear Tom."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Gone out. ___ soon.",
+   "options": [
+    "Back",
+    "Dear",
+    "Note"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Back soon."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ wishes, Anna.",
+   "options": [
+    "Best",
+    "Dear",
+    "Gone"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Best wishes."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка записка найкоротша й правильна?"
+   },
+   "options": [
+    "Gone out. Back soon.",
+    "I am going out and I will come back soon.",
+    "Going me out, soon back."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У записці пишуть коротко."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Скоро повернуся."
+   },
+   "words": [
+    "Back",
+    "soon",
+    "Gone",
+    "dear"
+   ],
+   "answer": [
+    "Back",
+    "soon"
+   ],
+   "explanation": {
+    "uk": "Back soon."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Любий Томе,"
+   },
+   "answers": [
+    "Dear Tom"
+   ],
+   "explanation": {
+    "uk": "Dear Tom."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Dear Tom, I'm at the shop. Back at six. Best wishes, Anna.",
+   "prompt": {
+    "uk": "Що ви прочитали?"
+   },
+   "options": {
+    "uk": [
+     "Анна в магазині й повернеться о шостій.",
+     "Анна вдома.",
+     "Том у магазині."
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At the shop, back at six."
+   }
+  }
+ ]
+}

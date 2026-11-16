@@ -1,0 +1,321 @@
+{
+ "id": "u39_l02",
+ "unit": "u39",
+ "cefr": "A0",
+ "title": {
+  "uk": "Контакти"
+ },
+ "goal": {
+  "uk": "Правильно вказати телефон, адресу й поштовий індекс."
+ },
+ "rule": {
+  "uk": "Контакти в анкеті: Mobile — мобільний телефон, Postcode — поштовий індекс, Contact — контакт. Пишіть BLOCK LETTERS — великими друкованими літерами, а Capital letters — це великі літери взагалі: Anna, Kyiv."
+ },
+ "words": [
+  {
+   "id": "mobile",
+   "text": "mobile",
+   "ipa": "/ˈməʊbaɪl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мобільний"
+   },
+   "example": "Mobile: 07700 900123.",
+   "exampleTranslation": {
+    "uk": "Мобільний: 07700 900123."
+   }
+  },
+  {
+   "id": "postcode",
+   "text": "postcode",
+   "ipa": "/ˈpəʊstkəʊd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "поштовий індекс"
+   },
+   "example": "Postcode: SW1A 1AA.",
+   "exampleTranslation": {
+    "uk": "Індекс: SW1A 1AA."
+   }
+  },
+  {
+   "id": "contact",
+   "text": "contact",
+   "ipa": "/ˈkɒntækt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "контакт"
+   },
+   "example": "Contact details, please.",
+   "exampleTranslation": {
+    "uk": "Контактні дані, будь ласка."
+   }
+  },
+  {
+   "id": "block_letters",
+   "text": "block letters",
+   "ipa": "/ˈblɒk ˌletəz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "друковані літери"
+   },
+   "example": "Please write in block letters.",
+   "exampleTranslation": {
+    "uk": "Пишіть, будь ласка, друкованими літерами."
+   }
+  },
+  {
+   "id": "capital_letter",
+   "text": "capital letter",
+   "ipa": "/ˌkæpɪtl ˈletə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "велика літера"
+   },
+   "example": "A name starts with a capital letter.",
+   "exampleTranslation": {
+    "uk": "Ім'я починається з великої літери."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Please fill ___ this form.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fill in."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "mobile",
+     "right": {
+      "uk": "мобільний"
+     }
+    },
+    {
+     "left": "postcode",
+     "right": {
+      "uk": "поштовий індекс"
+     }
+    },
+    {
+     "left": "contact",
+     "right": {
+      "uk": "контакт"
+     }
+    },
+    {
+     "left": "block letters",
+     "right": {
+      "uk": "друковані літери"
+     }
+    },
+    {
+     "left": "capital letter",
+     "right": {
+      "uk": "велика літера"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для анкети."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Mobile: oh seven seven double oh, nine oh oh, one two three.",
+   "prompt": {
+    "uk": "Прослухайте. Що називають?"
+   },
+   "options": {
+    "uk": [
+     "Номер мобільного",
+     "Поштовий індекс",
+     "Вік"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Mobile."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Please write in block letters.",
+   "prompt": {
+    "uk": "Прослухайте. Як просять писати?"
+   },
+   "options": {
+    "uk": [
+     "Друкованими літерами",
+     "Маленькими літерами",
+     "Олівцем"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Block letters."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "A name starts with a capital letter.",
+   "prompt": {
+    "uk": "Прослухайте. З чого починається ім'я?"
+   },
+   "options": {
+    "uk": [
+     "З великої літери",
+     "З цифри",
+     "З маленької літери"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A capital letter."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Write your ___ in block letters.",
+   "options": [
+    "name",
+    "age is",
+    "capital"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Write your name."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ is 07700 900123.",
+   "options": [
+    "mobile",
+    "postcode",
+    "form"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Mobile — номер мобільного."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A name starts with a ___ letter.",
+   "options": [
+    "capital",
+    "mobile",
+    "block"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Capital letter."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати про номер мобільного?"
+   },
+   "options": [
+    "What is your mobile number?",
+    "What is your mobile age?",
+    "Where is your mobile?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Mobile number."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мій поштовий індекс — SW1."
+   },
+   "words": [
+    "My",
+    "postcode",
+    "is",
+    "SW1",
+    "are",
+    "mobile"
+   ],
+   "answer": [
+    "My",
+    "postcode",
+    "is",
+    "SW1"
+   ],
+   "explanation": {
+    "uk": "My postcode is SW1."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Пишіть друкованими літерами."
+   },
+   "answers": [
+    "Write in block letters",
+    "Please write in block letters"
+   ],
+   "explanation": {
+    "uk": "Write in block letters."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What's your postcode?",
+   "prompt": {
+    "uk": "Ваш індекс SW1. Що відповісти?"
+   },
+   "options": [
+    "My postcode is SW1.",
+    "I postcode is SW1.",
+    "Postcode my SW1 is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My postcode is SW1."
+   }
+  }
+ ]
+}

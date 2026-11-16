@@ -1,0 +1,325 @@
+{
+ "id": "u37_l01",
+ "unit": "u37",
+ "cefr": "A0",
+ "title": {
+  "uk": "Що відбувається зараз"
+ },
+ "goal": {
+  "uk": "Сказати, що ви або інші робите просто зараз."
+ },
+ "rule": {
+  "uk": "Дія, яка триває саме зараз: am / is / are + дієслово з -ing. I am reading. He is cooking. They are waiting. Скорочено: I'm reading, he's cooking, they're waiting. Підказки часу: now — «зараз», at the moment — «на цей момент»."
+ },
+ "words": [
+  {
+   "id": "at_the_moment",
+   "text": "at the moment",
+   "ipa": "/ət ðə ˈməʊmənt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "зараз, у цей момент"
+   },
+   "example": "I'm busy at the moment.",
+   "exampleTranslation": {
+    "uk": "Я зараз зайнятий."
+   }
+  },
+  {
+   "id": "stand",
+   "text": "stand",
+   "ipa": "/stænd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "стояти"
+   },
+   "example": "He is standing near the door.",
+   "exampleTranslation": {
+    "uk": "Він стоїть біля дверей."
+   }
+  },
+  {
+   "id": "look_at",
+   "text": "look at",
+   "ipa": "/ˈlʊk ət/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "дивитися на"
+   },
+   "example": "She is looking at the picture.",
+   "exampleTranslation": {
+    "uk": "Вона дивиться на картину."
+   }
+  },
+  {
+   "id": "smile",
+   "text": "smile",
+   "ipa": "/smaɪl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "усміхатися"
+   },
+   "example": "She is smiling at me.",
+   "exampleTranslation": {
+    "uk": "Вона усміхається мені."
+   }
+  },
+  {
+   "id": "laugh",
+   "text": "laugh",
+   "ipa": "/lɑːf/",
+   "pos": "verb",
+   "translation": {
+    "uk": "сміятися"
+   },
+   "example": "We are laughing.",
+   "exampleTranslation": {
+    "uk": "Ми сміємося."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Would you like to come to dinner?",
+   "prompt": {
+    "uk": "Повторимо. Ви раді. Що відповісти?"
+   },
+   "options": [
+    "I'd love to!",
+    "I love to it!",
+    "I'd like love."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd love to!"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "at the moment",
+     "right": {
+      "uk": "зараз, у цей момент"
+     }
+    },
+    {
+     "left": "stand",
+     "right": {
+      "uk": "стояти"
+     }
+    },
+    {
+     "left": "look at",
+     "right": {
+      "uk": "дивитися на"
+     }
+    },
+    {
+     "left": "smile",
+     "right": {
+      "uk": "усміхатися"
+     }
+    },
+    {
+     "left": "laugh",
+     "right": {
+      "uk": "сміятися"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для опису того, що відбувається."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'm reading a book at the moment.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Читає книжку",
+     "Купує книжку",
+     "Пише книжку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm reading."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He is standing near the door.",
+   "prompt": {
+    "uk": "Прослухайте. Де стоїть чоловік?"
+   },
+   "options": {
+    "uk": [
+     "Біля дверей",
+     "Біля вікна",
+     "Біля столу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Near the door."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "They are listening to music.",
+   "prompt": {
+    "uk": "Прослухайте. Що роблять люди?"
+   },
+   "options": {
+    "uk": [
+     "Слухають музику",
+     "Грають музику",
+     "Танцюють"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Listening to music."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ looking at the picture.",
+   "options": [
+    "is",
+    "are",
+    "does"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She is + дієслово з -ing."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I am ___ to music now.",
+   "options": [
+    "listening",
+    "listen",
+    "listens"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Am + -ing."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "They ___ waiting at the moment.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "They are."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Вона дивиться на картину»?"
+   },
+   "options": [
+    "She is looking at the picture.",
+    "She looking at picture.",
+    "She is look at the picture."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She is + looking."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він стоїть біля дверей."
+   },
+   "words": [
+    "He",
+    "is",
+    "standing",
+    "near",
+    "the",
+    "door",
+    "stand",
+    "are"
+   ],
+   "answer": [
+    "He",
+    "is",
+    "standing",
+    "near",
+    "the",
+    "door"
+   ],
+   "explanation": {
+    "uk": "He is standing near the door."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми сміємося."
+   },
+   "answers": [
+    "We are laughing",
+    "We're laughing"
+   ],
+   "explanation": {
+    "uk": "We are laughing."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is she doing?",
+   "prompt": {
+    "uk": "Вона слухає музику. Що відповісти?"
+   },
+   "options": [
+    "She is listening to music.",
+    "She listens music now.",
+    "She is listen to music."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She is listening to music."
+   }
+  }
+ ]
+}

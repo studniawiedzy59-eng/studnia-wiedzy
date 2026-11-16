@@ -1,0 +1,227 @@
+{
+ "id": "u39_l06",
+ "unit": "u39",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: анкети й записки"
+ },
+ "goal": {
+  "uk": "Закріпити слова для форм, записок і листів."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: пункти анкети (Name, Age, Nationality, Occupation), контакти, як спитати написання, коротку записку, тему й прощання листа."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___: 25.",
+   "options": [
+    "Age",
+    "Form",
+    "Subject"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Age — вік."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "How do you spell your name?",
+   "prompt": {
+    "uk": "Ім'я Anna. Що відповісти?"
+   },
+   "options": [
+    "A, N, N, A.",
+    "Anna is my name.",
+    "A, N, A."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A-N-N-A."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "translate",
+   "prompt": {
+    "uk": "Заповніть цю анкету."
+   },
+   "answers": [
+    "Fill in this form",
+    "Please fill in this form"
+   ],
+   "explanation": {
+    "uk": "Fill in this form."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Gone out. Back at six. Best wishes, Anna.",
+   "prompt": {
+    "uk": "Прослухайте. Коли повернеться Анна?"
+   },
+   "options": {
+    "uk": [
+     "О шостій",
+     "О п'ятій",
+     "О сьомій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Back at six."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Please write in ___ letters.",
+   "options": [
+    "block",
+    "back",
+    "dear"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Block letters."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма правильна для запису національності?"
+   },
+   "options": [
+    "Nationality: Ukrainian",
+    "Nationality: Ukraine is",
+    "Nationality: I Ukraine"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Коротко: Ukrainian."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Запишіть вашу адресу."
+   },
+   "words": [
+    "Write",
+    "down",
+    "your",
+    "address",
+    "fill",
+    "spell"
+   ],
+   "answer": [
+    "Write",
+    "down",
+    "your",
+    "address"
+   ],
+   "explanation": {
+    "uk": "Write down your address."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ the photo to this email.",
+   "options": [
+    "attaching",
+    "attach",
+    "attaches"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm + -ing."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "Subject: Party on Saturday. See you soon!",
+   "prompt": {
+    "uk": "Прослухайте. Яка тема листа?"
+   },
+   "options": {
+    "uk": [
+     "Вечірка в суботу",
+     "Зустріч у понеділок",
+     "Квитки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Party on Saturday."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Скоро повернуся."
+   },
+   "answers": [
+    "Back soon",
+    "I'll be back soon"
+   ],
+   "explanation": {
+    "uk": "Back soon."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати поштовий індекс?"
+   },
+   "options": [
+    "What's your postcode?",
+    "What is postcode you?",
+    "Where is your postcode age?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What's your postcode?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Please sign here.",
+   "prompt": {
+    "uk": "Що просять зробити?"
+   },
+   "options": {
+    "uk": [
+     "Поставити підпис",
+     "Заповнити анкету",
+     "Відповісти на лист"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sign — підписати."
+   }
+  }
+ ]
+}

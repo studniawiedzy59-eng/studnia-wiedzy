@@ -1,0 +1,322 @@
+{
+ "id": "u39_l05",
+ "unit": "u39",
+ "cefr": "A0",
+ "title": {
+  "uk": "Коротке повідомлення"
+ },
+ "goal": {
+  "uk": "Написати короткий лист чи SMS другові."
+ },
+ "rule": {
+  "uk": "Електронний лист: Subject — тема. Привітання: Hi Tom, або Dear Anna,. Прощання: Kind regards — ввічливо, See you soon — другові. Attach — додати файл. Reply — відповісти."
+ },
+ "words": [
+  {
+   "id": "subject",
+   "text": "subject",
+   "ipa": "/ˈsʌbdʒɪkt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тема листа"
+   },
+   "example": "Subject: Party on Saturday.",
+   "exampleTranslation": {
+    "uk": "Тема: Вечірка в суботу."
+   }
+  },
+  {
+   "id": "kind_regards",
+   "text": "kind regards",
+   "ipa": "/ˌkaɪnd rɪˈɡɑːdz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "з повагою"
+   },
+   "example": "Kind regards, Anna.",
+   "exampleTranslation": {
+    "uk": "З повагою, Анна."
+   }
+  },
+  {
+   "id": "attach",
+   "text": "attach",
+   "ipa": "/əˈtætʃ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "додавати файл"
+   },
+   "example": "I'm attaching the photo.",
+   "exampleTranslation": {
+    "uk": "Додаю фото."
+   }
+  },
+  {
+   "id": "forward",
+   "text": "forward",
+   "ipa": "/ˈfɔːwəd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "переслати"
+   },
+   "example": "Please forward this email.",
+   "exampleTranslation": {
+    "uk": "Перешліть, будь ласка, цей лист."
+   }
+  },
+  {
+   "id": "see_you_soon",
+   "text": "see you soon",
+   "ipa": "/ˌsiː ju ˈsuːn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "до скорої зустрічі"
+   },
+   "example": "See you soon!",
+   "exampleTranslation": {
+    "uk": "До скорої зустрічі!"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Dear Tom, I'm at the shop. Back soon.",
+   "prompt": {
+    "uk": "Повторимо. Що це?"
+   },
+   "options": {
+    "uk": [
+     "Записка",
+     "Анкета",
+     "Меню"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A note."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "subject",
+     "right": {
+      "uk": "тема листа"
+     }
+    },
+    {
+     "left": "kind regards",
+     "right": {
+      "uk": "з повагою"
+     }
+    },
+    {
+     "left": "attach",
+     "right": {
+      "uk": "додавати файл"
+     }
+    },
+    {
+     "left": "forward",
+     "right": {
+      "uk": "переслати"
+     }
+    },
+    {
+     "left": "see you soon",
+     "right": {
+      "uk": "до скорої зустрічі"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для листа."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Subject: Party on Saturday.",
+   "prompt": {
+    "uk": "Прослухайте. Що це?"
+   },
+   "options": {
+    "uk": [
+     "Тема листа",
+     "Підпис",
+     "Адреса"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Subject."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'm attaching the photo.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Додає фото",
+     "Робить фото",
+     "Видаляє фото"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Attaching."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Kind regards, Anna.",
+   "prompt": {
+    "uk": "Прослухайте. Що це?"
+   },
+   "options": {
+    "uk": [
+     "Ввічливе прощання",
+     "Привітання",
+     "Тема"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Kind regards."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Please ___ soon.",
+   "options": [
+    "reply",
+    "attach",
+    "subject"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Reply — відповісти."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ the photo.",
+   "options": [
+    "attaching",
+    "attach",
+    "attaches"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm + -ing."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ regards, Anna.",
+   "options": [
+    "Kind",
+    "Dear",
+    "Back"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Kind regards."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке прощання для друга?"
+   },
+   "options": [
+    "See you soon!",
+    "Kind regards.",
+    "Yours faithfully."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "See you soon — для друга."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Тема: Вечірка в суботу."
+   },
+   "words": [
+    "Subject",
+    "Party",
+    "on",
+    "Saturday",
+    "Dear",
+    "reply"
+   ],
+   "answer": [
+    "Subject",
+    "Party",
+    "on",
+    "Saturday"
+   ],
+   "explanation": {
+    "uk": "Subject: Party on Saturday."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "До скорої зустрічі!"
+   },
+   "answers": [
+    "See you soon"
+   ],
+   "explanation": {
+    "uk": "See you soon!"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Can you reply soon?",
+   "prompt": {
+    "uk": "Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, of course.",
+    "Yes, I reply soon you.",
+    "No, I attach."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, of course."
+   }
+  }
+ ]
+}

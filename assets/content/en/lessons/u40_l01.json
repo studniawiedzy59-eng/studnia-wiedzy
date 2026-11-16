@@ -1,0 +1,228 @@
+{
+ "id": "u40_l01",
+ "unit": "u40",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Підсумок: знайомство"
+ },
+ "goal": {
+  "uk": "Розповісти про себе: ім'я, країна, вік, професія."
+ },
+ "rule": {
+  "uk": "Це повторення всього, що ви вивчили. Нових слів немає. Складіть коротку розповідь про себе: My name is Anna. I'm from Ukraine. I'm twenty-five. I'm a teacher. Кожне речення — окрема цеглинка."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Hello! What's your name?",
+   "prompt": {
+    "uk": "Привітайтеся й назвіться Анною. Що відповісти?"
+   },
+   "options": [
+    "Hello! My name is Anna.",
+    "Hello! I name Anna.",
+    "Hello! Name is my Anna."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My name is Anna."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "Where are you from?",
+   "prompt": {
+    "uk": "Ви з України. Що відповісти?"
+   },
+   "options": [
+    "I'm from Ukraine.",
+    "I from Ukraine.",
+    "I'm Ukraine from."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm from Ukraine."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "How old are you?",
+   "prompt": {
+    "uk": "Вам двадцять п'ять. Що відповісти?"
+   },
+   "options": [
+    "I'm twenty-five.",
+    "I have twenty-five.",
+    "I'm twenty-five years have."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm twenty-five."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What is your ___?",
+   "options": [
+    "occupation",
+    "mobile",
+    "ceiling"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Occupation — професія."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ a teacher.",
+   "options": [
+    "a",
+    "an",
+    "the"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm a teacher."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мене звати Анна."
+   },
+   "words": [
+    "My",
+    "name",
+    "is",
+    "Anna",
+    "I",
+    "are"
+   ],
+   "answer": [
+    "My",
+    "name",
+    "is",
+    "Anna"
+   ],
+   "explanation": {
+    "uk": "My name is Anna."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я з України."
+   },
+   "words": [
+    "I'm",
+    "from",
+    "Ukraine",
+    "am",
+    "in"
+   ],
+   "answer": [
+    "I'm",
+    "from",
+    "Ukraine"
+   ],
+   "explanation": {
+    "uk": "I'm from Ukraine."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Приємно познайомитися."
+   },
+   "answers": [
+    "Nice to meet you",
+    "Pleased to meet you"
+   ],
+   "explanation": {
+    "uk": "Nice to meet you."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я вчитель."
+   },
+   "answers": [
+    "I'm a teacher",
+    "I am a teacher"
+   ],
+   "explanation": {
+    "uk": "I'm a teacher."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати про професію?"
+   },
+   "options": [
+    "What do you do?",
+    "What you do?",
+    "Where do you do?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What do you do?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Hello! I'm Tom. I'm from Poland. I'm a doctor.",
+   "prompt": {
+    "uk": "Прослухайте. Хто такий Том?"
+   },
+   "options": {
+    "uk": [
+     "Лікар із Польщі",
+     "Вчитель з України",
+     "Студент із Польщі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A doctor from Poland."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка відповідь на «Nice to meet you»?"
+   },
+   "options": [
+    "Nice to meet you too.",
+    "I meet you nice.",
+    "Yes, meet."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Nice to meet you too."
+   }
+  }
+ ]
+}

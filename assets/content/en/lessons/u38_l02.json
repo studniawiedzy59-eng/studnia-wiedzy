@@ -1,0 +1,327 @@
+{
+ "id": "u38_l02",
+ "unit": "u38",
+ "cefr": "A0",
+ "title": {
+  "uk": "У кімнаті"
+ },
+ "goal": {
+  "uk": "Розповісти, що є вдома в кімнаті."
+ },
+ "rule": {
+  "uk": "Для кімнати працює те саме there is / there are. Додайте місце: There is a carpet on the floor. There are curtains on the window. Прийменники місця: on — на, in — у, under — під, near — біля."
+ },
+ "words": [
+  {
+   "id": "ceiling",
+   "text": "ceiling",
+   "ipa": "/ˈsiːlɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "стеля"
+   },
+   "example": "There is a lamp on the ceiling.",
+   "exampleTranslation": {
+    "uk": "На стелі є лампа."
+   }
+  },
+  {
+   "id": "curtain",
+   "text": "curtain",
+   "ipa": "/ˈkɜːtn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "штора"
+   },
+   "example": "There are curtains on the window.",
+   "exampleTranslation": {
+    "uk": "На вікні є штори."
+   }
+  },
+  {
+   "id": "carpet",
+   "text": "carpet",
+   "ipa": "/ˈkɑːpɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "килим"
+   },
+   "example": "There is a carpet on the floor.",
+   "exampleTranslation": {
+    "uk": "На підлозі є килим."
+   }
+  },
+  {
+   "id": "cupboard",
+   "text": "cupboard",
+   "ipa": "/ˈkʌbəd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шафа (для посуду)"
+   },
+   "example": "There are plates in the cupboard.",
+   "exampleTranslation": {
+    "uk": "У шафі є тарілки."
+   }
+  },
+  {
+   "id": "drawer",
+   "text": "drawer",
+   "ipa": "/drɔː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шухляда"
+   },
+   "example": "There is a knife in the drawer.",
+   "exampleTranslation": {
+    "uk": "У шухляді є ніж."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "There ___ a bird on the tree.",
+   "options": [
+    "is",
+    "are",
+    "have"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "ceiling",
+     "right": {
+      "uk": "стеля"
+     }
+    },
+    {
+     "left": "curtain",
+     "right": {
+      "uk": "штора"
+     }
+    },
+    {
+     "left": "carpet",
+     "right": {
+      "uk": "килим"
+     }
+    },
+    {
+     "left": "cupboard",
+     "right": {
+      "uk": "шафа"
+     }
+    },
+    {
+     "left": "drawer",
+     "right": {
+      "uk": "шухляда"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про кімнату."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "There is a carpet on the floor.",
+   "prompt": {
+    "uk": "Прослухайте. Що на підлозі?"
+   },
+   "options": {
+    "uk": [
+     "Килим",
+     "Ковдра",
+     "Подушка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A carpet."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There are curtains on the window.",
+   "prompt": {
+    "uk": "Прослухайте. Що на вікні?"
+   },
+   "options": {
+    "uk": [
+     "Штори",
+     "Картина",
+     "Лампа"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Curtains."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "There is a knife in the drawer.",
+   "prompt": {
+    "uk": "Прослухайте. Де ніж?"
+   },
+   "options": {
+    "uk": [
+     "У шухляді",
+     "У шафі",
+     "На столі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In the drawer."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There ___ plates in the cupboard.",
+   "options": [
+    "are",
+    "is",
+    "has"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Plates — багато, there are."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a lamp ___ the ceiling.",
+   "options": [
+    "on",
+    "at",
+    "of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On the ceiling."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a carpet ___ the floor.",
+   "options": [
+    "on",
+    "in",
+    "to"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On the floor."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке речення правильне?"
+   },
+   "options": [
+    "There are curtains on the window.",
+    "There is curtains on the window.",
+    "There have curtains on the window."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Curtains — багато: there are."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У шухляді є ніж."
+   },
+   "words": [
+    "There",
+    "is",
+    "a",
+    "knife",
+    "in",
+    "the",
+    "drawer",
+    "are",
+    "on"
+   ],
+   "answer": [
+    "There",
+    "is",
+    "a",
+    "knife",
+    "in",
+    "the",
+    "drawer"
+   ],
+   "explanation": {
+    "uk": "There is a knife in the drawer."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "На підлозі є килим."
+   },
+   "answers": [
+    "There is a carpet on the floor",
+    "There's a carpet on the floor"
+   ],
+   "explanation": {
+    "uk": "There is a carpet on the floor."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is there in the cupboard?",
+   "prompt": {
+    "uk": "Там тарілки. Що відповісти?"
+   },
+   "options": [
+    "There are plates.",
+    "There is plates.",
+    "It are plates."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There are plates."
+   }
+  }
+ ]
+}
