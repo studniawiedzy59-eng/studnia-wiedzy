@@ -201,6 +201,75 @@
    "explanation": {
     "uk": "Can I pay by card?"
    }
+  },
+  {
+   "id": "e11",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви в кав'ярні. Хочете каву з молоком."
+   },
+   "character": {
+    "name": {
+     "uk": "Бариста Том"
+    },
+    "avatar": "👨‍🍳"
+   },
+   "line": "Hi! What can I get you?",
+   "options": [
+    "Can I have a coffee with milk, please?",
+    "I want coffee with milk.",
+    "Give me a coffee milk."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can I have…, please? — ввічливе замовлення. «I want…» звучить різко, а «Give me…» — як наказ."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Бариста питає про розмір. Вам потрібна велика."
+   },
+   "character": {
+    "name": {
+     "uk": "Бариста Том"
+    },
+    "avatar": "👨‍🍳"
+   },
+   "line": "Small or large?",
+   "options": [
+    "Large, please.",
+    "I am large.",
+    "Big one, I think so."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "На такі питання відповідають коротко: Large, please. Зайві слова звучать дивно."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Більше вам нічого не треба."
+   },
+   "character": {
+    "name": {
+     "uk": "Бариста Том"
+    },
+    "avatar": "👨‍🍳"
+   },
+   "line": "Anything else?",
+   "options": [
+    "No, that's all, thanks.",
+    "No, I don't want anything.",
+    "It's all me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "That's all, thanks — стандартна відповідь. «I don't want anything» звучить грубувато."
+   }
   }
  ]
 }

@@ -9,7 +9,7 @@ import pathlib
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent / "assets" / "content"
-TYPES = {"multiple_choice", "listening", "fill_blank", "matching", "build_sentence", "translate"}
+TYPES = {"multiple_choice", "listening", "fill_blank", "matching", "build_sentence", "translate", "dialogue"}
 errors = []
 
 
@@ -46,7 +46,7 @@ def check_exercise(ex, langs, where):
         return
     l10n(f"{where}.explanation", ex.get("explanation"), langs)
     l10n(f"{where}.prompt", ex.get("prompt"), langs)
-    if kind in {"multiple_choice", "listening", "fill_blank"}:
+    if kind in {"multiple_choice", "listening", "fill_blank", "dialogue"}:
         for opts in options_of(ex, langs, where):
             if len(opts) < 2:
                 err(where, "needs at least two options")
@@ -58,7 +58,7 @@ def check_exercise(ex, langs, where):
     if kind == "listening" and not str(ex.get("audioText", "")).strip():
         err(where, "listening needs audioText")
     # Text meant to be read aloud or typed in English must not contain Cyrillic.
-    english = [str(ex.get("audioText", ""))]
+    english = [str(ex.get("audioText", "")), str(ex.get("line", ""))]
     english += [str(a) for a in ex.get("answers", [])]
     english += [str(w) for w in ex.get("words", [])]
     english += [str(pair.get("left", "")) for pair in ex.get("pairs", [])]
@@ -67,6 +67,13 @@ def check_exercise(ex, langs, where):
     for text in english:
         if any("\u0400" <= ch <= "\u04ff" for ch in text):
             err(where, f"Cyrillic in an English field: {text!r}")
+    if kind == "dialogue":
+        char = ex.get("character") or {}
+        if not str(char.get("avatar", "")).strip():
+            err(where, "dialogue needs character.avatar")
+        l10n(f"{where}.character.name", char.get("name"), langs)
+        if not str(ex.get("line", "")).strip():
+            err(where, "dialogue needs line")
     if kind == "fill_blank" and "___" not in str(ex.get("sentence", "")):
         err(where, "sentence must contain ___")
     if kind == "matching":

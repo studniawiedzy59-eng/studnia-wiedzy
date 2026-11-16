@@ -127,6 +127,17 @@ sealed class Exercise {
           explanation: explanation,
           answers: (json['answers'] as List).map((e) => e.toString()).toList(),
         );
+      case 'dialogue':
+        return DialogueExercise(
+          id: id,
+          prompt: prompt,
+          explanation: explanation,
+          characterName: L10nText.fromJson((json['character'] as Map)['name']),
+          avatar: (json['character'] as Map)['avatar'] as String,
+          line: json['line'] as String,
+          options: (json['options'] as List).map((e) => e.toString()).toList(),
+          answerIndex: json['answer'] as int,
+        );
       default:
         throw FormatException('Unknown exercise type: ${json['type']}');
     }
@@ -165,6 +176,33 @@ class ChoiceExercise extends Exercise {
 
   @override
   String correctAnswer(String lang) => options.of(lang)[answerIndex];
+}
+
+/// A short live scene: a character says [line] aloud and the learner picks
+/// the reply a native speaker would actually give.
+class DialogueExercise extends Exercise {
+  const DialogueExercise({
+    required super.id,
+    required super.prompt,
+    required super.explanation,
+    required this.characterName,
+    required this.avatar,
+    required this.line,
+    required this.options,
+    required this.answerIndex,
+  });
+
+  final L10nText characterName;
+  final String avatar;
+  final String line;
+  final List<String> options;
+  final int answerIndex;
+
+  @override
+  bool check(Object? answer) => answer == answerIndex;
+
+  @override
+  String correctAnswer(String lang) => options[answerIndex];
 }
 
 class FillBlankExercise extends Exercise {

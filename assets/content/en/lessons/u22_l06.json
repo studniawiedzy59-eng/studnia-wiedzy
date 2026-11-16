@@ -225,6 +225,75 @@
    "explanation": {
     "uk": "It's about one kilometre."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Турист питає дорогу. Ви знаєте: прямо, потім ліворуч."
+   },
+   "character": {
+    "name": {
+     "uk": "Турист"
+    },
+    "avatar": "🧳"
+   },
+   "line": "Excuse me, do you know where the station is?",
+   "options": [
+    "Yes, go straight and turn left.",
+    "Yes, you go on straight and left turn.",
+    "Yes, it is there."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go straight and turn left — чіткий порядок дій. «It is there» нічого не пояснює."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "До станції приблизно п'ять хвилин пішки."
+   },
+   "character": {
+    "name": {
+     "uk": "Турист"
+    },
+    "avatar": "🧳"
+   },
+   "line": "Is it far from here?",
+   "options": [
+    "No, it's only five minutes.",
+    "No, it is five minutes by my feet.",
+    "No, it isn't far, five minute."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, it's only five minutes — природно. «By my feet» — калька з української."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Турист дякує вам за допомогу."
+   },
+   "character": {
+    "name": {
+     "uk": "Турист"
+    },
+    "avatar": "🧳"
+   },
+   "line": "Thank you so much!",
+   "options": [
+    "You're welcome!",
+    "Please!",
+    "No problem you."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "На Thank you відповідають You're welcome! Окреме Please! так не використовується."
+   }
   }
  ]
 }

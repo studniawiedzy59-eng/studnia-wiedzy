@@ -227,6 +227,75 @@
    "explanation": {
     "uk": "No, thank you. I'm full."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Друг запрошує вас на вечірку. Ви раді."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Hey! Would you like to come to my party on Saturday?",
+   "options": [
+    "I'd love to! What time?",
+    "Yes, I like to come.",
+    "I will come, thank you very."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd love to! — тепла згода. «I like to come» звучить так, ніби йдеться про звичку."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Том пропонує зустрітися о сьомій. Вам підходить."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Shall we meet at seven?",
+   "options": [
+    "Good idea. See you there!",
+    "Yes, we shall meet.",
+    "I agree with you idea."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Good idea. See you there! — коротко й по-дружньому."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Том просить принести щось випити. Ви принесете сік."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Can you bring something to drink?",
+   "options": [
+    "Of course! I'll bring juice.",
+    "Yes, I bring something drink.",
+    "Of course, I can to bring."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'll bring… — обіцянка на місці. Після can не ставимо to."
+   }
   }
  ]
 }

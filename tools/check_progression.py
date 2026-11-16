@@ -54,7 +54,7 @@ def main():
                 taught.setdefault(key, lesson_id)
             here |= tokens(lesson["rule"].get("uk", ""))
             for ex in lesson["exercises"]:
-                here |= tokens(ex.get("audioText")) | tokens(ex.get("sentence"))
+                here |= tokens(ex.get("audioText")) | tokens(ex.get("sentence")) | tokens(ex.get("line"))
                 for option in english_options(ex):
                     here |= tokens(option)
                 for pair in ex.get("pairs", []):

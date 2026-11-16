@@ -226,6 +226,75 @@
    "explanation": {
     "uk": "Separately, please."
    }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви прийшли в ресторан удвох."
+   },
+   "character": {
+    "name": {
+     "uk": "Офіціантка Емма"
+    },
+    "avatar": "👩‍🍳"
+   },
+   "line": "Good evening! Table for two?",
+   "options": [
+    "Yes, a table for two, please.",
+    "Yes, we are two persons.",
+    "Yes, give us table."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Кажемо a table for two, please. «Two persons» — калька, носії так не кажуть."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви хочете замовити стейк."
+   },
+   "character": {
+    "name": {
+     "uk": "Офіціантка Емма"
+    },
+    "avatar": "👩‍🍳"
+   },
+   "line": "Are you ready to order?",
+   "options": [
+    "Yes, I'll have the steak, please.",
+    "Yes, I will to have steak.",
+    "Yes, bring me steak."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'll have… — природне замовлення. Після will не ставимо to, а «bring me» звучить як наказ."
+   }
+  },
+  {
+   "id": "e15",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам потрібна вода без газу."
+   },
+   "character": {
+    "name": {
+     "uk": "Офіціантка Емма"
+    },
+    "avatar": "👩‍🍳"
+   },
+   "line": "Still or sparkling water?",
+   "options": [
+    "Still, please.",
+    "Without gas, please.",
+    "Quiet water, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вода без газу — still water. «Without gas» і «quiet» — кальки з української."
+   }
   }
  ]
 }

@@ -190,6 +190,75 @@
    "explanation": {
     "uk": "Thank you! You too."
    }
+  },
+  {
+   "id": "e11",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви лише дивитеся, купувати поки не збираєтеся."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавчиня Анна"
+    },
+    "avatar": "👩‍💼"
+   },
+   "line": "Hello! Can I help you?",
+   "options": [
+    "Just looking, thanks.",
+    "I only look.",
+    "No help, thank you."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Just looking, thanks — що кажуть усі в магазині. «I only look» — калька."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви хочете приміряти куртку."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавчиня Анна"
+    },
+    "avatar": "👩‍💼"
+   },
+   "line": "Do you want to try it on?",
+   "options": [
+    "Yes, where is the fitting room?",
+    "Yes, where is the room for trying?",
+    "Yes, I try on."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Приміряльня — fitting room. Дослівне «room for trying» носії не зрозуміють."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви хочете заплатити карткою."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавчиня Анна"
+    },
+    "avatar": "👩‍💼"
+   },
+   "line": "That's twenty pounds. Cash or card?",
+   "options": [
+    "Card, please.",
+    "With the card.",
+    "I pay card."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Коротко й ввічливо: Card, please. Артикль і «with» тут не потрібні."
+   }
   }
  ]
 }

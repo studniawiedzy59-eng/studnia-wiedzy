@@ -37,6 +37,7 @@ class ExerciseView extends StatelessWidget {
       BuildSentenceExercise() =>
         BuildSentenceView(exercise: exercise, enabled: enabled, onChanged: onChanged),
       TranslateExercise() => TranslateView(exercise: exercise, enabled: enabled, onChanged: onChanged),
+      DialogueExercise() => DialogueView(exercise: exercise, enabled: enabled, onChanged: onChanged),
     };
   }
 }
@@ -502,6 +503,109 @@ class _TranslateViewState extends State<TranslateView> {
           ),
           onChanged: (value) => widget.onChanged(value.trim().isEmpty ? null : value),
         ),
+      ],
+    );
+  }
+}
+
+
+/// A character speaks (text bubble plus voice) and the learner chooses a reply.
+class DialogueView extends ConsumerStatefulWidget {
+  const DialogueView({super.key, required this.exercise, required this.enabled, required this.onChanged});
+
+  final DialogueExercise exercise;
+  final bool enabled;
+  final AnswerChanged onChanged;
+
+  @override
+  ConsumerState<DialogueView> createState() => _DialogueViewState();
+}
+
+class _DialogueViewState extends ConsumerState<DialogueView> {
+  int? _selected;
+  late final List<int> _order = mixedOrder(widget.exercise.options.length);
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) => _speak());
+  }
+
+  void _speak() {
+    if (mounted) ref.read(ttsProvider).speak(widget.exercise.line);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final exercise = widget.exercise;
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Text(
+          exercise.prompt.of(explanationLanguage),
+          style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.muted),
+        ),
+        const SizedBox(height: 14),
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Column(
+              children: [
+                CircleAvatar(
+                  radius: 32,
+                  backgroundColor: AppColors.tint,
+                  child: Text(exercise.avatar, style: const TextStyle(fontSize: 34)),
+                ),
+                const SizedBox(height: 4),
+                Text(
+                  exercise.characterName.of(explanationLanguage),
+                  style: const TextStyle(fontSize: 12, fontWeight: FontWeight.w800, color: AppColors.muted),
+                ),
+              ],
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: AppCard(
+                padding: const EdgeInsets.fromLTRB(16, 14, 8, 14),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Text(
+                        exercise.line,
+                        style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w800, height: 1.25),
+                      ),
+                    ),
+                    IconButton(
+                      onPressed: _speak,
+                      icon: const Icon(Icons.volume_up),
+                      tooltip: 'Прослухати ще раз',
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ],
+        ),
+        const SizedBox(height: 20),
+        const Text(
+          'Що ви відповісте?',
+          style: TextStyle(fontSize: 14, fontWeight: FontWeight.w800, color: AppColors.muted),
+        ),
+        const SizedBox(height: 8),
+        for (final i in _order)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 10),
+            child: OptionTile(
+              text: exercise.options[i],
+              selected: _selected == i,
+              onTap: widget.enabled
+                  ? () {
+                      setState(() => _selected = i);
+                      widget.onChanged(i);
+                    }
+                  : null,
+            ),
+          ),
       ],
     );
   }

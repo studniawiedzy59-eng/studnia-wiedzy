@@ -48,6 +48,7 @@ void main() {
         final Object answer = switch (exercise) {
           ChoiceExercise() => exercise.answerIndex,
           FillBlankExercise() => exercise.answerIndex,
+          DialogueExercise() => exercise.answerIndex,
           MatchingExercise() => true,
           BuildSentenceExercise() => exercise.answer,
           TranslateExercise() => exercise.answers.first,
@@ -72,5 +73,17 @@ void main() {
     expect(translate.check('Nice meet you'), isFalse);
     final build = lesson.exercises.whereType<BuildSentenceExercise>().first;
     expect(build.check(['My', 'name', 'Tom']), isFalse);
+  });
+
+  test('live dialogue scenes load, show a character and check the reply', () {
+    final lesson = Lesson.fromJson(_read('assets/content/en/lessons/u02_l06.json'));
+    final scenes = lesson.exercises.whereType<DialogueExercise>().toList();
+    expect(scenes, hasLength(3));
+    for (final scene in scenes) {
+      expect(scene.avatar, isNotEmpty);
+      expect(scene.line, isNotEmpty);
+      expect(scene.check(scene.answerIndex), isTrue);
+      expect(scene.check(scene.answerIndex + 1), isFalse);
+    }
   });
 }
