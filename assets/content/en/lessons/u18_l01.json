@@ -1,0 +1,294 @@
+{
+ "id": "u18_l01",
+ "unit": "u18",
+ "cefr": "A0",
+ "title": {
+  "uk": "Я вмію плавати"
+ },
+ "goal": {
+  "uk": "Сказати, що ви вмієте робити."
+ },
+ "rule": {
+  "uk": "Can — «вміти, могти». Після can дієслово стоїть у початковій формі, без to і без -s: I can swim. She can drive. Can однакове для всіх: I can, he can, they can."
+ },
+ "words": [
+  {
+   "id": "swim",
+   "text": "swim",
+   "ipa": "/swɪm/",
+   "pos": "verb",
+   "translation": {
+    "uk": "плавати"
+   },
+   "example": "I can swim.",
+   "exampleTranslation": {
+    "uk": "Я вмію плавати."
+   }
+  },
+  {
+   "id": "drive",
+   "text": "drive",
+   "ipa": "/draɪv/",
+   "pos": "verb",
+   "translation": {
+    "uk": "водити машину"
+   },
+   "example": "She can drive.",
+   "exampleTranslation": {
+    "uk": "Вона вміє водити."
+   }
+  },
+  {
+   "id": "cook",
+   "text": "cook",
+   "ipa": "/kʊk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "готувати"
+   },
+   "example": "He can cook.",
+   "exampleTranslation": {
+    "uk": "Він уміє готувати."
+   }
+  },
+  {
+   "id": "dance",
+   "text": "dance",
+   "ipa": "/dɑːns/",
+   "pos": "verb",
+   "translation": {
+    "uk": "танцювати"
+   },
+   "example": "They can dance.",
+   "exampleTranslation": {
+    "uk": "Вони вміють танцювати."
+   }
+  },
+  {
+   "id": "sing",
+   "text": "sing",
+   "ipa": "/sɪŋ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "співати"
+   },
+   "example": "I can sing.",
+   "exampleTranslation": {
+    "uk": "Я вмію співати."
+   }
+  },
+  {
+   "id": "ride_a_bike",
+   "text": "ride a bike",
+   "ipa": "/ˌraɪd ə ˈbaɪk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "їздити на велосипеді"
+   },
+   "example": "I can ride a bike.",
+   "exampleTranslation": {
+    "uk": "Я вмію їздити на велосипеді."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "I love travelling.",
+   "prompt": {
+    "uk": "Повторимо. Ви теж любите. Що відповісти?"
+   },
+   "options": [
+    "Me too!",
+    "Me neither.",
+    "You too!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Me too!"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "swim",
+     "right": {
+      "uk": "плавати"
+     }
+    },
+    {
+     "left": "drive",
+     "right": {
+      "uk": "водити машину"
+     }
+    },
+    {
+     "left": "cook",
+     "right": {
+      "uk": "готувати"
+     }
+    },
+    {
+     "left": "dance",
+     "right": {
+      "uk": "танцювати"
+     }
+    },
+    {
+     "left": "sing",
+     "right": {
+      "uk": "співати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "П'ять умінь."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I can drive.",
+   "prompt": {
+    "uk": "Прослухайте. Що вміє людина?"
+   },
+   "options": {
+    "uk": [
+     "Водити машину",
+     "Плавати",
+     "Танцювати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Drive — водити."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "She can swim.",
+    "She cans swim.",
+    "She can to swim."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після can — без -s і без to."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "He can cook.",
+    "He can cooks.",
+    "He can cooking."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після can — початкова форма: cook."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I can ___ a bike.",
+   "options": [
+    "ride",
+    "drive",
+    "swim"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "На велосипеді — ride a bike."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "My daughter can sing and dance.",
+   "prompt": {
+    "uk": "Прослухайте. Що вміє донька?"
+   },
+   "options": {
+    "uk": [
+     "Співати й танцювати",
+     "Співати й плавати",
+     "Готувати й танцювати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sing and dance."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я вмію плавати."
+   },
+   "words": [
+    "I",
+    "can",
+    "swim",
+    "to",
+    "swimming"
+   ],
+   "answer": [
+    "I",
+    "can",
+    "swim"
+   ],
+   "explanation": {
+    "uk": "I can swim."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Він уміє водити."
+   },
+   "answers": [
+    "He can drive"
+   ],
+   "explanation": {
+    "uk": "He can drive."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What can you do?",
+   "prompt": {
+    "uk": "Ви вмієте готувати. Що відповісти?"
+   },
+   "options": [
+    "I can cook.",
+    "I can to cook.",
+    "I'm can cook."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I can cook."
+   }
+  }
+ ]
+}

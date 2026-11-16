@@ -1,0 +1,291 @@
+{
+ "id": "u18_l03",
+ "unit": "u18",
+ "cefr": "A0",
+ "title": {
+  "uk": "Ви вмієте водити?"
+ },
+ "goal": {
+  "uk": "Спитати про вміння й відповісти коротко."
+ },
+ "rule": {
+  "uk": "У питанні can стає на початок: Can you drive? Коротка відповідь: Yes, I can. No, I can't. Щоб сказати, наскільки добре: very well, quite well (досить добре), a little."
+ },
+ "words": [
+  {
+   "id": "use",
+   "text": "use",
+   "ipa": "/juːz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "користуватися"
+   },
+   "example": "Can you use this?",
+   "exampleTranslation": {
+    "uk": "Ви вмієте цим користуватися?"
+   }
+  },
+  {
+   "id": "computer",
+   "text": "computer",
+   "ipa": "/kəmˈpjuːtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "комп'ютер"
+   },
+   "example": "I can use a computer.",
+   "exampleTranslation": {
+    "uk": "Я вмію користуватися комп'ютером."
+   }
+  },
+  {
+   "id": "fix",
+   "text": "fix",
+   "ipa": "/fɪks/",
+   "pos": "verb",
+   "translation": {
+    "uk": "лагодити"
+   },
+   "example": "He can fix cars.",
+   "exampleTranslation": {
+    "uk": "Він уміє лагодити машини."
+   }
+  },
+  {
+   "id": "draw",
+   "text": "draw",
+   "ipa": "/drɔː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "малювати"
+   },
+   "example": "She can draw.",
+   "exampleTranslation": {
+    "uk": "Вона вміє малювати."
+   }
+  },
+  {
+   "id": "type",
+   "text": "type",
+   "ipa": "/taɪp/",
+   "pos": "verb",
+   "translation": {
+    "uk": "друкувати на клавіатурі"
+   },
+   "example": "I can type.",
+   "exampleTranslation": {
+    "uk": "Я вмію друкувати."
+   }
+  },
+  {
+   "id": "quite_well",
+   "text": "quite well",
+   "ipa": "/ˌkwaɪt ˈwel/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "досить добре"
+   },
+   "example": "I can cook quite well.",
+   "exampleTranslation": {
+    "uk": "Я досить добре готую."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I can't play ___ guitar.",
+   "options": [
+    "the",
+    "a",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Play the guitar."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "use",
+     "right": {
+      "uk": "користуватися"
+     }
+    },
+    {
+     "left": "fix",
+     "right": {
+      "uk": "лагодити"
+     }
+    },
+    {
+     "left": "draw",
+     "right": {
+      "uk": "малювати"
+     }
+    },
+    {
+     "left": "type",
+     "right": {
+      "uk": "друкувати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Корисні вміння."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Can you use a computer?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Чи вмієте ви користуватися комп'ютером",
+     "Чи є у вас комп'ютер",
+     "Чи можна взяти ваш комп'ютер"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Can you use…?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати «Ви вмієте плавати?»"
+   },
+   "options": [
+    "Can you swim?",
+    "Do you can swim?",
+    "You can to swim?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can you swim?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can you drive? — Yes, I ___.",
+   "options": [
+    "can",
+    "do",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I can."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can he cook? — No, he ___.",
+   "options": [
+    "can't",
+    "doesn't",
+    "isn't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, he can't."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "I can speak English quite well.",
+   "prompt": {
+    "uk": "Прослухайте. Як людина розмовляє англійською?"
+   },
+   "options": {
+    "uk": [
+     "Досить добре",
+     "Зовсім не розмовляє",
+     "Трохи"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Quite well — досить добре."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він уміє лагодити машини."
+   },
+   "words": [
+    "He",
+    "can",
+    "fix",
+    "cars",
+    "fixes",
+    "to"
+   ],
+   "answer": [
+    "He",
+    "can",
+    "fix",
+    "cars"
+   ],
+   "explanation": {
+    "uk": "He can fix cars."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ви вмієте водити?"
+   },
+   "answers": [
+    "Can you drive"
+   ],
+   "explanation": {
+    "uk": "Can you drive?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Can you draw?",
+   "prompt": {
+    "uk": "Малювати ви не вмієте зовсім. Що відповісти?"
+   },
+   "options": [
+    "No, I can't. Not at all.",
+    "No, I don't. Not at all.",
+    "No, I'm not can."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I can't. Not at all."
+   }
+  }
+ ]
+}

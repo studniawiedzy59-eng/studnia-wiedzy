@@ -1,0 +1,192 @@
+{
+ "id": "u17_l06",
+ "unit": "u17",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: мої смаки"
+ },
+ "goal": {
+  "uk": "Розповісти про свої вподобання й розпитати співрозмовника."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: I like і I really like, like + дія з -ing, hate, don't mind і prefer, What kind of…?, Me too і Me neither, because."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я люблю читати й подорожувати."
+   },
+   "words": [
+    "I",
+    "like",
+    "reading",
+    "and",
+    "travelling",
+    "read",
+    "to"
+   ],
+   "answer": [
+    "I",
+    "like",
+    "reading",
+    "and",
+    "travelling"
+   ],
+   "explanation": {
+    "uk": "I like reading and travelling."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ cooking, but she hates cleaning.",
+   "options": [
+    "likes",
+    "like",
+    "is like"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She likes."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I hate waiting.",
+   "prompt": {
+    "uk": "Ви теж терпіти не можете чекати. Що відповісти?"
+   },
+   "options": [
+    "Me too!",
+    "Me neither!",
+    "I don't mind."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hate — це ствердження, тому Me too."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Яку музику ви любите?"
+   },
+   "answers": [
+    "What kind of music do you like"
+   ],
+   "explanation": {
+    "uk": "What kind of music do you like?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I don't like football, but I don't mind tennis.",
+   "prompt": {
+    "uk": "Прослухайте. Як людина ставиться до тенісу?"
+   },
+   "options": {
+    "uk": [
+     "Не проти",
+     "Ненавидить",
+     "Обожнює"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't mind — не проти."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I like swimming ___ it's relaxing.",
+   "options": [
+    "because",
+    "why",
+    "prefer"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Because."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Він не любить бігати»?"
+   },
+   "options": [
+    "He doesn't like running.",
+    "He don't like running.",
+    "He doesn't likes run."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He doesn't like running."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мені більше до вподоби чай."
+   },
+   "answers": [
+    "I prefer tea"
+   ],
+   "explanation": {
+    "uk": "I prefer tea."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "Does your wife like horror films? — No, she doesn't. She prefers comedy.",
+   "prompt": {
+    "uk": "Прослухайте. Що любить дружина?"
+   },
+   "options": {
+    "uk": [
+     "Комедії",
+     "Фільми жахів",
+     "Рок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "She prefers comedy."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "I don't like shopping.",
+   "prompt": {
+    "uk": "Ви теж не любите. Що відповісти?"
+   },
+   "options": [
+    "Me neither.",
+    "Me too.",
+    "Me don't like."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "На заперечення — Me neither."
+   }
+  }
+ ]
+}

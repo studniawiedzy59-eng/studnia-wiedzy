@@ -1,0 +1,311 @@
+{
+ "id": "u17_l03",
+ "unit": "u17",
+ "cefr": "A0",
+ "title": {
+  "uk": "Терпіти не можу чекати"
+ },
+ "goal": {
+  "uk": "Сказати, чого ви не любите, і що вам більше до вподоби."
+ },
+ "rule": {
+  "uk": "Шкала від найгіршого до найкращого: I hate → I don't like → I don't mind (мені байдуже, не заважає) → I like → I love. I prefer… — «мені більше подобається…»: I prefer tea."
+ },
+ "words": [
+  {
+   "id": "hate",
+   "text": "hate",
+   "ipa": "/heɪt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "ненавидіти, терпіти не могти"
+   },
+   "example": "I hate waiting.",
+   "exampleTranslation": {
+    "uk": "Терпіти не можу чекати."
+   }
+  },
+  {
+   "id": "dont_mind",
+   "text": "don't mind",
+   "ipa": "/ˌdəʊnt ˈmaɪnd/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "не проти, не заважає"
+   },
+   "example": "I don't mind cooking.",
+   "exampleTranslation": {
+    "uk": "Я не проти готувати."
+   }
+  },
+  {
+   "id": "prefer",
+   "text": "prefer",
+   "ipa": "/prɪˈfɜː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "віддавати перевагу"
+   },
+   "example": "I prefer tea.",
+   "exampleTranslation": {
+    "uk": "Мені більше до вподоби чай."
+   }
+  },
+  {
+   "id": "shopping",
+   "text": "shopping",
+   "ipa": "/ˈʃɒpɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "походи по магазинах"
+   },
+   "example": "I like shopping.",
+   "exampleTranslation": {
+    "uk": "Я люблю ходити по магазинах."
+   }
+  },
+  {
+   "id": "cleaning",
+   "text": "cleaning",
+   "ipa": "/ˈkliːnɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "прибирання"
+   },
+   "example": "I hate cleaning.",
+   "exampleTranslation": {
+    "uk": "Ненавиджу прибирати."
+   }
+  },
+  {
+   "id": "waiting",
+   "text": "waiting",
+   "ipa": "/ˈweɪtɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "очікування"
+   },
+   "example": "I don't like waiting.",
+   "exampleTranslation": {
+    "uk": "Я не люблю чекати."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Повторимо. Як сказати «Вона любить танцювати»?"
+   },
+   "options": [
+    "She likes dancing.",
+    "She like dance.",
+    "She likes dance."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She likes dancing."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "hate",
+     "right": {
+      "uk": "ненавидіти"
+     }
+    },
+    {
+     "left": "prefer",
+     "right": {
+      "uk": "віддавати перевагу"
+     }
+    },
+    {
+     "left": "don't mind",
+     "right": {
+      "uk": "не проти"
+     }
+    },
+    {
+     "left": "love",
+     "right": {
+      "uk": "обожнювати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Чотири способи висловити ставлення."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "shopping",
+     "right": {
+      "uk": "походи по магазинах"
+     }
+    },
+    {
+     "left": "cleaning",
+     "right": {
+      "uk": "прибирання"
+     }
+    },
+    {
+     "left": "waiting",
+     "right": {
+      "uk": "очікування"
+     }
+    },
+    {
+     "left": "cooking",
+     "right": {
+      "uk": "готування"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Справи, які люблять не всі."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I hate cleaning.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Ненавидить прибирати",
+     "Любить прибирати",
+     "Не проти прибирати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hate — ненавидіти."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I don't mind waiting.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона не проти почекати",
+     "Вона ненавидить чекати",
+     "Вона не чекатиме"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't mind — не проти."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що найсильніше з негативних?"
+   },
+   "options": {
+    "uk": [
+     "I hate it.",
+     "I don't like it.",
+     "I don't mind it."
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hate — найсильніше."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Coffee or tea? — I ___ tea.",
+   "options": [
+    "prefer",
+    "hate",
+    "mind"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I prefer tea — мені більше до вподоби чай."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я не проти готувати."
+   },
+   "words": [
+    "I",
+    "don't",
+    "mind",
+    "cooking",
+    "hate",
+    "cook"
+   ],
+   "answer": [
+    "I",
+    "don't",
+    "mind",
+    "cooking"
+   ],
+   "explanation": {
+    "uk": "I don't mind cooking."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ненавиджу чекати."
+   },
+   "answers": [
+    "I hate waiting"
+   ],
+   "explanation": {
+    "uk": "I hate waiting."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Do you like shopping?",
+   "prompt": {
+    "uk": "Вам байдуже, не заважає. Що відповісти?"
+   },
+   "options": [
+    "I don't mind it.",
+    "I hate mind.",
+    "I'm not mind."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't mind it."
+   }
+  }
+ ]
+}

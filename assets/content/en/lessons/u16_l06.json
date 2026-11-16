@@ -1,0 +1,190 @@
+{
+ "id": "u16_l06",
+ "unit": "u16",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: є чи немає"
+ },
+ "goal": {
+  "uk": "Впевнено говорити про те, що є і чого немає у вас та в інших."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: I have і I don't have, Do you have…?, he has і he doesn't have, some і any, I have a headache, I have a reservation."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ have a car, but I have a bike.",
+   "options": [
+    "don't",
+    "doesn't",
+    "not"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't have."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У вас є зарядка?"
+   },
+   "words": [
+    "Do",
+    "you",
+    "have",
+    "a",
+    "charger",
+    "does",
+    "any"
+   ],
+   "answer": [
+    "Do",
+    "you",
+    "have",
+    "a",
+    "charger"
+   ],
+   "explanation": {
+    "uk": "Do you have a charger?"
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ have any free time.",
+   "options": [
+    "doesn't",
+    "don't",
+    "isn't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She doesn't have."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене є ідея."
+   },
+   "answers": [
+    "I have an idea"
+   ],
+   "explanation": {
+    "uk": "I have an idea."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "He has a cold and a cough. He doesn't have a temperature.",
+   "prompt": {
+    "uk": "Прослухайте. Чого в нього немає?"
+   },
+   "options": {
+    "uk": [
+     "Температури",
+     "Кашлю",
+     "Застуди"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "He doesn't have a temperature."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати «У нього є права?»"
+   },
+   "options": [
+    "Does he have a driving licence?",
+    "Do he have a driving licence?",
+    "Does he has a driving licence?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Does he have…?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Do you have ___ luggage? — Yes, two bags.",
+   "options": [
+    "any",
+    "a",
+    "an"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У питанні — any."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене болить голова."
+   },
+   "answers": [
+    "I have a headache"
+   ],
+   "explanation": {
+    "uk": "I have a headache."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "Do you have an appointment?",
+   "prompt": {
+    "uk": "Ви записані на третю. Що відповісти?"
+   },
+   "options": [
+    "Yes, I do. At three o'clock.",
+    "Yes, I am. At three o'clock.",
+    "Yes, I have do three."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I do. At three o'clock."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Do you have any questions?",
+   "prompt": {
+    "uk": "Питань у вас немає. Що відповісти?"
+   },
+   "options": [
+    "No, I don't. Thank you.",
+    "No, I'm not. Thank you.",
+    "No, I haven't some."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I don't. Thank you."
+   }
+  }
+ ]
+}

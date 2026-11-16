@@ -1,0 +1,193 @@
+{
+ "id": "u18_l06",
+ "unit": "u18",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: я можу"
+ },
+ "goal": {
+  "uk": "Говорити про вміння, просити про допомогу й дозвіл."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Can має три значення: вмію (I can swim), прохання (Can you help me?) і дозвіл (Can I sit here?). Заперечення — can't."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She can ___ the guitar very well.",
+   "options": [
+    "play",
+    "plays",
+    "to play"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після can — play."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я зовсім не вмію співати."
+   },
+   "words": [
+    "I",
+    "can't",
+    "sing",
+    "at",
+    "all",
+    "don't",
+    "any"
+   ],
+   "answer": [
+    "I",
+    "can't",
+    "sing",
+    "at",
+    "all"
+   ],
+   "explanation": {
+    "uk": "I can't sing at all."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Can you drive?",
+   "prompt": {
+    "uk": "Ви вмієте, і досить добре. Що відповісти?"
+   },
+   "options": [
+    "Yes, I can. Quite well.",
+    "Yes, I do. Quite well.",
+    "Yes, I can't."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I can. Quite well."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можете мені допомогти?"
+   },
+   "answers": [
+    "Can you help me",
+    "Can you help me, please"
+   ],
+   "explanation": {
+    "uk": "Can you help me?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Can you close the door, please? It's cold.",
+   "prompt": {
+    "uk": "Прослухайте. Про що просять?"
+   },
+   "options": {
+    "uk": [
+     "Зачинити двері",
+     "Відчинити двері",
+     "Зачинити вікно"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Close the door."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви хочете сфотографувати в музеї. Що спитати?"
+   },
+   "options": [
+    "Can I take a photo?",
+    "Can you take a photo me?",
+    "Do I can photo?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can I take a photo?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I park here? — I'm ___ not.",
+   "options": [
+    "afraid",
+    "sorry",
+    "can't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm afraid not."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можна тут сісти?"
+   },
+   "answers": [
+    "Can I sit here"
+   ],
+   "explanation": {
+    "uk": "Can I sit here?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "He can fix computers, but he can't cook at all.",
+   "prompt": {
+    "uk": "Прослухайте. Чого він не вміє?"
+   },
+   "options": {
+    "uk": [
+     "Готувати",
+     "Лагодити комп'ютери",
+     "Водити"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "He can't cook at all."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Can you call me tomorrow at ten?",
+   "prompt": {
+    "uk": "Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "Sure, no problem.",
+    "I'm afraid, no problem.",
+    "Yes, I call can."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sure, no problem."
+   }
+  }
+ ]
+}

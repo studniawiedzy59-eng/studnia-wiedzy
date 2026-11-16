@@ -1,0 +1,310 @@
+{
+ "id": "u16_l05",
+ "unit": "u16",
+ "cefr": "A0",
+ "title": {
+  "uk": "У мене болить голова"
+ },
+ "goal": {
+  "uk": "Сказати про нездужання й про запис чи бронювання."
+ },
+ "rule": {
+  "uk": "Про хвороби англійською теж кажуть have: I have a headache — «у мене болить голова», I have a cold — «я застудився». Так само про домовленості: I have an appointment — «я записаний», I have a reservation — «у мене бронювання»."
+ },
+ "words": [
+  {
+   "id": "headache",
+   "text": "headache",
+   "ipa": "/ˈhedeɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "головний біль"
+   },
+   "example": "I have a headache.",
+   "exampleTranslation": {
+    "uk": "У мене болить голова."
+   }
+  },
+  {
+   "id": "a_cold",
+   "text": "a cold",
+   "ipa": "/ə ˈkəʊld/",
+   "pos": "noun",
+   "translation": {
+    "uk": "застуда"
+   },
+   "example": "I have a cold.",
+   "exampleTranslation": {
+    "uk": "Я застудився."
+   }
+  },
+  {
+   "id": "cough",
+   "text": "cough",
+   "ipa": "/kɒf/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кашель"
+   },
+   "example": "He has a cough.",
+   "exampleTranslation": {
+    "uk": "У нього кашель."
+   }
+  },
+  {
+   "id": "temperature",
+   "text": "temperature",
+   "ipa": "/ˈtemprətʃə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "температура"
+   },
+   "example": "She has a temperature.",
+   "exampleTranslation": {
+    "uk": "У неї температура."
+   }
+  },
+  {
+   "id": "appointment",
+   "text": "appointment",
+   "ipa": "/əˈpɔɪntmənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "запис, призначена зустріч"
+   },
+   "example": "I have an appointment at ten.",
+   "exampleTranslation": {
+    "uk": "Я записаний на десяту."
+   }
+  },
+  {
+   "id": "reservation",
+   "text": "reservation",
+   "ipa": "/ˌrezəˈveɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "бронювання"
+   },
+   "example": "I have a reservation.",
+   "exampleTranslation": {
+    "uk": "У мене бронювання."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I don't have ___ free time today.",
+   "options": [
+    "any",
+    "some",
+    "a"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У запереченні — any."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "headache",
+     "right": {
+      "uk": "головний біль"
+     }
+    },
+    {
+     "left": "a cold",
+     "right": {
+      "uk": "застуда"
+     }
+    },
+    {
+     "left": "cough",
+     "right": {
+      "uk": "кашель"
+     }
+    },
+    {
+     "left": "temperature",
+     "right": {
+      "uk": "температура"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "У cough кінцівка звучить як «ф»."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "appointment",
+     "right": {
+      "uk": "запис"
+     }
+    },
+    {
+     "left": "reservation",
+     "right": {
+      "uk": "бронювання"
+     }
+    },
+    {
+     "left": "problem",
+     "right": {
+      "uk": "проблема"
+     }
+    },
+    {
+     "left": "plan",
+     "right": {
+      "uk": "план"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Appointment — у лікаря чи перукаря, reservation — у ресторані чи готелі."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I have a headache.",
+   "prompt": {
+    "uk": "Прослухайте. Що з людиною?"
+   },
+   "options": {
+    "uk": [
+     "Болить голова",
+     "Застуда",
+     "Температура"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A headache — головний біль."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I have a reservation for two.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже гість у ресторані?"
+   },
+   "options": {
+    "uk": [
+     "У нього бронювання на двох",
+     "Йому потрібен столик на двох",
+     "У нього зустріч о другій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A reservation for two — бронювання на двох."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I have an appointment.",
+    "I have a appointment.",
+    "I am an appointment."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Appointment — з голосного: an."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ a temperature. She's at home today.",
+   "options": [
+    "has",
+    "have",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She has."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я застудився."
+   },
+   "words": [
+    "I",
+    "have",
+    "a",
+    "cold",
+    "am",
+    "the"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "cold"
+   ],
+   "explanation": {
+    "uk": "I have a cold."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене бронювання."
+   },
+   "answers": [
+    "I have a reservation"
+   ],
+   "explanation": {
+    "uk": "I have a reservation."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Good evening. Do you have a reservation?",
+   "prompt": {
+    "uk": "Ви бронювали столик. Що відповісти?"
+   },
+   "options": [
+    "Yes, I do. My name is Koval.",
+    "Yes, I am. My name is Koval.",
+    "Yes, I have an appointment cold."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I do — і назвати прізвище."
+   }
+  }
+ ]
+}

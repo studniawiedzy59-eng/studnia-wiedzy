@@ -1,0 +1,298 @@
+{
+ "id": "u17_l01",
+ "unit": "u17",
+ "cefr": "A0",
+ "title": {
+  "uk": "Мені подобається музика"
+ },
+ "goal": {
+  "uk": "Сказати, що вам подобається, і наскільки сильно."
+ },
+ "rule": {
+  "uk": "I like… — «мені подобається…». Сильніше: I really like… і I love…. Про речі загалом кажуть без артикля: I like music. I love animals."
+ },
+ "words": [
+  {
+   "id": "music",
+   "text": "music",
+   "ipa": "/ˈmjuːzɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "музика"
+   },
+   "example": "I like music.",
+   "exampleTranslation": {
+    "uk": "Мені подобається музика."
+   }
+  },
+  {
+   "id": "film",
+   "text": "film",
+   "ipa": "/fɪlm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "фільм"
+   },
+   "example": "It's a good film.",
+   "exampleTranslation": {
+    "uk": "Це хороший фільм."
+   }
+  },
+  {
+   "id": "sport",
+   "text": "sport",
+   "ipa": "/spɔːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "спорт"
+   },
+   "example": "I like sport.",
+   "exampleTranslation": {
+    "uk": "Я люблю спорт."
+   }
+  },
+  {
+   "id": "football",
+   "text": "football",
+   "ipa": "/ˈfʊtbɔːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "футбол"
+   },
+   "example": "He loves football.",
+   "exampleTranslation": {
+    "uk": "Він обожнює футбол."
+   }
+  },
+  {
+   "id": "animals",
+   "text": "animals",
+   "ipa": "/ˈænɪmlz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тварини"
+   },
+   "example": "I love animals.",
+   "exampleTranslation": {
+    "uk": "Я обожнюю тварин."
+   }
+  },
+  {
+   "id": "really",
+   "text": "really",
+   "ipa": "/ˈriːəli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "справді, дуже"
+   },
+   "example": "I really like it.",
+   "exampleTranslation": {
+    "uk": "Мені це дуже подобається."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you have any questions?",
+   "prompt": {
+    "uk": "Повторимо. Питань немає. Що відповісти?"
+   },
+   "options": [
+    "No, I don't.",
+    "No, I'm not.",
+    "No, I haven't some."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I don't."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "music",
+     "right": {
+      "uk": "музика"
+     }
+    },
+    {
+     "left": "film",
+     "right": {
+      "uk": "фільм"
+     }
+    },
+    {
+     "left": "sport",
+     "right": {
+      "uk": "спорт"
+     }
+    },
+    {
+     "left": "football",
+     "right": {
+      "uk": "футбол"
+     }
+    },
+    {
+     "left": "animals",
+     "right": {
+      "uk": "тварини"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Те, що люблять майже всі."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I really like this film.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Фільм їй дуже подобається",
+     "Фільм їй не подобається",
+     "Вона не бачила фільму"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Really like — дуже подобається."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я люблю музику»?"
+   },
+   "options": [
+    "I like music.",
+    "I like the music.",
+    "I'm like music."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про музику загалом — без the."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що сильніше?"
+   },
+   "options": {
+    "uk": [
+     "I love football.",
+     "I like football.",
+     "I don't like football."
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Love сильніше за like."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ like animals. I have three cats!",
+   "options": [
+    "really",
+    "don't",
+    "any"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Really like — дуже люблю."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I don't ___ football. It's boring.",
+   "options": [
+    "like",
+    "likes",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't like."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мені дуже подобається ця музика."
+   },
+   "words": [
+    "I",
+    "really",
+    "like",
+    "this",
+    "music",
+    "love",
+    "am"
+   ],
+   "answer": [
+    "I",
+    "really",
+    "like",
+    "this",
+    "music"
+   ],
+   "explanation": {
+    "uk": "I really like this music."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я обожнюю тварин."
+   },
+   "answers": [
+    "I love animals"
+   ],
+   "explanation": {
+    "uk": "I love animals."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Do you like football?",
+   "prompt": {
+    "uk": "Футбол ви не любите. Що відповісти?"
+   },
+   "options": [
+    "No, I don't.",
+    "No, I'm not.",
+    "No, I don't like it am."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I don't."
+   }
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "id": "u15_l06",
+ "unit": "u15",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: я у світі"
+ },
+ "goal": {
+  "uk": "Розповісти, звідки ви, якими мовами розмовляєте, і не розгубитися, коли чогось не зрозуміли."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо країни й національності, I speak…, a little, I don't understand, Can you repeat that?, What does it mean?"
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where are you from?",
+   "prompt": {
+    "uk": "Ви з України, з Києва. Що відповісти?"
+   },
+   "options": [
+    "I'm from Kyiv, Ukraine.",
+    "I'm Kyiv from Ukraine.",
+    "I live Ukrainian."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm from Kyiv, Ukraine."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She's from Spain. She speaks ___.",
+   "options": [
+    "Spanish",
+    "Spain",
+    "the Spanish"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Мова — Spanish."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я трохи розмовляю англійською."
+   },
+   "answers": [
+    "I speak a little English",
+    "I speak English a little"
+   ],
+   "explanation": {
+    "uk": "I speak a little English."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можете говорити повільно, будь ласка?"
+   },
+   "words": [
+    "Can",
+    "you",
+    "speak",
+    "slowly",
+    "please",
+    "repeat",
+    "again"
+   ],
+   "answer": [
+    "Can",
+    "you",
+    "speak",
+    "slowly",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Can you speak slowly, please?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I'm Polish, but I live in the UK. I speak Polish and English.",
+   "prompt": {
+    "uk": "Прослухайте. Що ви дізналися?"
+   },
+   "options": {
+    "uk": [
+     "Поляк, живе в Британії, знає дві мови",
+     "Британець, живе в Польщі",
+     "Поляк, знає лише польську"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Polish, the UK, Polish and English."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви не розчули. Що сказати?"
+   },
+   "options": [
+    "Sorry, can you repeat that?",
+    "Sorry, I repeat.",
+    "What do you mean me?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sorry, can you repeat that?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What ___ «village» mean?",
+   "options": [
+    "does",
+    "do",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What does … mean?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка столиця Польщі?"
+   },
+   "options": {
+    "uk": [
+     "Warsaw",
+     "Kyiv",
+     "London"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Warsaw is the capital of Poland."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я не розумію."
+   },
+   "answers": [
+    "I don't understand",
+    "I do not understand"
+   ],
+   "explanation": {
+    "uk": "I don't understand."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "How many languages do you speak?",
+   "prompt": {
+    "uk": "Ви розмовляєте трьома мовами. Що відповісти?"
+   },
+   "options": [
+    "I speak three languages.",
+    "I speak three language.",
+    "I'm three languages."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I speak three languages."
+   }
+  }
+ ]
+}

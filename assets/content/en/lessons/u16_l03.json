@@ -1,0 +1,280 @@
+{
+ "id": "u16_l03",
+ "unit": "u16",
+ "cefr": "A0",
+ "title": {
+  "uk": "У нього є, у неї немає"
+ },
+ "goal": {
+  "uk": "Розповісти, що є в іншої людини."
+ },
+ "rule": {
+  "uk": "З he і she: has — «має», doesn't have — «не має» (після doesn't знову have). Питання: Does he have a car? Відповідь: Yes, he does. No, he doesn't."
+ },
+ "words": [
+  {
+   "id": "does",
+   "text": "does",
+   "ipa": "/dʌz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "допоміжне слово в питаннях (з he, she)"
+   },
+   "example": "Does she have a car?",
+   "exampleTranslation": {
+    "uk": "У неї є машина?"
+   }
+  },
+  {
+   "id": "beard",
+   "text": "beard",
+   "ipa": "/bɪəd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "борода"
+   },
+   "example": "He has a beard.",
+   "exampleTranslation": {
+    "uk": "У нього борода."
+   }
+  },
+  {
+   "id": "flatmate",
+   "text": "flatmate",
+   "ipa": "/ˈflætmeɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сусід по квартирі"
+   },
+   "example": "My flatmate is from Spain.",
+   "exampleTranslation": {
+    "uk": "Мій сусід по квартирі з Іспанії."
+   }
+  },
+  {
+   "id": "boyfriend",
+   "text": "boyfriend",
+   "ipa": "/ˈbɔɪfrend/",
+   "pos": "noun",
+   "translation": {
+    "uk": "хлопець (у стосунках)"
+   },
+   "example": "She has a boyfriend.",
+   "exampleTranslation": {
+    "uk": "У неї є хлопець."
+   }
+  },
+  {
+   "id": "girlfriend",
+   "text": "girlfriend",
+   "ipa": "/ˈɡɜːlfrend/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дівчина (у стосунках)"
+   },
+   "example": "He has a girlfriend.",
+   "exampleTranslation": {
+    "uk": "У нього є дівчина."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you have a pen?",
+   "prompt": {
+    "uk": "Повторимо. Ручка у вас є. Що відповісти?"
+   },
+   "options": [
+    "Yes, I do. Here you are.",
+    "Yes, I am. Here you are.",
+    "Yes, I have do it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I do."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "beard",
+     "right": {
+      "uk": "борода"
+     }
+    },
+    {
+     "left": "flatmate",
+     "right": {
+      "uk": "сусід по квартирі"
+     }
+    },
+    {
+     "left": "boyfriend",
+     "right": {
+      "uk": "хлопець"
+     }
+    },
+    {
+     "left": "girlfriend",
+     "right": {
+      "uk": "дівчина"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Flat + mate = flatmate."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ two brothers.",
+   "options": [
+    "has",
+    "have",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З she — has."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ have a car.",
+   "options": [
+    "doesn't",
+    "don't",
+    "isn't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He doesn't have."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ she have a boyfriend?",
+   "options": [
+    "Does",
+    "Do",
+    "Is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З she — Does."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "He doesn't have a beard.",
+    "He doesn't has a beard.",
+    "He don't have a beard."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після doesn't — have, без -s."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "My flatmate has a dog.",
+   "prompt": {
+    "uk": "Прослухайте. У кого собака?"
+   },
+   "options": {
+    "uk": [
+     "У сусіда по квартирі",
+     "У мого хлопця",
+     "У мене"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "My flatmate — мій сусід по квартирі."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У неї є машина?"
+   },
+   "words": [
+    "Does",
+    "she",
+    "have",
+    "a",
+    "car",
+    "do",
+    "has"
+   ],
+   "answer": [
+    "Does",
+    "she",
+    "have",
+    "a",
+    "car"
+   ],
+   "explanation": {
+    "uk": "Does she have a car?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "У нього немає грошей."
+   },
+   "answers": [
+    "He doesn't have money",
+    "He does not have money",
+    "He doesn't have any money"
+   ],
+   "explanation": {
+    "uk": "He doesn't have money."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Does your brother have children?",
+   "prompt": {
+    "uk": "У вашого брата двоє дітей. Що відповісти?"
+   },
+   "options": [
+    "Yes, he does. He has two children.",
+    "Yes, he do. He have two children.",
+    "Yes, he is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, he does. He has two children."
+   }
+  }
+ ]
+}

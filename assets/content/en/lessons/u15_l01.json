@@ -1,0 +1,325 @@
+{
+ "id": "u15_l01",
+ "unit": "u15",
+ "cefr": "A0",
+ "title": {
+  "uk": "Країни"
+ },
+ "goal": {
+  "uk": "Назвати країни й сказати, хто звідки."
+ },
+ "rule": {
+  "uk": "Назви країн пишуть з великої літери й без артикля: Germany, France. Винятки, які треба запам'ятати: the USA і the UK. Where is he from? — He's from Spain."
+ },
+ "words": [
+  {
+   "id": "country",
+   "text": "country",
+   "ipa": "/ˈkʌntri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "країна"
+   },
+   "example": "Ukraine is a big country.",
+   "exampleTranslation": {
+    "uk": "Україна — велика країна."
+   }
+  },
+  {
+   "id": "germany",
+   "text": "Germany",
+   "ipa": "/ˈdʒɜːməni/",
+   "pos": "noun",
+   "translation": {
+    "uk": "Німеччина"
+   },
+   "example": "He's from Germany.",
+   "exampleTranslation": {
+    "uk": "Він із Німеччини."
+   }
+  },
+  {
+   "id": "france",
+   "text": "France",
+   "ipa": "/frɑːns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "Франція"
+   },
+   "example": "She lives in France.",
+   "exampleTranslation": {
+    "uk": "Вона живе у Франції."
+   }
+  },
+  {
+   "id": "spain",
+   "text": "Spain",
+   "ipa": "/speɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "Іспанія"
+   },
+   "example": "They're from Spain.",
+   "exampleTranslation": {
+    "uk": "Вони з Іспанії."
+   }
+  },
+  {
+   "id": "italy",
+   "text": "Italy",
+   "ipa": "/ˈɪtəli/",
+   "pos": "noun",
+   "translation": {
+    "uk": "Італія"
+   },
+   "example": "I love Italy.",
+   "exampleTranslation": {
+    "uk": "Я обожнюю Італію."
+   }
+  },
+  {
+   "id": "the_usa",
+   "text": "the USA",
+   "ipa": "/ðə ˌjuː es ˈeɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "США"
+   },
+   "example": "My uncle lives in the USA.",
+   "exampleTranslation": {
+    "uk": "Мій дядько живе у США."
+   }
+  },
+  {
+   "id": "the_uk",
+   "text": "the UK",
+   "ipa": "/ðə ˌjuː ˈkeɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "Велика Британія"
+   },
+   "example": "London is in the UK.",
+   "exampleTranslation": {
+    "uk": "Лондон у Великій Британії."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you do?",
+   "prompt": {
+    "uk": "Повторимо. Ви водій. Що відповісти?"
+   },
+   "options": [
+    "I'm a driver.",
+    "I do driver.",
+    "I'm driver."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm a driver."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "Germany",
+     "right": {
+      "uk": "Німеччина"
+     }
+    },
+    {
+     "left": "France",
+     "right": {
+      "uk": "Франція"
+     }
+    },
+    {
+     "left": "Spain",
+     "right": {
+      "uk": "Іспанія"
+     }
+    },
+    {
+     "left": "Italy",
+     "right": {
+      "uk": "Італія"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Чотири країни Європи."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "the USA",
+     "right": {
+      "uk": "США"
+     }
+    },
+    {
+     "left": "the UK",
+     "right": {
+      "uk": "Велика Британія"
+     }
+    },
+    {
+     "left": "Poland",
+     "right": {
+      "uk": "Польща"
+     }
+    },
+    {
+     "left": "country",
+     "right": {
+      "uk": "країна"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "The USA і the UK — з the."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She's from Italy.",
+   "prompt": {
+    "uk": "Прослухайте. Звідки вона?"
+   },
+   "options": {
+    "uk": [
+     "З Італії",
+     "З Іспанії",
+     "З Франції"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Italy — Італія."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My cousin lives in ___ USA.",
+   "options": [
+    "the",
+    "a",
+    "an"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The USA — завжди з the."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He's from ___.",
+   "options": [
+    "Germany",
+    "the Germany",
+    "a Germany"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Germany — без артикля."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Where are they from?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Звідки вони",
+     "Де вони",
+     "Хто вони"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Where … from? — звідки."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Звідки він?"
+   },
+   "words": [
+    "Where",
+    "is",
+    "he",
+    "from",
+    "are",
+    "country"
+   ],
+   "answer": [
+    "Where",
+    "is",
+    "he",
+    "from"
+   ],
+   "explanation": {
+    "uk": "Where is he from?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вони з Іспанії."
+   },
+   "answers": [
+    "They're from Spain",
+    "They are from Spain"
+   ],
+   "explanation": {
+    "uk": "They're from Spain."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Where is your colleague from?",
+   "prompt": {
+    "uk": "Ваша колега з Франції. Що відповісти?"
+   },
+   "options": [
+    "She's from France.",
+    "She's from the France.",
+    "She from France is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She's from France."
+   }
+  }
+ ]
+}

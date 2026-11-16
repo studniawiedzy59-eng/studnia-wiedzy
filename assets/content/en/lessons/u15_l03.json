@@ -1,0 +1,327 @@
+{
+ "id": "u15_l03",
+ "unit": "u15",
+ "cefr": "A0",
+ "title": {
+  "uk": "Ви розмовляєте англійською?"
+ },
+ "goal": {
+  "uk": "Сказати, якими мовами ви розмовляєте, і попросити говорити повільніше."
+ },
+ "rule": {
+  "uk": "I speak… — «я розмовляю…»: I speak Ukrainian and Polish. A little — «трохи»: I speak a little English. Три фрази, які рятують у розмові: I don't understand. Can you speak slowly, please? Can you repeat that, please?"
+ },
+ "words": [
+  {
+   "id": "speak",
+   "text": "speak",
+   "ipa": "/spiːk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "розмовляти"
+   },
+   "example": "I speak English.",
+   "exampleTranslation": {
+    "uk": "Я розмовляю англійською."
+   }
+  },
+  {
+   "id": "language",
+   "text": "language",
+   "ipa": "/ˈlæŋɡwɪdʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мова"
+   },
+   "example": "I speak two languages.",
+   "exampleTranslation": {
+    "uk": "Я розмовляю двома мовами."
+   }
+  },
+  {
+   "id": "a_little",
+   "text": "a little",
+   "ipa": "/ə ˈlɪtl/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "трохи"
+   },
+   "example": "I speak a little English.",
+   "exampleTranslation": {
+    "uk": "Я трохи розмовляю англійською."
+   }
+  },
+  {
+   "id": "understand",
+   "text": "understand",
+   "ipa": "/ˌʌndəˈstænd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "розуміти"
+   },
+   "example": "I don't understand.",
+   "exampleTranslation": {
+    "uk": "Я не розумію."
+   }
+  },
+  {
+   "id": "slowly",
+   "text": "slowly",
+   "ipa": "/ˈsləʊli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "повільно"
+   },
+   "example": "Can you speak slowly?",
+   "exampleTranslation": {
+    "uk": "Можете говорити повільно?"
+   }
+  },
+  {
+   "id": "repeat",
+   "text": "repeat",
+   "ipa": "/rɪˈpiːt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "повторити"
+   },
+   "example": "Can you repeat that?",
+   "exampleTranslation": {
+    "uk": "Можете повторити?"
+   }
+  },
+  {
+   "id": "again",
+   "text": "again",
+   "ipa": "/əˈɡen/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "ще раз"
+   },
+   "example": "Again, please.",
+   "exampleTranslation": {
+    "uk": "Ще раз, будь ласка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "She's from France. She's ___.",
+   "options": [
+    "French",
+    "France",
+    "a French"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "France — French."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "speak",
+     "right": {
+      "uk": "розмовляти"
+     }
+    },
+    {
+     "left": "understand",
+     "right": {
+      "uk": "розуміти"
+     }
+    },
+    {
+     "left": "repeat",
+     "right": {
+      "uk": "повторити"
+     }
+    },
+    {
+     "left": "language",
+     "right": {
+      "uk": "мова"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про мову."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "a little",
+     "right": {
+      "uk": "трохи"
+     }
+    },
+    {
+     "left": "slowly",
+     "right": {
+      "uk": "повільно"
+     }
+    },
+    {
+     "left": "again",
+     "right": {
+      "uk": "ще раз"
+     }
+    },
+    {
+     "left": "very well",
+     "right": {
+      "uk": "дуже добре"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Як саме ви розмовляєте."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Do you speak English?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Чи розмовляєте ви англійською",
+     "Чи ви з Англії",
+     "Чи ви вчите англійську"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Do you speak…?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Can you speak slowly, please?",
+   "prompt": {
+    "uk": "Прослухайте. Про що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Говорити повільно",
+     "Повторити",
+     "Говорити англійською"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Slowly — повільно."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I speak ___ little English.",
+   "options": [
+    "a",
+    "the",
+    "very"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A little — трохи."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Sorry, I don't ___.",
+   "options": [
+    "understand",
+    "repeat",
+    "language"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't understand — я не розумію."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можете повторити, будь ласка?"
+   },
+   "words": [
+    "Can",
+    "you",
+    "repeat",
+    "that",
+    "please",
+    "speak",
+    "again"
+   ],
+   "answer": [
+    "Can",
+    "you",
+    "repeat",
+    "that",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Can you repeat that, please?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я не розумію."
+   },
+   "answers": [
+    "I don't understand",
+    "I do not understand"
+   ],
+   "explanation": {
+    "uk": "I don't understand."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Do you speak English?",
+   "prompt": {
+    "uk": "Ви розмовляєте трохи. Що відповісти?"
+   },
+   "options": [
+    "Yes, a little.",
+    "Yes, I am.",
+    "No, I speak English."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, a little."
+   }
+  }
+ ]
+}

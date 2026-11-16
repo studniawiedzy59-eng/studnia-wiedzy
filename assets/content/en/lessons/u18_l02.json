@@ -1,0 +1,304 @@
+{
+ "id": "u18_l02",
+ "unit": "u18",
+ "cefr": "A0",
+ "title": {
+  "uk": "Я не вмію грати на піаніно"
+ },
+ "goal": {
+  "uk": "Сказати, чого ви не вмієте."
+ },
+ "rule": {
+  "uk": "Заперечення — can't: I can't swim. Про ігри й спорт кажуть play без артикля: play tennis, play chess. Про музичні інструменти — з the: play the piano, play the guitar. At all — «зовсім»: I can't sing at all."
+ },
+ "words": [
+  {
+   "id": "cant",
+   "text": "can't",
+   "ipa": "/kɑːnt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "не вміти, не могти"
+   },
+   "example": "I can't drive.",
+   "exampleTranslation": {
+    "uk": "Я не вмію водити."
+   }
+  },
+  {
+   "id": "play",
+   "text": "play",
+   "ipa": "/pleɪ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "грати"
+   },
+   "example": "I can play chess.",
+   "exampleTranslation": {
+    "uk": "Я вмію грати в шахи."
+   }
+  },
+  {
+   "id": "piano",
+   "text": "piano",
+   "ipa": "/piˈænəʊ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "піаніно"
+   },
+   "example": "I can't play the piano.",
+   "exampleTranslation": {
+    "uk": "Я не вмію грати на піаніно."
+   }
+  },
+  {
+   "id": "guitar",
+   "text": "guitar",
+   "ipa": "/ɡɪˈtɑː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гітара"
+   },
+   "example": "He can play the guitar.",
+   "exampleTranslation": {
+    "uk": "Він уміє грати на гітарі."
+   }
+  },
+  {
+   "id": "chess",
+   "text": "chess",
+   "ipa": "/tʃes/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шахи"
+   },
+   "example": "Let's play chess.",
+   "exampleTranslation": {
+    "uk": "Зіграймо в шахи."
+   }
+  },
+  {
+   "id": "tennis",
+   "text": "tennis",
+   "ipa": "/ˈtenɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "теніс"
+   },
+   "example": "I play tennis.",
+   "exampleTranslation": {
+    "uk": "Я граю в теніс."
+   }
+  },
+  {
+   "id": "at_all",
+   "text": "at all",
+   "ipa": "/ət ˈɔːl/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "зовсім"
+   },
+   "example": "I can't cook at all.",
+   "exampleTranslation": {
+    "uk": "Я зовсім не вмію готувати."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "She can ___ very well.",
+   "options": [
+    "sing",
+    "sings",
+    "to sing"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після can — sing."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "piano",
+     "right": {
+      "uk": "піаніно"
+     }
+    },
+    {
+     "left": "guitar",
+     "right": {
+      "uk": "гітара"
+     }
+    },
+    {
+     "left": "chess",
+     "right": {
+      "uk": "шахи"
+     }
+    },
+    {
+     "left": "tennis",
+     "right": {
+      "uk": "теніс"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "У що й на чому грають."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I can't swim.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона не вміє плавати",
+     "Вона вміє плавати",
+     "Вона не любить плавати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Can't — не вміє. Слухайте кінцеве t."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I can play the guitar.",
+    "I can play guitar the.",
+    "I can play on guitar."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Інструмент — з the: play the guitar."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I play tennis.",
+    "I play the tennis.",
+    "I play in tennis."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Спорт — без артикля."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ dance. I'm very bad at it.",
+   "options": [
+    "can't",
+    "can",
+    "don't can"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Не вмію — can't."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I can't sing at ___.",
+   "options": [
+    "all",
+    "any",
+    "little"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At all — зовсім."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я не вмію грати на піаніно."
+   },
+   "words": [
+    "I",
+    "can't",
+    "play",
+    "the",
+    "piano",
+    "don't",
+    "a"
+   ],
+   "answer": [
+    "I",
+    "can't",
+    "play",
+    "the",
+    "piano"
+   ],
+   "explanation": {
+    "uk": "I can't play the piano."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я не вмію водити."
+   },
+   "answers": [
+    "I can't drive",
+    "I cannot drive"
+   ],
+   "explanation": {
+    "uk": "I can't drive."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Let's play chess!",
+   "prompt": {
+    "uk": "Ви не вмієте грати. Що відповісти?"
+   },
+   "options": [
+    "Sorry, I can't play chess.",
+    "Sorry, I don't can chess.",
+    "Sure, I can't."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sorry, I can't play chess."
+   }
+  }
+ ]
+}

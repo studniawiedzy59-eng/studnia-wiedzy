@@ -1,0 +1,326 @@
+{
+ "id": "u15_l05",
+ "unit": "u15",
+ "cefr": "A0",
+ "title": {
+  "uk": "Що означає це слово?"
+ },
+ "goal": {
+  "uk": "Спитати значення слова, як воно пишеться і як сказати щось англійською."
+ },
+ "rule": {
+  "uk": "Чотири питання для того, хто вчить мову: What does … mean? — «Що означає …?». How do you say … in English? — «Як сказати … англійською?». How do you spell it? — «Як це пишеться?». Can you write it, please? — «Можете це написати?»"
+ },
+ "words": [
+  {
+   "id": "mean",
+   "text": "mean",
+   "ipa": "/miːn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "означати"
+   },
+   "example": "What does it mean?",
+   "exampleTranslation": {
+    "uk": "Що це означає?"
+   }
+  },
+  {
+   "id": "word",
+   "text": "word",
+   "ipa": "/wɜːd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "слово"
+   },
+   "example": "A new word.",
+   "exampleTranslation": {
+    "uk": "Нове слово."
+   }
+  },
+  {
+   "id": "say",
+   "text": "say",
+   "ipa": "/seɪ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "казати"
+   },
+   "example": "How do you say it in English?",
+   "exampleTranslation": {
+    "uk": "Як це сказати англійською?"
+   }
+  },
+  {
+   "id": "spell",
+   "text": "spell",
+   "ipa": "/spel/",
+   "pos": "verb",
+   "translation": {
+    "uk": "називати по літерах"
+   },
+   "example": "How do you spell it?",
+   "exampleTranslation": {
+    "uk": "Як це пишеться?"
+   }
+  },
+  {
+   "id": "write",
+   "text": "write",
+   "ipa": "/raɪt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "писати"
+   },
+   "example": "Can you write it, please?",
+   "exampleTranslation": {
+    "uk": "Можете це написати?"
+   }
+  },
+  {
+   "id": "question",
+   "text": "question",
+   "ipa": "/ˈkwestʃən/",
+   "pos": "noun",
+   "translation": {
+    "uk": "питання"
+   },
+   "example": "I have a question.",
+   "exampleTranslation": {
+    "uk": "У мене є питання."
+   }
+  },
+  {
+   "id": "answer",
+   "text": "answer",
+   "ipa": "/ˈɑːnsə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "відповідь"
+   },
+   "example": "The right answer.",
+   "exampleTranslation": {
+    "uk": "Правильна відповідь."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Kyiv is the ___ of Ukraine.",
+   "options": [
+    "capital",
+    "village",
+    "country"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The capital."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "mean",
+     "right": {
+      "uk": "означати"
+     }
+    },
+    {
+     "left": "say",
+     "right": {
+      "uk": "казати"
+     }
+    },
+    {
+     "left": "spell",
+     "right": {
+      "uk": "називати по літерах"
+     }
+    },
+    {
+     "left": "write",
+     "right": {
+      "uk": "писати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "У write літера w не вимовляється."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "word",
+     "right": {
+      "uk": "слово"
+     }
+    },
+    {
+     "left": "question",
+     "right": {
+      "uk": "питання"
+     }
+    },
+    {
+     "left": "answer",
+     "right": {
+      "uk": "відповідь"
+     }
+    },
+    {
+     "left": "language",
+     "right": {
+      "uk": "мова"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "В answer літера w теж німа."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "What does this word mean?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Що означає це слово",
+     "Як пишеться це слово",
+     "Чиє це слово"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Mean — означати."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "How do you spell your name?",
+   "prompt": {
+    "uk": "Прослухайте. Про що вас просять?"
+   },
+   "options": {
+    "uk": [
+     "Назвати ім'я по літерах",
+     "Назвати своє ім'я",
+     "Написати адресу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Spell — називати по літерах."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How do you ___ «дякую» in English?",
+   "options": [
+    "say",
+    "mean",
+    "answer"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How do you say … in English?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___. What does «receipt» mean?",
+   "options": [
+    "question",
+    "answer",
+    "word"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a question."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Що це означає?"
+   },
+   "words": [
+    "What",
+    "does",
+    "it",
+    "mean",
+    "do",
+    "say"
+   ],
+   "answer": [
+    "What",
+    "does",
+    "it",
+    "mean"
+   ],
+   "explanation": {
+    "uk": "What does it mean?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Як це пишеться?"
+   },
+   "answers": [
+    "How do you spell it",
+    "How do you spell that",
+    "How do you spell this"
+   ],
+   "explanation": {
+    "uk": "How do you spell it?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "My name is Siobhan.",
+   "prompt": {
+    "uk": "Ви не знаєте, як записати це ім'я. Що спитати?"
+   },
+   "options": [
+    "How do you spell it?",
+    "What do you do?",
+    "How old is it?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How do you spell it?"
+   }
+  }
+ ]
+}

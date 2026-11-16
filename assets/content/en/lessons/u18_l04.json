@@ -1,0 +1,327 @@
+{
+ "id": "u18_l04",
+ "unit": "u18",
+ "cefr": "A0",
+ "title": {
+  "uk": "Можете мені допомогти?"
+ },
+ "goal": {
+  "uk": "Ввічливо попросити когось про щось."
+ },
+ "rule": {
+  "uk": "Can you…? — це ще й прохання: Can you help me, please? Me — «мені, мене». Погодитися: Sure. Of course. No problem. Відмовити: Sorry, I can't."
+ },
+ "words": [
+  {
+   "id": "me",
+   "text": "me",
+   "ipa": "/miː/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "мені, мене"
+   },
+   "example": "Can you help me?",
+   "exampleTranslation": {
+    "uk": "Можете мені допомогти?"
+   }
+  },
+  {
+   "id": "open",
+   "text": "open",
+   "ipa": "/ˈəʊpən/",
+   "pos": "verb",
+   "translation": {
+    "uk": "відчиняти"
+   },
+   "example": "Can you open the door?",
+   "exampleTranslation": {
+    "uk": "Можете відчинити двері?"
+   }
+  },
+  {
+   "id": "close",
+   "text": "close",
+   "ipa": "/kləʊz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "зачиняти"
+   },
+   "example": "Can you close the window?",
+   "exampleTranslation": {
+    "uk": "Можете зачинити вікно?"
+   }
+  },
+  {
+   "id": "wait",
+   "text": "wait",
+   "ipa": "/weɪt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "чекати"
+   },
+   "example": "Can you wait five minutes?",
+   "exampleTranslation": {
+    "uk": "Можете почекати п'ять хвилин?"
+   }
+  },
+  {
+   "id": "call",
+   "text": "call",
+   "ipa": "/kɔːl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "телефонувати"
+   },
+   "example": "Can you call me tomorrow?",
+   "exampleTranslation": {
+    "uk": "Можете зателефонувати мені завтра?"
+   }
+  },
+  {
+   "id": "show",
+   "text": "show",
+   "ipa": "/ʃəʊ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "показувати"
+   },
+   "example": "Can you show me?",
+   "exampleTranslation": {
+    "uk": "Можете мені показати?"
+   }
+  },
+  {
+   "id": "tell",
+   "text": "tell",
+   "ipa": "/tel/",
+   "pos": "verb",
+   "translation": {
+    "uk": "казати, розповідати"
+   },
+   "example": "Can you tell me the time?",
+   "exampleTranslation": {
+    "uk": "Можете сказати мені, котра година?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Can you swim?",
+   "prompt": {
+    "uk": "Повторимо. Плавати ви вмієте. Що відповісти?"
+   },
+   "options": [
+    "Yes, I can.",
+    "Yes, I do.",
+    "Yes, I am."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I can."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "open",
+     "right": {
+      "uk": "відчиняти"
+     }
+    },
+    {
+     "left": "close",
+     "right": {
+      "uk": "зачиняти"
+     }
+    },
+    {
+     "left": "wait",
+     "right": {
+      "uk": "чекати"
+     }
+    },
+    {
+     "left": "call",
+     "right": {
+      "uk": "телефонувати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Open і close — протилежні дії."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "show",
+     "right": {
+      "uk": "показувати"
+     }
+    },
+    {
+     "left": "tell",
+     "right": {
+      "uk": "казати"
+     }
+    },
+    {
+     "left": "help",
+     "right": {
+      "uk": "допомагати"
+     }
+    },
+    {
+     "left": "me",
+     "right": {
+      "uk": "мені, мене"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Після цих слів часто стоїть me."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Can you help me, please?",
+   "prompt": {
+    "uk": "Прослухайте. Про що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Допомогти їй",
+     "Показати дорогу",
+     "Зачекати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Help me — допомогти мені."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Can you call me tomorrow?",
+   "prompt": {
+    "uk": "Прослухайте. Про що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Зателефонувати завтра",
+     "Зачекати до завтра",
+     "Зустрітися завтра"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Call me — зателефонувати мені."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's cold. Can you ___ the window, please?",
+   "options": [
+    "close",
+    "open",
+    "call"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Холодно — вікно зачиняють: close."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can you show ___ the menu, please?",
+   "options": [
+    "me",
+    "I",
+    "my"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Show me — показати мені."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можете почекати п'ять хвилин?"
+   },
+   "words": [
+    "Can",
+    "you",
+    "wait",
+    "five",
+    "minutes",
+    "to",
+    "me"
+   ],
+   "answer": [
+    "Can",
+    "you",
+    "wait",
+    "five",
+    "minutes"
+   ],
+   "explanation": {
+    "uk": "Can you wait five minutes?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можете мені допомогти?"
+   },
+   "answers": [
+    "Can you help me",
+    "Can you help me, please"
+   ],
+   "explanation": {
+    "uk": "Can you help me?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Can you open the door, please?",
+   "prompt": {
+    "uk": "Ви згодні допомогти. Що відповісти?"
+   },
+   "options": [
+    "Sure, no problem.",
+    "Yes, I can't.",
+    "No, of course."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sure, no problem."
+   }
+  }
+ ]
+}

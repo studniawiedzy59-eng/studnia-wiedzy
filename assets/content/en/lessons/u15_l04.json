@@ -1,0 +1,320 @@
+{
+ "id": "u15_l04",
+ "unit": "u15",
+ "cefr": "A0",
+ "title": {
+  "uk": "Міста й столиці"
+ },
+ "goal": {
+  "uk": "Розповісти про своє місто й назвати столиці."
+ },
+ "rule": {
+  "uk": "City — велике місто, town — невелике, village — село. The capital of… — «столиця…»: Kyiv is the capital of Ukraine. Назви міст — без артикля."
+ },
+ "words": [
+  {
+   "id": "city",
+   "text": "city",
+   "ipa": "/ˈsɪti/",
+   "pos": "noun",
+   "translation": {
+    "uk": "велике місто"
+   },
+   "example": "London is a big city.",
+   "exampleTranslation": {
+    "uk": "Лондон — велике місто."
+   }
+  },
+  {
+   "id": "town",
+   "text": "town",
+   "ipa": "/taʊn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "невелике місто"
+   },
+   "example": "I live in a small town.",
+   "exampleTranslation": {
+    "uk": "Я живу в невеликому місті."
+   }
+  },
+  {
+   "id": "village",
+   "text": "village",
+   "ipa": "/ˈvɪlɪdʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "село"
+   },
+   "example": "My grandmother lives in a village.",
+   "exampleTranslation": {
+    "uk": "Моя бабуся живе в селі."
+   }
+  },
+  {
+   "id": "capital",
+   "text": "capital",
+   "ipa": "/ˈkæpɪtl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "столиця"
+   },
+   "example": "Kyiv is the capital of Ukraine.",
+   "exampleTranslation": {
+    "uk": "Київ — столиця України."
+   }
+  },
+  {
+   "id": "kyiv",
+   "text": "Kyiv",
+   "ipa": "/ˈkiːɪv/",
+   "pos": "noun",
+   "translation": {
+    "uk": "Київ"
+   },
+   "example": "I'm from Kyiv.",
+   "exampleTranslation": {
+    "uk": "Я з Києва."
+   }
+  },
+  {
+   "id": "warsaw",
+   "text": "Warsaw",
+   "ipa": "/ˈwɔːsɔː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "Варшава"
+   },
+   "example": "I live in Warsaw.",
+   "exampleTranslation": {
+    "uk": "Я живу у Варшаві."
+   }
+  },
+  {
+   "id": "london",
+   "text": "London",
+   "ipa": "/ˈlʌndən/",
+   "pos": "noun",
+   "translation": {
+    "uk": "Лондон"
+   },
+   "example": "London is in the UK.",
+   "exampleTranslation": {
+    "uk": "Лондон у Великій Британії."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you speak Polish?",
+   "prompt": {
+    "uk": "Повторимо. Ви розмовляєте трохи. Що відповісти?"
+   },
+   "options": [
+    "Yes, a little.",
+    "Yes, I'm Polish little.",
+    "No, I am."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, a little."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "city",
+     "right": {
+      "uk": "велике місто"
+     }
+    },
+    {
+     "left": "town",
+     "right": {
+      "uk": "невелике місто"
+     }
+    },
+    {
+     "left": "village",
+     "right": {
+      "uk": "село"
+     }
+    },
+    {
+     "left": "capital",
+     "right": {
+      "uk": "столиця"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Від найбільшого до найменшого: city, town, village."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте столицю й країну"
+   },
+   "pairs": [
+    {
+     "left": "Kyiv",
+     "right": {
+      "uk": "Ukraine"
+     }
+    },
+    {
+     "left": "Warsaw",
+     "right": {
+      "uk": "Poland"
+     }
+    },
+    {
+     "left": "London",
+     "right": {
+      "uk": "the UK"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Столиця й країна."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Warsaw is the capital of Poland.",
+   "prompt": {
+    "uk": "Прослухайте. Що ви дізналися?"
+   },
+   "options": {
+    "uk": [
+     "Варшава — столиця Польщі",
+     "Варшава — велике місто в Україні",
+     "Варшава біля Польщі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The capital of Poland."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Kyiv is the capital ___ Ukraine.",
+   "options": [
+    "of",
+    "in",
+    "from"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The capital of…"
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I live in a small ___. There are fifty houses.",
+   "options": [
+    "village",
+    "city",
+    "capital"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "П'ятдесят будинків — це село: village."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "I'm from a small town near Kyiv.",
+   "prompt": {
+    "uk": "Прослухайте. Звідки людина?"
+   },
+   "options": {
+    "uk": [
+     "З невеликого міста біля Києва",
+     "З Києва",
+     "Із села біля Києва"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A small town near Kyiv."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Лондон — велике місто."
+   },
+   "words": [
+    "London",
+    "is",
+    "a",
+    "big",
+    "city",
+    "the",
+    "town"
+   ],
+   "answer": [
+    "London",
+    "is",
+    "a",
+    "big",
+    "city"
+   ],
+   "explanation": {
+    "uk": "London is a big city."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я живу у Варшаві."
+   },
+   "answers": [
+    "I live in Warsaw"
+   ],
+   "explanation": {
+    "uk": "I live in Warsaw."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Where do you live?",
+   "prompt": {
+    "uk": "Ви живете в невеликому місті в Польщі. Що відповісти?"
+   },
+   "options": [
+    "I live in a small town in Poland.",
+    "I'm live small town Poland.",
+    "I live in a small Poland."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I live in a small town in Poland."
+   }
+  }
+ ]
+}

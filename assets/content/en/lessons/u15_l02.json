@@ -1,0 +1,328 @@
+{
+ "id": "u15_l02",
+ "unit": "u15",
+ "cefr": "A0",
+ "title": {
+  "uk": "Я українець"
+ },
+ "goal": {
+  "uk": "Назвати свою національність."
+ },
+ "rule": {
+  "uk": "Національність — це слово-ознака, перед ним немає a: I'm Ukrainian. Як і країни, національності пишуть з великої літери. Те саме слово часто означає й мову: Polish — «польський» і «польська мова»."
+ },
+ "words": [
+  {
+   "id": "ukrainian",
+   "text": "Ukrainian",
+   "ipa": "/juːˈkreɪniən/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "український; українець, українка"
+   },
+   "example": "I'm Ukrainian.",
+   "exampleTranslation": {
+    "uk": "Я українець."
+   }
+  },
+  {
+   "id": "polish",
+   "text": "Polish",
+   "ipa": "/ˈpəʊlɪʃ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "польський"
+   },
+   "example": "My wife is Polish.",
+   "exampleTranslation": {
+    "uk": "Моя дружина полька."
+   }
+  },
+  {
+   "id": "british",
+   "text": "British",
+   "ipa": "/ˈbrɪtɪʃ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "британський"
+   },
+   "example": "He's British.",
+   "exampleTranslation": {
+    "uk": "Він британець."
+   }
+  },
+  {
+   "id": "american",
+   "text": "American",
+   "ipa": "/əˈmerɪkən/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "американський"
+   },
+   "example": "She's American.",
+   "exampleTranslation": {
+    "uk": "Вона американка."
+   }
+  },
+  {
+   "id": "german",
+   "text": "German",
+   "ipa": "/ˈdʒɜːmən/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "німецький"
+   },
+   "example": "A German car.",
+   "exampleTranslation": {
+    "uk": "Німецька машина."
+   }
+  },
+  {
+   "id": "french",
+   "text": "French",
+   "ipa": "/frentʃ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "французький"
+   },
+   "example": "French wine.",
+   "exampleTranslation": {
+    "uk": "Французьке вино."
+   }
+  },
+  {
+   "id": "spanish",
+   "text": "Spanish",
+   "ipa": "/ˈspænɪʃ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "іспанський"
+   },
+   "example": "Spanish food.",
+   "exampleTranslation": {
+    "uk": "Іспанська їжа."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "My uncle lives in ___ UK.",
+   "options": [
+    "the",
+    "a",
+    "an"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The UK."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте країну й національність"
+   },
+   "pairs": [
+    {
+     "left": "Ukraine",
+     "right": {
+      "uk": "Ukrainian"
+     }
+    },
+    {
+     "left": "Poland",
+     "right": {
+      "uk": "Polish"
+     }
+    },
+    {
+     "left": "Germany",
+     "right": {
+      "uk": "German"
+     }
+    },
+    {
+     "left": "France",
+     "right": {
+      "uk": "French"
+     }
+    },
+    {
+     "left": "Spain",
+     "right": {
+      "uk": "Spanish"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Кожній країні — свою національність."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "British",
+     "right": {
+      "uk": "британський"
+     }
+    },
+    {
+     "left": "American",
+     "right": {
+      "uk": "американський"
+     }
+    },
+    {
+     "left": "Ukrainian",
+     "right": {
+      "uk": "український"
+     }
+    },
+    {
+     "left": "Polish",
+     "right": {
+      "uk": "польський"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "The UK — British, the USA — American."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'm Ukrainian, but I live in Poland.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Українець, живе в Польщі",
+     "Поляк, живе в Україні",
+     "Українець, живе в Україні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ukrainian — українець. Live in Poland — живе в Польщі."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I'm Ukrainian.",
+    "I'm a Ukraine.",
+    "I'm from Ukrainian."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm Ukrainian або I'm from Ukraine."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He's from the UK. He's ___.",
+   "options": [
+    "British",
+    "American",
+    "the British"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The UK — British."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She's from Germany. She's ___.",
+   "options": [
+    "German",
+    "Germany",
+    "a Germany"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Germany — German."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Моя дружина полька."
+   },
+   "words": [
+    "My",
+    "wife",
+    "is",
+    "Polish",
+    "Poland",
+    "a"
+   ],
+   "answer": [
+    "My",
+    "wife",
+    "is",
+    "Polish"
+   ],
+   "explanation": {
+    "uk": "My wife is Polish."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я українець."
+   },
+   "answers": [
+    "I'm Ukrainian",
+    "I am Ukrainian"
+   ],
+   "explanation": {
+    "uk": "I'm Ukrainian — так кажуть і чоловік, і жінка."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Are you Polish?",
+   "prompt": {
+    "uk": "Ви з України. Що відповісти?"
+   },
+   "options": [
+    "No, I'm not. I'm Ukrainian.",
+    "No, I don't. I'm Ukraine.",
+    "Yes, I'm Ukrainian."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I'm not. I'm Ukrainian."
+   }
+  }
+ ]
+}

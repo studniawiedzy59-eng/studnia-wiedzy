@@ -1,0 +1,294 @@
+{
+ "id": "u17_l02",
+ "unit": "u17",
+ "cefr": "A0",
+ "title": {
+  "uk": "Я люблю читати"
+ },
+ "goal": {
+  "uk": "Сказати, що ви любите робити."
+ },
+ "rule": {
+  "uk": "Коли після like стоїть дія, до неї додають -ing: I like reading — «я люблю читати». read → reading, cook → cooking. Якщо слово закінчується на -e, вона зникає: dance → dancing. Іноді приголосна подвоюється: swim → swimming, run → running."
+ },
+ "words": [
+  {
+   "id": "reading",
+   "text": "reading",
+   "ipa": "/ˈriːdɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "читання"
+   },
+   "example": "I like reading.",
+   "exampleTranslation": {
+    "uk": "Я люблю читати."
+   }
+  },
+  {
+   "id": "cooking",
+   "text": "cooking",
+   "ipa": "/ˈkʊkɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "готування їжі"
+   },
+   "example": "She likes cooking.",
+   "exampleTranslation": {
+    "uk": "Вона любить готувати."
+   }
+  },
+  {
+   "id": "swimming",
+   "text": "swimming",
+   "ipa": "/ˈswɪmɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "плавання"
+   },
+   "example": "I love swimming.",
+   "exampleTranslation": {
+    "uk": "Я обожнюю плавати."
+   }
+  },
+  {
+   "id": "dancing",
+   "text": "dancing",
+   "ipa": "/ˈdɑːnsɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "танці"
+   },
+   "example": "They like dancing.",
+   "exampleTranslation": {
+    "uk": "Вони люблять танцювати."
+   }
+  },
+  {
+   "id": "running",
+   "text": "running",
+   "ipa": "/ˈrʌnɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "біг"
+   },
+   "example": "I don't like running.",
+   "exampleTranslation": {
+    "uk": "Я не люблю бігати."
+   }
+  },
+  {
+   "id": "travelling",
+   "text": "travelling",
+   "ipa": "/ˈtrævəlɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "подорожі"
+   },
+   "example": "We love travelling.",
+   "exampleTranslation": {
+    "uk": "Ми обожнюємо подорожувати."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ like this film. It's great!",
+   "options": [
+    "really",
+    "don't",
+    "not"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Really like."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "reading",
+     "right": {
+      "uk": "читання"
+     }
+    },
+    {
+     "left": "cooking",
+     "right": {
+      "uk": "готування"
+     }
+    },
+    {
+     "left": "swimming",
+     "right": {
+      "uk": "плавання"
+     }
+    },
+    {
+     "left": "dancing",
+     "right": {
+      "uk": "танці"
+     }
+    },
+    {
+     "left": "running",
+     "right": {
+      "uk": "біг"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Усі закінчуються на -ing."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я люблю читати»?"
+   },
+   "options": [
+    "I like reading.",
+    "I like read.",
+    "I like to reading."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після like — дія з -ing."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно написати?"
+   },
+   "options": [
+    "swimming",
+    "swiming",
+    "swimmeng"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У swim подвоюється m: swimming."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно написати?"
+   },
+   "options": [
+    "dancing",
+    "danceing",
+    "danccing"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У dance зникає -e: dancing."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "We love travelling.",
+   "prompt": {
+    "uk": "Прослухайте. Що люблять ці люди?"
+   },
+   "options": {
+    "uk": [
+     "Подорожувати",
+     "Танцювати",
+     "Готувати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Travelling — подорожі."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My husband likes ___. He's a good cook.",
+   "options": [
+    "cooking",
+    "cook",
+    "cooks"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Likes cooking."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я не люблю бігати."
+   },
+   "words": [
+    "I",
+    "don't",
+    "like",
+    "running",
+    "run",
+    "not"
+   ],
+   "answer": [
+    "I",
+    "don't",
+    "like",
+    "running"
+   ],
+   "explanation": {
+    "uk": "I don't like running."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я люблю плавати."
+   },
+   "answers": [
+    "I like swimming",
+    "I love swimming"
+   ],
+   "explanation": {
+    "uk": "I like swimming."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What do you like doing?",
+   "prompt": {
+    "uk": "Ви любите читати й готувати. Що відповісти?"
+   },
+   "options": [
+    "I like reading and cooking.",
+    "I like read and cook.",
+    "I'm reading and cooking like."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I like reading and cooking."
+   }
+  }
+ ]
+}

@@ -1,0 +1,298 @@
+{
+ "id": "u16_l01",
+ "unit": "u16",
+ "cefr": "A0",
+ "title": {
+  "uk": "У мене немає"
+ },
+ "goal": {
+  "uk": "Сказати, чого у вас немає."
+ },
+ "rule": {
+  "uk": "I have… — «у мене є». Заперечення: I don't have… — «у мене немає»: I don't have a car. I don't have time. Так само з we і they: We don't have a garden."
+ },
+ "words": [
+  {
+   "id": "dont_have",
+   "text": "don't have",
+   "ipa": "/ˌdəʊnt ˈhæv/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "не маю"
+   },
+   "example": "I don't have a car.",
+   "exampleTranslation": {
+    "uk": "У мене немає машини."
+   }
+  },
+  {
+   "id": "money",
+   "text": "money",
+   "ipa": "/ˈmʌni/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гроші"
+   },
+   "example": "I don't have money.",
+   "exampleTranslation": {
+    "uk": "У мене немає грошей."
+   }
+  },
+  {
+   "id": "pet",
+   "text": "pet",
+   "ipa": "/pet/",
+   "pos": "noun",
+   "translation": {
+    "uk": "домашня тварина"
+   },
+   "example": "We have a pet.",
+   "exampleTranslation": {
+    "uk": "У нас є домашня тварина."
+   }
+  },
+  {
+   "id": "idea",
+   "text": "idea",
+   "ipa": "/aɪˈdɪə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ідея"
+   },
+   "example": "I have an idea.",
+   "exampleTranslation": {
+    "uk": "У мене є ідея."
+   }
+  },
+  {
+   "id": "problem",
+   "text": "problem",
+   "ipa": "/ˈprɒbləm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "проблема"
+   },
+   "example": "I have a problem.",
+   "exampleTranslation": {
+    "uk": "У мене проблема."
+   }
+  },
+  {
+   "id": "plan",
+   "text": "plan",
+   "ipa": "/plæn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "план"
+   },
+   "example": "We have a plan.",
+   "exampleTranslation": {
+    "uk": "У нас є план."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you speak English?",
+   "prompt": {
+    "uk": "Повторимо. Ви розмовляєте трохи. Що відповісти?"
+   },
+   "options": [
+    "Yes, a little.",
+    "Yes, I am.",
+    "Yes, I'm English."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, a little."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "money",
+     "right": {
+      "uk": "гроші"
+     }
+    },
+    {
+     "left": "pet",
+     "right": {
+      "uk": "домашня тварина"
+     }
+    },
+    {
+     "left": "idea",
+     "right": {
+      "uk": "ідея"
+     }
+    },
+    {
+     "left": "problem",
+     "right": {
+      "uk": "проблема"
+     }
+    },
+    {
+     "left": "plan",
+     "right": {
+      "uk": "план"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Те, що можна мати або не мати."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ have a car. I go to work by bus.",
+   "options": [
+    "don't",
+    "not",
+    "am not"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't have."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ a small garden.",
+   "options": [
+    "have",
+    "has",
+    "are"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We have."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I don't have time today.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Сьогодні в неї немає часу",
+     "Сьогодні вона вільна",
+     "У неї немає годинника"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't have time."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I have an idea.",
+    "I have a idea.",
+    "I am an idea."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Idea — з голосного: an idea."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "We have a problem.",
+   "prompt": {
+    "uk": "Прослухайте. Що сталося?"
+   },
+   "options": {
+    "uk": [
+     "У нас проблема",
+     "У нас є план",
+     "У нас немає проблем"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A problem — проблема."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене немає грошей."
+   },
+   "words": [
+    "I",
+    "don't",
+    "have",
+    "money",
+    "not",
+    "am"
+   ],
+   "answer": [
+    "I",
+    "don't",
+    "have",
+    "money"
+   ],
+   "explanation": {
+    "uk": "I don't have money."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "У нас немає машини."
+   },
+   "answers": [
+    "We don't have a car",
+    "We do not have a car"
+   ],
+   "explanation": {
+    "uk": "We don't have a car."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Let's go to the cinema!",
+   "prompt": {
+    "uk": "У вас немає часу. Що відповісти?"
+   },
+   "options": [
+    "Sorry, I don't have time.",
+    "Sorry, I'm not time.",
+    "Sure, I don't have time."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sorry, I don't have time."
+   }
+  }
+ ]
+}

@@ -1,0 +1,304 @@
+{
+ "id": "u17_l04",
+ "unit": "u17",
+ "cefr": "A0",
+ "title": {
+  "uk": "Яку музику ви любите?"
+ },
+ "goal": {
+  "uk": "Розпитати про смаки й уточнити жанр."
+ },
+ "rule": {
+  "uk": "What kind of…? — «Який саме…?»: What kind of music do you like? Про іншу людину: Does she like rock? — Yes, she does. З he і she дієслово має -s: He likes comedy."
+ },
+ "words": [
+  {
+   "id": "what_kind_of",
+   "text": "what kind of",
+   "ipa": "/ˌwɒt ˈkaɪnd əv/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "який, якого типу"
+   },
+   "example": "What kind of films do you like?",
+   "exampleTranslation": {
+    "uk": "Які фільми ви любите?"
+   }
+  },
+  {
+   "id": "rock",
+   "text": "rock",
+   "ipa": "/rɒk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рок"
+   },
+   "example": "I like rock.",
+   "exampleTranslation": {
+    "uk": "Мені подобається рок."
+   }
+  },
+  {
+   "id": "pop",
+   "text": "pop",
+   "ipa": "/pɒp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "поп-музика"
+   },
+   "example": "She likes pop.",
+   "exampleTranslation": {
+    "uk": "Їй подобається поп."
+   }
+  },
+  {
+   "id": "classical",
+   "text": "classical",
+   "ipa": "/ˈklæsɪkl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "класичний"
+   },
+   "example": "Classical music.",
+   "exampleTranslation": {
+    "uk": "Класична музика."
+   }
+  },
+  {
+   "id": "comedy",
+   "text": "comedy",
+   "ipa": "/ˈkɒmədi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "комедія"
+   },
+   "example": "I love comedy.",
+   "exampleTranslation": {
+    "uk": "Я обожнюю комедії."
+   }
+  },
+  {
+   "id": "horror",
+   "text": "horror",
+   "ipa": "/ˈhɒrə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "жахи"
+   },
+   "example": "I hate horror films.",
+   "exampleTranslation": {
+    "uk": "Ненавиджу фільми жахів."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Tea or coffee? — I ___ coffee.",
+   "options": [
+    "prefer",
+    "mind",
+    "why"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I prefer coffee."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "rock",
+     "right": {
+      "uk": "рок"
+     }
+    },
+    {
+     "left": "pop",
+     "right": {
+      "uk": "поп-музика"
+     }
+    },
+    {
+     "left": "classical",
+     "right": {
+      "uk": "класичний"
+     }
+    },
+    {
+     "left": "comedy",
+     "right": {
+      "uk": "комедія"
+     }
+    },
+    {
+     "left": "horror",
+     "right": {
+      "uk": "жахи"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Жанри музики й кіно."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "What kind of music do you like?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Яку музику ви любите",
+     "Чи любите ви музику",
+     "Де ви слухаєте музику"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "What kind of — який саме."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What kind ___ films do you like?",
+   "options": [
+    "of",
+    "for",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What kind of."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ classical music.",
+   "options": [
+    "likes",
+    "like",
+    "liking"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З he — likes."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ she like horror films?",
+   "options": [
+    "Does",
+    "Do",
+    "Is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З she — Does."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "She doesn't like pop. She prefers rock.",
+   "prompt": {
+    "uk": "Прослухайте. Що їй до вподоби?"
+   },
+   "options": {
+    "uk": [
+     "Рок",
+     "Поп",
+     "Класика"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "She prefers rock."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Які фільми ви любите?"
+   },
+   "words": [
+    "What",
+    "kind",
+    "of",
+    "films",
+    "do",
+    "you",
+    "like",
+    "does"
+   ],
+   "answer": [
+    "What",
+    "kind",
+    "of",
+    "films",
+    "do",
+    "you",
+    "like"
+   ],
+   "explanation": {
+    "uk": "What kind of films do you like?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Він любить комедії."
+   },
+   "answers": [
+    "He likes comedy",
+    "He likes comedies"
+   ],
+   "explanation": {
+    "uk": "He likes comedy."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "What kind of music do you like?",
+   "prompt": {
+    "uk": "Ви любите рок. Що відповісти?"
+   },
+   "options": [
+    "I like rock.",
+    "I'm like rock.",
+    "I like kind of."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I like rock."
+   }
+  }
+ ]
+}

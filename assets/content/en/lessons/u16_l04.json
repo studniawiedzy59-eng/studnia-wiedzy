@@ -1,0 +1,267 @@
+{
+ "id": "u16_l04",
+ "unit": "u16",
+ "cefr": "A0",
+ "title": {
+  "uk": "Трохи і нічого"
+ },
+ "goal": {
+  "uk": "Сказати «трохи є» і «зовсім немає»."
+ },
+ "rule": {
+  "uk": "Some — у ствердженні: I have some money. Any — у запереченні й питанні: I don't have any money. Do you have any questions?"
+ },
+ "words": [
+  {
+   "id": "any",
+   "text": "any",
+   "ipa": "/ˈeni/",
+   "pos": "determiner",
+   "translation": {
+    "uk": "скільки-небудь; жодного"
+   },
+   "example": "I don't have any money.",
+   "exampleTranslation": {
+    "uk": "У мене зовсім немає грошей."
+   }
+  },
+  {
+   "id": "coin",
+   "text": "coin",
+   "ipa": "/kɔɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "монета"
+   },
+   "example": "Do you have any coins?",
+   "exampleTranslation": {
+    "uk": "У вас є монети?"
+   }
+  },
+  {
+   "id": "free_time",
+   "text": "free time",
+   "ipa": "/ˌfriː ˈtaɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вільний час"
+   },
+   "example": "I don't have any free time.",
+   "exampleTranslation": {
+    "uk": "У мене зовсім немає вільного часу."
+   }
+  },
+  {
+   "id": "luggage",
+   "text": "luggage",
+   "ipa": "/ˈlʌɡɪdʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "багаж"
+   },
+   "example": "Do you have any luggage?",
+   "exampleTranslation": {
+    "uk": "У вас є багаж?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "___ he have a girlfriend?",
+   "options": [
+    "Does",
+    "Do",
+    "Is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Does he have…?"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "any",
+     "right": {
+      "uk": "скільки-небудь"
+     }
+    },
+    {
+     "left": "some",
+     "right": {
+      "uk": "трохи"
+     }
+    },
+    {
+     "left": "coin",
+     "right": {
+      "uk": "монета"
+     }
+    },
+    {
+     "left": "luggage",
+     "right": {
+      "uk": "багаж"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Some і any — про кількість."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have ___ money. Let's have lunch.",
+   "options": [
+    "some",
+    "any",
+    "a"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У ствердженні — some."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I don't have ___ coins.",
+   "options": [
+    "any",
+    "some",
+    "a"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У запереченні — any."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Do you have ___ questions?",
+   "options": [
+    "any",
+    "some",
+    "an"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У питанні — any."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "Do you have any luggage?",
+   "prompt": {
+    "uk": "Прослухайте. Що питають в аеропорту?"
+   },
+   "options": {
+    "uk": [
+     "Чи є у вас багаж",
+     "Де ваш багаж",
+     "Чий це багаж"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Any luggage."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "I don't have any free time this week.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Цього тижня вона зовсім зайнята",
+     "Цього тижня вона вільна",
+     "У неї вихідний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't have any free time."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене є кілька питань."
+   },
+   "words": [
+    "I",
+    "have",
+    "some",
+    "questions",
+    "any",
+    "a"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "some",
+    "questions"
+   ],
+   "explanation": {
+    "uk": "I have some questions."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "У вас є питання?"
+   },
+   "answers": [
+    "Do you have any questions",
+    "Do you have questions"
+   ],
+   "explanation": {
+    "uk": "Do you have any questions?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Do you have any coins?",
+   "prompt": {
+    "uk": "Монет у вас немає. Що відповісти?"
+   },
+   "options": [
+    "No, I don't have any.",
+    "No, I don't have some.",
+    "No, I haven't any do."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I don't have any."
+   }
+  }
+ ]
+}

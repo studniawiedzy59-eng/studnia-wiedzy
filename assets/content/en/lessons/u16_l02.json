@@ -1,0 +1,287 @@
+{
+ "id": "u16_l02",
+ "unit": "u16",
+ "cefr": "A0",
+ "title": {
+  "uk": "У вас є ручка?"
+ },
+ "goal": {
+  "uk": "Спитати, чи є щось у співрозмовника."
+ },
+ "rule": {
+  "uk": "Питання: Do you have…? Коротка відповідь: Yes, I do. No, I don't. Про документи: Do you have ID? — «У вас є посвідчення особи?»"
+ },
+ "words": [
+  {
+   "id": "charger",
+   "text": "charger",
+   "ipa": "/ˈtʃɑːdʒə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "зарядний пристрій"
+   },
+   "example": "Do you have a charger?",
+   "exampleTranslation": {
+    "uk": "У вас є зарядка?"
+   }
+  },
+  {
+   "id": "headphones",
+   "text": "headphones",
+   "ipa": "/ˈhedfəʊnz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "навушники"
+   },
+   "example": "I don't have headphones.",
+   "exampleTranslation": {
+    "uk": "У мене немає навушників."
+   }
+  },
+  {
+   "id": "map",
+   "text": "map",
+   "ipa": "/mæp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мапа"
+   },
+   "example": "Do you have a map?",
+   "exampleTranslation": {
+    "uk": "У вас є мапа?"
+   }
+  },
+  {
+   "id": "id",
+   "text": "ID",
+   "ipa": "/ˌaɪ ˈdiː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "посвідчення особи"
+   },
+   "example": "Do you have ID?",
+   "exampleTranslation": {
+    "uk": "У вас є посвідчення?"
+   }
+  },
+  {
+   "id": "driving_licence",
+   "text": "driving licence",
+   "ipa": "/ˈdraɪvɪŋ ˌlaɪsns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "водійські права"
+   },
+   "example": "I have a driving licence.",
+   "exampleTranslation": {
+    "uk": "У мене є водійські права."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ have a pet.",
+   "options": [
+    "don't",
+    "not",
+    "isn't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I don't have."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "charger",
+     "right": {
+      "uk": "зарядний пристрій"
+     }
+    },
+    {
+     "left": "headphones",
+     "right": {
+      "uk": "навушники"
+     }
+    },
+    {
+     "left": "map",
+     "right": {
+      "uk": "мапа"
+     }
+    },
+    {
+     "left": "ID",
+     "right": {
+      "uk": "посвідчення особи"
+     }
+    },
+    {
+     "left": "driving licence",
+     "right": {
+      "uk": "водійські права"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Корисні речі й документи."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Do you have a charger?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Чи є у вас зарядка",
+     "Де зарядка",
+     "Чия це зарядка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Do you have…?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати «У вас є мапа?»"
+   },
+   "options": [
+    "Do you have a map?",
+    "Have you a map do?",
+    "Are you have a map?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Do you have a map?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Do you have a pen? — Yes, I ___.",
+   "options": [
+    "do",
+    "is",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I do."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Do you have ID? — No, I ___.",
+   "options": [
+    "don't",
+    "am not",
+    "not"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I don't."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "Can I see your driving licence, please?",
+   "prompt": {
+    "uk": "Прослухайте. Що просять показати?"
+   },
+   "options": {
+    "uk": [
+     "Водійські права",
+     "Паспорт",
+     "Квиток"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Driving licence — водійські права."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У вас є зарядка?"
+   },
+   "words": [
+    "Do",
+    "you",
+    "have",
+    "a",
+    "charger",
+    "are",
+    "does"
+   ],
+   "answer": [
+    "Do",
+    "you",
+    "have",
+    "a",
+    "charger"
+   ],
+   "explanation": {
+    "uk": "Do you have a charger?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене немає навушників."
+   },
+   "answers": [
+    "I don't have headphones",
+    "I do not have headphones"
+   ],
+   "explanation": {
+    "uk": "I don't have headphones."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Do you have a driving licence?",
+   "prompt": {
+    "uk": "Прав у вас немає. Що відповісти?"
+   },
+   "options": [
+    "No, I don't.",
+    "No, I'm not.",
+    "No, I not."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I don't."
+   }
+  }
+ ]
+}

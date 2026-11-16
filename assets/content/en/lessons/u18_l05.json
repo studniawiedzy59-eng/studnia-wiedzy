@@ -1,0 +1,292 @@
+{
+ "id": "u18_l05",
+ "unit": "u18",
+ "cefr": "A0",
+ "title": {
+  "uk": "Можна тут сісти?"
+ },
+ "goal": {
+  "uk": "Попросити дозволу й зрозуміти відповідь."
+ },
+ "rule": {
+  "uk": "Can I…? — «Можна мені…?»: Can I sit here? Дозвіл: Yes, of course. Sure. Відмова ввічливо: I'm afraid not — «на жаль, ні». Sorry, you can't park here."
+ },
+ "words": [
+  {
+   "id": "sit",
+   "text": "sit",
+   "ipa": "/sɪt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "сидіти, сісти"
+   },
+   "example": "Can I sit here?",
+   "exampleTranslation": {
+    "uk": "Можна тут сісти?"
+   }
+  },
+  {
+   "id": "park",
+   "text": "park",
+   "ipa": "/pɑːk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "паркуватися"
+   },
+   "example": "Can I park here?",
+   "exampleTranslation": {
+    "uk": "Можна тут припаркуватися?"
+   }
+  },
+  {
+   "id": "come_in",
+   "text": "come in",
+   "ipa": "/ˌkʌm ˈɪn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "заходити"
+   },
+   "example": "Can I come in?",
+   "exampleTranslation": {
+    "uk": "Можна зайти?"
+   }
+  },
+  {
+   "id": "take_a_photo",
+   "text": "take a photo",
+   "ipa": "/ˌteɪk ə ˈfəʊtəʊ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "сфотографувати"
+   },
+   "example": "Can I take a photo?",
+   "exampleTranslation": {
+    "uk": "Можна сфотографувати?"
+   }
+  },
+  {
+   "id": "no_problem",
+   "text": "no problem",
+   "ipa": "/ˌnəʊ ˈprɒbləm/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "без проблем"
+   },
+   "example": "Sure, no problem.",
+   "exampleTranslation": {
+    "uk": "Авжеж, без проблем."
+   }
+  },
+  {
+   "id": "im_afraid_not",
+   "text": "I'm afraid not",
+   "ipa": "/aɪm əˌfreɪd ˈnɒt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "на жаль, ні"
+   },
+   "example": "I'm afraid not.",
+   "exampleTranslation": {
+    "uk": "На жаль, ні."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Can you show ___ the way?",
+   "options": [
+    "me",
+    "I",
+    "my"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Show me."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "sit",
+     "right": {
+      "uk": "сісти"
+     }
+    },
+    {
+     "left": "park",
+     "right": {
+      "uk": "паркуватися"
+     }
+    },
+    {
+     "left": "come in",
+     "right": {
+      "uk": "заходити"
+     }
+    },
+    {
+     "left": "take a photo",
+     "right": {
+      "uk": "сфотографувати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Про що просять дозволу."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Can I sit here?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Чи можна тут сісти",
+     "Чи вільно тут завтра",
+     "Де можна сісти"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Can I sit here?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'm afraid not.",
+   "prompt": {
+    "uk": "Прослухайте. Що вам відповіли?"
+   },
+   "options": {
+    "uk": [
+     "На жаль, ні",
+     "Так, звичайно",
+     "Я боюся"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm afraid not — ввічлива відмова."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви стукаєте у двері кабінету. Що спитати?"
+   },
+   "options": [
+    "Can I come in?",
+    "Can you come in?",
+    "Can I come on?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can I come in?"
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I ___ a photo here?",
+   "options": [
+    "take",
+    "do",
+    "sit"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Take a photo."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає You can't park here?"
+   },
+   "options": {
+    "uk": [
+     "Тут не можна паркуватися",
+     "Тут можна паркуватися",
+     "Ви не вмієте паркуватися"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "You can't — вам не можна."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можна тут припаркуватися?"
+   },
+   "words": [
+    "Can",
+    "I",
+    "park",
+    "here",
+    "you",
+    "to"
+   ],
+   "answer": [
+    "Can",
+    "I",
+    "park",
+    "here"
+   ],
+   "explanation": {
+    "uk": "Can I park here?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можна зайти?"
+   },
+   "answers": [
+    "Can I come in"
+   ],
+   "explanation": {
+    "uk": "Can I come in?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Can I use your phone?",
+   "prompt": {
+    "uk": "Ви дозволяєте. Що відповісти?"
+   },
+   "options": [
+    "Yes, of course.",
+    "I'm afraid not, of course.",
+    "Yes, you can't."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, of course."
+   }
+  }
+ ]
+}

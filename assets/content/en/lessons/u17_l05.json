@@ -1,0 +1,286 @@
+{
+ "id": "u17_l05",
+ "unit": "u17",
+ "cefr": "A0",
+ "title": {
+  "uk": "Я теж"
+ },
+ "goal": {
+  "uk": "Погодитися зі співрозмовником і пояснити, чому вам щось подобається."
+ },
+ "rule": {
+  "uk": "Me too — «я теж» у відповідь на ствердження: I like pizza. — Me too. Me neither — «я теж ні» у відповідь на заперечення: I don't like horror. — Me neither. Why? — «Чому?». Because… — «Тому що…»."
+ },
+ "words": [
+  {
+   "id": "me_too",
+   "text": "me too",
+   "ipa": "/ˌmiː ˈtuː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "я теж"
+   },
+   "example": "I love it. — Me too!",
+   "exampleTranslation": {
+    "uk": "Обожнюю це. — Я теж!"
+   }
+  },
+  {
+   "id": "me_neither",
+   "text": "me neither",
+   "ipa": "/ˌmiː ˈnaɪðə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "я теж ні"
+   },
+   "example": "I don't like it. — Me neither.",
+   "exampleTranslation": {
+    "uk": "Мені це не подобається. — Мені теж."
+   }
+  },
+  {
+   "id": "why",
+   "text": "why",
+   "ipa": "/waɪ/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "чому"
+   },
+   "example": "Why do you like it?",
+   "exampleTranslation": {
+    "uk": "Чому вам це подобається?"
+   }
+  },
+  {
+   "id": "because",
+   "text": "because",
+   "ipa": "/bɪˈkɒz/",
+   "pos": "conjunction",
+   "translation": {
+    "uk": "тому що"
+   },
+   "example": "Because it's fun.",
+   "exampleTranslation": {
+    "uk": "Бо це весело."
+   }
+  },
+  {
+   "id": "fun",
+   "text": "fun",
+   "ipa": "/fʌn/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "веселий, цікавий"
+   },
+   "example": "Dancing is fun.",
+   "exampleTranslation": {
+    "uk": "Танцювати весело."
+   }
+  },
+  {
+   "id": "relaxing",
+   "text": "relaxing",
+   "ipa": "/rɪˈlæksɪŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "розслаблювальний"
+   },
+   "example": "Swimming is relaxing.",
+   "exampleTranslation": {
+    "uk": "Плавання розслабляє."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What kind of films do you like?",
+   "prompt": {
+    "uk": "Повторимо. Ви любите комедії. Що відповісти?"
+   },
+   "options": [
+    "I like comedy.",
+    "I like kind comedy of.",
+    "I'm comedy."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I like comedy."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "me too",
+     "right": {
+      "uk": "я теж"
+     }
+    },
+    {
+     "left": "me neither",
+     "right": {
+      "uk": "я теж ні"
+     }
+    },
+    {
+     "left": "why",
+     "right": {
+      "uk": "чому"
+     }
+    },
+    {
+     "left": "because",
+     "right": {
+      "uk": "тому що"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для живої розмови."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вам кажуть: I love travelling. Ви теж. Що відповісти?"
+   },
+   "options": [
+    "Me too!",
+    "Me neither!",
+    "You too!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "На ствердження — Me too."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вам кажуть: I don't like cleaning. Ви теж ні. Що відповісти?"
+   },
+   "options": [
+    "Me neither.",
+    "Me too.",
+    "Me don't."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "На заперечення — Me neither."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Why do you like swimming?",
+   "prompt": {
+    "uk": "Прослухайте. Що вас питають?"
+   },
+   "options": {
+    "uk": [
+     "Чому ви любите плавати",
+     "Де ви плаваєте",
+     "Чи вмієте ви плавати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Why — чому."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I like reading ___ it's relaxing.",
+   "options": [
+    "because",
+    "why",
+    "but"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Because — тому що."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Dancing is ___! Let's go!",
+   "options": [
+    "fun",
+    "boring",
+    "because"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fun — весело."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Бо це весело."
+   },
+   "words": [
+    "Because",
+    "it's",
+    "fun",
+    "why",
+    "is"
+   ],
+   "answer": [
+    "Because",
+    "it's",
+    "fun"
+   ],
+   "explanation": {
+    "uk": "Because it's fun."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я теж."
+   },
+   "answers": [
+    "Me too"
+   ],
+   "explanation": {
+    "uk": "Me too."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Why do you like cooking?",
+   "prompt": {
+    "uk": "Вас це розслабляє. Що відповісти?"
+   },
+   "options": [
+    "Because it's relaxing.",
+    "Why it's relaxing.",
+    "Because I relaxing am."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Because it's relaxing."
+   }
+  }
+ ]
+}
