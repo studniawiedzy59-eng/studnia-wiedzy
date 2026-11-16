@@ -7,6 +7,10 @@ import '../../core/theme.dart';
 import '../../domain/models.dart';
 import '../../state/providers.dart';
 
+/// Display order for answer options, mixed anew each time an exercise is
+/// shown, so the right answer is never in a predictable place.
+List<int> mixedOrder(int length) => List<int>.generate(length, (i) => i)..shuffle(Random());
+
 /// Called with the learner's current answer, or `null` when nothing is chosen.
 typedef AnswerChanged = void Function(Object? answer);
 
@@ -103,10 +107,12 @@ class ChoiceView extends ConsumerStatefulWidget {
 
 class _ChoiceViewState extends ConsumerState<ChoiceView> {
   int? _selected;
+  late final List<int> _order;
 
   @override
   void initState() {
     super.initState();
+    _order = mixedOrder(widget.exercise.options.of(explanationLanguage).length);
     if (widget.exercise.isListening) {
       WidgetsBinding.instance.addPostFrameCallback((_) => _speak());
     }
@@ -137,7 +143,7 @@ class _ChoiceViewState extends ConsumerState<ChoiceView> {
           ),
         ],
         const SizedBox(height: 20),
-        for (var i = 0; i < options.length; i++)
+        for (final i in _order)
           Padding(
             padding: const EdgeInsets.only(bottom: 10),
             child: OptionTile(
@@ -169,6 +175,7 @@ class FillBlankView extends StatefulWidget {
 
 class _FillBlankViewState extends State<FillBlankView> {
   int? _selected;
+  late final List<int> _order = mixedOrder(widget.exercise.options.length);
 
   @override
   Widget build(BuildContext context) {
@@ -194,7 +201,7 @@ class _FillBlankViewState extends State<FillBlankView> {
           ),
         ),
         const SizedBox(height: 20),
-        for (var i = 0; i < exercise.options.length; i++)
+        for (final i in _order)
           Padding(
             padding: const EdgeInsets.only(bottom: 10),
             child: OptionTile(
@@ -235,7 +242,7 @@ class _MatchingViewState extends State<MatchingView> {
   void initState() {
     super.initState();
     _rights = [for (final pair in widget.exercise.pairs) pair.right.of(explanationLanguage)]
-      ..shuffle(Random(widget.exercise.id.hashCode));
+      ..shuffle(Random());
   }
 
   void _tapRight(String right) {
@@ -350,6 +357,7 @@ class BuildSentenceView extends StatefulWidget {
 
 class _BuildSentenceViewState extends State<BuildSentenceView> {
   final List<int> _picked = [];
+  late final List<int> _order = mixedOrder(widget.exercise.words.length);
 
   void _update(void Function() change) {
     setState(change);
@@ -398,7 +406,7 @@ class _BuildSentenceViewState extends State<BuildSentenceView> {
           spacing: 8,
           runSpacing: 8,
           children: [
-            for (var i = 0; i < words.length; i++)
+            for (final i in _order)
               if (!_picked.contains(i))
                 _WordChip(
                   text: words[i],
