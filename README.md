@@ -55,3 +55,5 @@ flutter build apk --debug
 3. Запустіть `python3 tools/validate_content.py`.
 
 Кожен урок перед випуском має перевірити людина, яка добре знає англійську.
+
+Актуальний стан, відомі слабкі місця й план: [docs/STATUS.md](docs/STATUS.md).
