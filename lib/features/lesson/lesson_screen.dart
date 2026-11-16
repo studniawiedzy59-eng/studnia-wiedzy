@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/motion.dart';
 import '../../core/theme.dart';
 import '../../domain/models.dart';
 import '../../state/providers.dart';
@@ -110,28 +111,44 @@ class _LessonScreenState extends ConsumerState<LessonScreen> {
         Expanded(
           child: SingleChildScrollView(
             padding: const EdgeInsets.fromLTRB(20, 8, 20, 20),
-            child: ExerciseView(
+            child: FadeSlideIn(
               key: ValueKey('${exercise.id}-$_index'),
-              exercise: exercise,
-              enabled: result == null,
-              onChanged: (answer) => setState(() => _answer = answer),
+              child: AnswerFeedbackAnimation(
+                result: result,
+                child: ExerciseView(
+                  exercise: exercise,
+                  enabled: result == null,
+                  onChanged: (answer) => setState(() => _answer = answer),
+                ),
+              ),
             ),
           ),
         ),
         if (result == null)
           Padding(
             padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
-            child: FilledButton(
-              onPressed: _answer == null ? null : () => _check(exercise),
-              child: const Text('Перевірити'),
+            child: FadeSlideIn(
+              key: ValueKey('check-$_index'),
+              delay: const Duration(milliseconds: 120),
+              child: Pressable(
+                enabled: _answer != null,
+                child: FilledButton(
+                  onPressed: _answer == null ? null : () => _check(exercise),
+                  child: const Text('Перевірити'),
+                ),
+              ),
             ),
           )
         else
-          _Feedback(
-            correct: result,
-            correctAnswer: exercise.correctAnswer(explanationLanguage),
-            explanation: exercise.explanation.of(explanationLanguage),
-            onNext: () => _next(lesson),
+          FadeSlideIn(
+            key: ValueKey('feedback-$_index-$result'),
+            offset: 28,
+            child: _Feedback(
+              correct: result,
+              correctAnswer: exercise.correctAnswer(explanationLanguage),
+              explanation: exercise.explanation.of(explanationLanguage),
+              onNext: () => _next(lesson),
+            ),
           ),
       ],
     );
@@ -190,7 +207,7 @@ class _Feedback extends StatelessWidget {
             Text(explanation, style: const TextStyle(fontSize: 16, height: 1.4)),
           ],
           const SizedBox(height: 14),
-          FilledButton(onPressed: onNext, child: const Text('Далі')),
+          Pressable(child: FilledButton(onPressed: onNext, child: const Text('Далі'))),
         ],
       ),
     );
@@ -276,7 +293,7 @@ class _IntroView extends ConsumerWidget {
         ),
         Padding(
           padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
-          child: FilledButton(onPressed: onStart, child: const Text('Почати вправи')),
+          child: Pressable(child: FilledButton(onPressed: onStart, child: const Text('Почати вправи'))),
         ),
       ],
     );
@@ -330,7 +347,7 @@ class _SummaryView extends StatelessWidget {
             ),
           ),
           const Spacer(),
-          FilledButton(onPressed: () => Navigator.of(context).pop(), child: const Text('Готово')),
+          Pressable(child: FilledButton(onPressed: () => Navigator.of(context).pop(), child: const Text('Готово'))),
         ],
       ),
     );

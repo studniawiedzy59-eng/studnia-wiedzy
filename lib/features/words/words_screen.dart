@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/theme.dart';
 import '../../domain/models.dart';
 import '../../state/providers.dart';
+import '../flashcards/flashcards_screen.dart';
 import '../my_words/my_words_screen.dart';
 
 /// Words of every loaded lesson, keyed the same way as in the saved progress.
@@ -71,6 +72,41 @@ class WordsTab extends ConsumerWidget {
                     ),
                   ),
                   const Icon(Icons.chevron_right, color: AppColors.accentDark),
+                ],
+              ),
+            ),
+          ),
+        ),
+        const SizedBox(height: 12),
+        Material(
+          color: AppColors.paleBlue,
+          borderRadius: BorderRadius.circular(24),
+          child: InkWell(
+            borderRadius: BorderRadius.circular(24),
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(builder: (_) => const FlashcardsScreen()),
+            ),
+            child: Padding(
+              padding: const EdgeInsets.all(18),
+              child: Row(
+                children: [
+                  const Icon(Icons.style, color: AppColors.navy),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Text('Флешкартки', style: TextStyle(fontSize: 19, fontWeight: FontWeight.w900)),
+                        Text(
+                          known.isEmpty && myWords.isEmpty
+                              ? 'З’являться після першого уроку'
+                              : 'Карток: ${known.length + myWords.length}',
+                          style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: AppColors.muted),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const Icon(Icons.chevron_right, color: AppColors.navy),
                 ],
               ),
             ),

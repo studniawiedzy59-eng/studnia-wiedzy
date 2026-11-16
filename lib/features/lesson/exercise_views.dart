@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/motion.dart';
 import '../../core/theme.dart';
 import '../../domain/models.dart';
 import '../../state/providers.dart';
@@ -72,7 +73,9 @@ class OptionTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
+    return Pressable(
+      enabled: onTap != null,
+      child: Material(
       color: selected ? AppColors.tint : AppColors.card,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(20),
@@ -91,6 +94,7 @@ class OptionTile extends StatelessWidget {
             ),
           ),
         ),
+      ),
       ),
     );
   }
