@@ -1,0 +1,326 @@
+{
+ "id": "u36_l01",
+ "unit": "u36",
+ "cefr": "A0",
+ "title": {
+  "uk": "Хочете прийти?"
+ },
+ "goal": {
+  "uk": "Запросити людину й радо погодитися."
+ },
+ "rule": {
+  "uk": "Would you like to…? — «Чи не хотіли б ви…?». Після to стоїть дієслово: Would you like to come? Найтепліша згода — I'd love to — «із задоволенням». Invite — запрошувати, an invitation — запрошення."
+ },
+ "words": [
+  {
+   "id": "would_you_like_to",
+   "text": "would you like to",
+   "ipa": "/wʊd juː ˈlaɪk tuː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "чи не хотіли б ви"
+   },
+   "example": "Would you like to come?",
+   "exampleTranslation": {
+    "uk": "Хочете прийти?"
+   }
+  },
+  {
+   "id": "come",
+   "text": "come",
+   "ipa": "/kʌm/",
+   "pos": "verb",
+   "translation": {
+    "uk": "приходити"
+   },
+   "example": "Come to my party.",
+   "exampleTranslation": {
+    "uk": "Приходьте на мою вечірку."
+   }
+  },
+  {
+   "id": "invite",
+   "text": "invite",
+   "ipa": "/ɪnˈvaɪt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "запрошувати"
+   },
+   "example": "I'd like to invite you.",
+   "exampleTranslation": {
+    "uk": "Я хотів би вас запросити."
+   }
+  },
+  {
+   "id": "invitation",
+   "text": "invitation",
+   "ipa": "/ˌɪnvɪˈteɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "запрошення"
+   },
+   "example": "Thank you for the invitation.",
+   "exampleTranslation": {
+    "uk": "Дякую за запрошення."
+   }
+  },
+  {
+   "id": "id_love_to",
+   "text": "I'd love to",
+   "ipa": "/aɪd ˈlʌv tuː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "із задоволенням"
+   },
+   "example": "I'd love to!",
+   "exampleTranslation": {
+    "uk": "Із задоволенням!"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Are you interested in art?",
+   "prompt": {
+    "uk": "Повторимо. Вам цікаво. Що відповісти?"
+   },
+   "options": [
+    "Yes, I am.",
+    "Yes, I do.",
+    "Yes, I interested in."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I am."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "would you like to",
+     "right": {
+      "uk": "чи не хотіли б ви"
+     }
+    },
+    {
+     "left": "come",
+     "right": {
+      "uk": "приходити"
+     }
+    },
+    {
+     "left": "invite",
+     "right": {
+      "uk": "запрошувати"
+     }
+    },
+    {
+     "left": "invitation",
+     "right": {
+      "uk": "запрошення"
+     }
+    },
+    {
+     "left": "I'd love to",
+     "right": {
+      "uk": "із задоволенням"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для запрошення."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Would you like to come to my birthday party?",
+   "prompt": {
+    "uk": "Прослухайте. Куди вас запрошують?"
+   },
+   "options": {
+    "uk": [
+     "На день народження",
+     "На весілля",
+     "У кіно"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "My birthday party."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'd love to! Thank you.",
+   "prompt": {
+    "uk": "Прослухайте. Що відповіла людина?"
+   },
+   "options": {
+    "uk": [
+     "Радо погодилася",
+     "Відмовилася",
+     "Не впевнена"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd love to — із задоволенням."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Thank you for the invitation.",
+   "prompt": {
+    "uk": "Прослухайте. За що дякують?"
+   },
+   "options": {
+    "uk": [
+     "За запрошення",
+     "За подарунок",
+     "За вечерю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The invitation."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Would you like ___ come to dinner?",
+   "options": [
+    "to",
+    "for",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Would you like to…"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'd ___ to! What time?",
+   "options": [
+    "love",
+    "like it",
+    "want"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd love to."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'd like to ___ you to my wedding.",
+   "options": [
+    "invite",
+    "invitation",
+    "come"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Invite — запросити."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "Would you like to go to the cinema?",
+    "Would you like go to the cinema?",
+    "Do you would like to go cinema?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Would you like to + дієслово."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Хочете прийти на вечерю?"
+   },
+   "words": [
+    "Would",
+    "you",
+    "like",
+    "to",
+    "come",
+    "to",
+    "dinner",
+    "for"
+   ],
+   "answer": [
+    "Would",
+    "you",
+    "like",
+    "to",
+    "come",
+    "to",
+    "dinner"
+   ],
+   "explanation": {
+    "uk": "Would you like to come to dinner?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Дякую за запрошення."
+   },
+   "answers": [
+    "Thank you for the invitation",
+    "Thanks for the invitation"
+   ],
+   "explanation": {
+    "uk": "Thank you for the invitation."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Would you like to come to my party on Saturday?",
+   "prompt": {
+    "uk": "Ви раді й згодні. Що відповісти?"
+   },
+   "options": [
+    "I'd love to! Thank you.",
+    "I love to! Thank you.",
+    "I'd love! Thanks to."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd love to!"
+   }
+  }
+ ]
+}

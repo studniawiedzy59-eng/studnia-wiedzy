@@ -1,0 +1,340 @@
+{
+ "id": "u35_l01",
+ "unit": "u35",
+ "cefr": "A0",
+ "title": {
+  "uk": "Моє хобі"
+ },
+ "goal": {
+  "uk": "Назвати своє хобі."
+ },
+ "rule": {
+  "uk": "My hobby is… — «моє хобі — …». Після is стоїть назва заняття з -ing: My hobby is fishing. In my free time I… — «у вільний час я…»: далі звичайне дієслово."
+ },
+ "words": [
+  {
+   "id": "hobby",
+   "text": "hobby",
+   "ipa": "/ˈhɒbi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "хобі"
+   },
+   "example": "My hobby is cycling.",
+   "exampleTranslation": {
+    "uk": "Моє хобі — велоспорт."
+   }
+  },
+  {
+   "id": "photography",
+   "text": "photography",
+   "ipa": "/fəˈtɒɡrəfi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "фотографія (заняття)"
+   },
+   "example": "I like photography.",
+   "exampleTranslation": {
+    "uk": "Мені подобається фотографувати."
+   }
+  },
+  {
+   "id": "gardening",
+   "text": "gardening",
+   "ipa": "/ˈɡɑːdnɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "садівництво"
+   },
+   "example": "My mother loves gardening.",
+   "exampleTranslation": {
+    "uk": "Моя мама обожнює сад."
+   }
+  },
+  {
+   "id": "fishing",
+   "text": "fishing",
+   "ipa": "/ˈfɪʃɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "риболовля"
+   },
+   "example": "He likes fishing.",
+   "exampleTranslation": {
+    "uk": "Він любить рибалити."
+   }
+  },
+  {
+   "id": "painting",
+   "text": "painting",
+   "ipa": "/ˈpeɪntɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "малювання фарбами"
+   },
+   "example": "Painting is relaxing.",
+   "exampleTranslation": {
+    "uk": "Малювання розслабляє."
+   }
+  },
+  {
+   "id": "cycling",
+   "text": "cycling",
+   "ipa": "/ˈsaɪklɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "їзда на велосипеді"
+   },
+   "example": "I love cycling.",
+   "exampleTranslation": {
+    "uk": "Я обожнюю їздити на велосипеді."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Can you send me the link?",
+   "prompt": {
+    "uk": "Повторимо. Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "Sure, no problem.",
+    "Sure, no signal.",
+    "Sounds wrong."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sure, no problem."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "hobby",
+     "right": {
+      "uk": "хобі"
+     }
+    },
+    {
+     "left": "photography",
+     "right": {
+      "uk": "фотографія"
+     }
+    },
+    {
+     "left": "gardening",
+     "right": {
+      "uk": "садівництво"
+     }
+    },
+    {
+     "left": "fishing",
+     "right": {
+      "uk": "риболовля"
+     }
+    },
+    {
+     "left": "painting",
+     "right": {
+      "uk": "малювання"
+     }
+    },
+    {
+     "left": "cycling",
+     "right": {
+      "uk": "їзда на велосипеді"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "П'ять хобі."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My hobby is photography.",
+   "prompt": {
+    "uk": "Прослухайте. Яке хобі в людини?"
+   },
+   "options": {
+    "uk": [
+     "Фотографія",
+     "Малювання",
+     "Риболовля"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Photography."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "In my free time I go fishing.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина робить у вільний час?"
+   },
+   "options": {
+    "uk": [
+     "Рибалить",
+     "Катається на велосипеді",
+     "Малює"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Go fishing."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My father loves gardening.",
+   "prompt": {
+    "uk": "Прослухайте. Що любить тато?"
+   },
+   "options": {
+    "uk": [
+     "Працювати в саду",
+     "Рибалити",
+     "Фотографувати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Gardening."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My hobby ___ painting.",
+   "options": [
+    "is",
+    "are",
+    "does"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My hobby is…"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "In my ___ time I read books.",
+   "options": [
+    "free",
+    "hobby",
+    "busy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Free time — вільний час."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I love ___. I have a new bike.",
+   "options": [
+    "cycling",
+    "fishing",
+    "gardening"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Bike — cycling."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "My hobby is cycling.",
+    "My hobby is cycle.",
+    "My hobby cycling is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після is — слово з -ing."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Моє хобі — риболовля."
+   },
+   "words": [
+    "My",
+    "hobby",
+    "is",
+    "fishing",
+    "fish",
+    "are"
+   ],
+   "answer": [
+    "My",
+    "hobby",
+    "is",
+    "fishing"
+   ],
+   "explanation": {
+    "uk": "My hobby is fishing."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мені подобається фотографувати."
+   },
+   "answers": [
+    "I like photography",
+    "I like taking photos"
+   ],
+   "explanation": {
+    "uk": "I like photography."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What's your hobby?",
+   "prompt": {
+    "uk": "Ваше хобі — малювання. Що відповісти?"
+   },
+   "options": [
+    "My hobby is painting.",
+    "My hobby is paint.",
+    "I'm painting hobby."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My hobby is painting."
+   }
+  }
+ ]
+}

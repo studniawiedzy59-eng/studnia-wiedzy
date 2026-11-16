@@ -1,0 +1,323 @@
+{
+ "id": "u35_l02",
+ "unit": "u35",
+ "cefr": "A0",
+ "title": {
+  "uk": "Go, play чи do?"
+ },
+ "goal": {
+  "uk": "Вибрати правильне дієслово до заняття."
+ },
+ "rule": {
+  "uk": "Три дієслова для дозвілля. Go — із заняттями на -ing: go swimming, go cycling, go hiking. Play — з іграми з м'ячем та іншими іграми: play football, play basketball, play chess. Do — з рештою: do yoga, do exercise."
+ },
+ "words": [
+  {
+   "id": "yoga",
+   "text": "yoga",
+   "ipa": "/ˈjəʊɡə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "йога"
+   },
+   "example": "I do yoga.",
+   "exampleTranslation": {
+    "uk": "Я займаюся йогою."
+   }
+  },
+  {
+   "id": "exercise",
+   "text": "exercise",
+   "ipa": "/ˈeksəsaɪz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "фізичні вправи"
+   },
+   "example": "I do exercise every day.",
+   "exampleTranslation": {
+    "uk": "Я щодня роблю вправи."
+   }
+  },
+  {
+   "id": "basketball",
+   "text": "basketball",
+   "ipa": "/ˈbɑːskɪtbɔːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "баскетбол"
+   },
+   "example": "We play basketball.",
+   "exampleTranslation": {
+    "uk": "Ми граємо в баскетбол."
+   }
+  },
+  {
+   "id": "hiking",
+   "text": "hiking",
+   "ipa": "/ˈhaɪkɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "піші походи"
+   },
+   "example": "We go hiking.",
+   "exampleTranslation": {
+    "uk": "Ми ходимо в походи."
+   }
+  },
+  {
+   "id": "skiing",
+   "text": "skiing",
+   "ipa": "/ˈskiːɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "катання на лижах"
+   },
+   "example": "I go skiing in winter.",
+   "exampleTranslation": {
+    "uk": "Узимку я катаюся на лижах."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "My hobby ___ gardening.",
+   "options": [
+    "is",
+    "does",
+    "go"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My hobby is…"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "yoga",
+     "right": {
+      "uk": "йога"
+     }
+    },
+    {
+     "left": "exercise",
+     "right": {
+      "uk": "фізичні вправи"
+     }
+    },
+    {
+     "left": "basketball",
+     "right": {
+      "uk": "баскетбол"
+     }
+    },
+    {
+     "left": "hiking",
+     "right": {
+      "uk": "піші походи"
+     }
+    },
+    {
+     "left": "skiing",
+     "right": {
+      "uk": "катання на лижах"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Нові заняття."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ swimming on Saturday.",
+   "options": [
+    "go",
+    "play",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Заняття на -ing — go."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ basketball after work.",
+   "options": [
+    "play",
+    "go",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Гра з м'ячем — play."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ yoga every morning.",
+   "options": [
+    "does",
+    "plays",
+    "goes"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yoga — do, з she — does."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "They ___ skiing in January.",
+   "options": [
+    "go",
+    "play",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Skiing — go."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "listening",
+   "audioText": "We go hiking at the weekend.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони роблять на вихідних?"
+   },
+   "options": {
+    "uk": [
+     "Ходять у походи",
+     "Катаються на лижах",
+     "Грають у баскетбол"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Go hiking."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "listening",
+   "audioText": "I do exercise three times a week.",
+   "prompt": {
+    "uk": "Прослухайте. Як часто людина робить вправи?"
+   },
+   "options": {
+    "uk": [
+     "Тричі на тиждень",
+     "Тричі на день",
+     "Раз на тиждень"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Three times a week."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I play tennis.",
+    "I do tennis.",
+    "I go tennis."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Гра — play."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "He goes cycling.",
+    "He plays cycling.",
+    "He does cycling."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Заняття на -ing — go."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Узимку ми катаємося на лижах."
+   },
+   "words": [
+    "We",
+    "go",
+    "skiing",
+    "in",
+    "winter",
+    "play",
+    "do"
+   ],
+   "answer": [
+    "We",
+    "go",
+    "skiing",
+    "in",
+    "winter"
+   ],
+   "explanation": {
+    "uk": "We go skiing in winter."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you do any sport?",
+   "prompt": {
+    "uk": "Ви граєте в баскетбол і займаєтеся йогою. Що відповісти?"
+   },
+   "options": [
+    "Yes, I play basketball and do yoga.",
+    "Yes, I do basketball and play yoga.",
+    "Yes, I go basketball and yoga."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Play basketball, do yoga."
+   }
+  }
+ ]
+}

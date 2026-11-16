@@ -1,0 +1,322 @@
+{
+ "id": "u35_l03",
+ "unit": "u35",
+ "cefr": "A0",
+ "title": {
+  "uk": "Мені це добре вдається"
+ },
+ "goal": {
+  "uk": "Сказати, що вам вдається, а що ні, і чим ви цікавитеся."
+ },
+ "rule": {
+  "uk": "Good at — «добре вміти»: I'm good at cooking. Bad at — «погано вміти». Interested in — «цікавитися»: I'm interested in history. Після at і in дія стоїть з -ing."
+ },
+ "words": [
+  {
+   "id": "good_at",
+   "text": "good at",
+   "ipa": "/ˈɡʊd æt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "добре вміє"
+   },
+   "example": "She's good at painting.",
+   "exampleTranslation": {
+    "uk": "Вона добре малює."
+   }
+  },
+  {
+   "id": "bad_at",
+   "text": "bad at",
+   "ipa": "/ˈbæd æt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "погано вміє"
+   },
+   "example": "I'm bad at dancing.",
+   "exampleTranslation": {
+    "uk": "Я погано танцюю."
+   }
+  },
+  {
+   "id": "interested_in",
+   "text": "interested in",
+   "ipa": "/ˈɪntrəstɪd ɪn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "цікавиться"
+   },
+   "example": "I'm interested in art.",
+   "exampleTranslation": {
+    "uk": "Я цікавлюся мистецтвом."
+   }
+  },
+  {
+   "id": "history",
+   "text": "history",
+   "ipa": "/ˈhɪstri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "історія"
+   },
+   "example": "I like history.",
+   "exampleTranslation": {
+    "uk": "Мені подобається історія."
+   }
+  },
+  {
+   "id": "art",
+   "text": "art",
+   "ipa": "/ɑːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мистецтво"
+   },
+   "example": "Modern art.",
+   "exampleTranslation": {
+    "uk": "Сучасне мистецтво."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ hiking every summer.",
+   "options": [
+    "go",
+    "play",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go hiking."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "good at",
+     "right": {
+      "uk": "добре вміє"
+     }
+    },
+    {
+     "left": "bad at",
+     "right": {
+      "uk": "погано вміє"
+     }
+    },
+    {
+     "left": "interested in",
+     "right": {
+      "uk": "цікавиться"
+     }
+    },
+    {
+     "left": "history",
+     "right": {
+      "uk": "історія"
+     }
+    },
+    {
+     "left": "art",
+     "right": {
+      "uk": "мистецтво"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Три корисні вирази й дві теми."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'm good at cooking.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона добре готує",
+     "Вона погано готує",
+     "Вона любить їсти"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Good at cooking."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He's interested in history.",
+   "prompt": {
+    "uk": "Прослухайте. Чим він цікавиться?"
+   },
+   "options": {
+    "uk": [
+     "Історією",
+     "Мистецтвом",
+     "Спортом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Interested in history."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I'm really bad at singing.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона дуже погано співає",
+     "Вона добре співає",
+     "Вона не любить музику"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bad at singing."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She's good ___ languages.",
+   "options": [
+    "at",
+    "in",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Good at."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm interested ___ art.",
+   "options": [
+    "in",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Interested in."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He's very good at ___.",
+   "options": [
+    "swimming",
+    "swim",
+    "swims"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після at — дія з -ing."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я погано танцюю»?"
+   },
+   "options": [
+    "I'm bad at dancing.",
+    "I'm bad in dance.",
+    "I bad at dancing."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm bad at dancing."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я цікавлюся історією."
+   },
+   "words": [
+    "I'm",
+    "interested",
+    "in",
+    "history",
+    "at",
+    "good"
+   ],
+   "answer": [
+    "I'm",
+    "interested",
+    "in",
+    "history"
+   ],
+   "explanation": {
+    "uk": "I'm interested in history."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона добре малює."
+   },
+   "answers": [
+    "She's good at painting",
+    "She is good at painting",
+    "She's good at drawing"
+   ],
+   "explanation": {
+    "uk": "She's good at painting."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What are you good at?",
+   "prompt": {
+    "uk": "Вам добре вдаються мови. Що відповісти?"
+   },
+   "options": [
+    "I'm good at languages.",
+    "I'm good in languages.",
+    "I good at language."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm good at languages."
+   }
+  }
+ ]
+}

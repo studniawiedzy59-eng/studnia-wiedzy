@@ -1,0 +1,343 @@
+{
+ "id": "u35_l04",
+ "unit": "u35",
+ "cefr": "A0",
+ "title": {
+  "uk": "Клуб і заняття"
+ },
+ "goal": {
+  "uk": "Розповісти, де й з ким ви займаєтеся своїм хобі."
+ },
+ "rule": {
+  "uk": "Join — «вступити, приєднатися»: I'd like to join a club. A member — член клубу. A class ви знаєте з поїзда; тут це «заняття»: a yoga class. A beginner — початківець. Alone — сам, наодинці."
+ },
+ "words": [
+  {
+   "id": "club",
+   "text": "club",
+   "ipa": "/klʌb/",
+   "pos": "noun",
+   "translation": {
+    "uk": "клуб"
+   },
+   "example": "A chess club.",
+   "exampleTranslation": {
+    "uk": "Шаховий клуб."
+   }
+  },
+  {
+   "id": "member",
+   "text": "member",
+   "ipa": "/ˈmembə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "член, учасник"
+   },
+   "example": "I'm a member.",
+   "exampleTranslation": {
+    "uk": "Я член клубу."
+   }
+  },
+  {
+   "id": "join",
+   "text": "join",
+   "ipa": "/dʒɔɪn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "приєднатися"
+   },
+   "example": "I'd like to join the club.",
+   "exampleTranslation": {
+    "uk": "Я хотів би вступити до клубу."
+   }
+  },
+  {
+   "id": "class",
+   "text": "class",
+   "ipa": "/klɑːs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "заняття"
+   },
+   "example": "A yoga class.",
+   "exampleTranslation": {
+    "uk": "Заняття з йоги."
+   }
+  },
+  {
+   "id": "beginner",
+   "text": "beginner",
+   "ipa": "/bɪˈɡɪnə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "початківець"
+   },
+   "example": "I'm a beginner.",
+   "exampleTranslation": {
+    "uk": "Я початківець."
+   }
+  },
+  {
+   "id": "alone",
+   "text": "alone",
+   "ipa": "/əˈləʊn/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "сам, наодинці"
+   },
+   "example": "I run alone.",
+   "exampleTranslation": {
+    "uk": "Я бігаю сам."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm interested ___ photography.",
+   "options": [
+    "in",
+    "at",
+    "for"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Interested in."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "club",
+     "right": {
+      "uk": "клуб"
+     }
+    },
+    {
+     "left": "member",
+     "right": {
+      "uk": "член клубу"
+     }
+    },
+    {
+     "left": "join",
+     "right": {
+      "uk": "приєднатися"
+     }
+    },
+    {
+     "left": "class",
+     "right": {
+      "uk": "заняття"
+     }
+    },
+    {
+     "left": "beginner",
+     "right": {
+      "uk": "початківець"
+     }
+    },
+    {
+     "left": "alone",
+     "right": {
+      "uk": "сам"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про секції й заняття."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'd like to join the gym.",
+   "prompt": {
+    "uk": "Прослухайте. Чого хоче людина?"
+   },
+   "options": {
+    "uk": [
+     "Записатися до спортзалу",
+     "Вийти зі спортзалу",
+     "Знайти спортзал"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Join — записатися."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Is this class for beginners?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Чи це заняття для початківців",
+     "Чи це перший клас",
+     "Коли заняття"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "For beginners."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I go running alone, but I play tennis with friends.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина робить сама?"
+   },
+   "options": {
+    "uk": [
+     "Бігає",
+     "Грає в теніс",
+     "Ходить у походи"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Running alone."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm a ___ of a chess club.",
+   "options": [
+    "member",
+    "beginner",
+    "class"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A member of a club."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I can't swim well. I'm a ___.",
+   "options": [
+    "beginner",
+    "member",
+    "club"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A beginner — початківець."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'd like to ___ a yoga class.",
+   "options": [
+    "join",
+    "play",
+    "member"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Join a class."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я ходжу на заняття з йоги»?"
+   },
+   "options": [
+    "I go to a yoga class.",
+    "I go a yoga to class.",
+    "I play a yoga class."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I go to a yoga class."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я хотів би вступити до клубу."
+   },
+   "words": [
+    "I'd",
+    "like",
+    "to",
+    "join",
+    "the",
+    "club",
+    "member"
+   ],
+   "answer": [
+    "I'd",
+    "like",
+    "to",
+    "join",
+    "the",
+    "club"
+   ],
+   "explanation": {
+    "uk": "I'd like to join the club."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я початківець."
+   },
+   "answers": [
+    "I'm a beginner",
+    "I am a beginner"
+   ],
+   "explanation": {
+    "uk": "I'm a beginner."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Would you like to join our club?",
+   "prompt": {
+    "uk": "Ви хочете. Що відповісти?"
+   },
+   "options": [
+    "Yes, I'd like to. How much is it?",
+    "Yes, I like join. How much?",
+    "Yes, I'm a join."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I'd like to."
+   }
+  }
+ ]
+}

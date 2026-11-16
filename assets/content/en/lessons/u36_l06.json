@@ -1,0 +1,232 @@
+{
+ "id": "u36_l06",
+ "unit": "u36",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: запрошення"
+ },
+ "goal": {
+  "uk": "Запросити, погодитися чи відмовитися, домовитися й побувати в гостях."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: Would you like to…?, I'd love to, How about…?, I'm afraid I can't, I have to…, Can I bring anything?, Make yourself at home, Thanks for coming."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Хочете прийти на мою вечірку?"
+   },
+   "words": [
+    "Would",
+    "you",
+    "like",
+    "to",
+    "come",
+    "to",
+    "my",
+    "party",
+    "for"
+   ],
+   "answer": [
+    "Would",
+    "you",
+    "like",
+    "to",
+    "come",
+    "to",
+    "my",
+    "party"
+   ],
+   "explanation": {
+    "uk": "Would you like to come to my party?"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "Would you like to go for a drink?",
+   "prompt": {
+    "uk": "Ви раді. Що відповісти?"
+   },
+   "options": [
+    "I'd love to!",
+    "I love to it!",
+    "I'd like love."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd love to!"
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How about ___ for a walk?",
+   "options": [
+    "going",
+    "go",
+    "to go"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How about + -ing."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "На жаль, не можу."
+   },
+   "answers": [
+    "I'm afraid I can't",
+    "Unfortunately, I can't",
+    "I am afraid I can't"
+   ],
+   "explanation": {
+    "uk": "I'm afraid I can't."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I'd love to, but I have to visit my grandmother. Maybe another time?",
+   "prompt": {
+    "uk": "Прослухайте. Чому людина не може?"
+   },
+   "options": {
+    "uk": [
+     "Їй треба відвідати бабусю",
+     "Вона працює",
+     "Вона хвора"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I have to visit my grandmother."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Shall we ___ at seven?",
+   "options": [
+    "meet",
+    "meeting",
+    "to meet"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Shall we + дієслово."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви йдете в гості. Що спитати заздалегідь?"
+   },
+   "options": [
+    "Can I bring anything?",
+    "Can you bring me?",
+    "Do I bring you anything to?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can I bring anything?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Почувайтеся як удома."
+   },
+   "answers": [
+    "Make yourself at home"
+   ],
+   "explanation": {
+    "uk": "Make yourself at home."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "Cheers! Happy birthday, Tom!",
+   "prompt": {
+    "uk": "Прослухайте. Що відбувається?"
+   },
+   "options": {
+    "uk": [
+     "Гості вітають Тома й піднімають келихи",
+     "Гості прощаються",
+     "Гості замовляють їжу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cheers! Happy birthday."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "Why don't we go to the theatre?",
+    "Why we don't go to the theatre?",
+    "Why don't we going to the theatre?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Why don't we + дієслово."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Where shall we meet?",
+   "prompt": {
+    "uk": "Ви пропонуєте зустрітися біля вокзалу. Що відповісти?"
+   },
+   "options": [
+    "How about in front of the station?",
+    "How about meet station front?",
+    "Shall about the station."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How about in front of the station?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Help yourself to some more cake.",
+   "prompt": {
+    "uk": "Ви наїлися. Що відповісти?"
+   },
+   "options": [
+    "No, thank you. I'm full.",
+    "No, thank you. I'm welcome.",
+    "Yes, I'm full."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, thank you. I'm full."
+   }
+  }
+ ]
+}

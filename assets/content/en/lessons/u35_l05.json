@@ -1,0 +1,339 @@
+{
+ "id": "u35_l05",
+ "unit": "u35",
+ "cefr": "A0",
+ "title": {
+  "uk": "Серіали, ігри, концерти"
+ },
+ "goal": {
+  "uk": "Розповісти, що ви дивитеся, слухаєте й куди ходите."
+ },
+ "rule": {
+  "uk": "Watch — дивитися: I watch series. Go to — ходити кудись: go to concerts, go to the theatre. Collect — колекціонувати. A game — гра: video games, board games."
+ },
+ "words": [
+  {
+   "id": "series",
+   "text": "series",
+   "ipa": "/ˈsɪəriːz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "серіал"
+   },
+   "example": "I watch series.",
+   "exampleTranslation": {
+    "uk": "Я дивлюся серіали."
+   }
+  },
+  {
+   "id": "game",
+   "text": "game",
+   "ipa": "/ɡeɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гра"
+   },
+   "example": "Video games.",
+   "exampleTranslation": {
+    "uk": "Відеоігри."
+   }
+  },
+  {
+   "id": "podcast",
+   "text": "podcast",
+   "ipa": "/ˈpɒdkɑːst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "подкаст"
+   },
+   "example": "I listen to podcasts.",
+   "exampleTranslation": {
+    "uk": "Я слухаю подкасти."
+   }
+  },
+  {
+   "id": "concert",
+   "text": "concert",
+   "ipa": "/ˈkɒnsət/",
+   "pos": "noun",
+   "translation": {
+    "uk": "концерт"
+   },
+   "example": "A rock concert.",
+   "exampleTranslation": {
+    "uk": "Рок-концерт."
+   }
+  },
+  {
+   "id": "theatre",
+   "text": "theatre",
+   "ipa": "/ˈθɪətə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "театр"
+   },
+   "example": "We go to the theatre.",
+   "exampleTranslation": {
+    "uk": "Ми ходимо в театр."
+   }
+  },
+  {
+   "id": "collect",
+   "text": "collect",
+   "ipa": "/kəˈlekt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "колекціонувати"
+   },
+   "example": "I collect old books.",
+   "exampleTranslation": {
+    "uk": "Я колекціоную старі книжки."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Would you like to join our class?",
+   "prompt": {
+    "uk": "Повторимо. Ви початківець і хочете. Що відповісти?"
+   },
+   "options": [
+    "Yes, but I'm a beginner.",
+    "Yes, but I'm a member alone.",
+    "No, I join."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, but I'm a beginner."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "series",
+     "right": {
+      "uk": "серіал"
+     }
+    },
+    {
+     "left": "game",
+     "right": {
+      "uk": "гра"
+     }
+    },
+    {
+     "left": "podcast",
+     "right": {
+      "uk": "подкаст"
+     }
+    },
+    {
+     "left": "concert",
+     "right": {
+      "uk": "концерт"
+     }
+    },
+    {
+     "left": "theatre",
+     "right": {
+      "uk": "театр"
+     }
+    },
+    {
+     "left": "collect",
+     "right": {
+      "uk": "колекціонувати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Дозвілля вдома й у місті."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I listen to podcasts on the bus.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина робить в автобусі?"
+   },
+   "options": {
+    "uk": [
+     "Слухає подкасти",
+     "Дивиться серіали",
+     "Грає в ігри"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Listen to podcasts."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We often go to concerts.",
+   "prompt": {
+    "uk": "Прослухайте. Куди вони часто ходять?"
+   },
+   "options": {
+    "uk": [
+     "На концерти",
+     "У театр",
+     "У кіно"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Concerts."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My son plays video games every evening.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить син?"
+   },
+   "options": {
+    "uk": [
+     "Грає у відеоігри",
+     "Дивиться серіали",
+     "Слухає музику"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Plays video games."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ a series every evening.",
+   "options": [
+    "watch",
+    "listen",
+    "play"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Серіал — watch."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ to podcasts in the car.",
+   "options": [
+    "listen",
+    "watch",
+    "collect"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Listen to."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We go to the ___ once a month.",
+   "options": [
+    "theatre",
+    "series",
+    "podcast"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go to the theatre."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "He plays video games.",
+    "He does video games.",
+    "He goes video games."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ігри — play."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я колекціоную старі книжки."
+   },
+   "words": [
+    "I",
+    "collect",
+    "old",
+    "books",
+    "watch",
+    "the"
+   ],
+   "answer": [
+    "I",
+    "collect",
+    "old",
+    "books"
+   ],
+   "explanation": {
+    "uk": "I collect old books."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я дивлюся серіали."
+   },
+   "answers": [
+    "I watch series"
+   ],
+   "explanation": {
+    "uk": "I watch series."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you do in the evening?",
+   "prompt": {
+    "uk": "Ви дивитеся серіали або слухаєте подкасти. Що відповісти?"
+   },
+   "options": [
+    "I watch series or listen to podcasts.",
+    "I listen series or watch to podcasts.",
+    "I'm watch series."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Watch series, listen to podcasts."
+   }
+  }
+ ]
+}

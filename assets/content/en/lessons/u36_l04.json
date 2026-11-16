@@ -1,0 +1,320 @@
+{
+ "id": "u36_l04",
+ "unit": "u36",
+ "cefr": "A0",
+ "title": {
+  "uk": "Де й коли зустрінемося?"
+ },
+ "goal": {
+  "uk": "Домовитися про місце й час і спитати, що принести."
+ },
+ "rule": {
+  "uk": "Where shall we meet? — «Де зустрінемося?». At my place — «у мене вдома». Bring — приносити: Can I bring anything? — «Щось принести?». Let me know — «дайте знати». See you there — «побачимося там»."
+ },
+ "words": [
+  {
+   "id": "bring",
+   "text": "bring",
+   "ipa": "/brɪŋ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "приносити"
+   },
+   "example": "Can I bring anything?",
+   "exampleTranslation": {
+    "uk": "Щось принести?"
+   }
+  },
+  {
+   "id": "at_my_place",
+   "text": "at my place",
+   "ipa": "/ət ˈmaɪ pleɪs/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "у мене вдома"
+   },
+   "example": "Dinner at my place.",
+   "exampleTranslation": {
+    "uk": "Вечеря в мене вдома."
+   }
+  },
+  {
+   "id": "let_me_know",
+   "text": "let me know",
+   "ipa": "/ˌlet mi ˈnəʊ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "дайте знати"
+   },
+   "example": "Let me know.",
+   "exampleTranslation": {
+    "uk": "Дайте знати."
+   }
+  },
+  {
+   "id": "see_you_there",
+   "text": "see you there",
+   "ipa": "/ˌsiː juː ˈðeə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "побачимося там"
+   },
+   "example": "See you there!",
+   "exampleTranslation": {
+    "uk": "Побачимося там!"
+   }
+  },
+  {
+   "id": "guest",
+   "text": "guest",
+   "ipa": "/ɡest/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гість"
+   },
+   "example": "Ten guests.",
+   "exampleTranslation": {
+    "uk": "Десять гостей."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I'd love to, ___ I have to work.",
+   "options": [
+    "but",
+    "or",
+    "so the"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd love to, but…"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "bring",
+     "right": {
+      "uk": "приносити"
+     }
+    },
+    {
+     "left": "at my place",
+     "right": {
+      "uk": "у мене вдома"
+     }
+    },
+    {
+     "left": "let me know",
+     "right": {
+      "uk": "дайте знати"
+     }
+    },
+    {
+     "left": "see you there",
+     "right": {
+      "uk": "побачимося там"
+     }
+    },
+    {
+     "left": "guest",
+     "right": {
+      "uk": "гість"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Домовляємося про деталі."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Where shall we meet?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Де зустрінемося",
+     "Коли зустрінемося",
+     "Чи зустрінемося"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Where shall we meet?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Let's meet at my place at seven.",
+   "prompt": {
+    "uk": "Прослухайте. Де й коли зустріч?"
+   },
+   "options": {
+    "uk": [
+     "У мовця вдома о сьомій",
+     "У кафе о сьомій",
+     "Біля кіно о сьомій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At my place at seven."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Can I bring anything? — Just a bottle of wine.",
+   "prompt": {
+    "uk": "Прослухайте. Що просять принести?"
+   },
+   "options": {
+    "uk": [
+     "Пляшку вина",
+     "Нічого",
+     "Десерт"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A bottle of wine."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I ___ anything?",
+   "options": [
+    "bring",
+    "come",
+    "invite"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Bring — принести."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Let me ___ if you can come.",
+   "options": [
+    "know",
+    "say",
+    "tell"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Let me know."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The party is ___ my place.",
+   "options": [
+    "at",
+    "in",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At my place."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати «О котрій зустрінемося?»"
+   },
+   "options": [
+    "What time shall we meet?",
+    "What time we shall meet?",
+    "What time do we shall meet?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What time shall we meet?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Щось принести?"
+   },
+   "words": [
+    "Can",
+    "I",
+    "bring",
+    "anything",
+    "something",
+    "do"
+   ],
+   "answer": [
+    "Can",
+    "I",
+    "bring",
+    "anything"
+   ],
+   "explanation": {
+    "uk": "Can I bring anything?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Побачимося там!"
+   },
+   "answers": [
+    "See you there"
+   ],
+   "explanation": {
+    "uk": "See you there!"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Let's meet in front of the cinema at six.",
+   "prompt": {
+    "uk": "Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "OK, see you there!",
+    "OK, see you here place!",
+    "No, see you there."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "OK, see you there!"
+   }
+  }
+ ]
+}

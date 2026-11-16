@@ -1,0 +1,229 @@
+{
+ "id": "u35_l06",
+ "unit": "u35",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: вільний час"
+ },
+ "goal": {
+  "uk": "Докладно розповісти про свої захоплення."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: My hobby is…, go / play / do, good at і interested in, join a club, watch series, listen to podcasts."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У вільний час я ходжу в походи."
+   },
+   "words": [
+    "In",
+    "my",
+    "free",
+    "time",
+    "I",
+    "go",
+    "hiking",
+    "play"
+   ],
+   "answer": [
+    "In",
+    "my",
+    "free",
+    "time",
+    "I",
+    "go",
+    "hiking"
+   ],
+   "explanation": {
+    "uk": "In my free time I go hiking."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ yoga twice a week.",
+   "options": [
+    "does",
+    "plays",
+    "goes"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Do yoga — does."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He's good ___ playing chess.",
+   "options": [
+    "at",
+    "in",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Good at."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я цікавлюся мистецтвом."
+   },
+   "answers": [
+    "I'm interested in art",
+    "I am interested in art"
+   ],
+   "explanation": {
+    "uk": "I'm interested in art."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I'm a member of a photography club. We meet once a week.",
+   "prompt": {
+    "uk": "Прослухайте. Як часто збирається клуб?"
+   },
+   "options": {
+    "uk": [
+     "Раз на тиждень",
+     "Двічі на тиждень",
+     "Раз на місяць"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Once a week."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "We play basketball on Friday.",
+    "We do basketball on Friday.",
+    "We go basketball on Friday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Play basketball."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'd like to ___ a painting class.",
+   "options": [
+    "join",
+    "collect",
+    "watch"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Join a class."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Моє хобі — садівництво."
+   },
+   "answers": [
+    "My hobby is gardening"
+   ],
+   "explanation": {
+    "uk": "My hobby is gardening."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "I'm bad at sport, but I'm good at cooking.",
+   "prompt": {
+    "uk": "Прослухайте. Що людині вдається?"
+   },
+   "options": {
+    "uk": [
+     "Готувати",
+     "Спорт",
+     "І те, і те"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Good at cooking."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I listen to podcasts.",
+    "I listen podcasts.",
+    "I listen at podcasts."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Listen to."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What do you do in your free time?",
+   "prompt": {
+    "uk": "Ви катаєтеся на велосипеді й дивитеся серіали. Що відповісти?"
+   },
+   "options": [
+    "I go cycling and watch series.",
+    "I play cycling and do series.",
+    "I'm cycling and series."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go cycling, watch series."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Are you interested in history?",
+   "prompt": {
+    "uk": "Вам цікаво, дуже. Що відповісти?"
+   },
+   "options": [
+    "Yes, I am. Very much.",
+    "Yes, I do. Very much.",
+    "Yes, I interested."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "На Are you…? — Yes, I am."
+   }
+  }
+ ]
+}

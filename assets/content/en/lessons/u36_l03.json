@@ -1,0 +1,320 @@
+{
+ "id": "u36_l03",
+ "unit": "u36",
+ "cefr": "A0",
+ "title": {
+  "uk": "На жаль, не можу"
+ },
+ "goal": {
+  "uk": "Ввічливо відмовитися й запропонувати інший час."
+ },
+ "rule": {
+  "uk": "Відмовляють м'яко. I'm afraid I can't — «на жаль, не можу». I'd love to, but… — «я б із радістю, але…». Причина: I have to work — «мені треба працювати». Щоб не образити: Maybe another time — «може, іншим разом». What a pity! — «Як шкода!»"
+ },
+ "words": [
+  {
+   "id": "im_afraid_i_cant",
+   "text": "I'm afraid I can't",
+   "ipa": "/aɪm əˌfreɪd aɪ ˈkɑːnt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "на жаль, не можу"
+   },
+   "example": "I'm afraid I can't.",
+   "exampleTranslation": {
+    "uk": "На жаль, не можу."
+   }
+  },
+  {
+   "id": "have_to",
+   "text": "have to",
+   "ipa": "/ˈhæv tuː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "мусити"
+   },
+   "example": "I have to work.",
+   "exampleTranslation": {
+    "uk": "Мені треба працювати."
+   }
+  },
+  {
+   "id": "another_time",
+   "text": "another time",
+   "ipa": "/əˌnʌðə ˈtaɪm/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "іншим разом"
+   },
+   "example": "Maybe another time.",
+   "exampleTranslation": {
+    "uk": "Може, іншим разом."
+   }
+  },
+  {
+   "id": "what_a_pity",
+   "text": "what a pity",
+   "ipa": "/ˌwɒt ə ˈpɪti/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "як шкода"
+   },
+   "example": "What a pity!",
+   "exampleTranslation": {
+    "uk": "Як шкода!"
+   }
+  },
+  {
+   "id": "unfortunately",
+   "text": "unfortunately",
+   "ipa": "/ʌnˈfɔːtʃənətli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "на жаль"
+   },
+   "example": "Unfortunately, I'm busy.",
+   "exampleTranslation": {
+    "uk": "На жаль, я зайнятий."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How about a coffee?",
+   "prompt": {
+    "uk": "Повторимо. Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "Good idea!",
+    "Good about!",
+    "How idea."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Good idea!"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "I'm afraid I can't",
+     "right": {
+      "uk": "на жаль, не можу"
+     }
+    },
+    {
+     "left": "have to",
+     "right": {
+      "uk": "мусити"
+     }
+    },
+    {
+     "left": "another time",
+     "right": {
+      "uk": "іншим разом"
+     }
+    },
+    {
+     "left": "what a pity",
+     "right": {
+      "uk": "як шкода"
+     }
+    },
+    {
+     "left": "unfortunately",
+     "right": {
+      "uk": "на жаль"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Як відмовити ввічливо."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'd love to, but I have to work.",
+   "prompt": {
+    "uk": "Прослухайте. Чому людина не може?"
+   },
+   "options": {
+    "uk": [
+     "Їй треба працювати",
+     "Вона хвора",
+     "Вона не хоче"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I have to work."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'm afraid I can't. Maybe another time?",
+   "prompt": {
+    "uk": "Прослухайте. Що пропонує людина?"
+   },
+   "options": {
+    "uk": [
+     "Зустрітися іншим разом",
+     "Зустрітися сьогодні",
+     "Не зустрічатися"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Another time."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "What a pity!",
+   "prompt": {
+    "uk": "Прослухайте. Що відчуває людина?"
+   },
+   "options": {
+    "uk": [
+     "Їй шкода",
+     "Вона рада",
+     "Вона сердиться"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "What a pity — як шкода."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'd love to, ___ I'm busy on Friday.",
+   "options": [
+    "but",
+    "and",
+    "because the"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd love to, but…"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ to visit my parents this weekend.",
+   "options": [
+    "have",
+    "am",
+    "must to"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have to."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ I can't come.",
+   "options": [
+    "afraid",
+    "sorry it",
+    "pity"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm afraid I can't."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як відмовитися найввічливіше?"
+   },
+   "options": [
+    "I'd love to, but I have to work.",
+    "No.",
+    "I don't want."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd love to, but… — м'яка відмова з причиною."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мені треба працювати."
+   },
+   "words": [
+    "I",
+    "have",
+    "to",
+    "work",
+    "am",
+    "must"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "to",
+    "work"
+   ],
+   "explanation": {
+    "uk": "I have to work."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Може, іншим разом."
+   },
+   "answers": [
+    "Maybe another time"
+   ],
+   "explanation": {
+    "uk": "Maybe another time."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Would you like to come to dinner on Friday?",
+   "prompt": {
+    "uk": "У п'ятницю ви зайняті. Що відповісти?"
+   },
+   "options": [
+    "I'd love to, but I'm busy on Friday.",
+    "I love to, but I busy Friday.",
+    "No, I'm afraid."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd love to, but I'm busy on Friday."
+   }
+  }
+ ]
+}

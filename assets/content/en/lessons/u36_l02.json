@@ -1,0 +1,320 @@
+{
+ "id": "u36_l02",
+ "unit": "u36",
+ "cefr": "A0",
+ "title": {
+  "uk": "А може, …?"
+ },
+ "goal": {
+  "uk": "Запропонувати щось зробити разом."
+ },
+ "rule": {
+  "uk": "Три способи запропонувати. How about…? + назва або дія з -ing: How about a coffee? How about going for a walk? Shall we…? + дієслово: Shall we go? Why don't we…? + дієслово: Why don't we meet tomorrow? Згода: Good idea!"
+ },
+ "words": [
+  {
+   "id": "how_about",
+   "text": "how about",
+   "ipa": "/ˌhaʊ əˈbaʊt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "а як щодо"
+   },
+   "example": "How about a coffee?",
+   "exampleTranslation": {
+    "uk": "Може, кави?"
+   }
+  },
+  {
+   "id": "shall_we",
+   "text": "shall we",
+   "ipa": "/ˈʃæl wi/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "може, ми…"
+   },
+   "example": "Shall we go?",
+   "exampleTranslation": {
+    "uk": "Ходімо?"
+   }
+  },
+  {
+   "id": "why_dont_we",
+   "text": "why don't we",
+   "ipa": "/ˌwaɪ ˈdəʊnt wi/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "чому б нам не"
+   },
+   "example": "Why don't we meet tomorrow?",
+   "exampleTranslation": {
+    "uk": "Чому б нам не зустрітися завтра?"
+   }
+  },
+  {
+   "id": "good_idea",
+   "text": "good idea",
+   "ipa": "/ˌɡʊd aɪˈdɪə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "гарна ідея"
+   },
+   "example": "Good idea!",
+   "exampleTranslation": {
+    "uk": "Гарна ідея!"
+   }
+  },
+  {
+   "id": "go_for_a_drink",
+   "text": "go for a drink",
+   "ipa": "/ˌɡəʊ fər ə ˈdrɪŋk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "піти чогось випити"
+   },
+   "example": "Let's go for a drink.",
+   "exampleTranslation": {
+    "uk": "Ходімо чогось вип'ємо."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Would you like ___ come to my party?",
+   "options": [
+    "to",
+    "at",
+    "for"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Would you like to."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "how about",
+     "right": {
+      "uk": "а як щодо"
+     }
+    },
+    {
+     "left": "shall we",
+     "right": {
+      "uk": "може, ми"
+     }
+    },
+    {
+     "left": "why don't we",
+     "right": {
+      "uk": "чому б нам не"
+     }
+    },
+    {
+     "left": "good idea",
+     "right": {
+      "uk": "гарна ідея"
+     }
+    },
+    {
+     "left": "go for a drink",
+     "right": {
+      "uk": "піти чогось випити"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Як запропонувати."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "How about a pizza tonight?",
+   "prompt": {
+    "uk": "Прослухайте. Що пропонує людина?"
+   },
+   "options": {
+    "uk": [
+     "Піцу сьогодні ввечері",
+     "Піцу завтра",
+     "Каву зараз"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tonight — сьогодні ввечері."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Shall we go for a walk?",
+   "prompt": {
+    "uk": "Прослухайте. Що пропонує людина?"
+   },
+   "options": {
+    "uk": [
+     "Піти прогулятися",
+     "Піти додому",
+     "Піти на роботу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Go for a walk."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Why don't we go for a drink after work?",
+   "prompt": {
+    "uk": "Прослухайте. Коли пропонують зустрітися?"
+   },
+   "options": {
+    "uk": [
+     "Після роботи",
+     "Перед роботою",
+     "На вихідних"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "After work."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How about ___ to the cinema?",
+   "options": [
+    "going",
+    "go",
+    "to go"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після How about — дія з -ing."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Shall we ___ a taxi?",
+   "options": [
+    "take",
+    "taking",
+    "to take"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після Shall we — дієслово без to."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Why ___ we have lunch together?",
+   "options": [
+    "don't",
+    "not",
+    "aren't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Why don't we…?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вам пропонують: How about a coffee? Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "Good idea!",
+    "Good how about!",
+    "I'm idea."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Good idea!"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Може, кави?"
+   },
+   "words": [
+    "How",
+    "about",
+    "a",
+    "coffee",
+    "shall",
+    "to"
+   ],
+   "answer": [
+    "How",
+    "about",
+    "a",
+    "coffee"
+   ],
+   "explanation": {
+    "uk": "How about a coffee?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ходімо?"
+   },
+   "answers": [
+    "Shall we go"
+   ],
+   "explanation": {
+    "uk": "Shall we go?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Shall we go to the park?",
+   "prompt": {
+    "uk": "Вам подобається ідея. Що відповісти?"
+   },
+   "options": [
+    "Yes, good idea!",
+    "Yes, we shall idea.",
+    "No, good idea."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, good idea!"
+   }
+  }
+ ]
+}

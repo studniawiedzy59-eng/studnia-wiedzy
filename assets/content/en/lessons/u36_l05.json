@@ -1,0 +1,318 @@
+{
+ "id": "u36_l05",
+ "unit": "u36",
+ "cefr": "A0",
+ "title": {
+  "uk": "Ласкаво просимо!"
+ },
+ "goal": {
+  "uk": "Привітати гостей і подякувати господарям."
+ },
+ "rule": {
+  "uk": "Господар каже: Welcome! Come in! Make yourself at home — «почувайтеся як удома». Help yourself — «пригощайтеся». За столом: Cheers! — «Будьмо!». Наприкінці: Thanks for coming — «дякую, що прийшли». Гість: Thank you for a lovely evening."
+ },
+ "words": [
+  {
+   "id": "welcome",
+   "text": "welcome",
+   "ipa": "/ˈwelkəm/",
+   "pos": "exclamation",
+   "translation": {
+    "uk": "ласкаво просимо"
+   },
+   "example": "Welcome! Come in.",
+   "exampleTranslation": {
+    "uk": "Ласкаво просимо! Заходьте."
+   }
+  },
+  {
+   "id": "make_yourself_at_home",
+   "text": "make yourself at home",
+   "ipa": "/ˌmeɪk jɔːˌself ət ˈhəʊm/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "почувайтеся як удома"
+   },
+   "example": "Make yourself at home.",
+   "exampleTranslation": {
+    "uk": "Почувайтеся як удома."
+   }
+  },
+  {
+   "id": "help_yourself",
+   "text": "help yourself",
+   "ipa": "/ˌhelp jɔːˈself/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "пригощайтеся"
+   },
+   "example": "Help yourself.",
+   "exampleTranslation": {
+    "uk": "Пригощайтеся."
+   }
+  },
+  {
+   "id": "cheers",
+   "text": "cheers",
+   "ipa": "/tʃɪəz/",
+   "pos": "exclamation",
+   "translation": {
+    "uk": "будьмо"
+   },
+   "example": "Cheers!",
+   "exampleTranslation": {
+    "uk": "Будьмо!"
+   }
+  },
+  {
+   "id": "thanks_for_coming",
+   "text": "thanks for coming",
+   "ipa": "/ˌθæŋks fə ˈkʌmɪŋ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "дякую, що прийшли"
+   },
+   "example": "Thanks for coming!",
+   "exampleTranslation": {
+    "uk": "Дякую, що прийшли!"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Let's meet at my place at eight.",
+   "prompt": {
+    "uk": "Повторимо. Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "OK, see you there!",
+    "OK, let me there!",
+    "No, see you."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "OK, see you there!"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "welcome",
+     "right": {
+      "uk": "ласкаво просимо"
+     }
+    },
+    {
+     "left": "make yourself at home",
+     "right": {
+      "uk": "почувайтеся як удома"
+     }
+    },
+    {
+     "left": "help yourself",
+     "right": {
+      "uk": "пригощайтеся"
+     }
+    },
+    {
+     "left": "cheers",
+     "right": {
+      "uk": "будьмо"
+     }
+    },
+    {
+     "left": "thanks for coming",
+     "right": {
+      "uk": "дякую, що прийшли"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Фрази господаря."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Welcome! Come in and make yourself at home.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже господар?"
+   },
+   "options": {
+    "uk": [
+     "Заходьте й почувайтеся як удома",
+     "Зачекайте надворі",
+     "Вибачте, я зайнятий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Make yourself at home."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Help yourself to some cake.",
+   "prompt": {
+    "uk": "Прослухайте. Що вам пропонують?"
+   },
+   "options": {
+    "uk": [
+     "Узяти торта",
+     "Спекти торт",
+     "Купити торт"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Help yourself — пригощайтеся."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Thanks for coming! — Thank you for a lovely evening.",
+   "prompt": {
+    "uk": "Прослухайте. Коли це кажуть?"
+   },
+   "options": {
+    "uk": [
+     "Наприкінці вечора",
+     "На початку вечора",
+     "За столом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Так прощаються."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Усі підняли келихи. Що кажуть?"
+   },
+   "options": [
+    "Cheers!",
+    "Welcome!",
+    "Help yourself!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Cheers!"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Make ___ at home.",
+   "options": [
+    "yourself",
+    "you",
+    "your"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Make yourself at home."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Thanks ___ coming!",
+   "options": [
+    "for",
+    "to",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thanks for coming."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ yourself. There's food and drink on the table.",
+   "options": [
+    "Help",
+    "Make",
+    "Bring"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Help yourself."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Дякую, що прийшли!"
+   },
+   "words": [
+    "Thanks",
+    "for",
+    "coming",
+    "to",
+    "come"
+   ],
+   "answer": [
+    "Thanks",
+    "for",
+    "coming"
+   ],
+   "explanation": {
+    "uk": "Thanks for coming!"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ласкаво просимо!"
+   },
+   "answers": [
+    "Welcome"
+   ],
+   "explanation": {
+    "uk": "Welcome!"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Thanks for coming!",
+   "prompt": {
+    "uk": "Ви гість і прощаєтеся. Що відповісти?"
+   },
+   "options": [
+    "Thank you for a lovely evening!",
+    "You're welcome for coming!",
+    "Help yourself!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thank you for a lovely evening!"
+   }
+  }
+ ]
+}
