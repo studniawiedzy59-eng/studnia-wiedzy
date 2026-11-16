@@ -1,0 +1,324 @@
+{
+ "id": "u48_l01",
+ "unit": "u48",
+ "cefr": "A1",
+ "title": {
+  "uk": "У школі"
+ },
+ "goal": {
+  "uk": "Назвати шкільні речі."
+ },
+ "rule": {
+  "uk": "Pupil — учень школи, student — студент. Homework — домашнє завдання (без -s!): I do my homework. Notebook — зошит, textbook — підручник, test — контрольна. Приклад: Open your textbook, please."
+ },
+ "words": [
+  {
+   "id": "pupil",
+   "text": "pupil",
+   "ipa": "/ˈpjuːpl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "учень"
+   },
+   "example": "The pupils are in the classroom.",
+   "exampleTranslation": {
+    "uk": "Учні в класі."
+   }
+  },
+  {
+   "id": "homework",
+   "text": "homework",
+   "ipa": "/ˈhəʊmwɜːk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "домашнє завдання"
+   },
+   "example": "I do my homework in the evening.",
+   "exampleTranslation": {
+    "uk": "Увечері я роблю домашнє завдання."
+   }
+  },
+  {
+   "id": "notebook",
+   "text": "notebook",
+   "ipa": "/ˈnəʊtbʊk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "зошит"
+   },
+   "example": "Write it in your notebook.",
+   "exampleTranslation": {
+    "uk": "Запишіть це в зошит."
+   }
+  },
+  {
+   "id": "textbook",
+   "text": "textbook",
+   "ipa": "/ˈtekstbʊk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "підручник"
+   },
+   "example": "Open your textbook.",
+   "exampleTranslation": {
+    "uk": "Відкрийте підручник."
+   }
+  },
+  {
+   "id": "test",
+   "text": "test",
+   "ipa": "/test/",
+   "pos": "noun",
+   "translation": {
+    "uk": "контрольна, тест"
+   },
+   "example": "We have a test on Monday.",
+   "exampleTranslation": {
+    "uk": "У понеділок у нас контрольна."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Could you help me, please?",
+   "prompt": {
+    "uk": "Повторимо. Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "Certainly.",
+    "Certain you.",
+    "Certainly am."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Certainly."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "pupil",
+     "right": {
+      "uk": "учень"
+     }
+    },
+    {
+     "left": "homework",
+     "right": {
+      "uk": "домашнє завдання"
+     }
+    },
+    {
+     "left": "notebook",
+     "right": {
+      "uk": "зошит"
+     }
+    },
+    {
+     "left": "textbook",
+     "right": {
+      "uk": "підручник"
+     }
+    },
+    {
+     "left": "test",
+     "right": {
+      "uk": "контрольна"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про школу."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The pupils are in the classroom.",
+   "prompt": {
+    "uk": "Прослухайте. Де учні?"
+   },
+   "options": {
+    "uk": [
+     "У класі",
+     "У дворі",
+     "У їдальні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In the classroom."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I do my homework in the evening.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина робить домашнє?"
+   },
+   "options": {
+    "uk": [
+     "Увечері",
+     "Вранці",
+     "Після обіду"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In the evening."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We have a test on Monday.",
+   "prompt": {
+    "uk": "Прослухайте. Коли контрольна?"
+   },
+   "options": {
+    "uk": [
+     "У понеділок",
+     "У вівторок",
+     "У п'ятницю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Monday."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Open your ___, please.",
+   "options": [
+    "textbook",
+    "pupil",
+    "homework"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Textbook."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I do my ___.",
+   "options": [
+    "homework",
+    "homeworks",
+    "textbook"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Homework — без -s."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Write it in your ___.",
+   "options": [
+    "notebook",
+    "test",
+    "pupil"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Notebook."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «домашнє завдання»?"
+   },
+   "options": [
+    "homework",
+    "textbook",
+    "test"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Homework."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У понеділок у нас контрольна."
+   },
+   "words": [
+    "We",
+    "have",
+    "a",
+    "test",
+    "on",
+    "Monday",
+    "has",
+    "in"
+   ],
+   "answer": [
+    "We",
+    "have",
+    "a",
+    "test",
+    "on",
+    "Monday"
+   ],
+   "explanation": {
+    "uk": "We have a test on Monday."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Відкрийте підручник."
+   },
+   "answers": [
+    "Open your textbook"
+   ],
+   "explanation": {
+    "uk": "Open your textbook."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you have homework today?",
+   "prompt": {
+    "uk": "Так, багато. Що відповісти?"
+   },
+   "options": [
+    "Yes, a lot.",
+    "Yes, a lot of homeworks.",
+    "Yes, much a lot."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, a lot."
+   }
+  }
+ ]
+}

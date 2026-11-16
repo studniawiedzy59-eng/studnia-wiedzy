@@ -1,0 +1,328 @@
+{
+ "id": "u46_l04",
+ "unit": "u46",
+ "cefr": "A1",
+ "title": {
+  "uk": "Як часто ти…?"
+ },
+ "goal": {
+  "uk": "Питати й відповідати про частоту."
+ },
+ "rule": {
+  "uk": "Запитання: How often do you…? Відповідь: слово частоти або «число + разів»: Twice a week. A year — на рік, per week — за тиждень. How many times a week…? — «Скільки разів на тиждень…?» Once in a while — «раз у раз, зрідка»."
+ },
+ "words": [
+  {
+   "id": "how_many_times",
+   "text": "how many times",
+   "ipa": "/ˌhaʊ meni ˈtaɪmz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "скільки разів"
+   },
+   "example": "How many times a week do you swim?",
+   "exampleTranslation": {
+    "uk": "Скільки разів на тиждень ви плаваєте?"
+   }
+  },
+  {
+   "id": "a_year",
+   "text": "a year",
+   "ipa": "/ə ˈjɪə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "на рік"
+   },
+   "example": "I go abroad twice a year.",
+   "exampleTranslation": {
+    "uk": "Я виїжджаю за кордон двічі на рік."
+   }
+  },
+  {
+   "id": "per_week",
+   "text": "per week",
+   "ipa": "/pə ˈwiːk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "за тиждень"
+   },
+   "example": "I work forty hours per week.",
+   "exampleTranslation": {
+    "uk": "Я працюю сорок годин на тиждень."
+   }
+  },
+  {
+   "id": "once_in_a_while",
+   "text": "once in a while",
+   "ipa": "/ˌwʌns ɪn ə ˈwaɪl/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "зрідка"
+   },
+   "example": "Once in a while I go to the cinema.",
+   "exampleTranslation": {
+    "uk": "Зрідка я ходжу в кіно."
+   }
+  },
+  {
+   "id": "on_average",
+   "text": "on average",
+   "ipa": "/ɒn ˈævərɪdʒ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "у середньому"
+   },
+   "example": "On average I read two books a month.",
+   "exampleTranslation": {
+    "uk": "У середньому я читаю дві книжки на місяць."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How often do you swim?",
+   "prompt": {
+    "uk": "Повторимо. Раз на тиждень. Що відповісти?"
+   },
+   "options": [
+    "Once a week.",
+    "One time week.",
+    "Once week a."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Once a week."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "how many times",
+     "right": {
+      "uk": "скільки разів"
+     }
+    },
+    {
+     "left": "a year",
+     "right": {
+      "uk": "на рік"
+     }
+    },
+    {
+     "left": "per week",
+     "right": {
+      "uk": "за тиждень"
+     }
+    },
+    {
+     "left": "once in a while",
+     "right": {
+      "uk": "зрідка"
+     }
+    },
+    {
+     "left": "on average",
+     "right": {
+      "uk": "у середньому"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про частоту."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I go abroad twice a year.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки разів на рік людина їде за кордон?"
+   },
+   "options": {
+    "uk": [
+     "Двічі",
+     "Раз",
+     "Тричі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a year."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Once in a while I go to the cinema.",
+   "prompt": {
+    "uk": "Прослухайте. Як часто людина ходить у кіно?"
+   },
+   "options": {
+    "uk": [
+     "Зрідка",
+     "Щотижня",
+     "Щодня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Once in a while."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "On average I read two books a month.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки книжок читає людина?"
+   },
+   "options": {
+    "uk": [
+     "Дві на місяць",
+     "Дві на тиждень",
+     "Дві на рік"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Two a month."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How many ___ a week do you swim?",
+   "options": [
+    "times",
+    "time",
+    "once"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How many times."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I go abroad twice ___ year.",
+   "options": [
+    "a",
+    "per a",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a year."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I work forty hours ___ week.",
+   "options": [
+    "per",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Per week."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати «Скільки разів на тиждень ви плаваєте?»"
+   },
+   "options": [
+    "How many times a week do you swim?",
+    "How much times a week you swim?",
+    "How times a week swim you?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How many times."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Скільки разів на тиждень ви плаваєте?"
+   },
+   "words": [
+    "How",
+    "many",
+    "times",
+    "a",
+    "week",
+    "do",
+    "you",
+    "swim",
+    "much",
+    "does"
+   ],
+   "answer": [
+    "How",
+    "many",
+    "times",
+    "a",
+    "week",
+    "do",
+    "you",
+    "swim"
+   ],
+   "explanation": {
+    "uk": "How many times a week do you swim?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Двічі на рік."
+   },
+   "answers": [
+    "Twice a year"
+   ],
+   "explanation": {
+    "uk": "Twice a year."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How often do you go abroad?",
+   "prompt": {
+    "uk": "Двічі на рік. Що відповісти?"
+   },
+   "options": [
+    "Twice a year.",
+    "Two times year.",
+    "Twice year a."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a year."
+   }
+  }
+ ]
+}

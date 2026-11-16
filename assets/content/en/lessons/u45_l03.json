@@ -1,0 +1,320 @@
+{
+ "id": "u45_l03",
+ "unit": "u45",
+ "cefr": "A1",
+ "title": {
+  "uk": "Скільки це триває?"
+ },
+ "goal": {
+  "uk": "Сказати, скільки часу щось займає."
+ },
+ "rule": {
+  "uk": "How long does it take? — «Скільки це займає?» It takes… — «Це займає…». Точно: It takes exactly an hour. Приблизно: roughly, almost — «майже», less than — «менше ніж», more than — «більше ніж»: It takes roughly twenty minutes."
+ },
+ "words": [
+  {
+   "id": "roughly",
+   "text": "roughly",
+   "ipa": "/ˈrʌfli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "приблизно"
+   },
+   "example": "It takes roughly twenty minutes.",
+   "exampleTranslation": {
+    "uk": "Це займає приблизно двадцять хвилин."
+   }
+  },
+  {
+   "id": "almost",
+   "text": "almost",
+   "ipa": "/ˈɔːlməʊst/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "майже"
+   },
+   "example": "It takes almost an hour.",
+   "exampleTranslation": {
+    "uk": "Це займає майже годину."
+   }
+  },
+  {
+   "id": "less_than",
+   "text": "less than",
+   "ipa": "/ˈles ðən/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "менше ніж"
+   },
+   "example": "It takes less than ten minutes.",
+   "exampleTranslation": {
+    "uk": "Це займає менше десяти хвилин."
+   }
+  },
+  {
+   "id": "more_than",
+   "text": "more than",
+   "ipa": "/ˈmɔː ðən/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "більше ніж"
+   },
+   "example": "It takes more than two hours.",
+   "exampleTranslation": {
+    "uk": "Це займає понад дві години."
+   }
+  },
+  {
+   "id": "exactly",
+   "text": "exactly",
+   "ipa": "/ɪɡˈzæktli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "рівно"
+   },
+   "example": "It takes exactly one hour.",
+   "exampleTranslation": {
+    "uk": "Це займає рівно годину."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "When do you go to bed?",
+   "prompt": {
+    "uk": "Повторимо. Опівночі. Що відповісти?"
+   },
+   "options": [
+    "I go to bed at midnight.",
+    "I go to bed in midnight.",
+    "I going to bed midnight."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At midnight."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "roughly",
+     "right": {
+      "uk": "приблизно"
+     }
+    },
+    {
+     "left": "almost",
+     "right": {
+      "uk": "майже"
+     }
+    },
+    {
+     "left": "less than",
+     "right": {
+      "uk": "менше ніж"
+     }
+    },
+    {
+     "left": "more than",
+     "right": {
+      "uk": "більше ніж"
+     }
+    },
+    {
+     "left": "exactly",
+     "right": {
+      "uk": "рівно"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про приблизну тривалість."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It takes twenty minutes.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки часу займає дорога?"
+   },
+   "options": {
+    "uk": [
+     "Двадцять хвилин",
+     "Двадцять п'ять хвилин",
+     "Годину"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twenty minutes."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It takes an hour to get home.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки займає дорога додому?"
+   },
+   "options": {
+    "uk": [
+     "Годину",
+     "Півгодини",
+     "Дві години"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "An hour."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "How long does it take by bus?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Скільки займає дорога автобусом",
+     "Коли їде автобус",
+     "Скільки коштує автобус"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "How long by bus."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "How ___ does it take?",
+   "options": [
+    "long",
+    "much",
+    "many"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How long."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It ___ ten minutes.",
+   "options": [
+    "takes",
+    "take",
+    "taking"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It takes."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It takes an ___ to get home.",
+   "options": [
+    "hour",
+    "minutes",
+    "long"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "An hour."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати, скільки займає дорога?"
+   },
+   "options": [
+    "How long does it take?",
+    "How long it takes?",
+    "How much takes it?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How long does it take?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це займає двадцять хвилин."
+   },
+   "words": [
+    "It",
+    "takes",
+    "twenty",
+    "minutes",
+    "take",
+    "hour"
+   ],
+   "answer": [
+    "It",
+    "takes",
+    "twenty",
+    "minutes"
+   ],
+   "explanation": {
+    "uk": "It takes twenty minutes."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Скільки це займає?"
+   },
+   "answers": [
+    "How long does it take"
+   ],
+   "explanation": {
+    "uk": "How long does it take?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How long does it take to get home?",
+   "prompt": {
+    "uk": "Півгодини. Що відповісти?"
+   },
+   "options": [
+    "It takes half an hour.",
+    "It take half hour.",
+    "It is taking half an hour."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It takes half an hour."
+   }
+  }
+ ]
+}

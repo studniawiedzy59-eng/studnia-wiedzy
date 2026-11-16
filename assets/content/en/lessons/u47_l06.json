@@ -1,0 +1,226 @@
+{
+ "id": "u47_l06",
+ "unit": "u47",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: робочий день"
+ },
+ "goal": {
+  "uk": "Закріпити слова про роботу."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: офіс (desk, lunch break, report), завдання (attend, send an email, make a call), клієнти й терміни, графік (shift, day off, flexible) і ввічливі фрази (Could you…? Let me check. No problem)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "When is your lunch break?",
+   "prompt": {
+    "uk": "О першій. Що відповісти?"
+   },
+   "options": [
+    "It is at one.",
+    "It at one is.",
+    "It are one."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It is at one."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ ten emails a day.",
+   "options": [
+    "send",
+    "attend",
+    "take"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Send."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is Friday.",
+   "options": [
+    "deadline",
+    "customer",
+    "client"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Deadline."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Чи не могли б ви надіслати мені звіт?"
+   },
+   "answers": [
+    "Could you send me the report"
+   ],
+   "explanation": {
+    "uk": "Could you send me the report?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I work the night shift. Tomorrow is my day off.",
+   "prompt": {
+    "uk": "Прослухайте. Що завтра?"
+   },
+   "options": {
+    "uk": [
+     "Вихідний",
+     "Нічна зміна",
+     "Зустріч"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Day off."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Let me ___ my schedule.",
+   "options": [
+    "check",
+    "checks",
+    "checking"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Check."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке речення ввічливе?"
+   },
+   "options": [
+    "Could you help me, please?",
+    "Help me!",
+    "You help me now."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Could you…?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я роблю нотатки на зустрічах."
+   },
+   "words": [
+    "I",
+    "take",
+    "notes",
+    "in",
+    "meetings",
+    "takes",
+    "make"
+   ],
+   "answer": [
+    "I",
+    "take",
+    "notes",
+    "in",
+    "meetings"
+   ],
+   "explanation": {
+    "uk": "I take notes in meetings."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "translate",
+   "prompt": {
+    "uk": "По п'ятницях я працюю вдома."
+   },
+   "answers": [
+    "I work from home on Fridays"
+   ],
+   "explanation": {
+    "uk": "I work from home on Fridays."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "The customer is waiting. I have an appointment at four.",
+   "prompt": {
+    "uk": "Прослухайте. Коли запис?"
+   },
+   "options": {
+    "uk": [
+     "О четвертій",
+     "О третій",
+     "О п'ятій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At four."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My schedule is ___.",
+   "options": [
+    "flexible",
+    "deadline",
+    "desk"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Flexible."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Could you send me the report?",
+   "prompt": {
+    "uk": "Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "No problem. I'll do it.",
+    "No problem. I do it will.",
+    "Problem no. I'll."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No problem. I'll do it."
+   }
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+ "id": "u48_l03",
+ "unit": "u48",
+ "cefr": "A1",
+ "title": {
+  "uk": "Оцінки й іспити"
+ },
+ "goal": {
+  "uk": "Розповісти про оцінки й результат іспиту."
+ },
+ "rule": {
+  "uk": "Grade (або mark) — оцінка. Pass — скласти (іспит), fail — не скласти. Revise — повторювати перед іспитом. Приклад: I revise every evening. I passed the exam. (passed — минулий час, зараз вивчаємо це слово цілим.)"
+ },
+ "words": [
+  {
+   "id": "grade",
+   "text": "grade",
+   "ipa": "/ɡreɪd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "оцінка"
+   },
+   "example": "I got a good grade.",
+   "exampleTranslation": {
+    "uk": "Я отримав гарну оцінку."
+   }
+  },
+  {
+   "id": "mark",
+   "text": "mark",
+   "ipa": "/mɑːk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "бал, оцінка (британ.)"
+   },
+   "example": "The mark is five.",
+   "exampleTranslation": {
+    "uk": "Оцінка — п'ять."
+   }
+  },
+  {
+   "id": "pass",
+   "text": "pass",
+   "ipa": "/pɑːs/",
+   "pos": "verb",
+   "translation": {
+    "uk": "складати (іспит)"
+   },
+   "example": "I want to pass the exam.",
+   "exampleTranslation": {
+    "uk": "Я хочу скласти іспит."
+   }
+  },
+  {
+   "id": "fail",
+   "text": "fail",
+   "ipa": "/feɪl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "не скласти"
+   },
+   "example": "I don't want to fail.",
+   "exampleTranslation": {
+    "uk": "Я не хочу провалити."
+   }
+  },
+  {
+   "id": "revise",
+   "text": "revise",
+   "ipa": "/rɪˈvaɪz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "повторювати (матеріал)"
+   },
+   "example": "I revise every evening.",
+   "exampleTranslation": {
+    "uk": "Я повторюю матеріал щовечора."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where do you study?",
+   "prompt": {
+    "uk": "Повторимо. У коледжі. Що відповісти?"
+   },
+   "options": [
+    "I study at college.",
+    "I study in college at.",
+    "I am study college."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I study at college."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "grade",
+     "right": {
+      "uk": "оцінка"
+     }
+    },
+    {
+     "left": "mark",
+     "right": {
+      "uk": "бал"
+     }
+    },
+    {
+     "left": "pass",
+     "right": {
+      "uk": "скласти"
+     }
+    },
+    {
+     "left": "fail",
+     "right": {
+      "uk": "не скласти"
+     }
+    },
+    {
+     "left": "revise",
+     "right": {
+      "uk": "повторювати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про іспити."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I got a good grade.",
+   "prompt": {
+    "uk": "Прослухайте. Яку оцінку отримала людина?"
+   },
+   "options": {
+    "uk": [
+     "Гарну",
+     "Погану",
+     "Середню"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A good grade."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I want to pass the exam.",
+   "prompt": {
+    "uk": "Прослухайте. Що хоче людина?"
+   },
+   "options": {
+    "uk": [
+     "Скласти іспит",
+     "Здати зошит",
+     "Відпочити"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pass."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I revise every evening.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина повторює матеріал?"
+   },
+   "options": {
+    "uk": [
+     "Щовечора",
+     "Щоранку",
+     "Щодня вдень"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Every evening."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I want to ___ the exam.",
+   "options": [
+    "pass",
+    "fail",
+    "grade"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pass."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ every evening.",
+   "options": [
+    "revise",
+    "revises",
+    "revising"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I revise."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I don't want to ___ the test.",
+   "options": [
+    "fail",
+    "passes",
+    "revise"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fail."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «оцінка»?"
+   },
+   "options": [
+    "grade",
+    "pass",
+    "fail"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Grade."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я хочу скласти іспит."
+   },
+   "words": [
+    "I",
+    "want",
+    "to",
+    "pass",
+    "the",
+    "exam",
+    "passes",
+    "fail"
+   ],
+   "answer": [
+    "I",
+    "want",
+    "to",
+    "pass",
+    "the",
+    "exam"
+   ],
+   "explanation": {
+    "uk": "I want to pass the exam."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я повторюю матеріал щовечора."
+   },
+   "answers": [
+    "I revise every evening"
+   ],
+   "explanation": {
+    "uk": "I revise every evening."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you revise every day?",
+   "prompt": {
+    "uk": "Так, щовечора. Що відповісти?"
+   },
+   "options": [
+    "Yes, every evening.",
+    "Yes, evening every.",
+    "Yes, I revising evening."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, every evening."
+   }
+  }
+ ]
+}

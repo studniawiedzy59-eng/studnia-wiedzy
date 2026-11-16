@@ -1,0 +1,222 @@
+{
+ "id": "u46_l06",
+ "unit": "u46",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: як часто?"
+ },
+ "goal": {
+  "uk": "Закріпити слова частоти."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: rarely, hardly ever, regularly, normally; місце слова частоти в реченні; once / twice / three times a week; How often? і How many times?; звички."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How often do you exercise?",
+   "prompt": {
+    "uk": "Тричі на тиждень. Що відповісти?"
+   },
+   "options": [
+    "Three times a week.",
+    "Three time a week.",
+    "Three times week."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Three times a week."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ eat sweets. (майже ніколи)",
+   "options": [
+    "hardly ever",
+    "ever hardly",
+    "hardly always"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hardly ever."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She is ___ late.",
+   "options": [
+    "always",
+    "late always",
+    "always is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Always after is."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я плаваю раз на тиждень."
+   },
+   "answers": [
+    "I swim once a week"
+   ],
+   "explanation": {
+    "uk": "I swim once a week."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I normally get up at seven. At the weekend I sleep late.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина встає у будні?"
+   },
+   "options": {
+    "uk": [
+     "О сьомій",
+     "О восьмій",
+     "О шостій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At seven."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I visit my parents ___ a month.",
+   "options": [
+    "twice",
+    "two",
+    "second"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a month."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке речення правильне?"
+   },
+   "options": [
+    "I never eat sweets.",
+    "I eat never sweets.",
+    "Never I am eat sweets."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Never before the verb."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Скільки разів на тиждень?"
+   },
+   "answers": [
+    "How many times a week"
+   ],
+   "explanation": {
+    "uk": "How many times a week?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я регулярно займаюся спортом."
+   },
+   "words": [
+    "I",
+    "exercise",
+    "regularly",
+    "exercises",
+    "rarely"
+   ],
+   "answer": [
+    "I",
+    "exercise",
+    "regularly"
+   ],
+   "explanation": {
+    "uk": "I exercise regularly."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "Smoking is a bad habit. I want to give it up.",
+   "prompt": {
+    "uk": "Прослухайте. Що хоче людина?"
+   },
+   "options": {
+    "uk": [
+     "Кинути палити",
+     "Почати палити",
+     "Купити тютюн"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Give up."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Exercise is a good ___.",
+   "options": [
+    "habit",
+    "diary",
+    "ever"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Habit."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How often do you go abroad?",
+   "prompt": {
+    "uk": "Двічі на рік. Що відповісти?"
+   },
+   "options": [
+    "Twice a year.",
+    "Two times year.",
+    "Twice year a."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a year."
+   }
+  }
+ ]
+}

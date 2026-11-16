@@ -1,0 +1,322 @@
+{
+ "id": "u47_l02",
+ "unit": "u47",
+ "cefr": "A1",
+ "title": {
+  "uk": "Що я роблю на роботі"
+ },
+ "goal": {
+  "uk": "Розповісти про свої щоденні завдання."
+ },
+ "rule": {
+  "uk": "Типові завдання: attend a meeting — бути на зустрічі, send an email — надіслати лист, answer the phone — відповісти на дзвінок, make a call — зателефонувати, take notes — робити нотатки. Усі дієслова — Present Simple."
+ },
+ "words": [
+  {
+   "id": "attend",
+   "text": "attend",
+   "ipa": "/əˈtend/",
+   "pos": "verb",
+   "translation": {
+    "uk": "бути присутнім"
+   },
+   "example": "I attend a meeting every Monday.",
+   "exampleTranslation": {
+    "uk": "Щопонеділка я буваю на зустрічі."
+   }
+  },
+  {
+   "id": "send_an_email",
+   "text": "send an email",
+   "ipa": "/ˌsend ən ˈiːmeɪl/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "надіслати лист"
+   },
+   "example": "I send ten emails a day.",
+   "exampleTranslation": {
+    "uk": "Я надсилаю десять листів на день."
+   }
+  },
+  {
+   "id": "answer_the_phone",
+   "text": "answer the phone",
+   "ipa": "/ˌɑːnsə ðə ˈfəʊn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "відповісти на дзвінок"
+   },
+   "example": "I answer the phone all day.",
+   "exampleTranslation": {
+    "uk": "Я відповідаю на дзвінки цілий день."
+   }
+  },
+  {
+   "id": "make_a_call",
+   "text": "make a call",
+   "ipa": "/ˌmeɪk ə ˈkɔːl/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "зателефонувати"
+   },
+   "example": "I make three calls a day.",
+   "exampleTranslation": {
+    "uk": "Я роблю три дзвінки на день."
+   }
+  },
+  {
+   "id": "take_notes",
+   "text": "take notes",
+   "ipa": "/ˌteɪk ˈnəʊts/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "робити нотатки"
+   },
+   "example": "I take notes in meetings.",
+   "exampleTranslation": {
+    "uk": "Я роблю нотатки на зустрічах."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I write a ___ on Fridays.",
+   "options": [
+    "report",
+    "desk",
+    "break"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Report."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "attend",
+     "right": {
+      "uk": "бути присутнім"
+     }
+    },
+    {
+     "left": "send an email",
+     "right": {
+      "uk": "надіслати лист"
+     }
+    },
+    {
+     "left": "answer the phone",
+     "right": {
+      "uk": "відповісти на дзвінок"
+     }
+    },
+    {
+     "left": "make a call",
+     "right": {
+      "uk": "зателефонувати"
+     }
+    },
+    {
+     "left": "take notes",
+     "right": {
+      "uk": "робити нотатки"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Робочі завдання."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I send ten emails a day.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки листів надсилає людина?"
+   },
+   "options": {
+    "uk": [
+     "Десять",
+     "П'ятнадцять",
+     "Двадцять"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ten."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I answer the phone all day.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина цілий день?"
+   },
+   "options": {
+    "uk": [
+     "Відповідає на дзвінки",
+     "Пише листи",
+     "Робить нотатки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Answers the phone."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I take notes in meetings.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина на зустрічах?"
+   },
+   "options": {
+    "uk": [
+     "Робить нотатки",
+     "Говорить",
+     "Спить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Takes notes."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ a meeting every Monday.",
+   "options": [
+    "attend",
+    "send",
+    "take"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Attend."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ ten emails a day.",
+   "options": [
+    "send",
+    "attend",
+    "make"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Send."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ three calls a day.",
+   "options": [
+    "make",
+    "do",
+    "take"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Make a call."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «відповісти на дзвінок»?"
+   },
+   "options": [
+    "answer the phone",
+    "answer the call to",
+    "reply phone"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Answer the phone."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я роблю нотатки на зустрічах."
+   },
+   "words": [
+    "I",
+    "take",
+    "notes",
+    "in",
+    "meetings",
+    "takes",
+    "make"
+   ],
+   "answer": [
+    "I",
+    "take",
+    "notes",
+    "in",
+    "meetings"
+   ],
+   "explanation": {
+    "uk": "I take notes in meetings."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я надсилаю десять листів на день."
+   },
+   "answers": [
+    "I send ten emails a day"
+   ],
+   "explanation": {
+    "uk": "I send ten emails a day."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you do at work?",
+   "prompt": {
+    "uk": "Відповідаєте на дзвінки й надсилаєте листи. Що відповісти?"
+   },
+   "options": [
+    "I answer the phone and send emails.",
+    "I am answer phone and send email.",
+    "I answering phone and sending."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I answer the phone and send emails."
+   }
+  }
+ ]
+}

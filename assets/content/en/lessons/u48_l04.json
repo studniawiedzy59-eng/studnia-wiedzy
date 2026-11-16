@@ -1,0 +1,318 @@
+{
+ "id": "u48_l04",
+ "unit": "u48",
+ "cefr": "A1",
+ "title": {
+  "uk": "Як вчити слова"
+ },
+ "goal": {
+  "uk": "Розповісти, як ви вчите слова."
+ },
+ "rule": {
+  "uk": "Remember — пам'ятати, forget — забувати, learn by heart — вивчити напам'ять, memorise — запам'ятовувати, dictionary — словник. Хороший спосіб: повторюйте слова через день, а не лише один раз. Приклад: I forget words, so I repeat them every day."
+ },
+ "words": [
+  {
+   "id": "remember",
+   "text": "remember",
+   "ipa": "/rɪˈmembə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "пам'ятати"
+   },
+   "example": "I remember this word.",
+   "exampleTranslation": {
+    "uk": "Я пам'ятаю це слово."
+   }
+  },
+  {
+   "id": "forget",
+   "text": "forget",
+   "ipa": "/fəˈɡet/",
+   "pos": "verb",
+   "translation": {
+    "uk": "забувати"
+   },
+   "example": "I often forget new words.",
+   "exampleTranslation": {
+    "uk": "Я часто забуваю нові слова."
+   }
+  },
+  {
+   "id": "learn_by_heart",
+   "text": "learn by heart",
+   "ipa": "/ˌlɜːn baɪ ˈhɑːt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "вивчити напам'ять"
+   },
+   "example": "I learn the words by heart.",
+   "exampleTranslation": {
+    "uk": "Я вчу слова напам'ять."
+   }
+  },
+  {
+   "id": "memorise",
+   "text": "memorise",
+   "ipa": "/ˈmeməraɪz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "запам'ятовувати"
+   },
+   "example": "I memorise ten words a day.",
+   "exampleTranslation": {
+    "uk": "Я запам'ятовую десять слів на день."
+   }
+  },
+  {
+   "id": "dictionary",
+   "text": "dictionary",
+   "ipa": "/ˈdɪkʃənri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "словник"
+   },
+   "example": "I use a dictionary.",
+   "exampleTranslation": {
+    "uk": "Я користуюся словником."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you revise every day?",
+   "prompt": {
+    "uk": "Повторимо. Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, I do.",
+    "Yes, I revise do.",
+    "Yes, I am."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I do."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "remember",
+     "right": {
+      "uk": "пам'ятати"
+     }
+    },
+    {
+     "left": "forget",
+     "right": {
+      "uk": "забувати"
+     }
+    },
+    {
+     "left": "learn by heart",
+     "right": {
+      "uk": "вивчити напам'ять"
+     }
+    },
+    {
+     "left": "memorise",
+     "right": {
+      "uk": "запам'ятовувати"
+     }
+    },
+    {
+     "left": "dictionary",
+     "right": {
+      "uk": "словник"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про запам'ятовування."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I often forget new words.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона часто забуває слова",
+     "Вона пам'ятає всі слова",
+     "Вона не вчить слів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Forget."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I learn the words by heart.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Вчить напам'ять",
+     "Читає вголос",
+     "Пише"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "By heart."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Repeat after me.",
+   "prompt": {
+    "uk": "Прослухайте. Про що просять?"
+   },
+   "options": {
+    "uk": [
+     "Повторити за мною",
+     "Записати",
+     "Перекласти"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Repeat."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I often ___ new words.",
+   "options": [
+    "forget",
+    "remember is",
+    "dictionary"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Forget."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I use a ___.",
+   "options": [
+    "dictionary",
+    "forget",
+    "repeat"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Dictionary."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Please ___ after me.",
+   "options": [
+    "repeat",
+    "remembers",
+    "forgets"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Repeat."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «вивчити напам'ять»?"
+   },
+   "options": [
+    "learn by heart",
+    "learn with the heart",
+    "heart learn"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Learn by heart."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Повторюйте за мною."
+   },
+   "words": [
+    "Repeat",
+    "after",
+    "me",
+    "Remember",
+    "forget"
+   ],
+   "answer": [
+    "Repeat",
+    "after",
+    "me"
+   ],
+   "explanation": {
+    "uk": "Repeat after me."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я пам'ятаю це слово."
+   },
+   "answers": [
+    "I remember this word"
+   ],
+   "explanation": {
+    "uk": "I remember this word."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you remember this word?",
+   "prompt": {
+    "uk": "Ні. Що відповісти?"
+   },
+   "options": [
+    "No, I forget it.",
+    "No, I am forget.",
+    "No, I forgetting it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I forget it."
+   }
+  }
+ ]
+}

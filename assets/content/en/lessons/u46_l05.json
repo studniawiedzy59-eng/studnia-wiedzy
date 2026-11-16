@@ -1,0 +1,322 @@
+{
+ "id": "u46_l05",
+ "unit": "u46",
+ "cefr": "A1",
+ "title": {
+  "uk": "Звички"
+ },
+ "goal": {
+  "uk": "Розповісти про свої звички."
+ },
+ "rule": {
+  "uk": "Habit — звичка. Good habit — гарна звичка, bad habit — погана звичка. Give up — кинути (звичку): I want to give up sweets. Keep — продовжувати: I keep a diary. Start / stop + -ing: I started running."
+ },
+ "words": [
+  {
+   "id": "habit",
+   "text": "habit",
+   "ipa": "/ˈhæbɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "звичка"
+   },
+   "example": "Reading is my habit.",
+   "exampleTranslation": {
+    "uk": "Читання — моя звичка."
+   }
+  },
+  {
+   "id": "good_habit",
+   "text": "good habit",
+   "ipa": "/ˌɡʊd ˈhæbɪt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "гарна звичка"
+   },
+   "example": "Exercise is a good habit.",
+   "exampleTranslation": {
+    "uk": "Спорт — гарна звичка."
+   }
+  },
+  {
+   "id": "bad_habit",
+   "text": "bad habit",
+   "ipa": "/ˌbæd ˈhæbɪt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "погана звичка"
+   },
+   "example": "Smoking is a bad habit.",
+   "exampleTranslation": {
+    "uk": "Паління — погана звичка."
+   }
+  },
+  {
+   "id": "give_up",
+   "text": "give up",
+   "ipa": "/ˌɡɪv ˈʌp/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "кидати"
+   },
+   "example": "I want to give up sweets.",
+   "exampleTranslation": {
+    "uk": "Я хочу кинути солодощі."
+   }
+  },
+  {
+   "id": "diary",
+   "text": "diary",
+   "ipa": "/ˈdaɪəri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "щоденник"
+   },
+   "example": "I keep a diary.",
+   "exampleTranslation": {
+    "uk": "Я веду щоденник."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How many times a week do you swim?",
+   "prompt": {
+    "uk": "Повторимо. Двічі. Що відповісти?"
+   },
+   "options": [
+    "Twice a week.",
+    "Two a week.",
+    "Twice week a."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a week."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "habit",
+     "right": {
+      "uk": "звичка"
+     }
+    },
+    {
+     "left": "good habit",
+     "right": {
+      "uk": "гарна звичка"
+     }
+    },
+    {
+     "left": "bad habit",
+     "right": {
+      "uk": "погана звичка"
+     }
+    },
+    {
+     "left": "give up",
+     "right": {
+      "uk": "кидати"
+     }
+    },
+    {
+     "left": "diary",
+     "right": {
+      "uk": "щоденник"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про звички."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Exercise is a good habit.",
+   "prompt": {
+    "uk": "Прослухайте. Що кажуть про спорт?"
+   },
+   "options": {
+    "uk": [
+     "Це гарна звичка",
+     "Це погана звичка",
+     "Це робота"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Good habit."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I want to give up sweets.",
+   "prompt": {
+    "uk": "Прослухайте. Що хоче людина?"
+   },
+   "options": {
+    "uk": [
+     "Кинути солодощі",
+     "Купити солодощі",
+     "Їсти більше"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Give up."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I keep a diary.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Веде щоденник",
+     "Читає щоденник",
+     "Купує щоденник"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Keeps a diary."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Exercise is a ___ habit.",
+   "options": [
+    "good",
+    "bad",
+    "diary"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Good habit."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I want to ___ up sweets.",
+   "options": [
+    "give",
+    "gives",
+    "giving"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Give up."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I keep a ___.",
+   "options": [
+    "diary",
+    "habit",
+    "give"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A diary."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «кинути»?"
+   },
+   "options": [
+    "give up",
+    "keep",
+    "start"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Give up."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Паління — погана звичка."
+   },
+   "words": [
+    "Smoking",
+    "is",
+    "a",
+    "bad",
+    "habit",
+    "are",
+    "good"
+   ],
+   "answer": [
+    "Smoking",
+    "is",
+    "a",
+    "bad",
+    "habit"
+   ],
+   "explanation": {
+    "uk": "Smoking is a bad habit."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я веду щоденник."
+   },
+   "answers": [
+    "I keep a diary"
+   ],
+   "explanation": {
+    "uk": "I keep a diary."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you have any bad habits?",
+   "prompt": {
+    "uk": "Так, їм багато солодощів. Що відповісти?"
+   },
+   "options": [
+    "Yes, I eat a lot of sweets.",
+    "Yes, I am eat a lot sweets.",
+    "Yes, I eating much sweets."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I eat a lot of sweets."
+   }
+  }
+ ]
+}

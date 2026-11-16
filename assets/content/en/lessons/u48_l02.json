@@ -1,0 +1,324 @@
+{
+ "id": "u48_l02",
+ "unit": "u48",
+ "cefr": "A1",
+ "title": {
+  "uk": "Курси й лекції"
+ },
+ "goal": {
+  "uk": "Розповісти про курс чи заняття для дорослих."
+ },
+ "rule": {
+  "uk": "Course — курс: I take an English course. Lecture — лекція, college — коледж, group — група, take a course — проходити курс. Приклад: Our group meets twice a week."
+ },
+ "words": [
+  {
+   "id": "course",
+   "text": "course",
+   "ipa": "/kɔːs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "курс"
+   },
+   "example": "I take an English course.",
+   "exampleTranslation": {
+    "uk": "Я проходжу курс англійської."
+   }
+  },
+  {
+   "id": "lecture",
+   "text": "lecture",
+   "ipa": "/ˈlektʃə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "лекція"
+   },
+   "example": "The lecture starts at nine.",
+   "exampleTranslation": {
+    "uk": "Лекція починається о дев'ятій."
+   }
+  },
+  {
+   "id": "college",
+   "text": "college",
+   "ipa": "/ˈkɒlɪdʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "коледж"
+   },
+   "example": "My sister studies at college.",
+   "exampleTranslation": {
+    "uk": "Моя сестра вчиться в коледжі."
+   }
+  },
+  {
+   "id": "group",
+   "text": "group",
+   "ipa": "/ɡruːp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "група"
+   },
+   "example": "Our group meets twice a week.",
+   "exampleTranslation": {
+    "uk": "Наша група зустрічається двічі на тиждень."
+   }
+  },
+  {
+   "id": "take_a_course",
+   "text": "take a course",
+   "ipa": "/ˌteɪk ə ˈkɔːs/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "проходити курс"
+   },
+   "example": "I want to take a course.",
+   "exampleTranslation": {
+    "uk": "Я хочу пройти курс."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you have homework today?",
+   "prompt": {
+    "uk": "Повторимо. Так, багато. Що відповісти?"
+   },
+   "options": [
+    "Yes, a lot.",
+    "Yes, a lot of homeworks.",
+    "Yes, much a lot."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, a lot."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "course",
+     "right": {
+      "uk": "курс"
+     }
+    },
+    {
+     "left": "lecture",
+     "right": {
+      "uk": "лекція"
+     }
+    },
+    {
+     "left": "college",
+     "right": {
+      "uk": "коледж"
+     }
+    },
+    {
+     "left": "group",
+     "right": {
+      "uk": "група"
+     }
+    },
+    {
+     "left": "take a course",
+     "right": {
+      "uk": "проходити курс"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про курси."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The lecture starts at nine.",
+   "prompt": {
+    "uk": "Прослухайте. Коли починається лекція?"
+   },
+   "options": {
+    "uk": [
+     "О дев'ятій",
+     "О десятій",
+     "О восьмій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At nine."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Our group meets twice a week.",
+   "prompt": {
+    "uk": "Прослухайте. Як часто зустрічається група?"
+   },
+   "options": {
+    "uk": [
+     "Двічі на тиждень",
+     "Раз на тиждень",
+     "Щодня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a week."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My sister studies at college.",
+   "prompt": {
+    "uk": "Прослухайте. Де вчиться сестра?"
+   },
+   "options": {
+    "uk": [
+     "У коледжі",
+     "У школі",
+     "В університеті"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "College."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I take an English ___.",
+   "options": [
+    "course",
+    "lecture",
+    "group is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Course."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ starts at nine.",
+   "options": [
+    "lecture",
+    "college",
+    "course is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Lecture."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Our ___ meets twice a week.",
+   "options": [
+    "group",
+    "lecture",
+    "college"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Group."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «проходити курс»?"
+   },
+   "options": [
+    "take a course",
+    "make a course",
+    "do a course take"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Take a course."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я хочу пройти курс."
+   },
+   "words": [
+    "I",
+    "want",
+    "to",
+    "take",
+    "a",
+    "course",
+    "takes",
+    "make"
+   ],
+   "answer": [
+    "I",
+    "want",
+    "to",
+    "take",
+    "a",
+    "course"
+   ],
+   "explanation": {
+    "uk": "I want to take a course."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Лекція починається о дев'ятій."
+   },
+   "answers": [
+    "The lecture starts at nine"
+   ],
+   "explanation": {
+    "uk": "The lecture starts at nine."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where do you study?",
+   "prompt": {
+    "uk": "У коледжі. Що відповісти?"
+   },
+   "options": [
+    "I study at college.",
+    "I study in college at.",
+    "I am study college."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I study at college."
+   }
+  }
+ ]
+}

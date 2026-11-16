@@ -1,0 +1,326 @@
+{
+ "id": "u45_l05",
+ "unit": "u45",
+ "cefr": "A1",
+ "title": {
+  "uk": "Мій день від ранку до вечора"
+ },
+ "goal": {
+  "uk": "Розповісти про весь день."
+ },
+ "rule": {
+  "uk": "Об'єднайте слова: First I wake up at six. Then I take a shower and have breakfast. After that I commute to work. Finally I get home at six. Тепер це ваша розповідь про день: добавте свій час і речі."
+ },
+ "words": [
+  {
+   "id": "all_day",
+   "text": "all day",
+   "ipa": "/ˌɔːl ˈdeɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "цілий день"
+   },
+   "example": "I work all day.",
+   "exampleTranslation": {
+    "uk": "Я працюю цілий день."
+   }
+  },
+  {
+   "id": "every_morning",
+   "text": "every morning",
+   "ipa": "/ˌevri ˈmɔːnɪŋ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "щоранку"
+   },
+   "example": "I run every morning.",
+   "exampleTranslation": {
+    "uk": "Щоранку я бігаю."
+   }
+  },
+  {
+   "id": "from_…_to_…",
+   "text": "from … to …",
+   "ipa": "/frəm tə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "з … до …"
+   },
+   "example": "I work from nine to five.",
+   "exampleTranslation": {
+    "uk": "Я працюю з дев'ятої до п'ятої."
+   }
+  },
+  {
+   "id": "on_weekdays",
+   "text": "on weekdays",
+   "ipa": "/ɒn ˈwiːkdeɪz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "у будні"
+   },
+   "example": "On weekdays I get up at six.",
+   "exampleTranslation": {
+    "uk": "У будні я встаю о шостій."
+   }
+  },
+  {
+   "id": "at_the_weekend",
+   "text": "at the weekend",
+   "ipa": "/ət ðə ˌwiːkˈend/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "на вихідних"
+   },
+   "example": "At the weekend I sleep late.",
+   "exampleTranslation": {
+    "uk": "На вихідних я сплю допізна."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you do after work?",
+   "prompt": {
+    "uk": "Повторимо. Ви йдете в спортзал. Що відповісти?"
+   },
+   "options": [
+    "I go to the gym.",
+    "I going to gym.",
+    "I am go to the gym."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I go to the gym."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "all day",
+     "right": {
+      "uk": "цілий день"
+     }
+    },
+    {
+     "left": "every morning",
+     "right": {
+      "uk": "щоранку"
+     }
+    },
+    {
+     "left": "from … to …",
+     "right": {
+      "uk": "з … до …"
+     }
+    },
+    {
+     "left": "on weekdays",
+     "right": {
+      "uk": "у будні"
+     }
+    },
+    {
+     "left": "at the weekend",
+     "right": {
+      "uk": "на вихідних"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про розпорядок."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I work from nine to five.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина працює?"
+   },
+   "options": {
+    "uk": [
+     "З дев'ятої до п'ятої",
+     "З восьмої до п'ятої",
+     "З дев'ятої до шостої"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nine to five."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I run every morning.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина щоранку?"
+   },
+   "options": {
+    "uk": [
+     "Бігає",
+     "Плаває",
+     "Читає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Runs."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "At the weekend I sleep late.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина на вихідних?"
+   },
+   "options": {
+    "uk": [
+     "Спить допізна",
+     "Рано встає",
+     "Працює"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sleeps late."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I work ___ nine to five.",
+   "options": [
+    "from",
+    "at",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "From … to …"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "On ___ I get up at six.",
+   "options": [
+    "weekdays",
+    "weekend",
+    "midnight"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On weekdays."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I run ___ morning.",
+   "options": [
+    "every",
+    "all",
+    "each of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Every morning."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я працюю цілий день»?"
+   },
+   "options": [
+    "I work all day.",
+    "I work every day all.",
+    "I am work all day."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "All day."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У будні я встаю о шостій."
+   },
+   "words": [
+    "On",
+    "weekdays",
+    "I",
+    "get",
+    "up",
+    "at",
+    "six",
+    "in",
+    "gets"
+   ],
+   "answer": [
+    "On",
+    "weekdays",
+    "I",
+    "get",
+    "up",
+    "at",
+    "six"
+   ],
+   "explanation": {
+    "uk": "On weekdays I get up at six."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я працюю з дев'ятої до п'ятої."
+   },
+   "answers": [
+    "I work from nine to five"
+   ],
+   "explanation": {
+    "uk": "I work from nine to five."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you do at the weekend?",
+   "prompt": {
+    "uk": "Спите допізна. Що відповісти?"
+   },
+   "options": [
+    "I sleep late.",
+    "I sleeping late.",
+    "I am sleep late."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I sleep late."
+   }
+  }
+ ]
+}

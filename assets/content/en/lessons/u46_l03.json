@@ -1,0 +1,322 @@
+{
+ "id": "u46_l03",
+ "unit": "u46",
+ "cefr": "A1",
+ "title": {
+  "uk": "Скільки разів"
+ },
+ "goal": {
+  "uk": "Назвати точну частоту."
+ },
+ "rule": {
+  "uk": "Скільки разів: once — один раз, twice — двічі, three times — тричі. Once a week — раз на тиждень, twice a month — двічі на місяць, three times a day — тричі на день. Every week — щотижня, every month — щомісяця."
+ },
+ "words": [
+  {
+   "id": "once_a_week",
+   "text": "once a week",
+   "ipa": "/ˌwʌns ə ˈwiːk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "раз на тиждень"
+   },
+   "example": "I swim once a week.",
+   "exampleTranslation": {
+    "uk": "Я плаваю раз на тиждень."
+   }
+  },
+  {
+   "id": "twice_a_month",
+   "text": "twice a month",
+   "ipa": "/ˌtwaɪs ə ˈmʌnθ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "двічі на місяць"
+   },
+   "example": "I visit my parents twice a month.",
+   "exampleTranslation": {
+    "uk": "Я навідую батьків двічі на місяць."
+   }
+  },
+  {
+   "id": "three_times_a_day",
+   "text": "three times a day",
+   "ipa": "/ˌθriː ˈtaɪmz ə ˈdeɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "тричі на день"
+   },
+   "example": "I eat three times a day.",
+   "exampleTranslation": {
+    "uk": "Я їм тричі на день."
+   }
+  },
+  {
+   "id": "every_week",
+   "text": "every week",
+   "ipa": "/ˌevri ˈwiːk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "щотижня"
+   },
+   "example": "We meet every week.",
+   "exampleTranslation": {
+    "uk": "Ми зустрічаємося щотижня."
+   }
+  },
+  {
+   "id": "every_month",
+   "text": "every month",
+   "ipa": "/ˌevri ˈmʌnθ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "щомісяця"
+   },
+   "example": "I pay the bill every month.",
+   "exampleTranslation": {
+    "uk": "Я плачу за рахунок щомісяця."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you ever eat out?",
+   "prompt": {
+    "uk": "Повторимо. Інколи. Що відповісти?"
+   },
+   "options": [
+    "Yes, now and then.",
+    "Yes, now and then am.",
+    "Yes, then and now I."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, now and then."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "once a week",
+     "right": {
+      "uk": "раз на тиждень"
+     }
+    },
+    {
+     "left": "twice a month",
+     "right": {
+      "uk": "двічі на місяць"
+     }
+    },
+    {
+     "left": "three times a day",
+     "right": {
+      "uk": "тричі на день"
+     }
+    },
+    {
+     "left": "every week",
+     "right": {
+      "uk": "щотижня"
+     }
+    },
+    {
+     "left": "every month",
+     "right": {
+      "uk": "щомісяця"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Точна частота."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I swim once a week.",
+   "prompt": {
+    "uk": "Прослухайте. Як часто людина плаває?"
+   },
+   "options": {
+    "uk": [
+     "Раз на тиждень",
+     "Двічі на тиждень",
+     "Щодня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Once a week."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I visit my parents twice a month.",
+   "prompt": {
+    "uk": "Прослухайте. Як часто людина навідує батьків?"
+   },
+   "options": {
+    "uk": [
+     "Двічі на місяць",
+     "Раз на місяць",
+     "Щотижня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a month."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I eat three times a day.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки разів на день їсть людина?"
+   },
+   "options": {
+    "uk": [
+     "Тричі",
+     "Двічі",
+     "Чотири рази"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Three times."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I swim ___ a week.",
+   "options": [
+    "once",
+    "one",
+    "first"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Once a week."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I visit my parents ___ a month.",
+   "options": [
+    "twice",
+    "two",
+    "second"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a month."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We meet ___ week.",
+   "options": [
+    "every",
+    "all",
+    "each of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Every week."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «тричі на день»?"
+   },
+   "options": [
+    "three times a day",
+    "three time a day",
+    "third times day"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Three times a day."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я плаваю раз на тиждень."
+   },
+   "words": [
+    "I",
+    "swim",
+    "once",
+    "a",
+    "week",
+    "swims",
+    "one"
+   ],
+   "answer": [
+    "I",
+    "swim",
+    "once",
+    "a",
+    "week"
+   ],
+   "explanation": {
+    "uk": "I swim once a week."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми зустрічаємося щотижня."
+   },
+   "answers": [
+    "We meet every week"
+   ],
+   "explanation": {
+    "uk": "We meet every week."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How often do you visit your parents?",
+   "prompt": {
+    "uk": "Двічі на місяць. Що відповісти?"
+   },
+   "options": [
+    "Twice a month.",
+    "Two a month.",
+    "Twice month a."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a month."
+   }
+  }
+ ]
+}

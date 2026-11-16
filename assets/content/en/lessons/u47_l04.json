@@ -1,0 +1,324 @@
+{
+ "id": "u47_l04",
+ "unit": "u47",
+ "cefr": "A1",
+ "title": {
+  "uk": "Зміна, вихідний, дистанційно"
+ },
+ "goal": {
+  "uk": "Розповісти про графік."
+ },
+ "rule": {
+  "uk": "Shift — зміна, overtime — понаднормова робота, on call — черговий, work from home — працювати вдома, flexible — гнучкий. Приклад: I work the night shift. I work from home on Fridays."
+ },
+ "words": [
+  {
+   "id": "shift",
+   "text": "shift",
+   "ipa": "/ʃɪft/",
+   "pos": "noun",
+   "translation": {
+    "uk": "зміна"
+   },
+   "example": "I work the night shift.",
+   "exampleTranslation": {
+    "uk": "Я працюю в нічну зміну."
+   }
+  },
+  {
+   "id": "overtime",
+   "text": "overtime",
+   "ipa": "/ˈəʊvətaɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "понаднормова робота"
+   },
+   "example": "I do overtime on Fridays.",
+   "exampleTranslation": {
+    "uk": "По п'ятницях я працюю понад норму."
+   }
+  },
+  {
+   "id": "on_call",
+   "text": "on call",
+   "ipa": "/ɒn ˈkɔːl/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "черговий (на зв'язку)"
+   },
+   "example": "I am on call tonight.",
+   "exampleTranslation": {
+    "uk": "Сьогодні ввечері я черговий."
+   }
+  },
+  {
+   "id": "work_from_home",
+   "text": "work from home",
+   "ipa": "/ˌwɜːk frəm ˈhəʊm/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "працювати вдома"
+   },
+   "example": "I work from home on Fridays.",
+   "exampleTranslation": {
+    "uk": "По п'ятницях я працюю вдома."
+   }
+  },
+  {
+   "id": "flexible",
+   "text": "flexible",
+   "ipa": "/ˈfleksəbl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "гнучкий"
+   },
+   "example": "My schedule is flexible.",
+   "exampleTranslation": {
+    "uk": "Мій графік гнучкий."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "When is the deadline?",
+   "prompt": {
+    "uk": "Повторимо. У п'ятницю. Що відповісти?"
+   },
+   "options": [
+    "It is on Friday.",
+    "It is Friday on.",
+    "It are Friday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It is on Friday."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "shift",
+     "right": {
+      "uk": "зміна"
+     }
+    },
+    {
+     "left": "overtime",
+     "right": {
+      "uk": "понаднормова робота"
+     }
+    },
+    {
+     "left": "on call",
+     "right": {
+      "uk": "черговий"
+     }
+    },
+    {
+     "left": "work from home",
+     "right": {
+      "uk": "працювати вдома"
+     }
+    },
+    {
+     "left": "flexible",
+     "right": {
+      "uk": "гнучкий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про графік."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I work the night shift.",
+   "prompt": {
+    "uk": "Прослухайте. Яку зміну працює людина?"
+   },
+   "options": {
+    "uk": [
+     "Нічну",
+     "Денну",
+     "Ранкову"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Night shift."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Tomorrow is my day off.",
+   "prompt": {
+    "uk": "Прослухайте. Що завтра?"
+   },
+   "options": {
+    "uk": [
+     "Вихідний",
+     "Іспит",
+     "Свято"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Day off."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I work from home on Fridays.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина працює вдома?"
+   },
+   "options": {
+    "uk": [
+     "По п'ятницях",
+     "По понеділках",
+     "По вівторках"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On Fridays."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I work the night ___.",
+   "options": [
+    "shift",
+    "overtime",
+    "flexible"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Shift."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Tomorrow is my day ___.",
+   "options": [
+    "off",
+    "out",
+    "up"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Day off."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My schedule is ___.",
+   "options": [
+    "flexible",
+    "overtime",
+    "shift"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Flexible."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «працювати вдома»?"
+   },
+   "options": [
+    "work from home",
+    "work at the home from",
+    "home work"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Work from home."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "По п'ятницях я працюю вдома."
+   },
+   "words": [
+    "I",
+    "work",
+    "from",
+    "home",
+    "on",
+    "Fridays",
+    "works",
+    "in"
+   ],
+   "answer": [
+    "I",
+    "work",
+    "from",
+    "home",
+    "on",
+    "Fridays"
+   ],
+   "explanation": {
+    "uk": "I work from home on Fridays."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Завтра в мене вихідний."
+   },
+   "answers": [
+    "Tomorrow is my day off"
+   ],
+   "explanation": {
+    "uk": "Tomorrow is my day off."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you work from home?",
+   "prompt": {
+    "uk": "Так, по п'ятницях. Що відповісти?"
+   },
+   "options": [
+    "Yes, on Fridays.",
+    "Yes, in Fridays.",
+    "Yes, Fridays on."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, on Fridays."
+   }
+  }
+ ]
+}

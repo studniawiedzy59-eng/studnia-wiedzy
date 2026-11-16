@@ -1,0 +1,323 @@
+{
+ "id": "u45_l02",
+ "unit": "u45",
+ "cefr": "A1",
+ "title": {
+  "uk": "Мій вечір"
+ },
+ "goal": {
+  "uk": "Розповісти про вечір і сон."
+ },
+ "rule": {
+  "uk": "Evening — вечір. In the evening — увечері, at night — уночі, at midnight — опівночі. Fall asleep — заснути: I fall asleep quickly. Get home — повертатися додому."
+ },
+ "words": [
+  {
+   "id": "in_the_evening",
+   "text": "in the evening",
+   "ipa": "/ɪn ði ˈiːvnɪŋ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "увечері"
+   },
+   "example": "I watch TV in the evening.",
+   "exampleTranslation": {
+    "uk": "Увечері я дивлюся телевізор."
+   }
+  },
+  {
+   "id": "at_night",
+   "text": "at night",
+   "ipa": "/ət ˈnaɪt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "уночі"
+   },
+   "example": "I sleep at night.",
+   "exampleTranslation": {
+    "uk": "Уночі я сплю."
+   }
+  },
+  {
+   "id": "midnight",
+   "text": "midnight",
+   "ipa": "/ˈmɪdnaɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "північ"
+   },
+   "example": "I go to bed at midnight.",
+   "exampleTranslation": {
+    "uk": "Я лягаю спати опівночі."
+   }
+  },
+  {
+   "id": "fall_asleep",
+   "text": "fall asleep",
+   "ipa": "/ˌfɔːl əˈsliːp/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "заснути"
+   },
+   "example": "I fall asleep quickly.",
+   "exampleTranslation": {
+    "uk": "Я швидко засинаю."
+   }
+  },
+  {
+   "id": "get_home",
+   "text": "get home",
+   "ipa": "/ˌɡet ˈhəʊm/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "приходити додому"
+   },
+   "example": "I get home at six.",
+   "exampleTranslation": {
+    "uk": "Я приходжу додому о шостій."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I leave ___ at seven.",
+   "options": [
+    "home",
+    "to home",
+    "at home"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Leave home."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "in the evening",
+     "right": {
+      "uk": "увечері"
+     }
+    },
+    {
+     "left": "at night",
+     "right": {
+      "uk": "уночі"
+     }
+    },
+    {
+     "left": "midnight",
+     "right": {
+      "uk": "північ"
+     }
+    },
+    {
+     "left": "fall asleep",
+     "right": {
+      "uk": "заснути"
+     }
+    },
+    {
+     "left": "get home",
+     "right": {
+      "uk": "приходити додому"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про вечір."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I get home at six.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина приходить додому?"
+   },
+   "options": {
+    "uk": [
+     "О шостій",
+     "О п'ятій",
+     "О сьомій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At six."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I watch TV in the evening.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина увечері?"
+   },
+   "options": {
+    "uk": [
+     "Дивиться телевізор",
+     "Читає",
+     "Спить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Watches TV."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I go to bed at midnight.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина лягає спати?"
+   },
+   "options": {
+    "uk": [
+     "Опівночі",
+     "О десятій",
+     "О першій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Midnight."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I watch TV ___ the evening.",
+   "options": [
+    "in",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In the evening."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I sleep ___ night.",
+   "options": [
+    "at",
+    "in",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At night."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ asleep quickly.",
+   "options": [
+    "fall",
+    "falls",
+    "fell"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fall asleep."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «північ»?"
+   },
+   "options": [
+    "midnight",
+    "noon",
+    "evening"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Midnight."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я приходжу додому о шостій."
+   },
+   "words": [
+    "I",
+    "get",
+    "home",
+    "at",
+    "six",
+    "gets",
+    "in"
+   ],
+   "answer": [
+    "I",
+    "get",
+    "home",
+    "at",
+    "six"
+   ],
+   "explanation": {
+    "uk": "I get home at six."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Увечері я дивлюся телевізор."
+   },
+   "answers": [
+    "I watch TV in the evening",
+    "In the evening I watch TV"
+   ],
+   "explanation": {
+    "uk": "I watch TV in the evening."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you do in the evening?",
+   "prompt": {
+    "uk": "Читаєте книжку. Що відповісти?"
+   },
+   "options": [
+    "I read a book.",
+    "I reading a book.",
+    "I am read a book."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I read a book."
+   }
+  }
+ ]
+}

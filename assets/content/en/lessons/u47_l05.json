@@ -1,0 +1,327 @@
+{
+ "id": "u47_l05",
+ "unit": "u47",
+ "cefr": "A1",
+ "title": {
+  "uk": "Ввічливі робочі фрази"
+ },
+ "goal": {
+  "uk": "Ввічливо просити й відповідати на роботі."
+ },
+ "rule": {
+  "uk": "Could you…? — «Чи не могли б ви…?»: Could you send me the report? Let me check — «Дайте перевірю». I'll do it — «Я зроблю це». Certainly — «Звісно». As soon as possible — «якнайшвидше»."
+ },
+ "words": [
+  {
+   "id": "could_you",
+   "text": "could you",
+   "ipa": "/ˈkʊd ju/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "чи не могли б ви"
+   },
+   "example": "Could you send me the report?",
+   "exampleTranslation": {
+    "uk": "Чи не могли б ви надіслати мені звіт?"
+   }
+  },
+  {
+   "id": "let_me_check",
+   "text": "let me check",
+   "ipa": "/ˌlet mi ˈtʃek/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "дайте перевірю"
+   },
+   "example": "Let me check my schedule.",
+   "exampleTranslation": {
+    "uk": "Дайте перевірю свій розклад."
+   }
+  },
+  {
+   "id": "ill_do_it",
+   "text": "I'll do it",
+   "ipa": "/aɪl ˈduː ɪt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "я зроблю це"
+   },
+   "example": "I'll do it today.",
+   "exampleTranslation": {
+    "uk": "Я зроблю це сьогодні."
+   }
+  },
+  {
+   "id": "certainly",
+   "text": "certainly",
+   "ipa": "/ˈsɜːtnli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "звісно"
+   },
+   "example": "Certainly, I can help.",
+   "exampleTranslation": {
+    "uk": "Звісно, я можу допомогти."
+   }
+  },
+  {
+   "id": "as_soon_as_possible",
+   "text": "as soon as possible",
+   "ipa": "/əz ˌsuːn əz ˈpɒsəbl/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "якнайшвидше"
+   },
+   "example": "I need it as soon as possible.",
+   "exampleTranslation": {
+    "uk": "Мені це потрібно якнайшвидше."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you work from home?",
+   "prompt": {
+    "uk": "Повторимо. Так, по п'ятницях. Що відповісти?"
+   },
+   "options": [
+    "Yes, on Fridays.",
+    "Yes, in Fridays.",
+    "Yes, Fridays on."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, on Fridays."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "could you",
+     "right": {
+      "uk": "чи не могли б ви"
+     }
+    },
+    {
+     "left": "let me check",
+     "right": {
+      "uk": "дайте перевірю"
+     }
+    },
+    {
+     "left": "I'll do it",
+     "right": {
+      "uk": "я зроблю це"
+     }
+    },
+    {
+     "left": "certainly",
+     "right": {
+      "uk": "звісно"
+     }
+    },
+    {
+     "left": "as soon as possible",
+     "right": {
+      "uk": "якнайшвидше"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Робочі фрази."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Could you send me the report?",
+   "prompt": {
+    "uk": "Прослухайте. Про що просять?"
+   },
+   "options": {
+    "uk": [
+     "Надіслати звіт",
+     "Написати звіт",
+     "Прочитати звіт"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Send the report."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Let me check my schedule.",
+   "prompt": {
+    "uk": "Прослухайте. Що збирається зробити людина?"
+   },
+   "options": {
+    "uk": [
+     "Перевірити розклад",
+     "Змінити розклад",
+     "Забути розклад"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Check."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I need it as soon as possible.",
+   "prompt": {
+    "uk": "Прослухайте. Коли потрібно?"
+   },
+   "options": {
+    "uk": [
+     "Якнайшвидше",
+     "У п'ятницю",
+     "Завтра"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "As soon as possible."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ you send me the report?",
+   "options": [
+    "Could",
+    "Do",
+    "Are"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Could you…?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Let me ___ my schedule.",
+   "options": [
+    "check",
+    "checks",
+    "checking"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Let me check."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "No ___, I can help.",
+   "options": [
+    "problem",
+    "problems is",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No problem."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як ввічливо попросити надіслати звіт?"
+   },
+   "options": [
+    "Could you send me the report?",
+    "You send me the report!",
+    "Send report me!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Could you…?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мені це потрібно якнайшвидше."
+   },
+   "words": [
+    "I",
+    "need",
+    "it",
+    "as",
+    "soon",
+    "as",
+    "possible",
+    "needs",
+    "late"
+   ],
+   "answer": [
+    "I",
+    "need",
+    "it",
+    "as",
+    "soon",
+    "as",
+    "possible"
+   ],
+   "explanation": {
+    "uk": "I need it as soon as possible."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я зроблю це сьогодні."
+   },
+   "answers": [
+    "I'll do it today",
+    "I will do it today"
+   ],
+   "explanation": {
+    "uk": "I'll do it today."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Could you help me, please?",
+   "prompt": {
+    "uk": "Ви готові допомогти. Що відповісти?"
+   },
+   "options": [
+    "No problem.",
+    "No problems you.",
+    "Problem not."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No problem."
+   }
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+{
+ "id": "u48_l06",
+ "unit": "u48",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: навчання"
+ },
+ "goal": {
+  "uk": "Закріпити слова про навчання."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: школа (pupil, homework, textbook), курси й лекції, оцінки й іспити (pass, fail, revise), запам'ятовування (remember, forget, learn by heart) і завдання (essay, presentation, hand in)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where do you study?",
+   "prompt": {
+    "uk": "У коледжі. Що відповісти?"
+   },
+   "options": [
+    "I study at college.",
+    "I study in college at.",
+    "I am study college."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I study at college."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I do my ___ in the evening.",
+   "options": [
+    "homework",
+    "homeworks",
+    "textbook"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Homework."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I want to ___ the exam.",
+   "options": [
+    "pass",
+    "fail",
+    "grade"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pass."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Повторюйте за мною."
+   },
+   "answers": [
+    "Repeat after me"
+   ],
+   "explanation": {
+    "uk": "Repeat after me."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I often forget new words, so I repeat them every day.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина, щоб не забувати?"
+   },
+   "options": {
+    "uk": [
+     "Повторює щодня",
+     "Не вчить слів",
+     "Читає книжки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Repeats every day."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I use a ___.",
+   "options": [
+    "dictionary",
+    "forget",
+    "pupil"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Dictionary."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «здавати роботу»?"
+   },
+   "options": [
+    "hand in",
+    "pass",
+    "revise"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hand in."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я пишу есе."
+   },
+   "answers": [
+    "I write an essay"
+   ],
+   "explanation": {
+    "uk": "I write an essay."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я повторюю матеріал щовечора."
+   },
+   "words": [
+    "I",
+    "revise",
+    "every",
+    "evening",
+    "revises",
+    "all"
+   ],
+   "answer": [
+    "I",
+    "revise",
+    "every",
+    "evening"
+   ],
+   "explanation": {
+    "uk": "I revise every evening."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "The lecture starts at nine. Our group meets twice a week.",
+   "prompt": {
+    "uk": "Прослухайте. Коли починається лекція?"
+   },
+   "options": {
+    "uk": [
+     "О дев'ятій",
+     "О десятій",
+     "О восьмій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At nine."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ a presentation in a group.",
+   "options": [
+    "prepare",
+    "prepares",
+    "preparing"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Prepare."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you revise every day?",
+   "prompt": {
+    "uk": "Так, щовечора. Що відповісти?"
+   },
+   "options": [
+    "Yes, every evening.",
+    "Yes, evening every.",
+    "Yes, I revising evening."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, every evening."
+   }
+  }
+ ]
+}

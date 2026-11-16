@@ -1,0 +1,322 @@
+{
+ "id": "u47_l01",
+ "unit": "u47",
+ "cefr": "A1",
+ "title": {
+  "uk": "Мій стіл і мій офіс"
+ },
+ "goal": {
+  "uk": "Назвати речі й перерви на роботі."
+ },
+ "rule": {
+  "uk": "Desk — робочий стіл. Lunch break — обідня перерва, coffee break — перерва на каву. Report — звіт, project — проєкт. Приклад: I have a lunch break at one. I write a report at my desk."
+ },
+ "words": [
+  {
+   "id": "desk",
+   "text": "desk",
+   "ipa": "/desk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "робочий стіл"
+   },
+   "example": "I work at my desk.",
+   "exampleTranslation": {
+    "uk": "Я працюю за своїм столом."
+   }
+  },
+  {
+   "id": "lunch_break",
+   "text": "lunch break",
+   "ipa": "/ˈlʌntʃ breɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "обідня перерва"
+   },
+   "example": "My lunch break is at one.",
+   "exampleTranslation": {
+    "uk": "Моя обідня перерва о першій."
+   }
+  },
+  {
+   "id": "coffee_break",
+   "text": "coffee break",
+   "ipa": "/ˈkɒfi breɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "перерва на каву"
+   },
+   "example": "We have a coffee break at eleven.",
+   "exampleTranslation": {
+    "uk": "У нас перерва на каву об одинадцятій."
+   }
+  },
+  {
+   "id": "report",
+   "text": "report",
+   "ipa": "/rɪˈpɔːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "звіт"
+   },
+   "example": "I write a report on Fridays.",
+   "exampleTranslation": {
+    "uk": "Я пишу звіт по п'ятницях."
+   }
+  },
+  {
+   "id": "project",
+   "text": "project",
+   "ipa": "/ˈprɒdʒekt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "проєкт"
+   },
+   "example": "We have a new project.",
+   "exampleTranslation": {
+    "uk": "У нас новий проєкт."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How often do you exercise?",
+   "prompt": {
+    "uk": "Повторимо. Тричі на тиждень. Що відповісти?"
+   },
+   "options": [
+    "Three times a week.",
+    "Three time a week.",
+    "Three times week."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Three times a week."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "desk",
+     "right": {
+      "uk": "робочий стіл"
+     }
+    },
+    {
+     "left": "lunch break",
+     "right": {
+      "uk": "обідня перерва"
+     }
+    },
+    {
+     "left": "coffee break",
+     "right": {
+      "uk": "перерва на каву"
+     }
+    },
+    {
+     "left": "report",
+     "right": {
+      "uk": "звіт"
+     }
+    },
+    {
+     "left": "project",
+     "right": {
+      "uk": "проєкт"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про офіс."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My lunch break is at one.",
+   "prompt": {
+    "uk": "Прослухайте. Коли обідня перерва?"
+   },
+   "options": {
+    "uk": [
+     "О першій",
+     "О дванадцятій",
+     "О другій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At one."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We have a coffee break at eleven.",
+   "prompt": {
+    "uk": "Прослухайте. Коли перерва на каву?"
+   },
+   "options": {
+    "uk": [
+     "О одинадцятій",
+     "О десятій",
+     "О дванадцятій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At eleven."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I write a report on Fridays.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина пише звіт?"
+   },
+   "options": {
+    "uk": [
+     "По п'ятницях",
+     "По понеділках",
+     "По середах"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On Fridays."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I work at my ___.",
+   "options": [
+    "desk",
+    "report",
+    "project"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Desk."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My lunch ___ is at one.",
+   "options": [
+    "break",
+    "desk",
+    "report"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Lunch break."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I write a ___ on Fridays.",
+   "options": [
+    "report",
+    "desk",
+    "break"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Report."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «звіт»?"
+   },
+   "options": [
+    "report",
+    "project",
+    "desk"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Report."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У нас новий проєкт."
+   },
+   "words": [
+    "We",
+    "have",
+    "a",
+    "new",
+    "project",
+    "has",
+    "report"
+   ],
+   "answer": [
+    "We",
+    "have",
+    "a",
+    "new",
+    "project"
+   ],
+   "explanation": {
+    "uk": "We have a new project."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Моя обідня перерва о першій."
+   },
+   "answers": [
+    "My lunch break is at one"
+   ],
+   "explanation": {
+    "uk": "My lunch break is at one."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "When is your coffee break?",
+   "prompt": {
+    "uk": "О одинадцятій. Що відповісти?"
+   },
+   "options": [
+    "It is at eleven.",
+    "It at eleven is.",
+    "It are eleven."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It is at eleven."
+   }
+  }
+ ]
+}

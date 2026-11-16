@@ -1,0 +1,231 @@
+{
+ "id": "u45_l06",
+ "unit": "u45",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: розпорядок дня"
+ },
+ "goal": {
+  "uk": "Закріпити розповідь про день."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: ранок (alarm clock, commute, leave home), вечір (in the evening, at night, fall asleep), тривалість (How long…? It takes…), послідовність (first, then, after that, finally) і періоди (every morning, on weekdays)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What time do you leave home?",
+   "prompt": {
+    "uk": "О пів на восьму. Що відповісти?"
+   },
+   "options": [
+    "I leave home at half past seven.",
+    "I leave home in half past seven.",
+    "I leaving home half seven."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Half past seven."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ rings at six.",
+   "options": [
+    "alarm clock",
+    "routine",
+    "commute"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Alarm clock."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "translate",
+   "prompt": {
+    "uk": "Скільки це займає?"
+   },
+   "answers": [
+    "How long does it take"
+   ],
+   "explanation": {
+    "uk": "How long does it take?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "First I have breakfast. After that I commute by bus. It takes an hour.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки триває дорога?"
+   },
+   "options": {
+    "uk": [
+     "Годину",
+     "Півгодини",
+     "Дві години"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "An hour."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I go to the gym ___ work.",
+   "options": [
+    "after",
+    "before the",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "After work."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "It takes twenty minutes.",
+    "It take twenty minutes.",
+    "It takes twenty minute."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It takes twenty minutes."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Нарешті я йду додому."
+   },
+   "words": [
+    "Finally",
+    "I",
+    "go",
+    "home",
+    "first",
+    "goes"
+   ],
+   "answer": [
+    "Finally",
+    "I",
+    "go",
+    "home"
+   ],
+   "explanation": {
+    "uk": "Finally I go home."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я працюю з дев'ятої до п'ятої."
+   },
+   "answers": [
+    "I work from nine to five"
+   ],
+   "explanation": {
+    "uk": "I work from nine to five."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I sleep ___ night.",
+   "options": [
+    "at",
+    "in",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At night."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "listening",
+   "audioText": "At the weekend I sleep late and have a long breakfast.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина робить на вихідних?"
+   },
+   "options": {
+    "uk": [
+     "Спить допізна й довго снідає",
+     "Працює",
+     "Рано встає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sleeps late."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Щоранку я бігаю."
+   },
+   "words": [
+    "I",
+    "run",
+    "every",
+    "morning",
+    "runs",
+    "all"
+   ],
+   "answer": [
+    "I",
+    "run",
+    "every",
+    "morning"
+   ],
+   "explanation": {
+    "uk": "I run every morning."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you do in the evening?",
+   "prompt": {
+    "uk": "Дивитеся телевізор. Що відповісти?"
+   },
+   "options": [
+    "I watch TV.",
+    "I watching TV.",
+    "I am watch TV."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I watch TV."
+   }
+  }
+ ]
+}

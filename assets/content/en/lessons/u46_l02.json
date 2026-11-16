@@ -1,0 +1,321 @@
+{
+ "id": "u46_l02",
+ "unit": "u46",
+ "cefr": "A1",
+ "title": {
+  "uk": "Де стоять слова частоти"
+ },
+ "goal": {
+  "uk": "Правильно ставити слова частоти в реченні."
+ },
+ "rule": {
+  "uk": "Слово частоти стоїть ПЕРЕД дієсловом: I always get up early. Але ПІСЛЯ am/is/are: She is always late. Hardly ever і rarely стоять так само. Не кажіть I get up always. Фрази from time to time, as usual — на початку чи в кінці речення."
+ },
+ "words": [
+  {
+   "id": "ever",
+   "text": "ever",
+   "ipa": "/ˈevə/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "коли-небудь"
+   },
+   "example": "Do you ever walk to work?",
+   "exampleTranslation": {
+    "uk": "Ви коли-небудь ходите на роботу пішки?"
+   }
+  },
+  {
+   "id": "from_time_to_time",
+   "text": "from time to time",
+   "ipa": "/frəm ˌtaɪm tə ˈtaɪm/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "час від часу"
+   },
+   "example": "From time to time I cook.",
+   "exampleTranslation": {
+    "uk": "Час від часу я готую."
+   }
+  },
+  {
+   "id": "as_usual",
+   "text": "as usual",
+   "ipa": "/əz ˈjuːʒuəl/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "як завжди"
+   },
+   "example": "As usual, he is late.",
+   "exampleTranslation": {
+    "uk": "Як завжди, він спізнюється."
+   }
+  },
+  {
+   "id": "all_the_time",
+   "text": "all the time",
+   "ipa": "/ˌɔːl ðə ˈtaɪm/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "постійно"
+   },
+   "example": "She is on the phone all the time.",
+   "exampleTranslation": {
+    "uk": "Вона постійно говорить по телефону."
+   }
+  },
+  {
+   "id": "now_and_then",
+   "text": "now and then",
+   "ipa": "/ˌnaʊ ənd ˈðen/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "інколи"
+   },
+   "example": "Now and then we eat out.",
+   "exampleTranslation": {
+    "uk": "Інколи ми їмо поза домом."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ eat sweets.",
+   "options": [
+    "rarely",
+    "rare",
+    "rareness"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Rarely."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "ever",
+     "right": {
+      "uk": "коли-небудь"
+     }
+    },
+    {
+     "left": "from time to time",
+     "right": {
+      "uk": "час від часу"
+     }
+    },
+    {
+     "left": "as usual",
+     "right": {
+      "uk": "як завжди"
+     }
+    },
+    {
+     "left": "all the time",
+     "right": {
+      "uk": "постійно"
+     }
+    },
+    {
+     "left": "now and then",
+     "right": {
+      "uk": "інколи"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова частоти."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "As usual, he is late.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Як завжди, він спізнюється",
+     "Він сьогодні рано",
+     "Він не прийшов"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "As usual."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She is on the phone all the time.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить жінка?"
+   },
+   "options": {
+    "uk": [
+     "Постійно говорить по телефону",
+     "Рідко говорить по телефону",
+     "Не має телефона"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "All the time."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Now and then we eat out.",
+   "prompt": {
+    "uk": "Прослухайте. Як часто вони їдять поза домом?"
+   },
+   "options": {
+    "uk": [
+     "Інколи",
+     "Щодня",
+     "Ніколи"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Now and then."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Do you ___ walk to work?",
+   "options": [
+    "ever",
+    "never",
+    "all"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ever — у запитанні."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She is ___ late.",
+   "options": [
+    "always",
+    "late always",
+    "always is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Always після is."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ get up early.",
+   "options": [
+    "always",
+    "get always",
+    "am always"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Always перед дієсловом."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке речення правильне?"
+   },
+   "options": [
+    "I always get up early.",
+    "I get up always early.",
+    "Always I am get up."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Always before the verb."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вона завжди спізнюється."
+   },
+   "words": [
+    "She",
+    "is",
+    "always",
+    "late",
+    "has",
+    "always is"
+   ],
+   "answer": [
+    "She",
+    "is",
+    "always",
+    "late"
+   ],
+   "explanation": {
+    "uk": "She is always late."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Час від часу я готую."
+   },
+   "answers": [
+    "From time to time I cook",
+    "I cook from time to time"
+   ],
+   "explanation": {
+    "uk": "From time to time I cook."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you ever eat out?",
+   "prompt": {
+    "uk": "Інколи. Що відповісти?"
+   },
+   "options": [
+    "Yes, now and then.",
+    "Yes, now and then am.",
+    "Yes, then and now I."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, now and then."
+   }
+  }
+ ]
+}

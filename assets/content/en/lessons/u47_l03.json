@@ -1,0 +1,324 @@
+{
+ "id": "u47_l03",
+ "unit": "u47",
+ "cefr": "A1",
+ "title": {
+  "uk": "Клієнти й терміни"
+ },
+ "goal": {
+  "uk": "Розповісти про клієнтів, домовленості й терміни."
+ },
+ "rule": {
+  "uk": "Customer — покупець, client — клієнт (послуг). Task — завдання. Deadline — крайній термін. Schedule — розклад. Приклад: I have an appointment with a client at three. The deadline is Friday."
+ },
+ "words": [
+  {
+   "id": "customer",
+   "text": "customer",
+   "ipa": "/ˈkʌstəmə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "покупець"
+   },
+   "example": "The customer is waiting.",
+   "exampleTranslation": {
+    "uk": "Покупець чекає."
+   }
+  },
+  {
+   "id": "client",
+   "text": "client",
+   "ipa": "/ˈklaɪənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "клієнт"
+   },
+   "example": "I have a client at three.",
+   "exampleTranslation": {
+    "uk": "У мене клієнт о третій."
+   }
+  },
+  {
+   "id": "task",
+   "text": "task",
+   "ipa": "/tɑːsk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "завдання"
+   },
+   "example": "My first task is easy.",
+   "exampleTranslation": {
+    "uk": "Моє перше завдання легке."
+   }
+  },
+  {
+   "id": "deadline",
+   "text": "deadline",
+   "ipa": "/ˈdedlaɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "крайній термін"
+   },
+   "example": "The deadline is Friday.",
+   "exampleTranslation": {
+    "uk": "Крайній термін — п'ятниця."
+   }
+  },
+  {
+   "id": "schedule",
+   "text": "schedule",
+   "ipa": "/ˈʃedjuːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "розклад"
+   },
+   "example": "My schedule is busy.",
+   "exampleTranslation": {
+    "uk": "Мій розклад напружений."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you do at work?",
+   "prompt": {
+    "uk": "Повторимо. Ви надсилаєте листи. Що відповісти?"
+   },
+   "options": [
+    "I send emails.",
+    "I am send emails.",
+    "I sending emails."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I send emails."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "customer",
+     "right": {
+      "uk": "покупець"
+     }
+    },
+    {
+     "left": "client",
+     "right": {
+      "uk": "клієнт"
+     }
+    },
+    {
+     "left": "task",
+     "right": {
+      "uk": "завдання"
+     }
+    },
+    {
+     "left": "deadline",
+     "right": {
+      "uk": "крайній термін"
+     }
+    },
+    {
+     "left": "schedule",
+     "right": {
+      "uk": "розклад"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про клієнтів і терміни."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The customer is waiting.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить покупець?"
+   },
+   "options": {
+    "uk": [
+     "Чекає",
+     "Платить",
+     "Йде"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Waiting."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I have an appointment at four.",
+   "prompt": {
+    "uk": "Прослухайте. Коли запис?"
+   },
+   "options": {
+    "uk": [
+     "О четвертій",
+     "О третій",
+     "О п'ятій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At four."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The deadline is Friday.",
+   "prompt": {
+    "uk": "Прослухайте. Коли крайній термін?"
+   },
+   "options": {
+    "uk": [
+     "У п'ятницю",
+     "У четвер",
+     "У середу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Friday."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is Friday.",
+   "options": [
+    "deadline",
+    "customer",
+    "schedule"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Deadline."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___ at three. (клієнт)",
+   "options": [
+    "client",
+    "customer is",
+    "appointment's"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Client."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ is busy.",
+   "options": [
+    "schedule",
+    "deadline",
+    "report"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Schedule."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Хто купує товар у магазині?"
+   },
+   "options": [
+    "customer",
+    "client",
+    "colleague"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Customer."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене запис на четверту."
+   },
+   "words": [
+    "I",
+    "have",
+    "an",
+    "appointment",
+    "at",
+    "four",
+    "has",
+    "a"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "an",
+    "appointment",
+    "at",
+    "four"
+   ],
+   "explanation": {
+    "uk": "I have an appointment at four."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Крайній термін — п'ятниця."
+   },
+   "answers": [
+    "The deadline is Friday"
+   ],
+   "explanation": {
+    "uk": "The deadline is Friday."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "When is the deadline?",
+   "prompt": {
+    "uk": "У п'ятницю. Що відповісти?"
+   },
+   "options": [
+    "It is on Friday.",
+    "It is Friday on.",
+    "It are Friday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It is on Friday."
+   }
+  }
+ ]
+}

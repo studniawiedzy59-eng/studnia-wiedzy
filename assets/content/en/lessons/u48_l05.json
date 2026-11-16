@@ -1,0 +1,326 @@
+{
+ "id": "u48_l05",
+ "unit": "u48",
+ "cefr": "A1",
+ "title": {
+  "uk": "Завдання й виступи"
+ },
+ "goal": {
+  "uk": "Розповісти про письмові й усні завдання."
+ },
+ "rule": {
+  "uk": "Essay — твір, presentation — презентація, hand in — здавати (роботу), take notes — вести нотатки, group work — робота в групі. Приклад: I hand in my essay on Friday. We prepare a presentation in a group."
+ },
+ "words": [
+  {
+   "id": "essay",
+   "text": "essay",
+   "ipa": "/ˈeseɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "твір, есе"
+   },
+   "example": "I write an essay.",
+   "exampleTranslation": {
+    "uk": "Я пишу есе."
+   }
+  },
+  {
+   "id": "presentation",
+   "text": "presentation",
+   "ipa": "/ˌpreznˈteɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "презентація"
+   },
+   "example": "We prepare a presentation.",
+   "exampleTranslation": {
+    "uk": "Ми готуємо презентацію."
+   }
+  },
+  {
+   "id": "hand_in",
+   "text": "hand in",
+   "ipa": "/ˌhænd ˈɪn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "здавати (роботу)"
+   },
+   "example": "I hand in my essay on Friday.",
+   "exampleTranslation": {
+    "uk": "Я здаю есе в п'ятницю."
+   }
+  },
+  {
+   "id": "group_work",
+   "text": "group work",
+   "ipa": "/ˈɡruːp wɜːk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "робота в групі"
+   },
+   "example": "Group work is fun.",
+   "exampleTranslation": {
+    "uk": "Групова робота цікава."
+   }
+  },
+  {
+   "id": "prepare",
+   "text": "prepare",
+   "ipa": "/prɪˈpeə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "готувати"
+   },
+   "example": "I prepare for the test.",
+   "exampleTranslation": {
+    "uk": "Я готуюся до контрольної."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you remember this word?",
+   "prompt": {
+    "uk": "Повторимо. Ні. Що відповісти?"
+   },
+   "options": [
+    "No, I forget it.",
+    "No, I am forget.",
+    "No, I forgetting it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, I forget it."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "essay",
+     "right": {
+      "uk": "есе"
+     }
+    },
+    {
+     "left": "presentation",
+     "right": {
+      "uk": "презентація"
+     }
+    },
+    {
+     "left": "hand in",
+     "right": {
+      "uk": "здавати"
+     }
+    },
+    {
+     "left": "group work",
+     "right": {
+      "uk": "робота в групі"
+     }
+    },
+    {
+     "left": "prepare",
+     "right": {
+      "uk": "готувати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про завдання."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I hand in my essay on Friday.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина здає есе?"
+   },
+   "options": {
+    "uk": [
+     "У п'ятницю",
+     "У четвер",
+     "У середу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Friday."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We prepare a presentation in a group.",
+   "prompt": {
+    "uk": "Прослухайте. Що готує група?"
+   },
+   "options": {
+    "uk": [
+     "Презентацію",
+     "Твір",
+     "Іспит"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A presentation."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Group work is fun.",
+   "prompt": {
+    "uk": "Прослухайте. Що кажуть про групову роботу?"
+   },
+   "options": {
+    "uk": [
+     "Вона цікава",
+     "Вона нудна",
+     "Вона важка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fun."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I write an ___.",
+   "options": [
+    "essay",
+    "presentation",
+    "hand"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Essay."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ in my essay on Friday.",
+   "options": [
+    "hand",
+    "give",
+    "take"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hand in."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ a presentation.",
+   "options": [
+    "prepare",
+    "prepares",
+    "preparing"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Prepare."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я готуюся до контрольної»?"
+   },
+   "options": [
+    "I prepare for the test.",
+    "I prepare to the test.",
+    "I preparing the test."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Prepare for."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я здаю есе в п'ятницю."
+   },
+   "words": [
+    "I",
+    "hand",
+    "in",
+    "my",
+    "essay",
+    "on",
+    "Friday",
+    "hands",
+    "in on"
+   ],
+   "answer": [
+    "I",
+    "hand",
+    "in",
+    "my",
+    "essay",
+    "on",
+    "Friday"
+   ],
+   "explanation": {
+    "uk": "I hand in my essay on Friday."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми готуємо презентацію."
+   },
+   "answers": [
+    "We prepare a presentation"
+   ],
+   "explanation": {
+    "uk": "We prepare a presentation."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you like group work?",
+   "prompt": {
+    "uk": "Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, I do.",
+    "Yes, I like do.",
+    "Yes, I am."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I do."
+   }
+  }
+ ]
+}

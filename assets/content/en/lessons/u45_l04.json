@@ -1,0 +1,330 @@
+{
+ "id": "u45_l04",
+ "unit": "u45",
+ "cefr": "A1",
+ "title": {
+  "uk": "Що за чим?"
+ },
+ "goal": {
+  "uk": "Розповісти, що йде за чим."
+ },
+ "rule": {
+  "uk": "Ви вже знаєте first, then, after that, finally. Додаємо: before that — перед цим, afterwards — згодом, meanwhile — тим часом, at last — нарешті. Before — перед (before work), after — після (after work). Приклад: First I have breakfast. Then I go to work."
+ },
+ "words": [
+  {
+   "id": "before_that",
+   "text": "before that",
+   "ipa": "/bɪˈfɔː ðæt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "перед цим"
+   },
+   "example": "Before that I take a shower.",
+   "exampleTranslation": {
+    "uk": "Перед цим я приймаю душ."
+   }
+  },
+  {
+   "id": "afterwards",
+   "text": "afterwards",
+   "ipa": "/ˈɑːftəwədz/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "згодом, після того"
+   },
+   "example": "I have lunch. Afterwards I rest.",
+   "exampleTranslation": {
+    "uk": "Я обідаю. Після цього відпочиваю."
+   }
+  },
+  {
+   "id": "meanwhile",
+   "text": "meanwhile",
+   "ipa": "/ˈmiːnwaɪl/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "тим часом"
+   },
+   "example": "Meanwhile my wife cooks.",
+   "exampleTranslation": {
+    "uk": "Тим часом дружина готує."
+   }
+  },
+  {
+   "id": "at_last",
+   "text": "at last",
+   "ipa": "/ət ˈlɑːst/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "нарешті, зрештою"
+   },
+   "example": "At last I'm at home.",
+   "exampleTranslation": {
+    "uk": "Нарешті я вдома."
+   }
+  },
+  {
+   "id": "after_work",
+   "text": "after work",
+   "ipa": "/ˌɑːftə ˈwɜːk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "після роботи"
+   },
+   "example": "I go to the gym after work.",
+   "exampleTranslation": {
+    "uk": "Після роботи я йду в спортзал."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How long does it take?",
+   "prompt": {
+    "uk": "Повторимо. Двадцять хвилин. Що відповісти?"
+   },
+   "options": [
+    "It takes twenty minutes.",
+    "It take twenty minutes.",
+    "It is twenty takes."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It takes twenty minutes."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "before that",
+     "right": {
+      "uk": "перед цим"
+     }
+    },
+    {
+     "left": "afterwards",
+     "right": {
+      "uk": "згодом"
+     }
+    },
+    {
+     "left": "meanwhile",
+     "right": {
+      "uk": "тим часом"
+     }
+    },
+    {
+     "left": "at last",
+     "right": {
+      "uk": "нарешті"
+     }
+    },
+    {
+     "left": "after work",
+     "right": {
+      "uk": "після роботи"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова послідовності."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "First I have breakfast. Then I go to work.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина робить спершу?"
+   },
+   "options": {
+    "uk": [
+     "Снідає",
+     "Їде на роботу",
+     "Обідає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Breakfast."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "After work I go to the gym.",
+   "prompt": {
+    "uk": "Прослухайте. Куди йде людина після роботи?"
+   },
+   "options": {
+    "uk": [
+     "У спортзал",
+     "Додому",
+     "У магазин"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The gym."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I have lunch. Afterwards I rest.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина робить після обіду?"
+   },
+   "options": {
+    "uk": [
+     "Відпочиває",
+     "Працює",
+     "Іде додому"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Afterwards I rest."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ I have breakfast. Then I go to work.",
+   "options": [
+    "First",
+    "Finally",
+    "After"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "First — спершу."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have lunch. ___ I rest.",
+   "options": [
+    "Afterwards",
+    "Midnight",
+    "First of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Afterwards."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I go to the gym ___ work.",
+   "options": [
+    "after",
+    "then",
+    "first"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "After work."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «тим часом»?"
+   },
+   "options": [
+    "meanwhile",
+    "later",
+    "at last"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Meanwhile."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Спершу я снідаю, потім іду на роботу."
+   },
+   "words": [
+    "First",
+    "I",
+    "have",
+    "breakfast",
+    "then",
+    "I",
+    "go",
+    "to",
+    "work",
+    "after",
+    "finally"
+   ],
+   "answer": [
+    "First",
+    "I",
+    "have",
+    "breakfast",
+    "then",
+    "I",
+    "go",
+    "to",
+    "work"
+   ],
+   "explanation": {
+    "uk": "First I have breakfast, then I go to work."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Після роботи я йду додому."
+   },
+   "answers": [
+    "After work I go home"
+   ],
+   "explanation": {
+    "uk": "After work I go home."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you do after work?",
+   "prompt": {
+    "uk": "Ви йдете в спортзал. Що відповісти?"
+   },
+   "options": [
+    "I go to the gym.",
+    "I going to gym.",
+    "I am go to the gym."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I go to the gym."
+   }
+  }
+ ]
+}

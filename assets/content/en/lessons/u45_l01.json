@@ -1,0 +1,324 @@
+{
+ "id": "u45_l01",
+ "unit": "u45",
+ "cefr": "A1",
+ "title": {
+  "uk": "Мій ранок"
+ },
+ "goal": {
+  "uk": "Розповісти про ранок докладніше."
+ },
+ "rule": {
+  "uk": "Ранок описуємо дієсловами в Present Simple: I wake up at six. I leave home at seven. Alarm clock — будильник, routine — звичний розпорядок, commute — діставатися на роботу. In the morning — вранці."
+ },
+ "words": [
+  {
+   "id": "alarm_clock",
+   "text": "alarm clock",
+   "ipa": "/əˈlɑːm klɒk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "будильник"
+   },
+   "example": "My alarm clock rings at six.",
+   "exampleTranslation": {
+    "uk": "Мій будильник дзвонить о шостій."
+   }
+  },
+  {
+   "id": "routine",
+   "text": "routine",
+   "ipa": "/ruːˈtiːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "звичний розпорядок"
+   },
+   "example": "My morning routine is simple.",
+   "exampleTranslation": {
+    "uk": "Мій ранковий розпорядок простий."
+   }
+  },
+  {
+   "id": "leave_home",
+   "text": "leave home",
+   "ipa": "/ˌliːv ˈhəʊm/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "виходити з дому"
+   },
+   "example": "I leave home at seven.",
+   "exampleTranslation": {
+    "uk": "Я виходжу з дому о сьомій."
+   }
+  },
+  {
+   "id": "commute",
+   "text": "commute",
+   "ipa": "/kəˈmjuːt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "їздити на роботу"
+   },
+   "example": "I commute by bus.",
+   "exampleTranslation": {
+    "uk": "Я їжджу на роботу автобусом."
+   }
+  },
+  {
+   "id": "in_the_morning",
+   "text": "in the morning",
+   "ipa": "/ɪn ðə ˈmɔːnɪŋ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "вранці"
+   },
+   "example": "I drink coffee in the morning.",
+   "exampleTranslation": {
+    "uk": "Вранці я п'ю каву."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is he honest?",
+   "prompt": {
+    "uk": "Повторимо. Так, дуже. Що відповісти?"
+   },
+   "options": [
+    "Yes, he is very honest.",
+    "Yes, he very honest.",
+    "Yes, he has honest."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, he is very honest."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "alarm clock",
+     "right": {
+      "uk": "будильник"
+     }
+    },
+    {
+     "left": "routine",
+     "right": {
+      "uk": "розпорядок"
+     }
+    },
+    {
+     "left": "leave home",
+     "right": {
+      "uk": "виходити з дому"
+     }
+    },
+    {
+     "left": "commute",
+     "right": {
+      "uk": "їздити на роботу"
+     }
+    },
+    {
+     "left": "in the morning",
+     "right": {
+      "uk": "вранці"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про ранок."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My alarm clock rings at six.",
+   "prompt": {
+    "uk": "Прослухайте. Коли дзвонить будильник?"
+   },
+   "options": {
+    "uk": [
+     "О шостій",
+     "О сьомій",
+     "О п'ятій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At six."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I leave home at seven.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина виходить з дому?"
+   },
+   "options": {
+    "uk": [
+     "О сьомій",
+     "О восьмій",
+     "О шостій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At seven."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I commute by bus.",
+   "prompt": {
+    "uk": "Прослухайте. Чим їде людина?"
+   },
+   "options": {
+    "uk": [
+     "Автобусом",
+     "Потягом",
+     "Машиною"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "By bus."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ rings at six.",
+   "options": [
+    "alarm clock",
+    "routine",
+    "commute"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Alarm clock."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ home at seven.",
+   "options": [
+    "leave",
+    "leaves",
+    "leaving"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I leave."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I drink coffee ___ the morning.",
+   "options": [
+    "in",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In the morning."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я їжджу на роботу автобусом»?"
+   },
+   "options": [
+    "I commute by bus.",
+    "I commute with bus.",
+    "I am commute bus."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "By bus."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мій будильник дзвонить о шостій."
+   },
+   "words": [
+    "My",
+    "alarm",
+    "clock",
+    "rings",
+    "at",
+    "six",
+    "ring",
+    "in"
+   ],
+   "answer": [
+    "My",
+    "alarm",
+    "clock",
+    "rings",
+    "at",
+    "six"
+   ],
+   "explanation": {
+    "uk": "My alarm clock rings at six."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я виходжу з дому о сьомій."
+   },
+   "answers": [
+    "I leave home at seven"
+   ],
+   "explanation": {
+    "uk": "I leave home at seven."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What time do you leave home?",
+   "prompt": {
+    "uk": "О пів на восьму. Що відповісти?"
+   },
+   "options": [
+    "I leave home at half past seven.",
+    "I leave home in half past seven.",
+    "I leaving home half seven."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At half past seven."
+   }
+  }
+ ]
+}

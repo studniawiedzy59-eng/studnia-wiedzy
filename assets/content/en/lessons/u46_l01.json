@@ -1,0 +1,318 @@
+{
+ "id": "u46_l01",
+ "unit": "u46",
+ "cefr": "A1",
+ "title": {
+  "uk": "Рідко чи регулярно"
+ },
+ "goal": {
+  "uk": "Точніше сказати, як часто щось відбувається."
+ },
+ "rule": {
+  "uk": "Ви знаєте always, usually, often, sometimes, never. Додаємо: normally — зазвичай, regularly — регулярно, rarely — рідко, hardly ever — майже ніколи. Приклад: I rarely eat sweets. He hardly ever calls me."
+ },
+ "words": [
+  {
+   "id": "normally",
+   "text": "normally",
+   "ipa": "/ˈnɔːməli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "зазвичай"
+   },
+   "example": "I normally get up at seven.",
+   "exampleTranslation": {
+    "uk": "Зазвичай я встаю о сьомій."
+   }
+  },
+  {
+   "id": "regularly",
+   "text": "regularly",
+   "ipa": "/ˈreɡjələli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "регулярно"
+   },
+   "example": "I exercise regularly.",
+   "exampleTranslation": {
+    "uk": "Я регулярно займаюся спортом."
+   }
+  },
+  {
+   "id": "rarely",
+   "text": "rarely",
+   "ipa": "/ˈreəli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "рідко"
+   },
+   "example": "I rarely eat sweets.",
+   "exampleTranslation": {
+    "uk": "Я рідко їм солодощі."
+   }
+  },
+  {
+   "id": "hardly_ever",
+   "text": "hardly ever",
+   "ipa": "/ˌhɑːdli ˈevə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "майже ніколи"
+   },
+   "example": "He hardly ever calls me.",
+   "exampleTranslation": {
+    "uk": "Він майже ніколи не телефонує мені."
+   }
+  },
+  {
+   "id": "most_of_the_time",
+   "text": "most of the time",
+   "ipa": "/ˌməʊst əv ðə ˈtaɪm/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "здебільшого"
+   },
+   "example": "Most of the time I walk to work.",
+   "exampleTranslation": {
+    "uk": "Здебільшого я йду на роботу пішки."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How long does it take?",
+   "prompt": {
+    "uk": "Повторимо. Приблизно двадцять хвилин. Що відповісти?"
+   },
+   "options": [
+    "It takes roughly twenty minutes.",
+    "It take roughly twenty minutes.",
+    "It is takes twenty minutes."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It takes roughly twenty minutes."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "normally",
+     "right": {
+      "uk": "зазвичай"
+     }
+    },
+    {
+     "left": "regularly",
+     "right": {
+      "uk": "регулярно"
+     }
+    },
+    {
+     "left": "rarely",
+     "right": {
+      "uk": "рідко"
+     }
+    },
+    {
+     "left": "hardly ever",
+     "right": {
+      "uk": "майже ніколи"
+     }
+    },
+    {
+     "left": "most of the time",
+     "right": {
+      "uk": "здебільшого"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова про частоту."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I rarely eat sweets.",
+   "prompt": {
+    "uk": "Прослухайте. Як часто людина їсть солодощі?"
+   },
+   "options": {
+    "uk": [
+     "Рідко",
+     "Часто",
+     "Щодня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Rarely."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He hardly ever calls me.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Він майже ніколи не телефонує",
+     "Він часто телефонує",
+     "Він телефонує щодня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hardly ever."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I exercise regularly.",
+   "prompt": {
+    "uk": "Прослухайте. Як людина займається спортом?"
+   },
+   "options": {
+    "uk": [
+     "Регулярно",
+     "Рідко",
+     "Ніколи"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Regularly."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ eat sweets. (рідко)",
+   "options": [
+    "rarely",
+    "always",
+    "regularly"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Rarely."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ ever calls me.",
+   "options": [
+    "hardly",
+    "rare",
+    "never"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hardly ever."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ get up at seven.",
+   "options": [
+    "normally",
+    "rarely never",
+    "hardly"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Normally."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «майже ніколи»?"
+   },
+   "options": [
+    "hardly ever",
+    "normally",
+    "regularly"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hardly ever."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я регулярно займаюся спортом."
+   },
+   "words": [
+    "I",
+    "exercise",
+    "regularly",
+    "exercises",
+    "rarely"
+   ],
+   "answer": [
+    "I",
+    "exercise",
+    "regularly"
+   ],
+   "explanation": {
+    "uk": "I exercise regularly."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я рідко їм солодощі."
+   },
+   "answers": [
+    "I rarely eat sweets"
+   ],
+   "explanation": {
+    "uk": "I rarely eat sweets."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you exercise?",
+   "prompt": {
+    "uk": "Так, регулярно. Що відповісти?"
+   },
+   "options": [
+    "Yes, I exercise regularly.",
+    "Yes, I regularly exercise am.",
+    "Yes, I am exercise regularly."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I exercise regularly."
+   }
+  }
+ ]
+}
