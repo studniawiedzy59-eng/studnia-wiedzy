@@ -1,0 +1,326 @@
+{
+ "id": "u58_l01",
+ "unit": "u58",
+ "cefr": "A1",
+ "title": {
+  "uk": "Меблі й текстиль"
+ },
+ "goal": {
+  "uk": "Назвати меблі вдома."
+ },
+ "rule": {
+  "uk": "Armchair — крісло, wardrobe — шафа для одягу, bookcase — книжкова шафа, cushion — подушка (декоративна), rug — килимок. Приклад: The armchair is next to the window. There is a rug under the table."
+ },
+ "words": [
+  {
+   "id": "armchair",
+   "text": "armchair",
+   "ipa": "/ˈɑːmtʃeə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "крісло"
+   },
+   "example": "The armchair is very comfortable.",
+   "exampleTranslation": {
+    "uk": "Крісло дуже зручне."
+   }
+  },
+  {
+   "id": "wardrobe",
+   "text": "wardrobe",
+   "ipa": "/ˈwɔːdrəʊb/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шафа для одягу"
+   },
+   "example": "My clothes are in the wardrobe.",
+   "exampleTranslation": {
+    "uk": "Мій одяг у шафі."
+   }
+  },
+  {
+   "id": "bookcase",
+   "text": "bookcase",
+   "ipa": "/ˈbʊkkeɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "книжкова шафа"
+   },
+   "example": "The bookcase is full.",
+   "exampleTranslation": {
+    "uk": "Книжкова шафа повна."
+   }
+  },
+  {
+   "id": "cushion",
+   "text": "cushion",
+   "ipa": "/ˈkʊʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "декоративна подушка"
+   },
+   "example": "A red cushion on the sofa.",
+   "exampleTranslation": {
+    "uk": "Червона подушка на дивані."
+   }
+  },
+  {
+   "id": "rug",
+   "text": "rug",
+   "ipa": "/rʌɡ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "килимок"
+   },
+   "example": "There is a rug under the table.",
+   "exampleTranslation": {
+    "uk": "Під столом лежить килимок."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you like about your flat?",
+   "prompt": {
+    "uk": "Повторимо. Вона світла. Що відповісти?"
+   },
+   "options": [
+    "It's bright.",
+    "It is bright it.",
+    "It bright is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's bright."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "armchair",
+     "right": {
+      "uk": "крісло"
+     }
+    },
+    {
+     "left": "wardrobe",
+     "right": {
+      "uk": "шафа для одягу"
+     }
+    },
+    {
+     "left": "bookcase",
+     "right": {
+      "uk": "книжкова шафа"
+     }
+    },
+    {
+     "left": "cushion",
+     "right": {
+      "uk": "декоративна подушка"
+     }
+    },
+    {
+     "left": "rug",
+     "right": {
+      "uk": "килимок"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My clothes are in the wardrobe.",
+   "prompt": {
+    "uk": "Прослухайте. Де одяг?"
+   },
+   "options": {
+    "uk": [
+     "У шафі",
+     "У валізі",
+     "На ліжку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Wardrobe."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The bookcase is full.",
+   "prompt": {
+    "uk": "Прослухайте. Що повне?"
+   },
+   "options": {
+    "uk": [
+     "Книжкова шафа",
+     "Шафа для одягу",
+     "Холодильник"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bookcase."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "There is a rug under the table.",
+   "prompt": {
+    "uk": "Прослухайте. Де килимок?"
+   },
+   "options": {
+    "uk": [
+     "Під столом",
+     "На столі",
+     "За столом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Under."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My clothes are in the ___.",
+   "options": [
+    "wardrobe",
+    "bookcase",
+    "rug"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Одяг — у wardrobe."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is very comfortable.",
+   "options": [
+    "armchair",
+    "wardrobe",
+    "rug"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Крісло."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A red ___ on the sofa.",
+   "options": [
+    "cushion",
+    "bookcase",
+    "wardrobe"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Подушка на дивані."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке rug?"
+   },
+   "options": {
+    "uk": [
+     "килимок",
+     "крісло",
+     "подушка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Rug — килимок."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мій одяг у шафі."
+   },
+   "words": [
+    "My",
+    "clothes",
+    "are",
+    "in",
+    "the",
+    "wardrobe",
+    "bookcase",
+    "is"
+   ],
+   "answer": [
+    "My",
+    "clothes",
+    "are",
+    "in",
+    "the",
+    "wardrobe"
+   ],
+   "explanation": {
+    "uk": "My clothes are in the wardrobe."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Крісло дуже зручне."
+   },
+   "answers": [
+    "The armchair is very comfortable"
+   ],
+   "explanation": {
+    "uk": "The armchair is very comfortable."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where are your books?",
+   "prompt": {
+    "uk": "У книжковій шафі. Що відповісти?"
+   },
+   "options": [
+    "They're in the bookcase.",
+    "They are on bookcase in.",
+    "Books in the bookcase is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "They're in the bookcase."
+   }
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "id": "u57_l04",
+ "unit": "u57",
+ "cefr": "A1",
+ "title": {
+  "uk": "Який дім?"
+ },
+ "goal": {
+  "uk": "Описати своє житло."
+ },
+ "rule": {
+  "uk": "Spacious — просторий, cosy — затишний, bright — світлий, messy — захаращений, nearby — поблизу. Приклад: The flat is bright and cosy. The shops are nearby."
+ },
+ "words": [
+  {
+   "id": "spacious",
+   "text": "spacious",
+   "ipa": "/ˈspeɪʃəs/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "просторий"
+   },
+   "example": "The living room is spacious.",
+   "exampleTranslation": {
+    "uk": "Вітальня простора."
+   }
+  },
+  {
+   "id": "cosy",
+   "text": "cosy",
+   "ipa": "/ˈkəʊzi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "затишний"
+   },
+   "example": "My bedroom is cosy.",
+   "exampleTranslation": {
+    "uk": "Моя спальня затишна."
+   }
+  },
+  {
+   "id": "bright",
+   "text": "bright",
+   "ipa": "/braɪt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "світлий"
+   },
+   "example": "The kitchen is bright.",
+   "exampleTranslation": {
+    "uk": "Кухня світла."
+   }
+  },
+  {
+   "id": "messy",
+   "text": "messy",
+   "ipa": "/ˈmesi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "неохайний, захаращений"
+   },
+   "example": "My desk is messy.",
+   "exampleTranslation": {
+    "uk": "На моєму столі безлад."
+   }
+  },
+  {
+   "id": "nearby",
+   "text": "nearby",
+   "ipa": "/ˌnɪəˈbaɪ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "поблизу"
+   },
+   "example": "The shops are nearby.",
+   "exampleTranslation": {
+    "uk": "Магазини поблизу."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is the flat furnished?",
+   "prompt": {
+    "uk": "Повторимо. Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, it is.",
+    "Yes, it furnished.",
+    "Yes, is furnished it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it is."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "spacious",
+     "right": {
+      "uk": "просторий"
+     }
+    },
+    {
+     "left": "cosy",
+     "right": {
+      "uk": "затишний"
+     }
+    },
+    {
+     "left": "bright",
+     "right": {
+      "uk": "світлий"
+     }
+    },
+    {
+     "left": "messy",
+     "right": {
+      "uk": "неохайний, захаращений"
+     }
+    },
+    {
+     "left": "nearby",
+     "right": {
+      "uk": "поблизу"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The living room is spacious.",
+   "prompt": {
+    "uk": "Прослухайте. Яка вітальня?"
+   },
+   "options": {
+    "uk": [
+     "Простора",
+     "Затишна",
+     "Темна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Spacious."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "My bedroom is cosy.",
+   "prompt": {
+    "uk": "Прослухайте. Яка спальня?"
+   },
+   "options": {
+    "uk": [
+     "Затишна",
+     "Світла",
+     "Тісна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cosy."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My desk is messy.",
+   "prompt": {
+    "uk": "Прослухайте. Що не так зі столом?"
+   },
+   "options": {
+    "uk": [
+     "На ньому безлад",
+     "Він старий",
+     "Він маленький"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Messy."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The living room is ___.",
+   "options": [
+    "spacious",
+    "messy",
+    "nearby"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Простора."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The kitchen is ___.",
+   "options": [
+    "bright",
+    "cosy",
+    "messy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Світла."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The shops are ___.",
+   "options": [
+    "nearby",
+    "spacious",
+    "bright"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Поблизу."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке cosy?"
+   },
+   "options": {
+    "uk": [
+     "затишний",
+     "просторий",
+     "світлий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cosy — затишний."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Моя спальня затишна."
+   },
+   "words": [
+    "My",
+    "bedroom",
+    "is",
+    "cosy",
+    "messy",
+    "are"
+   ],
+   "answer": [
+    "My",
+    "bedroom",
+    "is",
+    "cosy"
+   ],
+   "explanation": {
+    "uk": "My bedroom is cosy."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Магазини поблизу."
+   },
+   "answers": [
+    "The shops are nearby"
+   ],
+   "explanation": {
+    "uk": "The shops are nearby."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is your flat like?",
+   "prompt": {
+    "uk": "Світла й затишна. Що відповісти?"
+   },
+   "options": [
+    "It's bright and cosy.",
+    "It is bright and cosily.",
+    "It bright and cosy."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's bright and cosy."
+   }
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "id": "u58_l02",
+ "unit": "u58",
+ "cefr": "A1",
+ "title": {
+  "uk": "Спальня"
+ },
+ "goal": {
+  "uk": "Назвати речі в спальні."
+ },
+ "rule": {
+  "uk": "Sheet — простирадло, duvet — ковдра, mattress — матрац, curtains — штори, blinds — жалюзі. Curtains і blinds завжди у множині: The curtains are blue. Pillow ви знаєте — pillow and duvet."
+ },
+ "words": [
+  {
+   "id": "sheet",
+   "text": "sheet",
+   "ipa": "/ʃiːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "простирадло"
+   },
+   "example": "Clean sheets, please.",
+   "exampleTranslation": {
+    "uk": "Чисті простирадла, будь ласка."
+   }
+  },
+  {
+   "id": "duvet",
+   "text": "duvet",
+   "ipa": "/ˈduːveɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ковдра"
+   },
+   "example": "I need a warm duvet.",
+   "exampleTranslation": {
+    "uk": "Мені потрібна тепла ковдра."
+   }
+  },
+  {
+   "id": "mattress",
+   "text": "mattress",
+   "ipa": "/ˈmætrəs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "матрац"
+   },
+   "example": "The mattress is hard.",
+   "exampleTranslation": {
+    "uk": "Матрац твердий."
+   }
+  },
+  {
+   "id": "curtains",
+   "text": "curtains",
+   "ipa": "/ˈkɜːtnz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "штори"
+   },
+   "example": "The curtains are blue.",
+   "exampleTranslation": {
+    "uk": "Штори сині."
+   }
+  },
+  {
+   "id": "blinds",
+   "text": "blinds",
+   "ipa": "/blaɪndz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "жалюзі"
+   },
+   "example": "Please close the blinds.",
+   "exampleTranslation": {
+    "uk": "Закрийте жалюзі, будь ласка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where are your books?",
+   "prompt": {
+    "uk": "Повторимо. У книжковій шафі. Що відповісти?"
+   },
+   "options": [
+    "They're in the bookcase.",
+    "They are on bookcase in.",
+    "Books in the bookcase is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "They're in the bookcase."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "sheet",
+     "right": {
+      "uk": "простирадло"
+     }
+    },
+    {
+     "left": "duvet",
+     "right": {
+      "uk": "ковдра"
+     }
+    },
+    {
+     "left": "mattress",
+     "right": {
+      "uk": "матрац"
+     }
+    },
+    {
+     "left": "curtains",
+     "right": {
+      "uk": "штори"
+     }
+    },
+    {
+     "left": "blinds",
+     "right": {
+      "uk": "жалюзі"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I need a warm duvet.",
+   "prompt": {
+    "uk": "Прослухайте. Що потрібно людині?"
+   },
+   "options": {
+    "uk": [
+     "Тепла ковдра",
+     "Новий матрац",
+     "Чисте простирадло"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Duvet."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The mattress is hard.",
+   "prompt": {
+    "uk": "Прослухайте. Який матрац?"
+   },
+   "options": {
+    "uk": [
+     "Твердий",
+     "М'який",
+     "Новий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hard."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Please close the blinds.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Закрити жалюзі",
+     "Відчинити вікно",
+     "Зачинити двері"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Blinds."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I need a warm ___.",
+   "options": [
+    "duvet",
+    "blinds",
+    "curtains"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Duvet."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ are blue.",
+   "options": [
+    "curtains",
+    "mattress",
+    "sheet"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Curtains — множина."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Clean ___, please.",
+   "options": [
+    "sheets",
+    "sheet",
+    "duvet"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Простирадла — множина."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке mattress?"
+   },
+   "options": {
+    "uk": [
+     "матрац",
+     "ковдра",
+     "простирадло"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Mattress — матрац."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Штори сині."
+   },
+   "words": [
+    "The",
+    "curtains",
+    "are",
+    "blue",
+    "is",
+    "sheet"
+   ],
+   "answer": [
+    "The",
+    "curtains",
+    "are",
+    "blue"
+   ],
+   "explanation": {
+    "uk": "The curtains are blue."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Матрац твердий."
+   },
+   "answers": [
+    "The mattress is hard"
+   ],
+   "explanation": {
+    "uk": "The mattress is hard."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is the bed comfortable?",
+   "prompt": {
+    "uk": "Так, матрац м'який. Що відповісти?"
+   },
+   "options": [
+    "Yes, the mattress is soft.",
+    "Yes, mattress soft is.",
+    "Yes, it is comfortably."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, the mattress is soft."
+   }
+  }
+ ]
+}

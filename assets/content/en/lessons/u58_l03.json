@@ -1,0 +1,322 @@
+{
+ "id": "u58_l03",
+ "unit": "u58",
+ "cefr": "A1",
+ "title": {
+  "uk": "Побутова техніка"
+ },
+ "goal": {
+  "uk": "Назвати побутову техніку."
+ },
+ "rule": {
+  "uk": "Washing machine — пральна машина, dishwasher — посудомийна машина, cooker — плита, radiator — радіатор, air conditioning — кондиціонер. Приклад: The washing machine is in the bathroom. The cooker is new."
+ },
+ "words": [
+  {
+   "id": "washing_machine",
+   "text": "washing machine",
+   "ipa": "/ˈwɒʃɪŋ məˌʃiːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пральна машина"
+   },
+   "example": "The washing machine is in the bathroom.",
+   "exampleTranslation": {
+    "uk": "Пральна машина у ванній."
+   }
+  },
+  {
+   "id": "dishwasher",
+   "text": "dishwasher",
+   "ipa": "/ˈdɪʃwɒʃə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "посудомийна машина"
+   },
+   "example": "We have a dishwasher.",
+   "exampleTranslation": {
+    "uk": "У нас є посудомийна машина."
+   }
+  },
+  {
+   "id": "cooker",
+   "text": "cooker",
+   "ipa": "/ˈkʊkə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "плита"
+   },
+   "example": "The cooker is new.",
+   "exampleTranslation": {
+    "uk": "Плита нова."
+   }
+  },
+  {
+   "id": "radiator",
+   "text": "radiator",
+   "ipa": "/ˈreɪdieɪtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "радіатор"
+   },
+   "example": "The radiator is hot.",
+   "exampleTranslation": {
+    "uk": "Радіатор гарячий."
+   }
+  },
+  {
+   "id": "air_conditioning",
+   "text": "air conditioning",
+   "ipa": "/ˈeə kənˌdɪʃnɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кондиціонер"
+   },
+   "example": "The room has air conditioning.",
+   "exampleTranslation": {
+    "uk": "У кімнаті є кондиціонер."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is the bed comfortable?",
+   "prompt": {
+    "uk": "Повторимо. Так, матрац м'який. Що відповісти?"
+   },
+   "options": [
+    "Yes, the mattress is soft.",
+    "Yes, mattress soft is.",
+    "Yes, it is comfortably."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, the mattress is soft."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "washing machine",
+     "right": {
+      "uk": "пральна машина"
+     }
+    },
+    {
+     "left": "dishwasher",
+     "right": {
+      "uk": "посудомийна машина"
+     }
+    },
+    {
+     "left": "cooker",
+     "right": {
+      "uk": "плита"
+     }
+    },
+    {
+     "left": "radiator",
+     "right": {
+      "uk": "радіатор"
+     }
+    },
+    {
+     "left": "air conditioning",
+     "right": {
+      "uk": "кондиціонер"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The washing machine is in the bathroom.",
+   "prompt": {
+    "uk": "Прослухайте. Де пральна машина?"
+   },
+   "options": {
+    "uk": [
+     "У ванній",
+     "На кухні",
+     "У коридорі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bathroom."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We have a dishwasher.",
+   "prompt": {
+    "uk": "Прослухайте. Що в них є?"
+   },
+   "options": {
+    "uk": [
+     "Посудомийна машина",
+     "Пральна машина",
+     "Плита"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Dishwasher."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The room has air conditioning.",
+   "prompt": {
+    "uk": "Прослухайте. Що є в кімнаті?"
+   },
+   "options": {
+    "uk": [
+     "Кондиціонер",
+     "Радіатор",
+     "Телевізор"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Air conditioning."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is new.",
+   "options": [
+    "cooker",
+    "radiator",
+    "rug"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Плита."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is hot.",
+   "options": [
+    "radiator",
+    "dishwasher",
+    "mattress"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Радіатор."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The washing ___ is in the bathroom.",
+   "options": [
+    "machine",
+    "maker",
+    "cooker"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Washing machine."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке cooker?"
+   },
+   "options": {
+    "uk": [
+     "плита",
+     "радіатор",
+     "кондиціонер"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cooker — плита."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У нас є посудомийна машина."
+   },
+   "words": [
+    "We",
+    "have",
+    "a",
+    "dishwasher",
+    "has",
+    "cooker"
+   ],
+   "answer": [
+    "We",
+    "have",
+    "a",
+    "dishwasher"
+   ],
+   "explanation": {
+    "uk": "We have a dishwasher."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Плита нова."
+   },
+   "answers": [
+    "The cooker is new"
+   ],
+   "explanation": {
+    "uk": "The cooker is new."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you have in the kitchen?",
+   "prompt": {
+    "uk": "Плиту й посудомийну машину. Що відповісти?"
+   },
+   "options": [
+    "A cooker and a dishwasher.",
+    "Cooker and dishwasher have.",
+    "A cooker with dishwasher it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A cooker and a dishwasher."
+   }
+  }
+ ]
+}

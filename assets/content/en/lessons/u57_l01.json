@@ -1,0 +1,324 @@
+{
+ "id": "u57_l01",
+ "unit": "u57",
+ "cefr": "A1",
+ "title": {
+  "uk": "Типи житла"
+ },
+ "goal": {
+  "uk": "Сказати, де ви живете."
+ },
+ "rule": {
+  "uk": "Apartment — квартира (американською; британською кажуть flat, ви вже знаєте), detached house — окремий будинок, block of flats — багатоквартирний будинок. Basement — підвал, attic — горище. Приклад: I live in a block of flats. We have a small attic."
+ },
+ "words": [
+  {
+   "id": "apartment",
+   "text": "apartment",
+   "ipa": "/əˈpɑːtmənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "квартира"
+   },
+   "example": "I live in an apartment.",
+   "exampleTranslation": {
+    "uk": "Я живу в квартирі."
+   }
+  },
+  {
+   "id": "detached_house",
+   "text": "detached house",
+   "ipa": "/dɪˌtætʃt ˈhaʊs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "окремий будинок"
+   },
+   "example": "They have a detached house.",
+   "exampleTranslation": {
+    "uk": "У них окремий будинок."
+   }
+  },
+  {
+   "id": "block_of_flats",
+   "text": "block of flats",
+   "ipa": "/ˌblɒk əv ˈflæts/",
+   "pos": "noun",
+   "translation": {
+    "uk": "багатоквартирний будинок"
+   },
+   "example": "We live in a block of flats.",
+   "exampleTranslation": {
+    "uk": "Ми живемо в багатоквартирному будинку."
+   }
+  },
+  {
+   "id": "basement",
+   "text": "basement",
+   "ipa": "/ˈbeɪsmənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "підвал"
+   },
+   "example": "The gym is in the basement.",
+   "exampleTranslation": {
+    "uk": "Спортзал у підвалі."
+   }
+  },
+  {
+   "id": "attic",
+   "text": "attic",
+   "ipa": "/ˈætɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "горище"
+   },
+   "example": "Old boxes are in the attic.",
+   "exampleTranslation": {
+    "uk": "Старі коробки на горищі."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you like?",
+   "prompt": {
+    "uk": "Повторимо. Шкіряну сумку. Що відповісти?"
+   },
+   "options": [
+    "I like the leather bag.",
+    "I like leather the bag.",
+    "I liking leather bag."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I like the leather bag."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "apartment",
+     "right": {
+      "uk": "квартира"
+     }
+    },
+    {
+     "left": "detached house",
+     "right": {
+      "uk": "окремий будинок"
+     }
+    },
+    {
+     "left": "block of flats",
+     "right": {
+      "uk": "багатоквартирний будинок"
+     }
+    },
+    {
+     "left": "basement",
+     "right": {
+      "uk": "підвал"
+     }
+    },
+    {
+     "left": "attic",
+     "right": {
+      "uk": "горище"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I live in an apartment.",
+   "prompt": {
+    "uk": "Прослухайте. Де живе людина?"
+   },
+   "options": {
+    "uk": [
+     "У квартирі",
+     "В окремому будинку",
+     "У підвалі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Apartment."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "They have a detached house.",
+   "prompt": {
+    "uk": "Прослухайте. Що в них є?"
+   },
+   "options": {
+    "uk": [
+     "Окремий будинок",
+     "Квартира",
+     "Горище"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Detached house."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Old boxes are in the attic.",
+   "prompt": {
+    "uk": "Прослухайте. Де старі коробки?"
+   },
+   "options": {
+    "uk": [
+     "На горищі",
+     "У підвалі",
+     "У коридорі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Attic."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I live in a ___ of flats.",
+   "options": [
+    "block",
+    "house",
+    "room"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Block of flats."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The gym is in the ___.",
+   "options": [
+    "basement",
+    "attic",
+    "apartment"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Спортзал — у підвалі."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "They have a ___ house.",
+   "options": [
+    "detached",
+    "block",
+    "top"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Detached house."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке attic?"
+   },
+   "options": {
+    "uk": [
+     "горище",
+     "підвал",
+     "квартира"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Attic — горище."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я живу в квартирі."
+   },
+   "words": [
+    "I",
+    "live",
+    "in",
+    "an",
+    "apartment",
+    "a",
+    "lives"
+   ],
+   "answer": [
+    "I",
+    "live",
+    "in",
+    "an",
+    "apartment"
+   ],
+   "explanation": {
+    "uk": "I live in an apartment."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У них окремий будинок."
+   },
+   "answers": [
+    "They have a detached house"
+   ],
+   "explanation": {
+    "uk": "They have a detached house."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where do you live?",
+   "prompt": {
+    "uk": "У багатоквартирному будинку. Що відповісти?"
+   },
+   "options": [
+    "I live in a block of flats.",
+    "I live at block of flats.",
+    "I am living flats block."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I live in a block of flats."
+   }
+  }
+ ]
+}

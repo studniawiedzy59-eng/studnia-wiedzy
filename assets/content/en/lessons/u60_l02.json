@@ -1,0 +1,322 @@
+{
+ "id": "u60_l02",
+ "unit": "u60",
+ "cefr": "A1",
+ "title": {
+  "uk": "Переходимо вулицю"
+ },
+ "goal": {
+  "uk": "Говорити про пішоходів і дорогу."
+ },
+ "rule": {
+  "uk": "Zebra crossing — пішохідний перехід, pavement — тротуар, pedestrian — пішохід, cyclist — велосипедист, landmark — орієнтир. Приклад: Cross at the zebra crossing. Pedestrians walk on the pavement."
+ },
+ "words": [
+  {
+   "id": "zebra_crossing",
+   "text": "zebra crossing",
+   "ipa": "/ˌzebrə ˈkrɒsɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пішохідний перехід"
+   },
+   "example": "Cross at the zebra crossing.",
+   "exampleTranslation": {
+    "uk": "Переходьте на пішохідному переході."
+   }
+  },
+  {
+   "id": "pavement",
+   "text": "pavement",
+   "ipa": "/ˈpeɪvmənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тротуар"
+   },
+   "example": "Walk on the pavement.",
+   "exampleTranslation": {
+    "uk": "Ідіть тротуаром."
+   }
+  },
+  {
+   "id": "pedestrian",
+   "text": "pedestrian",
+   "ipa": "/pəˈdestriən/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пішохід"
+   },
+   "example": "Pedestrians have the right of way.",
+   "exampleTranslation": {
+    "uk": "Пішоходи мають право проїзду."
+   }
+  },
+  {
+   "id": "cyclist",
+   "text": "cyclist",
+   "ipa": "/ˈsaɪklɪst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "велосипедист"
+   },
+   "example": "A cyclist is coming.",
+   "exampleTranslation": {
+    "uk": "Їде велосипедист."
+   }
+  },
+  {
+   "id": "landmark",
+   "text": "landmark",
+   "ipa": "/ˈlændmɑːk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "орієнтир"
+   },
+   "example": "The church is a good landmark.",
+   "exampleTranslation": {
+    "uk": "Церква — хороший орієнтир."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where do I turn?",
+   "prompt": {
+    "uk": "Повторимо. На перехресті. Що відповісти?"
+   },
+   "options": [
+    "Turn right at the crossroads.",
+    "Turn to right on crossroads.",
+    "Right turn crossroads at."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Turn right at the crossroads."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "zebra crossing",
+     "right": {
+      "uk": "пішохідний перехід"
+     }
+    },
+    {
+     "left": "pavement",
+     "right": {
+      "uk": "тротуар"
+     }
+    },
+    {
+     "left": "pedestrian",
+     "right": {
+      "uk": "пішохід"
+     }
+    },
+    {
+     "left": "cyclist",
+     "right": {
+      "uk": "велосипедист"
+     }
+    },
+    {
+     "left": "landmark",
+     "right": {
+      "uk": "орієнтир"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Cross at the zebra crossing.",
+   "prompt": {
+    "uk": "Прослухайте. Де переходити?"
+   },
+   "options": {
+    "uk": [
+     "На пішохідному переході",
+     "На тротуарі",
+     "У тунелі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Zebra crossing."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Walk on the pavement.",
+   "prompt": {
+    "uk": "Прослухайте. Де ходити?"
+   },
+   "options": {
+    "uk": [
+     "Тротуаром",
+     "Дорогою",
+     "Газоном"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pavement."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The church is a good landmark.",
+   "prompt": {
+    "uk": "Прослухайте. Що є орієнтиром?"
+   },
+   "options": {
+    "uk": [
+     "Церква",
+     "Тунель",
+     "Парк"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Landmark."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Cross at the ___ crossing.",
+   "options": [
+    "zebra",
+    "pedestrian",
+    "cyclist"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Zebra crossing."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Walk on the ___.",
+   "options": [
+    "pavement",
+    "landmark",
+    "junction"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Тротуар."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ is coming.",
+   "options": [
+    "cyclist",
+    "pavement",
+    "landmark"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Велосипедист."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке landmark?"
+   },
+   "options": {
+    "uk": [
+     "орієнтир",
+     "тротуар",
+     "пішохід"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Landmark — орієнтир."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ідіть тротуаром."
+   },
+   "words": [
+    "Walk",
+    "on",
+    "the",
+    "pavement",
+    "cross",
+    "at"
+   ],
+   "answer": [
+    "Walk",
+    "on",
+    "the",
+    "pavement"
+   ],
+   "explanation": {
+    "uk": "Walk on the pavement."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Переходьте на пішохідному переході."
+   },
+   "answers": [
+    "Cross at the zebra crossing"
+   ],
+   "explanation": {
+    "uk": "Cross at the zebra crossing."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How do I find the hotel?",
+   "prompt": {
+    "uk": "Орієнтир — церква. Що відповісти?"
+   },
+   "options": [
+    "Look for the church. It's a good landmark.",
+    "Look to church, landmark good.",
+    "Church is landmark you find."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Look for the church. It's a good landmark."
+   }
+  }
+ ]
+}

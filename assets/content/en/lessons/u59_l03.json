@@ -1,0 +1,328 @@
+{
+ "id": "u59_l03",
+ "unit": "u59",
+ "cefr": "A1",
+ "title": {
+  "uk": "Магазини й послуги"
+ },
+ "goal": {
+  "uk": "Назвати місця, де є послуги."
+ },
+ "rule": {
+  "uk": "Bookshop — книгарня, florist — квіткарня, hairdresser — перукар або перукарня, dentist — стоматолог, vet — ветеринар. Ходимо to the dentist, to the vet, to the hairdresser's. Приклад: I go to the hairdresser's on Saturday."
+ },
+ "words": [
+  {
+   "id": "bookshop",
+   "text": "bookshop",
+   "ipa": "/ˈbʊkʃɒp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "книгарня"
+   },
+   "example": "The bookshop is next to the cafe.",
+   "exampleTranslation": {
+    "uk": "Книгарня поруч із кафе."
+   }
+  },
+  {
+   "id": "florist",
+   "text": "florist",
+   "ipa": "/ˈflɒrɪst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "квіткарня"
+   },
+   "example": "I buy roses at the florist.",
+   "exampleTranslation": {
+    "uk": "Я купую троянди в квіткарні."
+   }
+  },
+  {
+   "id": "hairdresser",
+   "text": "hairdresser",
+   "ipa": "/ˈheədresə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "перукар"
+   },
+   "example": "I go to the hairdresser every month.",
+   "exampleTranslation": {
+    "uk": "Щомісяця я ходжу до перукаря."
+   }
+  },
+  {
+   "id": "dentist",
+   "text": "dentist",
+   "ipa": "/ˈdentɪst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "стоматолог"
+   },
+   "example": "I have an appointment with the dentist.",
+   "exampleTranslation": {
+    "uk": "Я записаний до стоматолога."
+   }
+  },
+  {
+   "id": "vet",
+   "text": "vet",
+   "ipa": "/vet/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ветеринар"
+   },
+   "example": "The vet is very kind.",
+   "exampleTranslation": {
+    "uk": "Ветеринар дуже добрий."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is there a swimming pool here?",
+   "prompt": {
+    "uk": "Повторимо. Так, поруч. Що відповісти?"
+   },
+   "options": [
+    "Yes, there is one nearby.",
+    "Yes, there is nearby one.",
+    "Yes, is there pool."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, there is one nearby."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "bookshop",
+     "right": {
+      "uk": "книгарня"
+     }
+    },
+    {
+     "left": "florist",
+     "right": {
+      "uk": "квіткарня"
+     }
+    },
+    {
+     "left": "hairdresser",
+     "right": {
+      "uk": "перукар"
+     }
+    },
+    {
+     "left": "dentist",
+     "right": {
+      "uk": "стоматолог"
+     }
+    },
+    {
+     "left": "vet",
+     "right": {
+      "uk": "ветеринар"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I buy roses at the florist.",
+   "prompt": {
+    "uk": "Прослухайте. Що купує людина?"
+   },
+   "options": {
+    "uk": [
+     "Троянди",
+     "Книжки",
+     "Каву"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Roses."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I have an appointment with the dentist.",
+   "prompt": {
+    "uk": "Прослухайте. До кого запис?"
+   },
+   "options": {
+    "uk": [
+     "До стоматолога",
+     "До ветеринара",
+     "До перукаря"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Dentist."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The vet is very kind.",
+   "prompt": {
+    "uk": "Прослухайте. Який ветеринар?"
+   },
+   "options": {
+    "uk": [
+     "Дуже добрий",
+     "Дуже суворий",
+     "Дуже молодий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Kind."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I buy roses at the ___.",
+   "options": [
+    "florist",
+    "bookshop",
+    "vet"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Квіткарня."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I go to the ___ every month.",
+   "options": [
+    "hairdresser",
+    "florist",
+    "gallery"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перукар."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My cat is at the ___.",
+   "options": [
+    "vet",
+    "dentist",
+    "florist"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ветеринар."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке florist?"
+   },
+   "options": {
+    "uk": [
+     "квіткарня",
+     "книгарня",
+     "перукарня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Florist — квіткарня."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Книгарня поруч із кафе."
+   },
+   "words": [
+    "The",
+    "bookshop",
+    "is",
+    "next",
+    "to",
+    "the",
+    "cafe",
+    "florist",
+    "at"
+   ],
+   "answer": [
+    "The",
+    "bookshop",
+    "is",
+    "next",
+    "to",
+    "the",
+    "cafe"
+   ],
+   "explanation": {
+    "uk": "The bookshop is next to the cafe."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я записаний до стоматолога."
+   },
+   "answers": [
+    "I have an appointment with the dentist"
+   ],
+   "explanation": {
+    "uk": "I have an appointment with the dentist."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where are you going?",
+   "prompt": {
+    "uk": "До перукаря. Що відповісти?"
+   },
+   "options": [
+    "I'm going to the hairdresser's.",
+    "I go to hairdresser's.",
+    "I'm going at the hairdresser."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm going to the hairdresser's."
+   }
+  }
+ ]
+}

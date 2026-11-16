@@ -1,0 +1,322 @@
+{
+ "id": "u59_l05",
+ "unit": "u59",
+ "cefr": "A1",
+ "title": {
+  "uk": "Який район?"
+ },
+ "goal": {
+  "uk": "Оцінити свій район."
+ },
+ "rule": {
+  "uk": "Convenient — зручний, inconvenient — незручний, noise — шум, pollution — забруднення, empty — порожній. Приклад: The district is convenient. There is a lot of noise and pollution. Noise і pollution нелічильні."
+ },
+ "words": [
+  {
+   "id": "convenient",
+   "text": "convenient",
+   "ipa": "/kənˈviːniənt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "зручний"
+   },
+   "example": "The metro is convenient.",
+   "exampleTranslation": {
+    "uk": "Метро — це зручно."
+   }
+  },
+  {
+   "id": "inconvenient",
+   "text": "inconvenient",
+   "ipa": "/ˌɪnkənˈviːniənt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "незручний"
+   },
+   "example": "The bus stop is inconvenient.",
+   "exampleTranslation": {
+    "uk": "Зупинка незручно розташована."
+   }
+  },
+  {
+   "id": "noise",
+   "text": "noise",
+   "ipa": "/nɔɪz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шум"
+   },
+   "example": "There is a lot of noise at night.",
+   "exampleTranslation": {
+    "uk": "Уночі багато шуму."
+   }
+  },
+  {
+   "id": "pollution",
+   "text": "pollution",
+   "ipa": "/pəˈluːʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "забруднення"
+   },
+   "example": "There is a lot of pollution.",
+   "exampleTranslation": {
+    "uk": "Забруднення багато."
+   }
+  },
+  {
+   "id": "empty",
+   "text": "empty",
+   "ipa": "/ˈempti/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "порожній"
+   },
+   "example": "The street is empty.",
+   "exampleTranslation": {
+    "uk": "Вулиця порожня."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is there near your town?",
+   "prompt": {
+    "uk": "Повторимо. Ліс і замок. Що відповісти?"
+   },
+   "options": [
+    "There is a forest and a castle.",
+    "There are a forest and castle.",
+    "Forest and castle there is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is a forest and a castle."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "convenient",
+     "right": {
+      "uk": "зручний"
+     }
+    },
+    {
+     "left": "inconvenient",
+     "right": {
+      "uk": "незручний"
+     }
+    },
+    {
+     "left": "noise",
+     "right": {
+      "uk": "шум"
+     }
+    },
+    {
+     "left": "pollution",
+     "right": {
+      "uk": "забруднення"
+     }
+    },
+    {
+     "left": "empty",
+     "right": {
+      "uk": "порожній"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The metro is convenient.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Метро зручне",
+     "Метро незручне",
+     "Метро далеко"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Convenient."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There is a lot of noise at night.",
+   "prompt": {
+    "uk": "Прослухайте. Що не так уночі?"
+   },
+   "options": {
+    "uk": [
+     "Багато шуму",
+     "Дуже темно",
+     "Дуже холодно"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Noise."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The street is empty.",
+   "prompt": {
+    "uk": "Прослухайте. Яка вулиця?"
+   },
+   "options": {
+    "uk": [
+     "Порожня",
+     "Людна",
+     "Широка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Empty."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The metro is ___.",
+   "options": [
+    "convenient",
+    "empty",
+    "noise"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Зручне."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a lot of ___ at night.",
+   "options": [
+    "noise",
+    "convenient",
+    "empty"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Шум."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The street is ___.",
+   "options": [
+    "empty",
+    "pollution",
+    "inconvenient"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Порожня."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке pollution?"
+   },
+   "options": {
+    "uk": [
+     "забруднення",
+     "шум",
+     "район"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pollution — забруднення."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вулиця порожня."
+   },
+   "words": [
+    "The",
+    "street",
+    "is",
+    "empty",
+    "noise",
+    "are"
+   ],
+   "answer": [
+    "The",
+    "street",
+    "is",
+    "empty"
+   ],
+   "explanation": {
+    "uk": "The street is empty."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Метро — це зручно."
+   },
+   "answers": [
+    "The metro is convenient"
+   ],
+   "explanation": {
+    "uk": "The metro is convenient."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is your district convenient?",
+   "prompt": {
+    "uk": "Так, поруч метро. Що відповісти?"
+   },
+   "options": [
+    "Yes, the metro is nearby.",
+    "Yes, metro nearby is.",
+    "Yes, it convenient near metro."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, the metro is nearby."
+   }
+  }
+ ]
+}

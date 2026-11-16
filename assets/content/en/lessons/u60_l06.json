@@ -1,0 +1,286 @@
+{
+ "id": "u60_l06",
+ "unit": "u60",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: дорога й напрямки"
+ },
+ "goal": {
+  "uk": "Закріпити слова про дорогу."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: дорога (crossroads, roundabout, junction, tunnel), пішоходи (zebra crossing, pavement, landmark), сторони світу (north, south, east, west), відстань (distance, route, mile) і рух (traffic jam, rush hour, one-way, slow down)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Why are you late?",
+   "prompt": {
+    "uk": "Повторимо. Затор. Що відповісти?"
+   },
+   "options": [
+    "There was a traffic jam.",
+    "There were traffic jam.",
+    "It was a jam of traffic."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There was a traffic jam."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "Turn left at the roundabout and cross at the zebra crossing.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Повернути ліворуч на розв'язці й перейти на переході",
+     "Повернути праворуч на розв'язці й перейти на переході",
+     "Їхати прямо й зупинитися"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Roundabout, zebra crossing."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The sun sets in the west.",
+   "prompt": {
+    "uk": "Прослухайте. Де заходить сонце?"
+   },
+   "options": {
+    "uk": [
+     "На заході",
+     "На сході",
+     "На півночі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "West."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There is a traffic jam at rush hour.",
+   "prompt": {
+    "uk": "Прослухайте. Коли затор?"
+   },
+   "options": {
+    "uk": [
+     "У годину пік",
+     "Уночі",
+     "Вранці в неділю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Rush hour."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Cross at the ___ crossing.",
+   "options": [
+    "zebra",
+    "tunnel",
+    "junction"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Zebra."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The sun rises in the ___.",
+   "options": [
+    "east",
+    "west",
+    "south"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "East."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is a ___ street.",
+   "options": [
+    "one-way",
+    "landmark",
+    "pedestrian"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "One-way."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке pavement?"
+   },
+   "options": {
+    "uk": [
+     "тротуар",
+     "перехрестя",
+     "орієнтир"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pavement — тротуар."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "На перехресті поверніть праворуч."
+   },
+   "words": [
+    "Turn",
+    "right",
+    "at",
+    "the",
+    "crossroads",
+    "left",
+    "on"
+   ],
+   "answer": [
+    "Turn",
+    "right",
+    "at",
+    "the",
+    "crossroads"
+   ],
+   "explanation": {
+    "uk": "Turn right at the crossroads."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це коротка дорога."
+   },
+   "answers": [
+    "This is a shortcut"
+   ],
+   "explanation": {
+    "uk": "This is a shortcut."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "How do I get to the castle?",
+   "prompt": {
+    "uk": "Прямо до розв'язки. Що відповісти?"
+   },
+   "options": [
+    "Go straight to the roundabout.",
+    "Go straight until roundabout to.",
+    "Straight go roundabout at."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go straight to the roundabout."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви питаєте шлях до замку."
+   },
+   "character": {
+    "name": {
+     "uk": "Перехожий"
+    },
+    "avatar": "🧑‍🦱"
+   },
+   "line": "Hi! Can I help you?",
+   "options": [
+    "Yes, how do I get to the castle?",
+    "Yes, where is road to castle?",
+    "Yes, tell me the castle way."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "How do I get to…? — стандартне питання про шлях."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви перепитуєте, бо не зрозуміли."
+   },
+   "character": {
+    "name": {
+     "uk": "Перехожий"
+    },
+    "avatar": "🧑‍🦱"
+   },
+   "line": "Go straight to the roundabout, then turn left at the junction.",
+   "options": [
+    "Sorry, could you repeat that, please?",
+    "Sorry, say again me.",
+    "What? Repeat once more."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Could you repeat that? — ввічливе перепитування."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви дякуєте й прощаєтеся."
+   },
+   "character": {
+    "name": {
+     "uk": "Перехожий"
+    },
+    "avatar": "🧑‍🦱"
+   },
+   "line": "You can't miss it. It's next to the statue.",
+   "options": [
+    "Great, thank you very much!",
+    "Thanks, I am understanding.",
+    "Okay, I find it myself."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Great, thank you very much! — тепла подяка."
+   }
+  }
+ ]
+}

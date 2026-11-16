@@ -1,0 +1,322 @@
+{
+ "id": "u57_l05",
+ "unit": "u57",
+ "cefr": "A1",
+ "title": {
+  "uk": "Переїзд"
+ },
+ "goal": {
+  "uk": "Говорити про переїзд і ремонт."
+ },
+ "rule": {
+  "uk": "Move in — в'їхати, move out — виїхати, decorate — робити ремонт, paint — фарбувати, lock — замикати. Приклад: We move in on Friday. I paint the walls. Lock the door!"
+ },
+ "words": [
+  {
+   "id": "move_in",
+   "text": "move in",
+   "ipa": "/ˌmuːv ˈɪn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "в'їжджати"
+   },
+   "example": "We move in on Friday.",
+   "exampleTranslation": {
+    "uk": "У п'ятницю ми в'їжджаємо."
+   }
+  },
+  {
+   "id": "move_out",
+   "text": "move out",
+   "ipa": "/ˌmuːv ˈaʊt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "виїжджати"
+   },
+   "example": "They move out in June.",
+   "exampleTranslation": {
+    "uk": "У червні вони виїжджають."
+   }
+  },
+  {
+   "id": "decorate",
+   "text": "decorate",
+   "ipa": "/ˈdekəreɪt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "робити ремонт, прикрашати"
+   },
+   "example": "We decorate the bedroom.",
+   "exampleTranslation": {
+    "uk": "Ми робимо ремонт у спальні."
+   }
+  },
+  {
+   "id": "paint",
+   "text": "paint",
+   "ipa": "/peɪnt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "фарбувати"
+   },
+   "example": "I paint the walls white.",
+   "exampleTranslation": {
+    "uk": "Я фарбую стіни в білий колір."
+   }
+  },
+  {
+   "id": "lock",
+   "text": "lock",
+   "ipa": "/lɒk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "замикати"
+   },
+   "example": "Lock the door, please.",
+   "exampleTranslation": {
+    "uk": "Замкніть двері, будь ласка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is your flat like?",
+   "prompt": {
+    "uk": "Повторимо. Світла й затишна. Що відповісти?"
+   },
+   "options": [
+    "It's bright and cosy.",
+    "It is bright and cosily.",
+    "It bright and cosy."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's bright and cosy."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "move in",
+     "right": {
+      "uk": "в'їжджати"
+     }
+    },
+    {
+     "left": "move out",
+     "right": {
+      "uk": "виїжджати"
+     }
+    },
+    {
+     "left": "decorate",
+     "right": {
+      "uk": "робити ремонт, прикрашати"
+     }
+    },
+    {
+     "left": "paint",
+     "right": {
+      "uk": "фарбувати"
+     }
+    },
+    {
+     "left": "lock",
+     "right": {
+      "uk": "замикати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "We move in on Friday.",
+   "prompt": {
+    "uk": "Прослухайте. Коли вони в'їжджають?"
+   },
+   "options": {
+    "uk": [
+     "У п'ятницю",
+     "У понеділок",
+     "У неділю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Friday."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I paint the walls white.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Фарбує стіни",
+     "Миє стіни",
+     "Прикрашає стіни"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Paint."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Lock the door, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Замкнути двері",
+     "Відчинити двері",
+     "Зачинити вікно"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Lock."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ in on Friday.",
+   "options": [
+    "move",
+    "lock",
+    "paint"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Move in."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ the walls white.",
+   "options": [
+    "paint",
+    "lock",
+    "move"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Paint."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ the door, please.",
+   "options": [
+    "Lock",
+    "Decorate",
+    "Move"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Lock."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає move out?"
+   },
+   "options": {
+    "uk": [
+     "виїжджати",
+     "в'їжджати",
+     "фарбувати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Move out — виїжджати."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я фарбую стіни."
+   },
+   "words": [
+    "I",
+    "paint",
+    "the",
+    "walls",
+    "lock",
+    "paints"
+   ],
+   "answer": [
+    "I",
+    "paint",
+    "the",
+    "walls"
+   ],
+   "explanation": {
+    "uk": "I paint the walls."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У п'ятницю ми в'їжджаємо."
+   },
+   "answers": [
+    "We move in on Friday"
+   ],
+   "explanation": {
+    "uk": "We move in on Friday."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "When do you move in?",
+   "prompt": {
+    "uk": "У п'ятницю. Що відповісти?"
+   },
+   "options": [
+    "On Friday.",
+    "In Friday.",
+    "At Friday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On Friday."
+   }
+  }
+ ]
+}

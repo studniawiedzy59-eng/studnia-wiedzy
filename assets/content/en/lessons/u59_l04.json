@@ -1,0 +1,326 @@
+{
+ "id": "u59_l04",
+ "unit": "u59",
+ "cefr": "A1",
+ "title": {
+  "uk": "Природа й пам'ятки"
+ },
+ "goal": {
+  "uk": "Назвати природні й туристичні місця."
+ },
+ "rule": {
+  "uk": "Forest — ліс, beach — пляж, mountain — гора, castle — замок, statue — статуя. Приклад: There is a castle on the hill. We walk in the forest on Sundays."
+ },
+ "words": [
+  {
+   "id": "forest",
+   "text": "forest",
+   "ipa": "/ˈfɒrɪst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ліс"
+   },
+   "example": "We walk in the forest on Sundays.",
+   "exampleTranslation": {
+    "uk": "По неділях ми гуляємо в лісі."
+   }
+  },
+  {
+   "id": "beach",
+   "text": "beach",
+   "ipa": "/biːtʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пляж"
+   },
+   "example": "The beach is five minutes away.",
+   "exampleTranslation": {
+    "uk": "До пляжу п'ять хвилин."
+   }
+  },
+  {
+   "id": "mountain",
+   "text": "mountain",
+   "ipa": "/ˈmaʊntən/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гора"
+   },
+   "example": "The mountain is very high.",
+   "exampleTranslation": {
+    "uk": "Гора дуже висока."
+   }
+  },
+  {
+   "id": "castle",
+   "text": "castle",
+   "ipa": "/ˈkɑːsl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "замок"
+   },
+   "example": "There is a castle on the hill.",
+   "exampleTranslation": {
+    "uk": "На пагорбі є замок."
+   }
+  },
+  {
+   "id": "statue",
+   "text": "statue",
+   "ipa": "/ˈstætʃuː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "статуя"
+   },
+   "example": "The statue is in the square.",
+   "exampleTranslation": {
+    "uk": "Статуя стоїть на площі."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where are you going?",
+   "prompt": {
+    "uk": "Повторимо. До перукаря. Що відповісти?"
+   },
+   "options": [
+    "I'm going to the hairdresser's.",
+    "I go to hairdresser's.",
+    "I'm going at the hairdresser."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm going to the hairdresser's."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "forest",
+     "right": {
+      "uk": "ліс"
+     }
+    },
+    {
+     "left": "beach",
+     "right": {
+      "uk": "пляж"
+     }
+    },
+    {
+     "left": "mountain",
+     "right": {
+      "uk": "гора"
+     }
+    },
+    {
+     "left": "castle",
+     "right": {
+      "uk": "замок"
+     }
+    },
+    {
+     "left": "statue",
+     "right": {
+      "uk": "статуя"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "We walk in the forest on Sundays.",
+   "prompt": {
+    "uk": "Прослухайте. Де вони гуляють?"
+   },
+   "options": {
+    "uk": [
+     "У лісі",
+     "На пляжі",
+     "У парку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Forest."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There is a castle on the hill.",
+   "prompt": {
+    "uk": "Прослухайте. Що на пагорбі?"
+   },
+   "options": {
+    "uk": [
+     "Замок",
+     "Статуя",
+     "Церква"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Castle."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The statue is in the square.",
+   "prompt": {
+    "uk": "Прослухайте. Де статуя?"
+   },
+   "options": {
+    "uk": [
+     "На площі",
+     "У парку",
+     "Біля замку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In the square."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We walk in the ___.",
+   "options": [
+    "forest",
+    "statue",
+    "castle"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ліс."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is very high.",
+   "options": [
+    "mountain",
+    "beach",
+    "forest"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Гора."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a ___ on the hill.",
+   "options": [
+    "castle",
+    "beach",
+    "forest"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Замок."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке statue?"
+   },
+   "options": {
+    "uk": [
+     "статуя",
+     "замок",
+     "гора"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Statue — статуя."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "До пляжу п'ять хвилин."
+   },
+   "words": [
+    "The",
+    "beach",
+    "is",
+    "five",
+    "minutes",
+    "away",
+    "forest",
+    "are"
+   ],
+   "answer": [
+    "The",
+    "beach",
+    "is",
+    "five",
+    "minutes",
+    "away"
+   ],
+   "explanation": {
+    "uk": "The beach is five minutes away."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "На пагорбі є замок."
+   },
+   "answers": [
+    "There is a castle on the hill"
+   ],
+   "explanation": {
+    "uk": "There is a castle on the hill."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is there near your town?",
+   "prompt": {
+    "uk": "Ліс і замок. Що відповісти?"
+   },
+   "options": [
+    "There is a forest and a castle.",
+    "There are a forest and castle.",
+    "Forest and castle there is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is a forest and a castle."
+   }
+  }
+ ]
+}

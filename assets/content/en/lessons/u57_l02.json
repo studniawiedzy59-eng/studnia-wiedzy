@@ -1,0 +1,326 @@
+{
+ "id": "u57_l02",
+ "unit": "u57",
+ "cefr": "A1",
+ "title": {
+  "uk": "Частини будинку"
+ },
+ "goal": {
+  "uk": "Орієнтуватися в будинку."
+ },
+ "rule": {
+  "uk": "Hall — передпокій, corridor — коридор, dining room — їдальня, staircase — сходи (всередині будинку), top floor — верхній поверх. Приклад: The dining room is on the ground floor. My flat is on the top floor."
+ },
+ "words": [
+  {
+   "id": "hall",
+   "text": "hall",
+   "ipa": "/hɔːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "передпокій"
+   },
+   "example": "Leave your shoes in the hall.",
+   "exampleTranslation": {
+    "uk": "Залиште взуття в передпокої."
+   }
+  },
+  {
+   "id": "corridor",
+   "text": "corridor",
+   "ipa": "/ˈkɒrɪdɔː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "коридор"
+   },
+   "example": "The toilet is along the corridor.",
+   "exampleTranslation": {
+    "uk": "Туалет по коридору."
+   }
+  },
+  {
+   "id": "dining_room",
+   "text": "dining room",
+   "ipa": "/ˈdaɪnɪŋ ruːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "їдальня"
+   },
+   "example": "We eat in the dining room.",
+   "exampleTranslation": {
+    "uk": "Ми їмо в їдальні."
+   }
+  },
+  {
+   "id": "staircase",
+   "text": "staircase",
+   "ipa": "/ˈsteəkeɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сходи"
+   },
+   "example": "The staircase is narrow.",
+   "exampleTranslation": {
+    "uk": "Сходи вузькі."
+   }
+  },
+  {
+   "id": "top_floor",
+   "text": "top floor",
+   "ipa": "/ˌtɒp ˈflɔː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "верхній поверх"
+   },
+   "example": "My flat is on the top floor.",
+   "exampleTranslation": {
+    "uk": "Моя квартира на верхньому поверсі."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where do you live?",
+   "prompt": {
+    "uk": "Повторимо. У багатоквартирному будинку. Що відповісти?"
+   },
+   "options": [
+    "I live in a block of flats.",
+    "I live at block of flats.",
+    "I am living flats block."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I live in a block of flats."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "hall",
+     "right": {
+      "uk": "передпокій"
+     }
+    },
+    {
+     "left": "corridor",
+     "right": {
+      "uk": "коридор"
+     }
+    },
+    {
+     "left": "dining room",
+     "right": {
+      "uk": "їдальня"
+     }
+    },
+    {
+     "left": "staircase",
+     "right": {
+      "uk": "сходи"
+     }
+    },
+    {
+     "left": "top floor",
+     "right": {
+      "uk": "верхній поверх"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Leave your shoes in the hall.",
+   "prompt": {
+    "uk": "Прослухайте. Де залишити взуття?"
+   },
+   "options": {
+    "uk": [
+     "У передпокої",
+     "У коридорі",
+     "У їдальні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hall."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We eat in the dining room.",
+   "prompt": {
+    "uk": "Прослухайте. Де вони їдять?"
+   },
+   "options": {
+    "uk": [
+     "В їдальні",
+     "На кухні",
+     "У передпокої"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Dining room."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My flat is on the top floor.",
+   "prompt": {
+    "uk": "Прослухайте. Де квартира?"
+   },
+   "options": {
+    "uk": [
+     "На верхньому поверсі",
+     "На першому поверсі",
+     "У підвалі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Top floor."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Leave your shoes in the ___.",
+   "options": [
+    "hall",
+    "attic",
+    "staircase"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hall."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The toilet is along the ___.",
+   "options": [
+    "corridor",
+    "dining room",
+    "hall"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Corridor."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My flat is on the ___ floor.",
+   "options": [
+    "top",
+    "upper",
+    "high"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Top floor."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке staircase?"
+   },
+   "options": {
+    "uk": [
+     "сходи",
+     "коридор",
+     "передпокій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Staircase — сходи."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми їмо в їдальні."
+   },
+   "words": [
+    "We",
+    "eat",
+    "in",
+    "the",
+    "dining",
+    "room",
+    "hall",
+    "at"
+   ],
+   "answer": [
+    "We",
+    "eat",
+    "in",
+    "the",
+    "dining",
+    "room"
+   ],
+   "explanation": {
+    "uk": "We eat in the dining room."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Сходи вузькі."
+   },
+   "answers": [
+    "The staircase is narrow"
+   ],
+   "explanation": {
+    "uk": "The staircase is narrow."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where is your flat?",
+   "prompt": {
+    "uk": "На верхньому поверсі. Що відповісти?"
+   },
+   "options": [
+    "It's on the top floor.",
+    "It's in top floor.",
+    "It on the top floor is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's on the top floor."
+   }
+  }
+ ]
+}

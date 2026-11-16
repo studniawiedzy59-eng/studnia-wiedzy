@@ -1,0 +1,290 @@
+{
+ "id": "u57_l06",
+ "unit": "u57",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: квартира й кімнати"
+ },
+ "goal": {
+  "uk": "Закріпити слова про житло."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: типи житла (apartment, block of flats, attic, basement), частини будинку (hall, corridor, staircase), оренда (landlord, tenant, deposit, bills, furnished), описи (spacious, cosy, bright) і переїзд (move in, paint, lock)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "When do you move in?",
+   "prompt": {
+    "uk": "Повторимо. У п'ятницю. Що відповісти?"
+   },
+   "options": [
+    "On Friday.",
+    "In Friday.",
+    "At Friday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On Friday."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "The flat is spacious and bright, and the bills are extra.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Квартира простора й світла, комуналка окремо",
+     "Квартира тісна, комуналка входить у ціну",
+     "Квартира затишна, комуналки немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Spacious, bright, bills extra."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Leave your shoes in the hall.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Залишити взуття в передпокої",
+     "Відчинити двері",
+     "Замкнути двері"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hall."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The landlord lives on the top floor.",
+   "prompt": {
+    "uk": "Прослухайте. Де живе орендодавець?"
+   },
+   "options": {
+    "uk": [
+     "На верхньому поверсі",
+     "У підвалі",
+     "На горищі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Top floor."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The flat is ___. (з меблями)",
+   "options": [
+    "furnished",
+    "messy",
+    "nearby"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Furnished."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The living room is ___.",
+   "options": [
+    "spacious",
+    "tenant",
+    "staircase"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Spacious."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm a ___.",
+   "options": [
+    "tenant",
+    "landlord",
+    "bill"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Tenant."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке landlord?"
+   },
+   "options": {
+    "uk": [
+     "орендодавець",
+     "орендар",
+     "завдаток"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Landlord — орендодавець."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я живу в багатоквартирному будинку."
+   },
+   "words": [
+    "I",
+    "live",
+    "in",
+    "a",
+    "block",
+    "of",
+    "flats",
+    "apartment",
+    "at"
+   ],
+   "answer": [
+    "I",
+    "live",
+    "in",
+    "a",
+    "block",
+    "of",
+    "flats"
+   ],
+   "explanation": {
+    "uk": "I live in a block of flats."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Замкніть двері, будь ласка."
+   },
+   "answers": [
+    "Lock the door, please"
+   ],
+   "explanation": {
+    "uk": "Lock the door, please."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What do you like about your flat?",
+   "prompt": {
+    "uk": "Вона світла. Що відповісти?"
+   },
+   "options": [
+    "It's bright.",
+    "It is bright it.",
+    "It bright is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's bright."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви оглядаєте квартиру."
+   },
+   "character": {
+    "name": {
+     "uk": "Орендодавець Пітер"
+    },
+    "avatar": "🧑‍💼"
+   },
+   "line": "Come in! This is the living room. What do you think?",
+   "options": [
+    "It's spacious and bright. I like it.",
+    "It is big and light very. I like.",
+    "Spacious it is, yes bright."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's spacious and bright — природна оцінка."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви питаєте про комуналку."
+   },
+   "character": {
+    "name": {
+     "uk": "Орендодавець Пітер"
+    },
+    "avatar": "🧑‍💼"
+   },
+   "line": "The flat is furnished, and the deposit is five hundred pounds.",
+   "options": [
+    "Are the bills extra?",
+    "The bills are paid by who?",
+    "And the bills extra or no?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Are the bills extra? — коротке прямe питання."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви в'їжджаєте в п'ятницю."
+   },
+   "character": {
+    "name": {
+     "uk": "Орендодавець Пітер"
+    },
+    "avatar": "🧑‍💼"
+   },
+   "line": "When would you like to move in?",
+   "options": [
+    "On Friday, if possible.",
+    "In Friday, I can.",
+    "At the Friday, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З днями тижня — on: on Friday."
+   }
+  }
+ ]
+}

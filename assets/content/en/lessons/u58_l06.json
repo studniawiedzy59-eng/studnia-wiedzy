@@ -1,0 +1,288 @@
+{
+ "id": "u58_l06",
+ "unit": "u58",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: меблі й речі"
+ },
+ "goal": {
+  "uk": "Закріпити слова про меблі й техніку."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: меблі (armchair, wardrobe, bookcase, rug), спальня (duvet, mattress, curtains), техніка (washing machine, dishwasher, cooker), ванна (sink, tap, bath) і прибирання (rubbish, bin, iron)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you do on Sundays?",
+   "prompt": {
+    "uk": "Повторимо. Прибираю й прасую. Що відповісти?"
+   },
+   "options": [
+    "I clean and iron.",
+    "I clean and ironing.",
+    "I am clean and iron."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I clean and iron."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "The washing machine is next to the sink.",
+   "prompt": {
+    "uk": "Прослухайте. Де пральна машина?"
+   },
+   "options": {
+    "uk": [
+     "Поруч із раковиною",
+     "Під ванною",
+     "У шафі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Next to the sink."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Please close the curtains and turn off the tap.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Закрити штори й кран",
+     "Відчинити штори й кран",
+     "Закрити вікно й двері"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Curtains, tap."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The cooker and the dishwasher are new.",
+   "prompt": {
+    "uk": "Прослухайте. Що нове?"
+   },
+   "options": {
+    "uk": [
+     "Плита й посудомийна машина",
+     "Радіатор і кондиціонер",
+     "Шафа й крісло"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cooker, dishwasher."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My clothes are in the ___.",
+   "options": [
+    "wardrobe",
+    "bin",
+    "tap"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Wardrobe."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is hot.",
+   "options": [
+    "radiator",
+    "rug",
+    "cushion"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Radiator."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Take out the ___.",
+   "options": [
+    "rubbish",
+    "mattress",
+    "shampoo"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Rubbish."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке duvet?"
+   },
+   "options": {
+    "uk": [
+     "ковдра",
+     "простирадло",
+     "штори"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Duvet — ковдра."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мій одяг у шафі."
+   },
+   "words": [
+    "My",
+    "clothes",
+    "are",
+    "in",
+    "the",
+    "wardrobe",
+    "bookcase",
+    "is"
+   ],
+   "answer": [
+    "My",
+    "clothes",
+    "are",
+    "in",
+    "the",
+    "wardrobe"
+   ],
+   "explanation": {
+    "uk": "My clothes are in the wardrobe."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Закрийте кран."
+   },
+   "answers": [
+    "Turn off the tap"
+   ],
+   "explanation": {
+    "uk": "Turn off the tap."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Is the flat modern?",
+   "prompt": {
+    "uk": "Так, у ній нова плита. Що відповісти?"
+   },
+   "options": [
+    "Yes, it has a new cooker.",
+    "Yes, it have new cooker.",
+    "Yes, in it new cooker is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it has a new cooker."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам потрібна шафа для одягу."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавець меблів"
+    },
+    "avatar": "🛋️"
+   },
+   "line": "Hello! What are you looking for?",
+   "options": [
+    "I'm looking for a wardrobe.",
+    "I search a wardrobe for clothes.",
+    "I want to buy cabinet for dress."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A wardrobe — шафа саме для одягу."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам не подобається твердий матрац."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавець меблів"
+    },
+    "avatar": "🛋️"
+   },
+   "line": "How do you like this mattress?",
+   "options": [
+    "It's too hard for me.",
+    "It is very hard to me.",
+    "It hard much."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Too hard — «надто твердий»."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви просите доставити товар."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавець меблів"
+    },
+    "avatar": "🛋️"
+   },
+   "line": "Anything else?",
+   "options": [
+    "Can you deliver it on Saturday?",
+    "Deliver me it on Saturday?",
+    "You can deliver in Saturday?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can you deliver it…? — ввічливе прохання."
+   }
+  }
+ ]
+}

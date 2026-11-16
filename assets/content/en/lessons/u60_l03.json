@@ -1,0 +1,320 @@
+{
+ "id": "u60_l03",
+ "unit": "u60",
+ "cefr": "A1",
+ "title": {
+  "uk": "Сторони світу"
+ },
+ "goal": {
+  "uk": "Назвати сторони світу."
+ },
+ "rule": {
+  "uk": "North — північ, south — південь, east — схід, west — захід, compass — компас. Приклад: The sun rises in the east. We drive north. Для напрямку: to the north, to the west."
+ },
+ "words": [
+  {
+   "id": "north",
+   "text": "north",
+   "ipa": "/nɔːθ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "північ"
+   },
+   "example": "We drive north.",
+   "exampleTranslation": {
+    "uk": "Ми їдемо на північ."
+   }
+  },
+  {
+   "id": "south",
+   "text": "south",
+   "ipa": "/saʊθ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "південь"
+   },
+   "example": "The beach is to the south.",
+   "exampleTranslation": {
+    "uk": "Пляж на півдні."
+   }
+  },
+  {
+   "id": "east",
+   "text": "east",
+   "ipa": "/iːst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "схід"
+   },
+   "example": "The sun rises in the east.",
+   "exampleTranslation": {
+    "uk": "Сонце сходить на сході."
+   }
+  },
+  {
+   "id": "west",
+   "text": "west",
+   "ipa": "/west/",
+   "pos": "noun",
+   "translation": {
+    "uk": "захід"
+   },
+   "example": "The sun sets in the west.",
+   "exampleTranslation": {
+    "uk": "Сонце заходить на заході."
+   }
+  },
+  {
+   "id": "compass",
+   "text": "compass",
+   "ipa": "/ˈkʌmpəs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "компас"
+   },
+   "example": "I have a compass.",
+   "exampleTranslation": {
+    "uk": "У мене є компас."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How do I find the hotel?",
+   "prompt": {
+    "uk": "Повторимо. Орієнтир — церква. Що відповісти?"
+   },
+   "options": [
+    "Look for the church. It's a good landmark.",
+    "Look to church, landmark good.",
+    "Church is landmark you find."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Look for the church. It's a good landmark."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "north",
+     "right": {
+      "uk": "північ"
+     }
+    },
+    {
+     "left": "south",
+     "right": {
+      "uk": "південь"
+     }
+    },
+    {
+     "left": "east",
+     "right": {
+      "uk": "схід"
+     }
+    },
+    {
+     "left": "west",
+     "right": {
+      "uk": "захід"
+     }
+    },
+    {
+     "left": "compass",
+     "right": {
+      "uk": "компас"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The sun rises in the east.",
+   "prompt": {
+    "uk": "Прослухайте. Де сходить сонце?"
+   },
+   "options": {
+    "uk": [
+     "На сході",
+     "На заході",
+     "На півночі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "East."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The beach is to the south.",
+   "prompt": {
+    "uk": "Прослухайте. Де пляж?"
+   },
+   "options": {
+    "uk": [
+     "На півдні",
+     "На півночі",
+     "На заході"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "South."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We drive north.",
+   "prompt": {
+    "uk": "Прослухайте. Куди вони їдуть?"
+   },
+   "options": {
+    "uk": [
+     "На північ",
+     "На південь",
+     "На захід"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "North."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The sun rises in the ___.",
+   "options": [
+    "east",
+    "west",
+    "compass"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Схід."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The sun sets in the ___.",
+   "options": [
+    "west",
+    "east",
+    "north"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Захід."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___.",
+   "options": [
+    "compass",
+    "south",
+    "north"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Компас."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке south?"
+   },
+   "options": {
+    "uk": [
+     "південь",
+     "північ",
+     "схід"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "South — південь."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми їдемо на північ."
+   },
+   "words": [
+    "We",
+    "drive",
+    "north",
+    "south",
+    "drives"
+   ],
+   "answer": [
+    "We",
+    "drive",
+    "north"
+   ],
+   "explanation": {
+    "uk": "We drive north."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Пляж на півдні."
+   },
+   "answers": [
+    "The beach is to the south"
+   ],
+   "explanation": {
+    "uk": "The beach is to the south."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Which way is the sea?",
+   "prompt": {
+    "uk": "На південь. Що відповісти?"
+   },
+   "options": [
+    "It's to the south.",
+    "It's at south to.",
+    "South it is going."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's to the south."
+   }
+  }
+ ]
+}

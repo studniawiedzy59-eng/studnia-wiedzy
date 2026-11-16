@@ -1,0 +1,322 @@
+{
+ "id": "u58_l05",
+ "unit": "u58",
+ "cefr": "A1",
+ "title": {
+  "uk": "Прибирання"
+ },
+ "goal": {
+  "uk": "Говорити про прибирання вдома."
+ },
+ "rule": {
+  "uk": "Vacuum cleaner — пилосос, broom — мітла, bin — смітник, rubbish — сміття, iron — праска. Rubbish нелічильне: a lot of rubbish. Приклад: Take out the rubbish. I iron my shirts on Sundays."
+ },
+ "words": [
+  {
+   "id": "vacuum_cleaner",
+   "text": "vacuum cleaner",
+   "ipa": "/ˈvækjuːm ˌkliːnə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пилосос"
+   },
+   "example": "The vacuum cleaner is in the cupboard.",
+   "exampleTranslation": {
+    "uk": "Пилосос у шафі."
+   }
+  },
+  {
+   "id": "broom",
+   "text": "broom",
+   "ipa": "/bruːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мітла"
+   },
+   "example": "I sweep with a broom.",
+   "exampleTranslation": {
+    "uk": "Я підмітаю мітлою."
+   }
+  },
+  {
+   "id": "bin",
+   "text": "bin",
+   "ipa": "/bɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "смітник"
+   },
+   "example": "Put it in the bin.",
+   "exampleTranslation": {
+    "uk": "Киньте це в смітник."
+   }
+  },
+  {
+   "id": "rubbish",
+   "text": "rubbish",
+   "ipa": "/ˈrʌbɪʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сміття"
+   },
+   "example": "Take out the rubbish.",
+   "exampleTranslation": {
+    "uk": "Винесіть сміття."
+   }
+  },
+  {
+   "id": "iron",
+   "text": "iron",
+   "ipa": "/ˈaɪən/",
+   "pos": "verb",
+   "translation": {
+    "uk": "прасувати"
+   },
+   "example": "I iron my shirts on Sundays.",
+   "exampleTranslation": {
+    "uk": "По неділях я прасую сорочки."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you need in the bathroom?",
+   "prompt": {
+    "uk": "Повторимо. Шампунь. Що відповісти?"
+   },
+   "options": [
+    "Some shampoo, please.",
+    "Shampoo some, please.",
+    "I need shampoo of."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Some shampoo, please."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "vacuum cleaner",
+     "right": {
+      "uk": "пилосос"
+     }
+    },
+    {
+     "left": "broom",
+     "right": {
+      "uk": "мітла"
+     }
+    },
+    {
+     "left": "bin",
+     "right": {
+      "uk": "смітник"
+     }
+    },
+    {
+     "left": "rubbish",
+     "right": {
+      "uk": "сміття"
+     }
+    },
+    {
+     "left": "iron",
+     "right": {
+      "uk": "прасувати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Take out the rubbish.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Винести сміття",
+     "Помити посуд",
+     "Витерти пил"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Rubbish."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Put it in the bin.",
+   "prompt": {
+    "uk": "Прослухайте. Куди це покласти?"
+   },
+   "options": {
+    "uk": [
+     "У смітник",
+     "У шафу",
+     "У ванну"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bin."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I iron my shirts on Sundays.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Прасує сорочки",
+     "Пере сорочки",
+     "Шиє сорочки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Iron."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Take out the ___.",
+   "options": [
+    "rubbish",
+    "vacuum cleaner",
+    "broom"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Сміття."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Put it in the ___.",
+   "options": [
+    "bin",
+    "iron",
+    "broom"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Смітник."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ my shirts on Sundays.",
+   "options": [
+    "iron",
+    "bin",
+    "sweep"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Прасую."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке broom?"
+   },
+   "options": {
+    "uk": [
+     "мітла",
+     "пилосос",
+     "смітник"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Broom — мітла."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Винесіть сміття."
+   },
+   "words": [
+    "Take",
+    "out",
+    "the",
+    "rubbish",
+    "bin",
+    "in"
+   ],
+   "answer": [
+    "Take",
+    "out",
+    "the",
+    "rubbish"
+   ],
+   "explanation": {
+    "uk": "Take out the rubbish."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Пилосос у шафі."
+   },
+   "answers": [
+    "The vacuum cleaner is in the cupboard"
+   ],
+   "explanation": {
+    "uk": "The vacuum cleaner is in the cupboard."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you do on Sundays?",
+   "prompt": {
+    "uk": "Прибираю й прасую. Що відповісти?"
+   },
+   "options": [
+    "I clean and iron.",
+    "I clean and ironing.",
+    "I am clean and iron."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I clean and iron."
+   }
+  }
+ ]
+}

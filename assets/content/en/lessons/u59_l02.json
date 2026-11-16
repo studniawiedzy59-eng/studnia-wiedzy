@@ -1,0 +1,326 @@
+{
+ "id": "u59_l02",
+ "unit": "u59",
+ "cefr": "A1",
+ "title": {
+  "uk": "Місця в місті"
+ },
+ "goal": {
+  "uk": "Назвати місця в районі."
+ },
+ "rule": {
+  "uk": "Police station — поліцейська дільниця, swimming pool — басейн, car park — паркінг, petrol station — заправка, gallery — галерея. Приклад: There is a swimming pool near my house. The car park is free."
+ },
+ "words": [
+  {
+   "id": "police_station",
+   "text": "police station",
+   "ipa": "/pəˈliːs ˌsteɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "поліцейська дільниця"
+   },
+   "example": "The police station is on Main Street.",
+   "exampleTranslation": {
+    "uk": "Поліцейська дільниця на Головній вулиці."
+   }
+  },
+  {
+   "id": "swimming_pool",
+   "text": "swimming pool",
+   "ipa": "/ˈswɪmɪŋ puːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "басейн"
+   },
+   "example": "There is a swimming pool nearby.",
+   "exampleTranslation": {
+    "uk": "Поруч є басейн."
+   }
+  },
+  {
+   "id": "car_park",
+   "text": "car park",
+   "ipa": "/ˈkɑː pɑːk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "паркінг"
+   },
+   "example": "The car park is free.",
+   "exampleTranslation": {
+    "uk": "Паркінг безкоштовний."
+   }
+  },
+  {
+   "id": "petrol_station",
+   "text": "petrol station",
+   "ipa": "/ˈpetrəl ˌsteɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "заправка"
+   },
+   "example": "The petrol station is open all night.",
+   "exampleTranslation": {
+    "uk": "Заправка працює цілу ніч."
+   }
+  },
+  {
+   "id": "gallery",
+   "text": "gallery",
+   "ipa": "/ˈɡæləri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "галерея"
+   },
+   "example": "The gallery opens at ten.",
+   "exampleTranslation": {
+    "uk": "Галерея відкривається о десятій."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where do you live?",
+   "prompt": {
+    "uk": "Повторимо. У передмісті. Що відповісти?"
+   },
+   "options": [
+    "I live in the suburbs.",
+    "I live on suburbs.",
+    "I live at the suburb of."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I live in the suburbs."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "police station",
+     "right": {
+      "uk": "поліцейська дільниця"
+     }
+    },
+    {
+     "left": "swimming pool",
+     "right": {
+      "uk": "басейн"
+     }
+    },
+    {
+     "left": "car park",
+     "right": {
+      "uk": "паркінг"
+     }
+    },
+    {
+     "left": "petrol station",
+     "right": {
+      "uk": "заправка"
+     }
+    },
+    {
+     "left": "gallery",
+     "right": {
+      "uk": "галерея"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The police station is on Main Street.",
+   "prompt": {
+    "uk": "Прослухайте. Де дільниця?"
+   },
+   "options": {
+    "uk": [
+     "На Головній вулиці",
+     "Біля вокзалу",
+     "У парку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Main Street."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There is a swimming pool nearby.",
+   "prompt": {
+    "uk": "Прослухайте. Що є поруч?"
+   },
+   "options": {
+    "uk": [
+     "Басейн",
+     "Галерея",
+     "Заправка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Swimming pool."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The petrol station is open all night.",
+   "prompt": {
+    "uk": "Прослухайте. Коли працює заправка?"
+   },
+   "options": {
+    "uk": [
+     "Цілу ніч",
+     "Лише вдень",
+     "До вечора"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "All night."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is free.",
+   "options": [
+    "car park",
+    "gallery",
+    "police station"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Паркінг."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a ___ nearby.",
+   "options": [
+    "swimming pool",
+    "petrol station",
+    "car park"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Басейн."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ opens at ten.",
+   "options": [
+    "gallery",
+    "car park",
+    "petrol"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Галерея."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке petrol station?"
+   },
+   "options": {
+    "uk": [
+     "заправка",
+     "паркінг",
+     "басейн"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Petrol station — заправка."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Поруч є басейн."
+   },
+   "words": [
+    "There",
+    "is",
+    "a",
+    "swimming",
+    "pool",
+    "nearby",
+    "are",
+    "gallery"
+   ],
+   "answer": [
+    "There",
+    "is",
+    "a",
+    "swimming",
+    "pool",
+    "nearby"
+   ],
+   "explanation": {
+    "uk": "There is a swimming pool nearby."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Паркінг безкоштовний."
+   },
+   "answers": [
+    "The car park is free"
+   ],
+   "explanation": {
+    "uk": "The car park is free."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is there a swimming pool here?",
+   "prompt": {
+    "uk": "Так, поруч. Що відповісти?"
+   },
+   "options": [
+    "Yes, there is one nearby.",
+    "Yes, there is nearby one.",
+    "Yes, is there pool."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, there is one nearby."
+   }
+  }
+ ]
+}

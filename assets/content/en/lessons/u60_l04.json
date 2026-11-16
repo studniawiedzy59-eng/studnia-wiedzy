@@ -1,0 +1,322 @@
+{
+ "id": "u60_l04",
+ "unit": "u60",
+ "cefr": "A1",
+ "title": {
+  "uk": "Відстань і маршрут"
+ },
+ "goal": {
+  "uk": "Говорити про відстань і маршрут."
+ },
+ "rule": {
+  "uk": "Distance — відстань, shortcut — коротка дорога, route — маршрут, mile — миля, detour — об'їзд. Приклад: What's the distance? It's a shortcut. Take another route. A mile — це приблизно 1,6 кілометра."
+ },
+ "words": [
+  {
+   "id": "distance",
+   "text": "distance",
+   "ipa": "/ˈdɪstəns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "відстань"
+   },
+   "example": "The distance is two miles.",
+   "exampleTranslation": {
+    "uk": "Відстань — дві милі."
+   }
+  },
+  {
+   "id": "shortcut",
+   "text": "shortcut",
+   "ipa": "/ˈʃɔːtkʌt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "коротка дорога"
+   },
+   "example": "This is a shortcut.",
+   "exampleTranslation": {
+    "uk": "Це коротка дорога."
+   }
+  },
+  {
+   "id": "route",
+   "text": "route",
+   "ipa": "/ruːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "маршрут"
+   },
+   "example": "This route is faster.",
+   "exampleTranslation": {
+    "uk": "Цей маршрут швидший."
+   }
+  },
+  {
+   "id": "mile",
+   "text": "mile",
+   "ipa": "/maɪl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "миля"
+   },
+   "example": "It's one mile from here.",
+   "exampleTranslation": {
+    "uk": "Це за милю звідси."
+   }
+  },
+  {
+   "id": "detour",
+   "text": "detour",
+   "ipa": "/ˈdiːtʊə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "об'їзд"
+   },
+   "example": "The road is closed. Take a detour.",
+   "exampleTranslation": {
+    "uk": "Дорога закрита. Об'їжджайте."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Which way is the sea?",
+   "prompt": {
+    "uk": "Повторимо. На південь. Що відповісти?"
+   },
+   "options": [
+    "It's to the south.",
+    "It's at south to.",
+    "South it is going."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's to the south."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "distance",
+     "right": {
+      "uk": "відстань"
+     }
+    },
+    {
+     "left": "shortcut",
+     "right": {
+      "uk": "коротка дорога"
+     }
+    },
+    {
+     "left": "route",
+     "right": {
+      "uk": "маршрут"
+     }
+    },
+    {
+     "left": "mile",
+     "right": {
+      "uk": "миля"
+     }
+    },
+    {
+     "left": "detour",
+     "right": {
+      "uk": "об'їзд"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The distance is two miles.",
+   "prompt": {
+    "uk": "Прослухайте. Яка відстань?"
+   },
+   "options": {
+    "uk": [
+     "Дві милі",
+     "Двадцять миль",
+     "Дві милі пішки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Two miles."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "This route is faster.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Цей маршрут швидший",
+     "Цей маршрут довший",
+     "Маршруту немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Faster."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The road is closed. Take a detour.",
+   "prompt": {
+    "uk": "Прослухайте. Що радять?"
+   },
+   "options": {
+    "uk": [
+     "Об'їхати",
+     "Зачекати",
+     "Повернутися"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Detour."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What's the ___ to the station?",
+   "options": [
+    "distance",
+    "detour",
+    "shortcut"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Відстань."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is a ___.",
+   "options": [
+    "shortcut",
+    "mile",
+    "compass"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Коротка дорога."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's one ___ from here.",
+   "options": [
+    "mile",
+    "route",
+    "detour"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Миля."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке detour?"
+   },
+   "options": {
+    "uk": [
+     "об'їзд",
+     "маршрут",
+     "відстань"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Detour — об'їзд."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Цей маршрут швидший."
+   },
+   "words": [
+    "This",
+    "route",
+    "is",
+    "faster",
+    "longer",
+    "are"
+   ],
+   "answer": [
+    "This",
+    "route",
+    "is",
+    "faster"
+   ],
+   "explanation": {
+    "uk": "This route is faster."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це коротка дорога."
+   },
+   "answers": [
+    "This is a shortcut"
+   ],
+   "explanation": {
+    "uk": "This is a shortcut."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How far is the station?",
+   "prompt": {
+    "uk": "Одна миля. Що відповісти?"
+   },
+   "options": [
+    "It's one mile from here.",
+    "It's one mile to here.",
+    "One mile is from."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's one mile from here."
+   }
+  }
+ ]
+}

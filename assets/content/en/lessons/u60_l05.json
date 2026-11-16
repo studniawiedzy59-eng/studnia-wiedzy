@@ -1,0 +1,330 @@
+{
+ "id": "u60_l05",
+ "unit": "u60",
+ "cefr": "A1",
+ "title": {
+  "uk": "На дорозі"
+ },
+ "goal": {
+  "uk": "Говорити про рух і правила."
+ },
+ "rule": {
+  "uk": "Traffic jam — затор, rush hour — година пік, one-way — з одностороннім рухом, dead end — глухий кут, slow down — зменшити швидкість. Приклад: There is a traffic jam at rush hour. This is a one-way street. Slow down!"
+ },
+ "words": [
+  {
+   "id": "traffic_jam",
+   "text": "traffic jam",
+   "ipa": "/ˈtræfɪk dʒæm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "затор"
+   },
+   "example": "There is a traffic jam on the bridge.",
+   "exampleTranslation": {
+    "uk": "На мосту затор."
+   }
+  },
+  {
+   "id": "rush_hour",
+   "text": "rush hour",
+   "ipa": "/ˈrʌʃ aʊə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "година пік"
+   },
+   "example": "I don't drive at rush hour.",
+   "exampleTranslation": {
+    "uk": "Я не їжджу в годину пік."
+   }
+  },
+  {
+   "id": "one-way",
+   "text": "one-way",
+   "ipa": "/ˌwʌn ˈweɪ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "односторонній"
+   },
+   "example": "This is a one-way street.",
+   "exampleTranslation": {
+    "uk": "Це вулиця з одностороннім рухом."
+   }
+  },
+  {
+   "id": "dead_end",
+   "text": "dead end",
+   "ipa": "/ˌded ˈend/",
+   "pos": "noun",
+   "translation": {
+    "uk": "глухий кут"
+   },
+   "example": "The road is a dead end.",
+   "exampleTranslation": {
+    "uk": "Ця дорога — глухий кут."
+   }
+  },
+  {
+   "id": "slow_down",
+   "text": "slow down",
+   "ipa": "/ˌsləʊ ˈdaʊn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "зменшити швидкість"
+   },
+   "example": "Slow down, please.",
+   "exampleTranslation": {
+    "uk": "Їдьте повільніше, будь ласка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How far is the station?",
+   "prompt": {
+    "uk": "Повторимо. Одна миля. Що відповісти?"
+   },
+   "options": [
+    "It's one mile from here.",
+    "It's one mile to here.",
+    "One mile is from."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's one mile from here."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "traffic jam",
+     "right": {
+      "uk": "затор"
+     }
+    },
+    {
+     "left": "rush hour",
+     "right": {
+      "uk": "година пік"
+     }
+    },
+    {
+     "left": "one-way",
+     "right": {
+      "uk": "односторонній"
+     }
+    },
+    {
+     "left": "dead end",
+     "right": {
+      "uk": "глухий кут"
+     }
+    },
+    {
+     "left": "slow down",
+     "right": {
+      "uk": "зменшити швидкість"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "There is a traffic jam on the bridge.",
+   "prompt": {
+    "uk": "Прослухайте. Що на мосту?"
+   },
+   "options": {
+    "uk": [
+     "Затор",
+     "Аварія",
+     "Ремонт"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Traffic jam."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "This is a one-way street.",
+   "prompt": {
+    "uk": "Прослухайте. Яка вулиця?"
+   },
+   "options": {
+    "uk": [
+     "З одностороннім рухом",
+     "Дуже вузька",
+     "Нова"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "One-way."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Slow down, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що просять?"
+   },
+   "options": {
+    "uk": [
+     "Їхати повільніше",
+     "Їхати швидше",
+     "Зупинитися"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Slow down."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a ___ on the bridge.",
+   "options": [
+    "traffic jam",
+    "dead end",
+    "shortcut"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Затор."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is a ___ street.",
+   "options": [
+    "one-way",
+    "rush",
+    "slow"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "One-way."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ down, please.",
+   "options": [
+    "Slow",
+    "Slowly",
+    "Slower"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Slow down."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке dead end?"
+   },
+   "options": {
+    "uk": [
+     "глухий кут",
+     "затор",
+     "об'їзд"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Dead end — глухий кут."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "На мосту затор."
+   },
+   "words": [
+    "There",
+    "is",
+    "a",
+    "traffic",
+    "jam",
+    "on",
+    "the",
+    "bridge",
+    "are",
+    "rush"
+   ],
+   "answer": [
+    "There",
+    "is",
+    "a",
+    "traffic",
+    "jam",
+    "on",
+    "the",
+    "bridge"
+   ],
+   "explanation": {
+    "uk": "There is a traffic jam on the bridge."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Їдьте повільніше, будь ласка."
+   },
+   "answers": [
+    "Slow down, please"
+   ],
+   "explanation": {
+    "uk": "Slow down, please."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Why are you late?",
+   "prompt": {
+    "uk": "Затор. Що відповісти?"
+   },
+   "options": [
+    "There was a traffic jam.",
+    "There were traffic jam.",
+    "It was a jam of traffic."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There was a traffic jam."
+   }
+  }
+ ]
+}

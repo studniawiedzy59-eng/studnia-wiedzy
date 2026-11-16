@@ -1,0 +1,322 @@
+{
+ "id": "u58_l04",
+ "unit": "u58",
+ "cefr": "A1",
+ "title": {
+  "uk": "У ванній"
+ },
+ "goal": {
+  "uk": "Назвати речі у ванній."
+ },
+ "rule": {
+  "uk": "Sink — раковина, tap — кран, bath — ванна, toothbrush — зубна щітка, shampoo — шампунь. Приклад: The tap is leaking. I brush my teeth with a toothbrush. Bath — ванна, а shower — душ ви знаєте."
+ },
+ "words": [
+  {
+   "id": "sink",
+   "text": "sink",
+   "ipa": "/sɪŋk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "раковина"
+   },
+   "example": "The sink is full of dishes.",
+   "exampleTranslation": {
+    "uk": "Раковина повна посуду."
+   }
+  },
+  {
+   "id": "tap",
+   "text": "tap",
+   "ipa": "/tæp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кран"
+   },
+   "example": "Turn off the tap.",
+   "exampleTranslation": {
+    "uk": "Закрийте кран."
+   }
+  },
+  {
+   "id": "bath",
+   "text": "bath",
+   "ipa": "/bɑːθ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ванна"
+   },
+   "example": "I take a bath on Sundays.",
+   "exampleTranslation": {
+    "uk": "По неділях я приймаю ванну."
+   }
+  },
+  {
+   "id": "toothbrush",
+   "text": "toothbrush",
+   "ipa": "/ˈtuːθbrʌʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "зубна щітка"
+   },
+   "example": "This is my toothbrush.",
+   "exampleTranslation": {
+    "uk": "Це моя зубна щітка."
+   }
+  },
+  {
+   "id": "shampoo",
+   "text": "shampoo",
+   "ipa": "/ʃæmˈpuː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шампунь"
+   },
+   "example": "I need some shampoo.",
+   "exampleTranslation": {
+    "uk": "Мені потрібен шампунь."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you have in the kitchen?",
+   "prompt": {
+    "uk": "Повторимо. Плиту й посудомийну машину. Що відповісти?"
+   },
+   "options": [
+    "A cooker and a dishwasher.",
+    "Cooker and dishwasher have.",
+    "A cooker with dishwasher it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A cooker and a dishwasher."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "sink",
+     "right": {
+      "uk": "раковина"
+     }
+    },
+    {
+     "left": "tap",
+     "right": {
+      "uk": "кран"
+     }
+    },
+    {
+     "left": "bath",
+     "right": {
+      "uk": "ванна"
+     }
+    },
+    {
+     "left": "toothbrush",
+     "right": {
+      "uk": "зубна щітка"
+     }
+    },
+    {
+     "left": "shampoo",
+     "right": {
+      "uk": "шампунь"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Turn off the tap.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Закрити кран",
+     "Відкрити кран",
+     "Вимити раковину"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tap."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I take a bath on Sundays.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина приймає ванну?"
+   },
+   "options": {
+    "uk": [
+     "По неділях",
+     "По п'ятницях",
+     "Щодня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sundays."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I need some shampoo.",
+   "prompt": {
+    "uk": "Прослухайте. Що потрібно людині?"
+   },
+   "options": {
+    "uk": [
+     "Шампунь",
+     "Мило",
+     "Зубна щітка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Shampoo."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Turn off the ___.",
+   "options": [
+    "tap",
+    "bath",
+    "toothbrush"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Кран закривають."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is my ___.",
+   "options": [
+    "toothbrush",
+    "sink",
+    "shampoo"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Зубна щітка."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I take a ___ on Sundays.",
+   "options": [
+    "bath",
+    "tap",
+    "sink"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Приймаю ванну."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке sink?"
+   },
+   "options": {
+    "uk": [
+     "раковина",
+     "кран",
+     "ванна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sink — раковина."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мені потрібен шампунь."
+   },
+   "words": [
+    "I",
+    "need",
+    "some",
+    "shampoo",
+    "needs",
+    "tap"
+   ],
+   "answer": [
+    "I",
+    "need",
+    "some",
+    "shampoo"
+   ],
+   "explanation": {
+    "uk": "I need some shampoo."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Закрийте кран."
+   },
+   "answers": [
+    "Turn off the tap"
+   ],
+   "explanation": {
+    "uk": "Turn off the tap."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you need in the bathroom?",
+   "prompt": {
+    "uk": "Шампунь. Що відповісти?"
+   },
+   "options": [
+    "Some shampoo, please.",
+    "Shampoo some, please.",
+    "I need shampoo of."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Some shampoo, please."
+   }
+  }
+ ]
+}

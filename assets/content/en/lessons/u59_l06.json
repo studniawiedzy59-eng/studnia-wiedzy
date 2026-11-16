@@ -1,0 +1,284 @@
+{
+ "id": "u59_l06",
+ "unit": "u59",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: мій район"
+ },
+ "goal": {
+  "uk": "Закріпити слова про район."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: район (district, suburb, outskirts), місця (swimming pool, car park, petrol station, gallery), послуги (florist, hairdresser, dentist, vet), природа (forest, beach, castle) і оцінка (convenient, noise, empty)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is your district convenient?",
+   "prompt": {
+    "uk": "Повторимо. Так, поруч метро. Що відповісти?"
+   },
+   "options": [
+    "Yes, the metro is nearby.",
+    "Yes, metro nearby is.",
+    "Yes, it convenient near metro."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, the metro is nearby."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "There is a castle and a gallery in my district.",
+   "prompt": {
+    "uk": "Прослухайте. Що є в районі?"
+   },
+   "options": {
+    "uk": [
+     "Замок і галерея",
+     "Басейн і заправка",
+     "Пляж і ліс"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Castle, gallery."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The car park is free and the district is quiet.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Паркінг безкоштовний, район тихий",
+     "Паркінг платний, район шумний",
+     "Паркінгу немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Free, quiet."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I buy flowers at the florist.",
+   "prompt": {
+    "uk": "Прослухайте. Що купує людина?"
+   },
+   "options": {
+    "uk": [
+     "Квіти",
+     "Книжки",
+     "Каву"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Flowers."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I live in the ___. (передмістя)",
+   "options": [
+    "suburbs",
+    "outskirts",
+    "statue"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Suburbs."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is on the hill.",
+   "options": [
+    "castle",
+    "car park",
+    "vet"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Castle."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The street is ___.",
+   "options": [
+    "empty",
+    "florist",
+    "convenient"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Empty."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке neighbourhood?"
+   },
+   "options": {
+    "uk": [
+     "квартал",
+     "замок",
+     "шум"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Neighbourhood — квартал."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це тихий район."
+   },
+   "words": [
+    "It's",
+    "a",
+    "quiet",
+    "district",
+    "noisy",
+    "suburb"
+   ],
+   "answer": [
+    "It's",
+    "a",
+    "quiet",
+    "district"
+   ],
+   "explanation": {
+    "uk": "It's a quiet district."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Поруч є басейн."
+   },
+   "answers": [
+    "There is a swimming pool nearby"
+   ],
+   "explanation": {
+    "uk": "There is a swimming pool nearby."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Do you like your district?",
+   "prompt": {
+    "uk": "Так, тут тихо. Що відповісти?"
+   },
+   "options": [
+    "Yes, it's quiet here.",
+    "Yes, here quiet is.",
+    "Yes, it is quietly."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it's quiet here."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви розповідаєте про район."
+   },
+   "character": {
+    "name": {
+     "uk": "Новий сусід Джон"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Do you like living here?",
+   "options": [
+    "Yes, it's a quiet district.",
+    "Yes, here is quiet district.",
+    "Yes, I like very quiet."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's a quiet district — природно."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Поруч є басейн."
+   },
+   "character": {
+    "name": {
+     "uk": "Новий сусід Джон"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Is there a swimming pool near here?",
+   "options": [
+    "Yes, there is one nearby.",
+    "Yes, there is pool near.",
+    "Yes, near is a pool."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is one nearby — one замінює swimming pool."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "У районі шумно."
+   },
+   "character": {
+    "name": {
+     "uk": "Новий сусід Джон"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Is it noisy?",
+   "options": [
+    "A bit, there is some noise at night.",
+    "A little, noise is at night.",
+    "Noisy, yes, at the night."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A bit — «трохи»; some noise — нелічильне."
+   }
+  }
+ ]
+}

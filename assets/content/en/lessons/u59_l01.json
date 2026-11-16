@@ -1,0 +1,322 @@
+{
+ "id": "u59_l01",
+ "unit": "u59",
+ "cefr": "A1",
+ "title": {
+  "uk": "Район і околиці"
+ },
+ "goal": {
+  "uk": "Розповісти, де ви живете."
+ },
+ "rule": {
+  "uk": "District — район, neighbourhood — квартал, місцевість навколо, suburb — передмістя, outskirts — околиця міста, countryside — сільська місцевість. Приклад: I live in a quiet district. They live in the suburbs."
+ },
+ "words": [
+  {
+   "id": "district",
+   "text": "district",
+   "ipa": "/ˈdɪstrɪkt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "район"
+   },
+   "example": "It's a quiet district.",
+   "exampleTranslation": {
+    "uk": "Це тихий район."
+   }
+  },
+  {
+   "id": "neighbourhood",
+   "text": "neighbourhood",
+   "ipa": "/ˈneɪbəhʊd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "квартал, місцевість"
+   },
+   "example": "It's a friendly neighbourhood.",
+   "exampleTranslation": {
+    "uk": "Це дружній квартал."
+   }
+  },
+  {
+   "id": "suburb",
+   "text": "suburb",
+   "ipa": "/ˈsʌbɜːb/",
+   "pos": "noun",
+   "translation": {
+    "uk": "передмістя"
+   },
+   "example": "They live in the suburbs.",
+   "exampleTranslation": {
+    "uk": "Вони живуть у передмісті."
+   }
+  },
+  {
+   "id": "outskirts",
+   "text": "outskirts",
+   "ipa": "/ˈaʊtskɜːts/",
+   "pos": "noun",
+   "translation": {
+    "uk": "околиця міста"
+   },
+   "example": "The airport is on the outskirts.",
+   "exampleTranslation": {
+    "uk": "Аеропорт на околиці міста."
+   }
+  },
+  {
+   "id": "countryside",
+   "text": "countryside",
+   "ipa": "/ˈkʌntrisaɪd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сільська місцевість"
+   },
+   "example": "I love the countryside.",
+   "exampleTranslation": {
+    "uk": "Я люблю сільську місцевість."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is the flat modern?",
+   "prompt": {
+    "uk": "Повторимо. Так, у ній нова плита. Що відповісти?"
+   },
+   "options": [
+    "Yes, it has a new cooker.",
+    "Yes, it have new cooker.",
+    "Yes, in it new cooker is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it has a new cooker."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "district",
+     "right": {
+      "uk": "район"
+     }
+    },
+    {
+     "left": "neighbourhood",
+     "right": {
+      "uk": "квартал, місцевість"
+     }
+    },
+    {
+     "left": "suburb",
+     "right": {
+      "uk": "передмістя"
+     }
+    },
+    {
+     "left": "outskirts",
+     "right": {
+      "uk": "околиця міста"
+     }
+    },
+    {
+     "left": "countryside",
+     "right": {
+      "uk": "сільська місцевість"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It's a quiet district.",
+   "prompt": {
+    "uk": "Прослухайте. Який район?"
+   },
+   "options": {
+    "uk": [
+     "Тихий",
+     "Шумний",
+     "Новий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Quiet."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "They live in the suburbs.",
+   "prompt": {
+    "uk": "Прослухайте. Де вони живуть?"
+   },
+   "options": {
+    "uk": [
+     "У передмісті",
+     "У центрі",
+     "У селі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Suburbs."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The airport is on the outskirts.",
+   "prompt": {
+    "uk": "Прослухайте. Де аеропорт?"
+   },
+   "options": {
+    "uk": [
+     "На околиці міста",
+     "У центрі",
+     "Біля озера"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Outskirts."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's a quiet ___.",
+   "options": [
+    "district",
+    "outskirts",
+    "countryside"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Район."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "They live in the ___.",
+   "options": [
+    "suburbs",
+    "suburb",
+    "neighbourhood"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In the suburbs."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I love the ___.",
+   "options": [
+    "countryside",
+    "district",
+    "outskirts"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Село, природа."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке outskirts?"
+   },
+   "options": {
+    "uk": [
+     "околиця міста",
+     "район",
+     "передмістя"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Outskirts — околиця міста."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це тихий район."
+   },
+   "words": [
+    "It's",
+    "a",
+    "quiet",
+    "district",
+    "noisy",
+    "suburb"
+   ],
+   "answer": [
+    "It's",
+    "a",
+    "quiet",
+    "district"
+   ],
+   "explanation": {
+    "uk": "It's a quiet district."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я люблю сільську місцевість."
+   },
+   "answers": [
+    "I love the countryside"
+   ],
+   "explanation": {
+    "uk": "I love the countryside."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where do you live?",
+   "prompt": {
+    "uk": "У передмісті. Що відповісти?"
+   },
+   "options": [
+    "I live in the suburbs.",
+    "I live on suburbs.",
+    "I live at the suburb of."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I live in the suburbs."
+   }
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "id": "u60_l01",
+ "unit": "u60",
+ "cefr": "A1",
+ "title": {
+  "uk": "Дорога"
+ },
+ "goal": {
+  "uk": "Назвати елементи дороги."
+ },
+ "rule": {
+  "uk": "Crossroads — перехрестя, roundabout — кільцева розв'язка, junction — розвилка, avenue — проспект, tunnel — тунель. Приклад: Turn left at the roundabout. The tunnel is long. Crossroads — і однина, і множина."
+ },
+ "words": [
+  {
+   "id": "crossroads",
+   "text": "crossroads",
+   "ipa": "/ˈkrɒsrəʊdz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "перехрестя"
+   },
+   "example": "Turn right at the crossroads.",
+   "exampleTranslation": {
+    "uk": "На перехресті поверніть праворуч."
+   }
+  },
+  {
+   "id": "roundabout",
+   "text": "roundabout",
+   "ipa": "/ˈraʊndəbaʊt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кільцева розв'язка"
+   },
+   "example": "Take the second exit at the roundabout.",
+   "exampleTranslation": {
+    "uk": "На розв'язці з'їжджайте на другому з'їзді."
+   }
+  },
+  {
+   "id": "junction",
+   "text": "junction",
+   "ipa": "/ˈdʒʌŋkʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "розвилка"
+   },
+   "example": "There is a junction ahead.",
+   "exampleTranslation": {
+    "uk": "Попереду розвилка."
+   }
+  },
+  {
+   "id": "avenue",
+   "text": "avenue",
+   "ipa": "/ˈævənjuː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "проспект"
+   },
+   "example": "The hotel is on Park Avenue.",
+   "exampleTranslation": {
+    "uk": "Готель на Парк-авеню."
+   }
+  },
+  {
+   "id": "tunnel",
+   "text": "tunnel",
+   "ipa": "/ˈtʌnl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тунель"
+   },
+   "example": "The tunnel is long.",
+   "exampleTranslation": {
+    "uk": "Тунель довгий."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you like your district?",
+   "prompt": {
+    "uk": "Повторимо. Так, тут тихо. Що відповісти?"
+   },
+   "options": [
+    "Yes, it's quiet here.",
+    "Yes, here quiet is.",
+    "Yes, it is quietly."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it's quiet here."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "crossroads",
+     "right": {
+      "uk": "перехрестя"
+     }
+    },
+    {
+     "left": "roundabout",
+     "right": {
+      "uk": "кільцева розв'язка"
+     }
+    },
+    {
+     "left": "junction",
+     "right": {
+      "uk": "розвилка"
+     }
+    },
+    {
+     "left": "avenue",
+     "right": {
+      "uk": "проспект"
+     }
+    },
+    {
+     "left": "tunnel",
+     "right": {
+      "uk": "тунель"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Turn right at the crossroads.",
+   "prompt": {
+    "uk": "Прослухайте. Куди повернути?"
+   },
+   "options": {
+    "uk": [
+     "Праворуч на перехресті",
+     "Ліворуч на перехресті",
+     "Прямо"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Right."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There is a junction ahead.",
+   "prompt": {
+    "uk": "Прослухайте. Що попереду?"
+   },
+   "options": {
+    "uk": [
+     "Розвилка",
+     "Тунель",
+     "Міст"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Junction."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The tunnel is long.",
+   "prompt": {
+    "uk": "Прослухайте. Який тунель?"
+   },
+   "options": {
+    "uk": [
+     "Довгий",
+     "Короткий",
+     "Вузький"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Long."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Turn right at the ___.",
+   "options": [
+    "crossroads",
+    "tunnel",
+    "avenue"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перехрестя."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The hotel is on Park ___.",
+   "options": [
+    "Avenue",
+    "Junction",
+    "Tunnel"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Avenue."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Take the second exit at the ___.",
+   "options": [
+    "roundabout",
+    "junction",
+    "avenue"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Roundabout."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке roundabout?"
+   },
+   "options": {
+    "uk": [
+     "кільцева розв'язка",
+     "перехрестя",
+     "тунель"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Roundabout — кільцева розв'язка."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Тунель довгий."
+   },
+   "words": [
+    "The",
+    "tunnel",
+    "is",
+    "long",
+    "short",
+    "are"
+   ],
+   "answer": [
+    "The",
+    "tunnel",
+    "is",
+    "long"
+   ],
+   "explanation": {
+    "uk": "The tunnel is long."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Попереду розвилка."
+   },
+   "answers": [
+    "There is a junction ahead"
+   ],
+   "explanation": {
+    "uk": "There is a junction ahead."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where do I turn?",
+   "prompt": {
+    "uk": "На перехресті. Що відповісти?"
+   },
+   "options": [
+    "Turn right at the crossroads.",
+    "Turn to right on crossroads.",
+    "Right turn crossroads at."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Turn right at the crossroads."
+   }
+  }
+ ]
+}

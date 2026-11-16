@@ -1,0 +1,322 @@
+{
+ "id": "u57_l03",
+ "unit": "u57",
+ "cefr": "A1",
+ "title": {
+  "uk": "Оренда житла"
+ },
+ "goal": {
+  "uk": "Говорити про оренду."
+ },
+ "rule": {
+  "uk": "Landlord — власник, що здає житло, tenant — орендар, deposit — завдаток, bills — рахунки за комунальні послуги, furnished — з меблями. Приклад: The flat is furnished. The deposit is one month's rent. Bills are extra."
+ },
+ "words": [
+  {
+   "id": "landlord",
+   "text": "landlord",
+   "ipa": "/ˈlændlɔːd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "орендодавець"
+   },
+   "example": "The landlord is friendly.",
+   "exampleTranslation": {
+    "uk": "Орендодавець привітний."
+   }
+  },
+  {
+   "id": "tenant",
+   "text": "tenant",
+   "ipa": "/ˈtenənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "орендар"
+   },
+   "example": "I'm a tenant.",
+   "exampleTranslation": {
+    "uk": "Я орендар."
+   }
+  },
+  {
+   "id": "deposit",
+   "text": "deposit",
+   "ipa": "/dɪˈpɒzɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "завдаток"
+   },
+   "example": "The deposit is five hundred pounds.",
+   "exampleTranslation": {
+    "uk": "Завдаток — п'ятсот фунтів."
+   }
+  },
+  {
+   "id": "bills",
+   "text": "bills",
+   "ipa": "/bɪlz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рахунки за комуналку"
+   },
+   "example": "The bills are extra.",
+   "exampleTranslation": {
+    "uk": "Комуналка оплачується окремо."
+   }
+  },
+  {
+   "id": "furnished",
+   "text": "furnished",
+   "ipa": "/ˈfɜːnɪʃt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "з меблями"
+   },
+   "example": "The flat is furnished.",
+   "exampleTranslation": {
+    "uk": "Квартира з меблями."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where is your flat?",
+   "prompt": {
+    "uk": "Повторимо. На верхньому поверсі. Що відповісти?"
+   },
+   "options": [
+    "It's on the top floor.",
+    "It's in top floor.",
+    "It on the top floor is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's on the top floor."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "landlord",
+     "right": {
+      "uk": "орендодавець"
+     }
+    },
+    {
+     "left": "tenant",
+     "right": {
+      "uk": "орендар"
+     }
+    },
+    {
+     "left": "deposit",
+     "right": {
+      "uk": "завдаток"
+     }
+    },
+    {
+     "left": "bills",
+     "right": {
+      "uk": "рахунки за комуналку"
+     }
+    },
+    {
+     "left": "furnished",
+     "right": {
+      "uk": "з меблями"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The landlord is friendly.",
+   "prompt": {
+    "uk": "Прослухайте. Який орендодавець?"
+   },
+   "options": {
+    "uk": [
+     "Привітний",
+     "Суворий",
+     "Дорогий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Friendly."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The deposit is five hundred pounds.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки завдаток?"
+   },
+   "options": {
+    "uk": [
+     "П'ятсот фунтів",
+     "П'ятдесят фунтів",
+     "П'ять фунтів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "500."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The flat is furnished.",
+   "prompt": {
+    "uk": "Прослухайте. Яка квартира?"
+   },
+   "options": {
+    "uk": [
+     "З меблями",
+     "Без меблів",
+     "Нова"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Furnished."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is friendly.",
+   "options": [
+    "landlord",
+    "tenant",
+    "deposit"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Орендодавець — landlord."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm a ___.",
+   "options": [
+    "tenant",
+    "landlord",
+    "bill"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Орендар — tenant."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ are extra.",
+   "options": [
+    "bills",
+    "deposit",
+    "tenant"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Bills — множина."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке deposit?"
+   },
+   "options": {
+    "uk": [
+     "завдаток",
+     "орендар",
+     "рахунок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Deposit — завдаток."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Квартира з меблями."
+   },
+   "words": [
+    "The",
+    "flat",
+    "is",
+    "furnished",
+    "tenant",
+    "bills"
+   ],
+   "answer": [
+    "The",
+    "flat",
+    "is",
+    "furnished"
+   ],
+   "explanation": {
+    "uk": "The flat is furnished."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Комуналка оплачується окремо."
+   },
+   "answers": [
+    "The bills are extra"
+   ],
+   "explanation": {
+    "uk": "The bills are extra."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is the flat furnished?",
+   "prompt": {
+    "uk": "Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, it is.",
+    "Yes, it furnished.",
+    "Yes, is furnished it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it is."
+   }
+  }
+ ]
+}
