@@ -1,0 +1,355 @@
+{
+ "id": "u30_l02",
+ "unit": "u30",
+ "cefr": "A0",
+ "title": {
+  "uk": "Сніг і двадцять градусів"
+ },
+ "goal": {
+  "uk": "Назвати температуру й зимову погоду."
+ },
+ "rule": {
+  "uk": "Температуру кажуть так: It's twenty degrees. Нижче нуля — minus five. Freezing — «дуже холодно, мороз». Foggy — туманно. A storm — буря, гроза."
+ },
+ "words": [
+  {
+   "id": "snow",
+   "text": "snow",
+   "ipa": "/snəʊ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сніг"
+   },
+   "example": "There's a lot of snow.",
+   "exampleTranslation": {
+    "uk": "Тут багато снігу."
+   }
+  },
+  {
+   "id": "foggy",
+   "text": "foggy",
+   "ipa": "/ˈfɒɡi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "туманний"
+   },
+   "example": "It's foggy.",
+   "exampleTranslation": {
+    "uk": "Туманно."
+   }
+  },
+  {
+   "id": "storm",
+   "text": "storm",
+   "ipa": "/stɔːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "буря, гроза"
+   },
+   "example": "There's a storm.",
+   "exampleTranslation": {
+    "uk": "Буря."
+   }
+  },
+  {
+   "id": "degrees",
+   "text": "degrees",
+   "ipa": "/dɪˈɡriːz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "градуси"
+   },
+   "example": "It's ten degrees.",
+   "exampleTranslation": {
+    "uk": "Десять градусів."
+   }
+  },
+  {
+   "id": "minus",
+   "text": "minus",
+   "ipa": "/ˈmaɪnəs/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "мінус"
+   },
+   "example": "Minus five.",
+   "exampleTranslation": {
+    "uk": "Мінус п'ять."
+   }
+  },
+  {
+   "id": "freezing",
+   "text": "freezing",
+   "ipa": "/ˈfriːzɪŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "дуже холодний, морозний"
+   },
+   "example": "It's freezing!",
+   "exampleTranslation": {
+    "uk": "Мороз!"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "What's the weather ___ today?",
+   "options": [
+    "like",
+    "look",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What's the weather like?"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "snow",
+     "right": {
+      "uk": "сніг"
+     }
+    },
+    {
+     "left": "foggy",
+     "right": {
+      "uk": "туманний"
+     }
+    },
+    {
+     "left": "storm",
+     "right": {
+      "uk": "буря"
+     }
+    },
+    {
+     "left": "freezing",
+     "right": {
+      "uk": "морозний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Погана погода."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "degrees",
+     "right": {
+      "uk": "градуси"
+     }
+    },
+    {
+     "left": "minus",
+     "right": {
+      "uk": "мінус"
+     }
+    },
+    {
+     "left": "hot",
+     "right": {
+      "uk": "жарко"
+     }
+    },
+    {
+     "left": "warm",
+     "right": {
+      "uk": "тепло"
+     }
+    },
+    {
+     "left": "cold",
+     "right": {
+      "uk": "холодно"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Від найтеплішого: hot, warm, cold, freezing."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's twenty-five degrees.",
+   "prompt": {
+    "uk": "Прослухайте. Яка температура?"
+   },
+   "options": {
+    "uk": [
+     "25 градусів",
+     "20 градусів",
+     "35 градусів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twenty-five degrees."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It's minus ten. It's freezing!",
+   "prompt": {
+    "uk": "Прослухайте. Яка температура?"
+   },
+   "options": {
+    "uk": [
+     "Мінус 10",
+     "Плюс 10",
+     "Мінус 2"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Minus ten."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "It's foggy this morning.",
+   "prompt": {
+    "uk": "Прослухайте. Яка погода вранці?"
+   },
+   "options": {
+    "uk": [
+     "Туман",
+     "Сніг",
+     "Буря"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Foggy."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's thirty ___. It's very hot!",
+   "options": [
+    "degrees",
+    "minus",
+    "snow"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thirty degrees."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's ___ two. Put on a warm coat.",
+   "options": [
+    "minus",
+    "degrees",
+    "foggy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Minus two."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що найхолодніше?"
+   },
+   "options": {
+    "uk": [
+     "freezing",
+     "cold",
+     "warm"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Freezing — мороз."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Сьогодні десять градусів."
+   },
+   "words": [
+    "It's",
+    "ten",
+    "degrees",
+    "today",
+    "minus",
+    "is"
+   ],
+   "answer": [
+    "It's",
+    "ten",
+    "degrees",
+    "today"
+   ],
+   "explanation": {
+    "uk": "It's ten degrees today."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мороз!"
+   },
+   "answers": [
+    "It's freezing",
+    "It is freezing"
+   ],
+   "explanation": {
+    "uk": "It's freezing!"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What's the temperature?",
+   "prompt": {
+    "uk": "Надворі п'ятнадцять градусів. Що відповісти?"
+   },
+   "options": [
+    "It's fifteen degrees.",
+    "It's fifty degree.",
+    "It has fifteen degrees."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's fifteen degrees."
+   }
+  }
+ ]
+}

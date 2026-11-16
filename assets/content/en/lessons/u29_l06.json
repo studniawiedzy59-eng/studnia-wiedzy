@@ -1,0 +1,231 @@
+{
+ "id": "u29_l06",
+ "unit": "u29",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: одяг"
+ },
+ "goal": {
+  "uk": "Назвати одяг, сказати, що ви носите, і купити потрібну річ."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: назви одягу, множину trousers і jeans, wear, a pair of, fit, tight і loose, put on і take off."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My trousers ___ too long.",
+   "options": [
+    "are",
+    "is",
+    "does"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Trousers — множина."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я зазвичай ношу джинси й футболку."
+   },
+   "words": [
+    "I",
+    "usually",
+    "wear",
+    "jeans",
+    "and",
+    "a",
+    "T-shirt",
+    "wears"
+   ],
+   "answer": [
+    "I",
+    "usually",
+    "wear",
+    "jeans",
+    "and",
+    "a",
+    "T-shirt"
+   ],
+   "explanation": {
+    "uk": "I usually wear jeans and a T-shirt."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «дві пари кросівок»?"
+   },
+   "options": [
+    "two pairs of trainers",
+    "two pair trainers",
+    "two trainers pair"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Two pairs of trainers."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ці черевики не підходять."
+   },
+   "answers": [
+    "These boots don't fit",
+    "These boots do not fit"
+   ],
+   "explanation": {
+    "uk": "These boots don't fit."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "She wears a suit to work, but casual clothes at the weekend.",
+   "prompt": {
+    "uk": "Прослухайте. Що вона носить на вихідних?"
+   },
+   "options": {
+    "uk": [
+     "Повсякденний одяг",
+     "Костюм",
+     "Форму"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Casual clothes at the weekend."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's cold outside. Put ___ your scarf and gloves.",
+   "options": [
+    "on",
+    "off",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Put on."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що носять на руках?"
+   },
+   "options": {
+    "uk": [
+     "gloves",
+     "socks",
+     "boots"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Gloves — рукавички."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мені потрібен теплий светр."
+   },
+   "answers": [
+    "I need a warm jumper"
+   ],
+   "explanation": {
+    "uk": "I need a warm jumper."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "This shirt is too tight. Do you have a bigger one?",
+   "prompt": {
+    "uk": "Прослухайте. Що просить покупець?"
+   },
+   "options": {
+    "uk": [
+     "Більший розмір",
+     "Менший розмір",
+     "Інший колір"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A bigger one."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ a tie every day.",
+   "options": [
+    "wears",
+    "wear",
+    "is wear"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He wears."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Can I help you?",
+   "prompt": {
+    "uk": "Ви шукаєте одні чорні джинси. Що відповісти?"
+   },
+   "options": [
+    "Yes, I'm looking for a pair of black jeans.",
+    "Yes, I'm looking for a black jeans.",
+    "Yes, I look pair jeans."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A pair of black jeans."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How are the trousers?",
+   "prompt": {
+    "uk": "Штани підійшли ідеально. Що відповісти?"
+   },
+   "options": [
+    "They're perfect. I'll take them.",
+    "It's perfect. I'll take it.",
+    "They're perfect. I'll take it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про штани — they і them."
+   }
+  }
+ ]
+}

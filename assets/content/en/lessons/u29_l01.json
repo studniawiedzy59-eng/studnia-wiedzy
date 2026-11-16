@@ -1,0 +1,362 @@
+{
+ "id": "u29_l01",
+ "unit": "u29",
+ "cefr": "A0",
+ "title": {
+  "uk": "Що в шафі"
+ },
+ "goal": {
+  "uk": "Назвати основний одяг."
+ },
+ "rule": {
+  "uk": "Clothes — «одяг», завжди у множині. Trousers і jeans теж лише у множині, навіть коли річ одна: My trousers are black. Тому перед ними немає a."
+ },
+ "words": [
+  {
+   "id": "clothes",
+   "text": "clothes",
+   "ipa": "/kləʊðz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "одяг"
+   },
+   "example": "I need new clothes.",
+   "exampleTranslation": {
+    "uk": "Мені потрібен новий одяг."
+   }
+  },
+  {
+   "id": "shirt",
+   "text": "shirt",
+   "ipa": "/ʃɜːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сорочка"
+   },
+   "example": "A white shirt.",
+   "exampleTranslation": {
+    "uk": "Біла сорочка."
+   }
+  },
+  {
+   "id": "t-shirt",
+   "text": "T-shirt",
+   "ipa": "/ˈtiː ʃɜːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "футболка"
+   },
+   "example": "A blue T-shirt.",
+   "exampleTranslation": {
+    "uk": "Синя футболка."
+   }
+  },
+  {
+   "id": "trousers",
+   "text": "trousers",
+   "ipa": "/ˈtraʊzəz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "штани"
+   },
+   "example": "Black trousers.",
+   "exampleTranslation": {
+    "uk": "Чорні штани."
+   }
+  },
+  {
+   "id": "jeans",
+   "text": "jeans",
+   "ipa": "/dʒiːnz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "джинси"
+   },
+   "example": "My jeans are old.",
+   "exampleTranslation": {
+    "uk": "Мої джинси старі."
+   }
+  },
+  {
+   "id": "skirt",
+   "text": "skirt",
+   "ipa": "/skɜːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "спідниця"
+   },
+   "example": "A long skirt.",
+   "exampleTranslation": {
+    "uk": "Довга спідниця."
+   }
+  },
+  {
+   "id": "jumper",
+   "text": "jumper",
+   "ipa": "/ˈdʒʌmpə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "светр"
+   },
+   "example": "A warm jumper.",
+   "exampleTranslation": {
+    "uk": "Теплий светр."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Together or separately?",
+   "prompt": {
+    "uk": "Повторимо. Ви платите разом. Що відповісти?"
+   },
+   "options": [
+    "Together, please.",
+    "Separately, please.",
+    "Bill, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Together, please."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "shirt",
+     "right": {
+      "uk": "сорочка"
+     }
+    },
+    {
+     "left": "T-shirt",
+     "right": {
+      "uk": "футболка"
+     }
+    },
+    {
+     "left": "skirt",
+     "right": {
+      "uk": "спідниця"
+     }
+    },
+    {
+     "left": "jumper",
+     "right": {
+      "uk": "светр"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Shirt і skirt звучать схоже: слухайте перший звук."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "clothes",
+     "right": {
+      "uk": "одяг"
+     }
+    },
+    {
+     "left": "trousers",
+     "right": {
+      "uk": "штани"
+     }
+    },
+    {
+     "left": "jeans",
+     "right": {
+      "uk": "джинси"
+     }
+    },
+    {
+     "left": "jacket",
+     "right": {
+      "uk": "куртка"
+     }
+    },
+    {
+     "left": "dress",
+     "right": {
+      "uk": "сукня"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Jacket і dress ви вже знаєте."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I need a white shirt.",
+   "prompt": {
+    "uk": "Прослухайте. Що потрібно людині?"
+   },
+   "options": {
+    "uk": [
+     "Біла сорочка",
+     "Біла спідниця",
+     "Біла футболка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A white shirt."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My jeans are too small.",
+   "prompt": {
+    "uk": "Прослухайте. У чому проблема?"
+   },
+   "options": {
+    "uk": [
+     "Джинси замалі",
+     "Джинси завеликі",
+     "Джинси старі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Too small."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "My trousers are black.",
+    "My trousers is black.",
+    "My trouser is black."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Trousers — завжди множина: are."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "I need new jeans.",
+    "I need a new jeans.",
+    "I need new jean."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Jeans — множина, без a."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's cold. I need a warm ___.",
+   "options": [
+    "jumper",
+    "T-shirt",
+    "skirt"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Від холоду — jumper."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "These ___ are too long.",
+   "options": [
+    "trousers",
+    "shirt",
+    "skirt"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "These… are — множина: trousers."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мені потрібен новий одяг."
+   },
+   "words": [
+    "I",
+    "need",
+    "new",
+    "clothes",
+    "a",
+    "cloth"
+   ],
+   "answer": [
+    "I",
+    "need",
+    "new",
+    "clothes"
+   ],
+   "explanation": {
+    "uk": "I need new clothes."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мої джинси старі."
+   },
+   "answers": [
+    "My jeans are old"
+   ],
+   "explanation": {
+    "uk": "My jeans are old."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Can I help you?",
+   "prompt": {
+    "uk": "Ви шукаєте синю сорочку. Що відповісти?"
+   },
+   "options": [
+    "Yes, I'm looking for a blue shirt.",
+    "Yes, I'm looking a blue shirt for.",
+    "Yes, I look blue shirt."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm looking for a blue shirt."
+   }
+  }
+ ]
+}

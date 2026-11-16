@@ -1,0 +1,322 @@
+{
+ "id": "u30_l03",
+ "unit": "u30",
+ "cefr": "A0",
+ "title": {
+  "uk": "Пори року"
+ },
+ "goal": {
+  "uk": "Назвати пори року й сказати, яка погода в кожну з них."
+ },
+ "rule": {
+  "uk": "Чотири пори року: spring, summer, autumn, winter. З ними вживають in: in summer, in winter. Їх пишуть з малої літери. Season — пора року."
+ },
+ "words": [
+  {
+   "id": "season",
+   "text": "season",
+   "ipa": "/ˈsiːzn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пора року"
+   },
+   "example": "My favourite season.",
+   "exampleTranslation": {
+    "uk": "Моя улюблена пора року."
+   }
+  },
+  {
+   "id": "spring",
+   "text": "spring",
+   "ipa": "/sprɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "весна"
+   },
+   "example": "In spring.",
+   "exampleTranslation": {
+    "uk": "Навесні."
+   }
+  },
+  {
+   "id": "summer",
+   "text": "summer",
+   "ipa": "/ˈsʌmə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "літо"
+   },
+   "example": "It's hot in summer.",
+   "exampleTranslation": {
+    "uk": "Улітку жарко."
+   }
+  },
+  {
+   "id": "autumn",
+   "text": "autumn",
+   "ipa": "/ˈɔːtəm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "осінь"
+   },
+   "example": "It's rainy in autumn.",
+   "exampleTranslation": {
+    "uk": "Восени дощить."
+   }
+  },
+  {
+   "id": "winter",
+   "text": "winter",
+   "ipa": "/ˈwɪntə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "зима"
+   },
+   "example": "It's cold in winter.",
+   "exampleTranslation": {
+    "uk": "Узимку холодно."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What's the temperature?",
+   "prompt": {
+    "uk": "Повторимо. Надворі мінус три. Що відповісти?"
+   },
+   "options": [
+    "It's minus three.",
+    "It's three minus degree.",
+    "It has minus three."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's minus three."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "spring",
+     "right": {
+      "uk": "весна"
+     }
+    },
+    {
+     "left": "summer",
+     "right": {
+      "uk": "літо"
+     }
+    },
+    {
+     "left": "autumn",
+     "right": {
+      "uk": "осінь"
+     }
+    },
+    {
+     "left": "winter",
+     "right": {
+      "uk": "зима"
+     }
+    },
+    {
+     "left": "season",
+     "right": {
+      "uk": "пора року"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "В autumn кінцева n не вимовляється."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My favourite season is spring.",
+   "prompt": {
+    "uk": "Прослухайте. Яка улюблена пора року?"
+   },
+   "options": {
+    "uk": [
+     "Весна",
+     "Літо",
+     "Осінь"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Spring."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's cold and snowy in winter.",
+   "prompt": {
+    "uk": "Прослухайте. Яка погода взимку?"
+   },
+   "options": {
+    "uk": [
+     "Холодно й сніжно",
+     "Холодно й дощить",
+     "Тепло й сонячно"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Snowy — сніжно, утворено так само, як sunny і rainy."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "In autumn it's often rainy and windy.",
+   "prompt": {
+    "uk": "Прослухайте. Про яку пору року мова?"
+   },
+   "options": {
+    "uk": [
+     "Про осінь",
+     "Про весну",
+     "Про зиму"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In autumn."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's hot ___ summer.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In summer."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's usually sunny and hot in ___.",
+   "options": [
+    "summer",
+    "winter",
+    "autumn"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Сонячно й жарко — summer."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There's a lot of snow in ___.",
+   "options": [
+    "winter",
+    "summer",
+    "spring"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Сніг — winter."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка пора року йде після зими?"
+   },
+   "options": {
+    "uk": [
+     "spring",
+     "autumn",
+     "summer"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "After winter — spring."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Узимку холодно."
+   },
+   "words": [
+    "It's",
+    "cold",
+    "in",
+    "winter",
+    "on",
+    "summer"
+   ],
+   "answer": [
+    "It's",
+    "cold",
+    "in",
+    "winter"
+   ],
+   "explanation": {
+    "uk": "It's cold in winter."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Моя улюблена пора року — літо."
+   },
+   "answers": [
+    "My favourite season is summer"
+   ],
+   "explanation": {
+    "uk": "My favourite season is summer."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What's your favourite season?",
+   "prompt": {
+    "uk": "Ваша улюблена пора — осінь. Що відповісти?"
+   },
+   "options": [
+    "It's autumn.",
+    "It's in autumn the.",
+    "I'm autumn."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's autumn."
+   }
+  }
+ ]
+}

@@ -1,0 +1,300 @@
+{
+ "id": "u30_l05",
+ "unit": "u30",
+ "cefr": "A0",
+ "title": {
+  "uk": "Який чудовий день!"
+ },
+ "goal": {
+  "uk": "Поговорити про погоду з незнайомою людиною й вирішити, що робити."
+ },
+ "rule": {
+  "uk": "Погода — улюблена тема для короткої розмови. What a lovely day! — «Який чудовий день!». What a horrible day! — «Який жахливий день!». The forecast — прогноз. Порада: Take an umbrella. Якщо погода погана — Let's stay in, «залишмося вдома»."
+ },
+ "words": [
+  {
+   "id": "what_a_lovely_day",
+   "text": "what a lovely day",
+   "ipa": "/ˌwɒt ə ˌlʌvli ˈdeɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "який чудовий день"
+   },
+   "example": "What a lovely day!",
+   "exampleTranslation": {
+    "uk": "Який чудовий день!"
+   }
+  },
+  {
+   "id": "horrible",
+   "text": "horrible",
+   "ipa": "/ˈhɒrəbl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "жахливий"
+   },
+   "example": "Horrible weather!",
+   "exampleTranslation": {
+    "uk": "Жахлива погода!"
+   }
+  },
+  {
+   "id": "forecast",
+   "text": "forecast",
+   "ipa": "/ˈfɔːkɑːst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "прогноз"
+   },
+   "example": "The weather forecast.",
+   "exampleTranslation": {
+    "uk": "Прогноз погоди."
+   }
+  },
+  {
+   "id": "stay_in",
+   "text": "stay in",
+   "ipa": "/ˌsteɪ ˈɪn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "залишатися вдома"
+   },
+   "example": "Let's stay in.",
+   "exampleTranslation": {
+    "uk": "Залишмося вдома."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Does it rain a lot here?",
+   "prompt": {
+    "uk": "Повторимо. Тут дощить часто. Що відповісти?"
+   },
+   "options": [
+    "Yes, it does.",
+    "Yes, it is.",
+    "Yes, it rain."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it does."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "what a lovely day",
+     "right": {
+      "uk": "який чудовий день"
+     }
+    },
+    {
+     "left": "horrible",
+     "right": {
+      "uk": "жахливий"
+     }
+    },
+    {
+     "left": "forecast",
+     "right": {
+      "uk": "прогноз"
+     }
+    },
+    {
+     "left": "stay in",
+     "right": {
+      "uk": "залишатися вдома"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для розмови про погоду."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "What a lovely day!",
+   "prompt": {
+    "uk": "Прослухайте. Яка погода, на думку людини?"
+   },
+   "options": {
+    "uk": [
+     "Чудова",
+     "Жахлива",
+     "Звичайна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Lovely — чудовий."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The forecast for tomorrow is rain.",
+   "prompt": {
+    "uk": "Прослухайте. Що буде завтра?"
+   },
+   "options": {
+    "uk": [
+     "Дощ",
+     "Сонце",
+     "Сніг"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The forecast is rain."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The weather is horrible. Let's stay in.",
+   "prompt": {
+    "uk": "Прослухайте. Що пропонує людина?"
+   },
+   "options": {
+    "uk": [
+     "Залишитися вдома",
+     "Піти прогулятися",
+     "Узяти парасольку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Let's stay in."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What a ___ day! It's cold, wet and windy.",
+   "options": [
+    "horrible",
+    "lovely",
+    "sunny"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Холодно, мокро й вітряно — horrible."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What ___ lovely day!",
+   "options": [
+    "a",
+    "the",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What a lovely day!"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's rainy. ___ an umbrella.",
+   "options": [
+    "Take",
+    "Put",
+    "Wear"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Take an umbrella."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вам кажуть What a lovely day! Ви згодні. Що відповісти?"
+   },
+   "options": [
+    "Yes, it's beautiful.",
+    "Yes, it's horrible.",
+    "No, thank you."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it's beautiful."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Залишмося вдома."
+   },
+   "words": [
+    "Let's",
+    "stay",
+    "in",
+    "out",
+    "go"
+   ],
+   "answer": [
+    "Let's",
+    "stay",
+    "in"
+   ],
+   "explanation": {
+    "uk": "Let's stay in."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Який чудовий день!"
+   },
+   "answers": [
+    "What a lovely day",
+    "What a beautiful day"
+   ],
+   "explanation": {
+    "uk": "What a lovely day!"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What's the forecast for the weekend?",
+   "prompt": {
+    "uk": "На вихідні прогнозують сонце й тепло. Що відповісти?"
+   },
+   "options": [
+    "It's sunny and warm.",
+    "It's a sunny and a warm.",
+    "It forecast sun."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's sunny and warm."
+   }
+  }
+ ]
+}

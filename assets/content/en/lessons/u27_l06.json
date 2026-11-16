@@ -1,0 +1,231 @@
+{
+ "id": "u27_l06",
+ "unit": "u27",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: у готелі"
+ },
+ "goal": {
+  "uk": "Пройти все перебування в готелі: заселення, прохання, проблема, виселення."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: I have a booking, a double room for two nights, on the second floor, Is breakfast included?, Could I have an extra…?, …doesn't work, I'd like to check out."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене бронювання на три ночі."
+   },
+   "words": [
+    "I",
+    "have",
+    "a",
+    "booking",
+    "for",
+    "three",
+    "nights",
+    "on"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "booking",
+    "for",
+    "three",
+    "nights"
+   ],
+   "explanation": {
+    "uk": "I have a booking for three nights."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "What's your surname, please?",
+   "prompt": {
+    "uk": "Ваше прізвище Мельник. Що відповісти?"
+   },
+   "options": [
+    "My surname is Melnyk.",
+    "I surname Melnyk.",
+    "My booking is Melnyk."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My surname is Melnyk."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Your room is ___ the third floor.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On the third floor."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Сніданок входить у ціну?"
+   },
+   "answers": [
+    "Is breakfast included"
+   ],
+   "explanation": {
+    "uk": "Is breakfast included?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Breakfast is included. It's from half past six to ten.",
+   "prompt": {
+    "uk": "Прослухайте. Коли сніданок?"
+   },
+   "options": {
+    "uk": [
+     "З 6:30 до 10:00",
+     "З 7:30 до 10:00",
+     "З 6:00 до 10:30"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "From half past six to ten."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Could I have an ___ pillow, please?",
+   "options": [
+    "extra",
+    "included",
+    "broken"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "An extra pillow."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Опалення не працює»?"
+   },
+   "options": [
+    "The heating doesn't work.",
+    "The heating isn't work.",
+    "The heating don't works."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The heating doesn't work."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можна залишити тут багаж?"
+   },
+   "answers": [
+    "Can I leave my luggage here",
+    "Could I leave my luggage here"
+   ],
+   "explanation": {
+    "uk": "Can I leave my luggage here?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "There's no soap and the hairdryer is broken.",
+   "prompt": {
+    "uk": "Прослухайте. Які дві проблеми?"
+   },
+   "options": {
+    "uk": [
+     "Немає мила, фен зламаний",
+     "Немає рушника, фен зламаний",
+     "Немає мила, душ зламаний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "No soap, the hairdryer is broken."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Де в британському готелі ground floor?"
+   },
+   "options": {
+    "uk": [
+     "На рівні землі",
+     "На один поверх вище",
+     "Під землею"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ground floor — на рівні землі."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "I'd like to check out, please.",
+   "prompt": {
+    "uk": "Ви працівник і питаєте номер кімнати. Що спитати?"
+   },
+   "options": [
+    "What's your room number?",
+    "What's your floor name?",
+    "Where is your number room?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What's your room number?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Here's your key card. Enjoy your stay!",
+   "prompt": {
+    "uk": "Вас заселили. Що відповісти?"
+   },
+   "options": [
+    "Thank you!",
+    "You too!",
+    "I'd like to check out."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Працівник у готелі не живе, тому просто Thank you."
+   }
+  }
+ ]
+}

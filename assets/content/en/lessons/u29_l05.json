@@ -1,0 +1,355 @@
+{
+ "id": "u29_l05",
+ "unit": "u29",
+ "cefr": "A0",
+ "title": {
+  "uk": "Одягнися тепло"
+ },
+ "goal": {
+  "uk": "Сказати, що вдягнути, і поговорити про догляд за одягом."
+ },
+ "rule": {
+  "uk": "Put on — «вдягати», протилежне до take off: Put on your coat. Warm — теплий. Wet — мокрий, dry — сухий. Button — ґудзик, zip — блискавка."
+ },
+ "words": [
+  {
+   "id": "put_on",
+   "text": "put on",
+   "ipa": "/ˌpʊt ˈɒn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "вдягати"
+   },
+   "example": "Put on your coat.",
+   "exampleTranslation": {
+    "uk": "Вдягніть пальто."
+   }
+  },
+  {
+   "id": "warm",
+   "text": "warm",
+   "ipa": "/wɔːm/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "теплий"
+   },
+   "example": "A warm jacket.",
+   "exampleTranslation": {
+    "uk": "Тепла куртка."
+   }
+  },
+  {
+   "id": "wet",
+   "text": "wet",
+   "ipa": "/wet/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "мокрий"
+   },
+   "example": "My socks are wet.",
+   "exampleTranslation": {
+    "uk": "Мої шкарпетки мокрі."
+   }
+  },
+  {
+   "id": "dry",
+   "text": "dry",
+   "ipa": "/draɪ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "сухий"
+   },
+   "example": "Dry clothes.",
+   "exampleTranslation": {
+    "uk": "Сухий одяг."
+   }
+  },
+  {
+   "id": "button",
+   "text": "button",
+   "ipa": "/ˈbʌtn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ґудзик"
+   },
+   "example": "A button is missing.",
+   "exampleTranslation": {
+    "uk": "Бракує ґудзика."
+   }
+  },
+  {
+   "id": "zip",
+   "text": "zip",
+   "ipa": "/zɪp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "блискавка"
+   },
+   "example": "The zip is broken.",
+   "exampleTranslation": {
+    "uk": "Блискавка зламана."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How are the shoes?",
+   "prompt": {
+    "uk": "Повторимо. Взуття завелике, вільне. Що відповісти?"
+   },
+   "options": [
+    "They're too loose.",
+    "It's too loose.",
+    "They're too tight."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "They're too loose."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "put on",
+     "right": {
+      "uk": "вдягати"
+     }
+    },
+    {
+     "left": "take off",
+     "right": {
+      "uk": "знімати"
+     }
+    },
+    {
+     "left": "warm",
+     "right": {
+      "uk": "теплий"
+     }
+    },
+    {
+     "left": "wet",
+     "right": {
+      "uk": "мокрий"
+     }
+    },
+    {
+     "left": "dry",
+     "right": {
+      "uk": "сухий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Put on і take off, wet і dry — протилежні пари."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "button",
+     "right": {
+      "uk": "ґудзик"
+     }
+    },
+    {
+     "left": "zip",
+     "right": {
+      "uk": "блискавка"
+     }
+    },
+    {
+     "left": "pocket",
+     "right": {
+      "uk": "кишеня"
+     }
+    },
+    {
+     "left": "size",
+     "right": {
+      "uk": "розмір"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Деталі одягу."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's cold. Put on your jumper.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Вдягнути светр",
+     "Зняти светр",
+     "Купити светр"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Put on — вдягнути."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My trainers are wet.",
+   "prompt": {
+    "uk": "Прослухайте. Що з кросівками?"
+   },
+   "options": {
+    "uk": [
+     "Вони мокрі",
+     "Вони сухі",
+     "Вони тісні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Wet — мокрі."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "The zip on my jacket is broken.",
+   "prompt": {
+    "uk": "Прослухайте. Що зламалося?"
+   },
+   "options": {
+    "uk": [
+     "Блискавка на куртці",
+     "Ґудзик на куртці",
+     "Кишеня на куртці"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The zip is broken."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's hot here. Take ___ your coat.",
+   "options": [
+    "off",
+    "on",
+    "up"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Жарко — take off."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's cold. Put ___ your gloves.",
+   "options": [
+    "on",
+    "off",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Холодно — put on."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "These socks are wet. I need ___ socks.",
+   "options": [
+    "dry",
+    "loose",
+    "tight"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Замість мокрих — dry."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вдягніть теплу куртку."
+   },
+   "words": [
+    "Put",
+    "on",
+    "a",
+    "warm",
+    "jacket",
+    "off",
+    "wet"
+   ],
+   "answer": [
+    "Put",
+    "on",
+    "a",
+    "warm",
+    "jacket"
+   ],
+   "explanation": {
+    "uk": "Put on a warm jacket."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Блискавка зламана."
+   },
+   "answers": [
+    "The zip is broken"
+   ],
+   "explanation": {
+    "uk": "The zip is broken."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "It's very cold today.",
+   "prompt": {
+    "uk": "Вам радять одягтися. Що скаже друг?"
+   },
+   "options": [
+    "Put on a warm coat.",
+    "Take off a warm coat.",
+    "Wear off your coat."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Put on a warm coat."
+   }
+  }
+ ]
+}

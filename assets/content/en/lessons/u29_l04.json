@@ -1,0 +1,304 @@
+{
+ "id": "u29_l04",
+ "unit": "u29",
+ "cefr": "A0",
+ "title": {
+  "uk": "Пара джинсів"
+ },
+ "goal": {
+  "uk": "Рахувати одяг парами й сказати, чи він підходить."
+ },
+ "rule": {
+  "uk": "Речі у множині рахують парами: a pair of jeans — одні джинси, two pairs of socks — дві пари шкарпеток. Fit — «підходити за розміром»: These trousers don't fit. Tight — тісний, loose — вільний."
+ },
+ "words": [
+  {
+   "id": "a_pair_of",
+   "text": "a pair of",
+   "ipa": "/ə ˈpeər əv/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "пара (чогось)"
+   },
+   "example": "A pair of jeans.",
+   "exampleTranslation": {
+    "uk": "Одні джинси."
+   }
+  },
+  {
+   "id": "fit",
+   "text": "fit",
+   "ipa": "/fɪt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "підходити за розміром"
+   },
+   "example": "They don't fit.",
+   "exampleTranslation": {
+    "uk": "Вони не підходять."
+   }
+  },
+  {
+   "id": "tight",
+   "text": "tight",
+   "ipa": "/taɪt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "тісний"
+   },
+   "example": "These shoes are tight.",
+   "exampleTranslation": {
+    "uk": "Це взуття тісне."
+   }
+  },
+  {
+   "id": "loose",
+   "text": "loose",
+   "ipa": "/luːs/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "вільний, завеликий"
+   },
+   "example": "This jumper is loose.",
+   "exampleTranslation": {
+    "uk": "Цей светр вільний."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ a uniform at work.",
+   "options": [
+    "wears",
+    "wear",
+    "is wear"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She wears."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "a pair of",
+     "right": {
+      "uk": "пара"
+     }
+    },
+    {
+     "left": "fit",
+     "right": {
+      "uk": "підходити за розміром"
+     }
+    },
+    {
+     "left": "tight",
+     "right": {
+      "uk": "тісний"
+     }
+    },
+    {
+     "left": "loose",
+     "right": {
+      "uk": "вільний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Tight і loose — протилежні слова."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I need a pair of black trousers.",
+   "prompt": {
+    "uk": "Прослухайте. Що потрібно людині?"
+   },
+   "options": {
+    "uk": [
+     "Одні чорні штани",
+     "Двоє чорних штанів",
+     "Чорна сорочка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A pair of black trousers."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "These boots are too tight.",
+   "prompt": {
+    "uk": "Прослухайте. Що не так?"
+   },
+   "options": {
+    "uk": [
+     "Черевики тісні",
+     "Черевики завеликі",
+     "Черевики брудні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Too tight — затісні."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Two pairs of socks, please.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки шкарпеток?"
+   },
+   "options": {
+    "uk": [
+     "Дві пари",
+     "Одну пару",
+     "Дві шкарпетки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Two pairs."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «одні джинси»?"
+   },
+   "options": [
+    "a pair of jeans",
+    "a jeans",
+    "one jean"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A pair of jeans."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «три пари шкарпеток»?"
+   },
+   "options": [
+    "three pairs of socks",
+    "three pair of sock",
+    "three socks pairs"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Three pairs of socks."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "These trousers don't ___. They're too small.",
+   "options": [
+    "fit",
+    "wear",
+    "pair"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Don't fit — не підходять."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This shirt is too ___. Do you have a bigger one?",
+   "options": [
+    "tight",
+    "loose",
+    "smart"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Тісна — потрібна більша."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'd like a ___ of trainers, size forty-two.",
+   "options": [
+    "pair",
+    "pairs",
+    "fit"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A pair of trainers."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ці штани не підходять."
+   },
+   "words": [
+    "These",
+    "trousers",
+    "don't",
+    "fit",
+    "doesn't",
+    "this"
+   ],
+   "answer": [
+    "These",
+    "trousers",
+    "don't",
+    "fit"
+   ],
+   "explanation": {
+    "uk": "These trousers don't fit."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How are the jeans?",
+   "prompt": {
+    "uk": "Джинси затісні. Що відповісти?"
+   },
+   "options": [
+    "They're too tight.",
+    "It's too tight.",
+    "They're too loose."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про джинси — they: They're too tight."
+   }
+  }
+ ]
+}

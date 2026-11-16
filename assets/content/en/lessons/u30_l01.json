@@ -1,0 +1,325 @@
+{
+ "id": "u30_l01",
+ "unit": "u30",
+ "cefr": "A0",
+ "title": {
+  "uk": "Яка сьогодні погода?"
+ },
+ "goal": {
+  "uk": "Спитати про погоду й описати її."
+ },
+ "rule": {
+  "uk": "What's the weather like? — «Яка погода?». Відповідь починається з It's: It's sunny. Багато слів про погоду утворені від назви явища й -y: sun → sunny, rain → rainy, cloud → cloudy, wind → windy."
+ },
+ "words": [
+  {
+   "id": "weather",
+   "text": "weather",
+   "ipa": "/ˈweðə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "погода"
+   },
+   "example": "What's the weather like?",
+   "exampleTranslation": {
+    "uk": "Яка погода?"
+   }
+  },
+  {
+   "id": "sunny",
+   "text": "sunny",
+   "ipa": "/ˈsʌni/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "сонячний"
+   },
+   "example": "It's sunny.",
+   "exampleTranslation": {
+    "uk": "Сонячно."
+   }
+  },
+  {
+   "id": "rainy",
+   "text": "rainy",
+   "ipa": "/ˈreɪni/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "дощовий"
+   },
+   "example": "A rainy day.",
+   "exampleTranslation": {
+    "uk": "Дощовий день."
+   }
+  },
+  {
+   "id": "cloudy",
+   "text": "cloudy",
+   "ipa": "/ˈklaʊdi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "хмарний"
+   },
+   "example": "It's cloudy.",
+   "exampleTranslation": {
+    "uk": "Хмарно."
+   }
+  },
+  {
+   "id": "windy",
+   "text": "windy",
+   "ipa": "/ˈwɪndi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "вітряний"
+   },
+   "example": "It's windy today.",
+   "exampleTranslation": {
+    "uk": "Сьогодні вітряно."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "It's very cold today.",
+   "prompt": {
+    "uk": "Повторимо. Що порадити другові?"
+   },
+   "options": [
+    "Put on a warm coat.",
+    "Take off your coat.",
+    "Wear on coat."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Put on a warm coat."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "sunny",
+     "right": {
+      "uk": "сонячний"
+     }
+    },
+    {
+     "left": "rainy",
+     "right": {
+      "uk": "дощовий"
+     }
+    },
+    {
+     "left": "cloudy",
+     "right": {
+      "uk": "хмарний"
+     }
+    },
+    {
+     "left": "windy",
+     "right": {
+      "uk": "вітряний"
+     }
+    },
+    {
+     "left": "weather",
+     "right": {
+      "uk": "погода"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Чотири види погоди."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "What's the weather like today?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Яка сьогодні погода",
+     "Чи подобається вам погода",
+     "Який сьогодні день"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "What's the weather like?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's cloudy and windy.",
+   "prompt": {
+    "uk": "Прослухайте. Яка погода?"
+   },
+   "options": {
+    "uk": [
+     "Хмарно й вітряно",
+     "Сонячно й вітряно",
+     "Хмарно й дощить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cloudy and windy."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It's a beautiful sunny day.",
+   "prompt": {
+    "uk": "Прослухайте. Яка погода?"
+   },
+   "options": {
+    "uk": [
+     "Сонячно",
+     "Дощить",
+     "Хмарно"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sunny."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ sunny today.",
+   "options": [
+    "It's",
+    "It",
+    "There's"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Про погоду — It's."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What's the weather ___?",
+   "options": [
+    "like",
+    "is",
+    "look"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What's the weather like?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's ___. Take an umbrella.",
+   "options": [
+    "rainy",
+    "sunny",
+    "dry"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Парасольку беруть у дощ."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "It's cold and windy.",
+    "Is cold and windy.",
+    "It cold and windy."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Потрібні і it, і is: It's."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Яка сьогодні погода?"
+   },
+   "words": [
+    "What's",
+    "the",
+    "weather",
+    "like",
+    "today",
+    "is",
+    "how"
+   ],
+   "answer": [
+    "What's",
+    "the",
+    "weather",
+    "like",
+    "today"
+   ],
+   "explanation": {
+    "uk": "What's the weather like today?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Сьогодні сонячно."
+   },
+   "answers": [
+    "It's sunny today",
+    "It is sunny today",
+    "Today it's sunny",
+    "Today is sunny"
+   ],
+   "explanation": {
+    "uk": "It's sunny today."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What's the weather like?",
+   "prompt": {
+    "uk": "Надворі хмарно й холодно. Що відповісти?"
+   },
+   "options": [
+    "It's cloudy and cold.",
+    "It likes cloudy and cold.",
+    "It's a cloudy cold."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's cloudy and cold."
+   }
+  }
+ ]
+}

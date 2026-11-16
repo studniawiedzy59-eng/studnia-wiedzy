@@ -1,0 +1,353 @@
+{
+ "id": "u27_l01",
+ "unit": "u27",
+ "cefr": "A0",
+ "title": {
+  "uk": "Заселення"
+ },
+ "goal": {
+  "uk": "Заселитися в готель: назвати бронювання й отримати ключ."
+ },
+ "rule": {
+  "uk": "На рецепції: I have a booking — «у мене бронювання» (booking і reservation означають те саме). A single room — номер на одного, a double room — на двох. For three nights — на три ночі. Вас попросять назвати surname — прізвище."
+ },
+ "words": [
+  {
+   "id": "reception",
+   "text": "reception",
+   "ipa": "/rɪˈsepʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рецепція"
+   },
+   "example": "Go to reception.",
+   "exampleTranslation": {
+    "uk": "Ідіть на рецепцію."
+   }
+  },
+  {
+   "id": "booking",
+   "text": "booking",
+   "ipa": "/ˈbʊkɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "бронювання"
+   },
+   "example": "I have a booking.",
+   "exampleTranslation": {
+    "uk": "У мене бронювання."
+   }
+  },
+  {
+   "id": "single_room",
+   "text": "single room",
+   "ipa": "/ˌsɪŋɡl ˈruːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "номер на одного"
+   },
+   "example": "A single room, please.",
+   "exampleTranslation": {
+    "uk": "Номер на одного, будь ласка."
+   }
+  },
+  {
+   "id": "double_room",
+   "text": "double room",
+   "ipa": "/ˌdʌbl ˈruːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "номер на двох"
+   },
+   "example": "A double room for two nights.",
+   "exampleTranslation": {
+    "uk": "Номер на двох на дві ночі."
+   }
+  },
+  {
+   "id": "surname",
+   "text": "surname",
+   "ipa": "/ˈsɜːneɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "прізвище"
+   },
+   "example": "What's your surname?",
+   "exampleTranslation": {
+    "uk": "Яке ваше прізвище?"
+   }
+  },
+  {
+   "id": "key_card",
+   "text": "key card",
+   "ipa": "/ˈkiː kɑːd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "картка-ключ"
+   },
+   "example": "Here's your key card.",
+   "exampleTranslation": {
+    "uk": "Ось ваша картка-ключ."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What's the purpose of your visit?",
+   "prompt": {
+    "uk": "Повторимо. Ви у відпустці. Що відповісти?"
+   },
+   "options": [
+    "I'm here on holiday.",
+    "I'm here in holiday.",
+    "My holiday is purpose."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm here on holiday."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "reception",
+     "right": {
+      "uk": "рецепція"
+     }
+    },
+    {
+     "left": "booking",
+     "right": {
+      "uk": "бронювання"
+     }
+    },
+    {
+     "left": "surname",
+     "right": {
+      "uk": "прізвище"
+     }
+    },
+    {
+     "left": "key card",
+     "right": {
+      "uk": "картка-ключ"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Перші слова в готелі."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "single room",
+     "right": {
+      "uk": "номер на одного"
+     }
+    },
+    {
+     "left": "double room",
+     "right": {
+      "uk": "номер на двох"
+     }
+    },
+    {
+     "left": "for two nights",
+     "right": {
+      "uk": "на дві ночі"
+     }
+    },
+    {
+     "left": "for a week",
+     "right": {
+      "uk": "на тиждень"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "For — на який час."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I have a booking for three nights.",
+   "prompt": {
+    "uk": "Прослухайте. На скільки бронювання?"
+   },
+   "options": {
+    "uk": [
+     "На три ночі",
+     "На три дні",
+     "На два тижні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "For three nights."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "What's your surname, please?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Про прізвище",
+     "Про ім'я",
+     "Про адресу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Surname — прізвище."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "Here's your key card. Room three hundred and four.",
+   "prompt": {
+    "uk": "Прослухайте. Який номер кімнати?"
+   },
+   "options": {
+    "uk": [
+     "304",
+     "314",
+     "340"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Three hundred and four — 304."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___. My surname is Koval.",
+   "options": [
+    "booking",
+    "reception",
+    "key card"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a booking."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A double room ___ two nights, please.",
+   "options": [
+    "for",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "For two nights."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви подорожуєте самі. Який номер потрібен?"
+   },
+   "options": {
+    "uk": [
+     "a single room",
+     "a double room",
+     "a waiting room"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A single room."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене бронювання на дві ночі."
+   },
+   "words": [
+    "I",
+    "have",
+    "a",
+    "booking",
+    "for",
+    "two",
+    "nights",
+    "room"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "booking",
+    "for",
+    "two",
+    "nights"
+   ],
+   "explanation": {
+    "uk": "I have a booking for two nights."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Номер на двох, будь ласка."
+   },
+   "answers": [
+    "A double room, please"
+   ],
+   "explanation": {
+    "uk": "A double room, please."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Good evening. Do you have a booking?",
+   "prompt": {
+    "uk": "Бронювання є, прізвище Коваль. Що відповісти?"
+   },
+   "options": [
+    "Yes, I do. My surname is Koval.",
+    "Yes, I am. My surname Koval.",
+    "Yes, I book Koval."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I do. My surname is Koval."
+   }
+  }
+ ]
+}

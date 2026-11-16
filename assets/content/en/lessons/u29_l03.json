@@ -1,0 +1,304 @@
+{
+ "id": "u29_l03",
+ "unit": "u29",
+ "cefr": "A0",
+ "title": {
+  "uk": "Що ви носите?"
+ },
+ "goal": {
+  "uk": "Сказати, що ви зазвичай носите."
+ },
+ "rule": {
+  "uk": "Wear — «носити одяг»: I usually wear jeans. З he і she — wears. Casual clothes — повсякденний одяг, smart clothes — діловий, ошатний. A uniform — форма. To work — «на роботу»."
+ },
+ "words": [
+  {
+   "id": "wear",
+   "text": "wear",
+   "ipa": "/weə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "носити (одяг)"
+   },
+   "example": "I wear jeans.",
+   "exampleTranslation": {
+    "uk": "Я ношу джинси."
+   }
+  },
+  {
+   "id": "casual",
+   "text": "casual",
+   "ipa": "/ˈkæʒuəl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "повсякденний"
+   },
+   "example": "Casual clothes.",
+   "exampleTranslation": {
+    "uk": "Повсякденний одяг."
+   }
+  },
+  {
+   "id": "smart",
+   "text": "smart",
+   "ipa": "/smɑːt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "ошатний, діловий"
+   },
+   "example": "Smart clothes.",
+   "exampleTranslation": {
+    "uk": "Діловий одяг."
+   }
+  },
+  {
+   "id": "uniform",
+   "text": "uniform",
+   "ipa": "/ˈjuːnɪfɔːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "форма"
+   },
+   "example": "She wears a uniform.",
+   "exampleTranslation": {
+    "uk": "Вона носить форму."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "I need a ___ for the cold weather.",
+   "options": [
+    "scarf",
+    "tie",
+    "T-shirt"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Від холоду — scarf."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "wear",
+     "right": {
+      "uk": "носити"
+     }
+    },
+    {
+     "left": "casual",
+     "right": {
+      "uk": "повсякденний"
+     }
+    },
+    {
+     "left": "smart",
+     "right": {
+      "uk": "ошатний"
+     }
+    },
+    {
+     "left": "uniform",
+     "right": {
+      "uk": "форма"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Як говорити про стиль одягу."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I usually wear jeans and a T-shirt.",
+   "prompt": {
+    "uk": "Прослухайте. Що людина зазвичай носить?"
+   },
+   "options": {
+    "uk": [
+     "Джинси й футболку",
+     "Штани й сорочку",
+     "Костюм"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Jeans and a T-shirt."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He wears a suit to work.",
+   "prompt": {
+    "uk": "Прослухайте. Що він носить на роботу?"
+   },
+   "options": {
+    "uk": [
+     "Костюм",
+     "Форму",
+     "Джинси"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A suit."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We wear casual clothes on Friday.",
+   "prompt": {
+    "uk": "Прослухайте. Як вони одягаються в п'ятницю?"
+   },
+   "options": {
+    "uk": [
+     "Повсякденно",
+     "По-діловому",
+     "У форму"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Casual clothes."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ a uniform at work. She's a nurse.",
+   "options": [
+    "wears",
+    "wear",
+    "wearing"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З she — wears."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I never ___ a tie.",
+   "options": [
+    "wear",
+    "wears",
+    "wearing"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З I — wear."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Jeans and trainers are ___ clothes.",
+   "options": [
+    "casual",
+    "smart",
+    "uniform"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Jeans and trainers — casual."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "a uniform",
+    "an uniform",
+    "a uniforms"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Uniform починається зі звука «й», тому a uniform."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати «Що ви носите на роботу?»"
+   },
+   "options": [
+    "What do you wear to work?",
+    "What are you wear to work?",
+    "What you wear to work?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Wear — дія: What do you wear…?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я зазвичай ношу джинси."
+   },
+   "words": [
+    "I",
+    "usually",
+    "wear",
+    "jeans",
+    "wears",
+    "a"
+   ],
+   "answer": [
+    "I",
+    "usually",
+    "wear",
+    "jeans"
+   ],
+   "explanation": {
+    "uk": "I usually wear jeans."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you wear to work?",
+   "prompt": {
+    "uk": "Ви носите сорочку й штани. Що відповісти?"
+   },
+   "options": [
+    "I wear a shirt and trousers.",
+    "I wear a shirt and a trousers.",
+    "I'm wear shirt."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A shirt, але trousers без a."
+   }
+  }
+ ]
+}

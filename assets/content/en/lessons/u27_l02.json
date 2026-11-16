@@ -1,0 +1,347 @@
+{
+ "id": "u27_l02",
+ "unit": "u27",
+ "cefr": "A0",
+ "title": {
+  "uk": "Ваш номер"
+ },
+ "goal": {
+  "uk": "Розпитати про номер: поверх, сніданок, вайфай."
+ },
+ "rule": {
+  "uk": "Floor ви знаєте як «підлогу»; у будівлі це «поверх»: on the second floor. У Британії перший поверх називають ground floor, а first floor — це вже другий. Is breakfast included? — «Сніданок входить у ціну?». What's the Wi-Fi password? — «Який пароль від вайфаю?»"
+ },
+ "words": [
+  {
+   "id": "floor",
+   "text": "floor",
+   "ipa": "/flɔː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "поверх"
+   },
+   "example": "On the third floor.",
+   "exampleTranslation": {
+    "uk": "На третьому поверсі."
+   }
+  },
+  {
+   "id": "ground_floor",
+   "text": "ground floor",
+   "ipa": "/ˌɡraʊnd ˈflɔː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "перший поверх (на рівні землі)"
+   },
+   "example": "Reception is on the ground floor.",
+   "exampleTranslation": {
+    "uk": "Рецепція на першому поверсі."
+   }
+  },
+  {
+   "id": "included",
+   "text": "included",
+   "ipa": "/ɪnˈkluːdɪd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "включений у ціну"
+   },
+   "example": "Breakfast is included.",
+   "exampleTranslation": {
+    "uk": "Сніданок входить у ціну."
+   }
+  },
+  {
+   "id": "password",
+   "text": "password",
+   "ipa": "/ˈpɑːswɜːd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пароль"
+   },
+   "example": "What's the password?",
+   "exampleTranslation": {
+    "uk": "Який пароль?"
+   }
+  },
+  {
+   "id": "view",
+   "text": "view",
+   "ipa": "/vjuː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "краєвид, вид"
+   },
+   "example": "A room with a view.",
+   "exampleTranslation": {
+    "uk": "Номер із гарним видом."
+   }
+  },
+  {
+   "id": "towel",
+   "text": "towel",
+   "ipa": "/ˈtaʊəl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рушник"
+   },
+   "example": "Clean towels.",
+   "exampleTranslation": {
+    "uk": "Чисті рушники."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "A single room ___ three nights, please.",
+   "options": [
+    "for",
+    "in",
+    "to"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "For three nights."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "floor",
+     "right": {
+      "uk": "поверх"
+     }
+    },
+    {
+     "left": "ground floor",
+     "right": {
+      "uk": "перший поверх"
+     }
+    },
+    {
+     "left": "included",
+     "right": {
+      "uk": "включений у ціну"
+     }
+    },
+    {
+     "left": "password",
+     "right": {
+      "uk": "пароль"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "On the ground floor, on the first floor."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "view",
+     "right": {
+      "uk": "краєвид"
+     }
+    },
+    {
+     "left": "towel",
+     "right": {
+      "uk": "рушник"
+     }
+    },
+    {
+     "left": "lift",
+     "right": {
+      "uk": "ліфт"
+     }
+    },
+    {
+     "left": "key card",
+     "right": {
+      "uk": "картка-ключ"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Що є в номері й готелі."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Your room is on the fourth floor.",
+   "prompt": {
+    "uk": "Прослухайте. На якому поверсі номер?"
+   },
+   "options": {
+    "uk": [
+     "На четвертому",
+     "На чотирнадцятому",
+     "На першому"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The fourth floor."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Is breakfast included?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає гість?"
+   },
+   "options": {
+    "uk": [
+     "Чи входить сніданок у ціну",
+     "Коли сніданок",
+     "Де сніданок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Included — входить у ціну."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "listening",
+   "audioText": "Breakfast is from seven to ten on the ground floor.",
+   "prompt": {
+    "uk": "Прослухайте. Де й коли сніданок?"
+   },
+   "options": {
+    "uk": [
+     "На першому поверсі, з 7 до 10",
+     "На другому поверсі, з 7 до 10",
+     "У номері, о 7"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On the ground floor, from seven to ten."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What's the Wi-Fi ___?",
+   "options": [
+    "password",
+    "floor",
+    "view"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The Wi-Fi password."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My room is ___ the second floor.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On the second floor."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "У британському готелі вам кажуть first floor. Скільки поверхів треба піднятися?"
+   },
+   "options": {
+    "uk": [
+     "Один",
+     "Жодного",
+     "Два"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ground floor — рівень землі, first floor — на один вище."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Сніданок входить у ціну?"
+   },
+   "words": [
+    "Is",
+    "breakfast",
+    "included",
+    "does",
+    "password"
+   ],
+   "answer": [
+    "Is",
+    "breakfast",
+    "included"
+   ],
+   "explanation": {
+    "uk": "Is breakfast included?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Який пароль від вайфаю?"
+   },
+   "answers": [
+    "What's the Wi-Fi password",
+    "What is the Wi-Fi password"
+   ],
+   "explanation": {
+    "uk": "What's the Wi-Fi password?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is there a lift?",
+   "prompt": {
+    "uk": "Ліфт є, біля рецепції. Що відповість працівник?"
+   },
+   "options": [
+    "Yes, there is. It's next to reception.",
+    "Yes, it is. Next reception.",
+    "Yes, there are lift."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, there is. It's next to reception."
+   }
+  }
+ ]
+}

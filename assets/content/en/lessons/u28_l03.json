@@ -1,0 +1,337 @@
+{
+ "id": "u28_l03",
+ "unit": "u28",
+ "cefr": "A0",
+ "title": {
+  "uk": "Вода з газом чи без?"
+ },
+ "goal": {
+  "uk": "Замовити напої й уточнити страву."
+ },
+ "rule": {
+  "uk": "Про воду питають: Still or sparkling? — «Без газу чи з газом?». A glass of… — «склянка, келих…». With ice — з льодом. Without — «без»: without onion. Sauce — соус."
+ },
+ "words": [
+  {
+   "id": "still",
+   "text": "still",
+   "ipa": "/stɪl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "без газу"
+   },
+   "example": "Still water, please.",
+   "exampleTranslation": {
+    "uk": "Воду без газу, будь ласка."
+   }
+  },
+  {
+   "id": "sparkling",
+   "text": "sparkling",
+   "ipa": "/ˈspɑːklɪŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "газований"
+   },
+   "example": "Sparkling water.",
+   "exampleTranslation": {
+    "uk": "Газована вода."
+   }
+  },
+  {
+   "id": "glass",
+   "text": "glass",
+   "ipa": "/ɡlɑːs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "склянка, келих"
+   },
+   "example": "A glass of water.",
+   "exampleTranslation": {
+    "uk": "Склянка води."
+   }
+  },
+  {
+   "id": "ice",
+   "text": "ice",
+   "ipa": "/aɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "лід"
+   },
+   "example": "With ice, please.",
+   "exampleTranslation": {
+    "uk": "З льодом, будь ласка."
+   }
+  },
+  {
+   "id": "without",
+   "text": "without",
+   "ipa": "/wɪˈðaʊt/",
+   "pos": "preposition",
+   "translation": {
+    "uk": "без"
+   },
+   "example": "Without sugar.",
+   "exampleTranslation": {
+    "uk": "Без цукру."
+   }
+  },
+  {
+   "id": "sauce",
+   "text": "sauce",
+   "ipa": "/sɔːs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "соус"
+   },
+   "example": "Tomato sauce.",
+   "exampleTranslation": {
+    "uk": "Томатний соус."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Are you ready to order?",
+   "prompt": {
+    "uk": "Повторимо. Ви берете стейк. Що відповісти?"
+   },
+   "options": [
+    "Yes. I'll have the steak.",
+    "Yes. I'm have steak.",
+    "Yes. I recommend steak me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'll have the steak."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "still",
+     "right": {
+      "uk": "без газу"
+     }
+    },
+    {
+     "left": "sparkling",
+     "right": {
+      "uk": "газований"
+     }
+    },
+    {
+     "left": "glass",
+     "right": {
+      "uk": "склянка"
+     }
+    },
+    {
+     "left": "ice",
+     "right": {
+      "uk": "лід"
+     }
+    },
+    {
+     "left": "without",
+     "right": {
+      "uk": "без"
+     }
+    },
+    {
+     "left": "sauce",
+     "right": {
+      "uk": "соус"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Уточнення до замовлення."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Still or sparkling?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питає офіціант?"
+   },
+   "options": {
+    "uk": [
+     "Яку воду: з газом чи без",
+     "Яке вино: біле чи червоне",
+     "Великий чи малий келих"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Still or sparkling?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "A glass of red wine and a bottle of still water, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що замовляє гість?"
+   },
+   "options": {
+    "uk": [
+     "Келих червоного вина й пляшку води без газу",
+     "Пляшку вина й склянку води",
+     "Келих білого вина й газовану воду"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A glass of red wine, a bottle of still water."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The salad without onion, please.",
+   "prompt": {
+    "uk": "Прослухайте. Як гість хоче страву?"
+   },
+   "options": {
+    "uk": [
+     "Без цибулі",
+     "З цибулею",
+     "Без соусу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Without onion."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A glass ___ orange juice, please.",
+   "options": [
+    "of",
+    "with",
+    "for"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A glass of."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Coffee ___ sugar, please. I don't like sugar.",
+   "options": [
+    "without",
+    "with",
+    "still"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Without sugar."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Still or ___ water?",
+   "options": [
+    "sparkling",
+    "glass",
+    "ice"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Still or sparkling."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «з льодом»?"
+   },
+   "options": [
+    "with ice",
+    "with an ice",
+    "in ice the"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "With ice."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Воду без газу, будь ласка."
+   },
+   "words": [
+    "Still",
+    "water",
+    "please",
+    "sparkling",
+    "without"
+   ],
+   "answer": [
+    "Still",
+    "water",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Still water, please."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Склянку води, будь ласка."
+   },
+   "answers": [
+    "A glass of water, please"
+   ],
+   "explanation": {
+    "uk": "A glass of water, please."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Still or sparkling?",
+   "prompt": {
+    "uk": "Ви хочете газовану. Що відповісти?"
+   },
+   "options": [
+    "Sparkling, please.",
+    "Still, please.",
+    "With glass, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sparkling, please."
+   }
+  }
+ ]
+}

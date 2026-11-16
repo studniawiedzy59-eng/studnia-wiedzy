@@ -1,0 +1,228 @@
+{
+ "id": "u30_l06",
+ "unit": "u30",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: погода й пори року"
+ },
+ "goal": {
+  "uk": "Описати погоду сьогодні й у різні пори року та поговорити про неї."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: What's the weather like?, It's sunny / rainy / cloudy / windy, degrees і minus, пори року з in, It rains a lot, What a lovely day!"
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What's the weather like?",
+   "prompt": {
+    "uk": "Надворі сонячно й тепло. Що відповісти?"
+   },
+   "options": [
+    "It's sunny and warm.",
+    "It likes sunny and warm.",
+    "It's sun and warm."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's sunny and warm."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It ___ a lot in autumn.",
+   "options": [
+    "rains",
+    "rain",
+    "rainy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It rains."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Сьогодні двадцять градусів."
+   },
+   "words": [
+    "It's",
+    "twenty",
+    "degrees",
+    "today",
+    "minus",
+    "has"
+   ],
+   "answer": [
+    "It's",
+    "twenty",
+    "degrees",
+    "today"
+   ],
+   "explanation": {
+    "uk": "It's twenty degrees today."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Узимку холодно."
+   },
+   "answers": [
+    "It's cold in winter",
+    "It is cold in winter",
+    "In winter it's cold"
+   ],
+   "explanation": {
+    "uk": "It's cold in winter."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "In spring it's warm, but it often rains.",
+   "prompt": {
+    "uk": "Прослухайте. Яка погода навесні?"
+   },
+   "options": {
+    "uk": [
+     "Тепло, але часто дощить",
+     "Холодно й сніжить",
+     "Жарко й сухо"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Warm, but it often rains."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It ___ snow in summer.",
+   "options": [
+    "doesn't",
+    "isn't",
+    "don't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It doesn't snow."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає minus fifteen?"
+   },
+   "options": {
+    "uk": [
+     "Мінус 15",
+     "Мінус 50",
+     "Плюс 15"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Minus fifteen."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Яка сьогодні погода?"
+   },
+   "answers": [
+    "What's the weather like today",
+    "What is the weather like today"
+   ],
+   "explanation": {
+    "uk": "What's the weather like today?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "It's foggy and freezing this morning. Put on a warm coat and gloves.",
+   "prompt": {
+    "uk": "Прослухайте. Що радять вдягнути?"
+   },
+   "options": {
+    "uk": [
+     "Тепле пальто й рукавички",
+     "Куртку й шарф",
+     "Светр і шапку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A warm coat and gloves."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "Does it snow a lot in Poland?",
+    "Is it snow a lot in Poland?",
+    "Does it snows a lot in Poland?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Does it snow…?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What a horrible day!",
+   "prompt": {
+    "uk": "Ви згодні й пропонуєте залишитися вдома. Що відповісти?"
+   },
+   "options": [
+    "Yes. Let's stay in.",
+    "Yes. Let's go for a walk.",
+    "No. What a horrible day."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes. Let's stay in."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What's your favourite season and why?",
+   "prompt": {
+    "uk": "Ви любите літо, бо тепло й сонячно. Що відповісти?"
+   },
+   "options": [
+    "Summer, because it's warm and sunny.",
+    "Summer, why it's warm and sunny.",
+    "Summer, because warm sunny is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Summer, because it's warm and sunny."
+   }
+  }
+ ]
+}

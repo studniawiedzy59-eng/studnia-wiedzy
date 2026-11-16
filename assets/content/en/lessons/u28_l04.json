@@ -1,0 +1,324 @@
+{
+ "id": "u28_l04",
+ "unit": "u28",
+ "cefr": "A0",
+ "title": {
+  "uk": "За столом"
+ },
+ "goal": {
+  "uk": "Попросити прибори й сказати, якщо щось не так."
+ },
+ "rule": {
+  "uk": "Прибори: a knife, a fork, a spoon. У knife літера k не вимовляється. Офіціант спитає: Is everything OK? Якщо щось не так: Excuse me, my soup is cold. Попросити ще: Could we have some more bread?"
+ },
+ "words": [
+  {
+   "id": "knife",
+   "text": "knife",
+   "ipa": "/naɪf/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ніж"
+   },
+   "example": "Could I have a knife?",
+   "exampleTranslation": {
+    "uk": "Можна мені ніж?"
+   }
+  },
+  {
+   "id": "fork",
+   "text": "fork",
+   "ipa": "/fɔːk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "виделка"
+   },
+   "example": "A knife and fork.",
+   "exampleTranslation": {
+    "uk": "Ніж і виделка."
+   }
+  },
+  {
+   "id": "spoon",
+   "text": "spoon",
+   "ipa": "/spuːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ложка"
+   },
+   "example": "A spoon for the soup.",
+   "exampleTranslation": {
+    "uk": "Ложка для супу."
+   }
+  },
+  {
+   "id": "plate",
+   "text": "plate",
+   "ipa": "/pleɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тарілка"
+   },
+   "example": "A clean plate.",
+   "exampleTranslation": {
+    "uk": "Чиста тарілка."
+   }
+  },
+  {
+   "id": "napkin",
+   "text": "napkin",
+   "ipa": "/ˈnæpkɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "серветка"
+   },
+   "example": "Could I have a napkin?",
+   "exampleTranslation": {
+    "uk": "Можна мені серветку?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "A glass ___ water, please.",
+   "options": [
+    "of",
+    "for",
+    "to"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A glass of water."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "knife",
+     "right": {
+      "uk": "ніж"
+     }
+    },
+    {
+     "left": "fork",
+     "right": {
+      "uk": "виделка"
+     }
+    },
+    {
+     "left": "spoon",
+     "right": {
+      "uk": "ложка"
+     }
+    },
+    {
+     "left": "plate",
+     "right": {
+      "uk": "тарілка"
+     }
+    },
+    {
+     "left": "napkin",
+     "right": {
+      "uk": "серветка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Те, що лежить на столі."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Could I have a fork, please?",
+   "prompt": {
+    "uk": "Прослухайте. Що просить гість?"
+   },
+   "options": {
+    "uk": [
+     "Виделку",
+     "Ніж",
+     "Ложку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A fork."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Excuse me, my soup is cold.",
+   "prompt": {
+    "uk": "Прослухайте. Що не так?"
+   },
+   "options": {
+    "uk": [
+     "Суп холодний",
+     "Суп гарячий",
+     "Супу немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "My soup is cold."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Could we have some more bread, please?",
+   "prompt": {
+    "uk": "Прослухайте. Що просять гості?"
+   },
+   "options": {
+    "uk": [
+     "Ще хліба",
+     "Ще води",
+     "Рахунок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Some more bread."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Чим їдять суп?"
+   },
+   "options": {
+    "uk": [
+     "spoon",
+     "fork",
+     "knife"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A spoon — ложка."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Could I have a clean ___? This one is dirty.",
+   "options": [
+    "plate",
+    "sauce",
+    "ice"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A clean plate."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Excuse me, this knife ___ dirty.",
+   "options": [
+    "is",
+    "does",
+    "have"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This knife is dirty."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно почати скаргу?"
+   },
+   "options": [
+    "Excuse me, …",
+    "Hello you, …",
+    "Sorry me, …"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Excuse me."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можна мені серветку, будь ласка?"
+   },
+   "words": [
+    "Could",
+    "I",
+    "have",
+    "a",
+    "napkin",
+    "please",
+    "an"
+   ],
+   "answer": [
+    "Could",
+    "I",
+    "have",
+    "a",
+    "napkin",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Could I have a napkin, please?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мій суп холодний."
+   },
+   "answers": [
+    "My soup is cold"
+   ],
+   "explanation": {
+    "uk": "My soup is cold."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is everything OK?",
+   "prompt": {
+    "uk": "Усе добре, страва дуже смачна. Що відповісти?"
+   },
+   "options": [
+    "Yes, thank you. It's delicious.",
+    "Yes, thank you. It's cold.",
+    "Yes, I'm delicious."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, thank you. It's delicious."
+   }
+  }
+ ]
+}

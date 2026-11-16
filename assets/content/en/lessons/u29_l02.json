@@ -1,0 +1,360 @@
+{
+ "id": "u29_l02",
+ "unit": "u29",
+ "cefr": "A0",
+ "title": {
+  "uk": "Взуття й дрібниці"
+ },
+ "goal": {
+  "uk": "Назвати взуття та аксесуари."
+ },
+ "rule": {
+  "uk": "Те, що буває парами, теж у множині: socks, boots, trainers, gloves. Одна шкарпетка — a sock. Scarf — шарф, tie — краватка, suit — костюм."
+ },
+ "words": [
+  {
+   "id": "socks",
+   "text": "socks",
+   "ipa": "/sɒks/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шкарпетки"
+   },
+   "example": "Warm socks.",
+   "exampleTranslation": {
+    "uk": "Теплі шкарпетки."
+   }
+  },
+  {
+   "id": "boots",
+   "text": "boots",
+   "ipa": "/buːts/",
+   "pos": "noun",
+   "translation": {
+    "uk": "черевики, чоботи"
+   },
+   "example": "Winter boots.",
+   "exampleTranslation": {
+    "uk": "Зимові черевики."
+   }
+  },
+  {
+   "id": "trainers",
+   "text": "trainers",
+   "ipa": "/ˈtreɪnəz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кросівки"
+   },
+   "example": "White trainers.",
+   "exampleTranslation": {
+    "uk": "Білі кросівки."
+   }
+  },
+  {
+   "id": "gloves",
+   "text": "gloves",
+   "ipa": "/ɡlʌvz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рукавички"
+   },
+   "example": "Black gloves.",
+   "exampleTranslation": {
+    "uk": "Чорні рукавички."
+   }
+  },
+  {
+   "id": "scarf",
+   "text": "scarf",
+   "ipa": "/skɑːf/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шарф"
+   },
+   "example": "A long scarf.",
+   "exampleTranslation": {
+    "uk": "Довгий шарф."
+   }
+  },
+  {
+   "id": "tie",
+   "text": "tie",
+   "ipa": "/taɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "краватка"
+   },
+   "example": "A red tie.",
+   "exampleTranslation": {
+    "uk": "Червона краватка."
+   }
+  },
+  {
+   "id": "suit",
+   "text": "suit",
+   "ipa": "/suːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "костюм"
+   },
+   "example": "A dark suit.",
+   "exampleTranslation": {
+    "uk": "Темний костюм."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "These jeans ___ too big.",
+   "options": [
+    "are",
+    "is",
+    "has"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Jeans — множина."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "socks",
+     "right": {
+      "uk": "шкарпетки"
+     }
+    },
+    {
+     "left": "boots",
+     "right": {
+      "uk": "черевики"
+     }
+    },
+    {
+     "left": "trainers",
+     "right": {
+      "uk": "кросівки"
+     }
+    },
+    {
+     "left": "gloves",
+     "right": {
+      "uk": "рукавички"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Те, що буває парами."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "scarf",
+     "right": {
+      "uk": "шарф"
+     }
+    },
+    {
+     "left": "tie",
+     "right": {
+      "uk": "краватка"
+     }
+    },
+    {
+     "left": "suit",
+     "right": {
+      "uk": "костюм"
+     }
+    },
+    {
+     "left": "hat",
+     "right": {
+      "uk": "капелюх"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Аксесуари й діловий одяг."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I can't find my gloves.",
+   "prompt": {
+    "uk": "Прослухайте. Що шукає людина?"
+   },
+   "options": {
+    "uk": [
+     "Рукавички",
+     "Шкарпетки",
+     "Кросівки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Gloves."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "He has a dark suit and a red tie.",
+   "prompt": {
+    "uk": "Прослухайте. Як він одягнений?"
+   },
+   "options": {
+    "uk": [
+     "Темний костюм і червона краватка",
+     "Темний светр і червоний шарф",
+     "Світлий костюм і червона краватка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A dark suit, a red tie."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "У чому бігають?"
+   },
+   "options": {
+    "uk": [
+     "trainers",
+     "boots",
+     "suit"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Trainers — кросівки."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що носять на шиї взимку?"
+   },
+   "options": {
+    "uk": [
+     "scarf",
+     "socks",
+     "gloves"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Scarf — шарф."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's very cold. Where are my ___ and scarf?",
+   "options": [
+    "gloves",
+    "trainers",
+    "tie"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Від холоду — gloves."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He needs a ___ for work. He works in a bank.",
+   "options": [
+    "suit",
+    "T-shirt",
+    "boots"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У банку носять suit."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мені потрібні теплі шкарпетки."
+   },
+   "words": [
+    "I",
+    "need",
+    "warm",
+    "socks",
+    "a",
+    "sock"
+   ],
+   "answer": [
+    "I",
+    "need",
+    "warm",
+    "socks"
+   ],
+   "explanation": {
+    "uk": "I need warm socks."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Де мої кросівки?"
+   },
+   "answers": [
+    "Where are my trainers"
+   ],
+   "explanation": {
+    "uk": "Where are my trainers?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What size are your boots?",
+   "prompt": {
+    "uk": "У вас сороковий розмір. Що відповісти?"
+   },
+   "options": [
+    "Size forty.",
+    "Forty the size.",
+    "I'm boots forty."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Size forty."
+   }
+  }
+ ]
+}

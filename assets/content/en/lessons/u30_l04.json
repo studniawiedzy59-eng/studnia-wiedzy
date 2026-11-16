@@ -1,0 +1,304 @@
+{
+ "id": "u30_l04",
+ "unit": "u30",
+ "cefr": "A0",
+ "title": {
+  "uk": "Тут часто дощить"
+ },
+ "goal": {
+  "uk": "Сказати, яка погода буває зазвичай."
+ },
+ "rule": {
+  "uk": "Rain і snow — це ще й дієслова: It rains — «дощить», It snows — «сніжить». Як завжди з it, дієслово має -s. A lot — «багато»: It rains a lot. Заперечення й питання — з doesn't і does: It doesn't snow here. Does it rain a lot?"
+ },
+ "words": [
+  {
+   "id": "rain",
+   "text": "rain",
+   "ipa": "/reɪn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "дощити"
+   },
+   "example": "It rains a lot.",
+   "exampleTranslation": {
+    "uk": "Тут багато дощить."
+   }
+  },
+  {
+   "id": "snow",
+   "text": "snow",
+   "ipa": "/snəʊ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "сніжити"
+   },
+   "example": "It snows in winter.",
+   "exampleTranslation": {
+    "uk": "Узимку сніжить."
+   }
+  },
+  {
+   "id": "shine",
+   "text": "shine",
+   "ipa": "/ʃaɪn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "світити"
+   },
+   "example": "The sun shines.",
+   "exampleTranslation": {
+    "uk": "Світить сонце."
+   }
+  },
+  {
+   "id": "a_lot",
+   "text": "a lot",
+   "ipa": "/ə ˈlɒt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "багато"
+   },
+   "example": "It rains a lot in autumn.",
+   "exampleTranslation": {
+    "uk": "Восени багато дощить."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "It's cold ___ winter.",
+   "options": [
+    "in",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In winter."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "rain",
+     "right": {
+      "uk": "дощити"
+     }
+    },
+    {
+     "left": "snow",
+     "right": {
+      "uk": "сніжити"
+     }
+    },
+    {
+     "left": "shine",
+     "right": {
+      "uk": "світити"
+     }
+    },
+    {
+     "left": "a lot",
+     "right": {
+      "uk": "багато"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Rain і snow — і назви, і дії."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It rains a lot in the UK.",
+   "prompt": {
+    "uk": "Прослухайте. Що ви дізналися?"
+   },
+   "options": {
+    "uk": [
+     "У Британії багато дощить",
+     "У Британії зараз дощ",
+     "У Британії не дощить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "It rains a lot."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It doesn't snow in summer.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Улітку не сніжить",
+     "Улітку сніжить",
+     "Улітку не дощить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "It doesn't snow."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Does it rain a lot in your country?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Чи багато дощить у вашій країні",
+     "Чи дощить зараз",
+     "Яка у вас країна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Does it rain a lot?"
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It often ___ in autumn.",
+   "options": [
+    "rains",
+    "rain",
+    "raining"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It rains — з -s."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It ___ snow in summer.",
+   "options": [
+    "doesn't",
+    "don't",
+    "isn't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It doesn't snow."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ it snow a lot in Ukraine?",
+   "options": [
+    "Does",
+    "Do",
+    "Is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Does it snow…?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "The sun shines in summer.",
+    "The sun shine in summer.",
+    "The sun is shine in summer."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The sun — it: shines."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Тут багато дощить»?"
+   },
+   "options": [
+    "It rains a lot here.",
+    "It's rain a lot here.",
+    "It rains here a lots."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It rains a lot here."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Узимку сніжить."
+   },
+   "words": [
+    "It",
+    "snows",
+    "in",
+    "winter",
+    "snow",
+    "is"
+   ],
+   "answer": [
+    "It",
+    "snows",
+    "in",
+    "winter"
+   ],
+   "explanation": {
+    "uk": "It snows in winter."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Does it snow in your country?",
+   "prompt": {
+    "uk": "У вашій країні взимку багато снігу. Що відповісти?"
+   },
+   "options": [
+    "Yes, it does. It snows a lot in winter.",
+    "Yes, it is. It snow a lot.",
+    "Yes, it snows not."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it does. It snows a lot in winter."
+   }
+  }
+ ]
+}

@@ -1,0 +1,319 @@
+{
+ "id": "u28_l01",
+ "unit": "u28",
+ "cefr": "A0",
+ "title": {
+  "uk": "Столик на двох"
+ },
+ "goal": {
+  "uk": "Попросити столик і зрозуміти будову меню."
+ },
+ "rule": {
+  "uk": "A table for two, please — «столик на двох». Book a table — забронювати столик: book ви знаєте як «книжку», а як дієслово це «бронювати». У меню три частини: starter — закуска, main course — основна страва, dessert — десерт."
+ },
+ "words": [
+  {
+   "id": "a_table_for_two",
+   "text": "a table for two",
+   "ipa": "/ə ˌteɪbl fə ˈtuː/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "столик на двох"
+   },
+   "example": "A table for two, please.",
+   "exampleTranslation": {
+    "uk": "Столик на двох, будь ласка."
+   }
+  },
+  {
+   "id": "book",
+   "text": "book",
+   "ipa": "/bʊk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "бронювати"
+   },
+   "example": "I'd like to book a table.",
+   "exampleTranslation": {
+    "uk": "Я хотів би забронювати столик."
+   }
+  },
+  {
+   "id": "starter",
+   "text": "starter",
+   "ipa": "/ˈstɑːtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "закуска"
+   },
+   "example": "Soup as a starter.",
+   "exampleTranslation": {
+    "uk": "Суп на закуску."
+   }
+  },
+  {
+   "id": "main_course",
+   "text": "main course",
+   "ipa": "/ˌmeɪn ˈkɔːs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "основна страва"
+   },
+   "example": "Fish for the main course.",
+   "exampleTranslation": {
+    "uk": "Риба на основну страву."
+   }
+  },
+  {
+   "id": "dessert",
+   "text": "dessert",
+   "ipa": "/dɪˈzɜːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "десерт"
+   },
+   "example": "Would you like dessert?",
+   "exampleTranslation": {
+    "uk": "Бажаєте десерт?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Have a good trip!",
+   "prompt": {
+    "uk": "Повторимо. Що відповісти?"
+   },
+   "options": [
+    "Thank you!",
+    "You're welcome!",
+    "Enjoy your stay!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thank you!"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "starter",
+     "right": {
+      "uk": "закуска"
+     }
+    },
+    {
+     "left": "main course",
+     "right": {
+      "uk": "основна страва"
+     }
+    },
+    {
+     "left": "dessert",
+     "right": {
+      "uk": "десерт"
+     }
+    },
+    {
+     "left": "menu",
+     "right": {
+      "uk": "меню"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Три частини обіду."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "A table for four, please.",
+   "prompt": {
+    "uk": "Прослухайте. На скільки людей столик?"
+   },
+   "options": {
+    "uk": [
+     "На чотирьох",
+     "На чотирнадцятьох",
+     "На двох"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "For four."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'd like to book a table for Friday evening.",
+   "prompt": {
+    "uk": "Прослухайте. Чого хоче людина?"
+   },
+   "options": {
+    "uk": [
+     "Забронювати столик на вечір п'ятниці",
+     "Купити книжку в п'ятницю",
+     "Скасувати бронювання"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Book a table — забронювати столик."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Do you have a reservation?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає офіціант?"
+   },
+   "options": {
+    "uk": [
+     "Чи є у вас бронювання",
+     "Чи хочете ви забронювати",
+     "На скільки людей"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A reservation."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що їдять останнім?"
+   },
+   "options": {
+    "uk": [
+     "dessert",
+     "starter",
+     "main course"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Dessert — десерт."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A table ___ three, please.",
+   "options": [
+    "for",
+    "to",
+    "of"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A table for three."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'd like to ___ a table for tomorrow.",
+   "options": [
+    "book",
+    "check",
+    "cook"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Book a table."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Tomato soup is a ___. Steak is a main course.",
+   "options": [
+    "starter",
+    "dessert",
+    "table"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Суп — starter."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Столик на двох, будь ласка."
+   },
+   "words": [
+    "A",
+    "table",
+    "for",
+    "two",
+    "please",
+    "to",
+    "book"
+   ],
+   "answer": [
+    "A",
+    "table",
+    "for",
+    "two",
+    "please"
+   ],
+   "explanation": {
+    "uk": "A table for two, please."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я хотів би забронювати столик."
+   },
+   "answers": [
+    "I'd like to book a table",
+    "I would like to book a table"
+   ],
+   "explanation": {
+    "uk": "I'd like to book a table."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Good evening. Do you have a reservation?",
+   "prompt": {
+    "uk": "Бронювання немає, вас двоє. Що відповісти?"
+   },
+   "options": [
+    "No, we don't. A table for two, please.",
+    "No, we aren't. A table two.",
+    "Yes, a table for two."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, we don't. A table for two, please."
+   }
+  }
+ ]
+}

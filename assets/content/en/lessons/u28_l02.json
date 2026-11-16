@@ -1,0 +1,320 @@
+{
+ "id": "u28_l02",
+ "unit": "u28",
+ "cefr": "A0",
+ "title": {
+  "uk": "Ви готові замовляти?"
+ },
+ "goal": {
+  "uk": "Замовити страву й попросити пораду."
+ },
+ "rule": {
+  "uk": "Офіціант питає: Are you ready to order? У ресторані замість I'd like часто кажуть I'll have…: I'll have the fish. Попросити пораду: What do you recommend? Chips у Британії — це картопля фрі."
+ },
+ "words": [
+  {
+   "id": "order",
+   "text": "order",
+   "ipa": "/ˈɔːdə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "замовляти"
+   },
+   "example": "Are you ready to order?",
+   "exampleTranslation": {
+    "uk": "Ви готові замовляти?"
+   }
+  },
+  {
+   "id": "ill_have",
+   "text": "I'll have",
+   "ipa": "/aɪl ˈhæv/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "я візьму"
+   },
+   "example": "I'll have the soup.",
+   "exampleTranslation": {
+    "uk": "Я візьму суп."
+   }
+  },
+  {
+   "id": "recommend",
+   "text": "recommend",
+   "ipa": "/ˌrekəˈmend/",
+   "pos": "verb",
+   "translation": {
+    "uk": "радити"
+   },
+   "example": "What do you recommend?",
+   "exampleTranslation": {
+    "uk": "Що ви порадите?"
+   }
+  },
+  {
+   "id": "steak",
+   "text": "steak",
+   "ipa": "/steɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "стейк"
+   },
+   "example": "I'll have the steak.",
+   "exampleTranslation": {
+    "uk": "Я візьму стейк."
+   }
+  },
+  {
+   "id": "chips",
+   "text": "chips",
+   "ipa": "/tʃɪps/",
+   "pos": "noun",
+   "translation": {
+    "uk": "картопля фрі"
+   },
+   "example": "Fish and chips.",
+   "exampleTranslation": {
+    "uk": "Риба з картоплею фрі."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "A table ___ two, please.",
+   "options": [
+    "for",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "For two."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "order",
+     "right": {
+      "uk": "замовляти"
+     }
+    },
+    {
+     "left": "recommend",
+     "right": {
+      "uk": "радити"
+     }
+    },
+    {
+     "left": "steak",
+     "right": {
+      "uk": "стейк"
+     }
+    },
+    {
+     "left": "chips",
+     "right": {
+      "uk": "картопля фрі"
+     }
+    },
+    {
+     "left": "I'll have",
+     "right": {
+      "uk": "я візьму"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для замовлення."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Are you ready to order?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає офіціант?"
+   },
+   "options": {
+    "uk": [
+     "Чи готові ви замовляти",
+     "Чи хочете ви рахунок",
+     "Чи все гаразд"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ready to order."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'll have the steak with chips, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що замовляє гість?"
+   },
+   "options": {
+    "uk": [
+     "Стейк із картоплею фрі",
+     "Рибу з картоплею фрі",
+     "Стейк із салатом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The steak with chips."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "What do you recommend?",
+   "prompt": {
+    "uk": "Прослухайте. Про що просить гість?"
+   },
+   "options": {
+    "uk": [
+     "Про пораду",
+     "Про меню",
+     "Про рахунок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Recommend — порадити."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'll ___ the chicken, please.",
+   "options": [
+    "have",
+    "am",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'll have."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Are you ready ___ order?",
+   "options": [
+    "to",
+    "for",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ready to order."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What do you ___? — The fish is very good today.",
+   "options": [
+    "recommend",
+    "order",
+    "book"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What do you recommend?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Ви ще не вибрали. Що сказати офіціантові?"
+   },
+   "options": [
+    "Not yet. Two more minutes, please.",
+    "No, I'm not order.",
+    "Yes, I'll have minutes."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Not yet — «ще ні»."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я візьму рибу."
+   },
+   "words": [
+    "I'll",
+    "have",
+    "the",
+    "fish",
+    "am",
+    "a"
+   ],
+   "answer": [
+    "I'll",
+    "have",
+    "the",
+    "fish"
+   ],
+   "explanation": {
+    "uk": "I'll have the fish."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Що ви порадите?"
+   },
+   "answers": [
+    "What do you recommend"
+   ],
+   "explanation": {
+    "uk": "What do you recommend?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Are you ready to order?",
+   "prompt": {
+    "uk": "Ви готові й берете суп. Що відповісти?"
+   },
+   "options": [
+    "Yes. I'll have the soup, please.",
+    "Yes. I'm have the soup.",
+    "Yes. I order soup the."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes. I'll have the soup, please."
+   }
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "id": "u28_l06",
+ "unit": "u28",
+ "cefr": "A0",
+ "review": true,
+ "title": {
+  "uk": "Повторення: вечеря в ресторані"
+ },
+ "goal": {
+  "uk": "Пройти всю вечерю: столик, замовлення, прохання, рахунок."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: A table for two, I'll have…, What do you recommend?, Still or sparkling?, Could I have a fork?, Could we have the bill?, Together or separately?"
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Good evening. Do you have a reservation?",
+   "prompt": {
+    "uk": "Бронювання є, на прізвище Коваль. Що відповісти?"
+   },
+   "options": [
+    "Yes, a table for two. The surname is Koval.",
+    "Yes, I'm a table. Koval.",
+    "No, I book Koval."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, a table for two. The surname is Koval."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я візьму стейк із картоплею фрі."
+   },
+   "words": [
+    "I'll",
+    "have",
+    "the",
+    "steak",
+    "with",
+    "chips",
+    "without"
+   ],
+   "answer": [
+    "I'll",
+    "have",
+    "the",
+    "steak",
+    "with",
+    "chips"
+   ],
+   "explanation": {
+    "uk": "I'll have the steak with chips."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What do you ___? — The soup is very good.",
+   "options": [
+    "recommend",
+    "order",
+    "book"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What do you recommend?"
+   }
+  },
+  {
+   "id": "e4",
+   "type": "translate",
+   "prompt": {
+    "uk": "Воду без газу, будь ласка."
+   },
+   "answers": [
+    "Still water, please"
+   ],
+   "explanation": {
+    "uk": "Still water, please."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "For a starter I'll have the salad, and for the main course the fish.",
+   "prompt": {
+    "uk": "Прослухайте. Що гість бере на основну страву?"
+   },
+   "options": {
+    "uk": [
+     "Рибу",
+     "Салат",
+     "Стейк"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "For the main course the fish."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The chicken ___ sauce, please.",
+   "options": [
+    "without",
+    "still",
+    "separately"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Without sauce — без соусу."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "У вас немає виделки. Що сказати?"
+   },
+   "options": [
+    "Excuse me, could I have a fork?",
+    "Excuse me, I'm no fork.",
+    "Give fork, please me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Could I have a fork?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можна рахунок, будь ласка?"
+   },
+   "answers": [
+    "Could we have the bill, please",
+    "Can we have the bill, please",
+    "Could I have the bill, please",
+    "Can I have the bill, please"
+   ],
+   "explanation": {
+    "uk": "Could we have the bill, please?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "listening",
+   "audioText": "Is service included? — No, it isn't.",
+   "prompt": {
+    "uk": "Прослухайте. Що це означає для вас?"
+   },
+   "options": {
+    "uk": [
+     "Чайові можна залишити окремо",
+     "Чайові вже в рахунку",
+     "Платити не треба"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Service isn't included."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що їдять першим?"
+   },
+   "options": {
+    "uk": [
+     "starter",
+     "dessert",
+     "main course"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Starter — закуска."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Would you like dessert?",
+   "prompt": {
+    "uk": "Ви наїлися. Що відповісти?"
+   },
+   "options": [
+    "No, thank you. I'm full.",
+    "No, thank you. I'm hungry.",
+    "Yes, I'm full."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, thank you. I'm full."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Together or separately?",
+   "prompt": {
+    "uk": "Ви платите окремо. Що відповісти?"
+   },
+   "options": [
+    "Separately, please.",
+    "Together, please.",
+    "Service, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Separately, please."
+   }
+  }
+ ]
+}

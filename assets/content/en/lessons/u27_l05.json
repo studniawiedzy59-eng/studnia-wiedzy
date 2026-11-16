@@ -1,0 +1,319 @@
+{
+ "id": "u27_l05",
+ "unit": "u27",
+ "cefr": "A0",
+ "title": {
+  "uk": "Виселення"
+ },
+ "goal": {
+  "uk": "Виселитися з готелю й залишити багаж."
+ },
+ "rule": {
+  "uk": "I'd like to check out — «я хотів би виселитися». What time is check-out? — «О котрій виселення?». Can I leave my luggage here? — «Можна залишити тут багаж?». На прощання в готелі кажуть Enjoy your stay — «гарного вам перебування» при заселенні, і Have a good trip — «гарної дороги» при від'їзді."
+ },
+ "words": [
+  {
+   "id": "check_out",
+   "text": "check out",
+   "ipa": "/ˌtʃek ˈaʊt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "виселятися"
+   },
+   "example": "I'd like to check out.",
+   "exampleTranslation": {
+    "uk": "Я хотів би виселитися."
+   }
+  },
+  {
+   "id": "enjoy_your_stay",
+   "text": "enjoy your stay",
+   "ipa": "/ɪnˌdʒɔɪ jɔː ˈsteɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "гарного перебування"
+   },
+   "example": "Enjoy your stay!",
+   "exampleTranslation": {
+    "uk": "Гарного перебування!"
+   }
+  },
+  {
+   "id": "have_a_good_trip",
+   "text": "have a good trip",
+   "ipa": "/hæv ə ˌɡʊd ˈtrɪp/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "гарної дороги"
+   },
+   "example": "Have a good trip!",
+   "exampleTranslation": {
+    "uk": "Гарної дороги!"
+   }
+  },
+  {
+   "id": "everything",
+   "text": "everything",
+   "ipa": "/ˈevriθɪŋ/",
+   "pos": "pronoun",
+   "translation": {
+    "uk": "усе"
+   },
+   "example": "Is everything OK?",
+   "exampleTranslation": {
+    "uk": "Усе гаразд?"
+   }
+  },
+  {
+   "id": "leave_my_luggage",
+   "text": "leave my luggage",
+   "ipa": "/ˌliːv maɪ ˈlʌɡɪdʒ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "залишити багаж"
+   },
+   "example": "Can I leave my luggage here?",
+   "exampleTranslation": {
+    "uk": "Можна залишити тут багаж?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is everything OK with your room?",
+   "prompt": {
+    "uk": "Повторимо. Не працює душ. Що відповісти?"
+   },
+   "options": [
+    "No, the shower doesn't work.",
+    "No, the shower isn't work.",
+    "Yes, there's no shower."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, the shower doesn't work."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "check in",
+     "right": {
+      "uk": "заселятися"
+     }
+    },
+    {
+     "left": "check out",
+     "right": {
+      "uk": "виселятися"
+     }
+    },
+    {
+     "left": "everything",
+     "right": {
+      "uk": "усе"
+     }
+    },
+    {
+     "left": "leave my luggage",
+     "right": {
+      "uk": "залишити багаж"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Check in і check out — початок і кінець перебування."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "What time is check-out?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає гість?"
+   },
+   "options": {
+    "uk": [
+     "О котрій виселення",
+     "О котрій заселення",
+     "О котрій сніданок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Check-out — виселення."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Check-out is at eleven o'clock.",
+   "prompt": {
+    "uk": "Прослухайте. Коли виселення?"
+   },
+   "options": {
+    "uk": [
+     "Об 11:00",
+     "О 12:00",
+     "О 7:00"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Eleven o'clock."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Can I leave my luggage here until three?",
+   "prompt": {
+    "uk": "Прослухайте. Чого хоче гість?"
+   },
+   "options": {
+    "uk": [
+     "Залишити багаж до третьої",
+     "Залишитися до третьої",
+     "Забрати багаж о третій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Leave my luggage until three."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Вас заселили й кажуть Enjoy your stay! Що відповісти?"
+   },
+   "options": {
+    "uk": [
+     "Thank you!",
+     "You too!",
+     "You're welcome!"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Працівник у готелі не зупиняється, тому просто Thank you."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'd like to check ___, please. Room 210.",
+   "options": [
+    "out",
+    "off",
+    "up"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Check out."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is ___ OK? — Yes, thank you.",
+   "options": [
+    "everything",
+    "every",
+    "extra"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is everything OK?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I ___ my luggage here?",
+   "options": [
+    "leave",
+    "live",
+    "enjoy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Leave — залишити. Live — жити."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я хотів би виселитися."
+   },
+   "words": [
+    "I'd",
+    "like",
+    "to",
+    "check",
+    "out",
+    "in",
+    "off"
+   ],
+   "answer": [
+    "I'd",
+    "like",
+    "to",
+    "check",
+    "out"
+   ],
+   "explanation": {
+    "uk": "I'd like to check out."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "О котрій виселення?"
+   },
+   "answers": [
+    "What time is check-out",
+    "What time is the check-out"
+   ],
+   "explanation": {
+    "uk": "What time is check-out?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Have a good trip!",
+   "prompt": {
+    "uk": "Вам бажають гарної дороги. Що відповісти?"
+   },
+   "options": [
+    "Thank you! Goodbye.",
+    "You're welcome! Goodbye.",
+    "Enjoy your stay!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Thank you! Goodbye."
+   }
+  }
+ ]
+}

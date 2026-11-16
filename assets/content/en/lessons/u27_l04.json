@@ -1,0 +1,321 @@
+{
+ "id": "u27_l04",
+ "unit": "u27",
+ "cefr": "A0",
+ "title": {
+  "uk": "Щось не працює"
+ },
+ "goal": {
+  "uk": "Повідомити про проблему в номері."
+ },
+ "rule": {
+  "uk": "Про зламану річ: The shower doesn't work — «душ не працює». Або: The lamp is broken — «лампа зламана». There's no… — «немає…»: There's no hot water. Якщо нічого не допомагає: Can I change rooms? — «Можна поміняти номер?»"
+ },
+ "words": [
+  {
+   "id": "doesnt_work",
+   "text": "doesn't work",
+   "ipa": "/ˌdʌznt ˈwɜːk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "не працює"
+   },
+   "example": "The TV doesn't work.",
+   "exampleTranslation": {
+    "uk": "Телевізор не працює."
+   }
+  },
+  {
+   "id": "broken",
+   "text": "broken",
+   "ipa": "/ˈbrəʊkən/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "зламаний"
+   },
+   "example": "The lamp is broken.",
+   "exampleTranslation": {
+    "uk": "Лампа зламана."
+   }
+  },
+  {
+   "id": "theres_no",
+   "text": "there's no",
+   "ipa": "/ðeəz ˈnəʊ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "немає"
+   },
+   "example": "There's no hot water.",
+   "exampleTranslation": {
+    "uk": "Немає гарячої води."
+   }
+  },
+  {
+   "id": "heating",
+   "text": "heating",
+   "ipa": "/ˈhiːtɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "опалення"
+   },
+   "example": "The heating doesn't work.",
+   "exampleTranslation": {
+    "uk": "Опалення не працює."
+   }
+  },
+  {
+   "id": "change_rooms",
+   "text": "change rooms",
+   "ipa": "/ˌtʃeɪndʒ ˈruːmz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "поміняти номер"
+   },
+   "example": "Can I change rooms?",
+   "exampleTranslation": {
+    "uk": "Можна поміняти номер?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Повторимо. Оберіть слово, якого бракує"
+   },
+   "sentence": "Could I have ___ extra blanket, please?",
+   "options": [
+    "an",
+    "a",
+    "some"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "An extra."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "doesn't work",
+     "right": {
+      "uk": "не працює"
+     }
+    },
+    {
+     "left": "broken",
+     "right": {
+      "uk": "зламаний"
+     }
+    },
+    {
+     "left": "there's no",
+     "right": {
+      "uk": "немає"
+     }
+    },
+    {
+     "left": "heating",
+     "right": {
+      "uk": "опалення"
+     }
+    },
+    {
+     "left": "change rooms",
+     "right": {
+      "uk": "поміняти номер"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Як сказати про проблему."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The shower doesn't work.",
+   "prompt": {
+    "uk": "Прослухайте. Що не працює?"
+   },
+   "options": {
+    "uk": [
+     "Душ",
+     "Опалення",
+     "Телевізор"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The shower."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There's no hot water in my room.",
+   "prompt": {
+    "uk": "Прослухайте. У чому проблема?"
+   },
+   "options": {
+    "uk": [
+     "Немає гарячої води",
+     "Немає холодної води",
+     "Вода занадто гаряча"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "There's no hot water."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My room is very noisy. Can I change rooms?",
+   "prompt": {
+    "uk": "Прослухайте. Чого хоче гість?"
+   },
+   "options": {
+    "uk": [
+     "Поміняти номер",
+     "Зачинити вікно",
+     "Виїхати з готелю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Change rooms."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The Wi-Fi ___ work.",
+   "options": [
+    "doesn't",
+    "don't",
+    "isn't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The Wi-Fi — it: doesn't work."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The window is ___. I can't close it.",
+   "options": [
+    "broken",
+    "included",
+    "extra"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Broken — зламане."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ no towel in the bathroom.",
+   "options": [
+    "There's",
+    "It's",
+    "There are"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There's no towel."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "The heating doesn't work.",
+    "The heating doesn't works.",
+    "The heating not work."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Doesn't + work."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Телевізор не працює."
+   },
+   "words": [
+    "The",
+    "TV",
+    "doesn't",
+    "work",
+    "isn't",
+    "works"
+   ],
+   "answer": [
+    "The",
+    "TV",
+    "doesn't",
+    "work"
+   ],
+   "explanation": {
+    "uk": "The TV doesn't work."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Немає гарячої води."
+   },
+   "answers": [
+    "There's no hot water",
+    "There is no hot water"
+   ],
+   "explanation": {
+    "uk": "There's no hot water."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is everything OK with your room?",
+   "prompt": {
+    "uk": "У вас не працює опалення. Що відповісти?"
+   },
+   "options": [
+    "No, the heating doesn't work.",
+    "No, the heating don't work.",
+    "Yes, the heating is broken."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, the heating doesn't work."
+   }
+  }
+ ]
+}

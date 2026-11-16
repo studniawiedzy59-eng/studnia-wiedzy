@@ -1,0 +1,323 @@
+{
+ "id": "u27_l03",
+ "unit": "u27",
+ "cefr": "A0",
+ "title": {
+  "uk": "Можна ще один рушник?"
+ },
+ "goal": {
+  "uk": "Попросити в готелі додаткові речі."
+ },
+ "rule": {
+  "uk": "Could I have…? — найввічливіший спосіб попросити: Could I have an extra towel, please? Extra — «додатковий, ще один». Перед extra ставлять an, бо слово починається з голосного."
+ },
+ "words": [
+  {
+   "id": "extra",
+   "text": "extra",
+   "ipa": "/ˈekstrə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "додатковий"
+   },
+   "example": "An extra towel.",
+   "exampleTranslation": {
+    "uk": "Додатковий рушник."
+   }
+  },
+  {
+   "id": "pillow",
+   "text": "pillow",
+   "ipa": "/ˈpɪləʊ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "подушка"
+   },
+   "example": "An extra pillow, please.",
+   "exampleTranslation": {
+    "uk": "Ще одну подушку, будь ласка."
+   }
+  },
+  {
+   "id": "blanket",
+   "text": "blanket",
+   "ipa": "/ˈblæŋkɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ковдра"
+   },
+   "example": "Could I have a blanket?",
+   "exampleTranslation": {
+    "uk": "Можна мені ковдру?"
+   }
+  },
+  {
+   "id": "soap",
+   "text": "soap",
+   "ipa": "/səʊp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мило"
+   },
+   "example": "There's no soap.",
+   "exampleTranslation": {
+    "uk": "Немає мила."
+   }
+  },
+  {
+   "id": "hairdryer",
+   "text": "hairdryer",
+   "ipa": "/ˈheədraɪə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "фен"
+   },
+   "example": "Is there a hairdryer?",
+   "exampleTranslation": {
+    "uk": "Тут є фен?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is breakfast included?",
+   "prompt": {
+    "uk": "Повторимо. Сніданок входить у ціну. Що відповість працівник?"
+   },
+   "options": [
+    "Yes, it is.",
+    "Yes, it does.",
+    "Yes, it's include."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it is."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "extra",
+     "right": {
+      "uk": "додатковий"
+     }
+    },
+    {
+     "left": "pillow",
+     "right": {
+      "uk": "подушка"
+     }
+    },
+    {
+     "left": "blanket",
+     "right": {
+      "uk": "ковдра"
+     }
+    },
+    {
+     "left": "soap",
+     "right": {
+      "uk": "мило"
+     }
+    },
+    {
+     "left": "hairdryer",
+     "right": {
+      "uk": "фен"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Речі, про які просять на рецепції."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Could I have an extra pillow, please?",
+   "prompt": {
+    "uk": "Прослухайте. Що просить гість?"
+   },
+   "options": {
+    "uk": [
+     "Ще одну подушку",
+     "Ще одну ковдру",
+     "Ще один рушник"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "An extra pillow."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Is there a hairdryer in the room?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає гість?"
+   },
+   "options": {
+    "uk": [
+     "Чи є в номері фен",
+     "Де фен",
+     "Чи працює фен"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Is there a hairdryer?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як правильно?"
+   },
+   "options": [
+    "an extra blanket",
+    "a extra blanket",
+    "an blanket extra"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Extra — з голосного: an extra blanket."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке прохання найввічливіше?"
+   },
+   "options": {
+    "uk": [
+     "Could I have a towel, please?",
+     "I want a towel.",
+     "Give me a towel."
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Could I have…, please?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Could I ___ an extra towel, please?",
+   "options": [
+    "have",
+    "do",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Could I have…?"
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's cold. Could I have a ___?",
+   "options": [
+    "blanket",
+    "soap",
+    "hairdryer"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Від холоду — blanket."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There's no ___ in the bathroom.",
+   "options": [
+    "soap",
+    "pillow",
+    "blanket"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "У ванній — soap."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можна мені ще одну подушку?"
+   },
+   "words": [
+    "Could",
+    "I",
+    "have",
+    "an",
+    "extra",
+    "pillow",
+    "a"
+   ],
+   "answer": [
+    "Could",
+    "I",
+    "have",
+    "an",
+    "extra",
+    "pillow"
+   ],
+   "explanation": {
+    "uk": "Could I have an extra pillow?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Тут є фен?"
+   },
+   "answers": [
+    "Is there a hairdryer",
+    "Is there a hairdryer here"
+   ],
+   "explanation": {
+    "uk": "Is there a hairdryer?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Could I have two extra towels, please?",
+   "prompt": {
+    "uk": "Працівник згоден. Що він відповість?"
+   },
+   "options": [
+    "Yes, of course.",
+    "Yes, I could of.",
+    "No problem not."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, of course."
+   }
+  }
+ ]
+}

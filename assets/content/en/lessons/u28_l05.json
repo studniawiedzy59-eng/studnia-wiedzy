@@ -1,0 +1,313 @@
+{
+ "id": "u28_l05",
+ "unit": "u28",
+ "cefr": "A0",
+ "title": {
+  "uk": "Рахунок, будь ласка"
+ },
+ "goal": {
+  "uk": "Попросити рахунок, заплатити й залишити чайові."
+ },
+ "rule": {
+  "uk": "Could we have the bill, please? — «Можна рахунок?». Офіціант може спитати: Together or separately? — «Разом чи окремо?». Is service included? — «Обслуговування входить у рахунок?». Tip — чайові. На прощання: Thank you, it's lovely here — «дякуємо, у вас дуже гарно»."
+ },
+ "words": [
+  {
+   "id": "tip",
+   "text": "tip",
+   "ipa": "/tɪp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "чайові"
+   },
+   "example": "A small tip.",
+   "exampleTranslation": {
+    "uk": "Невеликі чайові."
+   }
+  },
+  {
+   "id": "service",
+   "text": "service",
+   "ipa": "/ˈsɜːvɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "обслуговування"
+   },
+   "example": "Is service included?",
+   "exampleTranslation": {
+    "uk": "Обслуговування входить у рахунок?"
+   }
+  },
+  {
+   "id": "separately",
+   "text": "separately",
+   "ipa": "/ˈseprətli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "окремо"
+   },
+   "example": "We'd like to pay separately.",
+   "exampleTranslation": {
+    "uk": "Ми хотіли б заплатити окремо."
+   }
+  },
+  {
+   "id": "lovely",
+   "text": "lovely",
+   "ipa": "/ˈlʌvli/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "чудовий, дуже приємний"
+   },
+   "example": "It's lovely here.",
+   "exampleTranslation": {
+    "uk": "Тут дуже гарно."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is everything OK?",
+   "prompt": {
+    "uk": "Повторимо. Усе смачно. Що відповісти?"
+   },
+   "options": [
+    "Yes, thank you. It's delicious.",
+    "Yes, I'm OK delicious.",
+    "No, thank you."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, thank you. It's delicious."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "tip",
+     "right": {
+      "uk": "чайові"
+     }
+    },
+    {
+     "left": "service",
+     "right": {
+      "uk": "обслуговування"
+     }
+    },
+    {
+     "left": "separately",
+     "right": {
+      "uk": "окремо"
+     }
+    },
+    {
+     "left": "together",
+     "right": {
+      "uk": "разом"
+     }
+    },
+    {
+     "left": "lovely",
+     "right": {
+      "uk": "чудовий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова для кінця вечері."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Could we have the bill, please?",
+   "prompt": {
+    "uk": "Прослухайте. Що просять гості?"
+   },
+   "options": {
+    "uk": [
+     "Рахунок",
+     "Меню",
+     "Десерт"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The bill."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Together or separately?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає офіціант?"
+   },
+   "options": {
+    "uk": [
+     "Платите разом чи окремо",
+     "Сидите разом чи окремо",
+     "Карткою чи готівкою"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Together or separately?"
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Service is included.",
+   "prompt": {
+    "uk": "Прослухайте. Що це означає?"
+   },
+   "options": {
+    "uk": [
+     "Обслуговування вже в рахунку",
+     "Обслуговування не входить",
+     "Чайові обов'язкові"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Included — входить."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Could we ___ the bill, please?",
+   "options": [
+    "have",
+    "are",
+    "do"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Could we have the bill?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We'd like to pay ___. One bill for me and one for him.",
+   "options": [
+    "separately",
+    "together",
+    "lovely"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Два рахунки — separately."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Is ___ included?",
+   "options": [
+    "service",
+    "separately",
+    "lovely"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is service included?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке a tip?"
+   },
+   "options": {
+    "uk": [
+     "Гроші офіціантові понад рахунок",
+     "Рахунок",
+     "Знижка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A tip — чайові."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можна рахунок, будь ласка?"
+   },
+   "words": [
+    "Could",
+    "we",
+    "have",
+    "the",
+    "bill",
+    "please",
+    "tip"
+   ],
+   "answer": [
+    "Could",
+    "we",
+    "have",
+    "the",
+    "bill",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Could we have the bill, please?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми хотіли б заплатити окремо."
+   },
+   "answers": [
+    "We'd like to pay separately",
+    "We would like to pay separately"
+   ],
+   "explanation": {
+    "uk": "We'd like to pay separately."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Together or separately?",
+   "prompt": {
+    "uk": "Ви платите разом. Що відповісти?"
+   },
+   "options": [
+    "Together, please.",
+    "Separately, please.",
+    "Service, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Together, please."
+   }
+  }
+ ]
+}
