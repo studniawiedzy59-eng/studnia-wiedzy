@@ -1,0 +1,322 @@
+{
+ "id": "u64_l04",
+ "unit": "u64",
+ "cefr": "A1",
+ "title": {
+  "uk": "Що сталося"
+ },
+ "goal": {
+  "uk": "Розповісти про подію."
+ },
+ "rule": {
+  "uk": "Happen — траплятися, marry — одружуватися, die — помирати, drop — упускати, pick — зривати, вибирати. Минулий час: happened, married, died, dropped, picked. Зверніть увагу: marry → married, die → died, drop → dropped (подвоюємо p)."
+ },
+ "words": [
+  {
+   "id": "happen",
+   "text": "happen",
+   "ipa": "/ˈhæpən/",
+   "pos": "verb",
+   "translation": {
+    "uk": "траплятися"
+   },
+   "example": "What happened?",
+   "exampleTranslation": {
+    "uk": "Що сталося?"
+   }
+  },
+  {
+   "id": "marry",
+   "text": "marry",
+   "ipa": "/ˈmæri/",
+   "pos": "verb",
+   "translation": {
+    "uk": "одружуватися"
+   },
+   "example": "They married in June.",
+   "exampleTranslation": {
+    "uk": "Вони одружилися в червні."
+   }
+  },
+  {
+   "id": "die",
+   "text": "die",
+   "ipa": "/daɪ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "помирати"
+   },
+   "example": "The old tree died.",
+   "exampleTranslation": {
+    "uk": "Старе дерево загинуло."
+   }
+  },
+  {
+   "id": "drop",
+   "text": "drop",
+   "ipa": "/drɒp/",
+   "pos": "verb",
+   "translation": {
+    "uk": "упускати"
+   },
+   "example": "I dropped my phone.",
+   "exampleTranslation": {
+    "uk": "Я впустив телефон."
+   }
+  },
+  {
+   "id": "pick",
+   "text": "pick",
+   "ipa": "/pɪk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "зривати, вибирати"
+   },
+   "example": "We picked apples.",
+   "exampleTranslation": {
+    "uk": "Ми збирали яблука."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What did you receive?",
+   "prompt": {
+    "uk": "Повторимо. Листа. Що відповісти?"
+   },
+   "options": [
+    "I received a letter.",
+    "I did receive letter.",
+    "I receive a letter yesterday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I received a letter."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "happen",
+     "right": {
+      "uk": "траплятися"
+     }
+    },
+    {
+     "left": "marry",
+     "right": {
+      "uk": "одружуватися"
+     }
+    },
+    {
+     "left": "die",
+     "right": {
+      "uk": "помирати"
+     }
+    },
+    {
+     "left": "drop",
+     "right": {
+      "uk": "упускати"
+     }
+    },
+    {
+     "left": "pick",
+     "right": {
+      "uk": "зривати, вибирати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "They married in June.",
+   "prompt": {
+    "uk": "Прослухайте. Коли вони одружилися?"
+   },
+   "options": {
+    "uk": [
+     "У червні",
+     "У липні",
+     "У травні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "June."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I dropped my phone.",
+   "prompt": {
+    "uk": "Прослухайте. Що сталося?"
+   },
+   "options": {
+    "uk": [
+     "Людина впустила телефон",
+     "Людина купила телефон",
+     "Людина загубила телефон"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Dropped."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We picked apples.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони робили?"
+   },
+   "options": {
+    "uk": [
+     "Збирали яблука",
+     "Купували яблука",
+     "Їли яблука"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Picked."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What ___?",
+   "options": [
+    "happened",
+    "happen",
+    "happens"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "What happened?"
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "They ___ in June.",
+   "options": [
+    "married",
+    "marryed",
+    "marry"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "marry → married."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ my phone.",
+   "options": [
+    "dropped",
+    "droped",
+    "drop"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "drop → dropped."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від drop?"
+   },
+   "options": {
+    "uk": [
+     "dropped",
+     "droped",
+     "dropd"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Подвоюємо p: dropped."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я впустив телефон."
+   },
+   "words": [
+    "I",
+    "dropped",
+    "my",
+    "phone",
+    "drop",
+    "did"
+   ],
+   "answer": [
+    "I",
+    "dropped",
+    "my",
+    "phone"
+   ],
+   "explanation": {
+    "uk": "I dropped my phone."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми збирали яблука."
+   },
+   "answers": [
+    "We picked apples"
+   ],
+   "explanation": {
+    "uk": "We picked apples."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What happened?",
+   "prompt": {
+    "uk": "Я впустила телефон. Що відповісти?"
+   },
+   "options": [
+    "I dropped my phone.",
+    "I did drop phone.",
+    "I drop my phone."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I dropped my phone."
+   }
+  }
+ ]
+}

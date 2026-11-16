@@ -1,0 +1,322 @@
+{
+ "id": "u62_l05",
+ "unit": "u62",
+ "cefr": "A1",
+ "title": {
+  "uk": "Можливо чи точно"
+ },
+ "goal": {
+  "uk": "Говорити про ступінь упевненості."
+ },
+ "rule": {
+  "uk": "Definitely — точно, perhaps — можливо, surely — напевно, promise — обіцяти, look forward to — з нетерпінням чекати. Look forward to + -ing: I'm looking forward to seeing you. Приклад: I'm definitely going to come."
+ },
+ "words": [
+  {
+   "id": "definitely",
+   "text": "definitely",
+   "ipa": "/ˈdefɪnətli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "безперечно"
+   },
+   "example": "I'm definitely going to come.",
+   "exampleTranslation": {
+    "uk": "Я точно прийду."
+   }
+  },
+  {
+   "id": "perhaps",
+   "text": "perhaps",
+   "ipa": "/pəˈhæps/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "можливо"
+   },
+   "example": "Perhaps we will go to the beach.",
+   "exampleTranslation": {
+    "uk": "Можливо, ми підемо на пляж."
+   }
+  },
+  {
+   "id": "surely",
+   "text": "surely",
+   "ipa": "/ˈʃɔːli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "напевно"
+   },
+   "example": "It's surely going to rain.",
+   "exampleTranslation": {
+    "uk": "Напевно, піде дощ."
+   }
+  },
+  {
+   "id": "promise",
+   "text": "promise",
+   "ipa": "/ˈprɒmɪs/",
+   "pos": "verb",
+   "translation": {
+    "uk": "обіцяти"
+   },
+   "example": "I promise to call.",
+   "exampleTranslation": {
+    "uk": "Обіцяю зателефонувати."
+   }
+  },
+  {
+   "id": "look_forward_to",
+   "text": "look forward to",
+   "ipa": "/ˌlʊk ˈfɔːwəd tə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "з нетерпінням чекати"
+   },
+   "example": "I'm looking forward to the trip.",
+   "exampleTranslation": {
+    "uk": "Я з нетерпінням чекаю на поїздку."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "When are you going to travel?",
+   "prompt": {
+    "uk": "Повторимо. Наступними вихідними. Що відповісти?"
+   },
+   "options": [
+    "Next weekend.",
+    "In next weekend.",
+    "On the next of weekend."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Next weekend."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "definitely",
+     "right": {
+      "uk": "безперечно"
+     }
+    },
+    {
+     "left": "perhaps",
+     "right": {
+      "uk": "можливо"
+     }
+    },
+    {
+     "left": "surely",
+     "right": {
+      "uk": "напевно"
+     }
+    },
+    {
+     "left": "promise",
+     "right": {
+      "uk": "обіцяти"
+     }
+    },
+    {
+     "left": "look forward to",
+     "right": {
+      "uk": "з нетерпінням чекати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'm definitely going to come.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона точно прийде",
+     "Вона можливо прийде",
+     "Вона не прийде"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Definitely."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Perhaps we will go to the beach.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Можливо, підемо на пляж",
+     "Точно підемо на пляж",
+     "Не підемо на пляж"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Perhaps."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I promise to call.",
+   "prompt": {
+    "uk": "Прослухайте. Що обіцяє людина?"
+   },
+   "options": {
+    "uk": [
+     "Зателефонувати",
+     "Прийти",
+     "Написати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Promise."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ going to come.",
+   "options": [
+    "definitely",
+    "perhaps",
+    "promise"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Безперечно."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ we will go to the beach.",
+   "options": [
+    "Perhaps",
+    "Definitely",
+    "Promise"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Можливо."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm looking forward ___ the trip.",
+   "options": [
+    "to",
+    "at",
+    "for"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Look forward to."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає surely?"
+   },
+   "options": {
+    "uk": [
+     "напевно",
+     "можливо",
+     "обіцяти"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Surely — напевно."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я обіцяю зателефонувати."
+   },
+   "words": [
+    "I",
+    "promise",
+    "to",
+    "call",
+    "perhaps",
+    "calls"
+   ],
+   "answer": [
+    "I",
+    "promise",
+    "to",
+    "call"
+   ],
+   "explanation": {
+    "uk": "I promise to call."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я з нетерпінням чекаю на поїздку."
+   },
+   "answers": [
+    "I'm looking forward to the trip"
+   ],
+   "explanation": {
+    "uk": "I'm looking forward to the trip."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Are you going to come?",
+   "prompt": {
+    "uk": "Точно прийду. Що відповісти?"
+   },
+   "options": [
+    "Yes, I'm definitely going to come.",
+    "Yes, I definitely come.",
+    "Yes, I am going definitely come."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I'm definitely going to come."
+   }
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "id": "u62_l02",
+ "unit": "u62",
+ "cefr": "A1",
+ "title": {
+  "uk": "Домовляємося"
+ },
+ "goal": {
+  "uk": "Домовитися про зустріч чи подорож."
+ },
+ "rule": {
+  "uk": "Arrange — домовитися, організувати, reserve — резервувати, organise — організувати, accept — прийняти, refuse — відмовитися. Приклад: I'm going to arrange a meeting. We're going to reserve a table. He is going to refuse."
+ },
+ "words": [
+  {
+   "id": "arrange",
+   "text": "arrange",
+   "ipa": "/əˈreɪndʒ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "домовлятися, організовувати"
+   },
+   "example": "I'm going to arrange a meeting.",
+   "exampleTranslation": {
+    "uk": "Я збираюся домовитися про зустріч."
+   }
+  },
+  {
+   "id": "reserve",
+   "text": "reserve",
+   "ipa": "/rɪˈzɜːv/",
+   "pos": "verb",
+   "translation": {
+    "uk": "резервувати"
+   },
+   "example": "We're going to reserve a table.",
+   "exampleTranslation": {
+    "uk": "Ми збираємося забронювати столик."
+   }
+  },
+  {
+   "id": "organise",
+   "text": "organise",
+   "ipa": "/ˈɔːɡənaɪz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "організовувати"
+   },
+   "example": "She is going to organise a party.",
+   "exampleTranslation": {
+    "uk": "Вона збирається організувати вечірку."
+   }
+  },
+  {
+   "id": "accept",
+   "text": "accept",
+   "ipa": "/əkˈsept/",
+   "pos": "verb",
+   "translation": {
+    "uk": "приймати (пропозицію)"
+   },
+   "example": "I'm going to accept the invitation.",
+   "exampleTranslation": {
+    "uk": "Я збираюся прийняти запрошення."
+   }
+  },
+  {
+   "id": "refuse",
+   "text": "refuse",
+   "ipa": "/rɪˈfjuːz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "відмовлятися"
+   },
+   "example": "He is going to refuse.",
+   "exampleTranslation": {
+    "uk": "Він збирається відмовитися."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What are you going to do?",
+   "prompt": {
+    "uk": "Повторимо. Відвідаю тітку. Що відповісти?"
+   },
+   "options": [
+    "I'm going to visit my aunt.",
+    "I go to visit aunt.",
+    "I am going visit my aunt."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm going to visit my aunt."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "arrange",
+     "right": {
+      "uk": "домовлятися, організовувати"
+     }
+    },
+    {
+     "left": "reserve",
+     "right": {
+      "uk": "резервувати"
+     }
+    },
+    {
+     "left": "organise",
+     "right": {
+      "uk": "організовувати"
+     }
+    },
+    {
+     "left": "accept",
+     "right": {
+      "uk": "приймати (пропозицію)"
+     }
+    },
+    {
+     "left": "refuse",
+     "right": {
+      "uk": "відмовлятися"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "We're going to reserve a table.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони збираються зробити?"
+   },
+   "options": {
+    "uk": [
+     "Забронювати столик",
+     "Купити столик",
+     "Принести столик"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Reserve."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She is going to organise a party.",
+   "prompt": {
+    "uk": "Прослухайте. Що збирається зробити вона?"
+   },
+   "options": {
+    "uk": [
+     "Організувати вечірку",
+     "Піти на вечірку",
+     "Скасувати вечірку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Organise."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I'm going to accept the invitation.",
+   "prompt": {
+    "uk": "Прослухайте. Що вирішила людина?"
+   },
+   "options": {
+    "uk": [
+     "Прийняти запрошення",
+     "Відхилити запрошення",
+     "Забути про запрошення"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Accept."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We're going to ___ a table.",
+   "options": [
+    "reserve",
+    "reserving",
+    "reserves"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Reserve."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She's going to ___ a party.",
+   "options": [
+    "organise",
+    "organises",
+    "organising"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Organise."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm going to ___ the invitation.",
+   "options": [
+    "accept",
+    "accepting",
+    "accepts"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Accept."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке refuse?"
+   },
+   "options": {
+    "uk": [
+     "відмовлятися",
+     "приймати",
+     "резервувати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Refuse — відмовлятися."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми збираємося забронювати столик."
+   },
+   "words": [
+    "We're",
+    "going",
+    "to",
+    "reserve",
+    "a",
+    "table",
+    "are",
+    "reserving"
+   ],
+   "answer": [
+    "We're",
+    "going",
+    "to",
+    "reserve",
+    "a",
+    "table"
+   ],
+   "explanation": {
+    "uk": "We're going to reserve a table."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Він збирається відмовитися."
+   },
+   "answers": [
+    "He is going to refuse"
+   ],
+   "explanation": {
+    "uk": "He is going to refuse."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is she going to do?",
+   "prompt": {
+    "uk": "Організує вечірку. Що відповісти?"
+   },
+   "options": [
+    "She is going to organise a party.",
+    "She going to organise party.",
+    "She is go to organise a party."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She is going to organise a party."
+   }
+  }
+ ]
+}

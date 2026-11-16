@@ -1,0 +1,286 @@
+{
+ "id": "u63_l06",
+ "unit": "u63",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: учора"
+ },
+ "goal": {
+  "uk": "Закріпити was/were і слова про минуле."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: was (I, he, she, it) і were (we, you, they), wasn't, weren't; час (ago, last week, last year); дитинство (childhood, memory, kid); події (adventure, accident, experience) і історія (century, ancestor, ancient)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Who were your ancestors?",
+   "prompt": {
+    "uk": "Повторимо. Фермери. Що відповісти?"
+   },
+   "options": [
+    "They were farmers.",
+    "They was farmers.",
+    "Farmers they were."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "They were farmers."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "I was born in 1998, and I had a happy childhood.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Народилася 1998 року, щасливе дитинство",
+     "Народилася 1989 року, сумне дитинство",
+     "Народилася 1998 року, нудне дитинство"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Born, happy childhood."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "We weren't late last week.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Минулого тижня ми не спізнилися",
+     "Минулого тижня ми спізнилися",
+     "Цього тижня ми не спізнилися"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Weren't."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It was a great adventure two years ago.",
+   "prompt": {
+    "uk": "Прослухайте. Коли була пригода?"
+   },
+   "options": {
+    "uk": [
+     "Два роки тому",
+     "Минулого року",
+     "Минулого місяця"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ago."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "They ___ in Paris last year.",
+   "options": [
+    "were",
+    "was",
+    "are"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Were."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ at home last night.",
+   "options": [
+    "was",
+    "were",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Was."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It was a decade ___.",
+   "options": [
+    "ago",
+    "last",
+    "before"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ago."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма для «вони» в минулому?"
+   },
+   "options": {
+    "uk": [
+     "were",
+     "was",
+     "wasn't"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Were."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Учора я був удома."
+   },
+   "words": [
+    "I",
+    "was",
+    "at",
+    "home",
+    "yesterday",
+    "were",
+    "am"
+   ],
+   "answer": [
+    "I",
+    "was",
+    "at",
+    "home",
+    "yesterday"
+   ],
+   "explanation": {
+    "uk": "I was at home yesterday."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це був добрий досвід."
+   },
+   "answers": [
+    "It was a good experience"
+   ],
+   "explanation": {
+    "uk": "It was a good experience."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Where were you last night?",
+   "prompt": {
+    "uk": "Удома. Що відповісти?"
+   },
+   "options": [
+    "I was at home.",
+    "I were at home.",
+    "I was in home."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I was at home."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви народилися у Львові."
+   },
+   "character": {
+    "name": {
+     "uk": "Нова знайома Емма"
+    },
+    "avatar": "👩"
+   },
+   "line": "Where were you born?",
+   "options": [
+    "I was born in Lviv.",
+    "I born in Lviv.",
+    "I was birth in Lviv."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I was born in… — стала фраза з was."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "У дитинстві ви були сором'язливими."
+   },
+   "character": {
+    "name": {
+     "uk": "Нова знайома Емма"
+    },
+    "avatar": "👩"
+   },
+   "line": "What were you like as a kid?",
+   "options": [
+    "I was a shy kid.",
+    "I were shy child.",
+    "I was shy to be."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I was a shy kid — з I вживаємо was."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви були там два роки тому."
+   },
+   "character": {
+    "name": {
+     "uk": "Нова знайома Емма"
+    },
+    "avatar": "👩"
+   },
+   "line": "Were you in Paris?",
+   "options": [
+    "Yes, I was there two years ago.",
+    "Yes, I was there before two years.",
+    "Yes, I were there two years."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Two years ago — «два роки тому»."
+   }
+  }
+ ]
+}

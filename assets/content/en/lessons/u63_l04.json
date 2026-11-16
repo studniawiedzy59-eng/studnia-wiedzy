@@ -1,0 +1,324 @@
+{
+ "id": "u63_l04",
+ "unit": "u63",
+ "cefr": "A1",
+ "title": {
+  "uk": "Події в житті"
+ },
+ "goal": {
+  "uk": "Розповісти про події в житті."
+ },
+ "rule": {
+  "uk": "Adventure — пригода, accident — нещасний випадок, dream — мрія, сон, event — подія, experience — досвід. Приклад: It was a big adventure. It was an accident. My dream was to travel."
+ },
+ "words": [
+  {
+   "id": "adventure",
+   "text": "adventure",
+   "ipa": "/ədˈventʃə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пригода"
+   },
+   "example": "It was a great adventure.",
+   "exampleTranslation": {
+    "uk": "Це була чудова пригода."
+   }
+  },
+  {
+   "id": "accident",
+   "text": "accident",
+   "ipa": "/ˈæksɪdənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "нещасний випадок"
+   },
+   "example": "It was an accident.",
+   "exampleTranslation": {
+    "uk": "Це був нещасний випадок."
+   }
+  },
+  {
+   "id": "dream",
+   "text": "dream",
+   "ipa": "/driːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мрія, сон"
+   },
+   "example": "My dream was to travel.",
+   "exampleTranslation": {
+    "uk": "Моєю мрією було подорожувати."
+   }
+  },
+  {
+   "id": "event",
+   "text": "event",
+   "ipa": "/ɪˈvent/",
+   "pos": "noun",
+   "translation": {
+    "uk": "подія"
+   },
+   "example": "It was a big event.",
+   "exampleTranslation": {
+    "uk": "Це була велика подія."
+   }
+  },
+  {
+   "id": "experience",
+   "text": "experience",
+   "ipa": "/ɪkˈspɪəriəns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "досвід"
+   },
+   "example": "It was a good experience.",
+   "exampleTranslation": {
+    "uk": "Це був добрий досвід."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What was your childhood like?",
+   "prompt": {
+    "uk": "Повторимо. Щасливе. Що відповісти?"
+   },
+   "options": [
+    "It was happy.",
+    "It were happy.",
+    "It was happily."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It was happy."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "adventure",
+     "right": {
+      "uk": "пригода"
+     }
+    },
+    {
+     "left": "accident",
+     "right": {
+      "uk": "нещасний випадок"
+     }
+    },
+    {
+     "left": "dream",
+     "right": {
+      "uk": "мрія, сон"
+     }
+    },
+    {
+     "left": "event",
+     "right": {
+      "uk": "подія"
+     }
+    },
+    {
+     "left": "experience",
+     "right": {
+      "uk": "досвід"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It was a great adventure.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це була чудова пригода",
+     "Це була нудна поїздка",
+     "Це була аварія"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Adventure."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It was an accident.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це був нещасний випадок",
+     "Це був план",
+     "Це був подарунок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Accident."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My dream was to travel.",
+   "prompt": {
+    "uk": "Прослухайте. Яка була мрія?"
+   },
+   "options": {
+    "uk": [
+     "Подорожувати",
+     "Вчитися",
+     "Працювати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Dream."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It was a great ___.",
+   "options": [
+    "adventure",
+    "accident",
+    "event"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Пригода."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It was an ___.",
+   "options": [
+    "accident",
+    "dream",
+    "experience"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Accident."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It was a good ___.",
+   "options": [
+    "experience",
+    "accident",
+    "kid"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Experience."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке event?"
+   },
+   "options": {
+    "uk": [
+     "подія",
+     "пригода",
+     "мрія"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Event — подія."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Моєю мрією було подорожувати."
+   },
+   "words": [
+    "My",
+    "dream",
+    "was",
+    "to",
+    "travel",
+    "were",
+    "dreams"
+   ],
+   "answer": [
+    "My",
+    "dream",
+    "was",
+    "to",
+    "travel"
+   ],
+   "explanation": {
+    "uk": "My dream was to travel."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це був добрий досвід."
+   },
+   "answers": [
+    "It was a good experience"
+   ],
+   "explanation": {
+    "uk": "It was a good experience."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How was the trip?",
+   "prompt": {
+    "uk": "Чудова пригода. Що відповісти?"
+   },
+   "options": [
+    "It was a great adventure.",
+    "It were a great adventure.",
+    "It was great adventures."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It was a great adventure."
+   }
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "id": "u64_l06",
+ "unit": "u64",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: минулі події"
+ },
+ "goal": {
+  "uk": "Закріпити минулий час."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: was/were для стану, did/didn't для питань і заперечень, -ed для правильних дієслів (enjoyed, travelled, tried, delivered, dropped). Слова: finally, earlier, just, story, moment, life."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Tell me a story.",
+   "prompt": {
+    "uk": "Повторимо. Це була цікава історія. Що відповісти?"
+   },
+   "options": [
+    "It was an interesting story.",
+    "It were interesting story.",
+    "It was a interesting story."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It was an interesting story."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "I received a letter earlier, and finally I understood.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Раніше отримала листа, а нарешті зрозуміла",
+     "Щойно отримала листа й не зрозуміла",
+     "Не отримала листа"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Earlier, finally."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Did you enjoy the trip?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Чи сподобалась вам поїздка",
+     "Чи купили ви квиток",
+     "Чи любите ви подорожувати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Enjoy."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I didn't drop my phone.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона не впустила телефон",
+     "Вона впустила телефон",
+     "Вона купила телефон"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Didn't."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ the trip.",
+   "options": [
+    "enjoyed",
+    "enjoy",
+    "enjoies"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Enjoyed."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ you call him?",
+   "options": [
+    "Did",
+    "Do",
+    "Were"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Did."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "They ___ the box.",
+   "options": [
+    "delivered",
+    "deliver",
+    "deliverd"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Delivered."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від try?"
+   },
+   "options": {
+    "uk": [
+     "tried",
+     "tryed",
+     "tryd"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Try → tried."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ви йому телефонували?"
+   },
+   "words": [
+    "Did",
+    "you",
+    "call",
+    "him",
+    "called",
+    "do"
+   ],
+   "answer": [
+    "Did",
+    "you",
+    "call",
+    "him"
+   ],
+   "explanation": {
+    "uk": "Did you call him?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я впустила телефон."
+   },
+   "answers": [
+    "I dropped my phone"
+   ],
+   "explanation": {
+    "uk": "I dropped my phone."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What did you do yesterday?",
+   "prompt": {
+    "uk": "Відвідала тітку. Що відповісти?"
+   },
+   "options": [
+    "I visited my aunt.",
+    "I did visit my aunt.",
+    "I was visit my aunt."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I visited my aunt."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви подорожували потягом."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "How was your trip? How did you travel?",
+   "options": [
+    "It was great! We travelled by train.",
+    "It was great! We did travel by train.",
+    "Great! We travelling were by train."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Правильне дієслово в минулому: travelled."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви не телефонували."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Did you call Anna?",
+   "options": [
+    "No, I didn't. I was busy.",
+    "No, I didn't called.",
+    "No, I not called."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після didn't — дієслово без змін: I didn't call."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви впустили телефон."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "What happened to your phone?",
+   "options": [
+    "I dropped it. It's fine now.",
+    "I did drop it, now fine.",
+    "I drop it yesterday, fine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Dropped — минулий час від drop."
+   }
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+ "id": "u61_l02",
+ "unit": "u61",
+ "cefr": "A1",
+ "title": {
+  "uk": "Хто що робить"
+ },
+ "goal": {
+  "uk": "Описати дії людей на картинці."
+ },
+ "rule": {
+  "uk": "Carry — нести, hold — тримати, climb — підніматися, jump — стрибати, kick — бити ногою. Описуємо картинку Present Continuous: She is carrying a bag. He is holding a phone. The boy is jumping."
+ },
+ "words": [
+  {
+   "id": "carry",
+   "text": "carry",
+   "ipa": "/ˈkæri/",
+   "pos": "verb",
+   "translation": {
+    "uk": "нести"
+   },
+   "example": "She is carrying a heavy bag.",
+   "exampleTranslation": {
+    "uk": "Вона несе важку сумку."
+   }
+  },
+  {
+   "id": "hold",
+   "text": "hold",
+   "ipa": "/həʊld/",
+   "pos": "verb",
+   "translation": {
+    "uk": "тримати"
+   },
+   "example": "He is holding a phone.",
+   "exampleTranslation": {
+    "uk": "Він тримає телефон."
+   }
+  },
+  {
+   "id": "climb",
+   "text": "climb",
+   "ipa": "/klaɪm/",
+   "pos": "verb",
+   "translation": {
+    "uk": "підніматися, лізти"
+   },
+   "example": "They are climbing a hill.",
+   "exampleTranslation": {
+    "uk": "Вони підіймаються на пагорб."
+   }
+  },
+  {
+   "id": "jump",
+   "text": "jump",
+   "ipa": "/dʒʌmp/",
+   "pos": "verb",
+   "translation": {
+    "uk": "стрибати"
+   },
+   "example": "The boy is jumping.",
+   "exampleTranslation": {
+    "uk": "Хлопчик стрибає."
+   }
+  },
+  {
+   "id": "kick",
+   "text": "kick",
+   "ipa": "/kɪk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "бити ногою"
+   },
+   "example": "He is kicking the ball.",
+   "exampleTranslation": {
+    "uk": "Він б'є по м'ячу."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What are you doing right now?",
+   "prompt": {
+    "uk": "Повторимо. Вивчаю англійську. Що відповісти?"
+   },
+   "options": [
+    "I'm studying English.",
+    "I study English right now.",
+    "I am study English."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm studying English."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "carry",
+     "right": {
+      "uk": "нести"
+     }
+    },
+    {
+     "left": "hold",
+     "right": {
+      "uk": "тримати"
+     }
+    },
+    {
+     "left": "climb",
+     "right": {
+      "uk": "підніматися, лізти"
+     }
+    },
+    {
+     "left": "jump",
+     "right": {
+      "uk": "стрибати"
+     }
+    },
+    {
+     "left": "kick",
+     "right": {
+      "uk": "бити ногою"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "She is carrying a heavy bag.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить жінка?"
+   },
+   "options": {
+    "uk": [
+     "Несе важку сумку",
+     "Купує важку сумку",
+     "Відкриває сумку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Carrying."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He is holding a phone.",
+   "prompt": {
+    "uk": "Прослухайте. Що в нього в руці?"
+   },
+   "options": {
+    "uk": [
+     "Телефон",
+     "Книжка",
+     "Сумка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Phone."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The boy is jumping.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить хлопчик?"
+   },
+   "options": {
+    "uk": [
+     "Стрибає",
+     "Біжить",
+     "Лізе"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Jumping."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She is ___ a heavy bag.",
+   "options": [
+    "carrying",
+    "carry",
+    "carries"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Зараз: is + -ing."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is ___ a phone.",
+   "options": [
+    "holding",
+    "hold",
+    "holds"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is holding."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The boy is ___.",
+   "options": [
+    "jumping",
+    "jump",
+    "jumps"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is jumping."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке climb?"
+   },
+   "options": {
+    "uk": [
+     "підніматися",
+     "тримати",
+     "нести"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Climb — підніматися, лізти."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він тримає телефон."
+   },
+   "words": [
+    "He",
+    "is",
+    "holding",
+    "a",
+    "phone",
+    "hold",
+    "are"
+   ],
+   "answer": [
+    "He",
+    "is",
+    "holding",
+    "a",
+    "phone"
+   ],
+   "explanation": {
+    "uk": "He is holding a phone."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вони підіймаються на пагорб."
+   },
+   "answers": [
+    "They are climbing a hill"
+   ],
+   "explanation": {
+    "uk": "They are climbing a hill."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is he doing?",
+   "prompt": {
+    "uk": "Б'є по м'ячу. Що відповісти?"
+   },
+   "options": [
+    "He is kicking the ball.",
+    "He kicks the ball now.",
+    "He is kick the ball."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He is kicking the ball."
+   }
+  }
+ ]
+}

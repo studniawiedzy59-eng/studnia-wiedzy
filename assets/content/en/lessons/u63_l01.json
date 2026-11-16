@@ -1,0 +1,324 @@
+{
+ "id": "u63_l01",
+ "unit": "u63",
+ "cefr": "A1",
+ "title": {
+  "uk": "Був, була, були"
+ },
+ "goal": {
+  "uk": "Сказати, де ви були й який був стан."
+ },
+ "rule": {
+  "uk": "Минулий час дієслова to be: I, he, she, it — was; we, you, they — were. I was at home. They were late. Заперечення: wasn't, weren't. Питання: Were you at home? — Yes, I was. Born — народжений: I was born in 1998."
+ },
+ "words": [
+  {
+   "id": "was",
+   "text": "was",
+   "ipa": "/wɒz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "був, була, було"
+   },
+   "example": "I was at home yesterday.",
+   "exampleTranslation": {
+    "uk": "Учора я був удома."
+   }
+  },
+  {
+   "id": "were",
+   "text": "were",
+   "ipa": "/wɜː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "були"
+   },
+   "example": "They were in Paris.",
+   "exampleTranslation": {
+    "uk": "Вони були в Парижі."
+   }
+  },
+  {
+   "id": "wasnt",
+   "text": "wasn't",
+   "ipa": "/ˈwɒznt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "не був, не була"
+   },
+   "example": "I wasn't tired.",
+   "exampleTranslation": {
+    "uk": "Я не втомився."
+   }
+  },
+  {
+   "id": "werent",
+   "text": "weren't",
+   "ipa": "/wɜːnt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "не були"
+   },
+   "example": "We weren't late.",
+   "exampleTranslation": {
+    "uk": "Ми не спізнилися."
+   }
+  },
+  {
+   "id": "born",
+   "text": "born",
+   "ipa": "/bɔːn/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "народжений"
+   },
+   "example": "I was born in 1998.",
+   "exampleTranslation": {
+    "uk": "Я народився 1998 року."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What are you going to do next weekend?",
+   "prompt": {
+    "uk": "Повторимо. Піду в похід. Що відповісти?"
+   },
+   "options": [
+    "I'm going to go on a hike.",
+    "I go on hike next weekend.",
+    "I am going go hike."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm going to go on a hike."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "was",
+     "right": {
+      "uk": "був, була, було"
+     }
+    },
+    {
+     "left": "were",
+     "right": {
+      "uk": "були"
+     }
+    },
+    {
+     "left": "wasn't",
+     "right": {
+      "uk": "не був, не була"
+     }
+    },
+    {
+     "left": "weren't",
+     "right": {
+      "uk": "не були"
+     }
+    },
+    {
+     "left": "born",
+     "right": {
+      "uk": "народжений"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I was at home yesterday.",
+   "prompt": {
+    "uk": "Прослухайте. Де була людина вчора?"
+   },
+   "options": {
+    "uk": [
+     "Удома",
+     "На роботі",
+     "У парку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Was."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "They were in Paris.",
+   "prompt": {
+    "uk": "Прослухайте. Де вони були?"
+   },
+   "options": {
+    "uk": [
+     "У Парижі",
+     "У Лондоні",
+     "У Римі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Were."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I was born in 1998.",
+   "prompt": {
+    "uk": "Прослухайте. Коли народилася людина?"
+   },
+   "options": {
+    "uk": [
+     "1998 року",
+     "2008 року",
+     "1989 року"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Born."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ at home yesterday.",
+   "options": [
+    "was",
+    "were",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З I — was."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "They ___ in Paris.",
+   "options": [
+    "were",
+    "was",
+    "are"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З they — were."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ late. (не)",
+   "options": [
+    "weren't",
+    "wasn't",
+    "aren't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З we — weren't."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма з «you» у минулому?"
+   },
+   "options": {
+    "uk": [
+     "were",
+     "was",
+     "wasn't"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "You — were."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Учора я був удома."
+   },
+   "words": [
+    "I",
+    "was",
+    "at",
+    "home",
+    "yesterday",
+    "were",
+    "am"
+   ],
+   "answer": [
+    "I",
+    "was",
+    "at",
+    "home",
+    "yesterday"
+   ],
+   "explanation": {
+    "uk": "I was at home yesterday."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми не спізнилися."
+   },
+   "answers": [
+    "We weren't late"
+   ],
+   "explanation": {
+    "uk": "We weren't late."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Were you at home?",
+   "prompt": {
+    "uk": "Так, був. Що відповісти?"
+   },
+   "options": [
+    "Yes, I was.",
+    "Yes, I were.",
+    "Yes, I did."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I was."
+   }
+  }
+ ]
+}

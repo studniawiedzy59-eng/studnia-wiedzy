@@ -1,0 +1,324 @@
+{
+ "id": "u61_l03",
+ "unit": "u61",
+ "cefr": "A1",
+ "title": {
+  "uk": "Зміни й роботи"
+ },
+ "goal": {
+  "uk": "Говорити про те, що змінюється."
+ },
+ "rule": {
+  "uk": "Grow — рости, build — будувати, repair — ремонтувати, increase — збільшуватися, push — штовхати. Для змін використовуємо Present Continuous: The city is growing. The prices are increasing. They are building a bridge."
+ },
+ "words": [
+  {
+   "id": "grow",
+   "text": "grow",
+   "ipa": "/ɡrəʊ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "рости"
+   },
+   "example": "The city is growing.",
+   "exampleTranslation": {
+    "uk": "Місто росте."
+   }
+  },
+  {
+   "id": "build",
+   "text": "build",
+   "ipa": "/bɪld/",
+   "pos": "verb",
+   "translation": {
+    "uk": "будувати"
+   },
+   "example": "They are building a bridge.",
+   "exampleTranslation": {
+    "uk": "Вони будують міст."
+   }
+  },
+  {
+   "id": "repair",
+   "text": "repair",
+   "ipa": "/rɪˈpeə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "ремонтувати"
+   },
+   "example": "He is repairing the car.",
+   "exampleTranslation": {
+    "uk": "Він ремонтує машину."
+   }
+  },
+  {
+   "id": "increase",
+   "text": "increase",
+   "ipa": "/ɪnˈkriːs/",
+   "pos": "verb",
+   "translation": {
+    "uk": "збільшуватися"
+   },
+   "example": "The prices are increasing.",
+   "exampleTranslation": {
+    "uk": "Ціни зростають."
+   }
+  },
+  {
+   "id": "push",
+   "text": "push",
+   "ipa": "/pʊʃ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "штовхати"
+   },
+   "example": "They are pushing the car.",
+   "exampleTranslation": {
+    "uk": "Вони штовхають машину."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is he doing?",
+   "prompt": {
+    "uk": "Повторимо. Б'є по м'ячу. Що відповісти?"
+   },
+   "options": [
+    "He is kicking the ball.",
+    "He kicks the ball now.",
+    "He is kick the ball."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He is kicking the ball."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "grow",
+     "right": {
+      "uk": "рости"
+     }
+    },
+    {
+     "left": "build",
+     "right": {
+      "uk": "будувати"
+     }
+    },
+    {
+     "left": "repair",
+     "right": {
+      "uk": "ремонтувати"
+     }
+    },
+    {
+     "left": "increase",
+     "right": {
+      "uk": "збільшуватися"
+     }
+    },
+    {
+     "left": "push",
+     "right": {
+      "uk": "штовхати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "They are building a bridge.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони роблять?"
+   },
+   "options": {
+    "uk": [
+     "Будують міст",
+     "Ремонтують міст",
+     "Фарбують міст"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Building."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The prices are increasing.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Ціни зростають",
+     "Ціни падають",
+     "Цін немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Increasing."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "They are pushing the car.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони роблять?"
+   },
+   "options": {
+    "uk": [
+     "Штовхають машину",
+     "Ремонтують машину",
+     "Миють машину"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pushing."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The city is ___.",
+   "options": [
+    "growing",
+    "grow",
+    "grows"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is growing."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is ___ the car.",
+   "options": [
+    "repairing",
+    "repair",
+    "repairs"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is repairing."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The prices are ___.",
+   "options": [
+    "increasing",
+    "increase",
+    "increases"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Are increasing."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке repair?"
+   },
+   "options": {
+    "uk": [
+     "ремонтувати",
+     "будувати",
+     "рости"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Repair — ремонтувати."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вони будують міст."
+   },
+   "words": [
+    "They",
+    "are",
+    "building",
+    "a",
+    "bridge",
+    "build",
+    "is"
+   ],
+   "answer": [
+    "They",
+    "are",
+    "building",
+    "a",
+    "bridge"
+   ],
+   "explanation": {
+    "uk": "They are building a bridge."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ціни зростають."
+   },
+   "answers": [
+    "The prices are increasing"
+   ],
+   "explanation": {
+    "uk": "The prices are increasing."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What are they doing?",
+   "prompt": {
+    "uk": "Будують міст. Що відповісти?"
+   },
+   "options": [
+    "They are building a bridge.",
+    "They build a bridge now.",
+    "They are build a bridge."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "They are building a bridge."
+   }
+  }
+ ]
+}

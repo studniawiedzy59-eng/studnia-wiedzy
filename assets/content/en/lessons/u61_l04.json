@@ -1,0 +1,322 @@
+{
+ "id": "u61_l04",
+ "unit": "u61",
+ "cefr": "A1",
+ "title": {
+  "uk": "Спостерігаємо"
+ },
+ "goal": {
+  "uk": "Описати, на що ви дивитеся й що чуєте."
+ },
+ "rule": {
+  "uk": "Listen — слухати, look — дивитися (look at — дивитися на), wonder — думати, цікавитися, notice — помічати, touch — торкатися. Приклад: Listen! Someone is singing. Look at the sky! I wonder why he is late."
+ },
+ "words": [
+  {
+   "id": "listen",
+   "text": "listen",
+   "ipa": "/ˈlɪsn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "слухати"
+   },
+   "example": "I'm listening to music.",
+   "exampleTranslation": {
+    "uk": "Я слухаю музику."
+   }
+  },
+  {
+   "id": "look",
+   "text": "look",
+   "ipa": "/lʊk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "дивитися"
+   },
+   "example": "Look at the sky!",
+   "exampleTranslation": {
+    "uk": "Подивіться на небо!"
+   }
+  },
+  {
+   "id": "wonder",
+   "text": "wonder",
+   "ipa": "/ˈwʌndə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "цікавитися, думати"
+   },
+   "example": "I wonder why he's late.",
+   "exampleTranslation": {
+    "uk": "Цікаво, чому він запізнюється."
+   }
+  },
+  {
+   "id": "notice",
+   "text": "notice",
+   "ipa": "/ˈnəʊtɪs/",
+   "pos": "verb",
+   "translation": {
+    "uk": "помічати"
+   },
+   "example": "I notice a small problem.",
+   "exampleTranslation": {
+    "uk": "Я помічаю невелику проблему."
+   }
+  },
+  {
+   "id": "touch",
+   "text": "touch",
+   "ipa": "/tʌtʃ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "торкатися"
+   },
+   "example": "Don't touch the screen.",
+   "exampleTranslation": {
+    "uk": "Не торкайтеся екрана."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What are they doing?",
+   "prompt": {
+    "uk": "Повторимо. Будують міст. Що відповісти?"
+   },
+   "options": [
+    "They are building a bridge.",
+    "They build a bridge now.",
+    "They are build a bridge."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "They are building a bridge."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "listen",
+     "right": {
+      "uk": "слухати"
+     }
+    },
+    {
+     "left": "look",
+     "right": {
+      "uk": "дивитися"
+     }
+    },
+    {
+     "left": "wonder",
+     "right": {
+      "uk": "цікавитися, думати"
+     }
+    },
+    {
+     "left": "notice",
+     "right": {
+      "uk": "помічати"
+     }
+    },
+    {
+     "left": "touch",
+     "right": {
+      "uk": "торкатися"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'm listening to music.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Слухає музику",
+     "Грає музику",
+     "Пише музику"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Listening."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Look at the sky!",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Подивитися на небо",
+     "Подивитися на море",
+     "Подивитися на мене"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Look."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Don't touch the screen.",
+   "prompt": {
+    "uk": "Прослухайте. Що забороняють?"
+   },
+   "options": {
+    "uk": [
+     "Торкатися екрана",
+     "Дивитися на екран",
+     "Вмикати екран"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Don't touch."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ to music.",
+   "options": [
+    "listening",
+    "listen",
+    "listens"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Listening to."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ at the sky!",
+   "options": [
+    "Look",
+    "Looking",
+    "Looks"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Look at."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Don't ___ the screen.",
+   "options": [
+    "touch",
+    "touching",
+    "touches"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Don't + дієслово."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке notice?"
+   },
+   "options": {
+    "uk": [
+     "помічати",
+     "торкатися",
+     "слухати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Notice — помічати."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Подивіться на небо!"
+   },
+   "words": [
+    "Look",
+    "at",
+    "the",
+    "sky",
+    "touch",
+    "to"
+   ],
+   "answer": [
+    "Look",
+    "at",
+    "the",
+    "sky"
+   ],
+   "explanation": {
+    "uk": "Look at the sky!"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Не торкайтеся екрана."
+   },
+   "answers": [
+    "Don't touch the screen"
+   ],
+   "explanation": {
+    "uk": "Don't touch the screen."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What are you doing?",
+   "prompt": {
+    "uk": "Слухаю музику. Що відповісти?"
+   },
+   "options": [
+    "I'm listening to music.",
+    "I listen to music now.",
+    "I am listen music."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm listening to music."
+   }
+  }
+ ]
+}

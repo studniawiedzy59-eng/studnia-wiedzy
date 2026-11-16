@@ -1,0 +1,324 @@
+{
+ "id": "u63_l03",
+ "unit": "u63",
+ "cefr": "A1",
+ "title": {
+  "uk": "Дитинство"
+ },
+ "goal": {
+  "uk": "Розповісти про дитинство."
+ },
+ "rule": {
+  "uk": "Childhood — дитинство, memory — спогад, kid — дитина (розмовне), youth — молодість, baby — немовля. Приклад: I was a happy kid. In my childhood I was shy. I have a lovely memory of my grandmother."
+ },
+ "words": [
+  {
+   "id": "childhood",
+   "text": "childhood",
+   "ipa": "/ˈtʃaɪldhʊd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дитинство"
+   },
+   "example": "I had a happy childhood.",
+   "exampleTranslation": {
+    "uk": "У мене було щасливе дитинство."
+   }
+  },
+  {
+   "id": "memory",
+   "text": "memory",
+   "ipa": "/ˈmeməri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "спогад"
+   },
+   "example": "This is a lovely memory.",
+   "exampleTranslation": {
+    "uk": "Це чудовий спогад."
+   }
+  },
+  {
+   "id": "kid",
+   "text": "kid",
+   "ipa": "/kɪd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дитина"
+   },
+   "example": "I was a shy kid.",
+   "exampleTranslation": {
+    "uk": "Я була сором'язливою дитиною."
+   }
+  },
+  {
+   "id": "youth",
+   "text": "youth",
+   "ipa": "/juːθ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "молодість"
+   },
+   "example": "In my youth I was fast.",
+   "exampleTranslation": {
+    "uk": "У молодості я був швидким."
+   }
+  },
+  {
+   "id": "baby",
+   "text": "baby",
+   "ipa": "/ˈbeɪbi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "немовля"
+   },
+   "example": "My brother was a baby then.",
+   "exampleTranslation": {
+    "uk": "Тоді мій брат був немовлям."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "When were you in Rome?",
+   "prompt": {
+    "uk": "Повторимо. Минулого тижня. Що відповісти?"
+   },
+   "options": [
+    "Last week.",
+    "In last week.",
+    "The last week."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Last week."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "childhood",
+     "right": {
+      "uk": "дитинство"
+     }
+    },
+    {
+     "left": "memory",
+     "right": {
+      "uk": "спогад"
+     }
+    },
+    {
+     "left": "kid",
+     "right": {
+      "uk": "дитина"
+     }
+    },
+    {
+     "left": "youth",
+     "right": {
+      "uk": "молодість"
+     }
+    },
+    {
+     "left": "baby",
+     "right": {
+      "uk": "немовля"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I had a happy childhood.",
+   "prompt": {
+    "uk": "Прослухайте. Яке було дитинство?"
+   },
+   "options": {
+    "uk": [
+     "Щасливе",
+     "Сумне",
+     "Довге"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Happy."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I was a shy kid.",
+   "prompt": {
+    "uk": "Прослухайте. Якою була людина в дитинстві?"
+   },
+   "options": {
+    "uk": [
+     "Сором'язливою",
+     "Веселою",
+     "Сильною"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Shy."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My brother was a baby then.",
+   "prompt": {
+    "uk": "Прослухайте. Ким був брат?"
+   },
+   "options": {
+    "uk": [
+     "Немовлям",
+     "Студентом",
+     "Вчителем"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Baby."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I had a happy ___.",
+   "options": [
+    "childhood",
+    "memory",
+    "youth"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Дитинство."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is a lovely ___.",
+   "options": [
+    "memory",
+    "kid",
+    "baby"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Спогад."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ a shy kid.",
+   "options": [
+    "was",
+    "were",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З I — was."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке childhood?"
+   },
+   "options": {
+    "uk": [
+     "дитинство",
+     "молодість",
+     "спогад"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Childhood — дитинство."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я була сором'язливою дитиною."
+   },
+   "words": [
+    "I",
+    "was",
+    "a",
+    "shy",
+    "kid",
+    "were",
+    "baby"
+   ],
+   "answer": [
+    "I",
+    "was",
+    "a",
+    "shy",
+    "kid"
+   ],
+   "explanation": {
+    "uk": "I was a shy kid."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це чудовий спогад."
+   },
+   "answers": [
+    "This is a lovely memory"
+   ],
+   "explanation": {
+    "uk": "This is a lovely memory."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What was your childhood like?",
+   "prompt": {
+    "uk": "Щасливе. Що відповісти?"
+   },
+   "options": [
+    "It was happy.",
+    "It were happy.",
+    "It was happily."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It was happy."
+   }
+  }
+ ]
+}

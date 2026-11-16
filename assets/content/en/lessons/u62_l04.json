@@ -1,0 +1,324 @@
+{
+ "id": "u62_l04",
+ "unit": "u62",
+ "cefr": "A1",
+ "title": {
+  "uk": "Коли саме"
+ },
+ "goal": {
+  "uk": "Назвати час для планів."
+ },
+ "rule": {
+  "uk": "This weekend — цими вихідними, next weekend — наступними вихідними, long weekend — довгі вихідні, bank holiday — державне свято (вихідний), take a day off — взяти вихідний. Приклад: I'm going to take a day off. We have a long weekend."
+ },
+ "words": [
+  {
+   "id": "this_weekend",
+   "text": "this weekend",
+   "ipa": "/ðɪs ˌwiːkˈend/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "цими вихідними"
+   },
+   "example": "What are you doing this weekend?",
+   "exampleTranslation": {
+    "uk": "Що ви робите цими вихідними?"
+   }
+  },
+  {
+   "id": "next_weekend",
+   "text": "next weekend",
+   "ipa": "/nekst ˌwiːkˈend/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "наступними вихідними"
+   },
+   "example": "We're going to travel next weekend.",
+   "exampleTranslation": {
+    "uk": "Ми збираємося поїхати наступними вихідними."
+   }
+  },
+  {
+   "id": "long_weekend",
+   "text": "long weekend",
+   "ipa": "/ˌlɒŋ ˌwiːkˈend/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "довгі вихідні"
+   },
+   "example": "We have a long weekend.",
+   "exampleTranslation": {
+    "uk": "У нас довгі вихідні."
+   }
+  },
+  {
+   "id": "bank_holiday",
+   "text": "bank holiday",
+   "ipa": "/ˌbæŋk ˈhɒlədeɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "державне свято"
+   },
+   "example": "Monday is a bank holiday.",
+   "exampleTranslation": {
+    "uk": "Понеділок — вихідний день."
+   }
+  },
+  {
+   "id": "take_a_day_off",
+   "text": "take a day off",
+   "ipa": "/ˌteɪk ə ˌdeɪ ˈɒf/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "узяти вихідний"
+   },
+   "example": "I'm going to take a day off.",
+   "exampleTranslation": {
+    "uk": "Я збираюся взяти вихідний."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What are you doing this weekend?",
+   "prompt": {
+    "uk": "Повторимо. Іду на фестиваль. Що відповісти?"
+   },
+   "options": [
+    "I'm going to a festival.",
+    "I go at festival.",
+    "I am going on festival."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm going to a festival."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "this weekend",
+     "right": {
+      "uk": "цими вихідними"
+     }
+    },
+    {
+     "left": "next weekend",
+     "right": {
+      "uk": "наступними вихідними"
+     }
+    },
+    {
+     "left": "long weekend",
+     "right": {
+      "uk": "довгі вихідні"
+     }
+    },
+    {
+     "left": "bank holiday",
+     "right": {
+      "uk": "державне свято"
+     }
+    },
+    {
+     "left": "take a day off",
+     "right": {
+      "uk": "узяти вихідний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "We're going to travel next weekend.",
+   "prompt": {
+    "uk": "Прослухайте. Коли вони поїдуть?"
+   },
+   "options": {
+    "uk": [
+     "Наступними вихідними",
+     "Цими вихідними",
+     "Минулими вихідними"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Next weekend."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Monday is a bank holiday.",
+   "prompt": {
+    "uk": "Прослухайте. Який день вихідний?"
+   },
+   "options": {
+    "uk": [
+     "Понеділок",
+     "Неділя",
+     "П'ятниця"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Monday."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I'm going to take a day off.",
+   "prompt": {
+    "uk": "Прослухайте. Що збирається зробити людина?"
+   },
+   "options": {
+    "uk": [
+     "Узяти вихідний",
+     "Піти на роботу",
+     "Скасувати зустріч"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Day off."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We're going to travel ___ weekend.",
+   "options": [
+    "next",
+    "last",
+    "long"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Next weekend."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We have a ___ weekend.",
+   "options": [
+    "long",
+    "bank",
+    "next"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Long weekend."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm going to take a day ___.",
+   "options": [
+    "off",
+    "out",
+    "free"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Take a day off."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке bank holiday?"
+   },
+   "options": {
+    "uk": [
+     "державне свято, вихідний",
+     "довгі вихідні",
+     "відпустка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bank holiday — державне свято."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У нас довгі вихідні."
+   },
+   "words": [
+    "We",
+    "have",
+    "a",
+    "long",
+    "weekend",
+    "next",
+    "has"
+   ],
+   "answer": [
+    "We",
+    "have",
+    "a",
+    "long",
+    "weekend"
+   ],
+   "explanation": {
+    "uk": "We have a long weekend."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Понеділок — вихідний день."
+   },
+   "answers": [
+    "Monday is a bank holiday"
+   ],
+   "explanation": {
+    "uk": "Monday is a bank holiday."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "When are you going to travel?",
+   "prompt": {
+    "uk": "Наступними вихідними. Що відповісти?"
+   },
+   "options": [
+    "Next weekend.",
+    "In next weekend.",
+    "On the next of weekend."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Next weekend."
+   }
+  }
+ ]
+}

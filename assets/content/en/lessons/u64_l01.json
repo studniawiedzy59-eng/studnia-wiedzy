@@ -1,0 +1,322 @@
+{
+ "id": "u64_l01",
+ "unit": "u64",
+ "cefr": "A1",
+ "title": {
+  "uk": "Що ви робили?"
+ },
+ "goal": {
+  "uk": "Запитувати й відповідати про минулі дії."
+ },
+ "rule": {
+  "uk": "У питаннях і запереченнях минулого часу — did + дієслово без змін. Did you work? — Yes, I did. / No, I didn't. I didn't work. Не кажемо «did you worked». Слова: finally — нарешті, earlier — раніше, perhaps ви вже знаєте; just — щойно."
+ },
+ "words": [
+  {
+   "id": "did",
+   "text": "did",
+   "ipa": "/dɪd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "допоміжне дієслово минулого часу"
+   },
+   "example": "Did you call him?",
+   "exampleTranslation": {
+    "uk": "Ви йому телефонували?"
+   }
+  },
+  {
+   "id": "didnt",
+   "text": "didn't",
+   "ipa": "/ˈdɪdnt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "не (минулий час)"
+   },
+   "example": "I didn't call him.",
+   "exampleTranslation": {
+    "uk": "Я йому не телефонував."
+   }
+  },
+  {
+   "id": "finally",
+   "text": "finally",
+   "ipa": "/ˈfaɪnəli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "нарешті"
+   },
+   "example": "Finally, we arrived.",
+   "exampleTranslation": {
+    "uk": "Нарешті ми приїхали."
+   }
+  },
+  {
+   "id": "earlier",
+   "text": "earlier",
+   "ipa": "/ˈɜːliə/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "раніше"
+   },
+   "example": "I called earlier.",
+   "exampleTranslation": {
+    "uk": "Я телефонував раніше."
+   }
+  },
+  {
+   "id": "just",
+   "text": "just",
+   "ipa": "/dʒʌst/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "щойно"
+   },
+   "example": "I just arrived.",
+   "exampleTranslation": {
+    "uk": "Я щойно приїхав."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where were you last night?",
+   "prompt": {
+    "uk": "Повторимо. Удома. Що відповісти?"
+   },
+   "options": [
+    "I was at home.",
+    "I were at home.",
+    "I was in home."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I was at home."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "did",
+     "right": {
+      "uk": "допоміжне дієслово минулого часу"
+     }
+    },
+    {
+     "left": "didn't",
+     "right": {
+      "uk": "не (минулий час)"
+     }
+    },
+    {
+     "left": "finally",
+     "right": {
+      "uk": "нарешті"
+     }
+    },
+    {
+     "left": "earlier",
+     "right": {
+      "uk": "раніше"
+     }
+    },
+    {
+     "left": "just",
+     "right": {
+      "uk": "щойно"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Did you call him?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Чи телефонували ви йому",
+     "Чи бачили ви його",
+     "Чи любите ви його"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Did."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I didn't call him.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона йому не телефонувала",
+     "Вона йому телефонувала",
+     "Вона йому напише"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Didn't."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Finally, we arrived.",
+   "prompt": {
+    "uk": "Прослухайте. Що відбулося?"
+   },
+   "options": {
+    "uk": [
+     "Нарешті вони приїхали",
+     "Вони щойно поїхали",
+     "Вони не приїхали"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Finally."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ you call him?",
+   "options": [
+    "Did",
+    "Do",
+    "Were"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Did — питання в минулому."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ call him.",
+   "options": [
+    "didn't",
+    "don't",
+    "wasn't"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Didn't."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I called ___. (раніше)",
+   "options": [
+    "earlier",
+    "finally",
+    "just"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Earlier."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма правильна?"
+   },
+   "options": {
+    "uk": [
+     "Did you work?",
+     "Did you worked?",
+     "Do you worked?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Після did — дієслово без змін."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ви йому телефонували?"
+   },
+   "words": [
+    "Did",
+    "you",
+    "call",
+    "him",
+    "called",
+    "do"
+   ],
+   "answer": [
+    "Did",
+    "you",
+    "call",
+    "him"
+   ],
+   "explanation": {
+    "uk": "Did you call him?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я йому не телефонував."
+   },
+   "answers": [
+    "I didn't call him"
+   ],
+   "explanation": {
+    "uk": "I didn't call him."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Did you call him?",
+   "prompt": {
+    "uk": "Так, телефонував. Що відповісти?"
+   },
+   "options": [
+    "Yes, I did.",
+    "Yes, I called.",
+    "Yes, I done."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I did."
+   }
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "id": "u63_l02",
+ "unit": "u63",
+ "cefr": "A1",
+ "title": {
+  "uk": "Коли це було"
+ },
+ "goal": {
+  "uk": "Вказати час у минулому."
+ },
+ "rule": {
+  "uk": "Ago — тому (після слова про час): a week ago, two years ago. Last night — минулої ночі, last week — минулого тижня, last month — минулого місяця, last year — минулого року. Перед last прийменник не ставимо: I was there last year."
+ },
+ "words": [
+  {
+   "id": "ago",
+   "text": "ago",
+   "ipa": "/əˈɡəʊ/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "тому (час)"
+   },
+   "example": "I was there two years ago.",
+   "exampleTranslation": {
+    "uk": "Я був там два роки тому."
+   }
+  },
+  {
+   "id": "last_night",
+   "text": "last night",
+   "ipa": "/ˈlɑːst naɪt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "минулої ночі, вчора ввечері"
+   },
+   "example": "I was tired last night.",
+   "exampleTranslation": {
+    "uk": "Минулого вечора я був утомлений."
+   }
+  },
+  {
+   "id": "last_week",
+   "text": "last week",
+   "ipa": "/ˈlɑːst wiːk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "минулого тижня"
+   },
+   "example": "We were in Rome last week.",
+   "exampleTranslation": {
+    "uk": "Минулого тижня ми були в Римі."
+   }
+  },
+  {
+   "id": "last_month",
+   "text": "last month",
+   "ipa": "/ˈlɑːst mʌnθ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "минулого місяця"
+   },
+   "example": "She was ill last month.",
+   "exampleTranslation": {
+    "uk": "Минулого місяця вона хворіла."
+   }
+  },
+  {
+   "id": "last_year",
+   "text": "last year",
+   "ipa": "/ˈlɑːst jɪə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "минулого року"
+   },
+   "example": "It was cold last year.",
+   "exampleTranslation": {
+    "uk": "Минулого року було холодно."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Were you at home?",
+   "prompt": {
+    "uk": "Повторимо. Так, був. Що відповісти?"
+   },
+   "options": [
+    "Yes, I was.",
+    "Yes, I were.",
+    "Yes, I did."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I was."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "ago",
+     "right": {
+      "uk": "тому (час)"
+     }
+    },
+    {
+     "left": "last night",
+     "right": {
+      "uk": "минулої ночі, вчора ввечері"
+     }
+    },
+    {
+     "left": "last week",
+     "right": {
+      "uk": "минулого тижня"
+     }
+    },
+    {
+     "left": "last month",
+     "right": {
+      "uk": "минулого місяця"
+     }
+    },
+    {
+     "left": "last year",
+     "right": {
+      "uk": "минулого року"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I was there two years ago.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина там була?"
+   },
+   "options": {
+    "uk": [
+     "Два роки тому",
+     "Через два роки",
+     "Минулого року"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ago."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We were in Rome last week.",
+   "prompt": {
+    "uk": "Прослухайте. Де вони були?"
+   },
+   "options": {
+    "uk": [
+     "У Римі",
+     "У Парижі",
+     "У Мілані"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Rome."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "She was ill last month.",
+   "prompt": {
+    "uk": "Прослухайте. Коли вона хворіла?"
+   },
+   "options": {
+    "uk": [
+     "Минулого місяця",
+     "Минулого тижня",
+     "Минулого року"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Last month."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I was there two years ___.",
+   "options": [
+    "ago",
+    "last",
+    "before"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Two years ago."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We were in Rome ___ week.",
+   "options": [
+    "last",
+    "ago",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Last week."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It was cold ___ year.",
+   "options": [
+    "last",
+    "in last",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Без прийменника: last year."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає ago?"
+   },
+   "options": {
+    "uk": [
+     "тому (про час)",
+     "минулого",
+     "завжди"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ago — тому."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Минулого тижня ми були в Римі."
+   },
+   "words": [
+    "We",
+    "were",
+    "in",
+    "Rome",
+    "last",
+    "week",
+    "was",
+    "ago"
+   ],
+   "answer": [
+    "We",
+    "were",
+    "in",
+    "Rome",
+    "last",
+    "week"
+   ],
+   "explanation": {
+    "uk": "We were in Rome last week."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я був там два роки тому."
+   },
+   "answers": [
+    "I was there two years ago"
+   ],
+   "explanation": {
+    "uk": "I was there two years ago."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "When were you in Rome?",
+   "prompt": {
+    "uk": "Минулого тижня. Що відповісти?"
+   },
+   "options": [
+    "Last week.",
+    "In last week.",
+    "The last week."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Last week."
+   }
+  }
+ ]
+}

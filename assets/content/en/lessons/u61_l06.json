@@ -1,0 +1,286 @@
+{
+ "id": "u61_l06",
+ "unit": "u61",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: що відбувається зараз"
+ },
+ "goal": {
+  "uk": "Закріпити Present Continuous і слова до нього."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: зараз — am/is/are + -ing (I'm working), взагалі — Present Simple (I work). Слова: right now, currently, nowadays, while; дії (carry, hold, climb, jump, kick, build, repair, increase); стани (stuck, in a meeting, on holiday, on the phone)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where is Anna?",
+   "prompt": {
+    "uk": "Повторимо. У відпустці. Що відповісти?"
+   },
+   "options": [
+    "She's on holiday.",
+    "She is in holiday.",
+    "She on holiday is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She's on holiday."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "I'm cooking while he is reading.",
+   "prompt": {
+    "uk": "Прослухайте. Що відбувається?"
+   },
+   "options": {
+    "uk": [
+     "Я готую, а він читає",
+     "Я читаю, а він готує",
+     "Я готую, а він спить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "While."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Nowadays I walk to work, but right now I'm driving.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Звичайно ходить пішки, а зараз їде машиною",
+     "Завжди їздить машиною",
+     "Зараз іде пішки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nowadays, right now."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "They are repairing the bridge.",
+   "prompt": {
+    "uk": "Прослухайте. Що роблять люди?"
+   },
+   "options": {
+    "uk": [
+     "Ремонтують міст",
+     "Будують міст",
+     "Фарбують міст"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Repairing."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She is ___ a bag.",
+   "options": [
+    "carrying",
+    "carry",
+    "carries"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is carrying."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I work in a bank, but ___ I'm on holiday.",
+   "options": [
+    "right now",
+    "every day",
+    "usually"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Right now."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The city is ___.",
+   "options": [
+    "growing",
+    "grow",
+    "grows"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is growing."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма для того, що відбувається зараз?"
+   },
+   "options": {
+    "uk": [
+     "am/is/are + -ing",
+     "дієслово + -s",
+     "did + дієслово"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Present Continuous: am/is/are + -ing."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вони будують міст."
+   },
+   "words": [
+    "They",
+    "are",
+    "building",
+    "a",
+    "bridge",
+    "build",
+    "is"
+   ],
+   "answer": [
+    "They",
+    "are",
+    "building",
+    "a",
+    "bridge"
+   ],
+   "explanation": {
+    "uk": "They are building a bridge."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Він на нараді."
+   },
+   "answers": [
+    "He's in a meeting"
+   ],
+   "explanation": {
+    "uk": "He's in a meeting."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What are you doing at the moment?",
+   "prompt": {
+    "uk": "Читаю, поки він готує. Що відповісти?"
+   },
+   "options": [
+    "I'm reading while he cooks.",
+    "I read while he is cook.",
+    "I am reading when he cooking."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm reading while he cooks."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви зараз готуєте вечерю."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Лена по телефону"
+    },
+    "avatar": "📞"
+   },
+   "line": "Hi! Are you busy right now?",
+   "options": [
+    "Yes, I'm cooking dinner. Can I call you back?",
+    "Yes, I cook dinner now. I call back.",
+    "Yes, I am cook. Later I call."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Зараз — I'm cooking. Can I call you back? — ввічливо перенести розмову."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви застрягли в заторі."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Лена по телефону"
+    },
+    "avatar": "📞"
+   },
+   "line": "Where are you? We're waiting for you!",
+   "options": [
+    "I'm stuck in traffic. I'm so sorry!",
+    "I am staying in traffic, sorry.",
+    "I'm in a traffic jam stuck."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Stuck in traffic — «застряг у заторі»."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Колега на нараді."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Лена по телефону"
+    },
+    "avatar": "📞"
+   },
+   "line": "Can I talk to Mark, please?",
+   "options": [
+    "Sorry, he's in a meeting right now.",
+    "Sorry, he is on the meeting now.",
+    "No, he meeting is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In a meeting — стала форма."
+   }
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "id": "u64_l03",
+ "unit": "u64",
+ "cefr": "A1",
+ "title": {
+  "uk": "Ще правильні дієслова"
+ },
+ "goal": {
+  "uk": "Розповідати про події в минулому."
+ },
+ "rule": {
+  "uk": "Follow — іти за, receive — отримувати, deliver — доставляти, explain — пояснювати, surprise — дивувати. Минулий час: followed, received, delivered, explained, surprised. Приклад: I received a letter. They delivered the box."
+ },
+ "words": [
+  {
+   "id": "follow",
+   "text": "follow",
+   "ipa": "/ˈfɒləʊ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "іти слідом"
+   },
+   "example": "The dog followed me.",
+   "exampleTranslation": {
+    "uk": "Собака пішов за мною."
+   }
+  },
+  {
+   "id": "receive",
+   "text": "receive",
+   "ipa": "/rɪˈsiːv/",
+   "pos": "verb",
+   "translation": {
+    "uk": "отримувати"
+   },
+   "example": "I received a letter.",
+   "exampleTranslation": {
+    "uk": "Я отримала листа."
+   }
+  },
+  {
+   "id": "deliver",
+   "text": "deliver",
+   "ipa": "/dɪˈlɪvə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "доставляти"
+   },
+   "example": "They delivered the box.",
+   "exampleTranslation": {
+    "uk": "Вони доставили коробку."
+   }
+  },
+  {
+   "id": "explain",
+   "text": "explain",
+   "ipa": "/ɪkˈspleɪn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "пояснювати"
+   },
+   "example": "He explained the rule.",
+   "exampleTranslation": {
+    "uk": "Він пояснив правило."
+   }
+  },
+  {
+   "id": "surprise",
+   "text": "surprise",
+   "ipa": "/səˈpraɪz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "дивувати"
+   },
+   "example": "The news surprised me.",
+   "exampleTranslation": {
+    "uk": "Новина здивувала мене."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How did you travel?",
+   "prompt": {
+    "uk": "Повторимо. Потягом. Що відповісти?"
+   },
+   "options": [
+    "We travelled by train.",
+    "We did travel in train.",
+    "We travelling by train."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We travelled by train."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "follow",
+     "right": {
+      "uk": "іти слідом"
+     }
+    },
+    {
+     "left": "receive",
+     "right": {
+      "uk": "отримувати"
+     }
+    },
+    {
+     "left": "deliver",
+     "right": {
+      "uk": "доставляти"
+     }
+    },
+    {
+     "left": "explain",
+     "right": {
+      "uk": "пояснювати"
+     }
+    },
+    {
+     "left": "surprise",
+     "right": {
+      "uk": "дивувати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I received a letter.",
+   "prompt": {
+    "uk": "Прослухайте. Що сталося?"
+   },
+   "options": {
+    "uk": [
+     "Людина отримала листа",
+     "Людина написала листа",
+     "Людина загубила листа"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Received."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "They delivered the box.",
+   "prompt": {
+    "uk": "Прослухайте. Що зробили люди?"
+   },
+   "options": {
+    "uk": [
+     "Доставили коробку",
+     "Забрали коробку",
+     "Загубили коробку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Delivered."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The news surprised me.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Новина її здивувала",
+     "Новина її засмутила",
+     "Новина її розсмішила"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Surprised."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ a letter.",
+   "options": [
+    "received",
+    "receive",
+    "receiveed"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Received."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ the rule.",
+   "options": [
+    "explained",
+    "explain",
+    "explaind"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Explained."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The news ___ me.",
+   "options": [
+    "surprised",
+    "surprise",
+    "surpriseed"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Surprised."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке explain?"
+   },
+   "options": {
+    "uk": [
+     "пояснювати",
+     "доставляти",
+     "отримувати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Explain — пояснювати."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вони доставили коробку."
+   },
+   "words": [
+    "They",
+    "delivered",
+    "the",
+    "box",
+    "deliver",
+    "did"
+   ],
+   "answer": [
+    "They",
+    "delivered",
+    "the",
+    "box"
+   ],
+   "explanation": {
+    "uk": "They delivered the box."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Новина здивувала мене."
+   },
+   "answers": [
+    "The news surprised me"
+   ],
+   "explanation": {
+    "uk": "The news surprised me."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What did you receive?",
+   "prompt": {
+    "uk": "Листа. Що відповісти?"
+   },
+   "options": [
+    "I received a letter.",
+    "I did receive letter.",
+    "I receive a letter yesterday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I received a letter."
+   }
+  }
+ ]
+}

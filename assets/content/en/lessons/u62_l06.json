@@ -1,0 +1,288 @@
+{
+ "id": "u62_l06",
+ "unit": "u62",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: плани на вихідні"
+ },
+ "goal": {
+  "uk": "Закріпити розмову про плани."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: be going to + дієслово для планів (I'm going to visit…, Are you going to come?); слова: intend, hope, decide, arrange, reserve, organise, accept, refuse; події (festival, exhibition, hike, trip); час (this weekend, next weekend, bank holiday); упевненість (definitely, perhaps, surely, promise)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Are you going to come?",
+   "prompt": {
+    "uk": "Повторимо. Точно прийду. Що відповісти?"
+   },
+   "options": [
+    "Yes, I'm definitely going to come.",
+    "Yes, I definitely come.",
+    "Yes, I am going definitely come."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I'm definitely going to come."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "We're going to a festival next weekend.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони збираються зробити?"
+   },
+   "options": {
+    "uk": [
+     "Піти на фестиваль наступними вихідними",
+     "Піти на виставку цими вихідними",
+     "Поїхати в похід"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Festival, next weekend."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'm going to take a day off, and I promise to call.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Візьме вихідний і обіцяє зателефонувати",
+     "Піде на роботу й напише",
+     "Поїде у відпустку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Day off, promise."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Perhaps we will go on a hike.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Можливо, підемо в похід",
+     "Точно підемо в похід",
+     "Не підемо в похід"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Perhaps."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm going ___ visit my aunt.",
+   "options": [
+    "to",
+    "for",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Going to."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We're going ___ reserve a table.",
+   "options": [
+    "to",
+    "reserve",
+    "for"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Going to reserve."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm looking ___ to the trip.",
+   "options": [
+    "forward",
+    "front",
+    "next"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Look forward to."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка конструкція для плану?"
+   },
+   "options": {
+    "uk": [
+     "be going to + дієслово",
+     "did + дієслово",
+     "have + -ed"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Be going to."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми збираємося забронювати столик."
+   },
+   "words": [
+    "We're",
+    "going",
+    "to",
+    "reserve",
+    "a",
+    "table",
+    "are",
+    "reserving"
+   ],
+   "answer": [
+    "We're",
+    "going",
+    "to",
+    "reserve",
+    "a",
+    "table"
+   ],
+   "explanation": {
+    "uk": "We're going to reserve a table."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я йду в похід."
+   },
+   "answers": [
+    "I'm going on a hike"
+   ],
+   "explanation": {
+    "uk": "I'm going on a hike."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What are you going to do next weekend?",
+   "prompt": {
+    "uk": "Піду в похід. Що відповісти?"
+   },
+   "options": [
+    "I'm going to go on a hike.",
+    "I go on hike next weekend.",
+    "I am going go hike."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm going to go on a hike."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви збираєтеся в похід."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "What are you doing this weekend?",
+   "options": [
+    "I'm going to go on a hike.",
+    "I go on hike this weekend.",
+    "I am going hike."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Заплановане — be going to."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви ще не впевнені."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Are you going to take a day off on Monday?",
+   "options": [
+    "Perhaps. I'm not sure yet.",
+    "Maybe. I decide not yet.",
+    "Perhaps, not sure I am."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Perhaps — «можливо»; I'm not sure yet — «ще не впевнений»."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви прийдете точно."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Are you coming to my party?",
+   "options": [
+    "Yes, I'm definitely going to come!",
+    "Yes, I definitely come.",
+    "Yes, I am going definitely."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Definitely — «безперечно»; I'm going to come."
+   }
+  }
+ ]
+}

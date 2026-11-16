@@ -1,0 +1,322 @@
+{
+ "id": "u64_l02",
+ "unit": "u64",
+ "cefr": "A1",
+ "title": {
+  "uk": "Правильні дієслова: -ed"
+ },
+ "goal": {
+  "uk": "Утворити минулий час правильних дієслів."
+ },
+ "rule": {
+  "uk": "У ствердженні до дієслова додаємо -ed: enjoy → enjoyed, travel → travelled. Після -e — лише -d: like → liked. Приголосна + y → -ied: try → tried. Приклад: I enjoyed the trip. We travelled by train. She tried the soup."
+ },
+ "words": [
+  {
+   "id": "enjoy",
+   "text": "enjoy",
+   "ipa": "/ɪnˈdʒɔɪ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "насолоджуватися"
+   },
+   "example": "I enjoyed the trip.",
+   "exampleTranslation": {
+    "uk": "Мені сподобалась поїздка."
+   }
+  },
+  {
+   "id": "travel",
+   "text": "travel",
+   "ipa": "/ˈtrævl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "подорожувати"
+   },
+   "example": "We travelled by train.",
+   "exampleTranslation": {
+    "uk": "Ми подорожували потягом."
+   }
+  },
+  {
+   "id": "try",
+   "text": "try",
+   "ipa": "/traɪ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "пробувати, намагатися"
+   },
+   "example": "She tried the soup.",
+   "exampleTranslation": {
+    "uk": "Вона спробувала суп."
+   }
+  },
+  {
+   "id": "thank",
+   "text": "thank",
+   "ipa": "/θæŋk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "дякувати"
+   },
+   "example": "He thanked us.",
+   "exampleTranslation": {
+    "uk": "Він подякував нам."
+   }
+  },
+  {
+   "id": "discover",
+   "text": "discover",
+   "ipa": "/dɪˈskʌvə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "відкривати, дізнаватися"
+   },
+   "example": "We discovered a nice cafe.",
+   "exampleTranslation": {
+    "uk": "Ми відкрили для себе гарне кафе."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Did you call him?",
+   "prompt": {
+    "uk": "Повторимо. Так, телефонував. Що відповісти?"
+   },
+   "options": [
+    "Yes, I did.",
+    "Yes, I called.",
+    "Yes, I done."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I did."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "enjoy",
+     "right": {
+      "uk": "насолоджуватися"
+     }
+    },
+    {
+     "left": "travel",
+     "right": {
+      "uk": "подорожувати"
+     }
+    },
+    {
+     "left": "try",
+     "right": {
+      "uk": "пробувати, намагатися"
+     }
+    },
+    {
+     "left": "thank",
+     "right": {
+      "uk": "дякувати"
+     }
+    },
+    {
+     "left": "discover",
+     "right": {
+      "uk": "відкривати, дізнаватися"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I enjoyed the trip.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Їй сподобалась поїздка",
+     "Вона не поїхала",
+     "Вона втомилася"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Enjoyed."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We travelled by train.",
+   "prompt": {
+    "uk": "Прослухайте. Чим вони їхали?"
+   },
+   "options": {
+    "uk": [
+     "Потягом",
+     "Автобусом",
+     "Літаком"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Train."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "She tried the soup.",
+   "prompt": {
+    "uk": "Прослухайте. Що вона зробила?"
+   },
+   "options": {
+    "uk": [
+     "Спробувала суп",
+     "Приготувала суп",
+     "Купила суп"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tried."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ the trip.",
+   "options": [
+    "enjoyed",
+    "enjoy",
+    "enjoies"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Enjoyed."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ by train.",
+   "options": [
+    "travelled",
+    "travel",
+    "travelling"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Travelled."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ the soup.",
+   "options": [
+    "tried",
+    "tryed",
+    "try"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Приголосна + y → -ied."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від like?"
+   },
+   "options": {
+    "uk": [
+     "liked",
+     "likeed",
+     "likd"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Після -e — лише -d."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Нам сподобалась поїздка."
+   },
+   "words": [
+    "We",
+    "enjoyed",
+    "the",
+    "trip",
+    "enjoy",
+    "did"
+   ],
+   "answer": [
+    "We",
+    "enjoyed",
+    "the",
+    "trip"
+   ],
+   "explanation": {
+    "uk": "We enjoyed the trip."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона спробувала суп."
+   },
+   "answers": [
+    "She tried the soup"
+   ],
+   "explanation": {
+    "uk": "She tried the soup."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How did you travel?",
+   "prompt": {
+    "uk": "Потягом. Що відповісти?"
+   },
+   "options": [
+    "We travelled by train.",
+    "We did travel in train.",
+    "We travelling by train."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We travelled by train."
+   }
+  }
+ ]
+}

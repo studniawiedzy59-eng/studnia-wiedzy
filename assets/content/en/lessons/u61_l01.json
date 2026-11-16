@@ -1,0 +1,323 @@
+{
+ "id": "u61_l01",
+ "unit": "u61",
+ "cefr": "A1",
+ "title": {
+  "uk": "Зараз чи взагалі?"
+ },
+ "goal": {
+  "uk": "Розрізняти те, що відбувається зараз, і те, що буває завжди."
+ },
+ "rule": {
+  "uk": "Present Simple — звичка: I work in a bank (взагалі). Present Continuous — те, що відбувається зараз: I'm working now. Позначки часу: right now — просто зараз, currently і at present — на цей час, nowadays — нині, while — у той час як. Приклад: I'm cooking while he's reading."
+ },
+ "words": [
+  {
+   "id": "right_now",
+   "text": "right now",
+   "ipa": "/ˌraɪt ˈnaʊ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "просто зараз"
+   },
+   "example": "I'm busy right now.",
+   "exampleTranslation": {
+    "uk": "Я зараз зайнятий."
+   }
+  },
+  {
+   "id": "currently",
+   "text": "currently",
+   "ipa": "/ˈkʌrəntli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "на цей час"
+   },
+   "example": "I'm currently studying English.",
+   "exampleTranslation": {
+    "uk": "Зараз я вивчаю англійську."
+   }
+  },
+  {
+   "id": "nowadays",
+   "text": "nowadays",
+   "ipa": "/ˈnaʊədeɪz/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "нині"
+   },
+   "example": "Nowadays I walk to work.",
+   "exampleTranslation": {
+    "uk": "Нині я ходжу на роботу пішки."
+   }
+  },
+  {
+   "id": "at_present",
+   "text": "at present",
+   "ipa": "/ət ˈpreznt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "наразі"
+   },
+   "example": "She's at present on holiday.",
+   "exampleTranslation": {
+    "uk": "Наразі вона у відпустці."
+   }
+  },
+  {
+   "id": "while",
+   "text": "while",
+   "ipa": "/waɪl/",
+   "pos": "conjunction",
+   "translation": {
+    "uk": "у той час як"
+   },
+   "example": "I read while he cooks.",
+   "exampleTranslation": {
+    "uk": "Я читаю, поки він готує."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How do I get to the castle?",
+   "prompt": {
+    "uk": "Повторимо. Прямо до розв'язки. Що відповісти?"
+   },
+   "options": [
+    "Go straight to the roundabout.",
+    "Go straight until roundabout to.",
+    "Straight go roundabout at."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go straight to the roundabout."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "right now",
+     "right": {
+      "uk": "просто зараз"
+     }
+    },
+    {
+     "left": "currently",
+     "right": {
+      "uk": "на цей час"
+     }
+    },
+    {
+     "left": "nowadays",
+     "right": {
+      "uk": "нині"
+     }
+    },
+    {
+     "left": "at present",
+     "right": {
+      "uk": "наразі"
+     }
+    },
+    {
+     "left": "while",
+     "right": {
+      "uk": "у той час як"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'm busy right now.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона зараз зайнята",
+     "Вона завжди зайнята",
+     "Вона була зайнята"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Right now."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'm currently studying English.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина зараз?"
+   },
+   "options": {
+    "uk": [
+     "Вивчає англійську",
+     "Викладає англійську",
+     "Забула англійську"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Studying."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I read while he cooks.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Читає, поки він готує",
+     "Готує, поки він читає",
+     "Читає, коли він спить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "While."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm busy ___.",
+   "options": [
+    "right now",
+    "every day",
+    "always"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Right now — зараз."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ I walk to work.",
+   "options": [
+    "Nowadays",
+    "Right now",
+    "While"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Nowadays — нині."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I read ___ he cooks.",
+   "options": [
+    "while",
+    "right",
+    "now"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "While — у той час як."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає nowadays?"
+   },
+   "options": {
+    "uk": [
+     "нині",
+     "просто зараз",
+     "завжди"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nowadays — нині."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я зараз зайнятий."
+   },
+   "words": [
+    "I'm",
+    "busy",
+    "right",
+    "now",
+    "always",
+    "am"
+   ],
+   "answer": [
+    "I'm",
+    "busy",
+    "right",
+    "now"
+   ],
+   "explanation": {
+    "uk": "I'm busy right now."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Зараз я вивчаю англійську."
+   },
+   "answers": [
+    "I'm currently studying English",
+    "I am currently studying English"
+   ],
+   "explanation": {
+    "uk": "I'm currently studying English."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What are you doing right now?",
+   "prompt": {
+    "uk": "Вивчаю англійську. Що відповісти?"
+   },
+   "options": [
+    "I'm studying English.",
+    "I study English right now.",
+    "I am study English."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm studying English."
+   }
+  }
+ ]
+}

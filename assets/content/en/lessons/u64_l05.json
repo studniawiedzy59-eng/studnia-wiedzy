@@ -1,0 +1,324 @@
+{
+ "id": "u64_l05",
+ "unit": "u64",
+ "cefr": "A1",
+ "title": {
+  "uk": "Розповідь"
+ },
+ "goal": {
+  "uk": "Скласти коротку розповідь."
+ },
+ "rule": {
+  "uk": "Story — історія, moment — мить, life — життя, future — майбутнє, wish — бажати, мріяти. Приклад: It was an interesting story. At that moment, I wished to go home. A good story: First, then, finally."
+ },
+ "words": [
+  {
+   "id": "story",
+   "text": "story",
+   "ipa": "/ˈstɔːri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "історія"
+   },
+   "example": "It was an interesting story.",
+   "exampleTranslation": {
+    "uk": "Це була цікава історія."
+   }
+  },
+  {
+   "id": "moment",
+   "text": "moment",
+   "ipa": "/ˈməʊmənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мить"
+   },
+   "example": "At that moment the phone rang.",
+   "exampleTranslation": {
+    "uk": "У ту мить задзвонив телефон."
+   }
+  },
+  {
+   "id": "life",
+   "text": "life",
+   "ipa": "/laɪf/",
+   "pos": "noun",
+   "translation": {
+    "uk": "життя"
+   },
+   "example": "It was the best day of my life.",
+   "exampleTranslation": {
+    "uk": "Це був найкращий день у моєму житті."
+   }
+  },
+  {
+   "id": "future",
+   "text": "future",
+   "ipa": "/ˈfjuːtʃə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "майбутнє"
+   },
+   "example": "I think about the future.",
+   "exampleTranslation": {
+    "uk": "Я думаю про майбутнє."
+   }
+  },
+  {
+   "id": "wish",
+   "text": "wish",
+   "ipa": "/wɪʃ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "бажати"
+   },
+   "example": "I wished him good luck.",
+   "exampleTranslation": {
+    "uk": "Я побажав йому успіху."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What happened?",
+   "prompt": {
+    "uk": "Повторимо. Я впустила телефон. Що відповісти?"
+   },
+   "options": [
+    "I dropped my phone.",
+    "I did drop phone.",
+    "I drop my phone."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I dropped my phone."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "story",
+     "right": {
+      "uk": "історія"
+     }
+    },
+    {
+     "left": "moment",
+     "right": {
+      "uk": "мить"
+     }
+    },
+    {
+     "left": "life",
+     "right": {
+      "uk": "життя"
+     }
+    },
+    {
+     "left": "future",
+     "right": {
+      "uk": "майбутнє"
+     }
+    },
+    {
+     "left": "wish",
+     "right": {
+      "uk": "бажати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It was an interesting story.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це була цікава історія",
+     "Це була нудна історія",
+     "Це була коротка історія"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Story."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "At that moment the phone rang.",
+   "prompt": {
+    "uk": "Прослухайте. Що сталося в ту мить?"
+   },
+   "options": {
+    "uk": [
+     "Задзвонив телефон",
+     "Почався дощ",
+     "Вимкнулося світло"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Moment."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It was the best day of my life.",
+   "prompt": {
+    "uk": "Прослухайте. Яким був день?"
+   },
+   "options": {
+    "uk": [
+     "Найкращим у житті",
+     "Найгіршим у житті",
+     "Звичайним"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Life."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It was an interesting ___.",
+   "options": [
+    "story",
+    "future",
+    "moment"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Історія."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "At that ___ the phone rang.",
+   "options": [
+    "moment",
+    "life",
+    "wish"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Мить."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It was the best day of my ___.",
+   "options": [
+    "life",
+    "future",
+    "story"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Життя."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке moment?"
+   },
+   "options": {
+    "uk": [
+     "мить",
+     "життя",
+     "майбутнє"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Moment — мить."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це була цікава історія."
+   },
+   "words": [
+    "It",
+    "was",
+    "an",
+    "interesting",
+    "story",
+    "were",
+    "moment"
+   ],
+   "answer": [
+    "It",
+    "was",
+    "an",
+    "interesting",
+    "story"
+   ],
+   "explanation": {
+    "uk": "It was an interesting story."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У ту мить задзвонив телефон."
+   },
+   "answers": [
+    "At that moment the phone rang"
+   ],
+   "explanation": {
+    "uk": "At that moment the phone rang."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Tell me a story.",
+   "prompt": {
+    "uk": "Це була цікава історія. Що відповісти?"
+   },
+   "options": [
+    "It was an interesting story.",
+    "It were interesting story.",
+    "It was a interesting story."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It was an interesting story."
+   }
+  }
+ ]
+}

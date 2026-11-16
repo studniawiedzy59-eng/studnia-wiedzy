@@ -1,0 +1,324 @@
+{
+ "id": "u62_l03",
+ "unit": "u62",
+ "cefr": "A1",
+ "title": {
+  "uk": "Події на вихідні"
+ },
+ "goal": {
+  "uk": "Назвати розваги на вихідні."
+ },
+ "rule": {
+  "uk": "Festival — фестиваль, exhibition — виставка, excursion — екскурсія, hike — похід (пішки), trip — поїздка. Приклад: We're going to a festival. I'm going on a hike. They are going on a trip."
+ },
+ "words": [
+  {
+   "id": "festival",
+   "text": "festival",
+   "ipa": "/ˈfestɪvl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "фестиваль"
+   },
+   "example": "We're going to a music festival.",
+   "exampleTranslation": {
+    "uk": "Ми йдемо на музичний фестиваль."
+   }
+  },
+  {
+   "id": "exhibition",
+   "text": "exhibition",
+   "ipa": "/ˌeksɪˈbɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "виставка"
+   },
+   "example": "The exhibition opens on Saturday.",
+   "exampleTranslation": {
+    "uk": "Виставка відкривається в суботу."
+   }
+  },
+  {
+   "id": "excursion",
+   "text": "excursion",
+   "ipa": "/ɪkˈskɜːʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "екскурсія"
+   },
+   "example": "We're going on an excursion.",
+   "exampleTranslation": {
+    "uk": "Ми їдемо на екскурсію."
+   }
+  },
+  {
+   "id": "hike",
+   "text": "hike",
+   "ipa": "/haɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "піший похід"
+   },
+   "example": "I'm going on a hike.",
+   "exampleTranslation": {
+    "uk": "Я йду в похід."
+   }
+  },
+  {
+   "id": "trip",
+   "text": "trip",
+   "ipa": "/trɪp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "поїздка"
+   },
+   "example": "It's a short trip.",
+   "exampleTranslation": {
+    "uk": "Це коротка поїздка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is she going to do?",
+   "prompt": {
+    "uk": "Повторимо. Організує вечірку. Що відповісти?"
+   },
+   "options": [
+    "She is going to organise a party.",
+    "She going to organise party.",
+    "She is go to organise a party."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She is going to organise a party."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "festival",
+     "right": {
+      "uk": "фестиваль"
+     }
+    },
+    {
+     "left": "exhibition",
+     "right": {
+      "uk": "виставка"
+     }
+    },
+    {
+     "left": "excursion",
+     "right": {
+      "uk": "екскурсія"
+     }
+    },
+    {
+     "left": "hike",
+     "right": {
+      "uk": "піший похід"
+     }
+    },
+    {
+     "left": "trip",
+     "right": {
+      "uk": "поїздка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "We're going to a music festival.",
+   "prompt": {
+    "uk": "Прослухайте. Куди вони йдуть?"
+   },
+   "options": {
+    "uk": [
+     "На музичний фестиваль",
+     "На виставку",
+     "На екскурсію"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Festival."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The exhibition opens on Saturday.",
+   "prompt": {
+    "uk": "Прослухайте. Коли відкривається виставка?"
+   },
+   "options": {
+    "uk": [
+     "У суботу",
+     "У неділю",
+     "У п'ятницю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Saturday."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I'm going on a hike.",
+   "prompt": {
+    "uk": "Прослухайте. Що збирається зробити людина?"
+   },
+   "options": {
+    "uk": [
+     "Піти в похід",
+     "Поїхати на екскурсію",
+     "Піти на фестиваль"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hike."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We're going to a music ___.",
+   "options": [
+    "festival",
+    "hike",
+    "trip"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Фестиваль."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ opens on Saturday.",
+   "options": [
+    "exhibition",
+    "hike",
+    "excursion"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Виставка."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm going on a ___.",
+   "options": [
+    "hike",
+    "festival",
+    "exhibition"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Похід."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке excursion?"
+   },
+   "options": {
+    "uk": [
+     "екскурсія",
+     "виставка",
+     "похід"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Excursion — екскурсія."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я йду в похід."
+   },
+   "words": [
+    "I'm",
+    "going",
+    "on",
+    "a",
+    "hike",
+    "to",
+    "festival"
+   ],
+   "answer": [
+    "I'm",
+    "going",
+    "on",
+    "a",
+    "hike"
+   ],
+   "explanation": {
+    "uk": "I'm going on a hike."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це коротка поїздка."
+   },
+   "answers": [
+    "It's a short trip"
+   ],
+   "explanation": {
+    "uk": "It's a short trip."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What are you doing this weekend?",
+   "prompt": {
+    "uk": "Іду на фестиваль. Що відповісти?"
+   },
+   "options": [
+    "I'm going to a festival.",
+    "I go at festival.",
+    "I am going on festival."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm going to a festival."
+   }
+  }
+ ]
+}

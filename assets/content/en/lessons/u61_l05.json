@@ -1,0 +1,322 @@
+{
+ "id": "u61_l05",
+ "unit": "u61",
+ "cefr": "A1",
+ "title": {
+  "uk": "Що зараз у житті"
+ },
+ "goal": {
+  "uk": "Розповісти, чим зайняті інші люди."
+ },
+ "rule": {
+  "uk": "Stuck — застряглий, suddenly — раптом, in a meeting — на нараді, on holiday — у відпустці, on the phone — розмовляє по телефону. Приклад: He's in a meeting. She is on the phone. We are stuck in traffic."
+ },
+ "words": [
+  {
+   "id": "stuck",
+   "text": "stuck",
+   "ipa": "/stʌk/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "застряглий"
+   },
+   "example": "We are stuck in traffic.",
+   "exampleTranslation": {
+    "uk": "Ми застрягли в заторі."
+   }
+  },
+  {
+   "id": "suddenly",
+   "text": "suddenly",
+   "ipa": "/ˈsʌdnli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "раптом"
+   },
+   "example": "Suddenly it starts to rain.",
+   "exampleTranslation": {
+    "uk": "Раптом починається дощ."
+   }
+  },
+  {
+   "id": "in_a_meeting",
+   "text": "in a meeting",
+   "ipa": "/ɪn ə ˈmiːtɪŋ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "на нараді"
+   },
+   "example": "He's in a meeting.",
+   "exampleTranslation": {
+    "uk": "Він на нараді."
+   }
+  },
+  {
+   "id": "on_holiday",
+   "text": "on holiday",
+   "ipa": "/ɒn ˈhɒlədeɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "у відпустці"
+   },
+   "example": "She's on holiday.",
+   "exampleTranslation": {
+    "uk": "Вона у відпустці."
+   }
+  },
+  {
+   "id": "on_the_phone",
+   "text": "on the phone",
+   "ipa": "/ɒn ðə ˈfəʊn/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "по телефону"
+   },
+   "example": "She is on the phone.",
+   "exampleTranslation": {
+    "uk": "Вона розмовляє по телефону."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What are you doing?",
+   "prompt": {
+    "uk": "Повторимо. Слухаю музику. Що відповісти?"
+   },
+   "options": [
+    "I'm listening to music.",
+    "I listen to music now.",
+    "I am listen music."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm listening to music."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "stuck",
+     "right": {
+      "uk": "застряглий"
+     }
+    },
+    {
+     "left": "suddenly",
+     "right": {
+      "uk": "раптом"
+     }
+    },
+    {
+     "left": "in a meeting",
+     "right": {
+      "uk": "на нараді"
+     }
+    },
+    {
+     "left": "on holiday",
+     "right": {
+      "uk": "у відпустці"
+     }
+    },
+    {
+     "left": "on the phone",
+     "right": {
+      "uk": "по телефону"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "We are stuck in traffic.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Ми застрягли в заторі",
+     "Ми їдемо швидко",
+     "Ми вже вдома"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Stuck."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He's in a meeting.",
+   "prompt": {
+    "uk": "Прослухайте. Де він?"
+   },
+   "options": {
+    "uk": [
+     "На нараді",
+     "У відпустці",
+     "Удома"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Meeting."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "She's on holiday.",
+   "prompt": {
+    "uk": "Прослухайте. Де вона?"
+   },
+   "options": {
+    "uk": [
+     "У відпустці",
+     "На роботі",
+     "Удома"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On holiday."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We are ___ in traffic.",
+   "options": [
+    "stuck",
+    "stick",
+    "sticking"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Stuck."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He's ___ a meeting.",
+   "options": [
+    "in",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In a meeting."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She is ___ the phone.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On the phone."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає on holiday?"
+   },
+   "options": {
+    "uk": [
+     "у відпустці",
+     "на роботі",
+     "на нараді"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On holiday — у відпустці."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він на нараді."
+   },
+   "words": [
+    "He's",
+    "in",
+    "a",
+    "meeting",
+    "on",
+    "stuck"
+   ],
+   "answer": [
+    "He's",
+    "in",
+    "a",
+    "meeting"
+   ],
+   "explanation": {
+    "uk": "He's in a meeting."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона розмовляє по телефону."
+   },
+   "answers": [
+    "She is on the phone"
+   ],
+   "explanation": {
+    "uk": "She is on the phone."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where is Anna?",
+   "prompt": {
+    "uk": "У відпустці. Що відповісти?"
+   },
+   "options": [
+    "She's on holiday.",
+    "She is in holiday.",
+    "She on holiday is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She's on holiday."
+   }
+  }
+ ]
+}

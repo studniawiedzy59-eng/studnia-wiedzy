@@ -1,0 +1,322 @@
+{
+ "id": "u63_l05",
+ "unit": "u63",
+ "cefr": "A1",
+ "title": {
+  "uk": "Історія"
+ },
+ "goal": {
+  "uk": "Говорити про давні часи."
+ },
+ "rule": {
+  "uk": "Century — століття, decade — десятиліття, generation — покоління, ancestor — предок, ancient — давній. Приклад: This castle is from the twelfth century. My ancestors were farmers. Ancient Rome was big."
+ },
+ "words": [
+  {
+   "id": "century",
+   "text": "century",
+   "ipa": "/ˈsentʃəri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "століття"
+   },
+   "example": "The castle is from the twelfth century.",
+   "exampleTranslation": {
+    "uk": "Замок із дванадцятого століття."
+   }
+  },
+  {
+   "id": "decade",
+   "text": "decade",
+   "ipa": "/ˈdekeɪd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "десятиліття"
+   },
+   "example": "It was a decade ago.",
+   "exampleTranslation": {
+    "uk": "Це було десять років тому."
+   }
+  },
+  {
+   "id": "generation",
+   "text": "generation",
+   "ipa": "/ˌdʒenəˈreɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "покоління"
+   },
+   "example": "Three generations live here.",
+   "exampleTranslation": {
+    "uk": "Тут живуть три покоління."
+   }
+  },
+  {
+   "id": "ancestor",
+   "text": "ancestor",
+   "ipa": "/ˈænsestə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "предок"
+   },
+   "example": "My ancestors were farmers.",
+   "exampleTranslation": {
+    "uk": "Мої предки були фермерами."
+   }
+  },
+  {
+   "id": "ancient",
+   "text": "ancient",
+   "ipa": "/ˈeɪnʃənt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "давній"
+   },
+   "example": "Ancient Rome was big.",
+   "exampleTranslation": {
+    "uk": "Стародавній Рим був великим."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How was the trip?",
+   "prompt": {
+    "uk": "Повторимо. Чудова пригода. Що відповісти?"
+   },
+   "options": [
+    "It was a great adventure.",
+    "It were a great adventure.",
+    "It was great adventures."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It was a great adventure."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "century",
+     "right": {
+      "uk": "століття"
+     }
+    },
+    {
+     "left": "decade",
+     "right": {
+      "uk": "десятиліття"
+     }
+    },
+    {
+     "left": "generation",
+     "right": {
+      "uk": "покоління"
+     }
+    },
+    {
+     "left": "ancestor",
+     "right": {
+      "uk": "предок"
+     }
+    },
+    {
+     "left": "ancient",
+     "right": {
+      "uk": "давній"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The castle is from the twelfth century.",
+   "prompt": {
+    "uk": "Прослухайте. З якого століття замок?"
+   },
+   "options": {
+    "uk": [
+     "З дванадцятого",
+     "З десятого",
+     "З двадцятого"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twelfth."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "My ancestors were farmers.",
+   "prompt": {
+    "uk": "Прослухайте. Ким були предки?"
+   },
+   "options": {
+    "uk": [
+     "Фермерами",
+     "Лікарями",
+     "Вчителями"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Farmers."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Ancient Rome was big.",
+   "prompt": {
+    "uk": "Прослухайте. Яким був Рим?"
+   },
+   "options": {
+    "uk": [
+     "Великим",
+     "Маленьким",
+     "Новим"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Big."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The castle is from the twelfth ___.",
+   "options": [
+    "century",
+    "decade",
+    "generation"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Століття."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ were farmers.",
+   "options": [
+    "ancestors",
+    "generation",
+    "decade"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Предки."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ Rome was big.",
+   "options": [
+    "Ancient",
+    "Century",
+    "Event"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Давній."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке decade?"
+   },
+   "options": {
+    "uk": [
+     "десятиліття",
+     "століття",
+     "покоління"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Decade — десятиліття."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мої предки були фермерами."
+   },
+   "words": [
+    "My",
+    "ancestors",
+    "were",
+    "farmers",
+    "was",
+    "century"
+   ],
+   "answer": [
+    "My",
+    "ancestors",
+    "were",
+    "farmers"
+   ],
+   "explanation": {
+    "uk": "My ancestors were farmers."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це було десять років тому."
+   },
+   "answers": [
+    "It was a decade ago"
+   ],
+   "explanation": {
+    "uk": "It was a decade ago."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Who were your ancestors?",
+   "prompt": {
+    "uk": "Фермери. Що відповісти?"
+   },
+   "options": [
+    "They were farmers.",
+    "They was farmers.",
+    "Farmers they were."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "They were farmers."
+   }
+  }
+ ]
+}
