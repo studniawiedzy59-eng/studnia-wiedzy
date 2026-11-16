@@ -76,6 +76,13 @@ class ProfileTab extends ConsumerWidget {
           onPressed: () => _confirmReset(context, ref),
           child: const Text('Скинути прогрес'),
         ),
+        const SizedBox(height: 8),
+        const Center(
+          child: Text(
+            'Версія збірки: ${String.fromEnvironment('BUILD', defaultValue: 'локальна')}',
+            style: TextStyle(fontSize: 13, fontWeight: FontWeight.w700, color: AppColors.muted),
+          ),
+        ),
       ],
     );
   }

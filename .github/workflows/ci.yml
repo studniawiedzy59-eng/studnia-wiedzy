@@ -42,7 +42,10 @@ jobs:
       - run: flutter pub get
       - run: flutter analyze --no-fatal-infos
       - run: flutter test
-      - run: flutter build apk --debug
+      # Test builds are signed with the same test key every time, so a new
+      # build installs over the previous one. Never used for release builds.
+      - run: mkdir -p ~/.android && cp tools/debug.keystore ~/.android/debug.keystore
+      - run: flutter build apk --debug --build-number=${{ github.run_number }} --dart-define=BUILD=${{ github.run_number }}
 
       - uses: actions/upload-artifact@v4
         with:
