@@ -5,6 +5,7 @@ import '../../core/theme.dart';
 import '../../domain/models.dart';
 import '../../state/providers.dart';
 import '../lesson/lesson_screen.dart';
+import '../my_words/word_editor.dart';
 import '../path/path_screen.dart';
 import '../profile/profile_screen.dart';
 import '../words/words_screen.dart';
@@ -34,6 +35,14 @@ class _RootScreenState extends State<RootScreen> {
           ],
         ),
       ),
+      floatingActionButton: (_index == 0 || _index == 2)
+          ? FloatingActionButton.extended(
+              tooltip: 'Додати слово до мого словника',
+              onPressed: () => showWordEditor(context),
+              icon: const Icon(Icons.add),
+              label: const Text('Слово'),
+            )
+          : null,
       bottomNavigationBar: NavigationBar(
         selectedIndex: _index,
         onDestinationSelected: (value) => setState(() => _index = value),
@@ -81,7 +90,7 @@ class HomeTab extends ConsumerWidget {
     final nextLesson = next;
 
     return ListView(
-      padding: const EdgeInsets.fromLTRB(20, 24, 20, 24),
+      padding: const EdgeInsets.fromLTRB(20, 24, 20, 96),
       children: [
         Row(
           children: [

@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/theme.dart';
 import '../../domain/models.dart';
 import '../../state/providers.dart';
+import '../my_words/my_words_screen.dart';
 
 /// Words of every loaded lesson, keyed the same way as in the saved progress.
 Map<String, Word> indexWords(List<Lesson> lessons) {
@@ -36,11 +37,48 @@ class WordsTab extends ConsumerWidget {
     final known = [for (final key in state.words.keys) if (words.containsKey(key)) key]..sort();
     final due = [for (final key in state.dueWordKeys(now)) if (words.containsKey(key)) key];
 
+    final myWords = ref.watch(myWordsProvider).value ?? const [];
+
     return ListView(
-      padding: const EdgeInsets.fromLTRB(20, 24, 20, 24),
+      padding: const EdgeInsets.fromLTRB(20, 24, 20, 96),
       children: [
         const Text('Словник', style: TextStyle(fontSize: 30, fontWeight: FontWeight.w900)),
         const SizedBox(height: 16),
+        Material(
+          color: AppColors.tint,
+          borderRadius: BorderRadius.circular(24),
+          child: InkWell(
+            borderRadius: BorderRadius.circular(24),
+            onTap: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(builder: (_) => const MyWordsScreen()),
+            ),
+            child: Padding(
+              padding: const EdgeInsets.all(18),
+              child: Row(
+                children: [
+                  const Icon(Icons.bookmark_add, color: AppColors.accentDark),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Text('Мій словник', style: TextStyle(fontSize: 19, fontWeight: FontWeight.w900)),
+                        Text(
+                          myWords.isEmpty ? 'Додавайте власні слова кнопкою «+»' : 'Власних слів: ${myWords.length}',
+                          style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w700, color: AppColors.muted),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const Icon(Icons.chevron_right, color: AppColors.accentDark),
+                ],
+              ),
+            ),
+          ),
+        ),
+        const SizedBox(height: 16),
+        const Text('Слова з уроків', style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900)),
+        const SizedBox(height: 8),
         if (known.isEmpty)
           const AppCard(
             child: Text(
