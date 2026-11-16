@@ -1,0 +1,322 @@
+{
+ "id": "u54_l02",
+ "unit": "u54",
+ "cefr": "A1",
+ "title": {
+  "uk": "Відділи"
+ },
+ "goal": {
+  "uk": "Знайти потрібний відділ."
+ },
+ "rule": {
+  "uk": "Bakery — відділ хліба й випічки, butcher — м'ясний відділ або м'ясник, dairy — молочні продукти, pack — упаковка, self-service — самообслуговування. Dairy section — відділ молочного. A pack of tea — пачка чаю."
+ },
+ "words": [
+  {
+   "id": "bakery",
+   "text": "bakery",
+   "ipa": "/ˈbeɪkəri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пекарня, хлібний відділ"
+   },
+   "example": "Fresh bread is in the bakery.",
+   "exampleTranslation": {
+    "uk": "Свіжий хліб у пекарні."
+   }
+  },
+  {
+   "id": "butcher",
+   "text": "butcher",
+   "ipa": "/ˈbʊtʃə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "м'ясник, м'ясний відділ"
+   },
+   "example": "The butcher sells beef.",
+   "exampleTranslation": {
+    "uk": "М'ясник продає яловичину."
+   }
+  },
+  {
+   "id": "dairy",
+   "text": "dairy",
+   "ipa": "/ˈdeəri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "молочні продукти"
+   },
+   "example": "Cheese is in the dairy section.",
+   "exampleTranslation": {
+    "uk": "Сир у відділі молочного."
+   }
+  },
+  {
+   "id": "pack",
+   "text": "pack",
+   "ipa": "/pæk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "упаковка"
+   },
+   "example": "A pack of tea.",
+   "exampleTranslation": {
+    "uk": "Пачка чаю."
+   }
+  },
+  {
+   "id": "self-service",
+   "text": "self-service",
+   "ipa": "/ˌself ˈsɜːvɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "самообслуговування"
+   },
+   "example": "There is a self-service checkout.",
+   "exampleTranslation": {
+    "uk": "Є каса самообслуговування."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where is the milk?",
+   "prompt": {
+    "uk": "Повторимо. П'ятий прохід. Що відповісти?"
+   },
+   "options": [
+    "It's in aisle five.",
+    "It's on aisle five.",
+    "It is aisle in five."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's in aisle five."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "bakery",
+     "right": {
+      "uk": "пекарня, хлібний відділ"
+     }
+    },
+    {
+     "left": "butcher",
+     "right": {
+      "uk": "м'ясник, м'ясний відділ"
+     }
+    },
+    {
+     "left": "dairy",
+     "right": {
+      "uk": "молочні продукти"
+     }
+    },
+    {
+     "left": "pack",
+     "right": {
+      "uk": "упаковка"
+     }
+    },
+    {
+     "left": "self-service",
+     "right": {
+      "uk": "самообслуговування"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Fresh bread is in the bakery.",
+   "prompt": {
+    "uk": "Прослухайте. Де свіжий хліб?"
+   },
+   "options": {
+    "uk": [
+     "У пекарні",
+     "У молочному відділі",
+     "В м'ясному"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bakery."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Cheese is in the dairy section.",
+   "prompt": {
+    "uk": "Прослухайте. Де сир?"
+   },
+   "options": {
+    "uk": [
+     "У молочному відділі",
+     "У пекарні",
+     "У м'ясному"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Dairy."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "A pack of tea.",
+   "prompt": {
+    "uk": "Прослухайте. Що це?"
+   },
+   "options": {
+    "uk": [
+     "Пачка чаю",
+     "Літр чаю",
+     "Чашка чаю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "A pack."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Fresh bread is in the ___.",
+   "options": [
+    "bakery",
+    "dairy",
+    "butcher"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Хліб — у bakery."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Cheese is in the ___ section.",
+   "options": [
+    "dairy",
+    "bakery",
+    "pack"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Сир — dairy."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ of tea, please.",
+   "options": [
+    "pack",
+    "aisle",
+    "basket"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Пачка — pack."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке dairy?"
+   },
+   "options": {
+    "uk": [
+     "молочні продукти",
+     "хліб",
+     "м'ясо"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Dairy — молочні продукти."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Пачка чаю."
+   },
+   "words": [
+    "A",
+    "pack",
+    "of",
+    "tea",
+    "dairy",
+    "bakery"
+   ],
+   "answer": [
+    "A",
+    "pack",
+    "of",
+    "tea"
+   ],
+   "explanation": {
+    "uk": "A pack of tea."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Свіжий хліб у пекарні."
+   },
+   "answers": [
+    "Fresh bread is in the bakery"
+   ],
+   "explanation": {
+    "uk": "Fresh bread is in the bakery."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where can I buy bread?",
+   "prompt": {
+    "uk": "У пекарні. Що відповісти?"
+   },
+   "options": [
+    "In the bakery.",
+    "On the bakery.",
+    "At bakery bread."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In the bakery."
+   }
+  }
+ ]
+}

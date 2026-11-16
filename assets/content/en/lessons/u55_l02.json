@@ -1,0 +1,322 @@
+{
+ "id": "u55_l02",
+ "unit": "u55",
+ "cefr": "A1",
+ "title": {
+  "uk": "Валюта"
+ },
+ "goal": {
+  "uk": "Говорити про гроші різних країн."
+ },
+ "rule": {
+  "uk": "Dollar — долар, penny — пенні, currency — валюта, affordable — доступний за ціною, exchange rate — обмінний курс. Приклади: What's the exchange rate? The tickets are affordable."
+ },
+ "words": [
+  {
+   "id": "dollar",
+   "text": "dollar",
+   "ipa": "/ˈdɒlə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "долар"
+   },
+   "example": "It costs ten dollars.",
+   "exampleTranslation": {
+    "uk": "Це коштує десять доларів."
+   }
+  },
+  {
+   "id": "penny",
+   "text": "penny",
+   "ipa": "/ˈpeni/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пенні"
+   },
+   "example": "A penny is a small coin.",
+   "exampleTranslation": {
+    "uk": "Пенні — дрібна монета."
+   }
+  },
+  {
+   "id": "currency",
+   "text": "currency",
+   "ipa": "/ˈkʌrənsi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "валюта"
+   },
+   "example": "What currency do you use?",
+   "exampleTranslation": {
+    "uk": "Якою валютою ви користуєтесь?"
+   }
+  },
+  {
+   "id": "affordable",
+   "text": "affordable",
+   "ipa": "/əˈfɔːdəbl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "доступний за ціною"
+   },
+   "example": "The tickets are affordable.",
+   "exampleTranslation": {
+    "uk": "Квитки доступні за ціною."
+   }
+  },
+  {
+   "id": "exchange_rate",
+   "text": "exchange rate",
+   "ipa": "/ɪksˈtʃeɪndʒ reɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "обмінний курс"
+   },
+   "example": "What's the exchange rate?",
+   "exampleTranslation": {
+    "uk": "Який обмінний курс?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Why don't you buy it?",
+   "prompt": {
+    "uk": "Повторимо. Дорого. Що відповісти?"
+   },
+   "options": [
+    "I can't afford it.",
+    "I can't afford.",
+    "I not afford it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I can't afford it."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "dollar",
+     "right": {
+      "uk": "долар"
+     }
+    },
+    {
+     "left": "penny",
+     "right": {
+      "uk": "пенні"
+     }
+    },
+    {
+     "left": "currency",
+     "right": {
+      "uk": "валюта"
+     }
+    },
+    {
+     "left": "affordable",
+     "right": {
+      "uk": "доступний за ціною"
+     }
+    },
+    {
+     "left": "exchange rate",
+     "right": {
+      "uk": "обмінний курс"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It costs ten dollars.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки це коштує?"
+   },
+   "options": {
+    "uk": [
+     "Десять доларів",
+     "Двадцять доларів",
+     "Десять фунтів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ten dollars."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "What's the exchange rate?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Який обмінний курс",
+     "Де обмінник",
+     "Скільки це коштує"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Exchange rate."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The tickets are affordable.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Квитки доступні за ціною",
+     "Квитки дуже дорогі",
+     "Квитків немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Affordable."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It costs ten ___.",
+   "options": [
+    "dollars",
+    "dollar",
+    "penny"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після числа — множина: dollars."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What ___ do you use?",
+   "options": [
+    "currency",
+    "penny",
+    "rate"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Валюта: currency."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The tickets are ___.",
+   "options": [
+    "affordable",
+    "overpriced",
+    "dollar"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Доступні."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке currency?"
+   },
+   "options": {
+    "uk": [
+     "валюта",
+     "монета",
+     "курс"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Currency — валюта."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Який обмінний курс?"
+   },
+   "words": [
+    "What's",
+    "the",
+    "exchange",
+    "rate",
+    "currency",
+    "dollar"
+   ],
+   "answer": [
+    "What's",
+    "the",
+    "exchange",
+    "rate"
+   ],
+   "explanation": {
+    "uk": "What's the exchange rate?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це коштує десять доларів."
+   },
+   "answers": [
+    "It costs ten dollars"
+   ],
+   "explanation": {
+    "uk": "It costs ten dollars."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is it expensive?",
+   "prompt": {
+    "uk": "Ні, доступно. Що відповісти?"
+   },
+   "options": [
+    "No, it's affordable.",
+    "No, it affordable.",
+    "No, it is afford."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, it's affordable."
+   }
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "id": "u54_l01",
+ "unit": "u54",
+ "cefr": "A1",
+ "title": {
+  "uk": "У магазині"
+ },
+ "goal": {
+  "uk": "Назвати речі й людей у супермаркеті."
+ },
+ "rule": {
+  "uk": "У супермаркеті беремо basket — кошик або trolley — візок. На касі — checkout, там працює cashier — касир. Між полицями — aisle, прохід. Where is the checkout? — Де каса?"
+ },
+ "words": [
+  {
+   "id": "basket",
+   "text": "basket",
+   "ipa": "/ˈbɑːskɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кошик"
+   },
+   "example": "I take a basket.",
+   "exampleTranslation": {
+    "uk": "Я беру кошик."
+   }
+  },
+  {
+   "id": "trolley",
+   "text": "trolley",
+   "ipa": "/ˈtrɒli/",
+   "pos": "noun",
+   "translation": {
+    "uk": "візок"
+   },
+   "example": "The trolley is full.",
+   "exampleTranslation": {
+    "uk": "Візок повний."
+   }
+  },
+  {
+   "id": "checkout",
+   "text": "checkout",
+   "ipa": "/ˈtʃekaʊt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "каса"
+   },
+   "example": "The checkout is over there.",
+   "exampleTranslation": {
+    "uk": "Каса там."
+   }
+  },
+  {
+   "id": "cashier",
+   "text": "cashier",
+   "ipa": "/kæˈʃɪə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "касир"
+   },
+   "example": "The cashier is friendly.",
+   "exampleTranslation": {
+    "uk": "Касир привітний."
+   }
+  },
+  {
+   "id": "aisle",
+   "text": "aisle",
+   "ipa": "/aɪl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "прохід між полицями"
+   },
+   "example": "Milk is in aisle five.",
+   "exampleTranslation": {
+    "uk": "Молоко в п'ятому проході."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What goes into the soup?",
+   "prompt": {
+    "uk": "Повторимо. Гриби. Що відповісти?"
+   },
+   "options": [
+    "Mushrooms and garlic.",
+    "Mushrooms and garlics.",
+    "Mushroom garlic and."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Mushrooms and garlic."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "basket",
+     "right": {
+      "uk": "кошик"
+     }
+    },
+    {
+     "left": "trolley",
+     "right": {
+      "uk": "візок"
+     }
+    },
+    {
+     "left": "checkout",
+     "right": {
+      "uk": "каса"
+     }
+    },
+    {
+     "left": "cashier",
+     "right": {
+      "uk": "касир"
+     }
+    },
+    {
+     "left": "aisle",
+     "right": {
+      "uk": "прохід між полицями"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The checkout is over there.",
+   "prompt": {
+    "uk": "Прослухайте. Де каса?"
+   },
+   "options": {
+    "uk": [
+     "Там",
+     "Тут",
+     "Ліворуч"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Over there."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Milk is in aisle five.",
+   "prompt": {
+    "uk": "Прослухайте. Де молоко?"
+   },
+   "options": {
+    "uk": [
+     "У п'ятому проході",
+     "У третьому проході",
+     "На касі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Aisle five."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The trolley is full.",
+   "prompt": {
+    "uk": "Прослухайте. Що повне?"
+   },
+   "options": {
+    "uk": [
+     "Візок",
+     "Кошик",
+     "Сумка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Trolley."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I take a ___.",
+   "options": [
+    "basket",
+    "aisle",
+    "cashier"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Кошик беруть: basket."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is friendly.",
+   "options": [
+    "cashier",
+    "trolley",
+    "aisle"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Касир."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Where is the ___?",
+   "options": [
+    "checkout",
+    "kettle",
+    "bowl"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Де каса?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке aisle?"
+   },
+   "options": {
+    "uk": [
+     "прохід між полицями",
+     "каса",
+     "візок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Aisle — прохід."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Де каса?"
+   },
+   "words": [
+    "Where",
+    "is",
+    "the",
+    "checkout",
+    "aisle",
+    "are"
+   ],
+   "answer": [
+    "Where",
+    "is",
+    "the",
+    "checkout"
+   ],
+   "explanation": {
+    "uk": "Where is the checkout?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Каса там."
+   },
+   "answers": [
+    "The checkout is over there"
+   ],
+   "explanation": {
+    "uk": "The checkout is over there."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where is the milk?",
+   "prompt": {
+    "uk": "П'ятий прохід. Що відповісти?"
+   },
+   "options": [
+    "It's in aisle five.",
+    "It's on aisle five.",
+    "It is aisle in five."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's in aisle five."
+   }
+  }
+ ]
+}

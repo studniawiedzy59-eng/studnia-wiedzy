@@ -1,0 +1,318 @@
+{
+ "id": "u53_l05",
+ "unit": "u53",
+ "cefr": "A1",
+ "title": {
+  "uk": "Простий рецепт"
+ },
+ "goal": {
+  "uk": "Прочитати й описати простий рецепт."
+ },
+ "rule": {
+  "uk": "Рецепт — це послідовність наказів. Dough — тісто, pancake — млинець, mushroom — гриб, cabbage — капуста, teaspoon — чайна ложка. Приклад: Add a teaspoon of salt. Mix the dough. Fry the pancakes."
+ },
+ "words": [
+  {
+   "id": "dough",
+   "text": "dough",
+   "ipa": "/dəʊ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тісто"
+   },
+   "example": "Mix the dough.",
+   "exampleTranslation": {
+    "uk": "Замісіть тісто."
+   }
+  },
+  {
+   "id": "pancake",
+   "text": "pancake",
+   "ipa": "/ˈpænkeɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "млинець"
+   },
+   "example": "Pancakes with honey.",
+   "exampleTranslation": {
+    "uk": "Млинці з медом."
+   }
+  },
+  {
+   "id": "mushroom",
+   "text": "mushroom",
+   "ipa": "/ˈmʌʃruːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гриб"
+   },
+   "example": "Mushroom soup.",
+   "exampleTranslation": {
+    "uk": "Грибний суп."
+   }
+  },
+  {
+   "id": "cabbage",
+   "text": "cabbage",
+   "ipa": "/ˈkæbɪdʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "капуста"
+   },
+   "example": "I chop the cabbage.",
+   "exampleTranslation": {
+    "uk": "Я нарізаю капусту."
+   }
+  },
+  {
+   "id": "teaspoon",
+   "text": "teaspoon",
+   "ipa": "/ˈtiːspuːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "чайна ложка"
+   },
+   "example": "A teaspoon of sugar.",
+   "exampleTranslation": {
+    "uk": "Чайна ложка цукру."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you like garlic?",
+   "prompt": {
+    "uk": "Повторимо. Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, I do.",
+    "Yes, I like.",
+    "Yes, I am."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I do."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "dough",
+     "right": {
+      "uk": "тісто"
+     }
+    },
+    {
+     "left": "pancake",
+     "right": {
+      "uk": "млинець"
+     }
+    },
+    {
+     "left": "mushroom",
+     "right": {
+      "uk": "гриб"
+     }
+    },
+    {
+     "left": "cabbage",
+     "right": {
+      "uk": "капуста"
+     }
+    },
+    {
+     "left": "teaspoon",
+     "right": {
+      "uk": "чайна ложка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Pancakes with honey.",
+   "prompt": {
+    "uk": "Прослухайте. З чим млинці?"
+   },
+   "options": {
+    "uk": [
+     "З медом",
+     "З цукром",
+     "З сиром"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Honey."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Mushroom soup.",
+   "prompt": {
+    "uk": "Прослухайте. Що за суп?"
+   },
+   "options": {
+    "uk": [
+     "Грибний",
+     "Овочевий",
+     "Курячий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Mushroom."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "A teaspoon of sugar.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки цукру?"
+   },
+   "options": {
+    "uk": [
+     "Чайна ложка",
+     "Склянка",
+     "Шматочок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Teaspoon."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Mix the ___.",
+   "options": [
+    "dough",
+    "teaspoon",
+    "oven"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Тісто місять."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I chop the ___.",
+   "options": [
+    "cabbage",
+    "pancake",
+    "kettle"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Капусту нарізають."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ of sugar, please.",
+   "options": [
+    "teaspoon",
+    "mushroom",
+    "dough"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Чайна ложка цукру."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке pancake?"
+   },
+   "options": {
+    "uk": [
+     "млинець",
+     "гриб",
+     "тісто"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pancake — млинець."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Грибний суп."
+   },
+   "words": [
+    "Mushroom",
+    "soup",
+    "cabbage",
+    "pancake"
+   ],
+   "answer": [
+    "Mushroom",
+    "soup"
+   ],
+   "explanation": {
+    "uk": "Mushroom soup."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Млинці з медом."
+   },
+   "answers": [
+    "Pancakes with honey"
+   ],
+   "explanation": {
+    "uk": "Pancakes with honey."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What goes into the soup?",
+   "prompt": {
+    "uk": "Гриби. Що відповісти?"
+   },
+   "options": [
+    "Mushrooms and garlic.",
+    "Mushrooms and garlics.",
+    "Mushroom garlic and."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Mushrooms and garlic."
+   }
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+ "id": "u53_l04",
+ "unit": "u53",
+ "cefr": "A1",
+ "title": {
+  "uk": "Смак"
+ },
+ "goal": {
+  "uk": "Описати смак і приправи."
+ },
+ "rule": {
+  "uk": "Taste — смак, а також «куштувати»: Taste it! Raw — сирий, salty — солоний. Garlic — часник, honey — мед. Smaки: It tastes sweet — на смак солодке. It tastes salty — солоне."
+ },
+ "words": [
+  {
+   "id": "taste",
+   "text": "taste",
+   "ipa": "/teɪst/",
+   "pos": "verb",
+   "translation": {
+    "uk": "куштувати; мати смак"
+   },
+   "example": "It tastes delicious.",
+   "exampleTranslation": {
+    "uk": "Це дуже смачно."
+   }
+  },
+  {
+   "id": "raw",
+   "text": "raw",
+   "ipa": "/rɔː/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "сирий"
+   },
+   "example": "Raw fish.",
+   "exampleTranslation": {
+    "uk": "Сира риба."
+   }
+  },
+  {
+   "id": "salty",
+   "text": "salty",
+   "ipa": "/ˈsɔːlti/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "солоний"
+   },
+   "example": "The soup is too salty.",
+   "exampleTranslation": {
+    "uk": "Суп надто солоний."
+   }
+  },
+  {
+   "id": "garlic",
+   "text": "garlic",
+   "ipa": "/ˈɡɑːlɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "часник"
+   },
+   "example": "I like garlic.",
+   "exampleTranslation": {
+    "uk": "Я люблю часник."
+   }
+  },
+  {
+   "id": "honey",
+   "text": "honey",
+   "ipa": "/ˈhʌni/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мед"
+   },
+   "example": "Tea with honey.",
+   "exampleTranslation": {
+    "uk": "Чай із медом."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do I do now?",
+   "prompt": {
+    "uk": "Повторимо. Помішати суп. Що відповісти?"
+   },
+   "options": [
+    "Stir the soup.",
+    "Stir to the soup.",
+    "Stirring soup."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Stir the soup."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "taste",
+     "right": {
+      "uk": "куштувати; мати смак"
+     }
+    },
+    {
+     "left": "raw",
+     "right": {
+      "uk": "сирий"
+     }
+    },
+    {
+     "left": "salty",
+     "right": {
+      "uk": "солоний"
+     }
+    },
+    {
+     "left": "garlic",
+     "right": {
+      "uk": "часник"
+     }
+    },
+    {
+     "left": "honey",
+     "right": {
+      "uk": "мед"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The soup is too salty.",
+   "prompt": {
+    "uk": "Прослухайте. Що не так із супом?"
+   },
+   "options": {
+    "uk": [
+     "Він надто солоний",
+     "Він надто гарячий",
+     "Він надто солодкий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Too salty."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Tea with honey.",
+   "prompt": {
+    "uk": "Прослухайте. З чим чай?"
+   },
+   "options": {
+    "uk": [
+     "З медом",
+     "З цукром",
+     "З лимоном"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Honey."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I like garlic.",
+   "prompt": {
+    "uk": "Прослухайте. Що любить людина?"
+   },
+   "options": {
+    "uk": [
+     "Часник",
+     "Цибулю",
+     "Мед"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Garlic."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The soup is too ___.",
+   "options": [
+    "salty",
+    "raw",
+    "hot"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Надто солоний: salty."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Tea with ___.",
+   "options": [
+    "honey",
+    "garlic",
+    "raw"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Чай із медом."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Try it! It ___ delicious.",
+   "options": [
+    "tastes",
+    "tastes of",
+    "taste"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З it — tastes."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає raw?"
+   },
+   "options": {
+    "uk": [
+     "сирий",
+     "солоний",
+     "смачний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Raw — сирий."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Суп надто солоний."
+   },
+   "words": [
+    "The",
+    "soup",
+    "is",
+    "too",
+    "salty",
+    "raw",
+    "very"
+   ],
+   "answer": [
+    "The",
+    "soup",
+    "is",
+    "too",
+    "salty"
+   ],
+   "explanation": {
+    "uk": "The soup is too salty."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Чай із медом."
+   },
+   "answers": [
+    "Tea with honey"
+   ],
+   "explanation": {
+    "uk": "Tea with honey."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you like garlic?",
+   "prompt": {
+    "uk": "Так. Що відповісти?"
+   },
+   "options": [
+    "Yes, I do.",
+    "Yes, I like.",
+    "Yes, I am."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I do."
+   }
+  }
+ ]
+}

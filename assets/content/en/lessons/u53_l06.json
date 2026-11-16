@@ -1,0 +1,282 @@
+{
+ "id": "u53_l06",
+ "unit": "u53",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: готуємо"
+ },
+ "goal": {
+  "uk": "Закріпити слова про кухню."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: посуд (pan, pot, oven, bowl, kettle), дії (chop, peel, boil, fry, bake, stir, pour, add, cut, heat), смак (taste, raw, salty) і продукти (garlic, honey, dough, mushroom)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do I do now?",
+   "prompt": {
+    "uk": "Повторимо. Помішати суп. Що відповісти?"
+   },
+   "options": [
+    "Stir the soup.",
+    "Stir to the soup.",
+    "Stirring soup."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Stir the soup."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "Peel the potatoes and chop the onion.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Почистити картоплю й нарізати цибулю",
+     "Зварити картоплю й цибулю",
+     "Засмажити картоплю й цибулю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Peel, chop."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Heat the pan and add some oil.",
+   "prompt": {
+    "uk": "Прослухайте. Що додати?"
+   },
+   "options": {
+    "uk": [
+     "Олію",
+     "Сіль",
+     "Молоко"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Oil."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The soup is too salty.",
+   "prompt": {
+    "uk": "Прослухайте. Що не так?"
+   },
+   "options": {
+    "uk": [
+     "Надто солоний",
+     "Надто гарячий",
+     "Надто сирий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Salty."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The cake is in the ___.",
+   "options": [
+    "oven",
+    "kettle",
+    "bowl"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Oven."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ the eggs for ten minutes.",
+   "options": [
+    "Boil",
+    "Pour",
+    "Heat"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Boil."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Mix the ___ and fry the pancakes.",
+   "options": [
+    "dough",
+    "garlic",
+    "kettle"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Dough."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яке слово означає «сирий»?"
+   },
+   "options": {
+    "uk": [
+     "raw",
+     "salty",
+     "hot"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Raw."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Додайте трохи солі."
+   },
+   "words": [
+    "Add",
+    "some",
+    "salt",
+    "pour",
+    "stir"
+   ],
+   "answer": [
+    "Add",
+    "some",
+    "salt"
+   ],
+   "explanation": {
+    "uk": "Add some salt."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Суп у каструлі."
+   },
+   "answers": [
+    "The soup is in the pot"
+   ],
+   "explanation": {
+    "uk": "The soup is in the pot."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "How do you like the soup?",
+   "prompt": {
+    "uk": "Дуже смачно. Що відповісти?"
+   },
+   "options": [
+    "It tastes delicious.",
+    "It taste delicious.",
+    "It is tasting delicious."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It tastes delicious."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви готуєте суп разом. Треба помішувати."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "What should I do now?",
+   "options": [
+    "Stir the soup, please.",
+    "Stir to the soup, please.",
+    "Do stirring soup, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Stir the soup — коротка команда в ввічливій формі з please."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Суп занадто солоний."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Mmm, let me taste it. How is it?",
+   "options": [
+    "It's too salty.",
+    "It is much salt.",
+    "It tastes salt very."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Too salty — «надто солоний»."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Просите додати часник."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Том"
+    },
+    "avatar": "🧑"
+   },
+   "line": "Is it ready?",
+   "options": [
+    "Almost. Add some garlic.",
+    "Almost. Put garlic inside it.",
+    "Not yet, garlic add."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Add some garlic — природна інструкція."
+   }
+  }
+ ]
+}

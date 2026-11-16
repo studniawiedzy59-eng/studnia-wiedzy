@@ -1,0 +1,284 @@
+{
+ "id": "u54_l06",
+ "unit": "u54",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: супермаркет"
+ },
+ "goal": {
+  "uk": "Закріпити слова про магазин."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: basket, trolley, checkout, cashier, aisle; відділи (bakery, butcher, dairy); акції (offer, bargain, coupon); пакети (paper, plastic); продукти (cereal, noodles, tuna)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What would you like for breakfast?",
+   "prompt": {
+    "uk": "Повторимо. Бекон і яйця. Що відповісти?"
+   },
+   "options": [
+    "Bacon and eggs, please.",
+    "Bacon and egg, please.",
+    "Bacon eggs and, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Bacon and eggs, please."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "Milk and cheese are in the dairy section.",
+   "prompt": {
+    "uk": "Прослухайте. Де молоко й сир?"
+   },
+   "options": {
+    "uk": [
+     "У молочному відділі",
+     "У пекарні",
+     "В м'ясному відділі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Dairy."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "There is a special offer on tuna.",
+   "prompt": {
+    "uk": "Прослухайте. На що акція?"
+   },
+   "options": {
+    "uk": [
+     "На тунець",
+     "На бекон",
+     "На сир"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tuna."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Excuse me, where is the checkout?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Де каса",
+     "Де пекарня",
+     "Де візок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Checkout."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I take a ___ for fruit.",
+   "options": [
+    "basket",
+    "label",
+    "coupon"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Кошик."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ bag, please.",
+   "options": [
+    "paper",
+    "aisle",
+    "cashier"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Paper."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It ___ five pounds.",
+   "options": [
+    "costs",
+    "cost",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Costs."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке cashier?"
+   },
+   "options": {
+    "uk": [
+     "касир",
+     "покупець",
+     "продавець"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cashier — касир."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Де каса?"
+   },
+   "words": [
+    "Where",
+    "is",
+    "the",
+    "checkout",
+    "aisle",
+    "are"
+   ],
+   "answer": [
+    "Where",
+    "is",
+    "the",
+    "checkout"
+   ],
+   "explanation": {
+    "uk": "Where is the checkout?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це коштує п'ять фунтів."
+   },
+   "answers": [
+    "It costs five pounds"
+   ],
+   "explanation": {
+    "uk": "It costs five pounds."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Where is the bread?",
+   "prompt": {
+    "uk": "У пекарні. Що відповісти?"
+   },
+   "options": [
+    "It's in the bakery.",
+    "It's on the bakery.",
+    "It's bakery in."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's in the bakery."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви шукаєте молоко."
+   },
+   "character": {
+    "name": {
+     "uk": "Працівник магазину"
+    },
+    "avatar": "🧑‍💼"
+   },
+   "line": "Can I help you?",
+   "options": [
+    "Yes, where is the milk, please?",
+    "Yes, where lives the milk?",
+    "Yes, I search milk."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Where is the milk, please? — стандартне питання в магазині."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам потрібен пакет."
+   },
+   "character": {
+    "name": {
+     "uk": "Працівник магазину"
+    },
+    "avatar": "🧑‍💼"
+   },
+   "line": "Do you need a bag?",
+   "options": [
+    "A paper one, please.",
+    "Give me paper.",
+    "Bag paper, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A paper one — «паперовий»; one замінює слово bag."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "У вас є купон."
+   },
+   "character": {
+    "name": {
+     "uk": "Працівник магазину"
+    },
+    "avatar": "🧑‍💼"
+   },
+   "line": "Anything else?",
+   "options": [
+    "No, thanks. I have a coupon.",
+    "No, thanks. I have coupon to pay.",
+    "No more. Coupon is at me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a coupon — просто й чітко."
+   }
+  }
+ ]
+}

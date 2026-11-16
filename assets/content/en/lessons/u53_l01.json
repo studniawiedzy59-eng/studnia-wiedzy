@@ -1,0 +1,326 @@
+{
+ "id": "u53_l01",
+ "unit": "u53",
+ "cefr": "A1",
+ "title": {
+  "uk": "Кухонний посуд"
+ },
+ "goal": {
+  "uk": "Назвати речі на кухні."
+ },
+ "rule": {
+  "uk": "На кухні є pan — сковорідка, pot — каструля, oven — духовка, bowl — миска, kettle — чайник. Де вони? Усе просто: The pan is on the cooker. Кажемо in the oven (в духовці), in the bowl (у мисці)."
+ },
+ "words": [
+  {
+   "id": "pan",
+   "text": "pan",
+   "ipa": "/pæn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сковорідка"
+   },
+   "example": "The pan is hot.",
+   "exampleTranslation": {
+    "uk": "Сковорідка гаряча."
+   }
+  },
+  {
+   "id": "pot",
+   "text": "pot",
+   "ipa": "/pɒt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "каструля"
+   },
+   "example": "The soup is in the pot.",
+   "exampleTranslation": {
+    "uk": "Суп у каструлі."
+   }
+  },
+  {
+   "id": "oven",
+   "text": "oven",
+   "ipa": "/ˈʌvn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "духовка"
+   },
+   "example": "The cake is in the oven.",
+   "exampleTranslation": {
+    "uk": "Торт у духовці."
+   }
+  },
+  {
+   "id": "bowl",
+   "text": "bowl",
+   "ipa": "/bəʊl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "миска"
+   },
+   "example": "Put the fruit in a bowl.",
+   "exampleTranslation": {
+    "uk": "Покладіть фрукти в миску."
+   }
+  },
+  {
+   "id": "kettle",
+   "text": "kettle",
+   "ipa": "/ˈketl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "чайник"
+   },
+   "example": "The kettle is on.",
+   "exampleTranslation": {
+    "uk": "Чайник увімкнено."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Half a kilo of apples, please.",
+   "prompt": {
+    "uk": "Повторимо. Що купує людина?"
+   },
+   "options": [
+    "Apples.",
+    "Eggs.",
+    "Cheese."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Apples."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "pan",
+     "right": {
+      "uk": "сковорідка"
+     }
+    },
+    {
+     "left": "pot",
+     "right": {
+      "uk": "каструля"
+     }
+    },
+    {
+     "left": "oven",
+     "right": {
+      "uk": "духовка"
+     }
+    },
+    {
+     "left": "bowl",
+     "right": {
+      "uk": "миска"
+     }
+    },
+    {
+     "left": "kettle",
+     "right": {
+      "uk": "чайник"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The pan is hot.",
+   "prompt": {
+    "uk": "Прослухайте. Що гаряче?"
+   },
+   "options": {
+    "uk": [
+     "Сковорідка",
+     "Каструля",
+     "Духовка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pan."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The soup is in the pot.",
+   "prompt": {
+    "uk": "Прослухайте. Де суп?"
+   },
+   "options": {
+    "uk": [
+     "У каструлі",
+     "У мисці",
+     "У духовці"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In the pot."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The cake is in the oven.",
+   "prompt": {
+    "uk": "Прослухайте. Де торт?"
+   },
+   "options": {
+    "uk": [
+     "У духовці",
+     "У мисці",
+     "На столі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In the oven."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The soup is in the ___.",
+   "options": [
+    "pot",
+    "oven",
+    "kettle"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Суп вариться в каструлі."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The cake is in the ___.",
+   "options": [
+    "oven",
+    "bowl",
+    "kettle"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Торт печуть у духовці."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is on. I want tea.",
+   "options": [
+    "kettle",
+    "oven",
+    "bowl"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Чайник — kettle."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке kettle?"
+   },
+   "options": {
+    "uk": [
+     "чайник",
+     "каструля",
+     "миска"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Kettle — чайник."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Суп у каструлі."
+   },
+   "words": [
+    "The",
+    "soup",
+    "is",
+    "in",
+    "the",
+    "pot",
+    "pan",
+    "on"
+   ],
+   "answer": [
+    "The",
+    "soup",
+    "is",
+    "in",
+    "the",
+    "pot"
+   ],
+   "explanation": {
+    "uk": "The soup is in the pot."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Торт у духовці."
+   },
+   "answers": [
+    "The cake is in the oven"
+   ],
+   "explanation": {
+    "uk": "The cake is in the oven."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where is the soup?",
+   "prompt": {
+    "uk": "Каструля. Що відповісти?"
+   },
+   "options": [
+    "It's in the pot.",
+    "It's on the pot in.",
+    "It in pot is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's in the pot."
+   }
+  }
+ ]
+}

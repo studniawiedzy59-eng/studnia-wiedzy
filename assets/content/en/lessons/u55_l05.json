@@ -1,0 +1,324 @@
+{
+ "id": "u55_l05",
+ "unit": "u55",
+ "cefr": "A1",
+ "title": {
+  "uk": "Банк і зарплата"
+ },
+ "goal": {
+  "uk": "Говорити про банк і заробіток."
+ },
+ "rule": {
+  "uk": "Salary — зарплата, bank account — банківський рахунок, cash machine — банкомат, withdraw — знімати гроші, VAT — ПДВ. I withdraw money at the cash machine. My salary goes into my bank account."
+ },
+ "words": [
+  {
+   "id": "salary",
+   "text": "salary",
+   "ipa": "/ˈsæləri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "зарплата"
+   },
+   "example": "My salary is low.",
+   "exampleTranslation": {
+    "uk": "Моя зарплата невелика."
+   }
+  },
+  {
+   "id": "bank_account",
+   "text": "bank account",
+   "ipa": "/ˈbæŋk əˌkaʊnt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "банківський рахунок"
+   },
+   "example": "I have a bank account.",
+   "exampleTranslation": {
+    "uk": "У мене є банківський рахунок."
+   }
+  },
+  {
+   "id": "cash_machine",
+   "text": "cash machine",
+   "ipa": "/ˈkæʃ məˌʃiːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "банкомат"
+   },
+   "example": "Is there a cash machine here?",
+   "exampleTranslation": {
+    "uk": "Тут є банкомат?"
+   }
+  },
+  {
+   "id": "withdraw",
+   "text": "withdraw",
+   "ipa": "/wɪðˈdrɔː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "знімати гроші"
+   },
+   "example": "I withdraw money on Fridays.",
+   "exampleTranslation": {
+    "uk": "По п'ятницях я знімаю гроші."
+   }
+  },
+  {
+   "id": "vat",
+   "text": "VAT",
+   "ipa": "/ˌviː eɪ ˈtiː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ПДВ"
+   },
+   "example": "The price includes VAT.",
+   "exampleTranslation": {
+    "uk": "У ціну входить ПДВ."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is there a problem with it?",
+   "prompt": {
+    "uk": "Повторимо. Я хочу обміняти. Що відповісти?"
+   },
+   "options": [
+    "Yes, I'd like to exchange it.",
+    "Yes, I want exchange.",
+    "Yes, I like to exchange to it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I'd like to exchange it."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "salary",
+     "right": {
+      "uk": "зарплата"
+     }
+    },
+    {
+     "left": "bank account",
+     "right": {
+      "uk": "банківський рахунок"
+     }
+    },
+    {
+     "left": "cash machine",
+     "right": {
+      "uk": "банкомат"
+     }
+    },
+    {
+     "left": "withdraw",
+     "right": {
+      "uk": "знімати гроші"
+     }
+    },
+    {
+     "left": "VAT",
+     "right": {
+      "uk": "ПДВ"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Is there a cash machine here?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Чи є тут банкомат",
+     "Чи є тут банк",
+     "Чи є тут каса"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cash machine."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I withdraw money on Fridays.",
+   "prompt": {
+    "uk": "Прослухайте. Коли людина знімає гроші?"
+   },
+   "options": {
+    "uk": [
+     "По п'ятницях",
+     "По понеділках",
+     "Щодня"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fridays."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The price includes VAT.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "У ціну входить ПДВ",
+     "ПДВ не входить",
+     "Знижки немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "VAT."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ is low.",
+   "options": [
+    "salary",
+    "cash machine",
+    "VAT"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Зарплата."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ money on Fridays.",
+   "options": [
+    "withdraw",
+    "spend",
+    "charge"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Знімаю гроші."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a bank ___.",
+   "options": [
+    "account",
+    "machine",
+    "gift"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Bank account."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке cash machine?"
+   },
+   "options": {
+    "uk": [
+     "банкомат",
+     "каса",
+     "гаманець"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cash machine — банкомат."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене є банківський рахунок."
+   },
+   "words": [
+    "I",
+    "have",
+    "a",
+    "bank",
+    "account",
+    "salary",
+    "has"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "bank",
+    "account"
+   ],
+   "explanation": {
+    "uk": "I have a bank account."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Тут є банкомат?"
+   },
+   "answers": [
+    "Is there a cash machine here"
+   ],
+   "explanation": {
+    "uk": "Is there a cash machine here?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where can I get cash?",
+   "prompt": {
+    "uk": "Банкомат поруч. Що відповісти?"
+   },
+   "options": [
+    "There is a cash machine next to the bank.",
+    "There a cash machine next bank is.",
+    "Cash machine is next of bank."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is a cash machine next to the bank."
+   }
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "id": "u53_l02",
+ "unit": "u53",
+ "cefr": "A1",
+ "title": {
+  "uk": "Що робимо з їжею"
+ },
+ "goal": {
+  "uk": "Назвати дії з продуктами."
+ },
+ "rule": {
+  "uk": "Chop — нарізати, peel — чистити (шкірку), boil — варити у воді, fry — смажити, bake — пекти в духовці. Із команд: Peel the potatoes. Chop the onion. Boil the eggs."
+ },
+ "words": [
+  {
+   "id": "chop",
+   "text": "chop",
+   "ipa": "/tʃɒp/",
+   "pos": "verb",
+   "translation": {
+    "uk": "нарізати"
+   },
+   "example": "Chop the onion.",
+   "exampleTranslation": {
+    "uk": "Наріжте цибулю."
+   }
+  },
+  {
+   "id": "peel",
+   "text": "peel",
+   "ipa": "/piːl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "чистити"
+   },
+   "example": "Peel the potatoes.",
+   "exampleTranslation": {
+    "uk": "Почистьте картоплю."
+   }
+  },
+  {
+   "id": "boil",
+   "text": "boil",
+   "ipa": "/bɔɪl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "варити"
+   },
+   "example": "Boil the eggs.",
+   "exampleTranslation": {
+    "uk": "Зваріть яйця."
+   }
+  },
+  {
+   "id": "fry",
+   "text": "fry",
+   "ipa": "/fraɪ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "смажити"
+   },
+   "example": "Fry the fish.",
+   "exampleTranslation": {
+    "uk": "Засмажте рибу."
+   }
+  },
+  {
+   "id": "bake",
+   "text": "bake",
+   "ipa": "/beɪk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "пекти"
+   },
+   "example": "I bake bread on Sundays.",
+   "exampleTranslation": {
+    "uk": "По неділях я печу хліб."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where is the soup?",
+   "prompt": {
+    "uk": "Повторимо. Каструля. Що відповісти?"
+   },
+   "options": [
+    "It's in the pot.",
+    "It's on the pot in.",
+    "It in pot is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's in the pot."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "chop",
+     "right": {
+      "uk": "нарізати"
+     }
+    },
+    {
+     "left": "peel",
+     "right": {
+      "uk": "чистити"
+     }
+    },
+    {
+     "left": "boil",
+     "right": {
+      "uk": "варити"
+     }
+    },
+    {
+     "left": "fry",
+     "right": {
+      "uk": "смажити"
+     }
+    },
+    {
+     "left": "bake",
+     "right": {
+      "uk": "пекти"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Chop the onion.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Нарізати цибулю",
+     "Почистити цибулю",
+     "Засмажити цибулю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Chop."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Peel the potatoes.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Почистити картоплю",
+     "Зварити картоплю",
+     "Нарізати картоплю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Peel."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Fry the fish.",
+   "prompt": {
+    "uk": "Прослухайте. Що робимо з рибою?"
+   },
+   "options": {
+    "uk": [
+     "Смажимо",
+     "Варимо",
+     "Печемо"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fry."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ the potatoes.",
+   "options": [
+    "Peel",
+    "Bake",
+    "Pour"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Картоплю чистять."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ bread on Sundays.",
+   "options": [
+    "bake",
+    "peel",
+    "chop"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Хліб печуть: bake."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ the eggs for ten minutes.",
+   "options": [
+    "Boil",
+    "Fry",
+    "Peel"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Яйця варять: boil."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає fry?"
+   },
+   "options": {
+    "uk": [
+     "смажити",
+     "варити",
+     "чистити"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fry — смажити."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Наріжте цибулю."
+   },
+   "words": [
+    "Chop",
+    "the",
+    "onion",
+    "peel",
+    "bake"
+   ],
+   "answer": [
+    "Chop",
+    "the",
+    "onion"
+   ],
+   "explanation": {
+    "uk": "Chop the onion."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Почистьте картоплю."
+   },
+   "answers": [
+    "Peel the potatoes"
+   ],
+   "explanation": {
+    "uk": "Peel the potatoes."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How do you cook eggs?",
+   "prompt": {
+    "uk": "Варю. Що відповісти?"
+   },
+   "options": [
+    "I boil them.",
+    "I boil it them.",
+    "I am boil."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I boil them."
+   }
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+ "id": "u56_l01",
+ "unit": "u56",
+ "cefr": "A1",
+ "title": {
+  "uk": "Деталі одягу"
+ },
+ "goal": {
+  "uk": "Назвати частини одягу."
+ },
+ "rule": {
+  "uk": "Sleeve — рукав, collar — комір, waist — талія, hood — капюшон, sleeveless — без рукавів. Long sleeves — довгі рукави. A jacket with a hood — куртка з капюшоном."
+ },
+ "words": [
+  {
+   "id": "sleeve",
+   "text": "sleeve",
+   "ipa": "/sliːv/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рукав"
+   },
+   "example": "Long sleeves.",
+   "exampleTranslation": {
+    "uk": "Довгі рукави."
+   }
+  },
+  {
+   "id": "collar",
+   "text": "collar",
+   "ipa": "/ˈkɒlə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "комір"
+   },
+   "example": "A shirt with a white collar.",
+   "exampleTranslation": {
+    "uk": "Сорочка з білим коміром."
+   }
+  },
+  {
+   "id": "waist",
+   "text": "waist",
+   "ipa": "/weɪst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "талія"
+   },
+   "example": "The trousers are tight at the waist.",
+   "exampleTranslation": {
+    "uk": "Штани тісні в талії."
+   }
+  },
+  {
+   "id": "hood",
+   "text": "hood",
+   "ipa": "/hʊd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "капюшон"
+   },
+   "example": "A jacket with a hood.",
+   "exampleTranslation": {
+    "uk": "Куртка з капюшоном."
+   }
+  },
+  {
+   "id": "sleeveless",
+   "text": "sleeveless",
+   "ipa": "/ˈsliːvləs/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "без рукавів"
+   },
+   "example": "A sleeveless dress.",
+   "exampleTranslation": {
+    "uk": "Сукня без рукавів."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How do you want to pay?",
+   "prompt": {
+    "uk": "Повторимо. Готівкою. Що відповісти?"
+   },
+   "options": [
+    "In cash, please.",
+    "By cash, please.",
+    "With cash pay."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In cash, please."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "sleeve",
+     "right": {
+      "uk": "рукав"
+     }
+    },
+    {
+     "left": "collar",
+     "right": {
+      "uk": "комір"
+     }
+    },
+    {
+     "left": "waist",
+     "right": {
+      "uk": "талія"
+     }
+    },
+    {
+     "left": "hood",
+     "right": {
+      "uk": "капюшон"
+     }
+    },
+    {
+     "left": "sleeveless",
+     "right": {
+      "uk": "без рукавів"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "A jacket with a hood.",
+   "prompt": {
+    "uk": "Прослухайте. Яка куртка?"
+   },
+   "options": {
+    "uk": [
+     "З капюшоном",
+     "З довгими рукавами",
+     "З коміром"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hood."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The trousers are tight at the waist.",
+   "prompt": {
+    "uk": "Прослухайте. Де штани тісні?"
+   },
+   "options": {
+    "uk": [
+     "У талії",
+     "В колінах",
+     "Унизу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Waist."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "A sleeveless dress.",
+   "prompt": {
+    "uk": "Прослухайте. Яка сукня?"
+   },
+   "options": {
+    "uk": [
+     "Без рукавів",
+     "З довгими рукавами",
+     "З коміром"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sleeveless."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A jacket with a ___.",
+   "options": [
+    "hood",
+    "waist",
+    "collar"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Капюшон — hood."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Long ___.",
+   "options": [
+    "sleeves",
+    "sleeve",
+    "waists"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Рукави — множина."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ dress.",
+   "options": [
+    "sleeveless",
+    "hood",
+    "collar"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Без рукавів."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке collar?"
+   },
+   "options": {
+    "uk": [
+     "комір",
+     "рукав",
+     "талія"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Collar — комір."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Куртка з капюшоном."
+   },
+   "words": [
+    "A",
+    "jacket",
+    "with",
+    "a",
+    "hood",
+    "collar",
+    "waist"
+   ],
+   "answer": [
+    "A",
+    "jacket",
+    "with",
+    "a",
+    "hood"
+   ],
+   "explanation": {
+    "uk": "A jacket with a hood."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Сукня без рукавів."
+   },
+   "answers": [
+    "A sleeveless dress"
+   ],
+   "explanation": {
+    "uk": "A sleeveless dress."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What jacket do you want?",
+   "prompt": {
+    "uk": "З капюшоном. Що відповісти?"
+   },
+   "options": [
+    "One with a hood, please.",
+    "Jacket hood with, please.",
+    "With the hood one."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "One with a hood, please."
+   }
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "id": "u56_l05",
+ "unit": "u56",
+ "cefr": "A1",
+ "title": {
+  "uk": "Аксесуари"
+ },
+ "goal": {
+  "uk": "Назвати прикраси й аксесуари."
+ },
+ "rule": {
+  "uk": "Sunglasses — сонцезахисні окуляри, handbag — жіноча сумка, necklace — намисто, earrings — сережки, bracelet — браслет. Sunglasses і earrings у множині: Her earrings are gold. My sunglasses are in my handbag."
+ },
+ "words": [
+  {
+   "id": "sunglasses",
+   "text": "sunglasses",
+   "ipa": "/ˈsʌnɡlɑːsɪz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сонцезахисні окуляри"
+   },
+   "example": "My sunglasses are in my bag.",
+   "exampleTranslation": {
+    "uk": "Мої окуляри в сумці."
+   }
+  },
+  {
+   "id": "handbag",
+   "text": "handbag",
+   "ipa": "/ˈhændbæɡ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "жіноча сумка"
+   },
+   "example": "A black handbag.",
+   "exampleTranslation": {
+    "uk": "Чорна сумка."
+   }
+  },
+  {
+   "id": "necklace",
+   "text": "necklace",
+   "ipa": "/ˈnekləs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "намисто"
+   },
+   "example": "A silver necklace.",
+   "exampleTranslation": {
+    "uk": "Срібне намисто."
+   }
+  },
+  {
+   "id": "earrings",
+   "text": "earrings",
+   "ipa": "/ˈɪərɪŋz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сережки"
+   },
+   "example": "Her earrings are gold.",
+   "exampleTranslation": {
+    "uk": "Її сережки золоті."
+   }
+  },
+  {
+   "id": "bracelet",
+   "text": "bracelet",
+   "ipa": "/ˈbreɪslət/",
+   "pos": "noun",
+   "translation": {
+    "uk": "браслет"
+   },
+   "example": "A nice bracelet.",
+   "exampleTranslation": {
+    "uk": "Гарний браслет."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you wear at home?",
+   "prompt": {
+    "uk": "Повторимо. Худі й капці. Що відповісти?"
+   },
+   "options": [
+    "A hoodie and slippers.",
+    "Hoodie and slipper.",
+    "A hoodie with slippers it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A hoodie and slippers."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "sunglasses",
+     "right": {
+      "uk": "сонцезахисні окуляри"
+     }
+    },
+    {
+     "left": "handbag",
+     "right": {
+      "uk": "жіноча сумка"
+     }
+    },
+    {
+     "left": "necklace",
+     "right": {
+      "uk": "намисто"
+     }
+    },
+    {
+     "left": "earrings",
+     "right": {
+      "uk": "сережки"
+     }
+    },
+    {
+     "left": "bracelet",
+     "right": {
+      "uk": "браслет"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "A silver necklace.",
+   "prompt": {
+    "uk": "Прослухайте. Яке намисто?"
+   },
+   "options": {
+    "uk": [
+     "Срібне",
+     "Золоте",
+     "Червоне"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Silver."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Her earrings are gold.",
+   "prompt": {
+    "uk": "Прослухайте. Які сережки?"
+   },
+   "options": {
+    "uk": [
+     "Золоті",
+     "Срібні",
+     "Нові"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Gold."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My sunglasses are in my bag.",
+   "prompt": {
+    "uk": "Прослухайте. Де окуляри?"
+   },
+   "options": {
+    "uk": [
+     "У сумці",
+     "На столі",
+     "У кишені"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In my bag."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ are in my bag.",
+   "options": [
+    "sunglasses",
+    "necklace",
+    "bracelet"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sunglasses — множина."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Her ___ are gold.",
+   "options": [
+    "earrings",
+    "handbag",
+    "necklace"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Сережки — earrings."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A nice ___.",
+   "options": [
+    "bracelet",
+    "earrings",
+    "sunglasses"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Bracelet — однина."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке necklace?"
+   },
+   "options": {
+    "uk": [
+     "намисто",
+     "браслет",
+     "сережки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Necklace — намисто."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Чорна сумка."
+   },
+   "words": [
+    "A",
+    "black",
+    "handbag",
+    "necklace",
+    "bracelet"
+   ],
+   "answer": [
+    "A",
+    "black",
+    "handbag"
+   ],
+   "explanation": {
+    "uk": "A black handbag."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Її сережки золоті."
+   },
+   "answers": [
+    "Her earrings are gold"
+   ],
+   "explanation": {
+    "uk": "Her earrings are gold."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you like her necklace?",
+   "prompt": {
+    "uk": "Гарне. Що відповісти?"
+   },
+   "options": [
+    "Yes, it's lovely.",
+    "Yes, they are lovely.",
+    "Yes, necklace lovely."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it's lovely."
+   }
+  }
+ ]
+}

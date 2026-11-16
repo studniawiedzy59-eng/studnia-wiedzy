@@ -1,0 +1,286 @@
+{
+ "id": "u55_l06",
+ "unit": "u55",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: ціни й оплата"
+ },
+ "goal": {
+  "uk": "Закріпити слова про гроші."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: spend, save, afford, charge; валюта (dollar, currency, exchange rate); оплата (pay by card, pay in cash); refund, exchange, gift; salary, cash machine, withdraw."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where can I get cash?",
+   "prompt": {
+    "uk": "Повторимо. Банкомат поруч. Що відповісти?"
+   },
+   "options": [
+    "There is a cash machine next to the bank.",
+    "There a cash machine next bank is.",
+    "Cash machine is next of bank."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is a cash machine next to the bank."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "Can I pay by card?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Чи можна заплатити карткою",
+     "Чи можна обміняти",
+     "Чи є знижка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "By card."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'd like a refund, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Повернути гроші",
+     "Обміняти товар",
+     "Подарункову упаковку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Refund."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I save money every month.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Заощаджує гроші",
+     "Витрачає гроші",
+     "Знімає гроші"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Save."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I can't ___ it.",
+   "options": [
+    "afford",
+    "charge",
+    "save"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can't afford."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The delivery is free of ___.",
+   "options": [
+    "charge",
+    "cost",
+    "pay"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Free of charge."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I withdraw money at the cash ___.",
+   "options": [
+    "machine",
+    "account",
+    "card"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Cash machine."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке salary?"
+   },
+   "options": {
+    "uk": [
+     "зарплата",
+     "рахунок",
+     "валюта"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Salary — зарплата."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можна заплатити карткою?"
+   },
+   "words": [
+    "Can",
+    "I",
+    "pay",
+    "by",
+    "card",
+    "in",
+    "cash"
+   ],
+   "answer": [
+    "Can",
+    "I",
+    "pay",
+    "by",
+    "card"
+   ],
+   "explanation": {
+    "uk": "Can I pay by card?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я хотів би повернути гроші."
+   },
+   "answers": [
+    "I'd like a refund"
+   ],
+   "explanation": {
+    "uk": "I'd like a refund."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "How do you want to pay?",
+   "prompt": {
+    "uk": "Готівкою. Що відповісти?"
+   },
+   "options": [
+    "In cash, please.",
+    "By cash, please.",
+    "With cash pay."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In cash, please."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви хочете заплатити карткою."
+   },
+   "character": {
+    "name": {
+     "uk": "Касирка"
+    },
+    "avatar": "👩‍💼"
+   },
+   "line": "That's twenty pounds. Cash or card?",
+   "options": [
+    "By card, please.",
+    "With a card pay.",
+    "On card, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "By card — стала форма."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам треба обміняти покупку."
+   },
+   "character": {
+    "name": {
+     "uk": "Касирка"
+    },
+    "avatar": "👩‍💼"
+   },
+   "line": "Is there a problem with it?",
+   "options": [
+    "Yes, I'd like to exchange it.",
+    "Yes, I want exchange.",
+    "Yes, I like change it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'd like to… — ввічливе прохання."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви хочете знайти банкомат."
+   },
+   "character": {
+    "name": {
+     "uk": "Касирка"
+    },
+    "avatar": "👩‍💼"
+   },
+   "line": "Can I help you with anything else?",
+   "options": [
+    "Is there a cash machine near here?",
+    "Where is cash machine, tell me?",
+    "I need cash machine to find."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Is there… near here? — стандартне питання про місце."
+   }
+  }
+ ]
+}

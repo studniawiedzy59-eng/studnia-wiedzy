@@ -1,0 +1,320 @@
+{
+ "id": "u53_l03",
+ "unit": "u53",
+ "cefr": "A1",
+ "title": {
+  "uk": "Ще кілька дій"
+ },
+ "goal": {
+  "uk": "Скласти просту інструкцію з готування."
+ },
+ "rule": {
+  "uk": "Stir — помішувати, pour — наливати, add — додавати, cut — різати, heat — нагрівати. Інструкція складається з наказів: Heat the pan. Add the oil. Stir well. Pour the milk."
+ },
+ "words": [
+  {
+   "id": "stir",
+   "text": "stir",
+   "ipa": "/stɜː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "помішувати"
+   },
+   "example": "Stir the soup.",
+   "exampleTranslation": {
+    "uk": "Помішайте суп."
+   }
+  },
+  {
+   "id": "pour",
+   "text": "pour",
+   "ipa": "/pɔː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "наливати"
+   },
+   "example": "Pour the milk into a bowl.",
+   "exampleTranslation": {
+    "uk": "Налийте молоко в миску."
+   }
+  },
+  {
+   "id": "add",
+   "text": "add",
+   "ipa": "/æd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "додавати"
+   },
+   "example": "Add some salt.",
+   "exampleTranslation": {
+    "uk": "Додайте трохи солі."
+   }
+  },
+  {
+   "id": "cut",
+   "text": "cut",
+   "ipa": "/kʌt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "різати"
+   },
+   "example": "Cut the bread.",
+   "exampleTranslation": {
+    "uk": "Наріжте хліб."
+   }
+  },
+  {
+   "id": "heat",
+   "text": "heat",
+   "ipa": "/hiːt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "нагрівати"
+   },
+   "example": "Heat the pan.",
+   "exampleTranslation": {
+    "uk": "Нагрійте сковорідку."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How do you cook eggs?",
+   "prompt": {
+    "uk": "Повторимо. Варю. Що відповісти?"
+   },
+   "options": [
+    "I boil them.",
+    "I boil it them.",
+    "I am boil."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I boil them."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "stir",
+     "right": {
+      "uk": "помішувати"
+     }
+    },
+    {
+     "left": "pour",
+     "right": {
+      "uk": "наливати"
+     }
+    },
+    {
+     "left": "add",
+     "right": {
+      "uk": "додавати"
+     }
+    },
+    {
+     "left": "cut",
+     "right": {
+      "uk": "різати"
+     }
+    },
+    {
+     "left": "heat",
+     "right": {
+      "uk": "нагрівати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Stir the soup.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Помішати суп",
+     "Додати суп",
+     "Налити суп"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Stir."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Pour the milk into a bowl.",
+   "prompt": {
+    "uk": "Прослухайте. Куди наливаємо молоко?"
+   },
+   "options": {
+    "uk": [
+     "У миску",
+     "У каструлю",
+     "У чайник"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Into a bowl."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Add some salt.",
+   "prompt": {
+    "uk": "Прослухайте. Що додаємо?"
+   },
+   "options": {
+    "uk": [
+     "Сіль",
+     "Цукор",
+     "Олію"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Salt."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ the pan.",
+   "options": [
+    "Heat",
+    "Pour",
+    "Peel"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Сковорідку нагрівають."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ some salt.",
+   "options": [
+    "Add",
+    "Stir",
+    "Cut"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Сіль додають."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ the milk into a bowl.",
+   "options": [
+    "Pour",
+    "Heat",
+    "Chop"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Молоко наливають."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає pour?"
+   },
+   "options": {
+    "uk": [
+     "наливати",
+     "помішувати",
+     "різати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pour — наливати."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Додайте трохи солі."
+   },
+   "words": [
+    "Add",
+    "some",
+    "salt",
+    "pour",
+    "stir"
+   ],
+   "answer": [
+    "Add",
+    "some",
+    "salt"
+   ],
+   "explanation": {
+    "uk": "Add some salt."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Нагрійте сковорідку."
+   },
+   "answers": [
+    "Heat the pan"
+   ],
+   "explanation": {
+    "uk": "Heat the pan."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do I do now?",
+   "prompt": {
+    "uk": "Помішати. Що відповісти?"
+   },
+   "options": [
+    "Stir the soup.",
+    "Stir to the soup.",
+    "Stirring soup."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Stir the soup."
+   }
+  }
+ ]
+}

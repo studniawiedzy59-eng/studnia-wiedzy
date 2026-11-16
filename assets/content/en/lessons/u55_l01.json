@@ -1,0 +1,320 @@
+{
+ "id": "u55_l01",
+ "unit": "u55",
+ "cefr": "A1",
+ "title": {
+  "uk": "Гроші: витрачати й заощаджувати"
+ },
+ "goal": {
+  "uk": "Говорити про витрати."
+ },
+ "rule": {
+  "uk": "Spend — витрачати, save — заощаджувати, afford — дозволити собі, charge — брати плату, overpriced — задорогий. Приклади: I spend a lot on food. I can't afford it. They charge ten pounds."
+ },
+ "words": [
+  {
+   "id": "spend",
+   "text": "spend",
+   "ipa": "/spend/",
+   "pos": "verb",
+   "translation": {
+    "uk": "витрачати"
+   },
+   "example": "I spend a lot on food.",
+   "exampleTranslation": {
+    "uk": "Я багато витрачаю на їжу."
+   }
+  },
+  {
+   "id": "save",
+   "text": "save",
+   "ipa": "/seɪv/",
+   "pos": "verb",
+   "translation": {
+    "uk": "заощаджувати"
+   },
+   "example": "I save money every month.",
+   "exampleTranslation": {
+    "uk": "Щомісяця я заощаджую гроші."
+   }
+  },
+  {
+   "id": "afford",
+   "text": "afford",
+   "ipa": "/əˈfɔːd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "дозволити собі"
+   },
+   "example": "I can't afford it.",
+   "exampleTranslation": {
+    "uk": "Я не можу собі цього дозволити."
+   }
+  },
+  {
+   "id": "charge",
+   "text": "charge",
+   "ipa": "/tʃɑːdʒ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "брати плату"
+   },
+   "example": "They charge ten pounds.",
+   "exampleTranslation": {
+    "uk": "З вас візьмуть десять фунтів."
+   }
+  },
+  {
+   "id": "overpriced",
+   "text": "overpriced",
+   "ipa": "/ˌəʊvəˈpraɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "задорогий"
+   },
+   "example": "This bag is overpriced.",
+   "exampleTranslation": {
+    "uk": "Ця сумка задорога."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where is the bread?",
+   "prompt": {
+    "uk": "Повторимо. У пекарні. Що відповісти?"
+   },
+   "options": [
+    "It's in the bakery.",
+    "It's on the bakery.",
+    "It's bakery in."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's in the bakery."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "spend",
+     "right": {
+      "uk": "витрачати"
+     }
+    },
+    {
+     "left": "save",
+     "right": {
+      "uk": "заощаджувати"
+     }
+    },
+    {
+     "left": "afford",
+     "right": {
+      "uk": "дозволити собі"
+     }
+    },
+    {
+     "left": "charge",
+     "right": {
+      "uk": "брати плату"
+     }
+    },
+    {
+     "left": "overpriced",
+     "right": {
+      "uk": "задорогий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I spend a lot on food.",
+   "prompt": {
+    "uk": "Прослухайте. На що йдуть гроші?"
+   },
+   "options": {
+    "uk": [
+     "На їжу",
+     "На одяг",
+     "На квитки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Food."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I can't afford it.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Не може собі цього дозволити",
+     "Дуже любить це",
+     "Хоче купити два"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Can't afford."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "This bag is overpriced.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Сумка задорога",
+     "Сумка дешева",
+     "Сумка гарна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Overpriced."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ money every month.",
+   "options": [
+    "save",
+    "charge",
+    "afford"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Заощаджую."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I can't ___ a new phone.",
+   "options": [
+    "afford",
+    "spend",
+    "save"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can't afford."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "They ___ ten pounds.",
+   "options": [
+    "charge",
+    "cost",
+    "spend"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Charge — беруть плату."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке afford?"
+   },
+   "options": {
+    "uk": [
+     "дозволити собі",
+     "заощаджувати",
+     "витрачати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Afford — дозволити собі."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я заощаджую гроші."
+   },
+   "words": [
+    "I",
+    "save",
+    "money",
+    "spend",
+    "saves"
+   ],
+   "answer": [
+    "I",
+    "save",
+    "money"
+   ],
+   "explanation": {
+    "uk": "I save money."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я не можу собі цього дозволити."
+   },
+   "answers": [
+    "I can't afford it"
+   ],
+   "explanation": {
+    "uk": "I can't afford it."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Why don't you buy it?",
+   "prompt": {
+    "uk": "Дорого. Що відповісти?"
+   },
+   "options": [
+    "I can't afford it.",
+    "I can't afford.",
+    "I not afford it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I can't afford it."
+   }
+  }
+ ]
+}

@@ -1,0 +1,286 @@
+{
+ "id": "u56_l06",
+ "unit": "u56",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: одяг і розміри"
+ },
+ "goal": {
+  "uk": "Закріпити слова про одяг."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: деталі (sleeve, collar, waist, hood), матеріали (cotton, wool, leather), візерунки (plain, striped, checked), повсякденний одяг (hoodie, shorts, slippers) й аксесуари (sunglasses, handbag, necklace)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you like her necklace?",
+   "prompt": {
+    "uk": "Повторимо. Гарне. Що відповісти?"
+   },
+   "options": [
+    "Yes, it's lovely.",
+    "Yes, they are lovely.",
+    "Yes, necklace lovely."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it's lovely."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "A wool scarf and a leather bag.",
+   "prompt": {
+    "uk": "Прослухайте. Що це?"
+   },
+   "options": {
+    "uk": [
+     "Вовняний шарф і шкіряна сумка",
+     "Бавовняний шарф і шкіряна сумка",
+     "Вовняний шарф і паперова сумка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Wool, leather."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "These shorts are too baggy.",
+   "prompt": {
+    "uk": "Прослухайте. Що не так із шортами?"
+   },
+   "options": {
+    "uk": [
+     "Занадто широкі",
+     "Занадто короткі",
+     "Занадто нові"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Baggy."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "A jacket with a hood, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Куртку з капюшоном",
+     "Куртку без рукавів",
+     "Куртку з коміром"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hood."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ shirt. (картата)",
+   "options": [
+    "checked",
+    "leather",
+    "baggy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Checked."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ are in my bag.",
+   "options": [
+    "sunglasses",
+    "hoodie",
+    "pattern"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sunglasses."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ jacket. (вовняна)",
+   "options": [
+    "wool",
+    "sleeve",
+    "plain"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Wool."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке sleeve?"
+   },
+   "options": {
+    "uk": [
+     "рукав",
+     "комір",
+     "капюшон"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sleeve — рукав."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Куртка з капюшоном."
+   },
+   "words": [
+    "A",
+    "jacket",
+    "with",
+    "a",
+    "hood",
+    "collar",
+    "waist"
+   ],
+   "answer": [
+    "A",
+    "jacket",
+    "with",
+    "a",
+    "hood"
+   ],
+   "explanation": {
+    "uk": "A jacket with a hood."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Широкі джинси."
+   },
+   "answers": [
+    "Baggy jeans"
+   ],
+   "explanation": {
+    "uk": "Baggy jeans."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What do you like?",
+   "prompt": {
+    "uk": "Шкіряну сумку. Що відповісти?"
+   },
+   "options": [
+    "I like the leather bag.",
+    "I like leather the bag.",
+    "I liking leather bag."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I like the leather bag."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви шукаєте бавовняну футболку."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавчиня"
+    },
+    "avatar": "👗"
+   },
+   "line": "What are you looking for?",
+   "options": [
+    "A plain cotton T-shirt, please.",
+    "T-shirt of cotton plain.",
+    "I want shirt from cotton."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Порядок слів: plain cotton T-shirt."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Штани завеликі в талії."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавчиня"
+    },
+    "avatar": "👗"
+   },
+   "line": "How do the trousers fit?",
+   "options": [
+    "They're too baggy at the waist.",
+    "They are big on waist much.",
+    "Waist is very big for me."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Too baggy at the waist — «завеликі в талії»."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви берете куртку з капюшоном."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавчиня"
+    },
+    "avatar": "👗"
+   },
+   "line": "Would you like this jacket?",
+   "options": [
+    "Yes, I'll take the one with a hood.",
+    "Yes, I take jacket hood.",
+    "Yes, give me the hood one."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'll take… — стала фраза під час покупки."
+   }
+  }
+ ]
+}

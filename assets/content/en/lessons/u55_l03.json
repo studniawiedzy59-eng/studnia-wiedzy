@@ -1,0 +1,324 @@
+{
+ "id": "u55_l03",
+ "unit": "u55",
+ "cefr": "A1",
+ "title": {
+  "uk": "Способи оплати"
+ },
+ "goal": {
+  "uk": "Сказати, як ви платите."
+ },
+ "rule": {
+  "uk": "Pay by card — платити карткою, pay in cash — платити готівкою. Cheque — чек (банківський), invoice — рахунок-фактура, free of charge — безкоштовно. Do you pay by card or in cash? I pay by card."
+ },
+ "words": [
+  {
+   "id": "pay_by_card",
+   "text": "pay by card",
+   "ipa": "/peɪ baɪ ˈkɑːd/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "платити карткою"
+   },
+   "example": "Can I pay by card?",
+   "exampleTranslation": {
+    "uk": "Можна заплатити карткою?"
+   }
+  },
+  {
+   "id": "pay_in_cash",
+   "text": "pay in cash",
+   "ipa": "/peɪ ɪn ˈkæʃ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "платити готівкою"
+   },
+   "example": "I pay in cash.",
+   "exampleTranslation": {
+    "uk": "Я плачу готівкою."
+   }
+  },
+  {
+   "id": "cheque",
+   "text": "cheque",
+   "ipa": "/tʃek/",
+   "pos": "noun",
+   "translation": {
+    "uk": "банківський чек"
+   },
+   "example": "A cheque for fifty pounds.",
+   "exampleTranslation": {
+    "uk": "Чек на п'ятдесят фунтів."
+   }
+  },
+  {
+   "id": "invoice",
+   "text": "invoice",
+   "ipa": "/ˈɪnvɔɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рахунок-фактура"
+   },
+   "example": "Please send me the invoice.",
+   "exampleTranslation": {
+    "uk": "Надішліть мені рахунок."
+   }
+  },
+  {
+   "id": "free_of_charge",
+   "text": "free of charge",
+   "ipa": "/ˌfriː əv ˈtʃɑːdʒ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "безкоштовно"
+   },
+   "example": "The delivery is free of charge.",
+   "exampleTranslation": {
+    "uk": "Доставка безкоштовна."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is it expensive?",
+   "prompt": {
+    "uk": "Повторимо. Ні, доступно. Що відповісти?"
+   },
+   "options": [
+    "No, it's affordable.",
+    "No, it affordable.",
+    "No, it is afford."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, it's affordable."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "pay by card",
+     "right": {
+      "uk": "платити карткою"
+     }
+    },
+    {
+     "left": "pay in cash",
+     "right": {
+      "uk": "платити готівкою"
+     }
+    },
+    {
+     "left": "cheque",
+     "right": {
+      "uk": "банківський чек"
+     }
+    },
+    {
+     "left": "invoice",
+     "right": {
+      "uk": "рахунок-фактура"
+     }
+    },
+    {
+     "left": "free of charge",
+     "right": {
+      "uk": "безкоштовно"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Can I pay by card?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Чи можна заплатити карткою",
+     "Чи можна заплатити готівкою",
+     "Чи є знижка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "By card."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I pay in cash.",
+   "prompt": {
+    "uk": "Прослухайте. Як платить людина?"
+   },
+   "options": {
+    "uk": [
+     "Готівкою",
+     "Карткою",
+     "Чеком"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cash."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The delivery is free of charge.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Доставка безкоштовна",
+     "Доставка дорога",
+     "Доставки немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Free."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I pay ___ card?",
+   "options": [
+    "by",
+    "in",
+    "with"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pay by card."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I pay ___ cash.",
+   "options": [
+    "in",
+    "by",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pay in cash."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Please send me the ___.",
+   "options": [
+    "invoice",
+    "cheque",
+    "currency"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Рахунок: invoice."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає free of charge?"
+   },
+   "options": {
+    "uk": [
+     "безкоштовно",
+     "дуже дорого",
+     "зі знижкою"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Free of charge — безкоштовно."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можна заплатити карткою?"
+   },
+   "words": [
+    "Can",
+    "I",
+    "pay",
+    "by",
+    "card",
+    "in",
+    "cash"
+   ],
+   "answer": [
+    "Can",
+    "I",
+    "pay",
+    "by",
+    "card"
+   ],
+   "explanation": {
+    "uk": "Can I pay by card?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я плачу готівкою."
+   },
+   "answers": [
+    "I pay in cash"
+   ],
+   "explanation": {
+    "uk": "I pay in cash."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Cash or card?",
+   "prompt": {
+    "uk": "Карткою. Що відповісти?"
+   },
+   "options": [
+    "By card, please.",
+    "On card, please.",
+    "With a card pay."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "By card, please."
+   }
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "id": "u56_l03",
+ "unit": "u56",
+ "cefr": "A1",
+ "title": {
+  "uk": "Візерунки й крій"
+ },
+ "goal": {
+  "uk": "Описати візерунок і крій."
+ },
+ "rule": {
+  "uk": "Pattern — візерунок, checked — картатий, stripes — смужки, baggy — широкий, formal — офіційний. A checked shirt — картата сорочка. Baggy jeans — широкі джинси. Formal clothes — офіційний одяг."
+ },
+ "words": [
+  {
+   "id": "pattern",
+   "text": "pattern",
+   "ipa": "/ˈpætn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "візерунок"
+   },
+   "example": "I like this pattern.",
+   "exampleTranslation": {
+    "uk": "Мені подобається цей візерунок."
+   }
+  },
+  {
+   "id": "checked",
+   "text": "checked",
+   "ipa": "/tʃekt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "картатий"
+   },
+   "example": "A checked shirt.",
+   "exampleTranslation": {
+    "uk": "Картата сорочка."
+   }
+  },
+  {
+   "id": "stripes",
+   "text": "stripes",
+   "ipa": "/straɪps/",
+   "pos": "noun",
+   "translation": {
+    "uk": "смужки"
+   },
+   "example": "A shirt with blue stripes.",
+   "exampleTranslation": {
+    "uk": "Сорочка із синіми смужками."
+   }
+  },
+  {
+   "id": "baggy",
+   "text": "baggy",
+   "ipa": "/ˈbæɡi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "широкий, мішкуватий"
+   },
+   "example": "Baggy jeans.",
+   "exampleTranslation": {
+    "uk": "Широкі джинси."
+   }
+  },
+  {
+   "id": "formal",
+   "text": "formal",
+   "ipa": "/ˈfɔːml/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "офіційний"
+   },
+   "example": "Formal clothes.",
+   "exampleTranslation": {
+    "uk": "Офіційний одяг."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is it made of?",
+   "prompt": {
+    "uk": "Повторимо. З вовни. Що відповісти?"
+   },
+   "options": [
+    "It's made of wool.",
+    "It's made from wool of.",
+    "It makes of wool."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's made of wool."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "pattern",
+     "right": {
+      "uk": "візерунок"
+     }
+    },
+    {
+     "left": "checked",
+     "right": {
+      "uk": "картатий"
+     }
+    },
+    {
+     "left": "stripes",
+     "right": {
+      "uk": "смужки"
+     }
+    },
+    {
+     "left": "baggy",
+     "right": {
+      "uk": "широкий, мішкуватий"
+     }
+    },
+    {
+     "left": "formal",
+     "right": {
+      "uk": "офіційний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "A checked shirt.",
+   "prompt": {
+    "uk": "Прослухайте. Яка сорочка?"
+   },
+   "options": {
+    "uk": [
+     "Картата",
+     "Смугаста",
+     "Однотонна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Checked."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Baggy jeans.",
+   "prompt": {
+    "uk": "Прослухайте. Які джинси?"
+   },
+   "options": {
+    "uk": [
+     "Широкі",
+     "Вузькі",
+     "Короткі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Baggy."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "A shirt with blue stripes.",
+   "prompt": {
+    "uk": "Прослухайте. Яка сорочка?"
+   },
+   "options": {
+    "uk": [
+     "Із синіми смужками",
+     "Із синіми квадратами",
+     "Однотонна синя"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Stripes."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I like this ___.",
+   "options": [
+    "pattern",
+    "stripes",
+    "baggy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Візерунок — pattern."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ shirt. (картата)",
+   "options": [
+    "checked",
+    "plain",
+    "formal"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Картата — checked."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ jeans. (широкі)",
+   "options": [
+    "Baggy",
+    "Formal",
+    "Plain"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Baggy."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке formal?"
+   },
+   "options": {
+    "uk": [
+     "офіційний",
+     "широкий",
+     "картатий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Formal — офіційний."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Картата сорочка."
+   },
+   "words": [
+    "A",
+    "checked",
+    "shirt",
+    "striped",
+    "plain"
+   ],
+   "answer": [
+    "A",
+    "checked",
+    "shirt"
+   ],
+   "explanation": {
+    "uk": "A checked shirt."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Широкі джинси."
+   },
+   "answers": [
+    "Baggy jeans"
+   ],
+   "explanation": {
+    "uk": "Baggy jeans."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you wear to work?",
+   "prompt": {
+    "uk": "Офіційний одяг. Що відповісти?"
+   },
+   "options": [
+    "I wear formal clothes.",
+    "I wear formal clothing of.",
+    "I am wearing to formal."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I wear formal clothes."
+   }
+  }
+ ]
+}

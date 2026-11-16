@@ -1,0 +1,322 @@
+{
+ "id": "u54_l05",
+ "unit": "u54",
+ "cefr": "A1",
+ "title": {
+  "uk": "Що купуємо"
+ },
+ "goal": {
+  "uk": "Назвати ще кілька продуктів."
+ },
+ "rule": {
+  "uk": "Cereal — пластівці, noodles — локшина, tuna — тунець, bacon — бекон, shrimp — креветка. Cereal і noodles у складі: a bowl of cereal, a pack of noodles. A can of tuna — банка тунця."
+ },
+ "words": [
+  {
+   "id": "cereal",
+   "text": "cereal",
+   "ipa": "/ˈsɪəriəl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пластівці"
+   },
+   "example": "I eat cereal for breakfast.",
+   "exampleTranslation": {
+    "uk": "На сніданок я їм пластівці."
+   }
+  },
+  {
+   "id": "noodles",
+   "text": "noodles",
+   "ipa": "/ˈnuːdlz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "локшина"
+   },
+   "example": "A pack of noodles.",
+   "exampleTranslation": {
+    "uk": "Пачка локшини."
+   }
+  },
+  {
+   "id": "tuna",
+   "text": "tuna",
+   "ipa": "/ˈtjuːnə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тунець"
+   },
+   "example": "A can of tuna.",
+   "exampleTranslation": {
+    "uk": "Банка тунця."
+   }
+  },
+  {
+   "id": "bacon",
+   "text": "bacon",
+   "ipa": "/ˈbeɪkən/",
+   "pos": "noun",
+   "translation": {
+    "uk": "бекон"
+   },
+   "example": "Bacon and eggs.",
+   "exampleTranslation": {
+    "uk": "Бекон і яйця."
+   }
+  },
+  {
+   "id": "shrimp",
+   "text": "shrimp",
+   "ipa": "/ʃrɪmp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "креветка"
+   },
+   "example": "Shrimp salad.",
+   "exampleTranslation": {
+    "uk": "Салат із креветками."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you need a bag?",
+   "prompt": {
+    "uk": "Повторимо. Паперовий. Що відповісти?"
+   },
+   "options": [
+    "A paper one, please.",
+    "Paper one a, please.",
+    "A paper bag it, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A paper one, please."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "cereal",
+     "right": {
+      "uk": "пластівці"
+     }
+    },
+    {
+     "left": "noodles",
+     "right": {
+      "uk": "локшина"
+     }
+    },
+    {
+     "left": "tuna",
+     "right": {
+      "uk": "тунець"
+     }
+    },
+    {
+     "left": "bacon",
+     "right": {
+      "uk": "бекон"
+     }
+    },
+    {
+     "left": "shrimp",
+     "right": {
+      "uk": "креветка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I eat cereal for breakfast.",
+   "prompt": {
+    "uk": "Прослухайте. Що їсть людина?"
+   },
+   "options": {
+    "uk": [
+     "Пластівці",
+     "Омлет",
+     "Бутерброд"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cereal."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "A can of tuna.",
+   "prompt": {
+    "uk": "Прослухайте. Що це?"
+   },
+   "options": {
+    "uk": [
+     "Банка тунця",
+     "Банка сиру",
+     "Пачка локшини"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tuna."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Shrimp salad.",
+   "prompt": {
+    "uk": "Прослухайте. Що за салат?"
+   },
+   "options": {
+    "uk": [
+     "З креветками",
+     "З тунцем",
+     "З беконом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Shrimp."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I eat ___ for breakfast.",
+   "options": [
+    "cereal",
+    "tuna",
+    "noodles"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Пластівці на сніданок."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A pack of ___.",
+   "options": [
+    "noodles",
+    "aisle",
+    "label"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Пачка локшини."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Bacon and ___.",
+   "options": [
+    "eggs",
+    "egg",
+    "an egg"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Eggs — множина."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке tuna?"
+   },
+   "options": {
+    "uk": [
+     "тунець",
+     "креветка",
+     "бекон"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tuna — тунець."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Пачка локшини."
+   },
+   "words": [
+    "A",
+    "pack",
+    "of",
+    "noodles",
+    "cereal",
+    "tuna"
+   ],
+   "answer": [
+    "A",
+    "pack",
+    "of",
+    "noodles"
+   ],
+   "explanation": {
+    "uk": "A pack of noodles."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Салат із креветками."
+   },
+   "answers": [
+    "Shrimp salad"
+   ],
+   "explanation": {
+    "uk": "Shrimp salad."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What would you like for breakfast?",
+   "prompt": {
+    "uk": "Бекон і яйця. Що відповісти?"
+   },
+   "options": [
+    "Bacon and eggs, please.",
+    "Bacon and egg, please.",
+    "Bacon eggs and, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Bacon and eggs, please."
+   }
+  }
+ ]
+}

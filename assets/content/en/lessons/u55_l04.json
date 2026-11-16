@@ -1,0 +1,328 @@
+{
+ "id": "u55_l04",
+ "unit": "u55",
+ "cefr": "A1",
+ "title": {
+  "uk": "Повернення й подарунки"
+ },
+ "goal": {
+  "uk": "Повернути покупку або купити подарунок."
+ },
+ "rule": {
+  "uk": "Refund — повернення грошей, exchange — обмін, gift card — подарункова картка, gift — подарунок, wrapping — упаковка. I'd like a refund. Can I exchange it? Could you gift-wrap it? Кажемо gift wrapping."
+ },
+ "words": [
+  {
+   "id": "refund",
+   "text": "refund",
+   "ipa": "/ˈriːfʌnd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "повернення коштів"
+   },
+   "example": "I'd like a refund.",
+   "exampleTranslation": {
+    "uk": "Я хотів би повернути гроші."
+   }
+  },
+  {
+   "id": "exchange",
+   "text": "exchange",
+   "ipa": "/ɪksˈtʃeɪndʒ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "обмінювати"
+   },
+   "example": "Can I exchange it?",
+   "exampleTranslation": {
+    "uk": "Чи можна це обміняти?"
+   }
+  },
+  {
+   "id": "gift_card",
+   "text": "gift card",
+   "ipa": "/ˈɡɪft kɑːd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "подарункова картка"
+   },
+   "example": "I have a gift card.",
+   "exampleTranslation": {
+    "uk": "У мене є подарункова картка."
+   }
+  },
+  {
+   "id": "gift",
+   "text": "gift",
+   "ipa": "/ɡɪft/",
+   "pos": "noun",
+   "translation": {
+    "uk": "подарунок"
+   },
+   "example": "This is a gift for my sister.",
+   "exampleTranslation": {
+    "uk": "Це подарунок для сестри."
+   }
+  },
+  {
+   "id": "wrapping",
+   "text": "wrapping",
+   "ipa": "/ˈræpɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "подарункова упаковка"
+   },
+   "example": "Free gift wrapping.",
+   "exampleTranslation": {
+    "uk": "Безкоштовна подарункова упаковка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Cash or card?",
+   "prompt": {
+    "uk": "Повторимо. Карткою. Що відповісти?"
+   },
+   "options": [
+    "By card, please.",
+    "On card, please.",
+    "With a card pay."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "By card, please."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "refund",
+     "right": {
+      "uk": "повернення коштів"
+     }
+    },
+    {
+     "left": "exchange",
+     "right": {
+      "uk": "обмінювати"
+     }
+    },
+    {
+     "left": "gift card",
+     "right": {
+      "uk": "подарункова картка"
+     }
+    },
+    {
+     "left": "gift",
+     "right": {
+      "uk": "подарунок"
+     }
+    },
+    {
+     "left": "wrapping",
+     "right": {
+      "uk": "подарункова упаковка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'd like a refund.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Повернути гроші",
+     "Обміняти товар",
+     "Знижку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Refund."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Can I exchange it?",
+   "prompt": {
+    "uk": "Прослухайте. Що питає людина?"
+   },
+   "options": {
+    "uk": [
+     "Чи можна обміняти",
+     "Чи можна повернути гроші",
+     "Скільки це коштує"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Exchange."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "This is a gift for my sister.",
+   "prompt": {
+    "uk": "Прослухайте. Для кого подарунок?"
+   },
+   "options": {
+    "uk": [
+     "Для сестри",
+     "Для брата",
+     "Для мами"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sister."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'd like a ___.",
+   "options": [
+    "refund",
+    "wrapping",
+    "exchange rate"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Повернення — refund."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I ___ it?",
+   "options": [
+    "exchange",
+    "refund",
+    "gift"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Обміняти — exchange."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is a ___ for my sister.",
+   "options": [
+    "gift",
+    "refund",
+    "charge"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Подарунок — gift."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке refund?"
+   },
+   "options": {
+    "uk": [
+     "повернення коштів",
+     "подарунок",
+     "упаковка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Refund — повернення коштів."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це подарунок для сестри."
+   },
+   "words": [
+    "This",
+    "is",
+    "a",
+    "gift",
+    "for",
+    "my",
+    "sister",
+    "refund",
+    "gifts"
+   ],
+   "answer": [
+    "This",
+    "is",
+    "a",
+    "gift",
+    "for",
+    "my",
+    "sister"
+   ],
+   "explanation": {
+    "uk": "This is a gift for my sister."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Чи можна це обміняти?"
+   },
+   "answers": [
+    "Can I exchange it"
+   ],
+   "explanation": {
+    "uk": "Can I exchange it?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is there a problem with it?",
+   "prompt": {
+    "uk": "Я хочу обміняти. Що відповісти?"
+   },
+   "options": [
+    "Yes, I'd like to exchange it.",
+    "Yes, I want exchange.",
+    "Yes, I like to exchange to it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I'd like to exchange it."
+   }
+  }
+ ]
+}

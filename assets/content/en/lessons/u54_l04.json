@@ -1,0 +1,322 @@
+{
+ "id": "u54_l04",
+ "unit": "u54",
+ "cefr": "A1",
+ "title": {
+  "uk": "Пакети й ярлики"
+ },
+ "goal": {
+  "uk": "Розуміти написи на товарах."
+ },
+ "rule": {
+  "uk": "Plastic — пластик, paper — папір, label — етикетка, voucher і coupon — знижковий купон. Paper bag — паперовий пакет, plastic bag — пластиковий. Check the label — прочитайте етикетку."
+ },
+ "words": [
+  {
+   "id": "plastic",
+   "text": "plastic",
+   "ipa": "/ˈplæstɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пластик"
+   },
+   "example": "I don't use plastic bags.",
+   "exampleTranslation": {
+    "uk": "Я не користуюся пластиковими пакетами."
+   }
+  },
+  {
+   "id": "paper",
+   "text": "paper",
+   "ipa": "/ˈpeɪpə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "папір"
+   },
+   "example": "A paper bag, please.",
+   "exampleTranslation": {
+    "uk": "Паперовий пакет, будь ласка."
+   }
+  },
+  {
+   "id": "label",
+   "text": "label",
+   "ipa": "/ˈleɪbl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "етикетка"
+   },
+   "example": "Read the label.",
+   "exampleTranslation": {
+    "uk": "Прочитайте етикетку."
+   }
+  },
+  {
+   "id": "voucher",
+   "text": "voucher",
+   "ipa": "/ˈvaʊtʃə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ваучер"
+   },
+   "example": "I have a voucher.",
+   "exampleTranslation": {
+    "uk": "У мене є ваучер."
+   }
+  },
+  {
+   "id": "coupon",
+   "text": "coupon",
+   "ipa": "/ˈkuːpɒn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "купон на знижку"
+   },
+   "example": "Here is a coupon for cheese.",
+   "exampleTranslation": {
+    "uk": "Ось купон на сир."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How much does it cost?",
+   "prompt": {
+    "uk": "Повторимо. П'ять фунтів. Що відповісти?"
+   },
+   "options": [
+    "It costs five pounds.",
+    "It cost five pounds.",
+    "It is cost five pound."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It costs five pounds."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "plastic",
+     "right": {
+      "uk": "пластик"
+     }
+    },
+    {
+     "left": "paper",
+     "right": {
+      "uk": "папір"
+     }
+    },
+    {
+     "left": "label",
+     "right": {
+      "uk": "етикетка"
+     }
+    },
+    {
+     "left": "voucher",
+     "right": {
+      "uk": "ваучер"
+     }
+    },
+    {
+     "left": "coupon",
+     "right": {
+      "uk": "купон на знижку"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "A paper bag, please.",
+   "prompt": {
+    "uk": "Прослухайте. Який пакет?"
+   },
+   "options": {
+    "uk": [
+     "Паперовий",
+     "Пластиковий",
+     "Великий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Paper."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Read the label.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Прочитати етикетку",
+     "Купити товар",
+     "Взяти пакет"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Label."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Here is a coupon for cheese.",
+   "prompt": {
+    "uk": "Прослухайте. На що купон?"
+   },
+   "options": {
+    "uk": [
+     "На сир",
+     "На хліб",
+     "На молоко"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cheese."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ bag, please.",
+   "options": [
+    "paper",
+    "coupon",
+    "label"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Паперовий пакет."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Read the ___.",
+   "options": [
+    "label",
+    "plastic",
+    "voucher"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Етикетку читають."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___ for cheese.",
+   "options": [
+    "coupon",
+    "plastic",
+    "aisle"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Купон на сир."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке label?"
+   },
+   "options": {
+    "uk": [
+     "етикетка",
+     "пакет",
+     "купон"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Label — етикетка."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене є ваучер."
+   },
+   "words": [
+    "I",
+    "have",
+    "a",
+    "voucher",
+    "label",
+    "has"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "voucher"
+   ],
+   "explanation": {
+    "uk": "I have a voucher."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Паперовий пакет, будь ласка."
+   },
+   "answers": [
+    "A paper bag, please"
+   ],
+   "explanation": {
+    "uk": "A paper bag, please."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you need a bag?",
+   "prompt": {
+    "uk": "Паперовий. Що відповісти?"
+   },
+   "options": [
+    "A paper one, please.",
+    "Paper one a, please.",
+    "A paper bag it, please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "A paper one, please."
+   }
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "id": "u56_l02",
+ "unit": "u56",
+ "cefr": "A1",
+ "title": {
+  "uk": "Тканини й вигляд"
+ },
+ "goal": {
+  "uk": "Описати матеріал одягу."
+ },
+ "rule": {
+  "uk": "Cotton — бавовна, wool — вовна, leather — шкіра, plain — однотонний, striped — смугастий. Приклади: a cotton shirt, a wool scarf, a leather bag. A plain T-shirt — однотонна футболка."
+ },
+ "words": [
+  {
+   "id": "cotton",
+   "text": "cotton",
+   "ipa": "/ˈkɒtn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "бавовна"
+   },
+   "example": "A cotton shirt.",
+   "exampleTranslation": {
+    "uk": "Бавовняна сорочка."
+   }
+  },
+  {
+   "id": "wool",
+   "text": "wool",
+   "ipa": "/wʊl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вовна"
+   },
+   "example": "A wool scarf.",
+   "exampleTranslation": {
+    "uk": "Вовняний шарф."
+   }
+  },
+  {
+   "id": "leather",
+   "text": "leather",
+   "ipa": "/ˈleðə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шкіра (матеріал)"
+   },
+   "example": "A leather bag.",
+   "exampleTranslation": {
+    "uk": "Шкіряна сумка."
+   }
+  },
+  {
+   "id": "plain",
+   "text": "plain",
+   "ipa": "/pleɪn/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "однотонний"
+   },
+   "example": "A plain T-shirt.",
+   "exampleTranslation": {
+    "uk": "Однотонна футболка."
+   }
+  },
+  {
+   "id": "striped",
+   "text": "striped",
+   "ipa": "/straɪpt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "смугастий"
+   },
+   "example": "A striped shirt.",
+   "exampleTranslation": {
+    "uk": "Смугаста сорочка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What jacket do you want?",
+   "prompt": {
+    "uk": "Повторимо. З капюшоном. Що відповісти?"
+   },
+   "options": [
+    "One with a hood, please.",
+    "Jacket hood with, please.",
+    "With the hood one."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "One with a hood, please."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "cotton",
+     "right": {
+      "uk": "бавовна"
+     }
+    },
+    {
+     "left": "wool",
+     "right": {
+      "uk": "вовна"
+     }
+    },
+    {
+     "left": "leather",
+     "right": {
+      "uk": "шкіра (матеріал)"
+     }
+    },
+    {
+     "left": "plain",
+     "right": {
+      "uk": "однотонний"
+     }
+    },
+    {
+     "left": "striped",
+     "right": {
+      "uk": "смугастий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "A wool scarf.",
+   "prompt": {
+    "uk": "Прослухайте. Який шарф?"
+   },
+   "options": {
+    "uk": [
+     "Вовняний",
+     "Бавовняний",
+     "Шкіряний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Wool."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "A leather bag.",
+   "prompt": {
+    "uk": "Прослухайте. Яка сумка?"
+   },
+   "options": {
+    "uk": [
+     "Шкіряна",
+     "Вовняна",
+     "Бавовняна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Leather."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "A plain T-shirt.",
+   "prompt": {
+    "uk": "Прослухайте. Яка футболка?"
+   },
+   "options": {
+    "uk": [
+     "Однотонна",
+     "Смугаста",
+     "Червона"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Plain."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ shirt. (бавовняна)",
+   "options": [
+    "cotton",
+    "wool",
+    "leather"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Бавовна — cotton."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ scarf. (вовняний)",
+   "options": [
+    "wool",
+    "plain",
+    "cotton"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вовна — wool."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A ___ bag. (шкіряна)",
+   "options": [
+    "leather",
+    "striped",
+    "cotton"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Шкіра — leather."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке striped?"
+   },
+   "options": {
+    "uk": [
+     "смугастий",
+     "однотонний",
+     "вовняний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Striped — смугастий."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Шкіряна сумка."
+   },
+   "words": [
+    "A",
+    "leather",
+    "bag",
+    "wool",
+    "cotton"
+   ],
+   "answer": [
+    "A",
+    "leather",
+    "bag"
+   ],
+   "explanation": {
+    "uk": "A leather bag."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Бавовняна сорочка."
+   },
+   "answers": [
+    "A cotton shirt"
+   ],
+   "explanation": {
+    "uk": "A cotton shirt."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is it made of?",
+   "prompt": {
+    "uk": "З вовни. Що відповісти?"
+   },
+   "options": [
+    "It's made of wool.",
+    "It's made from wool of.",
+    "It makes of wool."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's made of wool."
+   }
+  }
+ ]
+}

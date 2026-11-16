@@ -1,0 +1,322 @@
+{
+ "id": "u54_l03",
+ "unit": "u54",
+ "cefr": "A1",
+ "title": {
+  "uk": "Список і пропозиції"
+ },
+ "goal": {
+  "uk": "Говорити про список покупок і акції."
+ },
+ "rule": {
+  "uk": "Shopping list — список покупок. Offer — пропозиція, акція: a special offer. Bargain — вигідна покупка. Clearance — розпродаж залишків. Cost — коштувати: It costs five pounds. How much does it cost?"
+ },
+ "words": [
+  {
+   "id": "list",
+   "text": "list",
+   "ipa": "/lɪst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "список"
+   },
+   "example": "My shopping list is long.",
+   "exampleTranslation": {
+    "uk": "Мій список покупок довгий."
+   }
+  },
+  {
+   "id": "offer",
+   "text": "offer",
+   "ipa": "/ˈɒfə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "акція, пропозиція"
+   },
+   "example": "There is a special offer on milk.",
+   "exampleTranslation": {
+    "uk": "На молоко діє акція."
+   }
+  },
+  {
+   "id": "cost",
+   "text": "cost",
+   "ipa": "/kɒst/",
+   "pos": "verb",
+   "translation": {
+    "uk": "коштувати"
+   },
+   "example": "It costs five pounds.",
+   "exampleTranslation": {
+    "uk": "Це коштує п'ять фунтів."
+   }
+  },
+  {
+   "id": "bargain",
+   "text": "bargain",
+   "ipa": "/ˈbɑːɡɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вигідна покупка"
+   },
+   "example": "This jacket is a bargain.",
+   "exampleTranslation": {
+    "uk": "Ця куртка — вигідна покупка."
+   }
+  },
+  {
+   "id": "clearance",
+   "text": "clearance",
+   "ipa": "/ˈklɪərəns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "розпродаж залишків"
+   },
+   "example": "Clearance sale.",
+   "exampleTranslation": {
+    "uk": "Розпродаж залишків."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where can I buy bread?",
+   "prompt": {
+    "uk": "Повторимо. У пекарні. Що відповісти?"
+   },
+   "options": [
+    "In the bakery.",
+    "On the bakery.",
+    "At bakery bread."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "In the bakery."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "list",
+     "right": {
+      "uk": "список"
+     }
+    },
+    {
+     "left": "offer",
+     "right": {
+      "uk": "акція, пропозиція"
+     }
+    },
+    {
+     "left": "cost",
+     "right": {
+      "uk": "коштувати"
+     }
+    },
+    {
+     "left": "bargain",
+     "right": {
+      "uk": "вигідна покупка"
+     }
+    },
+    {
+     "left": "clearance",
+     "right": {
+      "uk": "розпродаж залишків"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "There is a special offer on milk.",
+   "prompt": {
+    "uk": "Прослухайте. На що акція?"
+   },
+   "options": {
+    "uk": [
+     "На молоко",
+     "На хліб",
+     "На сир"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Milk."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It costs five pounds.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки це коштує?"
+   },
+   "options": {
+    "uk": [
+     "П'ять фунтів",
+     "П'ятнадцять фунтів",
+     "Два фунти"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Five pounds."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "This jacket is a bargain.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це вигідна покупка",
+     "Це дуже дорого",
+     "Це старе"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bargain."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My shopping ___ is long.",
+   "options": [
+    "list",
+    "offer",
+    "clearance"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Список."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It ___ five pounds.",
+   "options": [
+    "costs",
+    "cost",
+    "is cost"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "З it — costs."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This jacket is a ___.",
+   "options": [
+    "bargain",
+    "list",
+    "cost"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Bargain — вигідна покупка."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке bargain?"
+   },
+   "options": {
+    "uk": [
+     "вигідна покупка",
+     "список",
+     "акція"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bargain — вигідна покупка."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це коштує п'ять фунтів."
+   },
+   "words": [
+    "It",
+    "costs",
+    "five",
+    "pounds",
+    "cost",
+    "are"
+   ],
+   "answer": [
+    "It",
+    "costs",
+    "five",
+    "pounds"
+   ],
+   "explanation": {
+    "uk": "It costs five pounds."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "На молоко діє акція."
+   },
+   "answers": [
+    "There is a special offer on milk"
+   ],
+   "explanation": {
+    "uk": "There is a special offer on milk."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How much does it cost?",
+   "prompt": {
+    "uk": "П'ять фунтів. Що відповісти?"
+   },
+   "options": [
+    "It costs five pounds.",
+    "It cost five pounds.",
+    "It is cost five pound."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It costs five pounds."
+   }
+  }
+ ]
+}
