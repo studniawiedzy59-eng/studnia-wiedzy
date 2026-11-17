@@ -1,0 +1,326 @@
+{
+ "id": "u69_l05",
+ "unit": "u69",
+ "cefr": "A1",
+ "title": {
+  "uk": "Найкращий і найгірший"
+ },
+ "goal": {
+  "uk": "Вживати best, worst та вирази зі superlative."
+ },
+ "rule": {
+  "uk": "Неправильні форми: good — the best, bad — the worst. Корисні вирази: one of the — один із, in the world — у світі, of all — з усіх. Приклад: It's one of the best films in the world. This is the worst day of all."
+ },
+ "words": [
+  {
+   "id": "best",
+   "text": "best",
+   "ipa": "/best/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найкращий"
+   },
+   "example": "It's the best film.",
+   "exampleTranslation": {
+    "uk": "Це найкращий фільм."
+   }
+  },
+  {
+   "id": "worst",
+   "text": "worst",
+   "ipa": "/wɜːst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найгірший"
+   },
+   "example": "It's the worst day.",
+   "exampleTranslation": {
+    "uk": "Це найгірший день."
+   }
+  },
+  {
+   "id": "one_of_the",
+   "text": "one of the",
+   "ipa": "/ˌwʌn əv ðə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "один із"
+   },
+   "example": "It's one of the best films.",
+   "exampleTranslation": {
+    "uk": "Це один із найкращих фільмів."
+   }
+  },
+  {
+   "id": "in_the_world",
+   "text": "in the world",
+   "ipa": "/ɪn ðə ˈwɜːld/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "у світі"
+   },
+   "example": "It's the biggest city in the world.",
+   "exampleTranslation": {
+    "uk": "Це найбільше місто у світі."
+   }
+  },
+  {
+   "id": "of_all",
+   "text": "of all",
+   "ipa": "/əv ˈɔːl/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "з усіх"
+   },
+   "example": "This is the best of all.",
+   "exampleTranslation": {
+    "uk": "Це найкраще з усього."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Which hotel is the most expensive?",
+   "prompt": {
+    "uk": "Повторимо. Цей. Що відповісти?"
+   },
+   "options": [
+    "This one is the most expensive.",
+    "This one is most expensive the.",
+    "This one is the expensivest."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This one is the most expensive."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "best",
+     "right": {
+      "uk": "найкращий"
+     }
+    },
+    {
+     "left": "worst",
+     "right": {
+      "uk": "найгірший"
+     }
+    },
+    {
+     "left": "one of the",
+     "right": {
+      "uk": "один із"
+     }
+    },
+    {
+     "left": "in the world",
+     "right": {
+      "uk": "у світі"
+     }
+    },
+    {
+     "left": "of all",
+     "right": {
+      "uk": "з усіх"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It's the best film.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це найкращий фільм",
+     "Це найгірший фільм",
+     "Це старий фільм"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Best."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's one of the best films.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це один із найкращих фільмів",
+     "Це найкращий фільм",
+     "Це найгірший фільм"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "One of the."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It's the biggest city in the world.",
+   "prompt": {
+    "uk": "Прослухайте. Де найбільше місто?"
+   },
+   "options": {
+    "uk": [
+     "У світі",
+     "В Європі",
+     "В Україні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "In the world."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's the ___ film.",
+   "options": [
+    "best",
+    "goodest",
+    "most good"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Good — the best."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's the ___ day.",
+   "options": [
+    "worst",
+    "baddest",
+    "most bad"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Bad — the worst."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's one ___ the best films.",
+   "options": [
+    "of",
+    "from",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "One of the."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від bad?"
+   },
+   "options": {
+    "uk": [
+     "the worst",
+     "the baddest",
+     "the most bad"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bad — the worst."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це один із найкращих фільмів."
+   },
+   "words": [
+    "It's",
+    "one",
+    "of",
+    "the",
+    "best",
+    "films",
+    "better",
+    "a"
+   ],
+   "answer": [
+    "It's",
+    "one",
+    "of",
+    "the",
+    "best",
+    "films"
+   ],
+   "explanation": {
+    "uk": "It's one of the best films."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це найбільше місто у світі."
+   },
+   "answers": [
+    "It's the biggest city in the world"
+   ],
+   "explanation": {
+    "uk": "It's the biggest city in the world."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is the best film you know?",
+   "prompt": {
+    "uk": "Цей. Що відповісти?"
+   },
+   "options": [
+    "This is the best film I know.",
+    "This is best film I know the.",
+    "This is the most good film I know."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This is the best film I know."
+   }
+  }
+ ]
+}

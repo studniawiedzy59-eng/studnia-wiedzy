@@ -1,0 +1,324 @@
+{
+ "id": "u69_l03",
+ "unit": "u69",
+ "cefr": "A1",
+ "title": {
+  "uk": "Правила написання"
+ },
+ "goal": {
+  "uk": "Правильно писати форми на -est."
+ },
+ "rule": {
+  "uk": "Після -e додаємо тільки -st: nice — the nicest, large — the largest. Подвоюємо приголосну: hot — the hottest. Приголосна + y → -iest: easy — the easiest, happy — the happiest."
+ },
+ "words": [
+  {
+   "id": "nicest",
+   "text": "nicest",
+   "ipa": "/ˈnaɪsɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найприємніший"
+   },
+   "example": "This is the nicest room.",
+   "exampleTranslation": {
+    "uk": "Це найприємніша кімната."
+   }
+  },
+  {
+   "id": "largest",
+   "text": "largest",
+   "ipa": "/ˈlɑːdʒɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найбільший"
+   },
+   "example": "It's the largest park.",
+   "exampleTranslation": {
+    "uk": "Це найбільший парк."
+   }
+  },
+  {
+   "id": "hottest",
+   "text": "hottest",
+   "ipa": "/ˈhɒtɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найспекотніший"
+   },
+   "example": "July is the hottest month.",
+   "exampleTranslation": {
+    "uk": "Липень — найспекотніший місяць."
+   }
+  },
+  {
+   "id": "easiest",
+   "text": "easiest",
+   "ipa": "/ˈiːziɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найлегший"
+   },
+   "example": "This is the easiest exercise.",
+   "exampleTranslation": {
+    "uk": "Це найлегша вправа."
+   }
+  },
+  {
+   "id": "happiest",
+   "text": "happiest",
+   "ipa": "/ˈhæpiɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найщасливіший"
+   },
+   "example": "It was the happiest day.",
+   "exampleTranslation": {
+    "uk": "Це був найщасливіший день."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Which is the cheapest?",
+   "prompt": {
+    "uk": "Повторимо. Цей магазин. Що відповісти?"
+   },
+   "options": [
+    "This shop is the cheapest.",
+    "This shop is cheapest the.",
+    "This shop is the most cheap."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This shop is the cheapest."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "nicest",
+     "right": {
+      "uk": "найприємніший"
+     }
+    },
+    {
+     "left": "largest",
+     "right": {
+      "uk": "найбільший"
+     }
+    },
+    {
+     "left": "hottest",
+     "right": {
+      "uk": "найспекотніший"
+     }
+    },
+    {
+     "left": "easiest",
+     "right": {
+      "uk": "найлегший"
+     }
+    },
+    {
+     "left": "happiest",
+     "right": {
+      "uk": "найщасливіший"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "July is the hottest month.",
+   "prompt": {
+    "uk": "Прослухайте. Який місяць найспекотніший?"
+   },
+   "options": {
+    "uk": [
+     "Липень",
+     "Червень",
+     "Серпень"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "July."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "This is the easiest exercise.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це найлегша вправа",
+     "Це найважча вправа",
+     "Це нова вправа"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Easiest."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It was the happiest day.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це був найщасливіший день",
+     "Це був найгірший день",
+     "Це був довгий день"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Happiest."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "July is the ___ month.",
+   "options": [
+    "hottest",
+    "hotest",
+    "most hot"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hot — hottest."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is the ___ exercise.",
+   "options": [
+    "easiest",
+    "easyest",
+    "most easy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Easy — easiest."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It was the ___ day.",
+   "options": [
+    "happiest",
+    "happyest",
+    "most happy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Happy — happiest."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від nice?"
+   },
+   "options": {
+    "uk": [
+     "the nicest",
+     "the niceest",
+     "the most nice"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nice — the nicest."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це найлегша вправа."
+   },
+   "words": [
+    "This",
+    "is",
+    "the",
+    "easiest",
+    "exercise",
+    "easier",
+    "a"
+   ],
+   "answer": [
+    "This",
+    "is",
+    "the",
+    "easiest",
+    "exercise"
+   ],
+   "explanation": {
+    "uk": "This is the easiest exercise."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Липень — найспекотніший місяць."
+   },
+   "answers": [
+    "July is the hottest month"
+   ],
+   "explanation": {
+    "uk": "July is the hottest month."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What was the happiest day?",
+   "prompt": {
+    "uk": "Мій день народження. Що відповісти?"
+   },
+   "options": [
+    "My birthday was the happiest day.",
+    "My birthday was happiest the day.",
+    "My birthday was the most happy day."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My birthday was the happiest day."
+   }
+  }
+ ]
+}

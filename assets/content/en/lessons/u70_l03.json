@@ -1,0 +1,322 @@
+{
+ "id": "u70_l03",
+ "unit": "u70",
+ "cefr": "A1",
+ "title": {
+  "uk": "Температура"
+ },
+ "goal": {
+  "uk": "Описати температуру."
+ },
+ "rule": {
+  "uk": "Chilly — прохолодний, boiling — спекотний, дуже гарячий, humid — вологий (про повітря), mild — м'який (про клімат), damp — сирий. Приклад: It's chilly in the morning. It's boiling today! The air is humid."
+ },
+ "words": [
+  {
+   "id": "chilly",
+   "text": "chilly",
+   "ipa": "/ˈtʃɪli/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "прохолодний"
+   },
+   "example": "It's chilly in the morning.",
+   "exampleTranslation": {
+    "uk": "Зранку прохолодно."
+   }
+  },
+  {
+   "id": "boiling",
+   "text": "boiling",
+   "ipa": "/ˈbɔɪlɪŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "пекельно спекотний"
+   },
+   "example": "It's boiling today!",
+   "exampleTranslation": {
+    "uk": "Сьогодні пекельна спека!"
+   }
+  },
+  {
+   "id": "humid",
+   "text": "humid",
+   "ipa": "/ˈhjuːmɪd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "вологий (повітря)"
+   },
+   "example": "The air is humid.",
+   "exampleTranslation": {
+    "uk": "Повітря вологе."
+   }
+  },
+  {
+   "id": "mild",
+   "text": "mild",
+   "ipa": "/maɪld/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "м'який (клімат)"
+   },
+   "example": "The winter is mild.",
+   "exampleTranslation": {
+    "uk": "Зима м'яка."
+   }
+  },
+  {
+   "id": "damp",
+   "text": "damp",
+   "ipa": "/dæmp/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "сирий"
+   },
+   "example": "The room is damp.",
+   "exampleTranslation": {
+    "uk": "У кімнаті сиро."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What was the weather like?",
+   "prompt": {
+    "uk": "Повторимо. Був град. Що відповісти?"
+   },
+   "options": [
+    "There was hail.",
+    "There were hail.",
+    "It was a hail."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There was hail."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "chilly",
+     "right": {
+      "uk": "прохолодний"
+     }
+    },
+    {
+     "left": "boiling",
+     "right": {
+      "uk": "пекельно спекотний"
+     }
+    },
+    {
+     "left": "humid",
+     "right": {
+      "uk": "вологий (повітря)"
+     }
+    },
+    {
+     "left": "mild",
+     "right": {
+      "uk": "м'який (клімат)"
+     }
+    },
+    {
+     "left": "damp",
+     "right": {
+      "uk": "сирий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It's chilly in the morning.",
+   "prompt": {
+    "uk": "Прослухайте. Коли прохолодно?"
+   },
+   "options": {
+    "uk": [
+     "Зранку",
+     "Увечері",
+     "Опівдні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Morning."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's boiling today!",
+   "prompt": {
+    "uk": "Прослухайте. Яка погода?"
+   },
+   "options": {
+    "uk": [
+     "Дуже спекотно",
+     "Холодно",
+     "Дощово"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Boiling."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The winter is mild.",
+   "prompt": {
+    "uk": "Прослухайте. Яка зима?"
+   },
+   "options": {
+    "uk": [
+     "М'яка",
+     "Сувора",
+     "Довга"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Mild."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's ___ in the morning.",
+   "options": [
+    "chilly",
+    "boiling",
+    "humid"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Прохолодно."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The air is ___.",
+   "options": [
+    "humid",
+    "chilly",
+    "mild"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вологе."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The winter is ___.",
+   "options": [
+    "mild",
+    "boiling",
+    "damp"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "М'яка."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке damp?"
+   },
+   "options": {
+    "uk": [
+     "сирий",
+     "спекотний",
+     "м'який"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Damp — сирий."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Зима м'яка."
+   },
+   "words": [
+    "The",
+    "winter",
+    "is",
+    "mild",
+    "are",
+    "boiling"
+   ],
+   "answer": [
+    "The",
+    "winter",
+    "is",
+    "mild"
+   ],
+   "explanation": {
+    "uk": "The winter is mild."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Повітря вологе."
+   },
+   "answers": [
+    "The air is humid"
+   ],
+   "explanation": {
+    "uk": "The air is humid."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is it cold in the morning?",
+   "prompt": {
+    "uk": "Прохолодно. Що відповісти?"
+   },
+   "options": [
+    "Yes, it's chilly.",
+    "Yes, it chilly is.",
+    "Yes, is it chilly."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it's chilly."
+   }
+  }
+ ]
+}

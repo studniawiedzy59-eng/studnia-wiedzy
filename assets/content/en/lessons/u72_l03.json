@@ -1,0 +1,322 @@
+{
+ "id": "u72_l03",
+ "unit": "u72",
+ "cefr": "A1",
+ "title": {
+  "uk": "Травми"
+ },
+ "goal": {
+  "uk": "Розповісти про травму."
+ },
+ "rule": {
+  "uk": "Burn — опік, sprain — розтягнення, fracture — перелом, swollen — опухлий, bandage — пов'язка. Приклад: I have a burn. I sprained my ankle. He has a fracture. My ankle is swollen."
+ },
+ "words": [
+  {
+   "id": "burn",
+   "text": "burn",
+   "ipa": "/bɜːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "опік"
+   },
+   "example": "I have a burn on my hand.",
+   "exampleTranslation": {
+    "uk": "У мене опік на руці."
+   }
+  },
+  {
+   "id": "sprain",
+   "text": "sprain",
+   "ipa": "/spreɪn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "розтягнути"
+   },
+   "example": "I sprained my ankle.",
+   "exampleTranslation": {
+    "uk": "Я розтягнув щиколотку."
+   }
+  },
+  {
+   "id": "fracture",
+   "text": "fracture",
+   "ipa": "/ˈfræktʃə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "перелом"
+   },
+   "example": "He has a fracture.",
+   "exampleTranslation": {
+    "uk": "У нього перелом."
+   }
+  },
+  {
+   "id": "swollen",
+   "text": "swollen",
+   "ipa": "/ˈswəʊlən/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "опухлий"
+   },
+   "example": "My ankle is swollen.",
+   "exampleTranslation": {
+    "uk": "Моя щиколотка опухла."
+   }
+  },
+  {
+   "id": "bandage",
+   "text": "bandage",
+   "ipa": "/ˈbændɪdʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пов'язка"
+   },
+   "example": "I need a bandage.",
+   "exampleTranslation": {
+    "uk": "Мені потрібна пов'язка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What hurts?",
+   "prompt": {
+    "uk": "Повторимо. Болить спина. Що відповісти?"
+   },
+   "options": [
+    "I have a backache.",
+    "My back have ache.",
+    "I am backache."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a backache."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "burn",
+     "right": {
+      "uk": "опік"
+     }
+    },
+    {
+     "left": "sprain",
+     "right": {
+      "uk": "розтягнути"
+     }
+    },
+    {
+     "left": "fracture",
+     "right": {
+      "uk": "перелом"
+     }
+    },
+    {
+     "left": "swollen",
+     "right": {
+      "uk": "опухлий"
+     }
+    },
+    {
+     "left": "bandage",
+     "right": {
+      "uk": "пов'язка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I have a burn on my hand.",
+   "prompt": {
+    "uk": "Прослухайте. Де опік?"
+   },
+   "options": {
+    "uk": [
+     "На руці",
+     "На нозі",
+     "На спині"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hand."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I sprained my ankle.",
+   "prompt": {
+    "uk": "Прослухайте. Що сталося?"
+   },
+   "options": {
+    "uk": [
+     "Розтягнув щиколотку",
+     "Зламав щиколотку",
+     "Порізав щиколотку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sprained."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "My ankle is swollen.",
+   "prompt": {
+    "uk": "Прослухайте. Що з щиколоткою?"
+   },
+   "options": {
+    "uk": [
+     "Опухла",
+     "Болить",
+     "Зламана"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Swollen."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___ on my hand.",
+   "options": [
+    "burn",
+    "fracture",
+    "bandage"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Опік."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ my ankle.",
+   "options": [
+    "sprained",
+    "sprain",
+    "spraining"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sprained."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I need a ___.",
+   "options": [
+    "bandage",
+    "swollen",
+    "fracture"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Пов'язка."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке fracture?"
+   },
+   "options": {
+    "uk": [
+     "перелом",
+     "опік",
+     "пов'язка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fracture — перелом."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я розтягнув щиколотку."
+   },
+   "words": [
+    "I",
+    "sprained",
+    "my",
+    "ankle",
+    "sprain",
+    "did"
+   ],
+   "answer": [
+    "I",
+    "sprained",
+    "my",
+    "ankle"
+   ],
+   "explanation": {
+    "uk": "I sprained my ankle."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Моя щиколотка опухла."
+   },
+   "answers": [
+    "My ankle is swollen"
+   ],
+   "explanation": {
+    "uk": "My ankle is swollen."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What happened to your ankle?",
+   "prompt": {
+    "uk": "Я її розтягнув. Що відповісти?"
+   },
+   "options": [
+    "I sprained it.",
+    "I did sprain it.",
+    "I sprain it yesterday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I sprained it."
+   }
+  }
+ ]
+}

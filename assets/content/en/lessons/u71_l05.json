@@ -1,0 +1,322 @@
+{
+ "id": "u71_l05",
+ "unit": "u71",
+ "cefr": "A1",
+ "title": {
+  "uk": "Вітання"
+ },
+ "goal": {
+  "uk": "Вітати й запрошувати."
+ },
+ "rule": {
+  "uk": "Congratulations — вітаю, greeting — привітання, host — господар, banquet — бенкет, carnival — карнавал. Congratulations! — вітаю з успіхом. Приклад: I sent a greeting. The host is friendly. We went to the carnival."
+ },
+ "words": [
+  {
+   "id": "congratulations",
+   "text": "congratulations",
+   "ipa": "/kənˌɡrætʃuˈleɪʃnz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вітаю"
+   },
+   "example": "Congratulations on your wedding!",
+   "exampleTranslation": {
+    "uk": "Вітаю з весіллям!"
+   }
+  },
+  {
+   "id": "greeting",
+   "text": "greeting",
+   "ipa": "/ˈɡriːtɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "привітання"
+   },
+   "example": "I sent a greeting.",
+   "exampleTranslation": {
+    "uk": "Я надіслала привітання."
+   }
+  },
+  {
+   "id": "host",
+   "text": "host",
+   "ipa": "/həʊst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "господар"
+   },
+   "example": "The host is friendly.",
+   "exampleTranslation": {
+    "uk": "Господар привітний."
+   }
+  },
+  {
+   "id": "banquet",
+   "text": "banquet",
+   "ipa": "/ˈbæŋkwɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "бенкет"
+   },
+   "example": "It's a wedding banquet.",
+   "exampleTranslation": {
+    "uk": "Це весільний бенкет."
+   }
+  },
+  {
+   "id": "carnival",
+   "text": "carnival",
+   "ipa": "/ˈkɑːnɪvl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "карнавал"
+   },
+   "example": "We went to the carnival.",
+   "exampleTranslation": {
+    "uk": "Ми були на карнавалі."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you do at Easter?",
+   "prompt": {
+    "uk": "Повторимо. Шукаємо яйця. Що відповісти?"
+   },
+   "options": [
+    "We have an egg hunt.",
+    "We are have egg hunt.",
+    "We make egg hunting."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We have an egg hunt."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "congratulations",
+     "right": {
+      "uk": "вітаю"
+     }
+    },
+    {
+     "left": "greeting",
+     "right": {
+      "uk": "привітання"
+     }
+    },
+    {
+     "left": "host",
+     "right": {
+      "uk": "господар"
+     }
+    },
+    {
+     "left": "banquet",
+     "right": {
+      "uk": "бенкет"
+     }
+    },
+    {
+     "left": "carnival",
+     "right": {
+      "uk": "карнавал"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Congratulations on your wedding!",
+   "prompt": {
+    "uk": "Прослухайте. З чим вітають?"
+   },
+   "options": {
+    "uk": [
+     "З весіллям",
+     "З днем народження",
+     "З Новим роком"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Wedding."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The host is friendly.",
+   "prompt": {
+    "uk": "Прослухайте. Який господар?"
+   },
+   "options": {
+    "uk": [
+     "Привітний",
+     "Суворий",
+     "Втомлений"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Friendly."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We went to the carnival.",
+   "prompt": {
+    "uk": "Прослухайте. Куди вони пішли?"
+   },
+   "options": {
+    "uk": [
+     "На карнавал",
+     "На парад",
+     "На бенкет"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Carnival."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ on your wedding!",
+   "options": [
+    "Congratulations",
+    "Greeting",
+    "Host"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вітаю."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is friendly.",
+   "options": [
+    "host",
+    "banquet",
+    "carnival"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Господар."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We went to the ___.",
+   "options": [
+    "carnival",
+    "greeting",
+    "host"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Карнавал."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке banquet?"
+   },
+   "options": {
+    "uk": [
+     "бенкет",
+     "карнавал",
+     "привітання"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Banquet — бенкет."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вітаю з весіллям!"
+   },
+   "words": [
+    "Congratulations",
+    "on",
+    "your",
+    "wedding",
+    "greeting",
+    "at"
+   ],
+   "answer": [
+    "Congratulations",
+    "on",
+    "your",
+    "wedding"
+   ],
+   "explanation": {
+    "uk": "Congratulations on your wedding!"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми були на карнавалі."
+   },
+   "answers": [
+    "We went to the carnival"
+   ],
+   "explanation": {
+    "uk": "We went to the carnival."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "It's my birthday!",
+   "prompt": {
+    "uk": "Вітаю! Що сказати?"
+   },
+   "options": [
+    "Congratulations! Happy birthday!",
+    "Congratulate you birthday!",
+    "Greeting happy birthday you!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Congratulations! Happy birthday!"
+   }
+  }
+ ]
+}

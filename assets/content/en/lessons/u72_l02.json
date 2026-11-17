@@ -1,0 +1,322 @@
+{
+ "id": "u72_l02",
+ "unit": "u72",
+ "cefr": "A1",
+ "title": {
+  "uk": "Що болить"
+ },
+ "goal": {
+  "uk": "Назвати, що саме болить."
+ },
+ "rule": {
+  "uk": "-ache — біль: backache — біль у спині, stomachache — біль у животі, earache — біль у вусі. Rash — висип, bruise — синець. Приклад: I have a backache. He has a rash. She has a big bruise."
+ },
+ "words": [
+  {
+   "id": "backache",
+   "text": "backache",
+   "ipa": "/ˈbækeɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "біль у спині"
+   },
+   "example": "I have a backache.",
+   "exampleTranslation": {
+    "uk": "У мене болить спина."
+   }
+  },
+  {
+   "id": "stomachache",
+   "text": "stomachache",
+   "ipa": "/ˈstʌməkeɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "біль у животі"
+   },
+   "example": "She has a stomachache.",
+   "exampleTranslation": {
+    "uk": "У неї болить живіт."
+   }
+  },
+  {
+   "id": "earache",
+   "text": "earache",
+   "ipa": "/ˈɪəreɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "біль у вусі"
+   },
+   "example": "He has an earache.",
+   "exampleTranslation": {
+    "uk": "У нього болить вухо."
+   }
+  },
+  {
+   "id": "rash",
+   "text": "rash",
+   "ipa": "/ræʃ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "висип"
+   },
+   "example": "He has a rash.",
+   "exampleTranslation": {
+    "uk": "У нього висип."
+   }
+  },
+  {
+   "id": "bruise",
+   "text": "bruise",
+   "ipa": "/bruːz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "синець"
+   },
+   "example": "She has a big bruise.",
+   "exampleTranslation": {
+    "uk": "У неї великий синець."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What's the matter?",
+   "prompt": {
+    "uk": "Повторимо. У мене температура. Що відповісти?"
+   },
+   "options": [
+    "I have a fever.",
+    "I am have fever.",
+    "My fever is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a fever."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "backache",
+     "right": {
+      "uk": "біль у спині"
+     }
+    },
+    {
+     "left": "stomachache",
+     "right": {
+      "uk": "біль у животі"
+     }
+    },
+    {
+     "left": "earache",
+     "right": {
+      "uk": "біль у вусі"
+     }
+    },
+    {
+     "left": "rash",
+     "right": {
+      "uk": "висип"
+     }
+    },
+    {
+     "left": "bruise",
+     "right": {
+      "uk": "синець"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I have a backache.",
+   "prompt": {
+    "uk": "Прослухайте. Що болить?"
+   },
+   "options": {
+    "uk": [
+     "Спина",
+     "Живіт",
+     "Вухо"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Backache."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She has a stomachache.",
+   "prompt": {
+    "uk": "Прослухайте. Що болить?"
+   },
+   "options": {
+    "uk": [
+     "Живіт",
+     "Спина",
+     "Голова"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Stomachache."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "He has a rash.",
+   "prompt": {
+    "uk": "Прослухайте. Що в нього?"
+   },
+   "options": {
+    "uk": [
+     "Висип",
+     "Синець",
+     "Температура"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Rash."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___. (спина)",
+   "options": [
+    "backache",
+    "earache",
+    "rash"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Backache."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He has an ___.",
+   "options": [
+    "earache",
+    "stomachache",
+    "bruise"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "An перед голосною."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She has a big ___.",
+   "options": [
+    "bruise",
+    "rash",
+    "fever"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Синець."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке earache?"
+   },
+   "options": {
+    "uk": [
+     "біль у вусі",
+     "біль у спині",
+     "висип"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Earache — біль у вусі."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У неї болить живіт."
+   },
+   "words": [
+    "She",
+    "has",
+    "a",
+    "stomachache",
+    "have",
+    "rash"
+   ],
+   "answer": [
+    "She",
+    "has",
+    "a",
+    "stomachache"
+   ],
+   "explanation": {
+    "uk": "She has a stomachache."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене болить спина."
+   },
+   "answers": [
+    "I have a backache"
+   ],
+   "explanation": {
+    "uk": "I have a backache."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What hurts?",
+   "prompt": {
+    "uk": "Болить спина. Що відповісти?"
+   },
+   "options": [
+    "I have a backache.",
+    "My back have ache.",
+    "I am backache."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a backache."
+   }
+  }
+ ]
+}

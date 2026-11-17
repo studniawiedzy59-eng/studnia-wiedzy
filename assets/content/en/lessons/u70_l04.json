@@ -1,0 +1,322 @@
+{
+ "id": "u70_l04",
+ "unit": "u70",
+ "cefr": "A1",
+ "title": {
+  "uk": "Пори року й природа"
+ },
+ "goal": {
+  "uk": "Описати зміни в природі."
+ },
+ "rule": {
+  "uk": "Harvest — урожай, bloom — цвісти, leaves — листя, rainbow — веселка, snowflake — сніжинка. Приклад: Flowers bloom in spring. The leaves fall in autumn. We saw a rainbow. A snowflake is beautiful."
+ },
+ "words": [
+  {
+   "id": "harvest",
+   "text": "harvest",
+   "ipa": "/ˈhɑːvɪst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "урожай"
+   },
+   "example": "The harvest is in September.",
+   "exampleTranslation": {
+    "uk": "Урожай збирають у вересні."
+   }
+  },
+  {
+   "id": "bloom",
+   "text": "bloom",
+   "ipa": "/bluːm/",
+   "pos": "verb",
+   "translation": {
+    "uk": "цвісти"
+   },
+   "example": "Flowers bloom in spring.",
+   "exampleTranslation": {
+    "uk": "Навесні квіти цвітуть."
+   }
+  },
+  {
+   "id": "leaves",
+   "text": "leaves",
+   "ipa": "/liːvz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "листя"
+   },
+   "example": "The leaves fall in autumn.",
+   "exampleTranslation": {
+    "uk": "Восени листя опадає."
+   }
+  },
+  {
+   "id": "rainbow",
+   "text": "rainbow",
+   "ipa": "/ˈreɪnbəʊ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "веселка"
+   },
+   "example": "We saw a rainbow.",
+   "exampleTranslation": {
+    "uk": "Ми побачили веселку."
+   }
+  },
+  {
+   "id": "snowflake",
+   "text": "snowflake",
+   "ipa": "/ˈsnəʊfleɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сніжинка"
+   },
+   "example": "A snowflake is beautiful.",
+   "exampleTranslation": {
+    "uk": "Сніжинка красива."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is it cold in the morning?",
+   "prompt": {
+    "uk": "Повторимо. Прохолодно. Що відповісти?"
+   },
+   "options": [
+    "Yes, it's chilly.",
+    "Yes, it chilly is.",
+    "Yes, is it chilly."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it's chilly."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "harvest",
+     "right": {
+      "uk": "урожай"
+     }
+    },
+    {
+     "left": "bloom",
+     "right": {
+      "uk": "цвісти"
+     }
+    },
+    {
+     "left": "leaves",
+     "right": {
+      "uk": "листя"
+     }
+    },
+    {
+     "left": "rainbow",
+     "right": {
+      "uk": "веселка"
+     }
+    },
+    {
+     "left": "snowflake",
+     "right": {
+      "uk": "сніжинка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The harvest is in September.",
+   "prompt": {
+    "uk": "Прослухайте. Коли урожай?"
+   },
+   "options": {
+    "uk": [
+     "У вересні",
+     "У березні",
+     "У грудні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "September."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The leaves fall in autumn.",
+   "prompt": {
+    "uk": "Прослухайте. Коли опадає листя?"
+   },
+   "options": {
+    "uk": [
+     "Восени",
+     "Навесні",
+     "Узимку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Autumn."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We saw a rainbow.",
+   "prompt": {
+    "uk": "Прослухайте. Що побачили?"
+   },
+   "options": {
+    "uk": [
+     "Веселку",
+     "Блискавку",
+     "Сніжинку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Rainbow."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Flowers ___ in spring.",
+   "options": [
+    "bloom",
+    "leaves",
+    "harvest"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Цвітуть."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ fall in autumn.",
+   "options": [
+    "leaves",
+    "leafs",
+    "harvest"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Leaves — множина."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We saw a ___.",
+   "options": [
+    "rainbow",
+    "harvest",
+    "snowflake"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Веселка."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке harvest?"
+   },
+   "options": {
+    "uk": [
+     "урожай",
+     "веселка",
+     "листя"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Harvest — урожай."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми побачили веселку."
+   },
+   "words": [
+    "We",
+    "saw",
+    "a",
+    "rainbow",
+    "see",
+    "did"
+   ],
+   "answer": [
+    "We",
+    "saw",
+    "a",
+    "rainbow"
+   ],
+   "explanation": {
+    "uk": "We saw a rainbow."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Навесні квіти цвітуть."
+   },
+   "answers": [
+    "Flowers bloom in spring"
+   ],
+   "explanation": {
+    "uk": "Flowers bloom in spring."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What happens in autumn?",
+   "prompt": {
+    "uk": "Листя опадає. Що відповісти?"
+   },
+   "options": [
+    "The leaves fall.",
+    "The leaf are fall.",
+    "Leaves is falling."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The leaves fall."
+   }
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "id": "u72_l04",
+ "unit": "u72",
+ "cefr": "A1",
+ "title": {
+  "uk": "Ліки й лікування"
+ },
+ "goal": {
+  "uk": "Розуміти призначення лікаря."
+ },
+ "rule": {
+  "uk": "Tablet — таблетка, pill — пігулка, ointment — мазь, injection — укол, vaccine — вакцина. Приклад: Take one tablet twice a day. Put the ointment on the rash. I had an injection. I got the vaccine."
+ },
+ "words": [
+  {
+   "id": "tablet",
+   "text": "tablet",
+   "ipa": "/ˈtæblət/",
+   "pos": "noun",
+   "translation": {
+    "uk": "таблетка"
+   },
+   "example": "Take one tablet twice a day.",
+   "exampleTranslation": {
+    "uk": "Приймайте по одній таблетці двічі на день."
+   }
+  },
+  {
+   "id": "pill",
+   "text": "pill",
+   "ipa": "/pɪl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пігулка"
+   },
+   "example": "I take a vitamin pill.",
+   "exampleTranslation": {
+    "uk": "Я приймаю вітамінну пігулку."
+   }
+  },
+  {
+   "id": "ointment",
+   "text": "ointment",
+   "ipa": "/ˈɔɪntmənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мазь"
+   },
+   "example": "Put the ointment on the rash.",
+   "exampleTranslation": {
+    "uk": "Нанесіть мазь на висип."
+   }
+  },
+  {
+   "id": "injection",
+   "text": "injection",
+   "ipa": "/ɪnˈdʒekʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "укол"
+   },
+   "example": "I had an injection.",
+   "exampleTranslation": {
+    "uk": "Мені зробили укол."
+   }
+  },
+  {
+   "id": "vaccine",
+   "text": "vaccine",
+   "ipa": "/ˈvæksiːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вакцина"
+   },
+   "example": "I got the vaccine.",
+   "exampleTranslation": {
+    "uk": "Мені зробили щеплення."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What happened to your ankle?",
+   "prompt": {
+    "uk": "Повторимо. Я її розтягнув. Що відповісти?"
+   },
+   "options": [
+    "I sprained it.",
+    "I did sprain it.",
+    "I sprain it yesterday."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I sprained it."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "tablet",
+     "right": {
+      "uk": "таблетка"
+     }
+    },
+    {
+     "left": "pill",
+     "right": {
+      "uk": "пігулка"
+     }
+    },
+    {
+     "left": "ointment",
+     "right": {
+      "uk": "мазь"
+     }
+    },
+    {
+     "left": "injection",
+     "right": {
+      "uk": "укол"
+     }
+    },
+    {
+     "left": "vaccine",
+     "right": {
+      "uk": "вакцина"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Take one tablet twice a day.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки разів на день?"
+   },
+   "options": {
+    "uk": [
+     "Двічі",
+     "Тричі",
+     "Раз"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Put the ointment on the rash.",
+   "prompt": {
+    "uk": "Прослухайте. Що робити з маззю?"
+   },
+   "options": {
+    "uk": [
+     "Нанести на висип",
+     "Випити",
+     "Не використовувати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ointment."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I had an injection.",
+   "prompt": {
+    "uk": "Прослухайте. Що зробили людині?"
+   },
+   "options": {
+    "uk": [
+     "Укол",
+     "Пов'язку",
+     "Рентген"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Injection."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Take one ___ twice a day.",
+   "options": [
+    "tablet",
+    "ointment",
+    "vaccine"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Таблетка."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Put the ___ on the rash.",
+   "options": [
+    "ointment",
+    "injection",
+    "pill"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Мазь."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I got the ___.",
+   "options": [
+    "vaccine",
+    "bruise",
+    "fever"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вакцина."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке injection?"
+   },
+   "options": {
+    "uk": [
+     "укол",
+     "мазь",
+     "таблетка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Injection — укол."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Приймайте одну таблетку двічі на день."
+   },
+   "words": [
+    "Take",
+    "one",
+    "tablet",
+    "twice",
+    "a",
+    "day",
+    "takes",
+    "pill"
+   ],
+   "answer": [
+    "Take",
+    "one",
+    "tablet",
+    "twice",
+    "a",
+    "day"
+   ],
+   "explanation": {
+    "uk": "Take one tablet twice a day."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мені зробили укол."
+   },
+   "answers": [
+    "I had an injection"
+   ],
+   "explanation": {
+    "uk": "I had an injection."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How often do I take the tablet?",
+   "prompt": {
+    "uk": "Двічі на день. Що відповісти?"
+   },
+   "options": [
+    "Twice a day.",
+    "Two time a day.",
+    "In a day twice."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a day."
+   }
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "id": "u71_l01",
+ "unit": "u71",
+ "cefr": "A1",
+ "title": {
+  "uk": "Свята й традиції"
+ },
+ "goal": {
+  "uk": "Говорити про свята й традиції."
+ },
+ "rule": {
+  "uk": "Tradition — традиція, custom — звичай, celebration — святкування, ceremony — церемонія, parade — парад. Приклад: It's a family tradition. It's a local custom. There is a parade in the city."
+ },
+ "words": [
+  {
+   "id": "tradition",
+   "text": "tradition",
+   "ipa": "/trəˈdɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "традиція"
+   },
+   "example": "It's a family tradition.",
+   "exampleTranslation": {
+    "uk": "Це сімейна традиція."
+   }
+  },
+  {
+   "id": "custom",
+   "text": "custom",
+   "ipa": "/ˈkʌstəm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "звичай"
+   },
+   "example": "It's a local custom.",
+   "exampleTranslation": {
+    "uk": "Це місцевий звичай."
+   }
+  },
+  {
+   "id": "celebration",
+   "text": "celebration",
+   "ipa": "/ˌselɪˈbreɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "святкування"
+   },
+   "example": "The celebration lasts three days.",
+   "exampleTranslation": {
+    "uk": "Святкування триває три дні."
+   }
+  },
+  {
+   "id": "ceremony",
+   "text": "ceremony",
+   "ipa": "/ˈserəməni/",
+   "pos": "noun",
+   "translation": {
+    "uk": "церемонія"
+   },
+   "example": "The ceremony was beautiful.",
+   "exampleTranslation": {
+    "uk": "Церемонія була гарною."
+   }
+  },
+  {
+   "id": "parade",
+   "text": "parade",
+   "ipa": "/pəˈreɪd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "парад"
+   },
+   "example": "There is a parade in the city.",
+   "exampleTranslation": {
+    "uk": "У місті відбувається парад."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What was the weather like yesterday?",
+   "prompt": {
+    "uk": "Повторимо. Мжичка й туман. Що відповісти?"
+   },
+   "options": [
+    "There was drizzle and fog.",
+    "It were drizzle and fog.",
+    "Yesterday drizzle and fog was."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There was drizzle and fog."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "tradition",
+     "right": {
+      "uk": "традиція"
+     }
+    },
+    {
+     "left": "custom",
+     "right": {
+      "uk": "звичай"
+     }
+    },
+    {
+     "left": "celebration",
+     "right": {
+      "uk": "святкування"
+     }
+    },
+    {
+     "left": "ceremony",
+     "right": {
+      "uk": "церемонія"
+     }
+    },
+    {
+     "left": "parade",
+     "right": {
+      "uk": "парад"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It's a family tradition.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це сімейна традиція",
+     "Це нове свято",
+     "Це шкільне свято"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tradition."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The celebration lasts three days.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки триває святкування?"
+   },
+   "options": {
+    "uk": [
+     "Три дні",
+     "Два дні",
+     "Тиждень"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Three days."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "There is a parade in the city.",
+   "prompt": {
+    "uk": "Прослухайте. Що відбувається в місті?"
+   },
+   "options": {
+    "uk": [
+     "Парад",
+     "Концерт",
+     "Ярмарок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Parade."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's a family ___.",
+   "options": [
+    "tradition",
+    "parade",
+    "ceremony"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Традиція."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ was beautiful.",
+   "options": [
+    "ceremony",
+    "custom",
+    "tradition"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Церемонія."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a ___ in the city.",
+   "options": [
+    "parade",
+    "custom",
+    "celebration"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Парад."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке custom?"
+   },
+   "options": {
+    "uk": [
+     "звичай",
+     "парад",
+     "церемонія"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Custom — звичай."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це сімейна традиція."
+   },
+   "words": [
+    "It's",
+    "a",
+    "family",
+    "tradition",
+    "are",
+    "parade"
+   ],
+   "answer": [
+    "It's",
+    "a",
+    "family",
+    "tradition"
+   ],
+   "explanation": {
+    "uk": "It's a family tradition."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Церемонія була гарною."
+   },
+   "answers": [
+    "The ceremony was beautiful"
+   ],
+   "explanation": {
+    "uk": "The ceremony was beautiful."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is your family tradition?",
+   "prompt": {
+    "uk": "Свято разом. Що відповісти?"
+   },
+   "options": [
+    "We celebrate together.",
+    "We are celebrate together.",
+    "We celebrating together are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We celebrate together."
+   }
+  }
+ ]
+}

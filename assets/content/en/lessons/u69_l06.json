@@ -1,0 +1,290 @@
+{
+ "id": "u69_l06",
+ "unit": "u69",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: найкращий, найбільший"
+ },
+ "goal": {
+  "uk": "Закріпити найвищий ступінь порівняння."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: the + -est (the tallest, the biggest), правила (nicest, hottest, easiest), the most + довгі (the most expensive, the most popular), best, worst і вирази one of the, in the world, of all."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is the best film you know?",
+   "prompt": {
+    "uk": "Повторимо. Цей. Що відповісти?"
+   },
+   "options": [
+    "This is the best film I know.",
+    "This is best film I know the.",
+    "This is the most good film I know."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This is the best film I know."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "This is the biggest and the most expensive city in the world.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це найбільше й найдорожче місто у світі",
+     "Це найменше місто",
+     "Це найстаріше місто"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Biggest, most expensive."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "She is the youngest, and he is the oldest.",
+   "prompt": {
+    "uk": "Прослухайте. Хто наймолодший?"
+   },
+   "options": {
+    "uk": [
+     "Вона",
+     "Він",
+     "Обоє"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Youngest."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's one of the best days of my life.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це один із найкращих днів у моєму житті",
+     "Це найгірший день",
+     "Це звичайний день"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "One of the best."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is the ___ road.",
+   "options": [
+    "shortest",
+    "shorter",
+    "short"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The shortest."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's the ___ popular song.",
+   "options": [
+    "most",
+    "more",
+    "much"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The most popular."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's one of the ___ films.",
+   "options": [
+    "best",
+    "good",
+    "better"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "One of the best."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від hot?"
+   },
+   "options": {
+    "uk": [
+     "the hottest",
+     "the hotest",
+     "the most hot"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hot — the hottest."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він найвищий у класі."
+   },
+   "words": [
+    "He",
+    "is",
+    "the",
+    "tallest",
+    "in",
+    "the",
+    "class",
+    "taller",
+    "a"
+   ],
+   "answer": [
+    "He",
+    "is",
+    "the",
+    "tallest",
+    "in",
+    "the",
+    "class"
+   ],
+   "explanation": {
+    "uk": "He is the tallest in the class."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це найкраща пісня."
+   },
+   "answers": [
+    "It's the best song"
+   ],
+   "explanation": {
+    "uk": "It's the best song."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What is the biggest city in your country?",
+   "prompt": {
+    "uk": "Київ. Що відповісти?"
+   },
+   "options": [
+    "Kyiv is the biggest city.",
+    "Kyiv is biggest the city.",
+    "Kyiv is the most big city."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Kyiv is the biggest city."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви розмовляєте про своє місто."
+   },
+   "character": {
+    "name": {
+     "uk": "Екскурсовод Марко"
+    },
+    "avatar": "🧭"
+   },
+   "line": "What is the tallest building in your city?",
+   "options": [
+    "The tallest building is the hotel.",
+    "The most tall building is hotel.",
+    "The tallest is building the hotel."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Tallest — найвищий (the + -est)."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви обираєте ресторан."
+   },
+   "character": {
+    "name": {
+     "uk": "Екскурсовод Марко"
+    },
+    "avatar": "🧭"
+   },
+   "line": "Which restaurant is the best?",
+   "options": [
+    "This one is the best in the city.",
+    "This one is the goodest in the city.",
+    "This one is best the in city."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Best — найкращий, форма від good."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви говорите про відому пам'ятку."
+   },
+   "character": {
+    "name": {
+     "uk": "Екскурсовод Марко"
+    },
+    "avatar": "🧭"
+   },
+   "line": "Is the museum popular?",
+   "options": [
+    "Yes, it's the most popular place in the city.",
+    "Yes, it's the popularest place.",
+    "Yes, it most popular is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Довгі прикметники: the most popular."
+   }
+  }
+ ]
+}

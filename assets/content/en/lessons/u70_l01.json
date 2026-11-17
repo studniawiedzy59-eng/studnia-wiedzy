@@ -1,0 +1,326 @@
+{
+ "id": "u70_l01",
+ "unit": "u70",
+ "cefr": "A1",
+ "title": {
+  "uk": "Прогноз погоди"
+ },
+ "goal": {
+  "uk": "Розуміти прогноз погоди."
+ },
+ "rule": {
+  "uk": "Celsius — градус Цельсія, breeze — легкий вітерець, fog — туман, thunder — грім, lightning — блискавка. Приклад: It's twenty degrees Celsius. There is a light breeze. There is a lot of fog. Thunder and lightning."
+ },
+ "words": [
+  {
+   "id": "celsius",
+   "text": "Celsius",
+   "ipa": "/ˈselsiəs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "Цельсій"
+   },
+   "example": "It's twenty degrees Celsius.",
+   "exampleTranslation": {
+    "uk": "Двадцять градусів за Цельсієм."
+   }
+  },
+  {
+   "id": "breeze",
+   "text": "breeze",
+   "ipa": "/briːz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "легкий вітерець"
+   },
+   "example": "There is a light breeze.",
+   "exampleTranslation": {
+    "uk": "Дме легкий вітерець."
+   }
+  },
+  {
+   "id": "fog",
+   "text": "fog",
+   "ipa": "/fɒɡ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "туман"
+   },
+   "example": "There is a lot of fog.",
+   "exampleTranslation": {
+    "uk": "Дуже туманно."
+   }
+  },
+  {
+   "id": "thunder",
+   "text": "thunder",
+   "ipa": "/ˈθʌndə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "грім"
+   },
+   "example": "I hear thunder.",
+   "exampleTranslation": {
+    "uk": "Я чую грім."
+   }
+  },
+  {
+   "id": "lightning",
+   "text": "lightning",
+   "ipa": "/ˈlaɪtnɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "блискавка"
+   },
+   "example": "The lightning was bright.",
+   "exampleTranslation": {
+    "uk": "Блискавка була яскравою."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is the biggest city in your country?",
+   "prompt": {
+    "uk": "Повторимо. Київ. Що відповісти?"
+   },
+   "options": [
+    "Kyiv is the biggest city.",
+    "Kyiv is biggest the city.",
+    "Kyiv is the most big city."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Kyiv is the biggest city."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "Celsius",
+     "right": {
+      "uk": "Цельсій"
+     }
+    },
+    {
+     "left": "breeze",
+     "right": {
+      "uk": "легкий вітерець"
+     }
+    },
+    {
+     "left": "fog",
+     "right": {
+      "uk": "туман"
+     }
+    },
+    {
+     "left": "thunder",
+     "right": {
+      "uk": "грім"
+     }
+    },
+    {
+     "left": "lightning",
+     "right": {
+      "uk": "блискавка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It's twenty degrees Celsius.",
+   "prompt": {
+    "uk": "Прослухайте. Яка температура?"
+   },
+   "options": {
+    "uk": [
+     "Двадцять градусів",
+     "Тридцять градусів",
+     "Дванадцять градусів"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twenty."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There is a lot of fog.",
+   "prompt": {
+    "uk": "Прослухайте. Яка погода?"
+   },
+   "options": {
+    "uk": [
+     "Туманно",
+     "Сонячно",
+     "Вітряно"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fog."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I hear thunder.",
+   "prompt": {
+    "uk": "Прослухайте. Що чує людина?"
+   },
+   "options": {
+    "uk": [
+     "Грім",
+     "Дощ",
+     "Вітер"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Thunder."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's twenty degrees ___.",
+   "options": [
+    "Celsius",
+    "fog",
+    "breeze"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Celsius."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a lot of ___.",
+   "options": [
+    "fog",
+    "lightning",
+    "thunder"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Туман."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a light ___.",
+   "options": [
+    "breeze",
+    "fog",
+    "thunder"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вітерець."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке breeze?"
+   },
+   "options": {
+    "uk": [
+     "легкий вітерець",
+     "туман",
+     "грім"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Breeze — вітерець."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Дуже туманно."
+   },
+   "words": [
+    "There",
+    "is",
+    "a",
+    "lot",
+    "of",
+    "fog",
+    "are",
+    "thunder"
+   ],
+   "answer": [
+    "There",
+    "is",
+    "a",
+    "lot",
+    "of",
+    "fog"
+   ],
+   "explanation": {
+    "uk": "There is a lot of fog."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я чую грім."
+   },
+   "answers": [
+    "I hear thunder"
+   ],
+   "explanation": {
+    "uk": "I hear thunder."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What's the temperature?",
+   "prompt": {
+    "uk": "Двадцять градусів. Що відповісти?"
+   },
+   "options": [
+    "It's twenty degrees Celsius.",
+    "It is twenty Celsius degrees.",
+    "Twenty degrees it is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's twenty degrees Celsius."
+   }
+  }
+ ]
+}

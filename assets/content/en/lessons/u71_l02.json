@@ -1,0 +1,322 @@
+{
+ "id": "u71_l02",
+ "unit": "u71",
+ "cefr": "A1",
+ "title": {
+  "uk": "Прикраси й святкові речі"
+ },
+ "goal": {
+  "uk": "Назвати святкові речі."
+ },
+ "rule": {
+  "uk": "Fireworks — феєрверк (завжди множина), decorations — прикраси, garland — гірлянда, balloon — повітряна кулька, candle — свічка. Приклад: The fireworks are beautiful. We put up decorations. I blow out the candles."
+ },
+ "words": [
+  {
+   "id": "fireworks",
+   "text": "fireworks",
+   "ipa": "/ˈfaɪəwɜːks/",
+   "pos": "noun",
+   "translation": {
+    "uk": "феєрверк"
+   },
+   "example": "The fireworks are beautiful.",
+   "exampleTranslation": {
+    "uk": "Феєрверк чудовий."
+   }
+  },
+  {
+   "id": "decorations",
+   "text": "decorations",
+   "ipa": "/ˌdekəˈreɪʃnz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "прикраси"
+   },
+   "example": "We put up decorations.",
+   "exampleTranslation": {
+    "uk": "Ми розвішуємо прикраси."
+   }
+  },
+  {
+   "id": "garland",
+   "text": "garland",
+   "ipa": "/ˈɡɑːlənd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гірлянда"
+   },
+   "example": "The garland is bright.",
+   "exampleTranslation": {
+    "uk": "Гірлянда яскрава."
+   }
+  },
+  {
+   "id": "balloon",
+   "text": "balloon",
+   "ipa": "/bəˈluːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "повітряна кулька"
+   },
+   "example": "A red balloon.",
+   "exampleTranslation": {
+    "uk": "Червона кулька."
+   }
+  },
+  {
+   "id": "candle",
+   "text": "candle",
+   "ipa": "/ˈkændl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "свічка"
+   },
+   "example": "I blow out the candles.",
+   "exampleTranslation": {
+    "uk": "Я задуваю свічки."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is your family tradition?",
+   "prompt": {
+    "uk": "Повторимо. Свято разом. Що відповісти?"
+   },
+   "options": [
+    "We celebrate together.",
+    "We are celebrate together.",
+    "We celebrating together are."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We celebrate together."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "fireworks",
+     "right": {
+      "uk": "феєрверк"
+     }
+    },
+    {
+     "left": "decorations",
+     "right": {
+      "uk": "прикраси"
+     }
+    },
+    {
+     "left": "garland",
+     "right": {
+      "uk": "гірлянда"
+     }
+    },
+    {
+     "left": "balloon",
+     "right": {
+      "uk": "повітряна кулька"
+     }
+    },
+    {
+     "left": "candle",
+     "right": {
+      "uk": "свічка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The fireworks are beautiful.",
+   "prompt": {
+    "uk": "Прослухайте. Що гарне?"
+   },
+   "options": {
+    "uk": [
+     "Феєрверк",
+     "Парад",
+     "Свічки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fireworks."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We put up decorations.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони роблять?"
+   },
+   "options": {
+    "uk": [
+     "Розвішують прикраси",
+     "Знімають прикраси",
+     "Купують прикраси"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Decorations."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I blow out the candles.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Задуває свічки",
+     "Запалює свічки",
+     "Купує свічки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Candles."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ are beautiful.",
+   "options": [
+    "fireworks",
+    "garland",
+    "balloon"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fireworks — множина."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A red ___.",
+   "options": [
+    "balloon",
+    "candles",
+    "decorations"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Кулька."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I blow out the ___.",
+   "options": [
+    "candles",
+    "garland",
+    "fireworks"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Свічки."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке garland?"
+   },
+   "options": {
+    "uk": [
+     "гірлянда",
+     "свічка",
+     "кулька"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Garland — гірлянда."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми розвішуємо прикраси."
+   },
+   "words": [
+    "We",
+    "put",
+    "up",
+    "decorations",
+    "puts",
+    "garland"
+   ],
+   "answer": [
+    "We",
+    "put",
+    "up",
+    "decorations"
+   ],
+   "explanation": {
+    "uk": "We put up decorations."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Феєрверк чудовий."
+   },
+   "answers": [
+    "The fireworks are beautiful"
+   ],
+   "explanation": {
+    "uk": "The fireworks are beautiful."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you put up?",
+   "prompt": {
+    "uk": "Прикраси. Що відповісти?"
+   },
+   "options": [
+    "We put up decorations.",
+    "We puts up decoration.",
+    "We are put decorations up."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We put up decorations."
+   }
+  }
+ ]
+}

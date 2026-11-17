@@ -1,0 +1,322 @@
+{
+ "id": "u71_l03",
+ "unit": "u71",
+ "cefr": "A1",
+ "title": {
+  "uk": "Хелловін"
+ },
+ "goal": {
+  "uk": "Назвати речі свята Хелловін."
+ },
+ "rule": {
+  "uk": "Pumpkin — гарбуз, costume — костюм, mask — маска, trick — жарт, treat — частування. Trick or treat — «цукерка або капость». Приклад: I wear a costume. She has a scary mask. We carved a pumpkin."
+ },
+ "words": [
+  {
+   "id": "pumpkin",
+   "text": "pumpkin",
+   "ipa": "/ˈpʌmpkɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гарбуз"
+   },
+   "example": "We carved a pumpkin.",
+   "exampleTranslation": {
+    "uk": "Ми вирізали гарбуз."
+   }
+  },
+  {
+   "id": "costume",
+   "text": "costume",
+   "ipa": "/ˈkɒstjuːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "костюм"
+   },
+   "example": "I wear a costume.",
+   "exampleTranslation": {
+    "uk": "Я одягаю костюм."
+   }
+  },
+  {
+   "id": "mask",
+   "text": "mask",
+   "ipa": "/mɑːsk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "маска"
+   },
+   "example": "She has a scary mask.",
+   "exampleTranslation": {
+    "uk": "У неї страшна маска."
+   }
+  },
+  {
+   "id": "trick",
+   "text": "trick",
+   "ipa": "/trɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "жарт, трюк"
+   },
+   "example": "It's a good trick.",
+   "exampleTranslation": {
+    "uk": "Це гарний трюк."
+   }
+  },
+  {
+   "id": "treat",
+   "text": "treat",
+   "ipa": "/triːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "частування"
+   },
+   "example": "I get a sweet treat.",
+   "exampleTranslation": {
+    "uk": "Я отримую солодке частування."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you put up?",
+   "prompt": {
+    "uk": "Повторимо. Прикраси. Що відповісти?"
+   },
+   "options": [
+    "We put up decorations.",
+    "We puts up decoration.",
+    "We are put decorations up."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We put up decorations."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "pumpkin",
+     "right": {
+      "uk": "гарбуз"
+     }
+    },
+    {
+     "left": "costume",
+     "right": {
+      "uk": "костюм"
+     }
+    },
+    {
+     "left": "mask",
+     "right": {
+      "uk": "маска"
+     }
+    },
+    {
+     "left": "trick",
+     "right": {
+      "uk": "жарт, трюк"
+     }
+    },
+    {
+     "left": "treat",
+     "right": {
+      "uk": "частування"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "We carved a pumpkin.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони вирізали?"
+   },
+   "options": {
+    "uk": [
+     "Гарбуз",
+     "Маску",
+     "Свічку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pumpkin."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I wear a costume.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Одягає костюм",
+     "Знімає костюм",
+     "Купує костюм"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Costume."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "She has a scary mask.",
+   "prompt": {
+    "uk": "Прослухайте. Яка маска?"
+   },
+   "options": {
+    "uk": [
+     "Страшна",
+     "Смішна",
+     "Нова"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Scary."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We carved a ___.",
+   "options": [
+    "pumpkin",
+    "mask",
+    "costume"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Гарбуз."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I wear a ___.",
+   "options": [
+    "costume",
+    "treat",
+    "trick"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Костюм."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She has a scary ___.",
+   "options": [
+    "mask",
+    "pumpkin",
+    "treat"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Маска."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке treat?"
+   },
+   "options": {
+    "uk": [
+     "частування",
+     "жарт",
+     "маска"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Treat — частування."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми вирізали гарбуз."
+   },
+   "words": [
+    "We",
+    "carved",
+    "a",
+    "pumpkin",
+    "carve",
+    "did"
+   ],
+   "answer": [
+    "We",
+    "carved",
+    "a",
+    "pumpkin"
+   ],
+   "explanation": {
+    "uk": "We carved a pumpkin."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я одягаю костюм."
+   },
+   "answers": [
+    "I wear a costume"
+   ],
+   "explanation": {
+    "uk": "I wear a costume."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you wear?",
+   "prompt": {
+    "uk": "Костюм і маску. Що відповісти?"
+   },
+   "options": [
+    "I wear a costume and a mask.",
+    "I wearing costume and mask.",
+    "I am wear costume mask."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I wear a costume and a mask."
+   }
+  }
+ ]
+}

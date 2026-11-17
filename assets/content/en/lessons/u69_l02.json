@@ -1,0 +1,322 @@
+{
+ "id": "u69_l02",
+ "unit": "u69",
+ "cefr": "A1",
+ "title": {
+  "uk": "Найбільший, найстарший"
+ },
+ "goal": {
+  "uk": "Порівнювати за розміром і віком."
+ },
+ "rule": {
+  "uk": "Biggest — найбільший, smallest — найменший, oldest — найстаріший, youngest — наймолодший, cheapest — найдешевший. Приклад: She is the youngest in the family. This is the cheapest shop. Big подвоює g: the biggest."
+ },
+ "words": [
+  {
+   "id": "biggest",
+   "text": "biggest",
+   "ipa": "/ˈbɪɡɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найбільший"
+   },
+   "example": "It's the biggest city.",
+   "exampleTranslation": {
+    "uk": "Це найбільше місто."
+   }
+  },
+  {
+   "id": "smallest",
+   "text": "smallest",
+   "ipa": "/ˈsmɔːlɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найменший"
+   },
+   "example": "This is the smallest room.",
+   "exampleTranslation": {
+    "uk": "Це найменша кімната."
+   }
+  },
+  {
+   "id": "oldest",
+   "text": "oldest",
+   "ipa": "/ˈəʊldɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найстаріший"
+   },
+   "example": "It's the oldest church.",
+   "exampleTranslation": {
+    "uk": "Це найстаріша церква."
+   }
+  },
+  {
+   "id": "youngest",
+   "text": "youngest",
+   "ipa": "/ˈjʌŋɡɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "наймолодший"
+   },
+   "example": "She is the youngest in the family.",
+   "exampleTranslation": {
+    "uk": "Вона наймолодша в родині."
+   }
+  },
+  {
+   "id": "cheapest",
+   "text": "cheapest",
+   "ipa": "/ˈtʃiːpɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найдешевший"
+   },
+   "example": "This is the cheapest shop.",
+   "exampleTranslation": {
+    "uk": "Це найдешевший магазин."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Who is the tallest?",
+   "prompt": {
+    "uk": "Повторимо. Мій брат. Що відповісти?"
+   },
+   "options": [
+    "My brother is the tallest.",
+    "My brother is tallest the.",
+    "My brother is the most tall."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My brother is the tallest."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "biggest",
+     "right": {
+      "uk": "найбільший"
+     }
+    },
+    {
+     "left": "smallest",
+     "right": {
+      "uk": "найменший"
+     }
+    },
+    {
+     "left": "oldest",
+     "right": {
+      "uk": "найстаріший"
+     }
+    },
+    {
+     "left": "youngest",
+     "right": {
+      "uk": "наймолодший"
+     }
+    },
+    {
+     "left": "cheapest",
+     "right": {
+      "uk": "найдешевший"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It's the biggest city.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це найбільше місто",
+     "Це найменше місто",
+     "Це старе місто"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Biggest."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She is the youngest in the family.",
+   "prompt": {
+    "uk": "Прослухайте. Хто наймолодший?"
+   },
+   "options": {
+    "uk": [
+     "Вона",
+     "Він",
+     "Брат"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Youngest."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "This is the cheapest shop.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це найдешевший магазин",
+     "Це найдорожчий магазин",
+     "Це новий магазин"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cheapest."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's the ___ city.",
+   "options": [
+    "biggest",
+    "bigest",
+    "bigger"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Big — biggest."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She is the ___ in the family.",
+   "options": [
+    "youngest",
+    "younger",
+    "young"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The youngest."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's the ___ church.",
+   "options": [
+    "oldest",
+    "older",
+    "old"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The oldest."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від small?"
+   },
+   "options": {
+    "uk": [
+     "the smallest",
+     "the smaller",
+     "the most small"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Small — the smallest."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це найбільше місто."
+   },
+   "words": [
+    "It's",
+    "the",
+    "biggest",
+    "city",
+    "bigger",
+    "a"
+   ],
+   "answer": [
+    "It's",
+    "the",
+    "biggest",
+    "city"
+   ],
+   "explanation": {
+    "uk": "It's the biggest city."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона наймолодша в родині."
+   },
+   "answers": [
+    "She is the youngest in the family"
+   ],
+   "explanation": {
+    "uk": "She is the youngest in the family."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Which is the cheapest?",
+   "prompt": {
+    "uk": "Цей магазин. Що відповісти?"
+   },
+   "options": [
+    "This shop is the cheapest.",
+    "This shop is cheapest the.",
+    "This shop is the most cheap."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This shop is the cheapest."
+   }
+  }
+ ]
+}

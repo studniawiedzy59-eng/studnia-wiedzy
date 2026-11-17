@@ -1,0 +1,284 @@
+{
+ "id": "u71_l06",
+ "unit": "u71",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: свята"
+ },
+ "goal": {
+  "uk": "Закріпити лексику свят."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: традиції (tradition, custom, parade), прикраси (fireworks, decorations, garland, balloon, candle), Хелловін (pumpkin, costume, mask), Різдво й Великдень (stocking, bunny, egg hunt, feast) і вітання (congratulations, host, carnival)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "It's my birthday!",
+   "prompt": {
+    "uk": "Повторимо. Вітаю! Що сказати?"
+   },
+   "options": [
+    "Congratulations! Happy birthday!",
+    "Congratulate you birthday!",
+    "Greeting happy birthday you!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Congratulations! Happy birthday!"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "We put up decorations, and there is a big feast.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вони розвішують прикраси й готують святкову вечерю",
+     "Вони йдуть на парад",
+     "Вони купують подарунки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Decorations, feast."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The fireworks were beautiful at the carnival.",
+   "prompt": {
+    "uk": "Прослухайте. Що було гарним?"
+   },
+   "options": {
+    "uk": [
+     "Феєрверк на карнавалі",
+     "Костюм на карнавалі",
+     "Свічка на карнавалі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fireworks."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's a family tradition to carve a pumpkin.",
+   "prompt": {
+    "uk": "Прослухайте. Що за традиція?"
+   },
+   "options": {
+    "uk": [
+     "Вирізати гарбуз",
+     "Купувати гарбуз",
+     "Їсти гарбуз"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pumpkin."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ are beautiful.",
+   "options": [
+    "fireworks",
+    "costume",
+    "mask"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fireworks."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We carved a ___.",
+   "options": [
+    "pumpkin",
+    "bunny",
+    "garland"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pumpkin."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ on your wedding!",
+   "options": [
+    "Congratulations",
+    "Tradition",
+    "Host"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Congratulations."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке celebration?"
+   },
+   "options": {
+    "uk": [
+     "святкування",
+     "звичай",
+     "церемонія"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Celebration — святкування."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це сімейна традиція."
+   },
+   "words": [
+    "It's",
+    "a",
+    "family",
+    "tradition",
+    "are",
+    "parade"
+   ],
+   "answer": [
+    "It's",
+    "a",
+    "family",
+    "tradition"
+   ],
+   "explanation": {
+    "uk": "It's a family tradition."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми розвішуємо прикраси."
+   },
+   "answers": [
+    "We put up decorations"
+   ],
+   "explanation": {
+    "uk": "We put up decorations."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "How do you celebrate?",
+   "prompt": {
+    "uk": "Феєрверк і святкова вечеря. Що відповісти?"
+   },
+   "options": [
+    "We have fireworks and a big feast.",
+    "We have fireworks and big feast.",
+    "We are have fireworks feast."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We have fireworks and a big feast."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вона запрошує вас на свято."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Емма"
+    },
+    "avatar": "🎉"
+   },
+   "line": "How do you celebrate your birthday?",
+   "options": [
+    "We have a big feast and fireworks.",
+    "We are have big feast fireworks.",
+    "We celebrate feast big and fireworks."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We have a feast — маємо святкову вечерю."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви вітаєте подругу."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Емма"
+    },
+    "avatar": "🎉"
+   },
+   "line": "I got a new job!",
+   "options": [
+    "Congratulations!",
+    "Congratulate you!",
+    "Greeting for you!"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Congratulations! — вітаю з успіхом."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вона питає про Хелловін."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Емма"
+    },
+    "avatar": "🎉"
+   },
+   "line": "What do you wear at Halloween?",
+   "options": [
+    "I wear a costume and a mask.",
+    "I wearing costume and mask.",
+    "I am wear a costume mask."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I wear — одягаю."
+   }
+  }
+ ]
+}

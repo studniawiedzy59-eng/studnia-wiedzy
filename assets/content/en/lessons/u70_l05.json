@@ -1,0 +1,322 @@
+{
+ "id": "u70_l05",
+ "unit": "u70",
+ "cefr": "A1",
+ "title": {
+  "uk": "Одяг і погода"
+ },
+ "goal": {
+  "uk": "Говорити про погоду й одяг."
+ },
+ "rule": {
+  "uk": "Raincoat — дощовик, heatwave — спека, snowman — сніговик, pouring — ллє (про дощ), icy — слизький від льоду. Приклад: Take a raincoat. It's pouring. We built a snowman. The road is icy."
+ },
+ "words": [
+  {
+   "id": "raincoat",
+   "text": "raincoat",
+   "ipa": "/ˈreɪnkəʊt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дощовик"
+   },
+   "example": "Take a raincoat.",
+   "exampleTranslation": {
+    "uk": "Візьміть дощовик."
+   }
+  },
+  {
+   "id": "heatwave",
+   "text": "heatwave",
+   "ipa": "/ˈhiːtweɪv/",
+   "pos": "noun",
+   "translation": {
+    "uk": "хвиля спеки"
+   },
+   "example": "There is a heatwave.",
+   "exampleTranslation": {
+    "uk": "Триває хвиля спеки."
+   }
+  },
+  {
+   "id": "snowman",
+   "text": "snowman",
+   "ipa": "/ˈsnəʊmæn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сніговик"
+   },
+   "example": "We built a snowman.",
+   "exampleTranslation": {
+    "uk": "Ми зліпили сніговика."
+   }
+  },
+  {
+   "id": "pouring",
+   "text": "pouring",
+   "ipa": "/ˈpɔːrɪŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "ллє (про дощ)"
+   },
+   "example": "It's pouring.",
+   "exampleTranslation": {
+    "uk": "Ллє як із відра."
+   }
+  },
+  {
+   "id": "icy",
+   "text": "icy",
+   "ipa": "/ˈaɪsi/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "слизький, обледенілий"
+   },
+   "example": "The road is icy.",
+   "exampleTranslation": {
+    "uk": "Дорога слизька."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What happens in autumn?",
+   "prompt": {
+    "uk": "Повторимо. Листя опадає. Що відповісти?"
+   },
+   "options": [
+    "The leaves fall.",
+    "The leaf are fall.",
+    "Leaves is falling."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The leaves fall."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "raincoat",
+     "right": {
+      "uk": "дощовик"
+     }
+    },
+    {
+     "left": "heatwave",
+     "right": {
+      "uk": "хвиля спеки"
+     }
+    },
+    {
+     "left": "snowman",
+     "right": {
+      "uk": "сніговик"
+     }
+    },
+    {
+     "left": "pouring",
+     "right": {
+      "uk": "ллє (про дощ)"
+     }
+    },
+    {
+     "left": "icy",
+     "right": {
+      "uk": "слизький, обледенілий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Take a raincoat.",
+   "prompt": {
+    "uk": "Прослухайте. Що взяти?"
+   },
+   "options": {
+    "uk": [
+     "Дощовик",
+     "Парасольку",
+     "Куртку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Raincoat."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There is a heatwave.",
+   "prompt": {
+    "uk": "Прослухайте. Яка погода?"
+   },
+   "options": {
+    "uk": [
+     "Спека",
+     "Мороз",
+     "Дощ"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Heatwave."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The road is icy.",
+   "prompt": {
+    "uk": "Прослухайте. Яка дорога?"
+   },
+   "options": {
+    "uk": [
+     "Слизька",
+     "Мокра",
+     "Тиха"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Icy."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Take a ___.",
+   "options": [
+    "raincoat",
+    "snowman",
+    "heatwave"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Дощовик."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's ___.",
+   "options": [
+    "pouring",
+    "icy",
+    "snowman"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's pouring."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We built a ___.",
+   "options": [
+    "snowman",
+    "raincoat",
+    "heatwave"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Сніговик."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке heatwave?"
+   },
+   "options": {
+    "uk": [
+     "хвиля спеки",
+     "дощовик",
+     "сніговик"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Heatwave — хвиля спеки."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми зліпили сніговика."
+   },
+   "words": [
+    "We",
+    "built",
+    "a",
+    "snowman",
+    "build",
+    "did"
+   ],
+   "answer": [
+    "We",
+    "built",
+    "a",
+    "snowman"
+   ],
+   "explanation": {
+    "uk": "We built a snowman."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Дорога слизька."
+   },
+   "answers": [
+    "The road is icy"
+   ],
+   "explanation": {
+    "uk": "The road is icy."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Why do you take a raincoat?",
+   "prompt": {
+    "uk": "Ллє. Що відповісти?"
+   },
+   "options": [
+    "Because it's pouring.",
+    "Because it pouring.",
+    "Because is pour."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Because it's pouring."
+   }
+  }
+ ]
+}

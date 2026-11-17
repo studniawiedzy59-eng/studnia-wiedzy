@@ -1,0 +1,326 @@
+{
+ "id": "u69_l04",
+ "unit": "u69",
+ "cefr": "A1",
+ "title": {
+  "uk": "The most …"
+ },
+ "goal": {
+  "uk": "Утворити найвищий ступінь довгих прикметників."
+ },
+ "rule": {
+  "uk": "До довгих прикметників (2+ складів) додаємо the most: the most expensive, the most popular, the most important, the most interesting, the most beautiful. Не кажемо «the most cheap», бо cheap — короткий. Приклад: This is the most expensive hotel."
+ },
+ "words": [
+  {
+   "id": "most_expensive",
+   "text": "most expensive",
+   "ipa": "/məʊst ɪkˈspensɪv/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "найдорожчий"
+   },
+   "example": "This is the most expensive hotel.",
+   "exampleTranslation": {
+    "uk": "Це найдорожчий готель."
+   }
+  },
+  {
+   "id": "most_popular",
+   "text": "most popular",
+   "ipa": "/məʊst ˈpɒpjələ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "найпопулярніший"
+   },
+   "example": "It's the most popular song.",
+   "exampleTranslation": {
+    "uk": "Це найпопулярніша пісня."
+   }
+  },
+  {
+   "id": "most_important",
+   "text": "most important",
+   "ipa": "/məʊst ɪmˈpɔːtnt/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "найважливіший"
+   },
+   "example": "It's the most important rule.",
+   "exampleTranslation": {
+    "uk": "Це найважливіше правило."
+   }
+  },
+  {
+   "id": "most_interesting",
+   "text": "most interesting",
+   "ipa": "/məʊst ˈɪntrəstɪŋ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "найцікавіший"
+   },
+   "example": "It's the most interesting book.",
+   "exampleTranslation": {
+    "uk": "Це найцікавіша книжка."
+   }
+  },
+  {
+   "id": "most_beautiful",
+   "text": "most beautiful",
+   "ipa": "/məʊst ˈbjuːtɪfl/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "найкрасивіший"
+   },
+   "example": "It's the most beautiful city.",
+   "exampleTranslation": {
+    "uk": "Це найкрасивіше місто."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What was the happiest day?",
+   "prompt": {
+    "uk": "Повторимо. Мій день народження. Що відповісти?"
+   },
+   "options": [
+    "My birthday was the happiest day.",
+    "My birthday was happiest the day.",
+    "My birthday was the most happy day."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My birthday was the happiest day."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "most expensive",
+     "right": {
+      "uk": "найдорожчий"
+     }
+    },
+    {
+     "left": "most popular",
+     "right": {
+      "uk": "найпопулярніший"
+     }
+    },
+    {
+     "left": "most important",
+     "right": {
+      "uk": "найважливіший"
+     }
+    },
+    {
+     "left": "most interesting",
+     "right": {
+      "uk": "найцікавіший"
+     }
+    },
+    {
+     "left": "most beautiful",
+     "right": {
+      "uk": "найкрасивіший"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "This is the most expensive hotel.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це найдорожчий готель",
+     "Це найдешевший готель",
+     "Це старий готель"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Most expensive."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's the most interesting book.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це найцікавіша книжка",
+     "Це найдовша книжка",
+     "Це нова книжка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Most interesting."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It's the most beautiful city.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це найкрасивіше місто",
+     "Це найбільше місто",
+     "Це старе місто"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Most beautiful."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is the ___ hotel.",
+   "options": [
+    "most expensive",
+    "expensivest",
+    "more expensive"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The most expensive."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's the ___ song.",
+   "options": [
+    "most popular",
+    "popularest",
+    "more popular"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The most popular."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's the ___ book.",
+   "options": [
+    "most interesting",
+    "interestingest",
+    "more interesting"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The most interesting."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від important?"
+   },
+   "options": {
+    "uk": [
+     "the most important",
+     "the importantest",
+     "the more important"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Важливий — довгий, тому the most."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це найдорожчий готель."
+   },
+   "words": [
+    "This",
+    "is",
+    "the",
+    "most",
+    "expensive",
+    "hotel",
+    "more",
+    "a"
+   ],
+   "answer": [
+    "This",
+    "is",
+    "the",
+    "most",
+    "expensive",
+    "hotel"
+   ],
+   "explanation": {
+    "uk": "This is the most expensive hotel."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це найкрасивіше місто."
+   },
+   "answers": [
+    "It's the most beautiful city"
+   ],
+   "explanation": {
+    "uk": "It's the most beautiful city."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Which hotel is the most expensive?",
+   "prompt": {
+    "uk": "Цей. Що відповісти?"
+   },
+   "options": [
+    "This one is the most expensive.",
+    "This one is most expensive the.",
+    "This one is the expensivest."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This one is the most expensive."
+   }
+  }
+ ]
+}

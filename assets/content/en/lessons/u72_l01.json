@@ -1,0 +1,322 @@
+{
+ "id": "u72_l01",
+ "unit": "u72",
+ "cefr": "A1",
+ "title": {
+  "uk": "Скарги на здоров'я"
+ },
+ "goal": {
+  "uk": "Розповісти лікареві, що болить."
+ },
+ "rule": {
+  "uk": "Fever — температура, жар, flu — грип, sneeze — чхати, ache — біль (ниючий), symptom — симптом. Приклад: I have a fever. I have the flu. I sneeze a lot. My symptoms are a cough and a fever."
+ },
+ "words": [
+  {
+   "id": "fever",
+   "text": "fever",
+   "ipa": "/ˈfiːvə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "жар, температура"
+   },
+   "example": "I have a fever.",
+   "exampleTranslation": {
+    "uk": "У мене температура."
+   }
+  },
+  {
+   "id": "flu",
+   "text": "flu",
+   "ipa": "/fluː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "грип"
+   },
+   "example": "I have the flu.",
+   "exampleTranslation": {
+    "uk": "У мене грип."
+   }
+  },
+  {
+   "id": "sneeze",
+   "text": "sneeze",
+   "ipa": "/sniːz/",
+   "pos": "verb",
+   "translation": {
+    "uk": "чхати"
+   },
+   "example": "I sneeze a lot.",
+   "exampleTranslation": {
+    "uk": "Я багато чхаю."
+   }
+  },
+  {
+   "id": "ache",
+   "text": "ache",
+   "ipa": "/eɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ниючий біль"
+   },
+   "example": "I have an ache in my back.",
+   "exampleTranslation": {
+    "uk": "У мене болить спина."
+   }
+  },
+  {
+   "id": "symptom",
+   "text": "symptom",
+   "ipa": "/ˈsɪmptəm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "симптом"
+   },
+   "example": "My symptoms are a cough and a fever.",
+   "exampleTranslation": {
+    "uk": "Мої симптоми — кашель і температура."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How do you celebrate?",
+   "prompt": {
+    "uk": "Повторимо. Феєрверк і святкова вечеря. Що відповісти?"
+   },
+   "options": [
+    "We have fireworks and a big feast.",
+    "We have fireworks and big feast.",
+    "We are have fireworks feast."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We have fireworks and a big feast."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "fever",
+     "right": {
+      "uk": "жар, температура"
+     }
+    },
+    {
+     "left": "flu",
+     "right": {
+      "uk": "грип"
+     }
+    },
+    {
+     "left": "sneeze",
+     "right": {
+      "uk": "чхати"
+     }
+    },
+    {
+     "left": "ache",
+     "right": {
+      "uk": "ниючий біль"
+     }
+    },
+    {
+     "left": "symptom",
+     "right": {
+      "uk": "симптом"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I have a fever.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "У неї температура",
+     "У неї насіпа",
+     "У неї алергія"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fever."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I have the flu.",
+   "prompt": {
+    "uk": "Прослухайте. Що в людини?"
+   },
+   "options": {
+    "uk": [
+     "Грип",
+     "Застуда",
+     "Біль у горлі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Flu."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I sneeze a lot.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Багато чхає",
+     "Багато кашляє",
+     "Багато спить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sneeze."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___.",
+   "options": [
+    "fever",
+    "sneeze",
+    "symptom"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Температура."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have the ___.",
+   "options": [
+    "flu",
+    "ache",
+    "symptom"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Грип."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ a lot.",
+   "options": [
+    "sneeze",
+    "fever",
+    "ache"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Чхаю."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке symptom?"
+   },
+   "options": {
+    "uk": [
+     "симптом",
+     "грип",
+     "температура"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Symptom — симптом."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене температура."
+   },
+   "words": [
+    "I",
+    "have",
+    "a",
+    "fever",
+    "has",
+    "flu"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "fever"
+   ],
+   "explanation": {
+    "uk": "I have a fever."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене грип."
+   },
+   "answers": [
+    "I have the flu"
+   ],
+   "explanation": {
+    "uk": "I have the flu."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What's the matter?",
+   "prompt": {
+    "uk": "У мене температура. Що відповісти?"
+   },
+   "options": [
+    "I have a fever.",
+    "I am have fever.",
+    "My fever is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a fever."
+   }
+  }
+ ]
+}

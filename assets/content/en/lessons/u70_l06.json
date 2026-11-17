@@ -1,0 +1,282 @@
+{
+ "id": "u70_l06",
+ "unit": "u70",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: погода й пори року"
+ },
+ "goal": {
+  "uk": "Закріпити розмову про погоду."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: прогноз (Celsius, breeze, fog, thunder), негода (drizzle, hail, frost, flood), стан погоди (chilly, boiling, humid, mild), природа (harvest, bloom, leaves, rainbow) і одяг (raincoat, heatwave, icy)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Why do you take a raincoat?",
+   "prompt": {
+    "uk": "Повторимо. Ллє. Що відповісти?"
+   },
+   "options": [
+    "Because it's pouring.",
+    "Because it pouring.",
+    "Because is pour."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Because it's pouring."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "It's twenty degrees Celsius, and there is a light breeze.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Двадцять градусів і легкий вітерець",
+     "Мінус двадцять",
+     "Спекотно, без вітру"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Celsius, breeze."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "There was frost this morning, and the road is icy.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вранці був мороз і дорога слизька",
+     "Було тепло",
+     "Йшов дощ"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Frost, icy."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The winter is mild, and the leaves fall in autumn.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Зима м'яка, листя опадає восени",
+     "Зима сувора",
+     "Літо спекотне"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Mild."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a lot of ___.",
+   "options": [
+    "fog",
+    "harvest",
+    "bloom"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fog."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's ___ in the morning.",
+   "options": [
+    "chilly",
+    "raincoat",
+    "rainbow"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Chilly."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We saw a ___.",
+   "options": [
+    "rainbow",
+    "drought",
+    "snowman"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Rainbow."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке frost?"
+   },
+   "options": {
+    "uk": [
+     "мороз",
+     "туман",
+     "град"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Frost — мороз."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Візьміть дощовик."
+   },
+   "words": [
+    "Take",
+    "a",
+    "raincoat",
+    "takes",
+    "icy"
+   ],
+   "answer": [
+    "Take",
+    "a",
+    "raincoat"
+   ],
+   "explanation": {
+    "uk": "Take a raincoat."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Сьогодні пекельна спека!"
+   },
+   "answers": [
+    "It's boiling today"
+   ],
+   "explanation": {
+    "uk": "It's boiling today."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What was the weather like yesterday?",
+   "prompt": {
+    "uk": "Мжичка й туман. Що відповісти?"
+   },
+   "options": [
+    "There was drizzle and fog.",
+    "It were drizzle and fog.",
+    "Yesterday drizzle and fog was."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There was drizzle and fog."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви плануєте пікнік і питаєте про погоду."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Макс"
+    },
+    "avatar": "🌦️"
+   },
+   "line": "What's the weather like today?",
+   "options": [
+    "It's chilly, and there is a light breeze.",
+    "It chilly, and is a light breeze.",
+    "Is chilly and breeze light."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's chilly — прохолодно; there is a breeze."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Надворі зливає дощ."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Макс"
+    },
+    "avatar": "🌦️"
+   },
+   "line": "Should we take a raincoat?",
+   "options": [
+    "Yes, it's pouring.",
+    "Yes, it pouring.",
+    "Yes, is pour."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's pouring — ллє."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Він питає про вашу країну."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Макс"
+    },
+    "avatar": "🌦️"
+   },
+   "line": "What is the winter like in your country?",
+   "options": [
+    "It's cold, and there is a lot of frost.",
+    "It cold, and are lot of frost.",
+    "Winter is have frost."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is a lot of + незлічуване."
+   }
+  }
+ ]
+}

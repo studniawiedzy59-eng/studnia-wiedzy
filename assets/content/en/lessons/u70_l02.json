@@ -1,0 +1,324 @@
+{
+ "id": "u70_l02",
+ "unit": "u70",
+ "cefr": "A1",
+ "title": {
+  "uk": "Погані умови"
+ },
+ "goal": {
+  "uk": "Говорити про негоду."
+ },
+ "rule": {
+  "uk": "Drizzle — мжичка, hail — град, frost — мороз, flood — повінь, drought — посуха. Приклад: There is drizzle. It's hailing. There is frost this morning. The flood was terrible."
+ },
+ "words": [
+  {
+   "id": "drizzle",
+   "text": "drizzle",
+   "ipa": "/ˈdrɪzl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мжичка"
+   },
+   "example": "There is a light drizzle.",
+   "exampleTranslation": {
+    "uk": "Мжичить легкий дощик."
+   }
+  },
+  {
+   "id": "hail",
+   "text": "hail",
+   "ipa": "/heɪl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "град"
+   },
+   "example": "There was hail yesterday.",
+   "exampleTranslation": {
+    "uk": "Учора був град."
+   }
+  },
+  {
+   "id": "frost",
+   "text": "frost",
+   "ipa": "/frɒst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мороз, паморозь"
+   },
+   "example": "There is frost this morning.",
+   "exampleTranslation": {
+    "uk": "Цього ранку мороз."
+   }
+  },
+  {
+   "id": "flood",
+   "text": "flood",
+   "ipa": "/flʌd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "повінь"
+   },
+   "example": "The flood was terrible.",
+   "exampleTranslation": {
+    "uk": "Повінь була жахливою."
+   }
+  },
+  {
+   "id": "drought",
+   "text": "drought",
+   "ipa": "/draʊt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "посуха"
+   },
+   "example": "There was a drought last summer.",
+   "exampleTranslation": {
+    "uk": "Минулого літа була посуха."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What's the temperature?",
+   "prompt": {
+    "uk": "Повторимо. Двадцять градусів. Що відповісти?"
+   },
+   "options": [
+    "It's twenty degrees Celsius.",
+    "It is twenty Celsius degrees.",
+    "Twenty degrees it is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's twenty degrees Celsius."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "drizzle",
+     "right": {
+      "uk": "мжичка"
+     }
+    },
+    {
+     "left": "hail",
+     "right": {
+      "uk": "град"
+     }
+    },
+    {
+     "left": "frost",
+     "right": {
+      "uk": "мороз, паморозь"
+     }
+    },
+    {
+     "left": "flood",
+     "right": {
+      "uk": "повінь"
+     }
+    },
+    {
+     "left": "drought",
+     "right": {
+      "uk": "посуха"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "There is a light drizzle.",
+   "prompt": {
+    "uk": "Прослухайте. Яка погода?"
+   },
+   "options": {
+    "uk": [
+     "Мжичить",
+     "Град",
+     "Сніг"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Drizzle."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There is frost this morning.",
+   "prompt": {
+    "uk": "Прослухайте. Що ранком?"
+   },
+   "options": {
+    "uk": [
+     "Мороз",
+     "Туман",
+     "Сонце"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Frost."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "There was a drought last summer.",
+   "prompt": {
+    "uk": "Прослухайте. Що було влітку?"
+   },
+   "options": {
+    "uk": [
+     "Посуха",
+     "Повінь",
+     "Град"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Drought."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a light ___.",
+   "options": [
+    "drizzle",
+    "drought",
+    "flood"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Мжичка."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is ___ this morning.",
+   "options": [
+    "frost",
+    "hail",
+    "drought"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Мороз."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ was terrible.",
+   "options": [
+    "flood",
+    "frost",
+    "drizzle"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Повінь."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке hail?"
+   },
+   "options": {
+    "uk": [
+     "град",
+     "мжичка",
+     "мороз"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hail — град."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Цього ранку мороз."
+   },
+   "words": [
+    "There",
+    "is",
+    "frost",
+    "this",
+    "morning",
+    "are",
+    "hail"
+   ],
+   "answer": [
+    "There",
+    "is",
+    "frost",
+    "this",
+    "morning"
+   ],
+   "explanation": {
+    "uk": "There is frost this morning."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Повінь була жахливою."
+   },
+   "answers": [
+    "The flood was terrible"
+   ],
+   "explanation": {
+    "uk": "The flood was terrible."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What was the weather like?",
+   "prompt": {
+    "uk": "Був град. Що відповісти?"
+   },
+   "options": [
+    "There was hail.",
+    "There were hail.",
+    "It was a hail."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There was hail."
+   }
+  }
+ ]
+}

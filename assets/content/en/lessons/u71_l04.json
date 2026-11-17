@@ -1,0 +1,324 @@
+{
+ "id": "u71_l04",
+ "unit": "u71",
+ "cefr": "A1",
+ "title": {
+  "uk": "Різдво й Великдень"
+ },
+ "goal": {
+  "uk": "Назвати символи свят."
+ },
+ "rule": {
+  "uk": "Stocking — шкарпетка для подарунків, angel — ангел, bunny — кролик, egg hunt — пошук яєць, feast — святкова трапеза. Приклад: The children hang stockings. We have a big feast. There is an egg hunt at Easter."
+ },
+ "words": [
+  {
+   "id": "stocking",
+   "text": "stocking",
+   "ipa": "/ˈstɒkɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "різдвяна шкарпетка"
+   },
+   "example": "The children hang stockings.",
+   "exampleTranslation": {
+    "uk": "Діти вішають різдвяні шкарпетки."
+   }
+  },
+  {
+   "id": "angel",
+   "text": "angel",
+   "ipa": "/ˈeɪndʒl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ангел"
+   },
+   "example": "An angel on the tree.",
+   "exampleTranslation": {
+    "uk": "Ангел на ялинці."
+   }
+  },
+  {
+   "id": "bunny",
+   "text": "bunny",
+   "ipa": "/ˈbʌni/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кролик"
+   },
+   "example": "A chocolate bunny.",
+   "exampleTranslation": {
+    "uk": "Шоколадний кролик."
+   }
+  },
+  {
+   "id": "egg_hunt",
+   "text": "egg hunt",
+   "ipa": "/ˈeɡ hʌnt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пошук яєць"
+   },
+   "example": "There is an egg hunt at Easter.",
+   "exampleTranslation": {
+    "uk": "На Великдень — пошук яєць."
+   }
+  },
+  {
+   "id": "feast",
+   "text": "feast",
+   "ipa": "/fiːst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "святкова трапеза"
+   },
+   "example": "We have a big feast.",
+   "exampleTranslation": {
+    "uk": "У нас велика святкова вечеря."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you wear?",
+   "prompt": {
+    "uk": "Повторимо. Костюм і маску. Що відповісти?"
+   },
+   "options": [
+    "I wear a costume and a mask.",
+    "I wearing costume and mask.",
+    "I am wear costume mask."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I wear a costume and a mask."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "stocking",
+     "right": {
+      "uk": "різдвяна шкарпетка"
+     }
+    },
+    {
+     "left": "angel",
+     "right": {
+      "uk": "ангел"
+     }
+    },
+    {
+     "left": "bunny",
+     "right": {
+      "uk": "кролик"
+     }
+    },
+    {
+     "left": "egg hunt",
+     "right": {
+      "uk": "пошук яєць"
+     }
+    },
+    {
+     "left": "feast",
+     "right": {
+      "uk": "святкова трапеза"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The children hang stockings.",
+   "prompt": {
+    "uk": "Прослухайте. Що вішають діти?"
+   },
+   "options": {
+    "uk": [
+     "Різдвяні шкарпетки",
+     "Ліхтарики",
+     "Прикраси"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Stockings."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "A chocolate bunny.",
+   "prompt": {
+    "uk": "Прослухайте. Що це?"
+   },
+   "options": {
+    "uk": [
+     "Шоколадний кролик",
+     "Шоколадне яйце",
+     "Шоколадна свічка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bunny."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We have a big feast.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони мають?"
+   },
+   "options": {
+    "uk": [
+     "Велику святкову вечерю",
+     "Великий парад",
+     "Великий подарунок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Feast."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The children hang ___.",
+   "options": [
+    "stockings",
+    "bunny",
+    "angel"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Stockings."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is an ___ hunt at Easter.",
+   "options": [
+    "egg",
+    "angel",
+    "feast"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Egg hunt."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We have a big ___.",
+   "options": [
+    "feast",
+    "stocking",
+    "bunny"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Святкова вечеря."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке bunny?"
+   },
+   "options": {
+    "uk": [
+     "кролик",
+     "ангел",
+     "свічка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bunny — кролик."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У нас велика святкова вечеря."
+   },
+   "words": [
+    "We",
+    "have",
+    "a",
+    "big",
+    "feast",
+    "has",
+    "bunny"
+   ],
+   "answer": [
+    "We",
+    "have",
+    "a",
+    "big",
+    "feast"
+   ],
+   "explanation": {
+    "uk": "We have a big feast."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ангел на ялинці."
+   },
+   "answers": [
+    "An angel on the tree"
+   ],
+   "explanation": {
+    "uk": "An angel on the tree."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you do at Easter?",
+   "prompt": {
+    "uk": "Шукаємо яйця. Що відповісти?"
+   },
+   "options": [
+    "We have an egg hunt.",
+    "We are have egg hunt.",
+    "We make egg hunting."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We have an egg hunt."
+   }
+  }
+ ]
+}

@@ -1,0 +1,328 @@
+{
+ "id": "u69_l01",
+ "unit": "u69",
+ "cefr": "A1",
+ "title": {
+  "uk": "Найвищий, найдовший"
+ },
+ "goal": {
+  "uk": "Утворити найвищий ступінь коротких прикметників."
+ },
+ "rule": {
+  "uk": "Найвищий ступінь: the + прикметник + -est. tall — the tallest, short — the shortest, long — the longest, fast — the fastest, slow — the slowest. Приклад: He is the tallest in the class. Це найдовша річка."
+ },
+ "words": [
+  {
+   "id": "tallest",
+   "text": "tallest",
+   "ipa": "/ˈtɔːlɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найвищий"
+   },
+   "example": "He is the tallest in the class.",
+   "exampleTranslation": {
+    "uk": "Він найвищий у класі."
+   }
+  },
+  {
+   "id": "shortest",
+   "text": "shortest",
+   "ipa": "/ˈʃɔːtɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найкоротший, найнижчий"
+   },
+   "example": "This is the shortest road.",
+   "exampleTranslation": {
+    "uk": "Це найкоротша дорога."
+   }
+  },
+  {
+   "id": "longest",
+   "text": "longest",
+   "ipa": "/ˈlɒŋɡɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найдовший"
+   },
+   "example": "It is the longest river.",
+   "exampleTranslation": {
+    "uk": "Це найдовша річка."
+   }
+  },
+  {
+   "id": "fastest",
+   "text": "fastest",
+   "ipa": "/ˈfɑːstɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найшвидший"
+   },
+   "example": "He is the fastest runner.",
+   "exampleTranslation": {
+    "uk": "Він найшвидший бігун."
+   }
+  },
+  {
+   "id": "slowest",
+   "text": "slowest",
+   "ipa": "/ˈsləʊɪst/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "найповільніший"
+   },
+   "example": "This is the slowest train.",
+   "exampleTranslation": {
+    "uk": "Це найповільніший потяг."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Which is better?",
+   "prompt": {
+    "uk": "Повторимо. Ця краща, але дорожча. Що відповісти?"
+   },
+   "options": [
+    "This one is better, but it's more expensive.",
+    "This better, but more expensive it.",
+    "This is more good, but expensive more."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This one is better, but it's more expensive."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "tallest",
+     "right": {
+      "uk": "найвищий"
+     }
+    },
+    {
+     "left": "shortest",
+     "right": {
+      "uk": "найкоротший, найнижчий"
+     }
+    },
+    {
+     "left": "longest",
+     "right": {
+      "uk": "найдовший"
+     }
+    },
+    {
+     "left": "fastest",
+     "right": {
+      "uk": "найшвидший"
+     }
+    },
+    {
+     "left": "slowest",
+     "right": {
+      "uk": "найповільніший"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "He is the tallest in the class.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Він найвищий у класі",
+     "Він вищий за мене",
+     "Він найнижчий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tallest."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It is the longest river.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це найдовша річка",
+     "Це найкоротша річка",
+     "Це нова річка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Longest."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "This is the slowest train.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це найповільніший потяг",
+     "Це найшвидший потяг",
+     "Це новий потяг"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Slowest."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is the ___ in the class.",
+   "options": [
+    "tallest",
+    "taller",
+    "tall"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The tallest."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is the ___ runner.",
+   "options": [
+    "fastest",
+    "faster",
+    "fast"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The fastest."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is the ___ road.",
+   "options": [
+    "shortest",
+    "shorter",
+    "short"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The shortest."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від long?"
+   },
+   "options": {
+    "uk": [
+     "the longest",
+     "the longer",
+     "the most long"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Long — the longest."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він найвищий у класі."
+   },
+   "words": [
+    "He",
+    "is",
+    "the",
+    "tallest",
+    "in",
+    "the",
+    "class",
+    "taller",
+    "a"
+   ],
+   "answer": [
+    "He",
+    "is",
+    "the",
+    "tallest",
+    "in",
+    "the",
+    "class"
+   ],
+   "explanation": {
+    "uk": "He is the tallest in the class."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це найдовша річка."
+   },
+   "answers": [
+    "It is the longest river"
+   ],
+   "explanation": {
+    "uk": "It is the longest river."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Who is the tallest?",
+   "prompt": {
+    "uk": "Мій брат. Що відповісти?"
+   },
+   "options": [
+    "My brother is the tallest.",
+    "My brother is tallest the.",
+    "My brother is the most tall."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My brother is the tallest."
+   }
+  }
+ ]
+}

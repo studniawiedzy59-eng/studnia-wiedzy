@@ -1,0 +1,322 @@
+{
+ "id": "u72_l05",
+ "unit": "u72",
+ "cefr": "A1",
+ "title": {
+  "uk": "На прийомі"
+ },
+ "goal": {
+  "uk": "Спілкуватися з лікарем."
+ },
+ "rule": {
+  "uk": "Examination — огляд, check-up — профілактичний огляд, treatment — лікування, recover — одужувати, advice — порада (нелічильне: some advice). Приклад: The doctor did an examination. I need a check-up. I recovered quickly. Thank you for your advice."
+ },
+ "words": [
+  {
+   "id": "examination",
+   "text": "examination",
+   "ipa": "/ɪɡˌzæmɪˈneɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "огляд"
+   },
+   "example": "The doctor did an examination.",
+   "exampleTranslation": {
+    "uk": "Лікар зробив огляд."
+   }
+  },
+  {
+   "id": "check-up",
+   "text": "check-up",
+   "ipa": "/ˈtʃek ʌp/",
+   "pos": "noun",
+   "translation": {
+    "uk": "профілактичний огляд"
+   },
+   "example": "I need a check-up.",
+   "exampleTranslation": {
+    "uk": "Мені потрібен профілактичний огляд."
+   }
+  },
+  {
+   "id": "treatment",
+   "text": "treatment",
+   "ipa": "/ˈtriːtmənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "лікування"
+   },
+   "example": "The treatment is simple.",
+   "exampleTranslation": {
+    "uk": "Лікування просте."
+   }
+  },
+  {
+   "id": "recover",
+   "text": "recover",
+   "ipa": "/rɪˈkʌvə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "одужувати"
+   },
+   "example": "I recovered quickly.",
+   "exampleTranslation": {
+    "uk": "Я швидко одужав."
+   }
+  },
+  {
+   "id": "advice",
+   "text": "advice",
+   "ipa": "/ədˈvaɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "порада"
+   },
+   "example": "Thank you for your advice.",
+   "exampleTranslation": {
+    "uk": "Дякую за пораду."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How often do I take the tablet?",
+   "prompt": {
+    "uk": "Повторимо. Двічі на день. Що відповісти?"
+   },
+   "options": [
+    "Twice a day.",
+    "Two time a day.",
+    "In a day twice."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice a day."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "examination",
+     "right": {
+      "uk": "огляд"
+     }
+    },
+    {
+     "left": "check-up",
+     "right": {
+      "uk": "профілактичний огляд"
+     }
+    },
+    {
+     "left": "treatment",
+     "right": {
+      "uk": "лікування"
+     }
+    },
+    {
+     "left": "recover",
+     "right": {
+      "uk": "одужувати"
+     }
+    },
+    {
+     "left": "advice",
+     "right": {
+      "uk": "порада"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The doctor did an examination.",
+   "prompt": {
+    "uk": "Прослухайте. Що зробив лікар?"
+   },
+   "options": {
+    "uk": [
+     "Огляд",
+     "Укол",
+     "Рентген"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Examination."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I need a check-up.",
+   "prompt": {
+    "uk": "Прослухайте. Що потрібно людині?"
+   },
+   "options": {
+    "uk": [
+     "Профілактичний огляд",
+     "Лікування",
+     "Укол"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Check-up."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I recovered quickly.",
+   "prompt": {
+    "uk": "Прослухайте. Що сталося?"
+   },
+   "options": {
+    "uk": [
+     "Людина швидко одужала",
+     "Людина захворіла",
+     "Людина поїхала"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Recovered."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The doctor did an ___.",
+   "options": [
+    "examination",
+    "advice",
+    "vaccine"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Огляд."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I need a ___.",
+   "options": [
+    "check-up",
+    "recover",
+    "symptom"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Огляд."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ quickly.",
+   "options": [
+    "recovered",
+    "recover",
+    "recovering"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Recovered."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке advice?"
+   },
+   "options": {
+    "uk": [
+     "порада",
+     "огляд",
+     "лікування"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Advice — порада."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мені потрібен профілактичний огляд."
+   },
+   "words": [
+    "I",
+    "need",
+    "a",
+    "check-up",
+    "needs",
+    "advice"
+   ],
+   "answer": [
+    "I",
+    "need",
+    "a",
+    "check-up"
+   ],
+   "explanation": {
+    "uk": "I need a check-up."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Дякую за пораду."
+   },
+   "answers": [
+    "Thank you for your advice"
+   ],
+   "explanation": {
+    "uk": "Thank you for your advice."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What does the doctor say?",
+   "prompt": {
+    "uk": "Потрібно відпочити. Що відповісти?"
+   },
+   "options": [
+    "She says I need to rest.",
+    "She say I need rest.",
+    "She is says need rest."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She says I need to rest."
+   }
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "id": "u72_l06",
+ "unit": "u72",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: у лікаря"
+ },
+ "goal": {
+  "uk": "Закріпити лексику здоров'я."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: симптоми (fever, flu, sneeze), біль (backache, stomachache, earache), травми (burn, sprain, fracture, swollen), лікування (tablet, ointment, injection, vaccine) і прийом (examination, check-up, treatment, advice)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What does the doctor say?",
+   "prompt": {
+    "uk": "Повторимо. Потрібно відпочити. Що відповісти?"
+   },
+   "options": [
+    "She says I need to rest.",
+    "She say I need rest.",
+    "She is says need rest."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She says I need to rest."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "I have a fever and a backache, and I sneeze a lot.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "У неї температура, болить спина й вона чхає",
+     "У неї грип і висип",
+     "У неї перелом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fever, backache, sneeze."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Take one tablet twice a day, and put the ointment on the rash.",
+   "prompt": {
+    "uk": "Прослухайте. Що радить лікар?"
+   },
+   "options": {
+    "uk": [
+     "Таблетку двічі на день і мазь на висип",
+     "Один укол і пов'язку",
+     "Тільки відпочивати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tablet, ointment."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I sprained my ankle, and it's swollen.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона розтягнула щиколотку, вона опухла",
+     "Вона зламала щиколотку",
+     "Щиколотка здорова"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sprained, swollen."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___.",
+   "options": [
+    "fever",
+    "examination",
+    "treatment"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fever."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Take one ___ twice a day.",
+   "options": [
+    "tablet",
+    "ointment",
+    "fracture"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Tablet."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Thank you for your ___.",
+   "options": [
+    "advice",
+    "symptom",
+    "bandage"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Advice."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке bandage?"
+   },
+   "options": {
+    "uk": [
+     "пов'язка",
+     "мазь",
+     "укол"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bandage — пов'язка."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене температура."
+   },
+   "words": [
+    "I",
+    "have",
+    "a",
+    "fever",
+    "has",
+    "flu"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "fever"
+   ],
+   "explanation": {
+    "uk": "I have a fever."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мені потрібен профілактичний огляд."
+   },
+   "answers": [
+    "I need a check-up"
+   ],
+   "explanation": {
+    "uk": "I need a check-up."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What's the matter?",
+   "prompt": {
+    "uk": "Болить спина, і в мене температура. Що відповісти?"
+   },
+   "options": [
+    "I have a backache and a fever.",
+    "I have backache and fever.",
+    "I am have a backache and fever."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a backache and a fever."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви на прийомі в лікаря."
+   },
+   "character": {
+    "name": {
+     "uk": "Лікарка Ейпріл"
+    },
+    "avatar": "🩺"
+   },
+   "line": "What's the matter?",
+   "options": [
+    "I have a fever and a backache.",
+    "I am have fever and backache.",
+    "My fever and backache is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a fever — у мене температура."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Лікарка призначає ліки."
+   },
+   "character": {
+    "name": {
+     "uk": "Лікарка Ейпріл"
+    },
+    "avatar": "🩺"
+   },
+   "line": "Take one tablet twice a day. Is that clear?",
+   "options": [
+    "Yes, thank you for your advice.",
+    "Yes, thank you for your advices.",
+    "Yes, thanks to advice."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Advice — нелічильне, без -s."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви розповідаєте про травму."
+   },
+   "character": {
+    "name": {
+     "uk": "Лікарка Ейпріл"
+    },
+    "avatar": "🩺"
+   },
+   "line": "What happened to your ankle?",
+   "options": [
+    "I sprained it, and it's swollen.",
+    "I sprain it, and it swollen.",
+    "I did sprained it swollen."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sprained — минулий час."
+   }
+  }
+ ]
+}
