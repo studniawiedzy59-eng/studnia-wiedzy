@@ -1,0 +1,322 @@
+{
+ "id": "u66_l02",
+ "unit": "u66",
+ "cefr": "A1",
+ "title": {
+  "uk": "Що ми побачили"
+ },
+ "goal": {
+  "uk": "Розповісти про програму відпочинку."
+ },
+ "rule": {
+  "uk": "Sightseeing — огляд пам'яток, souvenir — сувенір, postcard — листівка, sunset — захід сонця, sunburn — сонячний опік. Приклад: We went sightseeing. I bought a souvenir. We watched the sunset. I got sunburn."
+ },
+ "words": [
+  {
+   "id": "sightseeing",
+   "text": "sightseeing",
+   "ipa": "/ˈsaɪtsiːɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "огляд пам'яток"
+   },
+   "example": "We went sightseeing.",
+   "exampleTranslation": {
+    "uk": "Ми оглядали пам'ятки."
+   }
+  },
+  {
+   "id": "souvenir",
+   "text": "souvenir",
+   "ipa": "/ˌsuːvəˈnɪə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сувенір"
+   },
+   "example": "I bought a souvenir.",
+   "exampleTranslation": {
+    "uk": "Я купила сувенір."
+   }
+  },
+  {
+   "id": "postcard",
+   "text": "postcard",
+   "ipa": "/ˈpəʊstkɑːd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "листівка"
+   },
+   "example": "I sent a postcard.",
+   "exampleTranslation": {
+    "uk": "Я надіслала листівку."
+   }
+  },
+  {
+   "id": "sunset",
+   "text": "sunset",
+   "ipa": "/ˈsʌnset/",
+   "pos": "noun",
+   "translation": {
+    "uk": "захід сонця"
+   },
+   "example": "We watched the sunset.",
+   "exampleTranslation": {
+    "uk": "Ми дивилися на захід сонця."
+   }
+  },
+  {
+   "id": "sunburn",
+   "text": "sunburn",
+   "ipa": "/ˈsʌnbɜːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сонячний опік"
+   },
+   "example": "I got sunburn.",
+   "exampleTranslation": {
+    "uk": "Я отримала сонячний опік."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where did you stay?",
+   "prompt": {
+    "uk": "Повторимо. На острові. Що відповісти?"
+   },
+   "options": [
+    "We stayed on an island.",
+    "We did stay at island.",
+    "We stay on island."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We stayed on an island."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "sightseeing",
+     "right": {
+      "uk": "огляд пам'яток"
+     }
+    },
+    {
+     "left": "souvenir",
+     "right": {
+      "uk": "сувенір"
+     }
+    },
+    {
+     "left": "postcard",
+     "right": {
+      "uk": "листівка"
+     }
+    },
+    {
+     "left": "sunset",
+     "right": {
+      "uk": "захід сонця"
+     }
+    },
+    {
+     "left": "sunburn",
+     "right": {
+      "uk": "сонячний опік"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "We went sightseeing.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони робили?"
+   },
+   "options": {
+    "uk": [
+     "Оглядали пам'ятки",
+     "Купалися",
+     "Відпочивали вдома"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sightseeing."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I sent a postcard.",
+   "prompt": {
+    "uk": "Прослухайте. Що зробила людина?"
+   },
+   "options": {
+    "uk": [
+     "Надіслала листівку",
+     "Купила листівку",
+     "Написала лист"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Postcard."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We watched the sunset.",
+   "prompt": {
+    "uk": "Прослухайте. На що дивилися?"
+   },
+   "options": {
+    "uk": [
+     "На захід сонця",
+     "На море",
+     "На зірки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sunset."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We went ___.",
+   "options": [
+    "sightseeing",
+    "sunset",
+    "postcard"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sightseeing."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I bought a ___.",
+   "options": [
+    "souvenir",
+    "sunburn",
+    "sightseeing"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Souvenir."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I got ___.",
+   "options": [
+    "sunburn",
+    "postcard",
+    "tent"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sunburn."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке souvenir?"
+   },
+   "options": {
+    "uk": [
+     "сувенір",
+     "листівка",
+     "захід сонця"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Souvenir — сувенір."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я надіслала листівку."
+   },
+   "words": [
+    "I",
+    "sent",
+    "a",
+    "postcard",
+    "send",
+    "did"
+   ],
+   "answer": [
+    "I",
+    "sent",
+    "a",
+    "postcard"
+   ],
+   "explanation": {
+    "uk": "I sent a postcard."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми дивилися на захід сонця."
+   },
+   "answers": [
+    "We watched the sunset"
+   ],
+   "explanation": {
+    "uk": "We watched the sunset."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What did you buy?",
+   "prompt": {
+    "uk": "Сувенір. Що відповісти?"
+   },
+   "options": [
+    "I bought a souvenir.",
+    "I did buy souvenir.",
+    "I buyed a souvenir."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I bought a souvenir."
+   }
+  }
+ ]
+}

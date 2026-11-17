@@ -1,0 +1,326 @@
+{
+ "id": "u68_l03",
+ "unit": "u68",
+ "cefr": "A1",
+ "title": {
+  "uk": "Однаково чи по-різному"
+ },
+ "goal": {
+  "uk": "Говорити про схожість і різницю."
+ },
+ "rule": {
+  "uk": "As … as — «такий самий … як»: He is as tall as me. The same as — той самий: the same as yours. Different from — відмінний від, similar to — схожий на, compare — порівнювати. Приклад: My phone is similar to yours."
+ },
+ "words": [
+  {
+   "id": "as_..._as",
+   "text": "as ... as",
+   "ipa": "/æz ... æz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "так само … як"
+   },
+   "example": "He is as tall as me.",
+   "exampleTranslation": {
+    "uk": "Він такий самий високий, як я."
+   }
+  },
+  {
+   "id": "the_same_as",
+   "text": "the same as",
+   "ipa": "/ðə ˈseɪm əz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "той самий, що й"
+   },
+   "example": "My bag is the same as yours.",
+   "exampleTranslation": {
+    "uk": "Моя сумка така сама, як твоя."
+   }
+  },
+  {
+   "id": "different_from",
+   "text": "different from",
+   "ipa": "/ˈdɪfrənt frəm/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "відмінний від"
+   },
+   "example": "My phone is different from yours.",
+   "exampleTranslation": {
+    "uk": "Мій телефон відрізняється від твого."
+   }
+  },
+  {
+   "id": "similar_to",
+   "text": "similar to",
+   "ipa": "/ˈsɪmələ tə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "схожий на"
+   },
+   "example": "This coat is similar to mine.",
+   "exampleTranslation": {
+    "uk": "Це пальто схоже на моє."
+   }
+  },
+  {
+   "id": "compare",
+   "text": "compare",
+   "ipa": "/kəmˈpeə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "порівнювати"
+   },
+   "example": "Compare the two photos.",
+   "exampleTranslation": {
+    "uk": "Порівняйте дві фотографії."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is the second flat bigger?",
+   "prompt": {
+    "uk": "Повторимо. Так, більша. Що відповісти?"
+   },
+   "options": [
+    "Yes, it is larger.",
+    "Yes, it is more large.",
+    "Yes, it larger is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it is larger."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "as ... as",
+     "right": {
+      "uk": "так само … як"
+     }
+    },
+    {
+     "left": "the same as",
+     "right": {
+      "uk": "той самий, що й"
+     }
+    },
+    {
+     "left": "different from",
+     "right": {
+      "uk": "відмінний від"
+     }
+    },
+    {
+     "left": "similar to",
+     "right": {
+      "uk": "схожий на"
+     }
+    },
+    {
+     "left": "compare",
+     "right": {
+      "uk": "порівнювати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "He is as tall as me.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Він такого самого зросту, як я",
+     "Він вищий за мене",
+     "Він нижчий за мене"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "As tall as."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "My bag is the same as yours.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Її сумка така сама, як твоя",
+     "Її сумка інша",
+     "Її сумка більша"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The same as."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Compare the two photos.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Порівняти фотографії",
+     "Зробити фотографії",
+     "Показати фотографії"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Compare."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is ___ tall as me.",
+   "options": [
+    "as",
+    "than",
+    "the"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "As … as."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My phone is different ___ yours.",
+   "options": [
+    "from",
+    "than",
+    "as"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Different from."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This coat is similar ___ mine.",
+   "options": [
+    "to",
+    "from",
+    "as"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Similar to."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає the same as?"
+   },
+   "options": {
+    "uk": [
+     "такий самий, як",
+     "відмінний від",
+     "схожий на"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "The same as."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він такий самий високий, як я."
+   },
+   "words": [
+    "He",
+    "is",
+    "as",
+    "tall",
+    "as",
+    "me",
+    "than",
+    "taller"
+   ],
+   "answer": [
+    "He",
+    "is",
+    "as",
+    "tall",
+    "as",
+    "me"
+   ],
+   "explanation": {
+    "uk": "He is as tall as me."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Моя сумка така сама, як твоя."
+   },
+   "answers": [
+    "My bag is the same as yours"
+   ],
+   "explanation": {
+    "uk": "My bag is the same as yours."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is your phone like mine?",
+   "prompt": {
+    "uk": "Схожий. Що відповісти?"
+   },
+   "options": [
+    "Yes, it's similar to yours.",
+    "Yes, it is similar with yours.",
+    "Yes, it similar yours."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it's similar to yours."
+   }
+  }
+ ]
+}

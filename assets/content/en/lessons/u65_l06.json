@@ -1,0 +1,286 @@
+{
+ "id": "u65_l06",
+ "unit": "u65",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: неправильні дієслова"
+ },
+ "goal": {
+  "uk": "Закріпити неправильні дієслова."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: go — went, get — got, give — gave, know — knew, think — thought, run — ran, hear — heard, teach — taught, catch — caught, sell — sold, fall — fell, fly — flew, ride — rode, throw — threw, hide — hid, keep — kept, lend — lent, begin — began, wake — woke, steal — stole, sweep — swept; let, hit, shut, spread не змінюються."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "When did the film begin?",
+   "prompt": {
+    "uk": "Повторимо. О дев'ятій. Що відповісти?"
+   },
+   "options": [
+    "It began at nine.",
+    "It did begin at nine.",
+    "It begun at nine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It began at nine."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "I woke up early and ran to the bus stop.",
+   "prompt": {
+    "uk": "Прослухайте. Що зробила людина?"
+   },
+   "options": {
+    "uk": [
+     "Прокинулась рано й побігла на зупинку",
+     "Пішла на зупинку й заснула",
+     "Прокинулась пізно"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Woke, ran."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Someone stole my bag, but I caught him.",
+   "prompt": {
+    "uk": "Прослухайте. Що сталося?"
+   },
+   "options": {
+    "uk": [
+     "Хтось украв сумку, але людина впіймала його",
+     "Хтось знайшов сумку",
+     "Людина продала сумку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Stole, caught."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He lent me money and I kept the receipt.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Він позичив гроші, я зберіг чек",
+     "Я позичив гроші, він зберіг чек",
+     "Він продав мені гроші"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Lent, kept."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ to Rome by plane.",
+   "options": [
+    "flew",
+    "flied",
+    "fly"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Flew."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ me a book.",
+   "options": [
+    "gave",
+    "gived",
+    "give"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Gave."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Did you ___ the bus?",
+   "options": [
+    "catch",
+    "caught",
+    "catched"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після did — початкова форма."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від hear?"
+   },
+   "options": {
+    "uk": [
+     "heard",
+     "heared",
+     "hears"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hear — heard."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я ходила в кіно."
+   },
+   "words": [
+    "I",
+    "went",
+    "to",
+    "the",
+    "cinema",
+    "go",
+    "did"
+   ],
+   "answer": [
+    "I",
+    "went",
+    "to",
+    "the",
+    "cinema"
+   ],
+   "explanation": {
+    "uk": "I went to the cinema."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Хтось украв мою сумку."
+   },
+   "answers": [
+    "Someone stole my bag"
+   ],
+   "explanation": {
+    "uk": "Someone stole my bag."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What did you do last night?",
+   "prompt": {
+    "uk": "Ходила в кіно. Що відповісти?"
+   },
+   "options": [
+    "I went to the cinema.",
+    "I did go to the cinema.",
+    "I goed to cinema."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I went to the cinema."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви ходили в кіно."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Лена"
+    },
+    "avatar": "👩"
+   },
+   "line": "What did you do last night?",
+   "options": [
+    "I went to the cinema.",
+    "I goed to the cinema.",
+    "I did go cinema last night."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go — went. Форми goed не існує."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви встигли на автобус."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Лена"
+    },
+    "avatar": "👩"
+   },
+   "line": "Did you catch the bus?",
+   "options": [
+    "Yes, I did. I ran to the stop.",
+    "Yes, I catched it. I runned.",
+    "Yes, I did caught the bus."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Run — ran; відповідь Yes, I did."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "У вас украли сумку."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Лена"
+    },
+    "avatar": "👩"
+   },
+   "line": "Why are you upset?",
+   "options": [
+    "Someone stole my bag.",
+    "Someone stealed my bag.",
+    "Somebody did steal bag my."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Steal — stole."
+   }
+  }
+ ]
+}

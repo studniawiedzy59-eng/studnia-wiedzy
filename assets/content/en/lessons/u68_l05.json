@@ -1,0 +1,328 @@
+{
+ "id": "u68_l05",
+ "unit": "u68",
+ "cefr": "A1",
+ "title": {
+  "uk": "Протиставляємо"
+ },
+ "goal": {
+  "uk": "Протиставити два предмети чи думки."
+ },
+ "rule": {
+  "uk": "Whereas — тоді як, on the other hand — з іншого боку, in contrast — навпаки, however — проте, unlike — на відміну від. Приклад: Tea is cheap, whereas coffee is expensive. However, I like both."
+ },
+ "words": [
+  {
+   "id": "whereas",
+   "text": "whereas",
+   "ipa": "/weərˈæz/",
+   "pos": "conjunction",
+   "translation": {
+    "uk": "тоді як"
+   },
+   "example": "Tea is cheap, whereas coffee is expensive.",
+   "exampleTranslation": {
+    "uk": "Чай дешевий, а кава дорога."
+   }
+  },
+  {
+   "id": "on_the_other_hand",
+   "text": "on the other hand",
+   "ipa": "/ɒn ði ˌʌðə ˈhænd/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "з іншого боку"
+   },
+   "example": "On the other hand, it's cheaper.",
+   "exampleTranslation": {
+    "uk": "З іншого боку, це дешевше."
+   }
+  },
+  {
+   "id": "in_contrast",
+   "text": "in contrast",
+   "ipa": "/ɪn ˈkɒntrɑːst/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "навпаки"
+   },
+   "example": "In contrast, the bus is slow.",
+   "exampleTranslation": {
+    "uk": "Навпаки, автобус повільний."
+   }
+  },
+  {
+   "id": "however",
+   "text": "however",
+   "ipa": "/haʊˈevə/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "проте"
+   },
+   "example": "However, I like both.",
+   "exampleTranslation": {
+    "uk": "Проте мені подобаються обидва."
+   }
+  },
+  {
+   "id": "unlike",
+   "text": "unlike",
+   "ipa": "/ʌnˈlaɪk/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "на відміну від"
+   },
+   "example": "Unlike me, he is tall.",
+   "exampleTranslation": {
+    "uk": "На відміну від мене, він високий."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is it more expensive?",
+   "prompt": {
+    "uk": "Повторимо. Вдвічі. Що відповісти?"
+   },
+   "options": [
+    "Yes, it's twice as expensive.",
+    "Yes, it is two as expensive.",
+    "Yes, twice expensive it is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it's twice as expensive."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "whereas",
+     "right": {
+      "uk": "тоді як"
+     }
+    },
+    {
+     "left": "on the other hand",
+     "right": {
+      "uk": "з іншого боку"
+     }
+    },
+    {
+     "left": "in contrast",
+     "right": {
+      "uk": "навпаки"
+     }
+    },
+    {
+     "left": "however",
+     "right": {
+      "uk": "проте"
+     }
+    },
+    {
+     "left": "unlike",
+     "right": {
+      "uk": "на відміну від"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Tea is cheap, whereas coffee is expensive.",
+   "prompt": {
+    "uk": "Прослухайте. Що дешевше?"
+   },
+   "options": {
+    "uk": [
+     "Чай",
+     "Кава",
+     "Однаково"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Whereas."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "However, I like both.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Проте їй подобаються обидва",
+     "Їй не подобається жодне",
+     "Їй подобається лише чай"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "However."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Unlike me, he is tall.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "На відміну від неї він високий",
+     "Вона вища за нього",
+     "Вони однакові"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Unlike."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Tea is cheap, ___ coffee is expensive.",
+   "options": [
+    "whereas",
+    "unlike",
+    "either"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Whereas — тоді як."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___, I like both.",
+   "options": [
+    "However",
+    "Whereas",
+    "Either"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "However — проте."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ me, he is tall.",
+   "options": [
+    "Unlike",
+    "Whereas",
+    "However"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Unlike — на відміну від."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає on the other hand?"
+   },
+   "options": {
+    "uk": [
+     "з іншого боку",
+     "тоді як",
+     "на відміну від"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On the other hand — з іншого боку."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Чай дешевий, а кава дорога."
+   },
+   "words": [
+    "Tea",
+    "is",
+    "cheap",
+    "whereas",
+    "coffee",
+    "is",
+    "expensive",
+    "however",
+    "more"
+   ],
+   "answer": [
+    "Tea",
+    "is",
+    "cheap",
+    "whereas",
+    "coffee",
+    "is",
+    "expensive"
+   ],
+   "explanation": {
+    "uk": "Tea is cheap whereas coffee is expensive."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Проте мені подобаються обидва."
+   },
+   "answers": [
+    "However, I like both"
+   ],
+   "explanation": {
+    "uk": "However, I like both."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Which do you prefer?",
+   "prompt": {
+    "uk": "Чай. Що відповісти?"
+   },
+   "options": [
+    "I prefer tea. However, coffee is nice too.",
+    "I prefer tea however coffee nice.",
+    "I prefer tea, whereas however coffee."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I prefer tea. However, coffee is nice too."
+   }
+  }
+ ]
+}

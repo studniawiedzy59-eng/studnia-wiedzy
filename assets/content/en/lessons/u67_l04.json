@@ -1,0 +1,326 @@
+{
+ "id": "u67_l04",
+ "unit": "u67",
+ "cefr": "A1",
+ "title": {
+  "uk": "Вік і дати"
+ },
+ "goal": {
+  "uk": "Говорити про вік і час у біографії."
+ },
+ "rule": {
+  "uk": "At the age of — у віці, in the 1990s — у дев'яностих, since then — відтоді, famous for — відомий завдяки, known as — відомий як. Приклад: At the age of ten he wrote a book. He is famous for his music. He is known as a genius."
+ },
+ "words": [
+  {
+   "id": "at_the_age_of",
+   "text": "at the age of",
+   "ipa": "/ət ði ˈeɪdʒ əv/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "у віці"
+   },
+   "example": "At the age of ten, he wrote a book.",
+   "exampleTranslation": {
+    "uk": "У десять років він написав книжку."
+   }
+  },
+  {
+   "id": "in_the_1990s",
+   "text": "in the 1990s",
+   "ipa": "/ɪn ðə ˌnaɪntiːn ˈnaɪntiz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "у дев'яностих"
+   },
+   "example": "He became famous in the 1990s.",
+   "exampleTranslation": {
+    "uk": "Він став відомим у дев'яностих."
+   }
+  },
+  {
+   "id": "since_then",
+   "text": "since then",
+   "ipa": "/sɪns ˈðen/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "відтоді"
+   },
+   "example": "Since then he lives in Rome.",
+   "exampleTranslation": {
+    "uk": "Відтоді він живе в Римі."
+   }
+  },
+  {
+   "id": "famous_for",
+   "text": "famous for",
+   "ipa": "/ˈfeɪməs fə/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "відомий завдяки"
+   },
+   "example": "He is famous for his music.",
+   "exampleTranslation": {
+    "uk": "Він відомий завдяки своїй музиці."
+   }
+  },
+  {
+   "id": "known_as",
+   "text": "known as",
+   "ipa": "/ˈnəʊn əz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "відомий як"
+   },
+   "example": "He is known as a great poet.",
+   "exampleTranslation": {
+    "uk": "Його знають як великого поета."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where did he settle down?",
+   "prompt": {
+    "uk": "Повторимо. У Римі. Що відповісти?"
+   },
+   "options": [
+    "He settled down in Rome.",
+    "He did settle down at Rome.",
+    "He settleed down in Rome."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He settled down in Rome."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "at the age of",
+     "right": {
+      "uk": "у віці"
+     }
+    },
+    {
+     "left": "in the 1990s",
+     "right": {
+      "uk": "у дев'яностих"
+     }
+    },
+    {
+     "left": "since then",
+     "right": {
+      "uk": "відтоді"
+     }
+    },
+    {
+     "left": "famous for",
+     "right": {
+      "uk": "відомий завдяки"
+     }
+    },
+    {
+     "left": "known as",
+     "right": {
+      "uk": "відомий як"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "At the age of ten, he wrote a book.",
+   "prompt": {
+    "uk": "Прослухайте. Що зробив він у десять?"
+   },
+   "options": {
+    "uk": [
+     "Написав книжку",
+     "Купив книжку",
+     "Прочитав книжку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Age."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He became famous in the 1990s.",
+   "prompt": {
+    "uk": "Прослухайте. Коли він став відомим?"
+   },
+   "options": {
+    "uk": [
+     "У дев'яностих",
+     "У двохтисячних",
+     "У вісімдесятих"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "1990s."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "He is famous for his music.",
+   "prompt": {
+    "uk": "Прослухайте. Чим він відомий?"
+   },
+   "options": {
+    "uk": [
+     "Своєю музикою",
+     "Своїми фільмами",
+     "Своїми книжками"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Famous for."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ the age of ten, he wrote a book.",
+   "options": [
+    "At",
+    "In",
+    "On"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At the age of."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is ___ for his music.",
+   "options": [
+    "famous",
+    "known",
+    "popular"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Famous for."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is ___ as a great poet.",
+   "options": [
+    "known",
+    "famous",
+    "born"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Known as."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає since then?"
+   },
+   "options": {
+    "uk": [
+     "відтоді",
+     "у віці",
+     "відомий як"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Since then — відтоді."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він відомий завдяки своїй музиці."
+   },
+   "words": [
+    "He",
+    "is",
+    "famous",
+    "for",
+    "his",
+    "music",
+    "known",
+    "at"
+   ],
+   "answer": [
+    "He",
+    "is",
+    "famous",
+    "for",
+    "his",
+    "music"
+   ],
+   "explanation": {
+    "uk": "He is famous for his music."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У десять років він написав книжку."
+   },
+   "answers": [
+    "At the age of ten, he wrote a book"
+   ],
+   "explanation": {
+    "uk": "At the age of ten, he wrote a book."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is he famous for?",
+   "prompt": {
+    "uk": "Музикою. Що відповісти?"
+   },
+   "options": [
+    "He is famous for his music.",
+    "He famous by music.",
+    "He is famous of music."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He is famous for his music."
+   }
+  }
+ ]
+}

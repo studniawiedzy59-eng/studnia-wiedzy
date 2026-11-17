@@ -1,0 +1,322 @@
+{
+ "id": "u67_l05",
+ "unit": "u67",
+ "cefr": "A1",
+ "title": {
+  "uk": "Видатні люди"
+ },
+ "goal": {
+  "uk": "Говорити про видатних людей."
+ },
+ "rule": {
+  "uk": "Genius — геній, invention — винахід, discovery — відкриття, popular — популярний, important — важливий. Приклад: He was a genius. The telephone is a great invention. It was an important discovery."
+ },
+ "words": [
+  {
+   "id": "genius",
+   "text": "genius",
+   "ipa": "/ˈdʒiːniəs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "геній"
+   },
+   "example": "He was a genius.",
+   "exampleTranslation": {
+    "uk": "Він був генієм."
+   }
+  },
+  {
+   "id": "invention",
+   "text": "invention",
+   "ipa": "/ɪnˈvenʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "винахід"
+   },
+   "example": "The telephone is a great invention.",
+   "exampleTranslation": {
+    "uk": "Телефон — чудовий винахід."
+   }
+  },
+  {
+   "id": "discovery",
+   "text": "discovery",
+   "ipa": "/dɪˈskʌvəri/",
+   "pos": "noun",
+   "translation": {
+    "uk": "відкриття"
+   },
+   "example": "It was an important discovery.",
+   "exampleTranslation": {
+    "uk": "Це було важливе відкриття."
+   }
+  },
+  {
+   "id": "popular",
+   "text": "popular",
+   "ipa": "/ˈpɒpjələ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "популярний"
+   },
+   "example": "The book was very popular.",
+   "exampleTranslation": {
+    "uk": "Книжка була дуже популярною."
+   }
+  },
+  {
+   "id": "important",
+   "text": "important",
+   "ipa": "/ɪmˈpɔːtnt/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "важливий"
+   },
+   "example": "It was an important day.",
+   "exampleTranslation": {
+    "uk": "Це був важливий день."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is he famous for?",
+   "prompt": {
+    "uk": "Повторимо. Музикою. Що відповісти?"
+   },
+   "options": [
+    "He is famous for his music.",
+    "He famous by music.",
+    "He is famous of music."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He is famous for his music."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "genius",
+     "right": {
+      "uk": "геній"
+     }
+    },
+    {
+     "left": "invention",
+     "right": {
+      "uk": "винахід"
+     }
+    },
+    {
+     "left": "discovery",
+     "right": {
+      "uk": "відкриття"
+     }
+    },
+    {
+     "left": "popular",
+     "right": {
+      "uk": "популярний"
+     }
+    },
+    {
+     "left": "important",
+     "right": {
+      "uk": "важливий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "He was a genius.",
+   "prompt": {
+    "uk": "Прослухайте. Ким він був?"
+   },
+   "options": {
+    "uk": [
+     "Генієм",
+     "Винахідником",
+     "Письменником"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Genius."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The telephone is a great invention.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Телефон — чудовий винахід",
+     "Телефон — нове відкриття",
+     "Телефон дуже дорогий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Invention."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It was an important discovery.",
+   "prompt": {
+    "uk": "Прослухайте. Яке було відкриття?"
+   },
+   "options": {
+    "uk": [
+     "Важливе",
+     "Дивне",
+     "Старе"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Important."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He was a ___.",
+   "options": [
+    "genius",
+    "discovery",
+    "award"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Геній."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It was an ___ discovery.",
+   "options": [
+    "important",
+    "invention",
+    "popular"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Важливе. An перед голосною."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The book was very ___.",
+   "options": [
+    "popular",
+    "genius",
+    "invention"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Популярна."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке discovery?"
+   },
+   "options": {
+    "uk": [
+     "відкриття",
+     "винахід",
+     "геній"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Discovery — відкриття."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він був генієм."
+   },
+   "words": [
+    "He",
+    "was",
+    "a",
+    "genius",
+    "were",
+    "invention"
+   ],
+   "answer": [
+    "He",
+    "was",
+    "a",
+    "genius"
+   ],
+   "explanation": {
+    "uk": "He was a genius."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це було важливе відкриття."
+   },
+   "answers": [
+    "It was an important discovery"
+   ],
+   "explanation": {
+    "uk": "It was an important discovery."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Why was he famous?",
+   "prompt": {
+    "uk": "Геній. Що відповісти?"
+   },
+   "options": [
+    "He was a genius.",
+    "He were genius.",
+    "He is a genius famous."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He was a genius."
+   }
+  }
+ ]
+}

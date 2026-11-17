@@ -1,0 +1,324 @@
+{
+ "id": "u66_l05",
+ "unit": "u66",
+ "cefr": "A1",
+ "title": {
+  "uk": "Як розповісти"
+ },
+ "goal": {
+  "uk": "Скласти зв'язну розповідь."
+ },
+ "rule": {
+  "uk": "At first — спочатку, on the way — по дорозі, in the end — зрештою, by the way — до речі, although — хоча. Приклад: At first it was cold, but in the end it was great. On the way we stopped. Although it rained, we had fun."
+ },
+ "words": [
+  {
+   "id": "at_first",
+   "text": "at first",
+   "ipa": "/ət ˈfɜːst/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "спочатку"
+   },
+   "example": "At first it was cold.",
+   "exampleTranslation": {
+    "uk": "Спочатку було холодно."
+   }
+  },
+  {
+   "id": "on_the_way",
+   "text": "on the way",
+   "ipa": "/ɒn ðə ˈweɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "по дорозі"
+   },
+   "example": "On the way we stopped.",
+   "exampleTranslation": {
+    "uk": "По дорозі ми зупинилися."
+   }
+  },
+  {
+   "id": "in_the_end",
+   "text": "in the end",
+   "ipa": "/ɪn ði ˈend/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "зрештою"
+   },
+   "example": "In the end it was great.",
+   "exampleTranslation": {
+    "uk": "Зрештою все було чудово."
+   }
+  },
+  {
+   "id": "by_the_way",
+   "text": "by the way",
+   "ipa": "/baɪ ðə ˈweɪ/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "до речі"
+   },
+   "example": "By the way, I loved it.",
+   "exampleTranslation": {
+    "uk": "До речі, мені дуже сподобалося."
+   }
+  },
+  {
+   "id": "although",
+   "text": "although",
+   "ipa": "/ɔːlˈðəʊ/",
+   "pos": "conjunction",
+   "translation": {
+    "uk": "хоча"
+   },
+   "example": "Although it rained, we had fun.",
+   "exampleTranslation": {
+    "uk": "Хоча був дощ, нам було весело."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How was your holiday?",
+   "prompt": {
+    "uk": "Повторимо. Чудово. Що відповісти?"
+   },
+   "options": [
+    "It was wonderful.",
+    "It were wonderful.",
+    "It is wonderful."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It was wonderful."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "at first",
+     "right": {
+      "uk": "спочатку"
+     }
+    },
+    {
+     "left": "on the way",
+     "right": {
+      "uk": "по дорозі"
+     }
+    },
+    {
+     "left": "in the end",
+     "right": {
+      "uk": "зрештою"
+     }
+    },
+    {
+     "left": "by the way",
+     "right": {
+      "uk": "до речі"
+     }
+    },
+    {
+     "left": "although",
+     "right": {
+      "uk": "хоча"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "At first it was cold.",
+   "prompt": {
+    "uk": "Прослухайте. Що було спочатку?"
+   },
+   "options": {
+    "uk": [
+     "Було холодно",
+     "Було тепло",
+     "Було дощово"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "At first."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "On the way we stopped.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони зробили?"
+   },
+   "options": {
+    "uk": [
+     "Зупинилися по дорозі",
+     "Повернулися",
+     "Побігли"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "On the way."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Although it rained, we had fun.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Хоча був дощ, було весело",
+     "Був дощ, і було нудно",
+     "Дощу не було"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Although."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ it was cold.",
+   "options": [
+    "At first",
+    "In the end",
+    "By the way"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Спочатку."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ it was great.",
+   "options": [
+    "In the end",
+    "At first",
+    "On the way"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Зрештою."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ it rained, we had fun.",
+   "options": [
+    "Although",
+    "Because",
+    "So"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Although — хоча."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає by the way?"
+   },
+   "options": {
+    "uk": [
+     "до речі",
+     "зрештою",
+     "по дорозі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "By the way — до речі."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Спочатку було холодно."
+   },
+   "words": [
+    "At",
+    "first",
+    "it",
+    "was",
+    "cold",
+    "end",
+    "were"
+   ],
+   "answer": [
+    "At",
+    "first",
+    "it",
+    "was",
+    "cold"
+   ],
+   "explanation": {
+    "uk": "At first it was cold."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Зрештою все було чудово."
+   },
+   "answers": [
+    "In the end it was great"
+   ],
+   "explanation": {
+    "uk": "In the end it was great."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What was it like?",
+   "prompt": {
+    "uk": "Спочатку холодно, зрештою чудово. Що відповісти?"
+   },
+   "options": [
+    "At first it was cold, but in the end it was great.",
+    "First it cold, in end great.",
+    "At first was cold but great in the end it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At first it was cold, but in the end it was great."
+   }
+  }
+ ]
+}

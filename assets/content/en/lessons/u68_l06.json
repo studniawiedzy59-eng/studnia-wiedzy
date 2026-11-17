@@ -1,0 +1,288 @@
+{
+ "id": "u68_l06",
+ "unit": "u68",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: порівняння"
+ },
+ "goal": {
+  "uk": "Закріпити порівняння."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: -er + than (taller than), форми з -r, подвоєнням і -ier (nicer, hotter, easier), as … as, the same as, different from, similar to, slightly, twice as, whereas, however."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Which do you prefer?",
+   "prompt": {
+    "uk": "Повторимо. Чай. Що відповісти?"
+   },
+   "options": [
+    "I prefer tea. However, coffee is nice too.",
+    "I prefer tea however coffee nice.",
+    "I prefer tea, whereas however coffee."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I prefer tea. However, coffee is nice too."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "My brother is taller than me, but I'm faster.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Брат вищий, а вона швидша",
+     "Вона вища, а брат швидший",
+     "Вони однакові"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Taller, faster."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "This room is slightly larger, whereas that one is nicer.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Ця кімната трохи більша, а та приємніша",
+     "Обидві однакові",
+     "Та кімната більша"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Whereas."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Unlike mine, your phone is similar to hers.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "На відміну від її телефона, твій схожий на її",
+     "Усі телефони різні",
+     "Телефон такий самий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Unlike, similar."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The train is ___ than the bus.",
+   "options": [
+    "faster",
+    "fast",
+    "more fast"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Faster."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's ___ expensive as mine.",
+   "options": [
+    "twice as",
+    "twice",
+    "twice than"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice as."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Today is ___ than yesterday.",
+   "options": [
+    "hotter",
+    "hoter",
+    "more hot"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hotter."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від easy?"
+   },
+   "options": {
+    "uk": [
+     "easier",
+     "easyer",
+     "more easy"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Easy — easier."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мій брат вищий за мене."
+   },
+   "words": [
+    "My",
+    "brother",
+    "is",
+    "taller",
+    "than",
+    "me",
+    "tall",
+    "as"
+   ],
+   "answer": [
+    "My",
+    "brother",
+    "is",
+    "taller",
+    "than",
+    "me"
+   ],
+   "explanation": {
+    "uk": "My brother is taller than me."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Моя сумка така сама, як твоя."
+   },
+   "answers": [
+    "My bag is the same as yours"
+   ],
+   "explanation": {
+    "uk": "My bag is the same as yours."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Which is better?",
+   "prompt": {
+    "uk": "Ця краща, але дорожча. Що відповісти?"
+   },
+   "options": [
+    "This one is better, but it's more expensive.",
+    "This better, but more expensive it.",
+    "This is more good, but expensive more."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This one is better, but it's more expensive."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам більше підходить вища ціна, але краща якість."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавчиня"
+    },
+    "avatar": "👗"
+   },
+   "line": "Which one do you prefer?",
+   "options": [
+    "This one is better, but it's more expensive.",
+    "This better, but more expensive it is.",
+    "This is more good, but expensive more."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Better — вища форма від good."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Одна сумка легша за іншу."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавчиня"
+    },
+    "avatar": "👗"
+   },
+   "line": "Is the black bag heavy?",
+   "options": [
+    "No, it's lighter than the brown one.",
+    "No, it is more light as the brown.",
+    "No, light than brown."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Lighter than — порівняння з than."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Дві сумки схожі."
+   },
+   "character": {
+    "name": {
+     "uk": "Продавчиня"
+    },
+    "avatar": "👗"
+   },
+   "line": "Are they different?",
+   "options": [
+    "No, they're very similar.",
+    "No, they similar to very.",
+    "No, they are the same like."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Similar — «схожі»."
+   }
+  }
+ ]
+}

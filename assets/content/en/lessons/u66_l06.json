@@ -1,0 +1,286 @@
+{
+ "id": "u66_l06",
+ "unit": "u66",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: моя відпустка"
+ },
+ "goal": {
+  "uk": "Закріпити розповідь про відпочинок."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: місця (island, resort, tent), що робили (sightseeing, sunbathe, explore, unpack), враження (amazing, terrible, exhausted, delighted) і зв'язки в розповіді (at first, on the way, in the end, although)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What was it like?",
+   "prompt": {
+    "uk": "Повторимо. Спочатку холодно, зрештою чудово. Що відповісти?"
+   },
+   "options": [
+    "At first it was cold, but in the end it was great.",
+    "First it cold, in end great.",
+    "At first was cold but great in the end it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At first it was cold, but in the end it was great."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "We flew to an island and we went sightseeing.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони зробили?"
+   },
+   "options": {
+    "uk": [
+     "Полетіли на острів і оглядали пам'ятки",
+     "Поїхали в кемпінг",
+     "Залишилися вдома"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Island, sightseeing."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Although it was hot, we explored the old town.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Хоча було жарко, вони досліджували місто",
+     "Було холодно, і вони не вийшли",
+     "Вони відпочивали на пляжі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Although."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The view was amazing, and I was delighted.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Краєвид дивовижний, вона в захваті",
+     "Краєвид поганий, вона втомилася",
+     "Краєвиду не було"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Amazing."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ on an island.",
+   "options": [
+    "stayed",
+    "stay",
+    "staying"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Stayed."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ a postcard.",
+   "options": [
+    "sent",
+    "sended",
+    "send"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sent."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The weather ___ terrible.",
+   "options": [
+    "was",
+    "were",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Was."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке sightseeing?"
+   },
+   "options": {
+    "uk": [
+     "огляд пам'яток",
+     "захід сонця",
+     "сувенір"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sightseeing."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми жили на острові."
+   },
+   "words": [
+    "We",
+    "stayed",
+    "on",
+    "an",
+    "island",
+    "stay",
+    "at"
+   ],
+   "answer": [
+    "We",
+    "stayed",
+    "on",
+    "an",
+    "island"
+   ],
+   "explanation": {
+    "uk": "We stayed on an island."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я купила сувенір."
+   },
+   "answers": [
+    "I bought a souvenir"
+   ],
+   "explanation": {
+    "uk": "I bought a souvenir."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Where did you go on holiday?",
+   "prompt": {
+    "uk": "На острів. Що відповісти?"
+   },
+   "options": [
+    "We went to an island.",
+    "We did go island.",
+    "We goed to the island."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We went to an island."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви відпочивали на острові."
+   },
+   "character": {
+    "name": {
+     "uk": "Колега Марк"
+    },
+    "avatar": "👨‍💼"
+   },
+   "line": "How was your holiday?",
+   "options": [
+    "It was amazing. We stayed on an island.",
+    "It were amazing. We stay on island.",
+    "Amazing was. We stayed island."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Holiday was — з it використовуємо was."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви купили сувенір."
+   },
+   "character": {
+    "name": {
+     "uk": "Колега Марк"
+    },
+    "avatar": "👨‍💼"
+   },
+   "line": "Did you buy anything?",
+   "options": [
+    "Yes, I bought a souvenir.",
+    "Yes, I buyed a souvenir.",
+    "Yes, I did bought souvenir."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Buy — bought."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Погода спочатку була холодною."
+   },
+   "character": {
+    "name": {
+     "uk": "Колега Марк"
+    },
+    "avatar": "👨‍💼"
+   },
+   "line": "What was the weather like?",
+   "options": [
+    "At first it was cold, but in the end it was great.",
+    "First it cold, in the end great was.",
+    "At first was cold but great in end."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "At first … in the end — зв'язки в розповіді."
+   }
+  }
+ ]
+}

@@ -1,0 +1,326 @@
+{
+ "id": "u68_l01",
+ "unit": "u68",
+ "cefr": "A1",
+ "title": {
+  "uk": "Порівнюємо: -er"
+ },
+ "goal": {
+  "uk": "Порівнювати короткі прикметники."
+ },
+ "rule": {
+  "uk": "До коротких прикметників додаємо -er і слово than («ніж»): tall — taller than, short — shorter than, fast — faster than, slow — slower than, long — longer than. Приклад: My brother is taller than me. The train is faster than the bus."
+ },
+ "words": [
+  {
+   "id": "taller",
+   "text": "taller",
+   "ipa": "/ˈtɔːlə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "вищий"
+   },
+   "example": "My brother is taller than me.",
+   "exampleTranslation": {
+    "uk": "Мій брат вищий за мене."
+   }
+  },
+  {
+   "id": "shorter",
+   "text": "shorter",
+   "ipa": "/ˈʃɔːtə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "нижчий, коротший"
+   },
+   "example": "This road is shorter.",
+   "exampleTranslation": {
+    "uk": "Ця дорога коротша."
+   }
+  },
+  {
+   "id": "faster",
+   "text": "faster",
+   "ipa": "/ˈfɑːstə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "швидший"
+   },
+   "example": "The train is faster than the bus.",
+   "exampleTranslation": {
+    "uk": "Потяг швидший за автобус."
+   }
+  },
+  {
+   "id": "slower",
+   "text": "slower",
+   "ipa": "/ˈsləʊə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "повільніший"
+   },
+   "example": "The bus is slower.",
+   "exampleTranslation": {
+    "uk": "Автобус повільніший."
+   }
+  },
+  {
+   "id": "longer",
+   "text": "longer",
+   "ipa": "/ˈlɒŋɡə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "довший"
+   },
+   "example": "The film is longer than the book.",
+   "exampleTranslation": {
+    "uk": "Фільм довший за книжку."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Tell me about her.",
+   "prompt": {
+    "uk": "Повторимо. Вона письменниця. Що відповісти?"
+   },
+   "options": [
+    "She was a famous writer.",
+    "She were famous writer.",
+    "She is a writer was."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She was a famous writer."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "taller",
+     "right": {
+      "uk": "вищий"
+     }
+    },
+    {
+     "left": "shorter",
+     "right": {
+      "uk": "нижчий, коротший"
+     }
+    },
+    {
+     "left": "faster",
+     "right": {
+      "uk": "швидший"
+     }
+    },
+    {
+     "left": "slower",
+     "right": {
+      "uk": "повільніший"
+     }
+    },
+    {
+     "left": "longer",
+     "right": {
+      "uk": "довший"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My brother is taller than me.",
+   "prompt": {
+    "uk": "Прослухайте. Хто вищий?"
+   },
+   "options": {
+    "uk": [
+     "Брат",
+     "Я",
+     "Обидва однакові"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Taller."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The train is faster than the bus.",
+   "prompt": {
+    "uk": "Прослухайте. Що швидше?"
+   },
+   "options": {
+    "uk": [
+     "Потяг",
+     "Автобус",
+     "Однаково"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Faster."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The film is longer than the book.",
+   "prompt": {
+    "uk": "Прослухайте. Що довше?"
+   },
+   "options": {
+    "uk": [
+     "Фільм",
+     "Книжка",
+     "Однаково"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Longer."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My brother is ___ than me.",
+   "options": [
+    "taller",
+    "tall",
+    "tallest"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Taller than."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The train is ___ than the bus.",
+   "options": [
+    "faster",
+    "fast",
+    "more fast"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Faster than."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This road is ___ than that one.",
+   "options": [
+    "shorter",
+    "short",
+    "more short"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Shorter than."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від slow?"
+   },
+   "options": {
+    "uk": [
+     "slower",
+     "more slow",
+     "slowest"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Slow — slower."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мій брат вищий за мене."
+   },
+   "words": [
+    "My",
+    "brother",
+    "is",
+    "taller",
+    "than",
+    "me",
+    "tall",
+    "as"
+   ],
+   "answer": [
+    "My",
+    "brother",
+    "is",
+    "taller",
+    "than",
+    "me"
+   ],
+   "explanation": {
+    "uk": "My brother is taller than me."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Потяг швидший за автобус."
+   },
+   "answers": [
+    "The train is faster than the bus"
+   ],
+   "explanation": {
+    "uk": "The train is faster than the bus."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Which is faster, the train or the bus?",
+   "prompt": {
+    "uk": "Потяг. Що відповісти?"
+   },
+   "options": [
+    "The train is faster.",
+    "The train is more fast.",
+    "The train fast than bus."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The train is faster."
+   }
+  }
+ ]
+}

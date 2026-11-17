@@ -1,0 +1,286 @@
+{
+ "id": "u67_l06",
+ "unit": "u67",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: біографія"
+ },
+ "goal": {
+  "uk": "Закріпити розповідь про людину."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: життєпис (biography, graduate, retirement, award), професії (inventor, explorer, scientist, writer), етапи (fell in love, settled down, retired, emigrated), час (at the age of, since then, famous for, known as) і оцінка (genius, invention, discovery)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Why was he famous?",
+   "prompt": {
+    "uk": "Повторимо. Геній. Що відповісти?"
+   },
+   "options": [
+    "He was a genius.",
+    "He were genius.",
+    "He is a genius famous."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He was a genius."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "He grew up in Kyiv, graduated in 2005 and became a scientist.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Виріс у Києві, закінчив університет у 2005, став науковцем",
+     "Виріс у Львові, став письменником",
+     "Закінчив університет у 2015"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Grew up, graduated."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "She is famous for her inventions.",
+   "prompt": {
+    "uk": "Прослухайте. Чим вона відома?"
+   },
+   "options": {
+    "uk": [
+     "Своїми винаходами",
+     "Своїми книжками",
+     "Своєю музикою"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Inventions."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "They got married and emigrated to Canada.",
+   "prompt": {
+    "uk": "Прослухайте. Що зробили люди?"
+   },
+   "options": {
+    "uk": [
+     "Одружилися й емігрували до Канади",
+     "Одружилися й повернулися",
+     "Емігрували до США"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Got married, emigrated."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ in 2005.",
+   "options": [
+    "graduated",
+    "graduate",
+    "graduating"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Graduated."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She was a great ___.",
+   "options": [
+    "scientist",
+    "award",
+    "achievement"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Scientist."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It was an ___ discovery.",
+   "options": [
+    "important",
+    "genius",
+    "invention"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Important."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке inventor?"
+   },
+   "options": {
+    "uk": [
+     "винахідник",
+     "дослідник",
+     "науковець"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Inventor."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він виріс у Києві."
+   },
+   "words": [
+    "He",
+    "grew",
+    "up",
+    "in",
+    "Kyiv",
+    "grow",
+    "did"
+   ],
+   "answer": [
+    "He",
+    "grew",
+    "up",
+    "in",
+    "Kyiv"
+   ],
+   "explanation": {
+    "uk": "He grew up in Kyiv."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Він був генієм."
+   },
+   "answers": [
+    "He was a genius"
+   ],
+   "explanation": {
+    "uk": "He was a genius."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Tell me about her.",
+   "prompt": {
+    "uk": "Вона письменниця. Що відповісти?"
+   },
+   "options": [
+    "She was a famous writer.",
+    "She were famous writer.",
+    "She is a writer was."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She was a famous writer."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви розповідаєте про відомого винахідника."
+   },
+   "character": {
+    "name": {
+     "uk": "Студентка Софія"
+    },
+    "avatar": "👩‍🎓"
+   },
+   "line": "Who was Thomas Edison?",
+   "options": [
+    "He was a famous inventor.",
+    "He is famous inventor was.",
+    "He was a inventor famous."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Минулий час: He was a famous inventor."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Він виріс у Києві."
+   },
+   "character": {
+    "name": {
+     "uk": "Студентка Софія"
+    },
+    "avatar": "👩‍🎓"
+   },
+   "line": "Where did he grow up?",
+   "options": [
+    "He grew up in Kyiv.",
+    "He growed up in Kyiv.",
+    "He did grow up at Kyiv."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Grow up — grew up."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Він знаменитий своєю музикою."
+   },
+   "character": {
+    "name": {
+     "uk": "Студентка Софія"
+    },
+    "avatar": "👩‍🎓"
+   },
+   "line": "What is he famous for?",
+   "options": [
+    "He is famous for his music.",
+    "He famous by music.",
+    "He is famous of music."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Famous for — відомий завдяки."
+   }
+  }
+ ]
+}

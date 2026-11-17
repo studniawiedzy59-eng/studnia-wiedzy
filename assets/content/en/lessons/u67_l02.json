@@ -1,0 +1,324 @@
+{
+ "id": "u67_l02",
+ "unit": "u67",
+ "cefr": "A1",
+ "title": {
+  "uk": "Відомі люди"
+ },
+ "goal": {
+  "uk": "Назвати професії відомих людей."
+ },
+ "rule": {
+  "uk": "Inventor — винахідник, explorer — дослідник, scientist — науковець, president — президент, writer — письменник. Приклад: He was a famous inventor. She was a great scientist. He was the first president."
+ },
+ "words": [
+  {
+   "id": "inventor",
+   "text": "inventor",
+   "ipa": "/ɪnˈventə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "винахідник"
+   },
+   "example": "He was a famous inventor.",
+   "exampleTranslation": {
+    "uk": "Він був відомим винахідником."
+   }
+  },
+  {
+   "id": "explorer",
+   "text": "explorer",
+   "ipa": "/ɪkˈsplɔːrə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дослідник"
+   },
+   "example": "She was a brave explorer.",
+   "exampleTranslation": {
+    "uk": "Вона була відважною дослідницею."
+   }
+  },
+  {
+   "id": "scientist",
+   "text": "scientist",
+   "ipa": "/ˈsaɪəntɪst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "науковець"
+   },
+   "example": "He was a great scientist.",
+   "exampleTranslation": {
+    "uk": "Він був великим науковцем."
+   }
+  },
+  {
+   "id": "president",
+   "text": "president",
+   "ipa": "/ˈprezɪdənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "президент"
+   },
+   "example": "He was the first president.",
+   "exampleTranslation": {
+    "uk": "Він був першим президентом."
+   }
+  },
+  {
+   "id": "writer",
+   "text": "writer",
+   "ipa": "/ˈraɪtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "письменник"
+   },
+   "example": "She was a famous writer.",
+   "exampleTranslation": {
+    "uk": "Вона була відомою письменницею."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What did he win?",
+   "prompt": {
+    "uk": "Повторимо. Нагороду. Що відповісти?"
+   },
+   "options": [
+    "He won an award.",
+    "He did win award.",
+    "He winned an award."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He won an award."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "inventor",
+     "right": {
+      "uk": "винахідник"
+     }
+    },
+    {
+     "left": "explorer",
+     "right": {
+      "uk": "дослідник"
+     }
+    },
+    {
+     "left": "scientist",
+     "right": {
+      "uk": "науковець"
+     }
+    },
+    {
+     "left": "president",
+     "right": {
+      "uk": "президент"
+     }
+    },
+    {
+     "left": "writer",
+     "right": {
+      "uk": "письменник"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "He was a famous inventor.",
+   "prompt": {
+    "uk": "Прослухайте. Ким він був?"
+   },
+   "options": {
+    "uk": [
+     "Винахідником",
+     "Лікарем",
+     "Президентом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Inventor."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She was a brave explorer.",
+   "prompt": {
+    "uk": "Прослухайте. Якою була вона?"
+   },
+   "options": {
+    "uk": [
+     "Відважною дослідницею",
+     "Відомою письменницею",
+     "Мудрою вчителькою"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Explorer."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "He was the first president.",
+   "prompt": {
+    "uk": "Прослухайте. Ким він був?"
+   },
+   "options": {
+    "uk": [
+     "Першим президентом",
+     "Першим науковцем",
+     "Першим письменником"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "President."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He was a famous ___.",
+   "options": [
+    "inventor",
+    "award",
+    "career"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Винахідник."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She was a great ___.",
+   "options": [
+    "scientist",
+    "achievement",
+    "biography"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Науковець."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She was a famous ___.",
+   "options": [
+    "writer",
+    "president",
+    "explorer"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Письменниця."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке explorer?"
+   },
+   "options": {
+    "uk": [
+     "дослідник",
+     "винахідник",
+     "науковець"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Explorer — дослідник."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він був першим президентом."
+   },
+   "words": [
+    "He",
+    "was",
+    "the",
+    "first",
+    "president",
+    "were",
+    "writer"
+   ],
+   "answer": [
+    "He",
+    "was",
+    "the",
+    "first",
+    "president"
+   ],
+   "explanation": {
+    "uk": "He was the first president."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона була відомою письменницею."
+   },
+   "answers": [
+    "She was a famous writer"
+   ],
+   "explanation": {
+    "uk": "She was a famous writer."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Who was he?",
+   "prompt": {
+    "uk": "Винахідник. Що відповісти?"
+   },
+   "options": [
+    "He was an inventor.",
+    "He were inventor.",
+    "He was a inventor."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He was an inventor."
+   }
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+ "id": "u65_l01",
+ "unit": "u65",
+ "cefr": "A1",
+ "title": {
+  "uk": "Особлива форма: go, get, give"
+ },
+ "goal": {
+  "uk": "Вживати перші неправильні дієслова в минулому."
+ },
+ "rule": {
+  "uk": "Неправильні дієслова мають власну форму минулого, її треба вивчити: go — went, get — got, give — gave, know — knew, think — thought. Питання й заперечення такі самі, як у правильних: Did you go? I didn't go. Після did/didn't дієслово завжди в початковій формі."
+ },
+ "words": [
+  {
+   "id": "go",
+   "text": "go",
+   "ipa": "/ɡəʊ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "йти, їхати (went)"
+   },
+   "example": "I went to the cinema.",
+   "exampleTranslation": {
+    "uk": "Я ходила в кіно."
+   }
+  },
+  {
+   "id": "get",
+   "text": "get",
+   "ipa": "/ɡet/",
+   "pos": "verb",
+   "translation": {
+    "uk": "отримувати, діставати (got)"
+   },
+   "example": "I got a message.",
+   "exampleTranslation": {
+    "uk": "Я отримав повідомлення."
+   }
+  },
+  {
+   "id": "give",
+   "text": "give",
+   "ipa": "/ɡɪv/",
+   "pos": "verb",
+   "translation": {
+    "uk": "давати (gave)"
+   },
+   "example": "She gave me a book.",
+   "exampleTranslation": {
+    "uk": "Вона дала мені книжку."
+   }
+  },
+  {
+   "id": "know",
+   "text": "know",
+   "ipa": "/nəʊ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "знати (knew)"
+   },
+   "example": "I knew the answer.",
+   "exampleTranslation": {
+    "uk": "Я знав відповідь."
+   }
+  },
+  {
+   "id": "think",
+   "text": "think",
+   "ipa": "/θɪŋk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "думати (thought)"
+   },
+   "example": "I thought about you.",
+   "exampleTranslation": {
+    "uk": "Я думав про тебе."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What did you do yesterday?",
+   "prompt": {
+    "uk": "Повторимо. Відвідала тітку. Що відповісти?"
+   },
+   "options": [
+    "I visited my aunt.",
+    "I did visit my aunt.",
+    "I was visit my aunt."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I visited my aunt."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "go",
+     "right": {
+      "uk": "йти, їхати (went)"
+     }
+    },
+    {
+     "left": "get",
+     "right": {
+      "uk": "отримувати, діставати (got)"
+     }
+    },
+    {
+     "left": "give",
+     "right": {
+      "uk": "давати (gave)"
+     }
+    },
+    {
+     "left": "know",
+     "right": {
+      "uk": "знати (knew)"
+     }
+    },
+    {
+     "left": "think",
+     "right": {
+      "uk": "думати (thought)"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I went to the cinema.",
+   "prompt": {
+    "uk": "Прослухайте. Куди пішла людина?"
+   },
+   "options": {
+    "uk": [
+     "У кіно",
+     "У парк",
+     "У кафе"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Went."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She gave me a book.",
+   "prompt": {
+    "uk": "Прослухайте. Що зробила вона?"
+   },
+   "options": {
+    "uk": [
+     "Дала мені книжку",
+     "Купила книжку",
+     "Забрала книжку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Gave."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I knew the answer.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона знала відповідь",
+     "Вона не знала відповіді",
+     "Вона забула відповідь"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Knew."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ to the cinema.",
+   "options": [
+    "went",
+    "goed",
+    "go"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Go — went."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ a message.",
+   "options": [
+    "got",
+    "getted",
+    "get"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Get — got."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Did you ___ to school?",
+   "options": [
+    "go",
+    "went",
+    "goes"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після did — початкова форма."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від give?"
+   },
+   "options": {
+    "uk": [
+     "gave",
+     "gived",
+     "gives"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Give — gave."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я ходила в кіно."
+   },
+   "words": [
+    "I",
+    "went",
+    "to",
+    "the",
+    "cinema",
+    "go",
+    "did"
+   ],
+   "answer": [
+    "I",
+    "went",
+    "to",
+    "the",
+    "cinema"
+   ],
+   "explanation": {
+    "uk": "I went to the cinema."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона дала мені книжку."
+   },
+   "answers": [
+    "She gave me a book"
+   ],
+   "explanation": {
+    "uk": "She gave me a book."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Did you go to the cinema?",
+   "prompt": {
+    "uk": "Так, ходила. Що відповісти?"
+   },
+   "options": [
+    "Yes, I did.",
+    "Yes, I went did.",
+    "Yes, I goed."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I did."
+   }
+  }
+ ]
+}

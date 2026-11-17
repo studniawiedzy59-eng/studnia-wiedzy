@@ -1,0 +1,322 @@
+{
+ "id": "u65_l04",
+ "unit": "u65",
+ "cefr": "A1",
+ "title": {
+  "uk": "Не змінюються"
+ },
+ "goal": {
+  "uk": "Вживати дієслова, що не змінюються в минулому."
+ },
+ "rule": {
+  "uk": "Деякі дієслова в минулому не змінюються: let, hit, shut. Інші змінюються: keep — kept, lend — lent. Приклад: I kept the receipt. He lent me money. She hit the ball. They let me in. I shut the door."
+ },
+ "words": [
+  {
+   "id": "keep",
+   "text": "keep",
+   "ipa": "/kiːp/",
+   "pos": "verb",
+   "translation": {
+    "uk": "зберігати (kept)"
+   },
+   "example": "I kept the receipt.",
+   "exampleTranslation": {
+    "uk": "Я зберіг чек."
+   }
+  },
+  {
+   "id": "lend",
+   "text": "lend",
+   "ipa": "/lend/",
+   "pos": "verb",
+   "translation": {
+    "uk": "позичати комусь (lent)"
+   },
+   "example": "He lent me money.",
+   "exampleTranslation": {
+    "uk": "Він позичив мені гроші."
+   }
+  },
+  {
+   "id": "let",
+   "text": "let",
+   "ipa": "/let/",
+   "pos": "verb",
+   "translation": {
+    "uk": "дозволяти (let)"
+   },
+   "example": "They let me in.",
+   "exampleTranslation": {
+    "uk": "Вони впустили мене."
+   }
+  },
+  {
+   "id": "hit",
+   "text": "hit",
+   "ipa": "/hɪt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "вдаряти (hit)"
+   },
+   "example": "She hit the ball.",
+   "exampleTranslation": {
+    "uk": "Вона вдарила по м'ячу."
+   }
+  },
+  {
+   "id": "shut",
+   "text": "shut",
+   "ipa": "/ʃʌt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "зачиняти (shut)"
+   },
+   "example": "I shut the door.",
+   "exampleTranslation": {
+    "uk": "Я зачинив двері."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How did you get to Rome?",
+   "prompt": {
+    "uk": "Повторимо. Літаком. Що відповісти?"
+   },
+   "options": [
+    "We flew.",
+    "We did fly by plane.",
+    "We flown."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We flew."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "keep",
+     "right": {
+      "uk": "зберігати (kept)"
+     }
+    },
+    {
+     "left": "lend",
+     "right": {
+      "uk": "позичати комусь (lent)"
+     }
+    },
+    {
+     "left": "let",
+     "right": {
+      "uk": "дозволяти (let)"
+     }
+    },
+    {
+     "left": "hit",
+     "right": {
+      "uk": "вдаряти (hit)"
+     }
+    },
+    {
+     "left": "shut",
+     "right": {
+      "uk": "зачиняти (shut)"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I kept the receipt.",
+   "prompt": {
+    "uk": "Прослухайте. Що зробила людина?"
+   },
+   "options": {
+    "uk": [
+     "Зберегла чек",
+     "Загубила чек",
+     "Викинула чек"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Kept."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He lent me money.",
+   "prompt": {
+    "uk": "Прослухайте. Що зробив він?"
+   },
+   "options": {
+    "uk": [
+     "Позичив мені гроші",
+     "Взяв у мене гроші",
+     "Дав мені подарунок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Lent."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I shut the door.",
+   "prompt": {
+    "uk": "Прослухайте. Що зробила людина?"
+   },
+   "options": {
+    "uk": [
+     "Зачинила двері",
+     "Відчинила двері",
+     "Замкнула двері"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Shut."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ the receipt.",
+   "options": [
+    "kept",
+    "keeped",
+    "keep"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Keep — kept."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ me money.",
+   "options": [
+    "lent",
+    "lended",
+    "lend"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Lend — lent."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ the door.",
+   "options": [
+    "shut",
+    "shutted",
+    "shuts"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Shut — shut."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від let?"
+   },
+   "options": {
+    "uk": [
+     "let",
+     "letted",
+     "lets"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Let — let, форма не змінюється."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я зачинив двері."
+   },
+   "words": [
+    "I",
+    "shut",
+    "the",
+    "door",
+    "shutted",
+    "did"
+   ],
+   "answer": [
+    "I",
+    "shut",
+    "the",
+    "door"
+   ],
+   "explanation": {
+    "uk": "I shut the door."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Він позичив мені гроші."
+   },
+   "answers": [
+    "He lent me money"
+   ],
+   "explanation": {
+    "uk": "He lent me money."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Did you keep the receipt?",
+   "prompt": {
+    "uk": "Так, зберегла. Що відповісти?"
+   },
+   "options": [
+    "Yes, I did.",
+    "Yes, I kept did.",
+    "Yes, I keeped."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I did."
+   }
+  }
+ ]
+}

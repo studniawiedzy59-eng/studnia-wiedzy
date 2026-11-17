@@ -1,0 +1,326 @@
+{
+ "id": "u67_l03",
+ "unit": "u67",
+ "cefr": "A1",
+ "title": {
+  "uk": "Етапи життя"
+ },
+ "goal": {
+  "uk": "Назвати етапи життя."
+ },
+ "rule": {
+  "uk": "Fall in love — закохатися, settle down — оселитися, move abroad — переїхати за кордон, retire — вийти на пенсію, emigrate — емігрувати. Минулий час: fell in love, settled down, moved abroad, retired, emigrated. Приклад: They fell in love in 1990. He settled down in Rome."
+ },
+ "words": [
+  {
+   "id": "fall_in_love",
+   "text": "fall in love",
+   "ipa": "/ˌfɔːl ɪn ˈlʌv/",
+   "pos": "verb",
+   "translation": {
+    "uk": "закохатися (fell in love)"
+   },
+   "example": "They fell in love in 1990.",
+   "exampleTranslation": {
+    "uk": "Вони закохалися в 1990 році."
+   }
+  },
+  {
+   "id": "settle_down",
+   "text": "settle down",
+   "ipa": "/ˌsetl ˈdaʊn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "оселитися, влаштуватися"
+   },
+   "example": "He settled down in Rome.",
+   "exampleTranslation": {
+    "uk": "Він оселився в Римі."
+   }
+  },
+  {
+   "id": "move_abroad",
+   "text": "move abroad",
+   "ipa": "/ˌmuːv əˈbrɔːd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "переїхати за кордон"
+   },
+   "example": "She moved abroad in 2010.",
+   "exampleTranslation": {
+    "uk": "Вона переїхала за кордон у 2010 році."
+   }
+  },
+  {
+   "id": "retire",
+   "text": "retire",
+   "ipa": "/rɪˈtaɪə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "вийти на пенсію"
+   },
+   "example": "He retired at sixty.",
+   "exampleTranslation": {
+    "uk": "Він вийшов на пенсію в шістдесят."
+   }
+  },
+  {
+   "id": "emigrate",
+   "text": "emigrate",
+   "ipa": "/ˈemɪɡreɪt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "емігрувати"
+   },
+   "example": "She emigrated to Canada.",
+   "exampleTranslation": {
+    "uk": "Вона емігрувала до Канади."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Who was he?",
+   "prompt": {
+    "uk": "Повторимо. Винахідник. Що відповісти?"
+   },
+   "options": [
+    "He was an inventor.",
+    "He were inventor.",
+    "He was a inventor."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He was an inventor."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "fall in love",
+     "right": {
+      "uk": "закохатися (fell in love)"
+     }
+    },
+    {
+     "left": "settle down",
+     "right": {
+      "uk": "оселитися, влаштуватися"
+     }
+    },
+    {
+     "left": "move abroad",
+     "right": {
+      "uk": "переїхати за кордон"
+     }
+    },
+    {
+     "left": "retire",
+     "right": {
+      "uk": "вийти на пенсію"
+     }
+    },
+    {
+     "left": "emigrate",
+     "right": {
+      "uk": "емігрувати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "They fell in love in 1990.",
+   "prompt": {
+    "uk": "Прослухайте. Коли вони закохалися?"
+   },
+   "options": {
+    "uk": [
+     "У 1990 році",
+     "У 1999 році",
+     "У 1980 році"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "1990."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He settled down in Rome.",
+   "prompt": {
+    "uk": "Прослухайте. Де він оселився?"
+   },
+   "options": {
+    "uk": [
+     "У Римі",
+     "У Парижі",
+     "У Мілані"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Rome."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "She emigrated to Canada.",
+   "prompt": {
+    "uk": "Прослухайте. Куди емігрувала вона?"
+   },
+   "options": {
+    "uk": [
+     "До Канади",
+     "До США",
+     "До Польщі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Canada."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "They ___ in 1990.",
+   "options": [
+    "fell in love",
+    "fall in love",
+    "falled in love"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fall — fell."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ in Rome.",
+   "options": [
+    "settled down",
+    "settle down",
+    "settling down"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Settled down."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ at sixty.",
+   "options": [
+    "retired",
+    "retire",
+    "retiring"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Retired."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке retire?"
+   },
+   "options": {
+    "uk": [
+     "вийти на пенсію",
+     "закохатися",
+     "емігрувати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Retire — вийти на пенсію."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Вони закохалися в 1990 році."
+   },
+   "words": [
+    "They",
+    "fell",
+    "in",
+    "love",
+    "in",
+    "1990",
+    "fall",
+    "did"
+   ],
+   "answer": [
+    "They",
+    "fell",
+    "in",
+    "love",
+    "in",
+    "1990"
+   ],
+   "explanation": {
+    "uk": "They fell in love in 1990."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона емігрувала до Канади."
+   },
+   "answers": [
+    "She emigrated to Canada"
+   ],
+   "explanation": {
+    "uk": "She emigrated to Canada."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where did he settle down?",
+   "prompt": {
+    "uk": "У Римі. Що відповісти?"
+   },
+   "options": [
+    "He settled down in Rome.",
+    "He did settle down at Rome.",
+    "He settleed down in Rome."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He settled down in Rome."
+   }
+  }
+ ]
+}

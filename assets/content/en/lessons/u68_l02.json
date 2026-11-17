@@ -1,0 +1,322 @@
+{
+ "id": "u68_l02",
+ "unit": "u68",
+ "cefr": "A1",
+ "title": {
+  "uk": "Правила написання"
+ },
+ "goal": {
+  "uk": "Правильно писати форми -er."
+ },
+ "rule": {
+  "uk": "Якщо прикметник закінчується на -e, додаємо тільки -r: nice — nicer, large — larger, safe — safer. Одна голосна + одна приголосна — подвоюємо: thin — thinner, hot — hotter. Приголосна + y — -ier: easy — easier."
+ },
+ "words": [
+  {
+   "id": "nicer",
+   "text": "nicer",
+   "ipa": "/ˈnaɪsə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "приємніший"
+   },
+   "example": "This room is nicer.",
+   "exampleTranslation": {
+    "uk": "Ця кімната приємніша."
+   }
+  },
+  {
+   "id": "larger",
+   "text": "larger",
+   "ipa": "/ˈlɑːdʒə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "більший"
+   },
+   "example": "The second flat is larger.",
+   "exampleTranslation": {
+    "uk": "Друга квартира більша."
+   }
+  },
+  {
+   "id": "thinner",
+   "text": "thinner",
+   "ipa": "/ˈθɪnə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "тонший, худіший"
+   },
+   "example": "This book is thinner.",
+   "exampleTranslation": {
+    "uk": "Ця книжка тонша."
+   }
+  },
+  {
+   "id": "hotter",
+   "text": "hotter",
+   "ipa": "/ˈhɒtə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "спекотніший"
+   },
+   "example": "Today is hotter than yesterday.",
+   "exampleTranslation": {
+    "uk": "Сьогодні спекотніше, ніж учора."
+   }
+  },
+  {
+   "id": "easier",
+   "text": "easier",
+   "ipa": "/ˈiːziə/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "легший"
+   },
+   "example": "This exercise is easier.",
+   "exampleTranslation": {
+    "uk": "Ця вправа легша."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Which is faster, the train or the bus?",
+   "prompt": {
+    "uk": "Повторимо. Потяг. Що відповісти?"
+   },
+   "options": [
+    "The train is faster.",
+    "The train is more fast.",
+    "The train fast than bus."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The train is faster."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "nicer",
+     "right": {
+      "uk": "приємніший"
+     }
+    },
+    {
+     "left": "larger",
+     "right": {
+      "uk": "більший"
+     }
+    },
+    {
+     "left": "thinner",
+     "right": {
+      "uk": "тонший, худіший"
+     }
+    },
+    {
+     "left": "hotter",
+     "right": {
+      "uk": "спекотніший"
+     }
+    },
+    {
+     "left": "easier",
+     "right": {
+      "uk": "легший"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "This room is nicer.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Ця кімната приємніша",
+     "Ця кімната більша",
+     "Ця кімната дорожча"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nicer."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Today is hotter than yesterday.",
+   "prompt": {
+    "uk": "Прослухайте. Коли було спекотніше?"
+   },
+   "options": {
+    "uk": [
+     "Сьогодні",
+     "Учора",
+     "Однаково"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hotter."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "This exercise is easier.",
+   "prompt": {
+    "uk": "Прослухайте. Яка вправа?"
+   },
+   "options": {
+    "uk": [
+     "Легша",
+     "Складніша",
+     "Довша"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Easier."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This room is ___.",
+   "options": [
+    "nicer",
+    "niceer",
+    "more nice"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Nice — nicer."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Today is ___ than yesterday.",
+   "options": [
+    "hotter",
+    "hoter",
+    "more hot"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hot — hotter."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This exercise is ___.",
+   "options": [
+    "easier",
+    "easyer",
+    "more easy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Easy — easier."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від thin?"
+   },
+   "options": {
+    "uk": [
+     "thinner",
+     "thiner",
+     "more thin"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Thin — thinner."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ця вправа легша."
+   },
+   "words": [
+    "This",
+    "exercise",
+    "is",
+    "easier",
+    "easy",
+    "are"
+   ],
+   "answer": [
+    "This",
+    "exercise",
+    "is",
+    "easier"
+   ],
+   "explanation": {
+    "uk": "This exercise is easier."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Сьогодні спекотніше, ніж учора."
+   },
+   "answers": [
+    "Today is hotter than yesterday"
+   ],
+   "explanation": {
+    "uk": "Today is hotter than yesterday."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is the second flat bigger?",
+   "prompt": {
+    "uk": "Так, більша. Що відповісти?"
+   },
+   "options": [
+    "Yes, it is larger.",
+    "Yes, it is more large.",
+    "Yes, it larger is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it is larger."
+   }
+  }
+ ]
+}

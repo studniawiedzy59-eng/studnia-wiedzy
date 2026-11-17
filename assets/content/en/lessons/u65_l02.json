@@ -1,0 +1,322 @@
+{
+ "id": "u65_l02",
+ "unit": "u65",
+ "cefr": "A1",
+ "title": {
+  "uk": "Ще: run, hear, teach"
+ },
+ "goal": {
+  "uk": "Вживати ще п'ять неправильних дієслів."
+ },
+ "rule": {
+  "uk": "Run — ran, hear — heard, teach — taught, catch — caught, sell — sold. Приклад: I ran to the bus stop. We heard a noise. He taught English. She sold her car. Разом: I didn't catch the bus."
+ },
+ "words": [
+  {
+   "id": "run",
+   "text": "run",
+   "ipa": "/rʌn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "бігти (ran)"
+   },
+   "example": "I ran to the bus stop.",
+   "exampleTranslation": {
+    "uk": "Я побіг на зупинку."
+   }
+  },
+  {
+   "id": "hear",
+   "text": "hear",
+   "ipa": "/hɪə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "чути (heard)"
+   },
+   "example": "We heard a noise.",
+   "exampleTranslation": {
+    "uk": "Ми почули шум."
+   }
+  },
+  {
+   "id": "teach",
+   "text": "teach",
+   "ipa": "/tiːtʃ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "навчати (taught)"
+   },
+   "example": "He taught English.",
+   "exampleTranslation": {
+    "uk": "Він викладав англійську."
+   }
+  },
+  {
+   "id": "catch",
+   "text": "catch",
+   "ipa": "/kætʃ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "ловити, встигнути (caught)"
+   },
+   "example": "I caught the bus.",
+   "exampleTranslation": {
+    "uk": "Я встиг на автобус."
+   }
+  },
+  {
+   "id": "sell",
+   "text": "sell",
+   "ipa": "/sel/",
+   "pos": "verb",
+   "translation": {
+    "uk": "продавати (sold)"
+   },
+   "example": "She sold her car.",
+   "exampleTranslation": {
+    "uk": "Вона продала машину."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Did you go to the cinema?",
+   "prompt": {
+    "uk": "Повторимо. Так, ходила. Що відповісти?"
+   },
+   "options": [
+    "Yes, I did.",
+    "Yes, I went did.",
+    "Yes, I goed."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I did."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "run",
+     "right": {
+      "uk": "бігти (ran)"
+     }
+    },
+    {
+     "left": "hear",
+     "right": {
+      "uk": "чути (heard)"
+     }
+    },
+    {
+     "left": "teach",
+     "right": {
+      "uk": "навчати (taught)"
+     }
+    },
+    {
+     "left": "catch",
+     "right": {
+      "uk": "ловити, встигнути (caught)"
+     }
+    },
+    {
+     "left": "sell",
+     "right": {
+      "uk": "продавати (sold)"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I ran to the bus stop.",
+   "prompt": {
+    "uk": "Прослухайте. Куди побіг?"
+   },
+   "options": {
+    "uk": [
+     "На зупинку",
+     "До школи",
+     "До парку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ran."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We heard a noise.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони почули?"
+   },
+   "options": {
+    "uk": [
+     "Шум",
+     "Музику",
+     "Дзвінок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Heard."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "She sold her car.",
+   "prompt": {
+    "uk": "Прослухайте. Що зробила вона?"
+   },
+   "options": {
+    "uk": [
+     "Продала машину",
+     "Купила машину",
+     "Помила машину"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sold."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ to the bus stop.",
+   "options": [
+    "ran",
+    "runned",
+    "run"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Run — ran."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ a noise.",
+   "options": [
+    "heard",
+    "hear",
+    "heared"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hear — heard."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I didn't ___ the bus.",
+   "options": [
+    "catch",
+    "caught",
+    "catched"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Після didn't — початкова форма."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від teach?"
+   },
+   "options": {
+    "uk": [
+     "taught",
+     "teached",
+     "teaches"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Teach — taught."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я встиг на автобус."
+   },
+   "words": [
+    "I",
+    "caught",
+    "the",
+    "bus",
+    "catch",
+    "did"
+   ],
+   "answer": [
+    "I",
+    "caught",
+    "the",
+    "bus"
+   ],
+   "explanation": {
+    "uk": "I caught the bus."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Вона продала машину."
+   },
+   "answers": [
+    "She sold her car"
+   ],
+   "explanation": {
+    "uk": "She sold her car."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Did you hear that?",
+   "prompt": {
+    "uk": "Так, почула. Що відповісти?"
+   },
+   "options": [
+    "Yes, I did.",
+    "Yes, I heard did.",
+    "Yes, I heared."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I did."
+   }
+  }
+ ]
+}

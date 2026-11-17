@@ -1,0 +1,322 @@
+{
+ "id": "u65_l03",
+ "unit": "u65",
+ "cefr": "A1",
+ "title": {
+  "uk": "Рух і падіння"
+ },
+ "goal": {
+  "uk": "Описати рух у минулому."
+ },
+ "rule": {
+  "uk": "Fall — fell, fly — flew, ride — rode, throw — threw, hide — hid. Приклад: He fell off his bike. We flew to Rome. She rode a horse. I threw the ball. The cat hid under the bed."
+ },
+ "words": [
+  {
+   "id": "fall",
+   "text": "fall",
+   "ipa": "/fɔːl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "падати (fell)"
+   },
+   "example": "He fell off his bike.",
+   "exampleTranslation": {
+    "uk": "Він упав із велосипеда."
+   }
+  },
+  {
+   "id": "fly",
+   "text": "fly",
+   "ipa": "/flaɪ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "літати (flew)"
+   },
+   "example": "We flew to Rome.",
+   "exampleTranslation": {
+    "uk": "Ми летіли до Риму."
+   }
+  },
+  {
+   "id": "ride",
+   "text": "ride",
+   "ipa": "/raɪd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "їхати верхи (rode)"
+   },
+   "example": "She rode a horse.",
+   "exampleTranslation": {
+    "uk": "Вона їхала верхи."
+   }
+  },
+  {
+   "id": "throw",
+   "text": "throw",
+   "ipa": "/θrəʊ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "кидати (threw)"
+   },
+   "example": "I threw the ball.",
+   "exampleTranslation": {
+    "uk": "Я кинув м'яч."
+   }
+  },
+  {
+   "id": "hide",
+   "text": "hide",
+   "ipa": "/haɪd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "ховатися (hid)"
+   },
+   "example": "The cat hid under the bed.",
+   "exampleTranslation": {
+    "uk": "Кіт сховався під ліжком."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Did you hear that?",
+   "prompt": {
+    "uk": "Повторимо. Так, почула. Що відповісти?"
+   },
+   "options": [
+    "Yes, I did.",
+    "Yes, I heard did.",
+    "Yes, I heared."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I did."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "fall",
+     "right": {
+      "uk": "падати (fell)"
+     }
+    },
+    {
+     "left": "fly",
+     "right": {
+      "uk": "літати (flew)"
+     }
+    },
+    {
+     "left": "ride",
+     "right": {
+      "uk": "їхати верхи (rode)"
+     }
+    },
+    {
+     "left": "throw",
+     "right": {
+      "uk": "кидати (threw)"
+     }
+    },
+    {
+     "left": "hide",
+     "right": {
+      "uk": "ховатися (hid)"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "He fell off his bike.",
+   "prompt": {
+    "uk": "Прослухайте. Що сталося?"
+   },
+   "options": {
+    "uk": [
+     "Він упав із велосипеда",
+     "Він купив велосипед",
+     "Він поїхав велосипедом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fell."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We flew to Rome.",
+   "prompt": {
+    "uk": "Прослухайте. Як вони поїхали?"
+   },
+   "options": {
+    "uk": [
+     "Полетіли до Риму",
+     "Поїхали до Риму",
+     "Пішли до Риму"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Flew."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The cat hid under the bed.",
+   "prompt": {
+    "uk": "Прослухайте. Де кіт?"
+   },
+   "options": {
+    "uk": [
+     "Під ліжком",
+     "На ліжку",
+     "За шафою"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hid."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ off his bike.",
+   "options": [
+    "fell",
+    "falled",
+    "fall"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fall — fell."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ to Rome.",
+   "options": [
+    "flew",
+    "flied",
+    "fly"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Fly — flew."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ the ball.",
+   "options": [
+    "threw",
+    "throwed",
+    "throw"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Throw — threw."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від hide?"
+   },
+   "options": {
+    "uk": [
+     "hid",
+     "hided",
+     "hides"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hide — hid."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми летіли до Риму."
+   },
+   "words": [
+    "We",
+    "flew",
+    "to",
+    "Rome",
+    "fly",
+    "did"
+   ],
+   "answer": [
+    "We",
+    "flew",
+    "to",
+    "Rome"
+   ],
+   "explanation": {
+    "uk": "We flew to Rome."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я кинув м'яч."
+   },
+   "answers": [
+    "I threw the ball"
+   ],
+   "explanation": {
+    "uk": "I threw the ball."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How did you get to Rome?",
+   "prompt": {
+    "uk": "Літаком. Що відповісти?"
+   },
+   "options": [
+    "We flew.",
+    "We did fly by plane.",
+    "We flown."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We flew."
+   }
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "id": "u66_l04",
+ "unit": "u66",
+ "cefr": "A1",
+ "title": {
+  "uk": "Враження"
+ },
+ "goal": {
+  "uk": "Висловити враження про відпочинок."
+ },
+ "rule": {
+  "uk": "Amazing — дивовижний, wonderful — чудовий, terrible — жахливий, exhausted — виснажений, delighted — у захваті. Приклад: The holiday was amazing. The weather was terrible. I was exhausted. We were delighted."
+ },
+ "words": [
+  {
+   "id": "amazing",
+   "text": "amazing",
+   "ipa": "/əˈmeɪzɪŋ/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "дивовижний"
+   },
+   "example": "The view was amazing.",
+   "exampleTranslation": {
+    "uk": "Краєвид був дивовижним."
+   }
+  },
+  {
+   "id": "wonderful",
+   "text": "wonderful",
+   "ipa": "/ˈwʌndəfl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "чудовий"
+   },
+   "example": "We had a wonderful time.",
+   "exampleTranslation": {
+    "uk": "Ми чудово провели час."
+   }
+  },
+  {
+   "id": "terrible",
+   "text": "terrible",
+   "ipa": "/ˈterəbl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "жахливий"
+   },
+   "example": "The weather was terrible.",
+   "exampleTranslation": {
+    "uk": "Погода була жахливою."
+   }
+  },
+  {
+   "id": "exhausted",
+   "text": "exhausted",
+   "ipa": "/ɪɡˈzɔːstɪd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "виснажений"
+   },
+   "example": "I was exhausted.",
+   "exampleTranslation": {
+    "uk": "Я була виснажена."
+   }
+  },
+  {
+   "id": "delighted",
+   "text": "delighted",
+   "ipa": "/dɪˈlaɪtɪd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "у захваті"
+   },
+   "example": "We were delighted.",
+   "exampleTranslation": {
+    "uk": "Ми були в захваті."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What did you do there?",
+   "prompt": {
+    "uk": "Повторимо. Досліджували місто. Що відповісти?"
+   },
+   "options": [
+    "We explored the town.",
+    "We did explore town.",
+    "We exploring the town."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We explored the town."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "amazing",
+     "right": {
+      "uk": "дивовижний"
+     }
+    },
+    {
+     "left": "wonderful",
+     "right": {
+      "uk": "чудовий"
+     }
+    },
+    {
+     "left": "terrible",
+     "right": {
+      "uk": "жахливий"
+     }
+    },
+    {
+     "left": "exhausted",
+     "right": {
+      "uk": "виснажений"
+     }
+    },
+    {
+     "left": "delighted",
+     "right": {
+      "uk": "у захваті"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The view was amazing.",
+   "prompt": {
+    "uk": "Прослухайте. Яким був краєвид?"
+   },
+   "options": {
+    "uk": [
+     "Дивовижним",
+     "Звичайним",
+     "Поганим"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Amazing."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The weather was terrible.",
+   "prompt": {
+    "uk": "Прослухайте. Яка була погода?"
+   },
+   "options": {
+    "uk": [
+     "Жахлива",
+     "Чудова",
+     "Спекотна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Terrible."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We were delighted.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вони були в захваті",
+     "Вони були виснажені",
+     "Вони були засмучені"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Delighted."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The view ___ amazing.",
+   "options": [
+    "was",
+    "were",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Was."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ delighted.",
+   "options": [
+    "were",
+    "was",
+    "are"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Were."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The weather was ___.",
+   "options": [
+    "terrible",
+    "wonderful",
+    "delighted"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Terrible — жахлива."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке exhausted?"
+   },
+   "options": {
+    "uk": [
+     "виснажений",
+     "у захваті",
+     "дивовижний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Exhausted — виснажений."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Краєвид був дивовижним."
+   },
+   "words": [
+    "The",
+    "view",
+    "was",
+    "amazing",
+    "were",
+    "is"
+   ],
+   "answer": [
+    "The",
+    "view",
+    "was",
+    "amazing"
+   ],
+   "explanation": {
+    "uk": "The view was amazing."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми чудово провели час."
+   },
+   "answers": [
+    "We had a wonderful time"
+   ],
+   "explanation": {
+    "uk": "We had a wonderful time."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How was your holiday?",
+   "prompt": {
+    "uk": "Чудово. Що відповісти?"
+   },
+   "options": [
+    "It was wonderful.",
+    "It were wonderful.",
+    "It is wonderful."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It was wonderful."
+   }
+  }
+ ]
+}

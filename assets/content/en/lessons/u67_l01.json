@@ -1,0 +1,322 @@
+{
+ "id": "u67_l01",
+ "unit": "u67",
+ "cefr": "A1",
+ "title": {
+  "uk": "Життєпис"
+ },
+ "goal": {
+  "uk": "Розповісти життєпис."
+ },
+ "rule": {
+  "uk": "Biography — біографія, graduate — закінчити університет, retirement — пенсія, achievement — досягнення, award — нагорода. Приклад: He graduated in 2005. He enjoys his retirement. This is her biggest achievement. He won an award."
+ },
+ "words": [
+  {
+   "id": "biography",
+   "text": "biography",
+   "ipa": "/baɪˈɒɡrəfi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "біографія"
+   },
+   "example": "I read his biography.",
+   "exampleTranslation": {
+    "uk": "Я прочитала його біографію."
+   }
+  },
+  {
+   "id": "graduate",
+   "text": "graduate",
+   "ipa": "/ˈɡrædʒueɪt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "закінчувати університет"
+   },
+   "example": "He graduated in 2005.",
+   "exampleTranslation": {
+    "uk": "Він закінчив університет у 2005 році."
+   }
+  },
+  {
+   "id": "retirement",
+   "text": "retirement",
+   "ipa": "/rɪˈtaɪəmənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пенсія"
+   },
+   "example": "He enjoys his retirement.",
+   "exampleTranslation": {
+    "uk": "Він насолоджується пенсією."
+   }
+  },
+  {
+   "id": "achievement",
+   "text": "achievement",
+   "ipa": "/əˈtʃiːvmənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "досягнення"
+   },
+   "example": "It was her biggest achievement.",
+   "exampleTranslation": {
+    "uk": "Це було її найбільше досягнення."
+   }
+  },
+  {
+   "id": "award",
+   "text": "award",
+   "ipa": "/əˈwɔːd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "нагорода"
+   },
+   "example": "He won an award.",
+   "exampleTranslation": {
+    "uk": "Він отримав нагороду."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where did you go on holiday?",
+   "prompt": {
+    "uk": "Повторимо. На острів. Що відповісти?"
+   },
+   "options": [
+    "We went to an island.",
+    "We did go island.",
+    "We goed to the island."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We went to an island."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "biography",
+     "right": {
+      "uk": "біографія"
+     }
+    },
+    {
+     "left": "graduate",
+     "right": {
+      "uk": "закінчувати університет"
+     }
+    },
+    {
+     "left": "retirement",
+     "right": {
+      "uk": "пенсія"
+     }
+    },
+    {
+     "left": "achievement",
+     "right": {
+      "uk": "досягнення"
+     }
+    },
+    {
+     "left": "award",
+     "right": {
+      "uk": "нагорода"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I read his biography.",
+   "prompt": {
+    "uk": "Прослухайте. Що прочитала людина?"
+   },
+   "options": {
+    "uk": [
+     "Його біографію",
+     "Його листа",
+     "Його книжку про подорожі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Biography."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He graduated in 2005.",
+   "prompt": {
+    "uk": "Прослухайте. Коли він закінчив університет?"
+   },
+   "options": {
+    "uk": [
+     "У 2005 році",
+     "У 2015 році",
+     "У 1995 році"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "2005."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "He won an award.",
+   "prompt": {
+    "uk": "Прослухайте. Що він отримав?"
+   },
+   "options": {
+    "uk": [
+     "Нагороду",
+     "Подарунок",
+     "Роботу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Award."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I read his ___.",
+   "options": [
+    "biography",
+    "career",
+    "award"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Біографія."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ in 2005.",
+   "options": [
+    "graduated",
+    "graduate",
+    "graduating"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Graduated."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He enjoys his ___.",
+   "options": [
+    "retirement",
+    "award",
+    "biography"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Пенсія."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке achievement?"
+   },
+   "options": {
+    "uk": [
+     "досягнення",
+     "нагорода",
+     "пенсія"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Achievement — досягнення."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Він закінчив університет у 2005 році."
+   },
+   "words": [
+    "He",
+    "graduated",
+    "in",
+    "2005",
+    "graduate",
+    "at"
+   ],
+   "answer": [
+    "He",
+    "graduated",
+    "in",
+    "2005"
+   ],
+   "explanation": {
+    "uk": "He graduated in 2005."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Він насолоджується пенсією."
+   },
+   "answers": [
+    "He enjoys his retirement"
+   ],
+   "explanation": {
+    "uk": "He enjoys his retirement."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What did he win?",
+   "prompt": {
+    "uk": "Нагороду. Що відповісти?"
+   },
+   "options": [
+    "He won an award.",
+    "He did win award.",
+    "He winned an award."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He won an award."
+   }
+  }
+ ]
+}

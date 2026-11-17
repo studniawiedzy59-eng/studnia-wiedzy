@@ -1,0 +1,324 @@
+{
+ "id": "u65_l05",
+ "unit": "u65",
+ "cefr": "A1",
+ "title": {
+  "uk": "Ранок після події"
+ },
+ "goal": {
+  "uk": "Розповісти про події у минулому."
+ },
+ "rule": {
+  "uk": "Begin — began, wake — woke, steal — stole, sweep — swept, spread — spread. Приклад: The film began at nine. I woke up early. Someone stole my bag. I swept the floor. Spread не змінюється: He spread the butter."
+ },
+ "words": [
+  {
+   "id": "begin",
+   "text": "begin",
+   "ipa": "/bɪˈɡɪn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "починати(ся) (began)"
+   },
+   "example": "The film began at nine.",
+   "exampleTranslation": {
+    "uk": "Фільм почався о дев'ятій."
+   }
+  },
+  {
+   "id": "wake",
+   "text": "wake",
+   "ipa": "/weɪk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "прокидатися (woke)"
+   },
+   "example": "I woke up early.",
+   "exampleTranslation": {
+    "uk": "Я прокинувся рано."
+   }
+  },
+  {
+   "id": "steal",
+   "text": "steal",
+   "ipa": "/stiːl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "красти (stole)"
+   },
+   "example": "Someone stole my bag.",
+   "exampleTranslation": {
+    "uk": "Хтось украв мою сумку."
+   }
+  },
+  {
+   "id": "sweep",
+   "text": "sweep",
+   "ipa": "/swiːp/",
+   "pos": "verb",
+   "translation": {
+    "uk": "підмітати (swept)"
+   },
+   "example": "I swept the floor.",
+   "exampleTranslation": {
+    "uk": "Я підмів підлогу."
+   }
+  },
+  {
+   "id": "spread",
+   "text": "spread",
+   "ipa": "/spred/",
+   "pos": "verb",
+   "translation": {
+    "uk": "намазувати (spread)"
+   },
+   "example": "He spread butter on the bread.",
+   "exampleTranslation": {
+    "uk": "Він намазав масло на хліб."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Did you keep the receipt?",
+   "prompt": {
+    "uk": "Повторимо. Так, зберегла. Що відповісти?"
+   },
+   "options": [
+    "Yes, I did.",
+    "Yes, I kept did.",
+    "Yes, I keeped."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I did."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "begin",
+     "right": {
+      "uk": "починати(ся) (began)"
+     }
+    },
+    {
+     "left": "wake",
+     "right": {
+      "uk": "прокидатися (woke)"
+     }
+    },
+    {
+     "left": "steal",
+     "right": {
+      "uk": "красти (stole)"
+     }
+    },
+    {
+     "left": "sweep",
+     "right": {
+      "uk": "підмітати (swept)"
+     }
+    },
+    {
+     "left": "spread",
+     "right": {
+      "uk": "намазувати (spread)"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The film began at nine.",
+   "prompt": {
+    "uk": "Прослухайте. Коли почався фільм?"
+   },
+   "options": {
+    "uk": [
+     "О дев'ятій",
+     "О восьмій",
+     "О десятій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nine."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Someone stole my bag.",
+   "prompt": {
+    "uk": "Прослухайте. Що сталося?"
+   },
+   "options": {
+    "uk": [
+     "Хтось украв сумку",
+     "Хтось загубив сумку",
+     "Хтось купив сумку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Stole."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I woke up early.",
+   "prompt": {
+    "uk": "Прослухайте. Коли прокинулася людина?"
+   },
+   "options": {
+    "uk": [
+     "Рано",
+     "Пізно",
+     "Опівдні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Woke."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The film ___ at nine.",
+   "options": [
+    "began",
+    "begun",
+    "begin"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Begin — began."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ up early.",
+   "options": [
+    "woke",
+    "waked",
+    "wake"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Wake — woke."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Someone ___ my bag.",
+   "options": [
+    "stole",
+    "stealed",
+    "steal"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Steal — stole."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Яка форма від sweep?"
+   },
+   "options": {
+    "uk": [
+     "swept",
+     "sweeped",
+     "sweeps"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sweep — swept."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Фільм почався о дев'ятій."
+   },
+   "words": [
+    "The",
+    "film",
+    "began",
+    "at",
+    "nine",
+    "begin",
+    "did"
+   ],
+   "answer": [
+    "The",
+    "film",
+    "began",
+    "at",
+    "nine"
+   ],
+   "explanation": {
+    "uk": "The film began at nine."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Хтось украв мою сумку."
+   },
+   "answers": [
+    "Someone stole my bag"
+   ],
+   "explanation": {
+    "uk": "Someone stole my bag."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "When did the film begin?",
+   "prompt": {
+    "uk": "О дев'ятій. Що відповісти?"
+   },
+   "options": [
+    "It began at nine.",
+    "It did begin at nine.",
+    "It begun at nine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It began at nine."
+   }
+  }
+ ]
+}

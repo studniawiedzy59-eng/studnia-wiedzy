@@ -1,0 +1,322 @@
+{
+ "id": "u68_l04",
+ "unit": "u68",
+ "cefr": "A1",
+ "title": {
+  "uk": "Скільки різниці"
+ },
+ "goal": {
+  "uk": "Описати розмір різниці."
+ },
+ "rule": {
+  "uk": "Slightly — трохи, even — навіть, twice as … as — удвічі більший, half as … as — вдвічі менший, а ще ви знаєте much і a bit. Приклад: This is slightly cheaper. It's even bigger. It is twice as expensive."
+ },
+ "words": [
+  {
+   "id": "slightly",
+   "text": "slightly",
+   "ipa": "/ˈslaɪtli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "трохи"
+   },
+   "example": "It's slightly cheaper.",
+   "exampleTranslation": {
+    "uk": "Це трохи дешевше."
+   }
+  },
+  {
+   "id": "even",
+   "text": "even",
+   "ipa": "/ˈiːvn/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "навіть"
+   },
+   "example": "It's even bigger.",
+   "exampleTranslation": {
+    "uk": "Воно навіть більше."
+   }
+  },
+  {
+   "id": "twice_as",
+   "text": "twice as",
+   "ipa": "/ˈtwaɪs əz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "удвічі більше"
+   },
+   "example": "It's twice as expensive.",
+   "exampleTranslation": {
+    "uk": "Це вдвічі дорожче."
+   }
+  },
+  {
+   "id": "half_as",
+   "text": "half as",
+   "ipa": "/ˈhɑːf əz/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "удвічі менше"
+   },
+   "example": "It's half as long.",
+   "exampleTranslation": {
+    "uk": "Це вдвічі коротше."
+   }
+  },
+  {
+   "id": "either",
+   "text": "either",
+   "ipa": "/ˈaɪðə/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "також (у запереченні)"
+   },
+   "example": "I don't like it either.",
+   "exampleTranslation": {
+    "uk": "Мені це теж не подобається."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is your phone like mine?",
+   "prompt": {
+    "uk": "Повторимо. Схожий. Що відповісти?"
+   },
+   "options": [
+    "Yes, it's similar to yours.",
+    "Yes, it is similar with yours.",
+    "Yes, it similar yours."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it's similar to yours."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "slightly",
+     "right": {
+      "uk": "трохи"
+     }
+    },
+    {
+     "left": "even",
+     "right": {
+      "uk": "навіть"
+     }
+    },
+    {
+     "left": "twice as",
+     "right": {
+      "uk": "удвічі більше"
+     }
+    },
+    {
+     "left": "half as",
+     "right": {
+      "uk": "удвічі менше"
+     }
+    },
+    {
+     "left": "either",
+     "right": {
+      "uk": "також (у запереченні)"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It's slightly cheaper.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це трохи дешевше",
+     "Це вдвічі дешевше",
+     "Це дорожче"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Slightly."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's twice as expensive.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Це вдвічі дорожче",
+     "Це вдвічі дешевше",
+     "Це трохи дорожче"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twice as."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I don't like it either.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Їй це теж не подобається",
+     "Їй це дуже подобається",
+     "Вона це купила"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Either."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's ___ cheaper.",
+   "options": [
+    "slightly",
+    "twice",
+    "either"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Slightly."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's ___ bigger.",
+   "options": [
+    "even",
+    "as",
+    "half"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Even."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I don't like it ___.",
+   "options": [
+    "either",
+    "too",
+    "also"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Either у запереченні."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що означає half as?"
+   },
+   "options": {
+    "uk": [
+     "удвічі менше",
+     "удвічі більше",
+     "трохи"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Half as — удвічі менше."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це вдвічі дорожче."
+   },
+   "words": [
+    "It's",
+    "twice",
+    "as",
+    "expensive",
+    "half",
+    "more"
+   ],
+   "answer": [
+    "It's",
+    "twice",
+    "as",
+    "expensive"
+   ],
+   "explanation": {
+    "uk": "It's twice as expensive."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це трохи дешевше."
+   },
+   "answers": [
+    "It's slightly cheaper"
+   ],
+   "explanation": {
+    "uk": "It's slightly cheaper."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is it more expensive?",
+   "prompt": {
+    "uk": "Вдвічі. Що відповісти?"
+   },
+   "options": [
+    "Yes, it's twice as expensive.",
+    "Yes, it is two as expensive.",
+    "Yes, twice expensive it is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, it's twice as expensive."
+   }
+  }
+ ]
+}

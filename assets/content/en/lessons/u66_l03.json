@@ -1,0 +1,322 @@
+{
+ "id": "u66_l03",
+ "unit": "u66",
+ "cefr": "A1",
+ "title": {
+  "uk": "Що ми робили"
+ },
+ "goal": {
+  "uk": "Розповісти про дії на відпочинку."
+ },
+ "rule": {
+  "uk": "Explore — досліджувати, wander — блукати, sunbathe — засмагати, snorkel — плавати з маскою, unpack — розпаковувати. Минулий час: explored, wandered, sunbathed, snorkelled, unpacked. Приклад: We explored the old town. I unpacked my bag."
+ },
+ "words": [
+  {
+   "id": "explore",
+   "text": "explore",
+   "ipa": "/ɪkˈsplɔː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "досліджувати"
+   },
+   "example": "We explored the old town.",
+   "exampleTranslation": {
+    "uk": "Ми досліджували старе місто."
+   }
+  },
+  {
+   "id": "wander",
+   "text": "wander",
+   "ipa": "/ˈwɒndə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "блукати"
+   },
+   "example": "We wandered around the market.",
+   "exampleTranslation": {
+    "uk": "Ми блукали ринком."
+   }
+  },
+  {
+   "id": "sunbathe",
+   "text": "sunbathe",
+   "ipa": "/ˈsʌnbeɪð/",
+   "pos": "verb",
+   "translation": {
+    "uk": "засмагати"
+   },
+   "example": "I sunbathed on the beach.",
+   "exampleTranslation": {
+    "uk": "Я засмагала на пляжі."
+   }
+  },
+  {
+   "id": "snorkel",
+   "text": "snorkel",
+   "ipa": "/ˈsnɔːkl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "плавати з маскою"
+   },
+   "example": "We snorkelled in the sea.",
+   "exampleTranslation": {
+    "uk": "Ми плавали з маскою в морі."
+   }
+  },
+  {
+   "id": "unpack",
+   "text": "unpack",
+   "ipa": "/ʌnˈpæk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "розпаковувати"
+   },
+   "example": "I unpacked my bag.",
+   "exampleTranslation": {
+    "uk": "Я розпакувала сумку."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What did you buy?",
+   "prompt": {
+    "uk": "Повторимо. Сувенір. Що відповісти?"
+   },
+   "options": [
+    "I bought a souvenir.",
+    "I did buy souvenir.",
+    "I buyed a souvenir."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I bought a souvenir."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "explore",
+     "right": {
+      "uk": "досліджувати"
+     }
+    },
+    {
+     "left": "wander",
+     "right": {
+      "uk": "блукати"
+     }
+    },
+    {
+     "left": "sunbathe",
+     "right": {
+      "uk": "засмагати"
+     }
+    },
+    {
+     "left": "snorkel",
+     "right": {
+      "uk": "плавати з маскою"
+     }
+    },
+    {
+     "left": "unpack",
+     "right": {
+      "uk": "розпаковувати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "We explored the old town.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони досліджували?"
+   },
+   "options": {
+    "uk": [
+     "Старе місто",
+     "Пляж",
+     "Музей"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Old town."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I sunbathed on the beach.",
+   "prompt": {
+    "uk": "Прослухайте. Що робила людина?"
+   },
+   "options": {
+    "uk": [
+     "Засмагала на пляжі",
+     "Плавала в морі",
+     "Читала на пляжі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sunbathed."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I unpacked my bag.",
+   "prompt": {
+    "uk": "Прослухайте. Що зробила людина?"
+   },
+   "options": {
+    "uk": [
+     "Розпакувала сумку",
+     "Спакувала сумку",
+     "Загубила сумку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Unpacked."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ the old town.",
+   "options": [
+    "explored",
+    "explore",
+    "exploring"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Explored."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ on the beach.",
+   "options": [
+    "sunbathed",
+    "sunbath",
+    "sunbathing"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sunbathed."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ my bag.",
+   "options": [
+    "unpacked",
+    "unpack",
+    "unpacking"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Unpacked."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке wander?"
+   },
+   "options": {
+    "uk": [
+     "блукати",
+     "засмагати",
+     "розпаковувати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Wander — блукати."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я розпакувала сумку."
+   },
+   "words": [
+    "I",
+    "unpacked",
+    "my",
+    "bag",
+    "unpack",
+    "did"
+   ],
+   "answer": [
+    "I",
+    "unpacked",
+    "my",
+    "bag"
+   ],
+   "explanation": {
+    "uk": "I unpacked my bag."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми досліджували старе місто."
+   },
+   "answers": [
+    "We explored the old town"
+   ],
+   "explanation": {
+    "uk": "We explored the old town."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What did you do there?",
+   "prompt": {
+    "uk": "Досліджували місто. Що відповісти?"
+   },
+   "options": [
+    "We explored the town.",
+    "We did explore town.",
+    "We exploring the town."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We explored the town."
+   }
+  }
+ ]
+}

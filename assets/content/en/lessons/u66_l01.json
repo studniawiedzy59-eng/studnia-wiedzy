@@ -1,0 +1,324 @@
+{
+ "id": "u66_l01",
+ "unit": "u66",
+ "cefr": "A1",
+ "title": {
+  "uk": "Де ми відпочивали"
+ },
+ "goal": {
+  "uk": "Розповісти, де ви відпочивали."
+ },
+ "rule": {
+  "uk": "Island — острів, resort — курорт, cruise — круїз, camping — кемпінг (відпочинок у наметі), tent — намет. Розповідаємо в минулому: We stayed on an island. We went camping. We slept in a tent."
+ },
+ "words": [
+  {
+   "id": "island",
+   "text": "island",
+   "ipa": "/ˈaɪlənd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "острів"
+   },
+   "example": "We stayed on an island.",
+   "exampleTranslation": {
+    "uk": "Ми жили на острові."
+   }
+  },
+  {
+   "id": "resort",
+   "text": "resort",
+   "ipa": "/rɪˈzɔːt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "курорт"
+   },
+   "example": "It's a beautiful resort.",
+   "exampleTranslation": {
+    "uk": "Це гарний курорт."
+   }
+  },
+  {
+   "id": "cruise",
+   "text": "cruise",
+   "ipa": "/kruːz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "круїз"
+   },
+   "example": "We went on a cruise.",
+   "exampleTranslation": {
+    "uk": "Ми поїхали в круїз."
+   }
+  },
+  {
+   "id": "camping",
+   "text": "camping",
+   "ipa": "/ˈkæmpɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кемпінг"
+   },
+   "example": "We went camping.",
+   "exampleTranslation": {
+    "uk": "Ми поїхали в кемпінг."
+   }
+  },
+  {
+   "id": "tent",
+   "text": "tent",
+   "ipa": "/tent/",
+   "pos": "noun",
+   "translation": {
+    "uk": "намет"
+   },
+   "example": "We slept in a tent.",
+   "exampleTranslation": {
+    "uk": "Ми спали в наметі."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What did you do last night?",
+   "prompt": {
+    "uk": "Повторимо. Ходила в кіно. Що відповісти?"
+   },
+   "options": [
+    "I went to the cinema.",
+    "I did go to the cinema.",
+    "I goed to cinema."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I went to the cinema."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "island",
+     "right": {
+      "uk": "острів"
+     }
+    },
+    {
+     "left": "resort",
+     "right": {
+      "uk": "курорт"
+     }
+    },
+    {
+     "left": "cruise",
+     "right": {
+      "uk": "круїз"
+     }
+    },
+    {
+     "left": "camping",
+     "right": {
+      "uk": "кемпінг"
+     }
+    },
+    {
+     "left": "tent",
+     "right": {
+      "uk": "намет"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "We stayed on an island.",
+   "prompt": {
+    "uk": "Прослухайте. Де вони жили?"
+   },
+   "options": {
+    "uk": [
+     "На острові",
+     "У горах",
+     "У місті"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Island."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We went on a cruise.",
+   "prompt": {
+    "uk": "Прослухайте. Куди вони поїхали?"
+   },
+   "options": {
+    "uk": [
+     "У круїз",
+     "У кемпінг",
+     "На курорт"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Cruise."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We slept in a tent.",
+   "prompt": {
+    "uk": "Прослухайте. Де вони спали?"
+   },
+   "options": {
+    "uk": [
+     "У наметі",
+     "У готелі",
+     "У хатині"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tent."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We stayed on an ___.",
+   "options": [
+    "island",
+    "resort",
+    "tent"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Острів."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We slept in a ___.",
+   "options": [
+    "tent",
+    "cruise",
+    "camping"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Намет."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We went ___.",
+   "options": [
+    "camping",
+    "tent",
+    "island"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Went camping."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке resort?"
+   },
+   "options": {
+    "uk": [
+     "курорт",
+     "острів",
+     "круїз"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Resort — курорт."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми жили на острові."
+   },
+   "words": [
+    "We",
+    "stayed",
+    "on",
+    "an",
+    "island",
+    "stay",
+    "at"
+   ],
+   "answer": [
+    "We",
+    "stayed",
+    "on",
+    "an",
+    "island"
+   ],
+   "explanation": {
+    "uk": "We stayed on an island."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми спали в наметі."
+   },
+   "answers": [
+    "We slept in a tent"
+   ],
+   "explanation": {
+    "uk": "We slept in a tent."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where did you stay?",
+   "prompt": {
+    "uk": "На острові. Що відповісти?"
+   },
+   "options": [
+    "We stayed on an island.",
+    "We did stay at island.",
+    "We stay on island."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We stayed on an island."
+   }
+  }
+ ]
+}
