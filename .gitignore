@@ -13,3 +13,5 @@ build/
 key.properties
 .env
 local.properties
+__pycache__/
+*.pyc
