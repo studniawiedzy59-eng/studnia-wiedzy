@@ -1,0 +1,324 @@
+{
+ "id": "u78_l02",
+ "unit": "u78",
+ "cefr": "A1",
+ "title": {
+  "uk": "Почуття перед змінами"
+ },
+ "goal": {
+  "uk": "Описувати свій настрій перед великою справою."
+ },
+ "rule": {
+  "uk": "Nervous — нервовий, excited — схвильований (радісно), determined — рішучий, ambitious — амбітний, motivated — мотивований. Приклад: I'm nervous. I'm excited. She is determined. He is ambitious. I feel motivated."
+ },
+ "words": [
+  {
+   "id": "nervous",
+   "text": "nervous",
+   "ipa": "/ˈnɜːvəs/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "нервовий"
+   },
+   "example": "I'm nervous about the exam.",
+   "exampleTranslation": {
+    "uk": "Я нервую через іспит."
+   }
+  },
+  {
+   "id": "excited",
+   "text": "excited",
+   "ipa": "/ɪkˈsaɪtɪd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "радісно схвильований"
+   },
+   "example": "I'm excited about the trip.",
+   "exampleTranslation": {
+    "uk": "Я в передчутті поїздки."
+   }
+  },
+  {
+   "id": "determined",
+   "text": "determined",
+   "ipa": "/dɪˈtɜːmɪnd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "рішучий"
+   },
+   "example": "She is determined.",
+   "exampleTranslation": {
+    "uk": "Вона рішуча."
+   }
+  },
+  {
+   "id": "ambitious",
+   "text": "ambitious",
+   "ipa": "/æmˈbɪʃəs/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "амбітний"
+   },
+   "example": "He is ambitious.",
+   "exampleTranslation": {
+    "uk": "Він амбітний."
+   }
+  },
+  {
+   "id": "motivated",
+   "text": "motivated",
+   "ipa": "/ˈməʊtɪveɪtɪd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "мотивований"
+   },
+   "example": "I feel motivated.",
+   "exampleTranslation": {
+    "uk": "Я відчуваю мотивацію."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What are you going to do?",
+   "prompt": {
+    "uk": "Повторимо. Досягти мети. Що відповісти?"
+   },
+   "options": [
+    "I'm going to achieve my goal.",
+    "I going achieve my goal.",
+    "I'm go to achieve goal."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm going to achieve my goal."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "nervous",
+     "right": {
+      "uk": "нервовий"
+     }
+    },
+    {
+     "left": "excited",
+     "right": {
+      "uk": "радісно схвильований"
+     }
+    },
+    {
+     "left": "determined",
+     "right": {
+      "uk": "рішучий"
+     }
+    },
+    {
+     "left": "ambitious",
+     "right": {
+      "uk": "амбітний"
+     }
+    },
+    {
+     "left": "motivated",
+     "right": {
+      "uk": "мотивований"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'm nervous about the exam.",
+   "prompt": {
+    "uk": "Прослухайте. Що відчуває людина?"
+   },
+   "options": {
+    "uk": [
+     "Нервує",
+     "Радіє",
+     "Сумує"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nervous."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She is determined.",
+   "prompt": {
+    "uk": "Прослухайте. Яка вона?"
+   },
+   "options": {
+    "uk": [
+     "Рішуча",
+     "Втомлена",
+     "Сумна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Determined."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I feel motivated.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона мотивована",
+     "Вона нервує",
+     "Вона втомилася"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Motivated."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ about the exam.",
+   "options": [
+    "nervous",
+    "motivated",
+    "ambitious"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Нервую."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ about the trip.",
+   "options": [
+    "excited",
+    "nervous",
+    "determined"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Радісно."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He is ___.",
+   "options": [
+    "ambitious",
+    "excited",
+    "step"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Амбітний."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке determined?"
+   },
+   "options": {
+    "uk": [
+     "рішучий",
+     "нервовий",
+     "амбітний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Determined — рішучий."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я нервую через іспит."
+   },
+   "words": [
+    "I'm",
+    "nervous",
+    "about",
+    "the",
+    "exam",
+    "are",
+    "excited"
+   ],
+   "answer": [
+    "I'm",
+    "nervous",
+    "about",
+    "the",
+    "exam"
+   ],
+   "explanation": {
+    "uk": "I'm nervous about the exam."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Він амбітний."
+   },
+   "answers": [
+    "He is ambitious"
+   ],
+   "explanation": {
+    "uk": "He is ambitious."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How do you feel?",
+   "prompt": {
+    "uk": "Нервуєте, але рішучі. Що відповісти?"
+   },
+   "options": [
+    "I'm nervous, but I'm determined.",
+    "I nervous, but I determined.",
+    "I'm nervous but determined I'm."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm nervous, but I'm determined."
+   }
+  }
+ ]
+}

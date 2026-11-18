@@ -1,0 +1,320 @@
+{
+ "id": "u79_l01",
+ "unit": "u79",
+ "cefr": "A1",
+ "title": {
+  "uk": "Пропозиції: shall і would"
+ },
+ "goal": {
+  "uk": "Пропонувати й просити ввічливо."
+ },
+ "rule": {
+  "uk": "Shall I / Shall we + дієслово — пропозиція: Shall we go? Would you + дієслово — ввічливе прохання: Would you help me? Suggestion — пропозиція, favour — послуга, mind — заперечувати: Do you mind? Приклад: Could you do me a favour?"
+ },
+ "words": [
+  {
+   "id": "shall",
+   "text": "shall",
+   "ipa": "/ʃæl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "може, чи (пропозиція)"
+   },
+   "example": "Shall we go?",
+   "exampleTranslation": {
+    "uk": "Підемо?"
+   }
+  },
+  {
+   "id": "would",
+   "text": "would",
+   "ipa": "/wʊd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "чи не могли б (ввічливо)"
+   },
+   "example": "Would you help me?",
+   "exampleTranslation": {
+    "uk": "Не допоможете мені?"
+   }
+  },
+  {
+   "id": "suggestion",
+   "text": "suggestion",
+   "ipa": "/səˈdʒestʃən/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пропозиція"
+   },
+   "example": "I have a suggestion.",
+   "exampleTranslation": {
+    "uk": "У мене є пропозиція."
+   }
+  },
+  {
+   "id": "favour",
+   "text": "favour",
+   "ipa": "/ˈfeɪvə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "послуга"
+   },
+   "example": "Can you do me a favour?",
+   "exampleTranslation": {
+    "uk": "Зробите мені послугу?"
+   }
+  },
+  {
+   "id": "mind",
+   "text": "mind",
+   "ipa": "/maɪnd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "заперечувати"
+   },
+   "example": "Do you mind?",
+   "exampleTranslation": {
+    "uk": "Ви не проти?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What are you going to do next year?",
+   "prompt": {
+    "uk": "Повторимо. Вивчати англійську й отримати сертифікат. Що відповісти?"
+   },
+   "options": [
+    "I'm going to learn English and get a certificate.",
+    "I going learn English get certificate.",
+    "I'm go to learn English and certificate."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm going to learn English and get a certificate."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "shall",
+     "right": {
+      "uk": "може, чи (пропозиція)"
+     }
+    },
+    {
+     "left": "would",
+     "right": {
+      "uk": "чи не могли б (ввічливо)"
+     }
+    },
+    {
+     "left": "suggestion",
+     "right": {
+      "uk": "пропозиція"
+     }
+    },
+    {
+     "left": "favour",
+     "right": {
+      "uk": "послуга"
+     }
+    },
+    {
+     "left": "mind",
+     "right": {
+      "uk": "заперечувати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Shall we go?",
+   "prompt": {
+    "uk": "Прослухайте. Що пропонує людина?"
+   },
+   "options": {
+    "uk": [
+     "Піти",
+     "Залишитися",
+     "Зачекати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Shall."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Would you help me?",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Допомогти",
+     "Піти",
+     "Зачекати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Would."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Can you do me a favour?",
+   "prompt": {
+    "uk": "Прослухайте. Про що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Про послугу",
+     "Про гроші",
+     "Про пораду"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Favour."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ we go?",
+   "options": [
+    "Shall",
+    "Would",
+    "Mind"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Shall we."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ you help me?",
+   "options": [
+    "Would",
+    "Shall",
+    "Favour"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Would you."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Do you ___?",
+   "options": [
+    "mind",
+    "shall",
+    "favour"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Do you mind?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що значить would you?"
+   },
+   "options": {
+    "uk": [
+     "чи не могли б ви",
+     "піде",
+     "треба"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Would you — ввічливе прохання."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Підемо?"
+   },
+   "words": [
+    "Shall",
+    "we",
+    "go",
+    "Would",
+    "favour"
+   ],
+   "answer": [
+    "Shall",
+    "we",
+    "go"
+   ],
+   "explanation": {
+    "uk": "Shall we go?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене є пропозиція."
+   },
+   "answers": [
+    "I have a suggestion"
+   ],
+   "explanation": {
+    "uk": "I have a suggestion."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "It's hot in here.",
+   "prompt": {
+    "uk": "Запропонуйте відчинити вікно. Що сказати?"
+   },
+   "options": [
+    "Shall I open the window?",
+    "Shall I opening window?",
+    "I shall open window?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Shall I open the window?"
+   }
+  }
+ ]
+}

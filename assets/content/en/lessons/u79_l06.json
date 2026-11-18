@@ -1,0 +1,282 @@
+{
+ "id": "u79_l06",
+ "unit": "u79",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: прохання й пропозиції"
+ },
+ "goal": {
+  "uk": "Закріпити ввічливі прохання й пропозиції."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: пропозиції (shall, would, mind, favour), позичити (borrow, share, hire, fetch), допомога (pick up, give a lift, turn on, turn off), радість (pay for, glad, pleasure) і волонтерство (help out, lend a hand, donate)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What does she do?",
+   "prompt": {
+    "uk": "Повторимо. Вона волонтерка. Що відповісти?"
+   },
+   "options": [
+    "She is a volunteer.",
+    "She volunteer.",
+    "She is volunteers."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She is a volunteer."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "Shall we go? Would you give me a lift?",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Пропонує піти й просить підвезти",
+     "Відмовляється",
+     "Прощається"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Shall, would."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Can I borrow your pen? It's my pleasure!",
+   "prompt": {
+    "uk": "Прослухайте. Що було?"
+   },
+   "options": {
+    "uk": [
+     "Прохання позичити ручку й радісна згода",
+     "Відмова",
+     "Подяка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Borrow, pleasure."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'm glad to help out, and I donate money to charity.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Допомагає й жертвує на благодійність",
+     "Просить грошей",
+     "Відмовляє"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Help out."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ we go?",
+   "options": [
+    "Shall",
+    "Fetch",
+    "Charity"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Shall."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I ___ your pen?",
+   "options": [
+    "borrow",
+    "hire",
+    "donate"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Borrow."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ to help.",
+   "options": [
+    "glad",
+    "loan",
+    "favour"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Glad."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що значить turn off?"
+   },
+   "options": {
+    "uk": [
+     "вимикати",
+     "вмикати",
+     "забрати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Turn off — вимикати."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Підемо?"
+   },
+   "words": [
+    "Shall",
+    "we",
+    "go",
+    "Would",
+    "favour"
+   ],
+   "answer": [
+    "Shall",
+    "we",
+    "go"
+   ],
+   "explanation": {
+    "uk": "Shall we go?"
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можете допомогти?"
+   },
+   "answers": [
+    "Can you lend a hand"
+   ],
+   "explanation": {
+    "uk": "Can you lend a hand?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Can you help me?",
+   "prompt": {
+    "uk": "Радо допоможіть. Що сказати?"
+   },
+   "options": [
+    "Of course, it's my pleasure!",
+    "Of course, is pleasure my!",
+    "Of course I pleasure."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Of course, it's my pleasure!"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам холодно, а вікно відчинене."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Марта"
+    },
+    "avatar": "🤝"
+   },
+   "line": "Is it cold?",
+   "options": [
+    "Yes. Shall I close the window?",
+    "Yes. I shall closing window?",
+    "Yes. Shall close I window?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Shall I — пропозиція."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви просите допомогти."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Марта"
+    },
+    "avatar": "🤝"
+   },
+   "line": "How can I help you?",
+   "options": [
+    "Can you give me a lift?",
+    "Can you giving me lift?",
+    "You can give lift me?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Give a lift — підвезти."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам допомогли, ви дякуєте."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Марта"
+    },
+    "avatar": "🤝"
+   },
+   "line": "I'm glad to help.",
+   "options": [
+    "Thank you! It's very kind.",
+    "Thank you! It is kind very.",
+    "Thanks you kind."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Kind — добрий."
+   }
+  }
+ ]
+}

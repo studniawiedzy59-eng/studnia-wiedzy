@@ -1,0 +1,288 @@
+{
+ "id": "u80_l06",
+ "unit": "u80",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Фінальна перевірка A1"
+ },
+ "goal": {
+  "uk": "Перевірити все, що ви вивчили на рівні A1."
+ },
+ "rule": {
+  "uk": "Це остання перевірка рівня A1. Нових слів немає. Тут є все: розмова про себе, день, дім, минуле, плани, поради й правила. Якщо ви впоралися, ви готові до A2."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What are you going to do?",
+   "prompt": {
+    "uk": "Повторимо. Вивчати англійську. Що відповісти?"
+   },
+   "options": [
+    "I'm going to learn English.",
+    "I going learn English.",
+    "I'm go to learn English."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm going to learn English."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "My name is Anna, and I'm going to learn English.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Мене звати Анна, я збираюся вивчати англійську",
+     "Я вже вивчила англійську",
+     "Я з Польщі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Anna."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Yesterday we went to the park, and it was sunny.",
+   "prompt": {
+    "uk": "Прослухайте. Яка була погода?"
+   },
+   "options": {
+    "uk": [
+     "Сонячно",
+     "Дощ",
+     "Туман"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sunny."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "You should rest, and you mustn't work late.",
+   "prompt": {
+    "uk": "Прослухайте. Що радить людина?"
+   },
+   "options": {
+    "uk": [
+     "Відпочити й не працювати допізна",
+     "Працювати більше",
+     "Піти додому"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Should."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ from Ukraine.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I am."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ to the park yesterday.",
+   "options": [
+    "went",
+    "go",
+    "goes"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Went."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You ___ smoke here.",
+   "options": [
+    "mustn't",
+    "shouldn't to",
+    "don't must"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Mustn't."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що значить «Shall we go?»"
+   },
+   "options": {
+    "uk": [
+     "Підемо?",
+     "Ми пішли",
+     "Ми підемо завтра"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Shall we go? — Підемо?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я збираюся досягти своєї мети."
+   },
+   "words": [
+    "I'm",
+    "going",
+    "to",
+    "achieve",
+    "my",
+    "goal",
+    "am",
+    "success"
+   ],
+   "answer": [
+    "I'm",
+    "going",
+    "to",
+    "achieve",
+    "my",
+    "goal"
+   ],
+   "explanation": {
+    "uk": "I'm going to achieve my goal."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я була вдома вчора."
+   },
+   "answers": [
+    "I was at home yesterday"
+   ],
+   "explanation": {
+    "uk": "I was at home yesterday."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "How do you feel about A2?",
+   "prompt": {
+    "uk": "Ви рішучі й мотивовані. Що відповісти?"
+   },
+   "options": [
+    "I'm determined and motivated.",
+    "I determined and motivated.",
+    "I'm determined motivated am."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm determined and motivated."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви знайомитеся."
+   },
+   "character": {
+    "name": {
+     "uk": "Нова знайома Емма"
+    },
+    "avatar": "👋"
+   },
+   "line": "Hi! Tell me about yourself.",
+   "options": [
+    "My name is Anna. I'm from Ukraine.",
+    "I name Anna. I from Ukraine.",
+    "Name my Anna. Ukraine from."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My name is… I'm from…"
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вона питає про вчора."
+   },
+   "character": {
+    "name": {
+     "uk": "Нова знайома Емма"
+    },
+    "avatar": "👋"
+   },
+   "line": "What did you do yesterday?",
+   "options": [
+    "We went to the park.",
+    "We go to the park yesterday.",
+    "We did went to the park."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Went — минулий час від go."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вона питає про плани."
+   },
+   "character": {
+    "name": {
+     "uk": "Нова знайома Емма"
+    },
+    "avatar": "👋"
+   },
+   "line": "What are you going to do next?",
+   "options": [
+    "I'm going to learn English.",
+    "I going learn English.",
+    "I'm go to learn English."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Going to + base verb."
+   }
+  }
+ ]
+}

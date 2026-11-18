@@ -1,0 +1,322 @@
+{
+ "id": "u77_l05",
+ "unit": "u77",
+ "cefr": "A1",
+ "title": {
+  "uk": "Техніка для листів"
+ },
+ "goal": {
+  "uk": "Користуватися технікою для роботи з листами."
+ },
+ "rule": {
+  "uk": "Print — друкувати, copy — копіювати, screen — екран, keyboard — клавіатура, printer — принтер. Приклад: I print the letter. Copy the text. The screen is big. This keyboard is old. The printer is broken."
+ },
+ "words": [
+  {
+   "id": "print",
+   "text": "print",
+   "ipa": "/prɪnt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "друкувати"
+   },
+   "example": "I print the letter.",
+   "exampleTranslation": {
+    "uk": "Я друкую лист."
+   }
+  },
+  {
+   "id": "copy",
+   "text": "copy",
+   "ipa": "/ˈkɒpi/",
+   "pos": "verb",
+   "translation": {
+    "uk": "копіювати"
+   },
+   "example": "Copy the text.",
+   "exampleTranslation": {
+    "uk": "Скопіюйте текст."
+   }
+  },
+  {
+   "id": "screen",
+   "text": "screen",
+   "ipa": "/skriːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "екран"
+   },
+   "example": "The screen is big.",
+   "exampleTranslation": {
+    "uk": "Екран великий."
+   }
+  },
+  {
+   "id": "keyboard",
+   "text": "keyboard",
+   "ipa": "/ˈkiːbɔːd/",
+   "pos": "noun",
+   "translation": {
+    "uk": "клавіатура"
+   },
+   "example": "This keyboard is old.",
+   "exampleTranslation": {
+    "uk": "Ця клавіатура стара."
+   }
+  },
+  {
+   "id": "printer",
+   "text": "printer",
+   "ipa": "/ˈprɪntə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "принтер"
+   },
+   "example": "The printer is broken.",
+   "exampleTranslation": {
+    "uk": "Принтер не працює."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you say at the end?",
+   "prompt": {
+    "uk": "Повторимо. Чекаю на вашу відповідь. Що написати?"
+   },
+   "options": [
+    "I wait for your response.",
+    "I waiting your response.",
+    "I wait your response for."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I wait for your response."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "print",
+     "right": {
+      "uk": "друкувати"
+     }
+    },
+    {
+     "left": "copy",
+     "right": {
+      "uk": "копіювати"
+     }
+    },
+    {
+     "left": "screen",
+     "right": {
+      "uk": "екран"
+     }
+    },
+    {
+     "left": "keyboard",
+     "right": {
+      "uk": "клавіатура"
+     }
+    },
+    {
+     "left": "printer",
+     "right": {
+      "uk": "принтер"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I print the letter.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Друкує лист",
+     "Читає лист",
+     "Пише лист"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Print."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The screen is big.",
+   "prompt": {
+    "uk": "Прослухайте. Який екран?"
+   },
+   "options": {
+    "uk": [
+     "Великий",
+     "Малий",
+     "Новий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Big."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The printer is broken.",
+   "prompt": {
+    "uk": "Прослухайте. Що не працює?"
+   },
+   "options": {
+    "uk": [
+     "Принтер",
+     "Екран",
+     "Клавіатура"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Printer."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ the letter.",
+   "options": [
+    "print",
+    "screen",
+    "keyboard"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Print."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This ___ is old.",
+   "options": [
+    "keyboard",
+    "copy",
+    "print"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Клавіатура."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is broken.",
+   "options": [
+    "printer",
+    "print",
+    "copy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Принтер."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке keyboard?"
+   },
+   "options": {
+    "uk": [
+     "клавіатура",
+     "екран",
+     "принтер"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Keyboard — клавіатура."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я друкую лист."
+   },
+   "words": [
+    "I",
+    "print",
+    "the",
+    "letter",
+    "prints",
+    "copy"
+   ],
+   "answer": [
+    "I",
+    "print",
+    "the",
+    "letter"
+   ],
+   "explanation": {
+    "uk": "I print the letter."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Принтер не працює."
+   },
+   "answers": [
+    "The printer is broken"
+   ],
+   "explanation": {
+    "uk": "The printer is broken."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is broken?",
+   "prompt": {
+    "uk": "Принтер. Що відповісти?"
+   },
+   "options": [
+    "The printer is broken.",
+    "Printer are broken.",
+    "The printer broken is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The printer is broken."
+   }
+  }
+ ]
+}

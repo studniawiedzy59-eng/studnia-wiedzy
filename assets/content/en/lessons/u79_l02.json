@@ -1,0 +1,324 @@
+{
+ "id": "u79_l02",
+ "unit": "u79",
+ "cefr": "A1",
+ "title": {
+  "uk": "Позичити й поділитися"
+ },
+ "goal": {
+  "uk": "Просити позичити й ділитися."
+ },
+ "rule": {
+  "uk": "Borrow — позичити (в когось), share — ділитися, hire — наймати, fetch — принести, decline — відмовитись. Приклад: Can I borrow your pen? Let's share. We hire a car. I fetch the bag. I decline politely."
+ },
+ "words": [
+  {
+   "id": "borrow",
+   "text": "borrow",
+   "ipa": "/ˈbɒrəʊ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "позичити (взяти)"
+   },
+   "example": "Can I borrow your pen?",
+   "exampleTranslation": {
+    "uk": "Можна позичити вашу ручку?"
+   }
+  },
+  {
+   "id": "share",
+   "text": "share",
+   "ipa": "/ʃeə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "ділитися"
+   },
+   "example": "Let's share the pizza.",
+   "exampleTranslation": {
+    "uk": "Поділімося піцою."
+   }
+  },
+  {
+   "id": "hire",
+   "text": "hire",
+   "ipa": "/ˈhaɪə/",
+   "pos": "verb",
+   "translation": {
+    "uk": "наймати"
+   },
+   "example": "We hire a car.",
+   "exampleTranslation": {
+    "uk": "Ми наймаємо авто."
+   }
+  },
+  {
+   "id": "fetch",
+   "text": "fetch",
+   "ipa": "/fetʃ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "піти й принести"
+   },
+   "example": "I fetch the bag.",
+   "exampleTranslation": {
+    "uk": "Я приношу сумку."
+   }
+  },
+  {
+   "id": "decline",
+   "text": "decline",
+   "ipa": "/dɪˈklaɪn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "ввічливо відмовити"
+   },
+   "example": "I decline politely.",
+   "exampleTranslation": {
+    "uk": "Я ввічливо відмовляю."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "It's hot in here.",
+   "prompt": {
+    "uk": "Повторимо. Запропонуйте відчинити вікно. Що сказати?"
+   },
+   "options": [
+    "Shall I open the window?",
+    "Shall I opening window?",
+    "I shall open window?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Shall I open the window?"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "borrow",
+     "right": {
+      "uk": "позичити (взяти)"
+     }
+    },
+    {
+     "left": "share",
+     "right": {
+      "uk": "ділитися"
+     }
+    },
+    {
+     "left": "hire",
+     "right": {
+      "uk": "наймати"
+     }
+    },
+    {
+     "left": "fetch",
+     "right": {
+      "uk": "піти й принести"
+     }
+    },
+    {
+     "left": "decline",
+     "right": {
+      "uk": "ввічливо відмовити"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Can I borrow your pen?",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Позичити ручку",
+     "Купити ручку",
+     "Забрати ручку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Borrow."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Let's share the pizza.",
+   "prompt": {
+    "uk": "Прослухайте. Що пропонує людина?"
+   },
+   "options": {
+    "uk": [
+     "Поділитися піцою",
+     "Замовити піцу",
+     "З'їсти піцу сама"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Share."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We hire a car.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони роблять?"
+   },
+   "options": {
+    "uk": [
+     "Наймають авто",
+     "Продають авто",
+     "Миють авто"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hire."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can I ___ your pen?",
+   "options": [
+    "borrow",
+    "share",
+    "hire"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Borrow."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Let's ___ the pizza.",
+   "options": [
+    "share",
+    "fetch",
+    "decline"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Share."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ a car.",
+   "options": [
+    "hire",
+    "borrow",
+    "decline"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hire."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що значить decline?"
+   },
+   "options": {
+    "uk": [
+     "ввічливо відмовити",
+     "позичити",
+     "принести"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Decline — відмовити."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можна позичити вашу ручку?"
+   },
+   "words": [
+    "Can",
+    "I",
+    "borrow",
+    "your",
+    "pen",
+    "Shall",
+    "fetch"
+   ],
+   "answer": [
+    "Can",
+    "I",
+    "borrow",
+    "your",
+    "pen"
+   ],
+   "explanation": {
+    "uk": "Can I borrow your pen?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я приношу сумку."
+   },
+   "answers": [
+    "I fetch the bag"
+   ],
+   "explanation": {
+    "uk": "I fetch the bag."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "I need a pen.",
+   "prompt": {
+    "uk": "Попросіть позичити. Що сказати?"
+   },
+   "options": [
+    "Can I borrow your pen?",
+    "Can I borrow to your pen?",
+    "I can borrow your pen?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can I borrow your pen?"
+   }
+  }
+ ]
+}

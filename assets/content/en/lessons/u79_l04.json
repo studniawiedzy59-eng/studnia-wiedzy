@@ -1,0 +1,322 @@
+{
+ "id": "u79_l04",
+ "unit": "u79",
+ "cefr": "A1",
+ "title": {
+  "uk": "Згода й радість"
+ },
+ "goal": {
+  "uk": "Приймати прохання й виражати радість."
+ },
+ "rule": {
+  "uk": "Pay for — платити за, glad — радий, pleasure — задоволення (My pleasure! — завжди будь ласка), loan — позика, reach — дотягнутися. Приклад: I pay for the coffee. I'm glad to help. With pleasure! Can you reach the shelf?"
+ },
+ "words": [
+  {
+   "id": "pay_for",
+   "text": "pay for",
+   "ipa": "/ˈpeɪ fɔː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "платити за"
+   },
+   "example": "I pay for the coffee.",
+   "exampleTranslation": {
+    "uk": "Я плачу за каву."
+   }
+  },
+  {
+   "id": "glad",
+   "text": "glad",
+   "ipa": "/ɡlæd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "радий"
+   },
+   "example": "I'm glad to help.",
+   "exampleTranslation": {
+    "uk": "Я радий допомогти."
+   }
+  },
+  {
+   "id": "pleasure",
+   "text": "pleasure",
+   "ipa": "/ˈpleʒə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "задоволення"
+   },
+   "example": "It's my pleasure!",
+   "exampleTranslation": {
+    "uk": "Із задоволенням!"
+   }
+  },
+  {
+   "id": "loan",
+   "text": "loan",
+   "ipa": "/ləʊn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "позика"
+   },
+   "example": "I have a bank loan.",
+   "exampleTranslation": {
+    "uk": "У мене банківська позика."
+   }
+  },
+  {
+   "id": "reach",
+   "text": "reach",
+   "ipa": "/riːtʃ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "дотягнутися"
+   },
+   "example": "Can you reach the shelf?",
+   "exampleTranslation": {
+    "uk": "Ви дістанете до полиці?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "It's dark in here.",
+   "prompt": {
+    "uk": "Повторимо. Попросіть увімкнути світло. Що сказати?"
+   },
+   "options": [
+    "Can you turn on the light?",
+    "Can you turn the light on?",
+    "You turn on light can?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can you turn on the light?"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "pay for",
+     "right": {
+      "uk": "платити за"
+     }
+    },
+    {
+     "left": "glad",
+     "right": {
+      "uk": "радий"
+     }
+    },
+    {
+     "left": "pleasure",
+     "right": {
+      "uk": "задоволення"
+     }
+    },
+    {
+     "left": "loan",
+     "right": {
+      "uk": "позика"
+     }
+    },
+    {
+     "left": "reach",
+     "right": {
+      "uk": "дотягнутися"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I pay for the coffee.",
+   "prompt": {
+    "uk": "Прослухайте. За що платить людина?"
+   },
+   "options": {
+    "uk": [
+     "За каву",
+     "За чай",
+     "За обід"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Coffee."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I'm glad to help.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона рада допомогти",
+     "Вона не може допомогти",
+     "Вона втомилась"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Glad."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "It's my pleasure!",
+   "prompt": {
+    "uk": "Прослухайте. Коли так кажуть?"
+   },
+   "options": {
+    "uk": [
+     "Коли радо допомагають",
+     "Коли відмовляють",
+     "Коли прощаються"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pleasure."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ the coffee.",
+   "options": [
+    "pay for",
+    "glad",
+    "reach"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pay for."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ to help.",
+   "options": [
+    "glad",
+    "pleasure",
+    "loan"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Glad."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's my ___!",
+   "options": [
+    "pleasure",
+    "glad",
+    "loan"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pleasure."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке pleasure?"
+   },
+   "options": {
+    "uk": [
+     "задоволення",
+     "позика",
+     "послуга"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Pleasure — задоволення."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я радий допомогти."
+   },
+   "words": [
+    "I'm",
+    "glad",
+    "to",
+    "help",
+    "are",
+    "loan"
+   ],
+   "answer": [
+    "I'm",
+    "glad",
+    "to",
+    "help"
+   ],
+   "explanation": {
+    "uk": "I'm glad to help."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я плачу за каву."
+   },
+   "answers": [
+    "I pay for the coffee"
+   ],
+   "explanation": {
+    "uk": "I pay for the coffee."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Thank you for your help!",
+   "prompt": {
+    "uk": "Із задоволенням! Що відповісти?"
+   },
+   "options": [
+    "It's my pleasure!",
+    "It is pleasure my!",
+    "Pleasure it's my."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's my pleasure!"
+   }
+  }
+ ]
+}

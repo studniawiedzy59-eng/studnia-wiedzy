@@ -1,0 +1,286 @@
+{
+ "id": "u77_l06",
+ "unit": "u77",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: електронний лист"
+ },
+ "goal": {
+  "uk": "Закріпити лексику листів."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: початок і кінець (attachment, regards, sincerely, inbox), файли (draft, spam, click, upload), структура (folder, request, topic, paragraph), зміст (sentence, inform, include, response) і техніка (print, copy, screen, printer)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is broken?",
+   "prompt": {
+    "uk": "Повторимо. Принтер. Що відповісти?"
+   },
+   "options": [
+    "The printer is broken.",
+    "Printer are broken.",
+    "The printer broken is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The printer is broken."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "Dear Anna, I send you an attachment. Best regards, Tom.",
+   "prompt": {
+    "uk": "Прослухайте. Що в листі?"
+   },
+   "options": {
+    "uk": [
+     "Том надсилає Анні вкладення",
+     "Анна надсилає Тому лист",
+     "Том просить про допомогу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Attachment."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I have a request, and I wait for your response.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Є прохання, чекає відповіді",
+     "Є відповідь",
+     "Немає прохання"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Request, response."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Don't click the link in spam.",
+   "prompt": {
+    "uk": "Прослухайте. Яка порада?"
+   },
+   "options": {
+    "uk": [
+     "Не натискати посилання в спамі",
+     "Натиснути посилання",
+     "Видалити файл"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Spam."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Best ___, Tom.",
+   "options": [
+    "regards",
+    "spam",
+    "screen"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Regards."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I send you an ___.",
+   "options": [
+    "attachment",
+    "printer",
+    "topic"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Attachment."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I wait for your ___.",
+   "options": [
+    "response",
+    "draft",
+    "click"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Response."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке draft?"
+   },
+   "options": {
+    "uk": [
+     "чернетка",
+     "абзац",
+     "папка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Draft — чернетка."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я надсилаю вам вкладення."
+   },
+   "words": [
+    "I",
+    "send",
+    "you",
+    "an",
+    "attachment",
+    "sends",
+    "spam"
+   ],
+   "answer": [
+    "I",
+    "send",
+    "you",
+    "an",
+    "attachment"
+   ],
+   "explanation": {
+    "uk": "I send you an attachment."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Натисніть на посилання."
+   },
+   "answers": [
+    "Click the link"
+   ],
+   "explanation": {
+    "uk": "Click the link."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What do you write at the top?",
+   "prompt": {
+    "uk": "Привіт, Анно. Що написати?"
+   },
+   "options": [
+    "Dear Anna,",
+    "Dear to Anna,",
+    "To dear Anna,"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Dear Anna,"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Колега просить надіслати файл."
+   },
+   "character": {
+    "name": {
+     "uk": "Колега Том"
+    },
+    "avatar": "💻"
+   },
+   "line": "Please send me the file.",
+   "options": [
+    "Sure, I send you an attachment.",
+    "Sure, I sending attachment.",
+    "Sure, attachment I send you the."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Attachment — вкладення."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви не знаєте, що це за лист."
+   },
+   "character": {
+    "name": {
+     "uk": "Колега Том"
+    },
+    "avatar": "💻"
+   },
+   "line": "Is this email important?",
+   "options": [
+    "No, it's spam.",
+    "No, it spam.",
+    "No, is a spam it."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Spam — небажана пошта."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви очікуєте на відповідь."
+   },
+   "character": {
+    "name": {
+     "uk": "Колега Том"
+    },
+    "avatar": "💻"
+   },
+   "line": "When do you need an answer?",
+   "options": [
+    "I wait for your response.",
+    "I waiting your response.",
+    "I wait your response for."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Response — відповідь."
+   }
+  }
+ ]
+}

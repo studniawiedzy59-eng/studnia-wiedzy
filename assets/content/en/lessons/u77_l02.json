@@ -1,0 +1,320 @@
+{
+ "id": "u77_l02",
+ "unit": "u77",
+ "cefr": "A1",
+ "title": {
+  "uk": "Файли й пошта"
+ },
+ "goal": {
+  "uk": "Працювати з файлами в пошті."
+ },
+ "rule": {
+  "uk": "Draft — чернетка, spam — спам, click — натиснути, upload — завантажити (на сайт), file — файл. Приклад: This is a draft. Don't open spam. Click the link. I upload the file."
+ },
+ "words": [
+  {
+   "id": "draft",
+   "text": "draft",
+   "ipa": "/drɑːft/",
+   "pos": "noun",
+   "translation": {
+    "uk": "чернетка"
+   },
+   "example": "This is a draft.",
+   "exampleTranslation": {
+    "uk": "Це чернетка."
+   }
+  },
+  {
+   "id": "spam",
+   "text": "spam",
+   "ipa": "/spæm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "спам"
+   },
+   "example": "Don't open spam.",
+   "exampleTranslation": {
+    "uk": "Не відкривайте спам."
+   }
+  },
+  {
+   "id": "click",
+   "text": "click",
+   "ipa": "/klɪk/",
+   "pos": "verb",
+   "translation": {
+    "uk": "натиснути"
+   },
+   "example": "Click the link.",
+   "exampleTranslation": {
+    "uk": "Натисніть на посилання."
+   }
+  },
+  {
+   "id": "upload",
+   "text": "upload",
+   "ipa": "/ʌpˈləʊd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "завантажувати (на сайт)"
+   },
+   "example": "I upload the file.",
+   "exampleTranslation": {
+    "uk": "Я завантажую файл."
+   }
+  },
+  {
+   "id": "file",
+   "text": "file",
+   "ipa": "/faɪl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "файл"
+   },
+   "example": "The file is big.",
+   "exampleTranslation": {
+    "uk": "Файл великий."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How do you end the email?",
+   "prompt": {
+    "uk": "Повторимо. З найкращими побажаннями. Що написати?"
+   },
+   "options": [
+    "Best regards, Anna.",
+    "Best regard, Anna.",
+    "Regards best Anna."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Best regards, Anna."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "draft",
+     "right": {
+      "uk": "чернетка"
+     }
+    },
+    {
+     "left": "spam",
+     "right": {
+      "uk": "спам"
+     }
+    },
+    {
+     "left": "click",
+     "right": {
+      "uk": "натиснути"
+     }
+    },
+    {
+     "left": "upload",
+     "right": {
+      "uk": "завантажувати (на сайт)"
+     }
+    },
+    {
+     "left": "file",
+     "right": {
+      "uk": "файл"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "This is a draft.",
+   "prompt": {
+    "uk": "Прослухайте. Що це?"
+   },
+   "options": {
+    "uk": [
+     "Чернетка",
+     "Спам",
+     "Файл"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Draft."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Don't open spam.",
+   "prompt": {
+    "uk": "Прослухайте. Що заборонено?"
+   },
+   "options": {
+    "uk": [
+     "Відкривати спам",
+     "Писати лист",
+     "Читати лист"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Spam."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Click the link.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Натиснути на посилання",
+     "Скопіювати посилання",
+     "Видалити посилання"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Click."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is a ___.",
+   "options": [
+    "draft",
+    "click",
+    "upload"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Чернетка."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Don't open ___.",
+   "options": [
+    "spam",
+    "file",
+    "draft"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Спам."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ the link.",
+   "options": [
+    "Click",
+    "Spam",
+    "File"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Click."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке upload?"
+   },
+   "options": {
+    "uk": [
+     "завантажувати на сайт",
+     "натиснути",
+     "видалити"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Upload — завантажити на сайт."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Натисніть на посилання."
+   },
+   "words": [
+    "Click",
+    "the",
+    "link",
+    "clicks",
+    "spam"
+   ],
+   "answer": [
+    "Click",
+    "the",
+    "link"
+   ],
+   "explanation": {
+    "uk": "Click the link."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Файл великий."
+   },
+   "answers": [
+    "The file is big"
+   ],
+   "explanation": {
+    "uk": "The file is big."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is it the final letter?",
+   "prompt": {
+    "uk": "Ні, це чернетка. Що відповісти?"
+   },
+   "options": [
+    "No, it's a draft.",
+    "No, it draft.",
+    "No, is a draft."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, it's a draft."
+   }
+  }
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "id": "u80_l04",
+ "unit": "u80",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Підсумок: минуле"
+ },
+ "goal": {
+  "uk": "Розповісти про минуле."
+ },
+ "rule": {
+  "uk": "Це повторення. Нових слів немає. Розкажіть, що було: I was at home yesterday. We went to the park. She bought a bag. Where did you go?"
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where is the bank?",
+   "prompt": {
+    "uk": "Повторимо. Ліворуч, біля парку. Що відповісти?"
+   },
+   "options": [
+    "It's on the left, near the park.",
+    "It on left near park.",
+    "It's left on near the park."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's on the left, near the park."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "I was at home yesterday.",
+   "prompt": {
+    "uk": "Прослухайте. Де була людина вчора?"
+   },
+   "options": {
+    "uk": [
+     "Вдома",
+     "На роботі",
+     "У парку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Home."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "We went to the park on Sunday.",
+   "prompt": {
+    "uk": "Прослухайте. Коли вони були в парку?"
+   },
+   "options": {
+    "uk": [
+     "У неділю",
+     "У суботу",
+     "У п'ятницю"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sunday."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She bought a new bag.",
+   "prompt": {
+    "uk": "Прослухайте. Що вона купила?"
+   },
+   "options": {
+    "uk": [
+     "Нову сумку",
+     "Нову куртку",
+     "Нове взуття"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Bag."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ at home yesterday.",
+   "options": [
+    "was",
+    "were",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I was."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ to the park.",
+   "options": [
+    "went",
+    "go",
+    "goed"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Went."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ a bag.",
+   "options": [
+    "bought",
+    "buyed",
+    "buy"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Bought."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Що ви робили?»"
+   },
+   "options": {
+    "uk": [
+     "What did you do?",
+     "What you did?",
+     "What did you did?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "What did you do?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми пішли до парку."
+   },
+   "words": [
+    "We",
+    "went",
+    "to",
+    "the",
+    "park",
+    "go",
+    "at"
+   ],
+   "answer": [
+    "We",
+    "went",
+    "to",
+    "the",
+    "park"
+   ],
+   "explanation": {
+    "uk": "We went to the park."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я була вдома вчора."
+   },
+   "answers": [
+    "I was at home yesterday"
+   ],
+   "explanation": {
+    "uk": "I was at home yesterday."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What did you do yesterday?",
+   "prompt": {
+    "uk": "Ми пішли в парк. Що відповісти?"
+   },
+   "options": [
+    "We went to the park.",
+    "We go to the park yesterday.",
+    "We did went to the park."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We went to the park."
+   }
+  }
+ ]
+}

@@ -1,0 +1,322 @@
+{
+ "id": "u78_l04",
+ "unit": "u78",
+ "cefr": "A1",
+ "title": {
+  "uk": "Виклики й рішення"
+ },
+ "goal": {
+  "uk": "Говорити про виклики й вибір."
+ },
+ "rule": {
+  "uk": "Challenge — виклик, opportunity — можливість, risk — ризик, result — результат, decision — рішення. Приклад: It's a big challenge. It's a great opportunity. There is a risk. I'm waiting for the result. I made a decision."
+ },
+ "words": [
+  {
+   "id": "challenge",
+   "text": "challenge",
+   "ipa": "/ˈtʃælɪndʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "виклик"
+   },
+   "example": "It's a big challenge.",
+   "exampleTranslation": {
+    "uk": "Це великий виклик."
+   }
+  },
+  {
+   "id": "opportunity",
+   "text": "opportunity",
+   "ipa": "/ˌɒpəˈtjuːnəti/",
+   "pos": "noun",
+   "translation": {
+    "uk": "можливість"
+   },
+   "example": "It's a great opportunity.",
+   "exampleTranslation": {
+    "uk": "Це чудова можливість."
+   }
+  },
+  {
+   "id": "risk",
+   "text": "risk",
+   "ipa": "/rɪsk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ризик"
+   },
+   "example": "There is a risk.",
+   "exampleTranslation": {
+    "uk": "Є ризик."
+   }
+  },
+  {
+   "id": "result",
+   "text": "result",
+   "ipa": "/rɪˈzʌlt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "результат"
+   },
+   "example": "I'm waiting for the result.",
+   "exampleTranslation": {
+    "uk": "Я чекаю на результат."
+   }
+  },
+  {
+   "id": "decision",
+   "text": "decision",
+   "ipa": "/dɪˈsɪʒn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "рішення"
+   },
+   "example": "I made a decision.",
+   "exampleTranslation": {
+    "uk": "Я ухвалив рішення."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How do you improve?",
+   "prompt": {
+    "uk": "Повторимо. Практика. Що відповісти?"
+   },
+   "options": [
+    "I practise every day.",
+    "I practices every day.",
+    "I am practise every day."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I practise every day."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "challenge",
+     "right": {
+      "uk": "виклик"
+     }
+    },
+    {
+     "left": "opportunity",
+     "right": {
+      "uk": "можливість"
+     }
+    },
+    {
+     "left": "risk",
+     "right": {
+      "uk": "ризик"
+     }
+    },
+    {
+     "left": "result",
+     "right": {
+      "uk": "результат"
+     }
+    },
+    {
+     "left": "decision",
+     "right": {
+      "uk": "рішення"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It's a big challenge.",
+   "prompt": {
+    "uk": "Прослухайте. Який це виклик?"
+   },
+   "options": {
+    "uk": [
+     "Великий",
+     "Малий",
+     "Простий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Big."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's a great opportunity.",
+   "prompt": {
+    "uk": "Прослухайте. Що це?"
+   },
+   "options": {
+    "uk": [
+     "Чудова можливість",
+     "Великий ризик",
+     "Складне рішення"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Opportunity."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I made a decision.",
+   "prompt": {
+    "uk": "Прослухайте. Що зробила людина?"
+   },
+   "options": {
+    "uk": [
+     "Ухвалила рішення",
+     "Почекала",
+     "Забула"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Decision."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's a big ___.",
+   "options": [
+    "challenge",
+    "result",
+    "risk"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Виклик."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's a great ___.",
+   "options": [
+    "opportunity",
+    "decision",
+    "risk"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Можливість."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm waiting for the ___.",
+   "options": [
+    "result",
+    "challenge",
+    "opportunity"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Результат."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке risk?"
+   },
+   "options": {
+    "uk": [
+     "ризик",
+     "рішення",
+     "результат"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Risk — ризик."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це чудова можливість."
+   },
+   "words": [
+    "It's",
+    "a",
+    "great",
+    "opportunity",
+    "are",
+    "risk"
+   ],
+   "answer": [
+    "It's",
+    "a",
+    "great",
+    "opportunity"
+   ],
+   "explanation": {
+    "uk": "It's a great opportunity."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я ухвалив рішення."
+   },
+   "answers": [
+    "I made a decision"
+   ],
+   "explanation": {
+    "uk": "I made a decision."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is the new job?",
+   "prompt": {
+    "uk": "Це виклик і можливість. Що відповісти?"
+   },
+   "options": [
+    "It's a challenge and an opportunity.",
+    "It's challenge and opportunity.",
+    "It is a challenge a opportunity."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's a challenge and an opportunity."
+   }
+  }
+ ]
+}

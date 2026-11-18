@@ -1,0 +1,217 @@
+{
+ "id": "u80_l02",
+ "unit": "u80",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Підсумок: мій день і їжа"
+ },
+ "goal": {
+  "uk": "Розповісти про день, час і їжу."
+ },
+ "rule": {
+  "uk": "Це повторення. Нових слів немає. Розкажіть про день: I get up at seven. I have breakfast at eight. I usually drink tea. I never eat fast food."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where are you from?",
+   "prompt": {
+    "uk": "Повторимо. Ви з України. Що відповісти?"
+   },
+   "options": [
+    "I'm from Ukraine.",
+    "I from Ukraine.",
+    "I'm Ukraine from."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm from Ukraine."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "I get up at seven, and I have breakfast at eight.",
+   "prompt": {
+    "uk": "Прослухайте. Коли сніданок?"
+   },
+   "options": {
+    "uk": [
+     "О восьмій",
+     "О сьомій",
+     "О дев'ятій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Eight."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I usually drink tea in the morning.",
+   "prompt": {
+    "uk": "Прослухайте. Що п'є людина зранку?"
+   },
+   "options": {
+    "uk": [
+     "Чай",
+     "Каву",
+     "Воду"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tea."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I never eat late.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона ніколи не їсть пізно",
+     "Вона завжди їсть пізно",
+     "Вона їсть удень"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Never."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ up at seven.",
+   "options": [
+    "get",
+    "gets",
+    "getting"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I get up."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ drink tea in the morning.",
+   "options": [
+    "usually",
+    "usual",
+    "use"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Usually."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She ___ breakfast at eight.",
+   "options": [
+    "has",
+    "have",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She has."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Я ніколи не п'ю каву»?"
+   },
+   "options": {
+    "uk": [
+     "I never drink coffee.",
+     "I drink never coffee.",
+     "I not never drink coffee."
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "I never drink coffee."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я встаю о сьомій."
+   },
+   "words": [
+    "I",
+    "get",
+    "up",
+    "at",
+    "seven",
+    "gets",
+    "on"
+   ],
+   "answer": [
+    "I",
+    "get",
+    "up",
+    "at",
+    "seven"
+   ],
+   "explanation": {
+    "uk": "I get up at seven."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я зазвичай п'ю чай."
+   },
+   "answers": [
+    "I usually drink tea"
+   ],
+   "explanation": {
+    "uk": "I usually drink tea."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What time do you get up?",
+   "prompt": {
+    "uk": "О сьомій. Що відповісти?"
+   },
+   "options": [
+    "I get up at seven.",
+    "I get up in seven.",
+    "I am get up at seven."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I get up at seven."
+   }
+  }
+ ]
+}

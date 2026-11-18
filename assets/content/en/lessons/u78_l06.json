@@ -1,0 +1,288 @@
+{
+ "id": "u78_l06",
+ "unit": "u78",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: цілі й плани"
+ },
+ "goal": {
+  "uk": "Закріпити going to й лексику цілей."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: going to (план), цілі (achieve, succeed, progress, step), почуття (nervous, excited, determined, motivated), навички (skill, talent, practice, certificate), виклики (challenge, opportunity, risk, decision) і вибір (aim, target, instead, option)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is your aim?",
+   "prompt": {
+    "uk": "Повторимо. Добре говорити англійською. Що відповісти?"
+   },
+   "options": [
+    "My aim is to speak English well.",
+    "My aim is speak English well.",
+    "My aim speak English well is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My aim is to speak English well."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "I'm going to practise every day, and I'm going to achieve my goal.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона збирається практикуватися й досягти мети",
+     "Вона вже досягла мети",
+     "Вона не має мети"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Going to."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'm nervous, but I'm determined and motivated.",
+   "prompt": {
+    "uk": "Прослухайте. Що відчуває людина?"
+   },
+   "options": {
+    "uk": [
+     "Нервує, але рішуча й мотивована",
+     "Не нервує",
+     "Втомилася"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nervous, determined."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's a big challenge, but it's a great opportunity.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Виклик, але й чудова можливість",
+     "Лише ризик",
+     "Нічого особливого"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Challenge, opportunity."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm going to ___ my goal.",
+   "options": [
+    "achieve",
+    "success",
+    "skill"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Achieve."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ about the exam.",
+   "options": [
+    "nervous",
+    "step",
+    "target"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Nervous."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Practice makes ___.",
+   "options": [
+    "progress",
+    "aim",
+    "option"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Progress."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке challenge?"
+   },
+   "options": {
+    "uk": [
+     "виклик",
+     "вибір",
+     "ціль"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Challenge — виклик."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я досягну своєї мети."
+   },
+   "words": [
+    "I'm",
+    "going",
+    "to",
+    "achieve",
+    "my",
+    "goal",
+    "am",
+    "success"
+   ],
+   "answer": [
+    "I'm",
+    "going",
+    "to",
+    "achieve",
+    "my",
+    "goal"
+   ],
+   "explanation": {
+    "uk": "I'm going to achieve my goal."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це гарний варіант."
+   },
+   "answers": [
+    "This is a good option"
+   ],
+   "explanation": {
+    "uk": "This is a good option."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What are you going to do next year?",
+   "prompt": {
+    "uk": "Вивчати англійську й отримати сертифікат. Що відповісти?"
+   },
+   "options": [
+    "I'm going to learn English and get a certificate.",
+    "I going learn English get certificate.",
+    "I'm go to learn English and certificate."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm going to learn English and get a certificate."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Друг питає про ваші плани."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Максим"
+    },
+    "avatar": "🎯"
+   },
+   "line": "What are your goals?",
+   "options": [
+    "I'm going to achieve my goal.",
+    "I going achieve goal.",
+    "I'm go to achieve goal."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Going to + base verb."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Він питає, як ви почуваєтеся."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Максим"
+    },
+    "avatar": "🎯"
+   },
+   "line": "Are you ready for the exam?",
+   "options": [
+    "I'm nervous, but I'm determined.",
+    "I nervous, but determined I am.",
+    "I'm nervous but I determined."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Nervous, determined — почуття."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Він питає про вашу ціль."
+   },
+   "character": {
+    "name": {
+     "uk": "Друг Максим"
+    },
+    "avatar": "🎯"
+   },
+   "line": "What is your aim?",
+   "options": [
+    "My aim is to speak English well.",
+    "My aim speak English well.",
+    "My aim is speak well English."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My aim is to + base verb."
+   }
+  }
+ ]
+}

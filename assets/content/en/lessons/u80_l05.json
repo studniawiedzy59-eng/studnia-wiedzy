@@ -1,0 +1,217 @@
+{
+ "id": "u80_l05",
+ "unit": "u80",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Підсумок: плани, поради й правила"
+ },
+ "goal": {
+  "uk": "Говорити про плани, поради й правила."
+ },
+ "rule": {
+  "uk": "Це повторення. Нових слів немає. Повторюємо: going to (плани), should (порада), must / mustn't (обов'язок і заборона), Shall we...? (пропозиція). I'm going to learn English. You should rest. You mustn't smoke here."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What did you do yesterday?",
+   "prompt": {
+    "uk": "Повторимо. Ми пішли в парк. Що відповісти?"
+   },
+   "options": [
+    "We went to the park.",
+    "We go to the park yesterday.",
+    "We did went to the park."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We went to the park."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "I'm going to learn English next year.",
+   "prompt": {
+    "uk": "Прослухайте. Що планує людина?"
+   },
+   "options": {
+    "uk": [
+     "Вивчати англійську",
+     "Поїхати у відпустку",
+     "Змінити роботу"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Going to."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "You should rest, and you mustn't work late.",
+   "prompt": {
+    "uk": "Прослухайте. Яка порада?"
+   },
+   "options": {
+    "uk": [
+     "Відпочити й не працювати допізна",
+     "Працювати більше",
+     "Піти в кіно"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Should, mustn't."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Shall we go to the cinema?",
+   "prompt": {
+    "uk": "Прослухайте. Що пропонує людина?"
+   },
+   "options": {
+    "uk": [
+     "Піти в кіно",
+     "Піти в парк",
+     "Залишитися вдома"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Shall."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm going ___ learn English.",
+   "options": [
+    "to",
+    "for",
+    "at"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Going to."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You ___ rest.",
+   "options": [
+    "should",
+    "shoulds",
+    "must to"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Should."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You ___ smoke here.",
+   "options": [
+    "mustn't",
+    "don't must",
+    "not must"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Mustn't."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Тобі варто відпочити»?"
+   },
+   "options": {
+    "uk": [
+     "You should rest.",
+     "You should to rest.",
+     "You shoulds rest."
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "You should rest."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я збираюся вивчати англійську."
+   },
+   "words": [
+    "I'm",
+    "going",
+    "to",
+    "learn",
+    "English",
+    "am",
+    "go"
+   ],
+   "answer": [
+    "I'm",
+    "going",
+    "to",
+    "learn",
+    "English"
+   ],
+   "explanation": {
+    "uk": "I'm going to learn English."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Тут не можна курити."
+   },
+   "answers": [
+    "You mustn't smoke here"
+   ],
+   "explanation": {
+    "uk": "You mustn't smoke here."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What are you going to do?",
+   "prompt": {
+    "uk": "Вивчати англійську. Що відповісти?"
+   },
+   "options": [
+    "I'm going to learn English.",
+    "I going learn English.",
+    "I'm go to learn English."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm going to learn English."
+   }
+  }
+ ]
+}

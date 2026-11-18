@@ -1,0 +1,322 @@
+{
+ "id": "u79_l03",
+ "unit": "u79",
+ "cefr": "A1",
+ "title": {
+  "uk": "Допомога по господарству"
+ },
+ "goal": {
+  "uk": "Пропонувати практичну допомогу."
+ },
+ "rule": {
+  "uk": "Pick up — забрати (когось), drop off — підвезти й висадити, give a lift — підвезти, turn on — увімкнути, turn off — вимкнути. Приклад: I pick up the kids. I drop off the bag. Can you give me a lift? Turn on the light. Turn off the TV."
+ },
+ "words": [
+  {
+   "id": "pick_up",
+   "text": "pick up",
+   "ipa": "/ˌpɪk ˈʌp/",
+   "pos": "verb",
+   "translation": {
+    "uk": "забирати"
+   },
+   "example": "I pick up the kids at five.",
+   "exampleTranslation": {
+    "uk": "Я забираю дітей о п'ятій."
+   }
+  },
+  {
+   "id": "drop_off",
+   "text": "drop off",
+   "ipa": "/ˌdrɒp ˈɒf/",
+   "pos": "verb",
+   "translation": {
+    "uk": "висадити, відвезти"
+   },
+   "example": "I drop off the bag.",
+   "exampleTranslation": {
+    "uk": "Я відвожу сумку."
+   }
+  },
+  {
+   "id": "give_a_lift",
+   "text": "give a lift",
+   "ipa": "/ˌɡɪv ə ˈlɪft/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "підвезти"
+   },
+   "example": "Can you give me a lift?",
+   "exampleTranslation": {
+    "uk": "Підвезете мене?"
+   }
+  },
+  {
+   "id": "turn_on",
+   "text": "turn on",
+   "ipa": "/ˌtɜːn ˈɒn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "вмикати"
+   },
+   "example": "Turn on the light.",
+   "exampleTranslation": {
+    "uk": "Увімкніть світло."
+   }
+  },
+  {
+   "id": "turn_off",
+   "text": "turn off",
+   "ipa": "/ˌtɜːn ˈɒf/",
+   "pos": "verb",
+   "translation": {
+    "uk": "вимикати"
+   },
+   "example": "Turn off the TV.",
+   "exampleTranslation": {
+    "uk": "Вимкніть телевізор."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "I need a pen.",
+   "prompt": {
+    "uk": "Повторимо. Попросіть позичити. Що сказати?"
+   },
+   "options": [
+    "Can I borrow your pen?",
+    "Can I borrow to your pen?",
+    "I can borrow your pen?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can I borrow your pen?"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "pick up",
+     "right": {
+      "uk": "забирати"
+     }
+    },
+    {
+     "left": "drop off",
+     "right": {
+      "uk": "висадити, відвезти"
+     }
+    },
+    {
+     "left": "give a lift",
+     "right": {
+      "uk": "підвезти"
+     }
+    },
+    {
+     "left": "turn on",
+     "right": {
+      "uk": "вмикати"
+     }
+    },
+    {
+     "left": "turn off",
+     "right": {
+      "uk": "вимикати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I pick up the kids at five.",
+   "prompt": {
+    "uk": "Прослухайте. Коли вона забирає дітей?"
+   },
+   "options": {
+    "uk": [
+     "О п'ятій",
+     "О четвертій",
+     "О шостій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Five."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Can you give me a lift?",
+   "prompt": {
+    "uk": "Прослухайте. Про що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Підвезти",
+     "Позичити",
+     "Допомогти"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Lift."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Turn off the TV.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Вимкнути телевізор",
+     "Увімкнути телевізор",
+     "Купити телевізор"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Turn off."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ the kids at five.",
+   "options": [
+    "pick up",
+    "turn on",
+    "borrow"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Pick up."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can you ___ me a lift?",
+   "options": [
+    "give",
+    "pick",
+    "turn"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Give a lift."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ the light.",
+   "options": [
+    "Turn on",
+    "Drop off",
+    "Fetch"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Turn on."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що значить turn on?"
+   },
+   "options": {
+    "uk": [
+     "вмикати",
+     "вимикати",
+     "забрати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Turn on — вмикати."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Увімкніть світло."
+   },
+   "words": [
+    "Turn",
+    "on",
+    "the",
+    "light",
+    "Turns",
+    "off"
+   ],
+   "answer": [
+    "Turn",
+    "on",
+    "the",
+    "light"
+   ],
+   "explanation": {
+    "uk": "Turn on the light."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Підвезете мене?"
+   },
+   "answers": [
+    "Can you give me a lift"
+   ],
+   "explanation": {
+    "uk": "Can you give me a lift?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "It's dark in here.",
+   "prompt": {
+    "uk": "Попросіть увімкнути світло. Що сказати?"
+   },
+   "options": [
+    "Can you turn on the light?",
+    "Can you turn the light on?",
+    "You turn on light can?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Can you turn on the light?"
+   }
+  }
+ ]
+}

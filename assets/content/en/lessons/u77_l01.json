@@ -1,0 +1,322 @@
+{
+ "id": "u77_l01",
+ "unit": "u77",
+ "cefr": "A1",
+ "title": {
+  "uk": "Початок і кінець листа"
+ },
+ "goal": {
+  "uk": "Писати початок і кінець офіційного листа."
+ },
+ "rule": {
+  "uk": "Лист починається з Dear Anna, а закінчується Best regards (з найкращими побажаннями) або Sincerely. Attachment — вкладення, sender — відправник, inbox — вхідні. Приклад: Dear Anna, I send you an attachment. Best regards, Tom."
+ },
+ "words": [
+  {
+   "id": "attachment",
+   "text": "attachment",
+   "ipa": "/əˈtætʃmənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вкладення"
+   },
+   "example": "I send you an attachment.",
+   "exampleTranslation": {
+    "uk": "Я надсилаю вам вкладення."
+   }
+  },
+  {
+   "id": "regards",
+   "text": "regards",
+   "ipa": "/rɪˈɡɑːdz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "щирі побажання"
+   },
+   "example": "Best regards, Tom.",
+   "exampleTranslation": {
+    "uk": "З найкращими побажаннями, Том."
+   }
+  },
+  {
+   "id": "sincerely",
+   "text": "sincerely",
+   "ipa": "/sɪnˈsɪəli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "щиро"
+   },
+   "example": "Sincerely, Anna Brown.",
+   "exampleTranslation": {
+    "uk": "Щиро ваша, Анна Браун."
+   }
+  },
+  {
+   "id": "sender",
+   "text": "sender",
+   "ipa": "/ˈsendə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "відправник"
+   },
+   "example": "The sender is Tom.",
+   "exampleTranslation": {
+    "uk": "Відправник — Том."
+   }
+  },
+  {
+   "id": "inbox",
+   "text": "inbox",
+   "ipa": "/ˈɪnbɒks/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вхідні"
+   },
+   "example": "I check my inbox.",
+   "exampleTranslation": {
+    "uk": "Я перевіряю вхідні."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you say on the phone?",
+   "prompt": {
+    "uk": "Повторимо. Це Анна, говоріть чітко. Що відповісти?"
+   },
+   "options": [
+    "This is Anna speaking. Please speak clearly.",
+    "I am Anna speak. Speak clearly please.",
+    "Anna speaking is. Clear speak."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This is Anna speaking. Please speak clearly."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "attachment",
+     "right": {
+      "uk": "вкладення"
+     }
+    },
+    {
+     "left": "regards",
+     "right": {
+      "uk": "щирі побажання"
+     }
+    },
+    {
+     "left": "sincerely",
+     "right": {
+      "uk": "щиро"
+     }
+    },
+    {
+     "left": "sender",
+     "right": {
+      "uk": "відправник"
+     }
+    },
+    {
+     "left": "inbox",
+     "right": {
+      "uk": "вхідні"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I send you an attachment.",
+   "prompt": {
+    "uk": "Прослухайте. Що надсилає людина?"
+   },
+   "options": {
+    "uk": [
+     "Вкладення",
+     "Фото",
+     "Подарунок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Attachment."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The sender is Tom.",
+   "prompt": {
+    "uk": "Прослухайте. Хто відправник?"
+   },
+   "options": {
+    "uk": [
+     "Том",
+     "Анна",
+     "Макс"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tom."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I check my inbox.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Перевіряє вхідні",
+     "Видаляє лист",
+     "Пише лист"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Inbox."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I send you an ___.",
+   "options": [
+    "attachment",
+    "inbox",
+    "sender"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вкладення."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Best ___, Tom.",
+   "options": [
+    "regards",
+    "sender",
+    "inbox"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Regards."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I check my ___.",
+   "options": [
+    "inbox",
+    "regards",
+    "sincerely"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Inbox."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке sender?"
+   },
+   "options": {
+    "uk": [
+     "відправник",
+     "вкладення",
+     "вхідні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sender — відправник."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я перевіряю вхідні."
+   },
+   "words": [
+    "I",
+    "check",
+    "my",
+    "inbox",
+    "checks",
+    "sender"
+   ],
+   "answer": [
+    "I",
+    "check",
+    "my",
+    "inbox"
+   ],
+   "explanation": {
+    "uk": "I check my inbox."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "З найкращими побажаннями, Том."
+   },
+   "answers": [
+    "Best regards, Tom"
+   ],
+   "explanation": {
+    "uk": "Best regards, Tom."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How do you end the email?",
+   "prompt": {
+    "uk": "З найкращими побажаннями. Що написати?"
+   },
+   "options": [
+    "Best regards, Anna.",
+    "Best regard, Anna.",
+    "Regards best Anna."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Best regards, Anna."
+   }
+  }
+ ]
+}

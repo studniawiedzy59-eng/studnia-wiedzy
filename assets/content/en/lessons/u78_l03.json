@@ -1,0 +1,326 @@
+{
+ "id": "u78_l03",
+ "unit": "u78",
+ "cefr": "A1",
+ "title": {
+  "uk": "Уміння й документи"
+ },
+ "goal": {
+  "uk": "Говорити про вміння й підтвердження."
+ },
+ "rule": {
+  "uk": "Skill — навичка, talent — талант, practice — практика, certificate — сертифікат, diploma — диплом. Приклад: Speaking is a skill. She has a talent. Practice makes progress. I'm going to get a certificate."
+ },
+ "words": [
+  {
+   "id": "skill",
+   "text": "skill",
+   "ipa": "/skɪl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "навичка"
+   },
+   "example": "Speaking is a skill.",
+   "exampleTranslation": {
+    "uk": "Говоріння — це навичка."
+   }
+  },
+  {
+   "id": "talent",
+   "text": "talent",
+   "ipa": "/ˈtælənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "талант"
+   },
+   "example": "She has a talent for music.",
+   "exampleTranslation": {
+    "uk": "У неї талант до музики."
+   }
+  },
+  {
+   "id": "practice",
+   "text": "practice",
+   "ipa": "/ˈpræktɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "практика"
+   },
+   "example": "Practice makes progress.",
+   "exampleTranslation": {
+    "uk": "Практика дає прогрес."
+   }
+  },
+  {
+   "id": "certificate",
+   "text": "certificate",
+   "ipa": "/səˈtɪfɪkət/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сертифікат"
+   },
+   "example": "I'm going to get a certificate.",
+   "exampleTranslation": {
+    "uk": "Я збираюся отримати сертифікат."
+   }
+  },
+  {
+   "id": "diploma",
+   "text": "diploma",
+   "ipa": "/dɪˈpləʊmə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "диплом"
+   },
+   "example": "She has a diploma.",
+   "exampleTranslation": {
+    "uk": "У неї є диплом."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How do you feel?",
+   "prompt": {
+    "uk": "Повторимо. Нервуєте, але рішучі. Що відповісти?"
+   },
+   "options": [
+    "I'm nervous, but I'm determined.",
+    "I nervous, but I determined.",
+    "I'm nervous but determined I'm."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm nervous, but I'm determined."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "skill",
+     "right": {
+      "uk": "навичка"
+     }
+    },
+    {
+     "left": "talent",
+     "right": {
+      "uk": "талант"
+     }
+    },
+    {
+     "left": "practice",
+     "right": {
+      "uk": "практика"
+     }
+    },
+    {
+     "left": "certificate",
+     "right": {
+      "uk": "сертифікат"
+     }
+    },
+    {
+     "left": "diploma",
+     "right": {
+      "uk": "диплом"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Speaking is a skill.",
+   "prompt": {
+    "uk": "Прослухайте. Що таке говоріння?"
+   },
+   "options": {
+    "uk": [
+     "Навичка",
+     "Талант",
+     "Диплом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Skill."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She has a talent for music.",
+   "prompt": {
+    "uk": "Прослухайте. До чого талант?"
+   },
+   "options": {
+    "uk": [
+     "До музики",
+     "До спорту",
+     "До мов"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Music."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I'm going to get a certificate.",
+   "prompt": {
+    "uk": "Прослухайте. Що збирається отримати людина?"
+   },
+   "options": {
+    "uk": [
+     "Сертифікат",
+     "Диплом",
+     "Квиток"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Certificate."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Speaking is a ___.",
+   "options": [
+    "skill",
+    "diploma",
+    "step"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Навичка."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ makes progress.",
+   "options": [
+    "Practice",
+    "Talent",
+    "Diploma"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Практика."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm going to get a ___.",
+   "options": [
+    "certificate",
+    "skill",
+    "talent"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Сертифікат."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке diploma?"
+   },
+   "options": {
+    "uk": [
+     "диплом",
+     "навичка",
+     "талант"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Diploma — диплом."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я збираюся отримати сертифікат."
+   },
+   "words": [
+    "I'm",
+    "going",
+    "to",
+    "get",
+    "a",
+    "certificate",
+    "am",
+    "diploma"
+   ],
+   "answer": [
+    "I'm",
+    "going",
+    "to",
+    "get",
+    "a",
+    "certificate"
+   ],
+   "explanation": {
+    "uk": "I'm going to get a certificate."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Практика дає прогрес."
+   },
+   "answers": [
+    "Practice makes progress"
+   ],
+   "explanation": {
+    "uk": "Practice makes progress."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How do you improve?",
+   "prompt": {
+    "uk": "Практика. Що відповісти?"
+   },
+   "options": [
+    "I practise every day.",
+    "I practices every day.",
+    "I am practise every day."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I practise every day."
+   }
+  }
+ ]
+}

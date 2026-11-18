@@ -1,0 +1,322 @@
+{
+ "id": "u77_l03",
+ "unit": "u77",
+ "cefr": "A1",
+ "title": {
+  "uk": "Структура листа"
+ },
+ "goal": {
+  "uk": "Писати структурований лист."
+ },
+ "rule": {
+  "uk": "Folder — папка, request — прохання, apology — вибачення, topic — тема, paragraph — абзац. Приклад: Put it in a folder. I have a request. I send my apologies. The topic is simple. Write one paragraph."
+ },
+ "words": [
+  {
+   "id": "folder",
+   "text": "folder",
+   "ipa": "/ˈfəʊldə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "папка"
+   },
+   "example": "Put it in a folder.",
+   "exampleTranslation": {
+    "uk": "Покладіть це в папку."
+   }
+  },
+  {
+   "id": "request",
+   "text": "request",
+   "ipa": "/rɪˈkwest/",
+   "pos": "noun",
+   "translation": {
+    "uk": "прохання"
+   },
+   "example": "I have a request.",
+   "exampleTranslation": {
+    "uk": "У мене є прохання."
+   }
+  },
+  {
+   "id": "apology",
+   "text": "apology",
+   "ipa": "/əˈpɒlədʒi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вибачення"
+   },
+   "example": "Please accept my apology.",
+   "exampleTranslation": {
+    "uk": "Прийміть мої вибачення."
+   }
+  },
+  {
+   "id": "topic",
+   "text": "topic",
+   "ipa": "/ˈtɒpɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тема"
+   },
+   "example": "The topic is simple.",
+   "exampleTranslation": {
+    "uk": "Тема проста."
+   }
+  },
+  {
+   "id": "paragraph",
+   "text": "paragraph",
+   "ipa": "/ˈpærəɡrɑːf/",
+   "pos": "noun",
+   "translation": {
+    "uk": "абзац"
+   },
+   "example": "Write one paragraph.",
+   "exampleTranslation": {
+    "uk": "Напишіть один абзац."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is it the final letter?",
+   "prompt": {
+    "uk": "Повторимо. Ні, це чернетка. Що відповісти?"
+   },
+   "options": [
+    "No, it's a draft.",
+    "No, it draft.",
+    "No, is a draft."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, it's a draft."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "folder",
+     "right": {
+      "uk": "папка"
+     }
+    },
+    {
+     "left": "request",
+     "right": {
+      "uk": "прохання"
+     }
+    },
+    {
+     "left": "apology",
+     "right": {
+      "uk": "вибачення"
+     }
+    },
+    {
+     "left": "topic",
+     "right": {
+      "uk": "тема"
+     }
+    },
+    {
+     "left": "paragraph",
+     "right": {
+      "uk": "абзац"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I have a request.",
+   "prompt": {
+    "uk": "Прослухайте. Що у людини?"
+   },
+   "options": {
+    "uk": [
+     "Прохання",
+     "Скарга",
+     "Питання"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Request."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Please accept my apology.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Прийняти вибачення",
+     "Дати гроші",
+     "Відповісти"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Apology."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Write one paragraph.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба написати?"
+   },
+   "options": {
+    "uk": [
+     "Один абзац",
+     "Один лист",
+     "Одну сторінку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Paragraph."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Put it in a ___.",
+   "options": [
+    "folder",
+    "topic",
+    "request"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Папка."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___.",
+   "options": [
+    "request",
+    "paragraph",
+    "draft"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Прохання."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is simple.",
+   "options": [
+    "topic",
+    "apology",
+    "folder"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Тема."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке paragraph?"
+   },
+   "options": {
+    "uk": [
+     "абзац",
+     "тема",
+     "папка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Paragraph — абзац."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене є прохання."
+   },
+   "words": [
+    "I",
+    "have",
+    "a",
+    "request",
+    "has",
+    "topic"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "request"
+   ],
+   "explanation": {
+    "uk": "I have a request."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Тема проста."
+   },
+   "answers": [
+    "The topic is simple"
+   ],
+   "explanation": {
+    "uk": "The topic is simple."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Why do you write?",
+   "prompt": {
+    "uk": "У вас є прохання. Що відповісти?"
+   },
+   "options": [
+    "I have a request.",
+    "I am have request.",
+    "I has a request."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a request."
+   }
+  }
+ ]
+}

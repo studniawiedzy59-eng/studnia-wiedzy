@@ -1,0 +1,324 @@
+{
+ "id": "u79_l05",
+ "unit": "u79",
+ "cefr": "A1",
+ "title": {
+  "uk": "Волонтерство"
+ },
+ "goal": {
+  "uk": "Говорити про допомогу іншим."
+ },
+ "rule": {
+  "uk": "Help out — виручати, lend a hand — допомогти, volunteer — волонтер (і «зголоситись»), donate — жертвувати, charity — благодійність. Приклад: I help out at school. Can you lend a hand? She is a volunteer. We donate money. It's a charity."
+ },
+ "words": [
+  {
+   "id": "help_out",
+   "text": "help out",
+   "ipa": "/ˌhelp ˈaʊt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "виручати"
+   },
+   "example": "I help out at school.",
+   "exampleTranslation": {
+    "uk": "Я допомагаю в школі."
+   }
+  },
+  {
+   "id": "lend_a_hand",
+   "text": "lend a hand",
+   "ipa": "/ˌlend ə ˈhænd/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "допомогти"
+   },
+   "example": "Can you lend a hand?",
+   "exampleTranslation": {
+    "uk": "Можете допомогти?"
+   }
+  },
+  {
+   "id": "volunteer",
+   "text": "volunteer",
+   "ipa": "/ˌvɒlənˈtɪə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "волонтер"
+   },
+   "example": "She is a volunteer.",
+   "exampleTranslation": {
+    "uk": "Вона волонтерка."
+   }
+  },
+  {
+   "id": "donate",
+   "text": "donate",
+   "ipa": "/dəʊˈneɪt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "жертвувати"
+   },
+   "example": "We donate money.",
+   "exampleTranslation": {
+    "uk": "Ми жертвуємо гроші."
+   }
+  },
+  {
+   "id": "charity",
+   "text": "charity",
+   "ipa": "/ˈtʃærəti/",
+   "pos": "noun",
+   "translation": {
+    "uk": "благодійність"
+   },
+   "example": "It's a charity.",
+   "exampleTranslation": {
+    "uk": "Це благодійна організація."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Thank you for your help!",
+   "prompt": {
+    "uk": "Повторимо. Із задоволенням! Що відповісти?"
+   },
+   "options": [
+    "It's my pleasure!",
+    "It is pleasure my!",
+    "Pleasure it's my."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's my pleasure!"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "help out",
+     "right": {
+      "uk": "виручати"
+     }
+    },
+    {
+     "left": "lend a hand",
+     "right": {
+      "uk": "допомогти"
+     }
+    },
+    {
+     "left": "volunteer",
+     "right": {
+      "uk": "волонтер"
+     }
+    },
+    {
+     "left": "donate",
+     "right": {
+      "uk": "жертвувати"
+     }
+    },
+    {
+     "left": "charity",
+     "right": {
+      "uk": "благодійність"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I help out at school.",
+   "prompt": {
+    "uk": "Прослухайте. Де допомагає людина?"
+   },
+   "options": {
+    "uk": [
+     "У школі",
+     "У лікарні",
+     "В офісі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "School."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "She is a volunteer.",
+   "prompt": {
+    "uk": "Прослухайте. Ким вона є?"
+   },
+   "options": {
+    "uk": [
+     "Волонтеркою",
+     "Вчителькою",
+     "Лікаркою"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Volunteer."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "We donate money.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони роблять?"
+   },
+   "options": {
+    "uk": [
+     "Жертвують гроші",
+     "Позичають гроші",
+     "Рахують гроші"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Donate."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ out at school.",
+   "options": [
+    "help",
+    "lend",
+    "donate"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Help out."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "She is a ___.",
+   "options": [
+    "volunteer",
+    "charity",
+    "donate"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Волонтерка."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ money.",
+   "options": [
+    "donate",
+    "volunteer",
+    "help out"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Жертвуємо."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке charity?"
+   },
+   "options": {
+    "uk": [
+     "благодійність",
+     "волонтер",
+     "позика"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Charity — благодійність."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можете допомогти?"
+   },
+   "words": [
+    "Can",
+    "you",
+    "lend",
+    "a",
+    "hand",
+    "Shall",
+    "donate"
+   ],
+   "answer": [
+    "Can",
+    "you",
+    "lend",
+    "a",
+    "hand"
+   ],
+   "explanation": {
+    "uk": "Can you lend a hand?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми жертвуємо гроші."
+   },
+   "answers": [
+    "We donate money"
+   ],
+   "explanation": {
+    "uk": "We donate money."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What does she do?",
+   "prompt": {
+    "uk": "Вона волонтерка. Що відповісти?"
+   },
+   "options": [
+    "She is a volunteer.",
+    "She volunteer.",
+    "She is volunteers."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "She is a volunteer."
+   }
+  }
+ ]
+}

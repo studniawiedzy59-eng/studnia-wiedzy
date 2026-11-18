@@ -1,0 +1,326 @@
+{
+ "id": "u78_l05",
+ "unit": "u78",
+ "cefr": "A1",
+ "title": {
+  "uk": "Вибір і мета"
+ },
+ "goal": {
+  "uk": "Говорити про вибір і цілі."
+ },
+ "rule": {
+  "uk": "Aim — мета, target — ціль, instead — натомість, choice — вибір, option — варіант. Приклад: My aim is to speak well. The target is ten words a day. Tea instead of coffee. I have a choice. This is a good option."
+ },
+ "words": [
+  {
+   "id": "aim",
+   "text": "aim",
+   "ipa": "/eɪm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мета"
+   },
+   "example": "My aim is to speak well.",
+   "exampleTranslation": {
+    "uk": "Моя мета — добре говорити."
+   }
+  },
+  {
+   "id": "target",
+   "text": "target",
+   "ipa": "/ˈtɑːɡɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ціль"
+   },
+   "example": "The target is ten words a day.",
+   "exampleTranslation": {
+    "uk": "Ціль — десять слів на день."
+   }
+  },
+  {
+   "id": "instead",
+   "text": "instead",
+   "ipa": "/ɪnˈsted/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "натомість"
+   },
+   "example": "I drink tea instead.",
+   "exampleTranslation": {
+    "uk": "Я п'ю чай натомість."
+   }
+  },
+  {
+   "id": "choice",
+   "text": "choice",
+   "ipa": "/tʃɔɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вибір"
+   },
+   "example": "I have a choice.",
+   "exampleTranslation": {
+    "uk": "У мене є вибір."
+   }
+  },
+  {
+   "id": "option",
+   "text": "option",
+   "ipa": "/ˈɒpʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "варіант"
+   },
+   "example": "This is a good option.",
+   "exampleTranslation": {
+    "uk": "Це гарний варіант."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is the new job?",
+   "prompt": {
+    "uk": "Повторимо. Це виклик і можливість. Що відповісти?"
+   },
+   "options": [
+    "It's a challenge and an opportunity.",
+    "It's challenge and opportunity.",
+    "It is a challenge a opportunity."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's a challenge and an opportunity."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "aim",
+     "right": {
+      "uk": "мета"
+     }
+    },
+    {
+     "left": "target",
+     "right": {
+      "uk": "ціль"
+     }
+    },
+    {
+     "left": "instead",
+     "right": {
+      "uk": "натомість"
+     }
+    },
+    {
+     "left": "choice",
+     "right": {
+      "uk": "вибір"
+     }
+    },
+    {
+     "left": "option",
+     "right": {
+      "uk": "варіант"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My aim is to speak well.",
+   "prompt": {
+    "uk": "Прослухайте. Яка мета?"
+   },
+   "options": {
+    "uk": [
+     "Добре говорити",
+     "Добре писати",
+     "Добре читати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Aim."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The target is ten words a day.",
+   "prompt": {
+    "uk": "Прослухайте. Яка ціль?"
+   },
+   "options": {
+    "uk": [
+     "Десять слів на день",
+     "Двадцять слів",
+     "Одне слово"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ten."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I drink tea instead.",
+   "prompt": {
+    "uk": "Прослухайте. Що п'є людина натомість?"
+   },
+   "options": {
+    "uk": [
+     "Чай",
+     "Каву",
+     "Воду"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Instead."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My ___ is to speak well.",
+   "options": [
+    "aim",
+    "choice",
+    "option"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Мета."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I drink tea ___.",
+   "options": [
+    "instead",
+    "target",
+    "option"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Instead."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___.",
+   "options": [
+    "choice",
+    "aim",
+    "instead"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Вибір."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке option?"
+   },
+   "options": {
+    "uk": [
+     "варіант",
+     "мета",
+     "вибір"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Option — варіант."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Моя мета — добре говорити."
+   },
+   "words": [
+    "My",
+    "aim",
+    "is",
+    "to",
+    "speak",
+    "well",
+    "are",
+    "target"
+   ],
+   "answer": [
+    "My",
+    "aim",
+    "is",
+    "to",
+    "speak",
+    "well"
+   ],
+   "explanation": {
+    "uk": "My aim is to speak well."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене є вибір."
+   },
+   "answers": [
+    "I have a choice"
+   ],
+   "explanation": {
+    "uk": "I have a choice."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is your aim?",
+   "prompt": {
+    "uk": "Добре говорити англійською. Що відповісти?"
+   },
+   "options": [
+    "My aim is to speak English well.",
+    "My aim is speak English well.",
+    "My aim speak English well is."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "My aim is to speak English well."
+   }
+  }
+ ]
+}

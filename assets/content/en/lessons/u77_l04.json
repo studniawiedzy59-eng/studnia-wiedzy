@@ -1,0 +1,322 @@
+{
+ "id": "u77_l04",
+ "unit": "u77",
+ "cefr": "A1",
+ "title": {
+  "uk": "Сказати головне"
+ },
+ "goal": {
+  "uk": "Повідомляти потрібну інформацію."
+ },
+ "rule": {
+  "uk": "Sentence — речення, inform — повідомляти, include — містити, mention — згадувати, response — відповідь. Приклад: This sentence is short. I inform you. The price includes tax. I mention the date. I wait for your response."
+ },
+ "words": [
+  {
+   "id": "sentence",
+   "text": "sentence",
+   "ipa": "/ˈsentəns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "речення"
+   },
+   "example": "This sentence is short.",
+   "exampleTranslation": {
+    "uk": "Це речення коротке."
+   }
+  },
+  {
+   "id": "inform",
+   "text": "inform",
+   "ipa": "/ɪnˈfɔːm/",
+   "pos": "verb",
+   "translation": {
+    "uk": "повідомляти"
+   },
+   "example": "I inform you about the meeting.",
+   "exampleTranslation": {
+    "uk": "Я повідомляю вас про зустріч."
+   }
+  },
+  {
+   "id": "include",
+   "text": "include",
+   "ipa": "/ɪnˈkluːd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "містити, включати"
+   },
+   "example": "The price includes tax.",
+   "exampleTranslation": {
+    "uk": "Ціна включає податок."
+   }
+  },
+  {
+   "id": "mention",
+   "text": "mention",
+   "ipa": "/ˈmenʃn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "згадувати"
+   },
+   "example": "I mention the date.",
+   "exampleTranslation": {
+    "uk": "Я згадую дату."
+   }
+  },
+  {
+   "id": "response",
+   "text": "response",
+   "ipa": "/rɪˈspɒns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "відповідь"
+   },
+   "example": "I wait for your response.",
+   "exampleTranslation": {
+    "uk": "Я чекаю на вашу відповідь."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Why do you write?",
+   "prompt": {
+    "uk": "Повторимо. У вас є прохання. Що відповісти?"
+   },
+   "options": [
+    "I have a request.",
+    "I am have request.",
+    "I has a request."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a request."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "sentence",
+     "right": {
+      "uk": "речення"
+     }
+    },
+    {
+     "left": "inform",
+     "right": {
+      "uk": "повідомляти"
+     }
+    },
+    {
+     "left": "include",
+     "right": {
+      "uk": "містити, включати"
+     }
+    },
+    {
+     "left": "mention",
+     "right": {
+      "uk": "згадувати"
+     }
+    },
+    {
+     "left": "response",
+     "right": {
+      "uk": "відповідь"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I inform you about the meeting.",
+   "prompt": {
+    "uk": "Прослухайте. Про що повідомляє людина?"
+   },
+   "options": {
+    "uk": [
+     "Про зустріч",
+     "Про ціну",
+     "Про відпустку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Inform."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The price includes tax.",
+   "prompt": {
+    "uk": "Прослухайте. Що включає ціна?"
+   },
+   "options": {
+    "uk": [
+     "Податок",
+     "Доставку",
+     "Знижку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Includes."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I wait for your response.",
+   "prompt": {
+    "uk": "Прослухайте. Чого чекає людина?"
+   },
+   "options": {
+    "uk": [
+     "Відповіді",
+     "Листа",
+     "Дзвінка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Response."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This ___ is short.",
+   "options": [
+    "sentence",
+    "response",
+    "topic"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Речення."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ you about the meeting.",
+   "options": [
+    "inform",
+    "include",
+    "mention"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Inform."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The price ___ tax.",
+   "options": [
+    "includes",
+    "include",
+    "informs"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Includes — третя особа."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке response?"
+   },
+   "options": {
+    "uk": [
+     "відповідь",
+     "речення",
+     "прохання"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Response — відповідь."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ціна включає податок."
+   },
+   "words": [
+    "The",
+    "price",
+    "includes",
+    "tax",
+    "include",
+    "mention"
+   ],
+   "answer": [
+    "The",
+    "price",
+    "includes",
+    "tax"
+   ],
+   "explanation": {
+    "uk": "The price includes tax."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я чекаю на вашу відповідь."
+   },
+   "answers": [
+    "I wait for your response"
+   ],
+   "explanation": {
+    "uk": "I wait for your response."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you say at the end?",
+   "prompt": {
+    "uk": "Чекаю на вашу відповідь. Що написати?"
+   },
+   "options": [
+    "I wait for your response.",
+    "I waiting your response.",
+    "I wait your response for."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I wait for your response."
+   }
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "id": "u80_l01",
+ "unit": "u80",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Підсумок: я і моя сім'я"
+ },
+ "goal": {
+  "uk": "Розповісти про себе, сім'ю й характер."
+ },
+ "rule": {
+  "uk": "Це повторення. Нових слів немає. Складіть розповідь про себе і близьких: My name is Anna. I'm from Ukraine. My sister is tall and kind. She is funny."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Can you help me?",
+   "prompt": {
+    "uk": "Повторимо. Радо допоможіть. Що сказати?"
+   },
+   "options": [
+    "Of course, it's my pleasure!",
+    "Of course, is pleasure my!",
+    "Of course I pleasure."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Of course, it's my pleasure!"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "My name is Anna, and I'm from Ukraine.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Мене звати Анна, я з України",
+     "Я з Польщі",
+     "Мене звати Марія"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Anna, Ukraine."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My sister is tall and kind.",
+   "prompt": {
+    "uk": "Прослухайте. Яка сестра?"
+   },
+   "options": {
+    "uk": [
+     "Висока й добра",
+     "Низька й сумна",
+     "Смішна й мала"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Tall, kind."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "He has two brothers and a sister.",
+   "prompt": {
+    "uk": "Прослухайте. Скільки братів?"
+   },
+   "options": {
+    "uk": [
+     "Двоє",
+     "Один",
+     "Троє"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Two."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My sister ___ tall.",
+   "options": [
+    "is",
+    "are",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Sister — is."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "He ___ two brothers.",
+   "options": [
+    "has",
+    "have",
+    "is"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "He has."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ Ukraine.",
+   "options": [
+    "from",
+    "in",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm from."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як сказати «Моя сестра смішна»?"
+   },
+   "options": {
+    "uk": [
+     "My sister is funny.",
+     "My sister are funny.",
+     "My sister funny is."
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "My sister is funny."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Моя сестра висока й добра."
+   },
+   "words": [
+    "My",
+    "sister",
+    "is",
+    "tall",
+    "and",
+    "kind",
+    "are",
+    "has"
+   ],
+   "answer": [
+    "My",
+    "sister",
+    "is",
+    "tall",
+    "and",
+    "kind"
+   ],
+   "explanation": {
+    "uk": "My sister is tall and kind."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Мене звати Анна."
+   },
+   "answers": [
+    "My name is Anna"
+   ],
+   "explanation": {
+    "uk": "My name is Anna."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Where are you from?",
+   "prompt": {
+    "uk": "Ви з України. Що відповісти?"
+   },
+   "options": [
+    "I'm from Ukraine.",
+    "I from Ukraine.",
+    "I'm Ukraine from."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm from Ukraine."
+   }
+  }
+ ]
+}

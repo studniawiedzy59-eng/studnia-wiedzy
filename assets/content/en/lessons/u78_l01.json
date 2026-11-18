@@ -1,0 +1,326 @@
+{
+ "id": "u78_l01",
+ "unit": "u78",
+ "cefr": "A1",
+ "title": {
+  "uk": "Мої цілі"
+ },
+ "goal": {
+  "uk": "Говорити про цілі зі словами going to."
+ },
+ "rule": {
+  "uk": "I'm going to + дієслово — план або намір: I'm going to learn English. Achieve — досягати, succeed — досягти успіху, success — успіх, progress — прогрес, step — крок. Приклад: I'm going to achieve my goal. Success takes time."
+ },
+ "words": [
+  {
+   "id": "achieve",
+   "text": "achieve",
+   "ipa": "/əˈtʃiːv/",
+   "pos": "verb",
+   "translation": {
+    "uk": "досягати"
+   },
+   "example": "I'm going to achieve my goal.",
+   "exampleTranslation": {
+    "uk": "Я досягну своєї мети."
+   }
+  },
+  {
+   "id": "succeed",
+   "text": "succeed",
+   "ipa": "/səkˈsiːd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "досягти успіху"
+   },
+   "example": "I want to succeed.",
+   "exampleTranslation": {
+    "uk": "Я хочу досягти успіху."
+   }
+  },
+  {
+   "id": "success",
+   "text": "success",
+   "ipa": "/səkˈses/",
+   "pos": "noun",
+   "translation": {
+    "uk": "успіх"
+   },
+   "example": "Success takes time.",
+   "exampleTranslation": {
+    "uk": "Успіх вимагає часу."
+   }
+  },
+  {
+   "id": "progress",
+   "text": "progress",
+   "ipa": "/ˈprəʊɡres/",
+   "pos": "noun",
+   "translation": {
+    "uk": "прогрес"
+   },
+   "example": "I make progress every day.",
+   "exampleTranslation": {
+    "uk": "Я роблю прогрес щодня."
+   }
+  },
+  {
+   "id": "step",
+   "text": "step",
+   "ipa": "/step/",
+   "pos": "noun",
+   "translation": {
+    "uk": "крок"
+   },
+   "example": "This is the first step.",
+   "exampleTranslation": {
+    "uk": "Це перший крок."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you write at the top?",
+   "prompt": {
+    "uk": "Повторимо. Привіт, Анно. Що написати?"
+   },
+   "options": [
+    "Dear Anna,",
+    "Dear to Anna,",
+    "To dear Anna,"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Dear Anna,"
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "achieve",
+     "right": {
+      "uk": "досягати"
+     }
+    },
+    {
+     "left": "succeed",
+     "right": {
+      "uk": "досягти успіху"
+     }
+    },
+    {
+     "left": "success",
+     "right": {
+      "uk": "успіх"
+     }
+    },
+    {
+     "left": "progress",
+     "right": {
+      "uk": "прогрес"
+     }
+    },
+    {
+     "left": "step",
+     "right": {
+      "uk": "крок"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I'm going to achieve my goal.",
+   "prompt": {
+    "uk": "Прослухайте. Що збирається зробити людина?"
+   },
+   "options": {
+    "uk": [
+     "Досягти мети",
+     "Змінити мету",
+     "Забути мету"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Achieve."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Success takes time.",
+   "prompt": {
+    "uk": "Прослухайте. Що вимагає часу?"
+   },
+   "options": {
+    "uk": [
+     "Успіх",
+     "Прогрес",
+     "Крок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Success."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "This is the first step.",
+   "prompt": {
+    "uk": "Прослухайте. Який це крок?"
+   },
+   "options": {
+    "uk": [
+     "Перший",
+     "Другий",
+     "Останній"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "First."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm going to ___ my goal.",
+   "options": [
+    "achieve",
+    "success",
+    "step"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Achieve."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I want to ___.",
+   "options": [
+    "succeed",
+    "success",
+    "progress"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Succeed — дієслово."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I make ___ every day.",
+   "options": [
+    "progress",
+    "succeed",
+    "achieve"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Progress."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке success?"
+   },
+   "options": {
+    "uk": [
+     "успіх",
+     "крок",
+     "мета"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Success — успіх."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я досягну своєї мети."
+   },
+   "words": [
+    "I'm",
+    "going",
+    "to",
+    "achieve",
+    "my",
+    "goal",
+    "am",
+    "success"
+   ],
+   "answer": [
+    "I'm",
+    "going",
+    "to",
+    "achieve",
+    "my",
+    "goal"
+   ],
+   "explanation": {
+    "uk": "I'm going to achieve my goal."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це перший крок."
+   },
+   "answers": [
+    "This is the first step"
+   ],
+   "explanation": {
+    "uk": "This is the first step."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What are you going to do?",
+   "prompt": {
+    "uk": "Досягти мети. Що відповісти?"
+   },
+   "options": [
+    "I'm going to achieve my goal.",
+    "I going achieve my goal.",
+    "I'm go to achieve goal."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I'm going to achieve my goal."
+   }
+  }
+ ]
+}

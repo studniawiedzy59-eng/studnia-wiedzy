@@ -1,0 +1,217 @@
+{
+ "id": "u80_l03",
+ "unit": "u80",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Підсумок: дім і місто"
+ },
+ "goal": {
+  "uk": "Описати дім і спитати дорогу."
+ },
+ "rule": {
+  "uk": "Це повторення. Нових слів немає. Опишіть дім і місто: There is a big kitchen. My flat is near the park. Where is the station? Go straight, then turn left."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What time do you get up?",
+   "prompt": {
+    "uk": "Повторимо. О сьомій. Що відповісти?"
+   },
+   "options": [
+    "I get up at seven.",
+    "I get up in seven.",
+    "I am get up at seven."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I get up at seven."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "There is a big kitchen in my flat.",
+   "prompt": {
+    "uk": "Прослухайте. Що є у квартирі?"
+   },
+   "options": {
+    "uk": [
+     "Велика кухня",
+     "Малий балкон",
+     "Новий диван"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Kitchen."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "My flat is near the park.",
+   "prompt": {
+    "uk": "Прослухайте. Де квартира?"
+   },
+   "options": {
+    "uk": [
+     "Біля парку",
+     "У парку",
+     "За містом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Near."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Go straight, then turn left.",
+   "prompt": {
+    "uk": "Прослухайте. Як іти?"
+   },
+   "options": {
+    "uk": [
+     "Прямо, потім ліворуч",
+     "Праворуч",
+     "Назад"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Straight, left."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There ___ a big kitchen.",
+   "options": [
+    "is",
+    "are",
+    "am"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "My flat is ___ the park.",
+   "options": [
+    "near",
+    "at",
+    "in"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Near."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Turn ___ at the bank.",
+   "options": [
+    "left",
+    "left to",
+    "to the"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Turn left."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Як спитати «Де станція?»"
+   },
+   "options": {
+    "uk": [
+     "Where is the station?",
+     "Where station is?",
+     "Where is station the?"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Where is the station?"
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Йдіть прямо, потім поверніть ліворуч."
+   },
+   "words": [
+    "Go",
+    "straight",
+    "then",
+    "turn",
+    "left",
+    "goes",
+    "at"
+   ],
+   "answer": [
+    "Go",
+    "straight",
+    "then",
+    "turn",
+    "left"
+   ],
+   "explanation": {
+    "uk": "Go straight, then turn left."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Моя квартира біля парку."
+   },
+   "answers": [
+    "My flat is near the park"
+   ],
+   "explanation": {
+    "uk": "My flat is near the park."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "Where is the bank?",
+   "prompt": {
+    "uk": "Ліворуч, біля парку. Що відповісти?"
+   },
+   "options": [
+    "It's on the left, near the park.",
+    "It on left near park.",
+    "It's left on near the park."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "It's on the left, near the park."
+   }
+  }
+ ]
+}
