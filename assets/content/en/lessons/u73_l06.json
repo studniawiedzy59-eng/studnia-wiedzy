@@ -1,0 +1,284 @@
+{
+ "id": "u73_l06",
+ "unit": "u73",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: громадський транспорт"
+ },
+ "goal": {
+  "uk": "Закріпити лексику транспорту."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: станція (delay, board, metro, departure), квитки (arrival, inspector, season ticket), потяг (railway, express, connection, destination), проблеми (roadworks, diversion, breakdown, strike) і особистий транспорт (scooter, helmet, ferry, motorway)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "How did you travel?",
+   "prompt": {
+    "uk": "Повторимо. Поромом. Що відповісти?"
+   },
+   "options": [
+    "We took the ferry.",
+    "We take ferry yesterday.",
+    "We did took the ferry."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We took the ferry."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "There is a delay because of the strike.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже оголошення?"
+   },
+   "options": {
+    "uk": [
+     "Затримка через страйк",
+     "Потяг скасовано",
+     "Потяг прибув"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Delay, strike."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I take the metro, and I have a season ticket.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона їздить метро з проїзним",
+     "Вона їздить автобусом",
+     "Вона купує квиток"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Metro, season ticket."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There are roadworks, so we take a diversion.",
+   "prompt": {
+    "uk": "Прослухайте. Що вони роблять?"
+   },
+   "options": {
+    "uk": [
+     "Їдуть в об'їзд",
+     "Чекають",
+     "Повертаються"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Diversion."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is at nine.",
+   "options": [
+    "departure",
+    "scooter",
+    "ferry"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Departure."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ checks tickets.",
+   "options": [
+    "inspector",
+    "helmet",
+    "strike"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Inspector."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There was a ___.",
+   "options": [
+    "breakdown",
+    "commuter",
+    "connection"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Breakdown."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке destination?"
+   },
+   "options": {
+    "uk": [
+     "пункт призначення",
+     "пором",
+     "оголошення"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Destination — пункт призначення."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми їдемо в об'їзд."
+   },
+   "words": [
+    "We",
+    "take",
+    "a",
+    "diversion",
+    "takes",
+    "strike"
+   ],
+   "answer": [
+    "We",
+    "take",
+    "a",
+    "diversion"
+   ],
+   "explanation": {
+    "uk": "We take a diversion."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Є затримка."
+   },
+   "answers": [
+    "There is a delay"
+   ],
+   "explanation": {
+    "uk": "There is a delay."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What happened?",
+   "prompt": {
+    "uk": "Страйк і затримка. Що відповісти?"
+   },
+   "options": [
+    "There is a strike and a delay.",
+    "There are strike and delay.",
+    "It is a strike delay."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There is a strike and a delay."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви на вокзалі й питаєте про потяг."
+   },
+   "character": {
+    "name": {
+     "uk": "Касир на станції"
+    },
+    "avatar": "🚆"
+   },
+   "line": "Can I help you?",
+   "options": [
+    "Yes, when is the departure?",
+    "Yes, when departure is?",
+    "Yes, when is departure the?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "When is the departure? — коли відправлення."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Потяг затримується."
+   },
+   "character": {
+    "name": {
+     "uk": "Касир на станції"
+    },
+    "avatar": "🚆"
+   },
+   "line": "The train is late. There is a delay.",
+   "options": [
+    "Why is there a delay?",
+    "Why there is delay?",
+    "Why is delay there a?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Why is there a delay? — чому затримка."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Контролер просить показати квиток."
+   },
+   "character": {
+    "name": {
+     "uk": "Касир на станції"
+    },
+    "avatar": "🚆"
+   },
+   "line": "Your ticket, please.",
+   "options": [
+    "Here is my season ticket.",
+    "Here are my season ticket.",
+    "Here is season my ticket."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Season ticket — проїзний."
+   }
+  }
+ ]
+}

@@ -1,0 +1,282 @@
+{
+ "id": "u74_l06",
+ "unit": "u74",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: поради"
+ },
+ "goal": {
+  "uk": "Закріпити поради й слово should."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: should / shouldn't, раціон і стрес (diet, vitamin, stress), попередження (careful, warn, hint), чого уникати (avoid, reduce, waste) і мета (focus, reminder, priority, effort, balance)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What should I eat?",
+   "prompt": {
+    "uk": "Повторимо. Більше білка. Що відповісти?"
+   },
+   "options": [
+    "You should eat more protein.",
+    "You should eating more protein.",
+    "You eat should protein."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You should eat more protein."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "You should rest, and you shouldn't work late.",
+   "prompt": {
+    "uk": "Прослухайте. Яка порада?"
+   },
+   "options": {
+    "uk": [
+     "Відпочити й не працювати допізна",
+     "Працювати більше",
+     "Піти в кіно"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Should, shouldn't."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Avoid stress, and find a balance.",
+   "prompt": {
+    "uk": "Прослухайте. Яка порада?"
+   },
+   "options": {
+    "uk": [
+     "Уникати стресу й знайти баланс",
+     "Працювати без відпочинку",
+     "Їсти більше"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Avoid, balance."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Be careful, and don't waste time.",
+   "prompt": {
+    "uk": "Прослухайте. Яка порада?"
+   },
+   "options": {
+    "uk": [
+     "Будь обережним і не марнуй час",
+     "Біжи швидко",
+     "Чекай"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Careful, waste."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You ___ rest.",
+   "options": [
+    "should",
+    "shouldn't",
+    "diet"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Should."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ stress.",
+   "options": [
+    "Avoid",
+    "Vitamin",
+    "Secret"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Avoid."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Be ___!",
+   "options": [
+    "careful",
+    "effort",
+    "protein"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Careful."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що значить should?"
+   },
+   "options": {
+    "uk": [
+     "варто",
+     "не варто",
+     "можна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Should — варто."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Тобі варто відпочити."
+   },
+   "words": [
+    "You",
+    "should",
+    "rest",
+    "shoulds",
+    "stress"
+   ],
+   "answer": [
+    "You",
+    "should",
+    "rest"
+   ],
+   "explanation": {
+    "uk": "You should rest."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Не марнуй час."
+   },
+   "answers": [
+    "Don't waste time"
+   ],
+   "explanation": {
+    "uk": "Don't waste time."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "I'm stressed.",
+   "prompt": {
+    "uk": "Порадьте відпочити й уникати стресу. Що сказати?"
+   },
+   "options": [
+    "You should rest and avoid stress.",
+    "You should resting and avoid stress.",
+    "You rest should avoid stress."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You should rest and avoid stress."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Подруга скаржиться на втому."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Софія"
+    },
+    "avatar": "💬"
+   },
+   "line": "I'm always tired.",
+   "options": [
+    "You should sleep more.",
+    "You should to sleep more.",
+    "You should sleeps more."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Should + base verb."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Подруга їсть забагато цукру."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Софія"
+    },
+    "avatar": "💬"
+   },
+   "line": "I eat a lot of sugar.",
+   "options": [
+    "You should reduce sugar.",
+    "You should reducing sugar.",
+    "You reduce should sugar."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Should reduce — варто зменшити."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вона працює допізна."
+   },
+   "character": {
+    "name": {
+     "uk": "Подруга Софія"
+    },
+    "avatar": "💬"
+   },
+   "line": "I work late every day.",
+   "options": [
+    "You shouldn't work late.",
+    "You shouldn't to work late.",
+    "You not should work late."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Shouldn't — не варто."
+   }
+  }
+ ]
+}

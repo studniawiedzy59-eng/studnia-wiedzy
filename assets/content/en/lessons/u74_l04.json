@@ -1,0 +1,320 @@
+{
+ "id": "u74_l04",
+ "unit": "u74",
+ "cefr": "A1",
+ "title": {
+  "uk": "Як досягти мети"
+ },
+ "goal": {
+  "uk": "Радити, як досягти мети."
+ },
+ "rule": {
+  "uk": "Focus — зосередитись, reminder — нагадування, priority — пріоритет, effort — зусилля, balance — баланс. Приклад: You should focus. I set a reminder. Health is a priority. It takes effort. Find a balance."
+ },
+ "words": [
+  {
+   "id": "focus",
+   "text": "focus",
+   "ipa": "/ˈfəʊkəs/",
+   "pos": "verb",
+   "translation": {
+    "uk": "зосереджуватись"
+   },
+   "example": "You should focus.",
+   "exampleTranslation": {
+    "uk": "Тобі варто зосередитись."
+   }
+  },
+  {
+   "id": "reminder",
+   "text": "reminder",
+   "ipa": "/rɪˈmaɪndə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "нагадування"
+   },
+   "example": "I set a reminder.",
+   "exampleTranslation": {
+    "uk": "Я ставлю нагадування."
+   }
+  },
+  {
+   "id": "priority",
+   "text": "priority",
+   "ipa": "/praɪˈɒrəti/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пріоритет"
+   },
+   "example": "Health is a priority.",
+   "exampleTranslation": {
+    "uk": "Здоров'я — пріоритет."
+   }
+  },
+  {
+   "id": "effort",
+   "text": "effort",
+   "ipa": "/ˈefət/",
+   "pos": "noun",
+   "translation": {
+    "uk": "зусилля"
+   },
+   "example": "It takes effort.",
+   "exampleTranslation": {
+    "uk": "Це вимагає зусиль."
+   }
+  },
+  {
+   "id": "balance",
+   "text": "balance",
+   "ipa": "/ˈbæləns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "баланс"
+   },
+   "example": "Find a balance.",
+   "exampleTranslation": {
+    "uk": "Знайди баланс."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "I eat too much sugar.",
+   "prompt": {
+    "uk": "Повторимо. Порадьте зменшити. Що сказати?"
+   },
+   "options": [
+    "You should reduce sugar.",
+    "You should reducing sugar.",
+    "You reduce should sugar."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You should reduce sugar."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "focus",
+     "right": {
+      "uk": "зосереджуватись"
+     }
+    },
+    {
+     "left": "reminder",
+     "right": {
+      "uk": "нагадування"
+     }
+    },
+    {
+     "left": "priority",
+     "right": {
+      "uk": "пріоритет"
+     }
+    },
+    {
+     "left": "effort",
+     "right": {
+      "uk": "зусилля"
+     }
+    },
+    {
+     "left": "balance",
+     "right": {
+      "uk": "баланс"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "You should focus.",
+   "prompt": {
+    "uk": "Прослухайте. Яка порада?"
+   },
+   "options": {
+    "uk": [
+     "Зосередитись",
+     "Відпочити",
+     "Піти"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Focus."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I set a reminder.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Ставить нагадування",
+     "Втрачає телефон",
+     "Дзвонить"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Reminder."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Health is a priority.",
+   "prompt": {
+    "uk": "Прослухайте. Що пріоритет?"
+   },
+   "options": {
+    "uk": [
+     "Здоров'я",
+     "Робота",
+     "Гроші"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Health."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You should ___.",
+   "options": [
+    "focus",
+    "effort",
+    "balance"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Зосередитись."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I set a ___.",
+   "options": [
+    "reminder",
+    "priority",
+    "focus"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Нагадування."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It takes ___.",
+   "options": [
+    "effort",
+    "focus",
+    "reminder"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Зусилля."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке balance?"
+   },
+   "options": {
+    "uk": [
+     "баланс",
+     "зусилля",
+     "пріоритет"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Balance — баланс."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Тобі варто зосередитись."
+   },
+   "words": [
+    "You",
+    "should",
+    "focus",
+    "shoulds",
+    "effort"
+   ],
+   "answer": [
+    "You",
+    "should",
+    "focus"
+   ],
+   "explanation": {
+    "uk": "You should focus."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Здоров'я — пріоритет."
+   },
+   "answers": [
+    "Health is a priority"
+   ],
+   "explanation": {
+    "uk": "Health is a priority."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "I can't study.",
+   "prompt": {
+    "uk": "Порадьте зосередитись. Що сказати?"
+   },
+   "options": [
+    "You should focus.",
+    "You should focusing.",
+    "You focus should."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You should focus."
+   }
+  }
+ ]
+}

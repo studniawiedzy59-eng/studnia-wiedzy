@@ -1,0 +1,322 @@
+{
+ "id": "u74_l05",
+ "unit": "u74",
+ "cefr": "A1",
+ "title": {
+  "uk": "М'яка порада"
+ },
+ "goal": {
+  "uk": "Радити ввічливо й розумно."
+ },
+ "rule": {
+  "uk": "Gentle — м'який, cautious — обачний, reasonable — розумний (обґрунтований), sensible — розсудливий, protein — білок. Приклад: Be gentle. Be cautious. It's a reasonable price. That's a sensible idea. Eat more protein."
+ },
+ "words": [
+  {
+   "id": "gentle",
+   "text": "gentle",
+   "ipa": "/ˈdʒentl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "м'який, ніжний"
+   },
+   "example": "Be gentle.",
+   "exampleTranslation": {
+    "uk": "Будь ніжним."
+   }
+  },
+  {
+   "id": "cautious",
+   "text": "cautious",
+   "ipa": "/ˈkɔːʃəs/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "обачний"
+   },
+   "example": "Be cautious.",
+   "exampleTranslation": {
+    "uk": "Будь обачним."
+   }
+  },
+  {
+   "id": "reasonable",
+   "text": "reasonable",
+   "ipa": "/ˈriːznəbl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "розумний, обґрунтований"
+   },
+   "example": "It's a reasonable price.",
+   "exampleTranslation": {
+    "uk": "Це розумна ціна."
+   }
+  },
+  {
+   "id": "sensible",
+   "text": "sensible",
+   "ipa": "/ˈsensəbl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "розсудливий"
+   },
+   "example": "That's a sensible idea.",
+   "exampleTranslation": {
+    "uk": "Це розсудлива ідея."
+   }
+  },
+  {
+   "id": "protein",
+   "text": "protein",
+   "ipa": "/ˈprəʊtiːn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "білок"
+   },
+   "example": "Eat more protein.",
+   "exampleTranslation": {
+    "uk": "Їж більше білка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "I can't study.",
+   "prompt": {
+    "uk": "Повторимо. Порадьте зосередитись. Що сказати?"
+   },
+   "options": [
+    "You should focus.",
+    "You should focusing.",
+    "You focus should."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You should focus."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "gentle",
+     "right": {
+      "uk": "м'який, ніжний"
+     }
+    },
+    {
+     "left": "cautious",
+     "right": {
+      "uk": "обачний"
+     }
+    },
+    {
+     "left": "reasonable",
+     "right": {
+      "uk": "розумний, обґрунтований"
+     }
+    },
+    {
+     "left": "sensible",
+     "right": {
+      "uk": "розсудливий"
+     }
+    },
+    {
+     "left": "protein",
+     "right": {
+      "uk": "білок"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Be gentle.",
+   "prompt": {
+    "uk": "Прослухайте. Яка порада?"
+   },
+   "options": {
+    "uk": [
+     "Будь ніжним",
+     "Будь швидким",
+     "Будь сильним"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Gentle."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's a reasonable price.",
+   "prompt": {
+    "uk": "Прослухайте. Яка ціна?"
+   },
+   "options": {
+    "uk": [
+     "Розумна",
+     "Висока",
+     "Низька"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Reasonable."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Eat more protein.",
+   "prompt": {
+    "uk": "Прослухайте. Що їсти?"
+   },
+   "options": {
+    "uk": [
+     "Більше білка",
+     "Менше солі",
+     "Більше цукру"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Protein."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Be ___.",
+   "options": [
+    "gentle",
+    "protein",
+    "sensible"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Ніжним."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's a ___ price.",
+   "options": [
+    "reasonable",
+    "gentle",
+    "cautious"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Розумна."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Eat more ___.",
+   "options": [
+    "protein",
+    "gentle",
+    "cautious"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Білок."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке sensible?"
+   },
+   "options": {
+    "uk": [
+     "розсудливий",
+     "ніжний",
+     "обачний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Sensible — розсудливий."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це розумна ціна."
+   },
+   "words": [
+    "It's",
+    "a",
+    "reasonable",
+    "price",
+    "are",
+    "gentle"
+   ],
+   "answer": [
+    "It's",
+    "a",
+    "reasonable",
+    "price"
+   ],
+   "explanation": {
+    "uk": "It's a reasonable price."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Будь обачним."
+   },
+   "answers": [
+    "Be cautious"
+   ],
+   "explanation": {
+    "uk": "Be cautious."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What should I eat?",
+   "prompt": {
+    "uk": "Більше білка. Що відповісти?"
+   },
+   "options": [
+    "You should eat more protein.",
+    "You should eating more protein.",
+    "You eat should protein."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You should eat more protein."
+   }
+  }
+ ]
+}

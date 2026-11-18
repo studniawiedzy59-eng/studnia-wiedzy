@@ -1,0 +1,320 @@
+{
+ "id": "u76_l04",
+ "unit": "u76",
+ "cefr": "A1",
+ "title": {
+  "uk": "Домовленості по телефону"
+ },
+ "goal": {
+  "uk": "Домовлятися про зустріч по телефону."
+ },
+ "rule": {
+  "uk": "Confirm — підтвердити, reschedule — перенести, on hold — на очікуванні, extension — внутрішній номер, landline — стаціонарний телефон. Приклад: I confirm the meeting. Can we reschedule? Please stay on hold. Extension twenty. Call my landline."
+ },
+ "words": [
+  {
+   "id": "confirm",
+   "text": "confirm",
+   "ipa": "/kənˈfɜːm/",
+   "pos": "verb",
+   "translation": {
+    "uk": "підтверджувати"
+   },
+   "example": "I confirm the meeting.",
+   "exampleTranslation": {
+    "uk": "Я підтверджую зустріч."
+   }
+  },
+  {
+   "id": "reschedule",
+   "text": "reschedule",
+   "ipa": "/ˌriːˈʃedjuːl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "переносити"
+   },
+   "example": "Can we reschedule?",
+   "exampleTranslation": {
+    "uk": "Можемо перенести?"
+   }
+  },
+  {
+   "id": "on_hold",
+   "text": "on hold",
+   "ipa": "/ɒn ˈhəʊld/",
+   "pos": "phrase",
+   "translation": {
+    "uk": "на очікуванні"
+   },
+   "example": "Please stay on hold.",
+   "exampleTranslation": {
+    "uk": "Зачекайте на лінії."
+   }
+  },
+  {
+   "id": "extension",
+   "text": "extension",
+   "ipa": "/ɪkˈstenʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "внутрішній номер"
+   },
+   "example": "Extension twenty, please.",
+   "exampleTranslation": {
+    "uk": "Внутрішній двадцять, будь ласка."
+   }
+  },
+  {
+   "id": "landline",
+   "text": "landline",
+   "ipa": "/ˈlændlaɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "стаціонарний телефон"
+   },
+   "example": "Call my landline.",
+   "exampleTranslation": {
+    "uk": "Дзвоніть на стаціонарний."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "I can't hear you.",
+   "prompt": {
+    "uk": "Повторимо. Попросіть говорити чітко. Що сказати?"
+   },
+   "options": [
+    "Please speak clearly.",
+    "Please speaking clear.",
+    "You speak clearly please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Please speak clearly."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "confirm",
+     "right": {
+      "uk": "підтверджувати"
+     }
+    },
+    {
+     "left": "reschedule",
+     "right": {
+      "uk": "переносити"
+     }
+    },
+    {
+     "left": "on hold",
+     "right": {
+      "uk": "на очікуванні"
+     }
+    },
+    {
+     "left": "extension",
+     "right": {
+      "uk": "внутрішній номер"
+     }
+    },
+    {
+     "left": "landline",
+     "right": {
+      "uk": "стаціонарний телефон"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I confirm the meeting.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Підтверджує зустріч",
+     "Скасовує зустріч",
+     "Переносить зустріч"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Confirm."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Please stay on hold.",
+   "prompt": {
+    "uk": "Прослухайте. Що просять?"
+   },
+   "options": {
+    "uk": [
+     "Зачекати на лінії",
+     "Передзвонити",
+     "Покласти слухавку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hold."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Extension twenty, please.",
+   "prompt": {
+    "uk": "Прослухайте. Який внутрішній номер?"
+   },
+   "options": {
+    "uk": [
+     "Двадцять",
+     "Дванадцять",
+     "Двісті"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Twenty."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ the meeting.",
+   "options": [
+    "confirm",
+    "landline",
+    "extension"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Підтверджую."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Can we ___?",
+   "options": [
+    "reschedule",
+    "on hold",
+    "landline"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Перенести."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Please stay on ___.",
+   "options": [
+    "hold",
+    "extension",
+    "confirm"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "On hold."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що значить reschedule?"
+   },
+   "options": {
+    "uk": [
+     "перенести",
+     "підтвердити",
+     "скасувати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Reschedule — перенести."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Можемо перенести?"
+   },
+   "words": [
+    "Can",
+    "we",
+    "reschedule",
+    "Does",
+    "hold"
+   ],
+   "answer": [
+    "Can",
+    "we",
+    "reschedule"
+   ],
+   "explanation": {
+    "uk": "Can we reschedule?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я підтверджую зустріч."
+   },
+   "answers": [
+    "I confirm the meeting"
+   ],
+   "explanation": {
+    "uk": "I confirm the meeting."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Is the meeting at three?",
+   "prompt": {
+    "uk": "Підтвердіть. Що сказати?"
+   },
+   "options": [
+    "Yes, I confirm.",
+    "Yes, I confirming.",
+    "Yes, confirm I."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I confirm."
+   }
+  }
+ ]
+}

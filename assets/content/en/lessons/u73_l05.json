@@ -1,0 +1,320 @@
+{
+ "id": "u73_l05",
+ "unit": "u73",
+ "cefr": "A1",
+ "title": {
+  "uk": "Особистий транспорт"
+ },
+ "goal": {
+  "uk": "Говорити про самокати, пороми й автостради."
+ },
+ "rule": {
+  "uk": "Scooter — самокат, helmet — шолом, ferry — пором, escalator — ескалатор, motorway — автострада. Приклад: I ride a scooter. Wear a helmet. We took the ferry. The escalator is broken. The motorway is fast."
+ },
+ "words": [
+  {
+   "id": "scooter",
+   "text": "scooter",
+   "ipa": "/ˈskuːtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "самокат"
+   },
+   "example": "I ride a scooter.",
+   "exampleTranslation": {
+    "uk": "Я їжджу на самокаті."
+   }
+  },
+  {
+   "id": "helmet",
+   "text": "helmet",
+   "ipa": "/ˈhelmɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "шолом"
+   },
+   "example": "Wear a helmet.",
+   "exampleTranslation": {
+    "uk": "Одягайте шолом."
+   }
+  },
+  {
+   "id": "ferry",
+   "text": "ferry",
+   "ipa": "/ˈferi/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пором"
+   },
+   "example": "We took the ferry.",
+   "exampleTranslation": {
+    "uk": "Ми поїхали поромом."
+   }
+  },
+  {
+   "id": "escalator",
+   "text": "escalator",
+   "ipa": "/ˈeskəleɪtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ескалатор"
+   },
+   "example": "The escalator is broken.",
+   "exampleTranslation": {
+    "uk": "Ескалатор не працює."
+   }
+  },
+  {
+   "id": "motorway",
+   "text": "motorway",
+   "ipa": "/ˈməʊtəweɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "автострада"
+   },
+   "example": "The motorway is fast.",
+   "exampleTranslation": {
+    "uk": "Автострада швидка."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Why are you late?",
+   "prompt": {
+    "uk": "Повторимо. Була поломка. Що відповісти?"
+   },
+   "options": [
+    "There was a breakdown.",
+    "It was breakdown.",
+    "There were a breakdown."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There was a breakdown."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "scooter",
+     "right": {
+      "uk": "самокат"
+     }
+    },
+    {
+     "left": "helmet",
+     "right": {
+      "uk": "шолом"
+     }
+    },
+    {
+     "left": "ferry",
+     "right": {
+      "uk": "пором"
+     }
+    },
+    {
+     "left": "escalator",
+     "right": {
+      "uk": "ескалатор"
+     }
+    },
+    {
+     "left": "motorway",
+     "right": {
+      "uk": "автострада"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I ride a scooter.",
+   "prompt": {
+    "uk": "Прослухайте. На чому їздить людина?"
+   },
+   "options": {
+    "uk": [
+     "На самокаті",
+     "На велосипеді",
+     "На мотоциклі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Scooter."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "We took the ferry.",
+   "prompt": {
+    "uk": "Прослухайте. Чим вони поїхали?"
+   },
+   "options": {
+    "uk": [
+     "Поромом",
+     "Потягом",
+     "Автобусом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ferry."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The escalator is broken.",
+   "prompt": {
+    "uk": "Прослухайте. Що не працює?"
+   },
+   "options": {
+    "uk": [
+     "Ескалатор",
+     "Ліфт",
+     "Двері"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Escalator."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ride a ___.",
+   "options": [
+    "scooter",
+    "helmet",
+    "ferry"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Самокат."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Wear a ___.",
+   "options": [
+    "helmet",
+    "motorway",
+    "escalator"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Шолом."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is fast.",
+   "options": [
+    "motorway",
+    "ferry",
+    "scooter"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Автострада."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке ferry?"
+   },
+   "options": {
+    "uk": [
+     "пором",
+     "самокат",
+     "шолом"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ferry — пором."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Одягайте шолом."
+   },
+   "words": [
+    "Wear",
+    "a",
+    "helmet",
+    "wears",
+    "ferry"
+   ],
+   "answer": [
+    "Wear",
+    "a",
+    "helmet"
+   ],
+   "explanation": {
+    "uk": "Wear a helmet."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми поїхали поромом."
+   },
+   "answers": [
+    "We took the ferry"
+   ],
+   "explanation": {
+    "uk": "We took the ferry."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "How did you travel?",
+   "prompt": {
+    "uk": "Поромом. Що відповісти?"
+   },
+   "options": [
+    "We took the ferry.",
+    "We take ferry yesterday.",
+    "We did took the ferry."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "We took the ferry."
+   }
+  }
+ ]
+}

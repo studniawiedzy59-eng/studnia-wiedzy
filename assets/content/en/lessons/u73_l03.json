@@ -1,0 +1,324 @@
+{
+ "id": "u73_l03",
+ "unit": "u73",
+ "cefr": "A1",
+ "title": {
+  "uk": "Потяг і маршрут"
+ },
+ "goal": {
+  "uk": "Орієнтуватися в розкладі потягів."
+ },
+ "rule": {
+  "uk": "Railway — залізниця, express — експрес, connection — пересадка (зв'язок між рейсами), destination — пункт призначення, announcement — оголошення. Приклад: The railway station is big. This is an express train. What is your destination? There is an announcement."
+ },
+ "words": [
+  {
+   "id": "railway",
+   "text": "railway",
+   "ipa": "/ˈreɪlweɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "залізниця"
+   },
+   "example": "The railway station is big.",
+   "exampleTranslation": {
+    "uk": "Залізничний вокзал великий."
+   }
+  },
+  {
+   "id": "express",
+   "text": "express",
+   "ipa": "/ɪkˈspres/",
+   "pos": "noun",
+   "translation": {
+    "uk": "експрес"
+   },
+   "example": "This is an express train.",
+   "exampleTranslation": {
+    "uk": "Це експрес."
+   }
+  },
+  {
+   "id": "connection",
+   "text": "connection",
+   "ipa": "/kəˈnekʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пересадка (рейс)"
+   },
+   "example": "I have a connection in Lviv.",
+   "exampleTranslation": {
+    "uk": "У мене пересадка у Львові."
+   }
+  },
+  {
+   "id": "destination",
+   "text": "destination",
+   "ipa": "/ˌdestɪˈneɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пункт призначення"
+   },
+   "example": "What is your destination?",
+   "exampleTranslation": {
+    "uk": "Який ваш пункт призначення?"
+   }
+  },
+  {
+   "id": "announcement",
+   "text": "announcement",
+   "ipa": "/əˈnaʊnsmənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "оголошення"
+   },
+   "example": "There is an announcement.",
+   "exampleTranslation": {
+    "uk": "Є оголошення."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Do you have a ticket?",
+   "prompt": {
+    "uk": "Повторимо. У вас є проїзний. Що відповісти?"
+   },
+   "options": [
+    "Yes, I have a season ticket.",
+    "Yes, I has season ticket.",
+    "Yes, season ticket I am."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I have a season ticket."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "railway",
+     "right": {
+      "uk": "залізниця"
+     }
+    },
+    {
+     "left": "express",
+     "right": {
+      "uk": "експрес"
+     }
+    },
+    {
+     "left": "connection",
+     "right": {
+      "uk": "пересадка (рейс)"
+     }
+    },
+    {
+     "left": "destination",
+     "right": {
+      "uk": "пункт призначення"
+     }
+    },
+    {
+     "left": "announcement",
+     "right": {
+      "uk": "оголошення"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "This is an express train.",
+   "prompt": {
+    "uk": "Прослухайте. Який це потяг?"
+   },
+   "options": {
+    "uk": [
+     "Експрес",
+     "Повільний",
+     "Нічний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Express."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I have a connection in Lviv.",
+   "prompt": {
+    "uk": "Прослухайте. Де пересадка?"
+   },
+   "options": {
+    "uk": [
+     "У Львові",
+     "У Києві",
+     "В Одесі"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Lviv."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "What is your destination?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Про пункт призначення",
+     "Про ціну",
+     "Про час"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Destination."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is an ___ train.",
+   "options": [
+    "express",
+    "announcement",
+    "railway"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Експрес."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___ in Lviv.",
+   "options": [
+    "connection",
+    "destination",
+    "railway"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Пересадка."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "What is your ___?",
+   "options": [
+    "destination",
+    "express",
+    "connection"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Пункт призначення."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке announcement?"
+   },
+   "options": {
+    "uk": [
+     "оголошення",
+     "залізниця",
+     "експрес"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Announcement — оголошення."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Це експрес."
+   },
+   "words": [
+    "This",
+    "is",
+    "an",
+    "express",
+    "train",
+    "are",
+    "railway"
+   ],
+   "answer": [
+    "This",
+    "is",
+    "an",
+    "express",
+    "train"
+   ],
+   "explanation": {
+    "uk": "This is an express train."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Який ваш пункт призначення?"
+   },
+   "answers": [
+    "What is your destination"
+   ],
+   "explanation": {
+    "uk": "What is your destination?"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Where is your connection?",
+   "prompt": {
+    "uk": "У Львові. Що відповісти?"
+   },
+   "options": [
+    "I have a connection in Lviv.",
+    "My connection are Lviv.",
+    "I has connection Lviv."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a connection in Lviv."
+   }
+  }
+ ]
+}

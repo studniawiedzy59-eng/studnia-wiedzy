@@ -1,0 +1,322 @@
+{
+ "id": "u73_l04",
+ "unit": "u73",
+ "cefr": "A1",
+ "title": {
+  "uk": "Проблеми в дорозі"
+ },
+ "goal": {
+  "uk": "Говорити про проблеми з рейсом."
+ },
+ "rule": {
+  "uk": "Roadworks — ремонт дороги, diversion — об'їзд, breakdown — поломка, strike — страйк, replacement — заміна. Приклад: There are roadworks. We take a diversion. There was a breakdown. A replacement bus is coming."
+ },
+ "words": [
+  {
+   "id": "roadworks",
+   "text": "roadworks",
+   "ipa": "/ˈrəʊdwɜːks/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дорожні роботи"
+   },
+   "example": "There are roadworks on the road.",
+   "exampleTranslation": {
+    "uk": "На дорозі ремонт."
+   }
+  },
+  {
+   "id": "diversion",
+   "text": "diversion",
+   "ipa": "/daɪˈvɜːʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "об'їзд"
+   },
+   "example": "We take a diversion.",
+   "exampleTranslation": {
+    "uk": "Ми їдемо в об'їзд."
+   }
+  },
+  {
+   "id": "breakdown",
+   "text": "breakdown",
+   "ipa": "/ˈbreɪkdaʊn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "поломка"
+   },
+   "example": "There was a breakdown.",
+   "exampleTranslation": {
+    "uk": "Була поломка."
+   }
+  },
+  {
+   "id": "strike",
+   "text": "strike",
+   "ipa": "/straɪk/",
+   "pos": "noun",
+   "translation": {
+    "uk": "страйк"
+   },
+   "example": "There is a train strike.",
+   "exampleTranslation": {
+    "uk": "Страйк залізничників."
+   }
+  },
+  {
+   "id": "replacement",
+   "text": "replacement",
+   "ipa": "/rɪˈpleɪsmənt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "заміна"
+   },
+   "example": "A replacement bus is coming.",
+   "exampleTranslation": {
+    "uk": "Їде автобус-заміна."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Where is your connection?",
+   "prompt": {
+    "uk": "Повторимо. У Львові. Що відповісти?"
+   },
+   "options": [
+    "I have a connection in Lviv.",
+    "My connection are Lviv.",
+    "I has connection Lviv."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a connection in Lviv."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "roadworks",
+     "right": {
+      "uk": "дорожні роботи"
+     }
+    },
+    {
+     "left": "diversion",
+     "right": {
+      "uk": "об'їзд"
+     }
+    },
+    {
+     "left": "breakdown",
+     "right": {
+      "uk": "поломка"
+     }
+    },
+    {
+     "left": "strike",
+     "right": {
+      "uk": "страйк"
+     }
+    },
+    {
+     "left": "replacement",
+     "right": {
+      "uk": "заміна"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "There are roadworks on the road.",
+   "prompt": {
+    "uk": "Прослухайте. Що на дорозі?"
+   },
+   "options": {
+    "uk": [
+     "Ремонт",
+     "Аварія",
+     "Сніг"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Roadworks."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "There was a breakdown.",
+   "prompt": {
+    "uk": "Прослухайте. Що було?"
+   },
+   "options": {
+    "uk": [
+     "Поломка",
+     "Страйк",
+     "Затримка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Breakdown."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "A replacement bus is coming.",
+   "prompt": {
+    "uk": "Прослухайте. Що їде?"
+   },
+   "options": {
+    "uk": [
+     "Автобус-заміна",
+     "Експрес",
+     "Метро"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Replacement."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There are ___ on the road.",
+   "options": [
+    "roadworks",
+    "strike",
+    "diversion"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Roadworks — множина."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We take a ___.",
+   "options": [
+    "diversion",
+    "breakdown",
+    "strike"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Об'їзд."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a train ___.",
+   "options": [
+    "strike",
+    "replacement",
+    "roadworks"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Страйк."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке breakdown?"
+   },
+   "options": {
+    "uk": [
+     "поломка",
+     "об'їзд",
+     "заміна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Breakdown — поломка."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми їдемо в об'їзд."
+   },
+   "words": [
+    "We",
+    "take",
+    "a",
+    "diversion",
+    "takes",
+    "strike"
+   ],
+   "answer": [
+    "We",
+    "take",
+    "a",
+    "diversion"
+   ],
+   "explanation": {
+    "uk": "We take a diversion."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Була поломка."
+   },
+   "answers": [
+    "There was a breakdown"
+   ],
+   "explanation": {
+    "uk": "There was a breakdown."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Why are you late?",
+   "prompt": {
+    "uk": "Була поломка. Що відповісти?"
+   },
+   "options": [
+    "There was a breakdown.",
+    "It was breakdown.",
+    "There were a breakdown."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "There was a breakdown."
+   }
+  }
+ ]
+}

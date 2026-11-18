@@ -1,0 +1,322 @@
+{
+ "id": "u73_l01",
+ "unit": "u73",
+ "cefr": "A1",
+ "title": {
+  "uk": "На станції"
+ },
+ "goal": {
+  "uk": "Розуміти табло й оголошення на станції."
+ },
+ "rule": {
+  "uk": "Delay — затримка, board — сідати (в транспорт), metro — метро, commuter — той, хто щодня їздить на роботу, departure — відправлення. Приклад: There is a delay. We board at six. I take the metro. The departure is at nine."
+ },
+ "words": [
+  {
+   "id": "delay",
+   "text": "delay",
+   "ipa": "/dɪˈleɪ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "затримка"
+   },
+   "example": "There is a delay.",
+   "exampleTranslation": {
+    "uk": "Є затримка."
+   }
+  },
+  {
+   "id": "board",
+   "text": "board",
+   "ipa": "/bɔːd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "сідати (в транспорт)"
+   },
+   "example": "We board at six.",
+   "exampleTranslation": {
+    "uk": "Ми сідаємо о шостій."
+   }
+  },
+  {
+   "id": "metro",
+   "text": "metro",
+   "ipa": "/ˈmetrəʊ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "метро"
+   },
+   "example": "I take the metro to work.",
+   "exampleTranslation": {
+    "uk": "Я їду на роботу метро."
+   }
+  },
+  {
+   "id": "commuter",
+   "text": "commuter",
+   "ipa": "/kəˈmjuːtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "той, хто щодня їздить"
+   },
+   "example": "Commuters are tired.",
+   "exampleTranslation": {
+    "uk": "Люди, що їздять щодня, втомлені."
+   }
+  },
+  {
+   "id": "departure",
+   "text": "departure",
+   "ipa": "/dɪˈpɑːtʃə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "відправлення"
+   },
+   "example": "The departure is at nine.",
+   "exampleTranslation": {
+    "uk": "Відправлення о дев'ятій."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What's the matter?",
+   "prompt": {
+    "uk": "Повторимо. Болить спина, і в мене температура. Що відповісти?"
+   },
+   "options": [
+    "I have a backache and a fever.",
+    "I have backache and fever.",
+    "I am have a backache and fever."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a backache and a fever."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "delay",
+     "right": {
+      "uk": "затримка"
+     }
+    },
+    {
+     "left": "board",
+     "right": {
+      "uk": "сідати (в транспорт)"
+     }
+    },
+    {
+     "left": "metro",
+     "right": {
+      "uk": "метро"
+     }
+    },
+    {
+     "left": "commuter",
+     "right": {
+      "uk": "той, хто щодня їздить"
+     }
+    },
+    {
+     "left": "departure",
+     "right": {
+      "uk": "відправлення"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "There is a delay.",
+   "prompt": {
+    "uk": "Прослухайте. Що оголошують?"
+   },
+   "options": {
+    "uk": [
+     "Затримку",
+     "Відправлення",
+     "Прибуття"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Delay."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I take the metro to work.",
+   "prompt": {
+    "uk": "Прослухайте. Чим їде людина?"
+   },
+   "options": {
+    "uk": [
+     "Метро",
+     "Автобусом",
+     "Трамваєм"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Metro."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The departure is at nine.",
+   "prompt": {
+    "uk": "Прослухайте. Коли відправлення?"
+   },
+   "options": {
+    "uk": [
+     "О дев'ятій",
+     "О десятій",
+     "О восьмій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Nine."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "There is a ___.",
+   "options": [
+    "delay",
+    "metro",
+    "commuter"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Затримка."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I take the ___ to work.",
+   "options": [
+    "metro",
+    "delay",
+    "departure"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Метро."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is at nine.",
+   "options": [
+    "departure",
+    "commuter",
+    "board"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Відправлення."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке commuter?"
+   },
+   "options": {
+    "uk": [
+     "той, хто щодня їздить на роботу",
+     "затримка",
+     "метро"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Commuter — людина, яка щодня їздить."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми сідаємо о шостій."
+   },
+   "words": [
+    "We",
+    "board",
+    "at",
+    "six",
+    "boards",
+    "delay"
+   ],
+   "answer": [
+    "We",
+    "board",
+    "at",
+    "six"
+   ],
+   "explanation": {
+    "uk": "We board at six."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Є затримка."
+   },
+   "answers": [
+    "There is a delay"
+   ],
+   "explanation": {
+    "uk": "There is a delay."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "When is the departure?",
+   "prompt": {
+    "uk": "О дев'ятій. Що відповісти?"
+   },
+   "options": [
+    "The departure is at nine.",
+    "Departure at nine is.",
+    "The departure are nine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The departure is at nine."
+   }
+  }
+ ]
+}

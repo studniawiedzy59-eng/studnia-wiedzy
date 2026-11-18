@@ -1,0 +1,322 @@
+{
+ "id": "u76_l02",
+ "unit": "u76",
+ "cefr": "A1",
+ "title": {
+  "uk": "Повідомлення"
+ },
+ "goal": {
+  "uk": "Розуміти повідомлення й сигнали."
+ },
+ "rule": {
+  "uk": "Missed call — пропущений дзвінок, ringtone — мелодія дзвінка, volume — гучність, notification — сповіщення, text message — SMS. Приклад: I have a missed call. Change the ringtone. Turn up the volume. I got a notification. Send a text message."
+ },
+ "words": [
+  {
+   "id": "missed_call",
+   "text": "missed call",
+   "ipa": "/ˌmɪst ˈkɔːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "пропущений дзвінок"
+   },
+   "example": "I have a missed call.",
+   "exampleTranslation": {
+    "uk": "У мене пропущений дзвінок."
+   }
+  },
+  {
+   "id": "ringtone",
+   "text": "ringtone",
+   "ipa": "/ˈrɪŋtəʊn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мелодія дзвінка"
+   },
+   "example": "I like this ringtone.",
+   "exampleTranslation": {
+    "uk": "Мені подобається ця мелодія."
+   }
+  },
+  {
+   "id": "volume",
+   "text": "volume",
+   "ipa": "/ˈvɒljuːm/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гучність"
+   },
+   "example": "Turn up the volume.",
+   "exampleTranslation": {
+    "uk": "Зроби голосніше."
+   }
+  },
+  {
+   "id": "notification",
+   "text": "notification",
+   "ipa": "/ˌnəʊtɪfɪˈkeɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сповіщення"
+   },
+   "example": "I got a notification.",
+   "exampleTranslation": {
+    "uk": "Я отримав сповіщення."
+   }
+  },
+  {
+   "id": "text_message",
+   "text": "text message",
+   "ipa": "/ˈtekst ˌmesɪdʒ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "SMS"
+   },
+   "example": "Send a text message.",
+   "exampleTranslation": {
+    "uk": "Надішліть SMS."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Hello, is that the hotel?",
+   "prompt": {
+    "uk": "Повторимо. Це адміністратор. Що сказати?"
+   },
+   "options": [
+    "Yes, this is the receptionist.",
+    "Yes, I am receptionist.",
+    "Yes, that is receptionist."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, this is the receptionist."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "missed call",
+     "right": {
+      "uk": "пропущений дзвінок"
+     }
+    },
+    {
+     "left": "ringtone",
+     "right": {
+      "uk": "мелодія дзвінка"
+     }
+    },
+    {
+     "left": "volume",
+     "right": {
+      "uk": "гучність"
+     }
+    },
+    {
+     "left": "notification",
+     "right": {
+      "uk": "сповіщення"
+     }
+    },
+    {
+     "left": "text message",
+     "right": {
+      "uk": "SMS"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I have a missed call.",
+   "prompt": {
+    "uk": "Прослухайте. Що у людини?"
+   },
+   "options": {
+    "uk": [
+     "Пропущений дзвінок",
+     "SMS",
+     "Лист"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Missed call."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Turn up the volume.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Зробити голосніше",
+     "Вимкнути",
+     "Зробити тихіше"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Volume."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Send a text message.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Надіслати SMS",
+     "Подзвонити",
+     "Написати лист"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Text message."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___ call.",
+   "options": [
+    "missed",
+    "text",
+    "volume"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Missed call."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Turn up the ___.",
+   "options": [
+    "volume",
+    "ringtone",
+    "notification"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Гучність."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I got a ___.",
+   "options": [
+    "notification",
+    "volume",
+    "operator"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Сповіщення."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке ringtone?"
+   },
+   "options": {
+    "uk": [
+     "мелодія дзвінка",
+     "гучність",
+     "сповіщення"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ringtone — мелодія дзвінка."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Надішліть SMS."
+   },
+   "words": [
+    "Send",
+    "a",
+    "text",
+    "message",
+    "sends",
+    "volume"
+   ],
+   "answer": [
+    "Send",
+    "a",
+    "text",
+    "message"
+   ],
+   "explanation": {
+    "uk": "Send a text message."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "У мене пропущений дзвінок."
+   },
+   "answers": [
+    "I have a missed call"
+   ],
+   "explanation": {
+    "uk": "I have a missed call."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Why do you call?",
+   "prompt": {
+    "uk": "У вас пропущений дзвінок. Що відповісти?"
+   },
+   "options": [
+    "I have a missed call from you.",
+    "I am have missed call.",
+    "I has a missed call you."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a missed call from you."
+   }
+  }
+ ]
+}

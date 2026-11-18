@@ -1,0 +1,322 @@
+{
+ "id": "u75_l02",
+ "unit": "u75",
+ "cefr": "A1",
+ "title": {
+  "uk": "Заборони й дозволи"
+ },
+ "goal": {
+  "uk": "Говорити про дозволи й заборони."
+ },
+ "rule": {
+  "uk": "Forbidden — заборонений, permission — дозвіл, obey — підкорятися, ban — забороняти (також: заборона), penalty — штраф, покарання. Приклад: Smoking is forbidden. Ask for permission. We obey the rules. There is a ban. The penalty is high."
+ },
+ "words": [
+  {
+   "id": "forbidden",
+   "text": "forbidden",
+   "ipa": "/fəˈbɪdn/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "заборонений"
+   },
+   "example": "Smoking is forbidden.",
+   "exampleTranslation": {
+    "uk": "Палити заборонено."
+   }
+  },
+  {
+   "id": "permission",
+   "text": "permission",
+   "ipa": "/pəˈmɪʃn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "дозвіл"
+   },
+   "example": "Ask for permission.",
+   "exampleTranslation": {
+    "uk": "Попросіть дозволу."
+   }
+  },
+  {
+   "id": "obey",
+   "text": "obey",
+   "ipa": "/əˈbeɪ/",
+   "pos": "verb",
+   "translation": {
+    "uk": "підкорятися"
+   },
+   "example": "We obey the rules.",
+   "exampleTranslation": {
+    "uk": "Ми дотримуємося правил."
+   }
+  },
+  {
+   "id": "ban",
+   "text": "ban",
+   "ipa": "/bæn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "заборона"
+   },
+   "example": "There is a ban on cars.",
+   "exampleTranslation": {
+    "uk": "Є заборона на авто."
+   }
+  },
+  {
+   "id": "penalty",
+   "text": "penalty",
+   "ipa": "/ˈpenlti/",
+   "pos": "noun",
+   "translation": {
+    "uk": "штраф, покарання"
+   },
+   "example": "The penalty is high.",
+   "exampleTranslation": {
+    "uk": "Штраф високий."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Can I smoke here?",
+   "prompt": {
+    "uk": "Повторимо. Тут заборонено. Що відповісти?"
+   },
+   "options": [
+    "No, you mustn't.",
+    "No, you mustn't to.",
+    "No, you not must."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, you mustn't."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "forbidden",
+     "right": {
+      "uk": "заборонений"
+     }
+    },
+    {
+     "left": "permission",
+     "right": {
+      "uk": "дозвіл"
+     }
+    },
+    {
+     "left": "obey",
+     "right": {
+      "uk": "підкорятися"
+     }
+    },
+    {
+     "left": "ban",
+     "right": {
+      "uk": "заборона"
+     }
+    },
+    {
+     "left": "penalty",
+     "right": {
+      "uk": "штраф, покарання"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Smoking is forbidden.",
+   "prompt": {
+    "uk": "Прослухайте. Що заборонено?"
+   },
+   "options": {
+    "uk": [
+     "Палити",
+     "Говорити",
+     "Їсти"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Forbidden."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Ask for permission.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба?"
+   },
+   "options": {
+    "uk": [
+     "Попросити дозвіл",
+     "Піти",
+     "Заплатити"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Permission."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The penalty is high.",
+   "prompt": {
+    "uk": "Прослухайте. Який штраф?"
+   },
+   "options": {
+    "uk": [
+     "Високий",
+     "Низький",
+     "Нульовий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "High."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Smoking is ___.",
+   "options": [
+    "forbidden",
+    "permission",
+    "ban"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Заборонено."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Ask for ___.",
+   "options": [
+    "permission",
+    "penalty",
+    "obey"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Дозвіл."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ the rules.",
+   "options": [
+    "obey",
+    "ban",
+    "forbidden"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Obey."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке penalty?"
+   },
+   "options": {
+    "uk": [
+     "штраф",
+     "дозвіл",
+     "заборона"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Penalty — штраф, покарання."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Ми дотримуємося правил."
+   },
+   "words": [
+    "We",
+    "obey",
+    "the",
+    "rules",
+    "obeys",
+    "ban"
+   ],
+   "answer": [
+    "We",
+    "obey",
+    "the",
+    "rules"
+   ],
+   "explanation": {
+    "uk": "We obey the rules."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Попросіть дозволу."
+   },
+   "answers": [
+    "Ask for permission"
+   ],
+   "explanation": {
+    "uk": "Ask for permission."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What happens if I break the rule?",
+   "prompt": {
+    "uk": "Заплатите штраф. Що відповісти?"
+   },
+   "options": [
+    "You pay a penalty.",
+    "You paying penalty.",
+    "You are pay a penalty."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You pay a penalty."
+   }
+  }
+ ]
+}

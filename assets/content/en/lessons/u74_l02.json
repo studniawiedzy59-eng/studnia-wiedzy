@@ -1,0 +1,320 @@
+{
+ "id": "u74_l02",
+ "unit": "u74",
+ "cefr": "A1",
+ "title": {
+  "uk": "Обережно!"
+ },
+ "goal": {
+  "uk": "Попереджати й радити бути обережним."
+ },
+ "rule": {
+  "uk": "Careful — обережний, wise — мудрий, warn — попереджати, warning — попередження, hint — підказка. Приклад: Be careful! It's a wise idea. I warn you. This is a warning. Give me a hint."
+ },
+ "words": [
+  {
+   "id": "careful",
+   "text": "careful",
+   "ipa": "/ˈkeəfl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "обережний"
+   },
+   "example": "Be careful!",
+   "exampleTranslation": {
+    "uk": "Будь обережний!"
+   }
+  },
+  {
+   "id": "wise",
+   "text": "wise",
+   "ipa": "/waɪz/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "мудрий"
+   },
+   "example": "It's a wise idea.",
+   "exampleTranslation": {
+    "uk": "Це мудра ідея."
+   }
+  },
+  {
+   "id": "warn",
+   "text": "warn",
+   "ipa": "/wɔːn/",
+   "pos": "verb",
+   "translation": {
+    "uk": "попереджати"
+   },
+   "example": "I warn you.",
+   "exampleTranslation": {
+    "uk": "Я тебе попереджаю."
+   }
+  },
+  {
+   "id": "warning",
+   "text": "warning",
+   "ipa": "/ˈwɔːnɪŋ/",
+   "pos": "noun",
+   "translation": {
+    "uk": "попередження"
+   },
+   "example": "This is a warning.",
+   "exampleTranslation": {
+    "uk": "Це попередження."
+   }
+  },
+  {
+   "id": "hint",
+   "text": "hint",
+   "ipa": "/hɪnt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "підказка"
+   },
+   "example": "Give me a hint.",
+   "exampleTranslation": {
+    "uk": "Дай мені підказку."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "I'm tired.",
+   "prompt": {
+    "uk": "Повторимо. Порадьте відпочити. Що сказати?"
+   },
+   "options": [
+    "You should rest.",
+    "You should to rest.",
+    "You shoulds rest."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You should rest."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "careful",
+     "right": {
+      "uk": "обережний"
+     }
+    },
+    {
+     "left": "wise",
+     "right": {
+      "uk": "мудрий"
+     }
+    },
+    {
+     "left": "warn",
+     "right": {
+      "uk": "попереджати"
+     }
+    },
+    {
+     "left": "warning",
+     "right": {
+      "uk": "попередження"
+     }
+    },
+    {
+     "left": "hint",
+     "right": {
+      "uk": "підказка"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Be careful!",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Будь обережний",
+     "Біжи",
+     "Стій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Careful."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "It's a wise idea.",
+   "prompt": {
+    "uk": "Прослухайте. Яка ідея?"
+   },
+   "options": {
+    "uk": [
+     "Мудра",
+     "Погана",
+     "Дивна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Wise."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "This is a warning.",
+   "prompt": {
+    "uk": "Прослухайте. Що це?"
+   },
+   "options": {
+    "uk": [
+     "Попередження",
+     "Підказка",
+     "Порада"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Warning."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Be ___!",
+   "options": [
+    "careful",
+    "wise",
+    "hint"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Обережний."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's a ___ idea.",
+   "options": [
+    "wise",
+    "warn",
+    "hint"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Мудра."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "This is a ___.",
+   "options": [
+    "warning",
+    "careful",
+    "wise"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Попередження."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке hint?"
+   },
+   "options": {
+    "uk": [
+     "підказка",
+     "попередження",
+     "мудрий"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hint — підказка."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я тебе попереджаю."
+   },
+   "words": [
+    "I",
+    "warn",
+    "you",
+    "warns",
+    "wise"
+   ],
+   "answer": [
+    "I",
+    "warn",
+    "you"
+   ],
+   "explanation": {
+    "uk": "I warn you."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Дай мені підказку."
+   },
+   "answers": [
+    "Give me a hint"
+   ],
+   "explanation": {
+    "uk": "Give me a hint."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "The road is icy.",
+   "prompt": {
+    "uk": "Попередьте. Що сказати?"
+   },
+   "options": [
+    "You should be careful.",
+    "You should careful be.",
+    "You careful should."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You should be careful."
+   }
+  }
+ ]
+}

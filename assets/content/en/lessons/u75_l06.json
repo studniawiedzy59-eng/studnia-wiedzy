@@ -1,0 +1,284 @@
+{
+ "id": "u75_l06",
+ "unit": "u75",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: правила й обов'язки"
+ },
+ "goal": {
+  "uk": "Закріпити must, mustn't і лексику правил."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: must (треба), mustn't (не можна), правила й закони (rule, law, allowed, forbidden), документи (licence, visa, fee, border) і поведінка (respect, litter, recycle, compulsory)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Must I go to school?",
+   "prompt": {
+    "uk": "Повторимо. Так, обов'язково. Що відповісти?"
+   },
+   "options": [
+    "Yes, you must. It's compulsory.",
+    "Yes, you must to.",
+    "Yes, you must it compulsory."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, you must. It's compulsory."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "You must obey the rules, and you mustn't smoke here.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже оголошення?"
+   },
+   "options": {
+    "uk": [
+     "Треба дотримуватися правил, курити не можна",
+     "Курити можна",
+     "Правил немає"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Must, mustn't."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "You must have a licence and wear a seat belt.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба?"
+   },
+   "options": {
+    "uk": [
+     "Мати посвідчення й пристебнути ремінь",
+     "Платити податок",
+     "Пройти кордон"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Licence, seat belt."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I need a visa, and the fee is ten euros.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Потрібна віза, плата — десять євро",
+     "Потрібен квиток",
+     "Віза безкоштовна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Visa, fee."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You ___ smoke here.",
+   "options": [
+    "mustn't",
+    "must",
+    "visa"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Mustn't."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You ___ wear a seat belt.",
+   "options": [
+    "must",
+    "mustn't",
+    "fee"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Must."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I need a ___.",
+   "options": [
+    "visa",
+    "litter",
+    "silence"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Visa."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке law?"
+   },
+   "options": {
+    "uk": [
+     "закон",
+     "правило",
+     "податок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Law — закон."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Тут не можна курити."
+   },
+   "words": [
+    "You",
+    "mustn't",
+    "smoke",
+    "here",
+    "must",
+    "law"
+   ],
+   "answer": [
+    "You",
+    "mustn't",
+    "smoke",
+    "here"
+   ],
+   "explanation": {
+    "uk": "You mustn't smoke here."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Попросіть дозволу."
+   },
+   "answers": [
+    "Ask for permission"
+   ],
+   "explanation": {
+    "uk": "Ask for permission."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What are the rules?",
+   "prompt": {
+    "uk": "Не можна курити, треба пристебнути ремінь. Що відповісти?"
+   },
+   "options": [
+    "You mustn't smoke and you must wear a seat belt.",
+    "You mustn't to smoke, must seat belt.",
+    "You not must smoke, must belt."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You mustn't smoke and you must wear a seat belt."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви заходите до музею."
+   },
+   "character": {
+    "name": {
+     "uk": "Охоронець"
+    },
+    "avatar": "🛡️"
+   },
+   "line": "Excuse me, you mustn't take photos here.",
+   "options": [
+    "Sorry, I didn't know.",
+    "Sorry, I not knew.",
+    "Sorry, I don't knew."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Didn't know — не знав."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви питаєте, що можна."
+   },
+   "character": {
+    "name": {
+     "uk": "Охоронець"
+    },
+    "avatar": "🛡️"
+   },
+   "line": "Can I eat here?",
+   "options": [
+    "No, you mustn't eat here.",
+    "No, you mustn't to eat here.",
+    "No, you not must eat here."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Mustn't — заборонено."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви питаєте про обов'язкове."
+   },
+   "character": {
+    "name": {
+     "uk": "Охоронець"
+    },
+    "avatar": "🛡️"
+   },
+   "line": "What must I do?",
+   "options": [
+    "You must show your ticket.",
+    "You must to show ticket.",
+    "You musts show your ticket."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Must + base verb."
+   }
+  }
+ ]
+}

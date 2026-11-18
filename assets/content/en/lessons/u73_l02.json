@@ -1,0 +1,324 @@
+{
+ "id": "u73_l02",
+ "unit": "u73",
+ "cefr": "A1",
+ "title": {
+  "uk": "Квитки й контроль"
+ },
+ "goal": {
+  "uk": "Купувати квитки й говорити з контролером."
+ },
+ "rule": {
+  "uk": "Arrival — прибуття, cancel — скасувати, conductor — провідник, inspector — контролер, season ticket — проїзний. Приклад: The arrival is at ten. The train is cancelled. The conductor is kind. Show your season ticket to the inspector."
+ },
+ "words": [
+  {
+   "id": "arrival",
+   "text": "arrival",
+   "ipa": "/əˈraɪvl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "прибуття"
+   },
+   "example": "The arrival is at ten.",
+   "exampleTranslation": {
+    "uk": "Прибуття о десятій."
+   }
+  },
+  {
+   "id": "cancel",
+   "text": "cancel",
+   "ipa": "/ˈkænsl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "скасовувати"
+   },
+   "example": "They cancel the train.",
+   "exampleTranslation": {
+    "uk": "Вони скасовують потяг."
+   }
+  },
+  {
+   "id": "conductor",
+   "text": "conductor",
+   "ipa": "/kənˈdʌktə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "провідник"
+   },
+   "example": "The conductor is kind.",
+   "exampleTranslation": {
+    "uk": "Провідник добрий."
+   }
+  },
+  {
+   "id": "inspector",
+   "text": "inspector",
+   "ipa": "/ɪnˈspektə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "контролер"
+   },
+   "example": "The inspector checks tickets.",
+   "exampleTranslation": {
+    "uk": "Контролер перевіряє квитки."
+   }
+  },
+  {
+   "id": "season_ticket",
+   "text": "season ticket",
+   "ipa": "/ˈsiːzn ˌtɪkɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "проїзний"
+   },
+   "example": "I have a season ticket.",
+   "exampleTranslation": {
+    "uk": "У мене є проїзний."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "When is the departure?",
+   "prompt": {
+    "uk": "Повторимо. О дев'ятій. Що відповісти?"
+   },
+   "options": [
+    "The departure is at nine.",
+    "Departure at nine is.",
+    "The departure are nine."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The departure is at nine."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "arrival",
+     "right": {
+      "uk": "прибуття"
+     }
+    },
+    {
+     "left": "cancel",
+     "right": {
+      "uk": "скасовувати"
+     }
+    },
+    {
+     "left": "conductor",
+     "right": {
+      "uk": "провідник"
+     }
+    },
+    {
+     "left": "inspector",
+     "right": {
+      "uk": "контролер"
+     }
+    },
+    {
+     "left": "season ticket",
+     "right": {
+      "uk": "проїзний"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "The arrival is at ten.",
+   "prompt": {
+    "uk": "Прослухайте. Коли прибуття?"
+   },
+   "options": {
+    "uk": [
+     "О десятій",
+     "О дев'ятій",
+     "О одинадцятій"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ten."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The inspector checks tickets.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить контролер?"
+   },
+   "options": {
+    "uk": [
+     "Перевіряє квитки",
+     "Продає квитки",
+     "Скасовує квитки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Checks."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I have a season ticket.",
+   "prompt": {
+    "uk": "Прослухайте. Що має людина?"
+   },
+   "options": {
+    "uk": [
+     "Проїзний",
+     "Звичайний квиток",
+     "Нічого"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Season ticket."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is at ten.",
+   "options": [
+    "arrival",
+    "departure",
+    "conductor"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Прибуття."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ checks tickets.",
+   "options": [
+    "inspector",
+    "commuter",
+    "arrival"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Контролер."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I have a ___.",
+   "options": [
+    "season ticket",
+    "cancel",
+    "delay"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Проїзний."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке conductor?"
+   },
+   "options": {
+    "uk": [
+     "провідник",
+     "контролер",
+     "проїзний"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Conductor — провідник."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "У мене є проїзний."
+   },
+   "words": [
+    "I",
+    "have",
+    "a",
+    "season",
+    "ticket",
+    "has",
+    "cancel"
+   ],
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "season",
+    "ticket"
+   ],
+   "explanation": {
+    "uk": "I have a season ticket."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Контролер перевіряє квитки."
+   },
+   "answers": [
+    "The inspector checks tickets"
+   ],
+   "explanation": {
+    "uk": "The inspector checks tickets."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Do you have a ticket?",
+   "prompt": {
+    "uk": "У вас є проїзний. Що відповісти?"
+   },
+   "options": [
+    "Yes, I have a season ticket.",
+    "Yes, I has season ticket.",
+    "Yes, season ticket I am."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I have a season ticket."
+   }
+  }
+ ]
+}

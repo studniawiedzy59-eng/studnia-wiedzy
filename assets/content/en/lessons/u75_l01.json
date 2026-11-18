@@ -1,0 +1,322 @@
+{
+ "id": "u75_l01",
+ "unit": "u75",
+ "cefr": "A1",
+ "title": {
+  "uk": "Обов'язок і заборона: must"
+ },
+ "goal": {
+  "uk": "Говорити про правила зі словами must і mustn't."
+ },
+ "rule": {
+  "uk": "Must + дієслово без to — «треба, обов'язково»: You must wear a seat belt. Mustn't — «заборонено, не можна»: You mustn't smoke here. Don't have to — «не обов'язково» (це інше, ніж mustn't!). Нові слова: rule, law, allowed."
+ },
+ "words": [
+  {
+   "id": "must",
+   "text": "must",
+   "ipa": "/mʌst/",
+   "pos": "verb",
+   "translation": {
+    "uk": "треба, мусити"
+   },
+   "example": "You must stop at a red light.",
+   "exampleTranslation": {
+    "uk": "Треба зупинятися на червоне."
+   }
+  },
+  {
+   "id": "mustnt",
+   "text": "mustn't",
+   "ipa": "/ˈmʌsnt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "не можна, заборонено"
+   },
+   "example": "You mustn't smoke here.",
+   "exampleTranslation": {
+    "uk": "Тут не можна курити."
+   }
+  },
+  {
+   "id": "rule",
+   "text": "rule",
+   "ipa": "/ruːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "правило"
+   },
+   "example": "This is a school rule.",
+   "exampleTranslation": {
+    "uk": "Це шкільне правило."
+   }
+  },
+  {
+   "id": "law",
+   "text": "law",
+   "ipa": "/lɔː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "закон"
+   },
+   "example": "It's the law.",
+   "exampleTranslation": {
+    "uk": "Так велить закон."
+   }
+  },
+  {
+   "id": "allowed",
+   "text": "allowed",
+   "ipa": "/əˈlaʊd/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "дозволений"
+   },
+   "example": "Dogs are not allowed here.",
+   "exampleTranslation": {
+    "uk": "Тут не можна з собаками."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "I'm stressed.",
+   "prompt": {
+    "uk": "Повторимо. Порадьте відпочити й уникати стресу. Що сказати?"
+   },
+   "options": [
+    "You should rest and avoid stress.",
+    "You should resting and avoid stress.",
+    "You rest should avoid stress."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You should rest and avoid stress."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "must",
+     "right": {
+      "uk": "треба, мусити"
+     }
+    },
+    {
+     "left": "mustn't",
+     "right": {
+      "uk": "не можна, заборонено"
+     }
+    },
+    {
+     "left": "rule",
+     "right": {
+      "uk": "правило"
+     }
+    },
+    {
+     "left": "law",
+     "right": {
+      "uk": "закон"
+     }
+    },
+    {
+     "left": "allowed",
+     "right": {
+      "uk": "дозволений"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "You must stop at a red light.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба?"
+   },
+   "options": {
+    "uk": [
+     "Зупинитися на червоне",
+     "Їхати далі",
+     "Подзвонити"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Must."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "You mustn't smoke here.",
+   "prompt": {
+    "uk": "Прослухайте. Що заборонено?"
+   },
+   "options": {
+    "uk": [
+     "Курити",
+     "Їсти",
+     "Спати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Mustn't."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Dogs are not allowed here.",
+   "prompt": {
+    "uk": "Прослухайте. Що тут не дозволено?"
+   },
+   "options": {
+    "uk": [
+     "Собаки",
+     "Діти",
+     "Кішки"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Not allowed."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You ___ stop at a red light.",
+   "options": [
+    "must",
+    "mustn't",
+    "law"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Must."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You ___ smoke here.",
+   "options": [
+    "mustn't",
+    "must",
+    "rule"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Заборона."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Dogs are not ___ here.",
+   "options": [
+    "allowed",
+    "rule",
+    "law"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Allowed."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що значить mustn't?"
+   },
+   "options": {
+    "uk": [
+     "не можна",
+     "не обов'язково",
+     "можна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Mustn't — заборонено."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Тут не можна курити."
+   },
+   "words": [
+    "You",
+    "mustn't",
+    "smoke",
+    "here",
+    "must",
+    "law"
+   ],
+   "answer": [
+    "You",
+    "mustn't",
+    "smoke",
+    "here"
+   ],
+   "explanation": {
+    "uk": "You mustn't smoke here."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Це шкільне правило."
+   },
+   "answers": [
+    "This is a school rule"
+   ],
+   "explanation": {
+    "uk": "This is a school rule."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Can I smoke here?",
+   "prompt": {
+    "uk": "Тут заборонено. Що відповісти?"
+   },
+   "options": [
+    "No, you mustn't.",
+    "No, you mustn't to.",
+    "No, you not must."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "No, you mustn't."
+   }
+  }
+ ]
+}

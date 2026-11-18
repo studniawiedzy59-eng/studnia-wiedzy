@@ -1,0 +1,318 @@
+{
+ "id": "u74_l03",
+ "unit": "u74",
+ "cefr": "A1",
+ "title": {
+  "uk": "Чого уникати"
+ },
+ "goal": {
+  "uk": "Радити чого уникати."
+ },
+ "rule": {
+  "uk": "Secret — секрет, quit — кинути, avoid — уникати, reduce — зменшувати, waste — марнувати. Приклад: It's a secret. You should quit. Avoid stress. Reduce sugar. Don't waste time."
+ },
+ "words": [
+  {
+   "id": "secret",
+   "text": "secret",
+   "ipa": "/ˈsiːkrət/",
+   "pos": "noun",
+   "translation": {
+    "uk": "секрет"
+   },
+   "example": "It's a secret.",
+   "exampleTranslation": {
+    "uk": "Це секрет."
+   }
+  },
+  {
+   "id": "quit",
+   "text": "quit",
+   "ipa": "/kwɪt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "кидати"
+   },
+   "example": "You should quit.",
+   "exampleTranslation": {
+    "uk": "Тобі варто кинути."
+   }
+  },
+  {
+   "id": "avoid",
+   "text": "avoid",
+   "ipa": "/əˈvɔɪd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "уникати"
+   },
+   "example": "Avoid stress.",
+   "exampleTranslation": {
+    "uk": "Уникай стресу."
+   }
+  },
+  {
+   "id": "reduce",
+   "text": "reduce",
+   "ipa": "/rɪˈdjuːs/",
+   "pos": "verb",
+   "translation": {
+    "uk": "зменшувати"
+   },
+   "example": "Reduce sugar.",
+   "exampleTranslation": {
+    "uk": "Зменш цукор."
+   }
+  },
+  {
+   "id": "waste",
+   "text": "waste",
+   "ipa": "/weɪst/",
+   "pos": "verb",
+   "translation": {
+    "uk": "марнувати"
+   },
+   "example": "Don't waste time.",
+   "exampleTranslation": {
+    "uk": "Не марнуй час."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "The road is icy.",
+   "prompt": {
+    "uk": "Повторимо. Попередьте. Що сказати?"
+   },
+   "options": [
+    "You should be careful.",
+    "You should careful be.",
+    "You careful should."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You should be careful."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "secret",
+     "right": {
+      "uk": "секрет"
+     }
+    },
+    {
+     "left": "quit",
+     "right": {
+      "uk": "кидати"
+     }
+    },
+    {
+     "left": "avoid",
+     "right": {
+      "uk": "уникати"
+     }
+    },
+    {
+     "left": "reduce",
+     "right": {
+      "uk": "зменшувати"
+     }
+    },
+    {
+     "left": "waste",
+     "right": {
+      "uk": "марнувати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "It's a secret.",
+   "prompt": {
+    "uk": "Прослухайте. Що це?"
+   },
+   "options": {
+    "uk": [
+     "Секрет",
+     "Порада",
+     "Підказка"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Secret."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Avoid stress.",
+   "prompt": {
+    "uk": "Прослухайте. Яка порада?"
+   },
+   "options": {
+    "uk": [
+     "Уникай стресу",
+     "Люби стрес",
+     "Шукай стрес"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Avoid."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Don't waste time.",
+   "prompt": {
+    "uk": "Прослухайте. Яка порада?"
+   },
+   "options": {
+    "uk": [
+     "Не марнуй час",
+     "Марнуй час",
+     "Купи час"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Waste."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's a ___.",
+   "options": [
+    "secret",
+    "quit",
+    "waste"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Секрет."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ stress.",
+   "options": [
+    "Avoid",
+    "Secret",
+    "Waste"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Avoid."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ sugar.",
+   "options": [
+    "Reduce",
+    "Secret",
+    "Hint"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Reduce."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що значить waste?"
+   },
+   "options": {
+    "uk": [
+     "марнувати",
+     "кинути",
+     "уникати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Waste — марнувати."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Уникай стресу."
+   },
+   "words": [
+    "Avoid",
+    "stress",
+    "avoids",
+    "waste"
+   ],
+   "answer": [
+    "Avoid",
+    "stress"
+   ],
+   "explanation": {
+    "uk": "Avoid stress."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Не марнуй час."
+   },
+   "answers": [
+    "Don't waste time"
+   ],
+   "explanation": {
+    "uk": "Don't waste time."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "I eat too much sugar.",
+   "prompt": {
+    "uk": "Порадьте зменшити. Що сказати?"
+   },
+   "options": [
+    "You should reduce sugar.",
+    "You should reducing sugar.",
+    "You reduce should sugar."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You should reduce sugar."
+   }
+  }
+ ]
+}

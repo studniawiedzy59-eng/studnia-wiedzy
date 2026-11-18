@@ -1,0 +1,320 @@
+{
+ "id": "u75_l05",
+ "unit": "u75",
+ "cefr": "A1",
+ "title": {
+  "uk": "Поведінка"
+ },
+ "goal": {
+  "uk": "Говорити про поведінку в громадських місцях."
+ },
+ "rule": {
+  "uk": "Respect — повага, silence — тиша, litter — сміття (на вулиці), recycle — переробляти, compulsory — обов'язковий. Приклад: Show respect. Silence, please. Don't drop litter. We recycle plastic. School is compulsory."
+ },
+ "words": [
+  {
+   "id": "respect",
+   "text": "respect",
+   "ipa": "/rɪˈspekt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "повага"
+   },
+   "example": "Show respect.",
+   "exampleTranslation": {
+    "uk": "Виявляйте повагу."
+   }
+  },
+  {
+   "id": "silence",
+   "text": "silence",
+   "ipa": "/ˈsaɪləns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "тиша"
+   },
+   "example": "Silence, please.",
+   "exampleTranslation": {
+    "uk": "Тихіше, будь ласка."
+   }
+  },
+  {
+   "id": "litter",
+   "text": "litter",
+   "ipa": "/ˈlɪtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "сміття (на вулиці)"
+   },
+   "example": "Don't drop litter.",
+   "exampleTranslation": {
+    "uk": "Не смітіть."
+   }
+  },
+  {
+   "id": "recycle",
+   "text": "recycle",
+   "ipa": "/ˌriːˈsaɪkl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "переробляти"
+   },
+   "example": "We recycle plastic.",
+   "exampleTranslation": {
+    "uk": "Ми переробляємо пластик."
+   }
+  },
+  {
+   "id": "compulsory",
+   "text": "compulsory",
+   "ipa": "/kəmˈpʌlsəri/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "обов'язковий"
+   },
+   "example": "School is compulsory.",
+   "exampleTranslation": {
+    "uk": "Школа обов'язкова."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What do you need to travel?",
+   "prompt": {
+    "uk": "Повторимо. Візу. Що відповісти?"
+   },
+   "options": [
+    "I need a visa.",
+    "I needs a visa.",
+    "I am need visa."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I need a visa."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "respect",
+     "right": {
+      "uk": "повага"
+     }
+    },
+    {
+     "left": "silence",
+     "right": {
+      "uk": "тиша"
+     }
+    },
+    {
+     "left": "litter",
+     "right": {
+      "uk": "сміття (на вулиці)"
+     }
+    },
+    {
+     "left": "recycle",
+     "right": {
+      "uk": "переробляти"
+     }
+    },
+    {
+     "left": "compulsory",
+     "right": {
+      "uk": "обов'язковий"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Show respect.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба виявляти?"
+   },
+   "options": {
+    "uk": [
+     "Повагу",
+     "Страх",
+     "Злість"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Respect."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Don't drop litter.",
+   "prompt": {
+    "uk": "Прослухайте. Що заборонено?"
+   },
+   "options": {
+    "uk": [
+     "Смітити",
+     "Співати",
+     "Бігти"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Litter."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "School is compulsory.",
+   "prompt": {
+    "uk": "Прослухайте. Яка школа?"
+   },
+   "options": {
+    "uk": [
+     "Обов'язкова",
+     "Приватна",
+     "Нова"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Compulsory."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Show ___.",
+   "options": [
+    "respect",
+    "litter",
+    "silence"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Повага."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___, please.",
+   "options": [
+    "Silence",
+    "Respect",
+    "Litter"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Тиша."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "We ___ plastic.",
+   "options": [
+    "recycle",
+    "respect",
+    "litter"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Переробляємо."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке litter?"
+   },
+   "options": {
+    "uk": [
+     "сміття на вулиці",
+     "тиша",
+     "повага"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Litter — сміття."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Не смітіть."
+   },
+   "words": [
+    "Don't",
+    "drop",
+    "litter",
+    "doesn't",
+    "silence"
+   ],
+   "answer": [
+    "Don't",
+    "drop",
+    "litter"
+   ],
+   "explanation": {
+    "uk": "Don't drop litter."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Школа обов'язкова."
+   },
+   "answers": [
+    "School is compulsory"
+   ],
+   "explanation": {
+    "uk": "School is compulsory."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Must I go to school?",
+   "prompt": {
+    "uk": "Так, обов'язково. Що відповісти?"
+   },
+   "options": [
+    "Yes, you must. It's compulsory.",
+    "Yes, you must to.",
+    "Yes, you must it compulsory."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, you must. It's compulsory."
+   }
+  }
+ ]
+}

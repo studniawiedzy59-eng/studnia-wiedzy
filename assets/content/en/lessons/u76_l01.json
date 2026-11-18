@@ -1,0 +1,322 @@
+{
+ "id": "u76_l01",
+ "unit": "u76",
+ "cefr": "A1",
+ "title": {
+  "uk": "Дзвінок"
+ },
+ "goal": {
+  "uk": "Починати й закінчувати телефонну розмову."
+ },
+ "rule": {
+  "uk": "Hang up — покласти слухавку, dial — набирати номер, speaker — гучномовець, receptionist — адміністратор, operator — оператор. Приклад: Hello, this is Anna speaking. I dial the number. Please don't hang up. I'm on speaker."
+ },
+ "words": [
+  {
+   "id": "hang_up",
+   "text": "hang up",
+   "ipa": "/ˌhæŋ ˈʌp/",
+   "pos": "verb",
+   "translation": {
+    "uk": "класти слухавку"
+   },
+   "example": "Please don't hang up.",
+   "exampleTranslation": {
+    "uk": "Не клади слухавку, будь ласка."
+   }
+  },
+  {
+   "id": "dial",
+   "text": "dial",
+   "ipa": "/ˈdaɪəl/",
+   "pos": "verb",
+   "translation": {
+    "uk": "набирати номер"
+   },
+   "example": "I dial the number.",
+   "exampleTranslation": {
+    "uk": "Я набираю номер."
+   }
+  },
+  {
+   "id": "speaker",
+   "text": "speaker",
+   "ipa": "/ˈspiːkə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "гучномовець"
+   },
+   "example": "I'm on speaker.",
+   "exampleTranslation": {
+    "uk": "Ти на гучномовці."
+   }
+  },
+  {
+   "id": "receptionist",
+   "text": "receptionist",
+   "ipa": "/rɪˈsepʃənɪst/",
+   "pos": "noun",
+   "translation": {
+    "uk": "адміністратор"
+   },
+   "example": "The receptionist answers.",
+   "exampleTranslation": {
+    "uk": "Адміністратор відповідає."
+   }
+  },
+  {
+   "id": "operator",
+   "text": "operator",
+   "ipa": "/ˈɒpəreɪtə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "оператор"
+   },
+   "example": "I call the operator.",
+   "exampleTranslation": {
+    "uk": "Я дзвоню оператору."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What are the rules?",
+   "prompt": {
+    "uk": "Повторимо. Не можна курити, треба пристебнути ремінь. Що відповісти?"
+   },
+   "options": [
+    "You mustn't smoke and you must wear a seat belt.",
+    "You mustn't to smoke, must seat belt.",
+    "You not must smoke, must belt."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You mustn't smoke and you must wear a seat belt."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "hang up",
+     "right": {
+      "uk": "класти слухавку"
+     }
+    },
+    {
+     "left": "dial",
+     "right": {
+      "uk": "набирати номер"
+     }
+    },
+    {
+     "left": "speaker",
+     "right": {
+      "uk": "гучномовець"
+     }
+    },
+    {
+     "left": "receptionist",
+     "right": {
+      "uk": "адміністратор"
+     }
+    },
+    {
+     "left": "operator",
+     "right": {
+      "uk": "оператор"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Please don't hang up.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Не класти слухавку",
+     "Передзвонити",
+     "Говорити голосніше"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hang up."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I dial the number.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Набирає номер",
+     "Чекає",
+     "Кладе слухавку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Dial."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The receptionist answers.",
+   "prompt": {
+    "uk": "Прослухайте. Хто відповідає?"
+   },
+   "options": {
+    "uk": [
+     "Адміністратор",
+     "Оператор",
+     "Лікар"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Receptionist."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Please don't ___ up.",
+   "options": [
+    "hang",
+    "dial",
+    "speaker"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hang up."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ the number.",
+   "options": [
+    "dial",
+    "hang",
+    "operator"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Dial."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ answers.",
+   "options": [
+    "receptionist",
+    "speaker",
+    "hang up"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Адміністратор."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що значить hang up?"
+   },
+   "options": {
+    "uk": [
+     "класти слухавку",
+     "набирати номер",
+     "відповідати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Hang up — покласти слухавку."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я набираю номер."
+   },
+   "words": [
+    "I",
+    "dial",
+    "the",
+    "number",
+    "dials",
+    "hang"
+   ],
+   "answer": [
+    "I",
+    "dial",
+    "the",
+    "number"
+   ],
+   "explanation": {
+    "uk": "I dial the number."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Не клади слухавку, будь ласка."
+   },
+   "answers": [
+    "Please don't hang up"
+   ],
+   "explanation": {
+    "uk": "Please don't hang up."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "Hello, is that the hotel?",
+   "prompt": {
+    "uk": "Привітайтеся: це адміністратор. Що сказати?"
+   },
+   "options": [
+    "Yes, this is the receptionist.",
+    "Yes, I am receptionist.",
+    "Yes, that is receptionist."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, this is the receptionist."
+   }
+  }
+ ]
+}

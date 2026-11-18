@@ -1,0 +1,284 @@
+{
+ "id": "u76_l06",
+ "unit": "u76",
+ "cefr": "A1",
+ "review": true,
+ "title": {
+  "uk": "Повторення: телефонна розмова"
+ },
+ "goal": {
+  "uk": "Закріпити лексику телефону."
+ },
+ "rule": {
+  "uk": "Нових слів немає. Повторюємо: дзвінок (hang up, dial, receptionist, operator), повідомлення (missed call, volume, text message), чіткість (voice, clearly, microphone, earphones), домовленості (confirm, reschedule, on hold, extension) і відеодзвінки (delete, video call, speak up, put through)."
+ },
+ "words": [],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "I can't hear you well.",
+   "prompt": {
+    "uk": "Повторимо. Попросіть говорити голосніше. Що сказати?"
+   },
+   "options": [
+    "Please speak up.",
+    "Please speaking up.",
+    "Speak you up please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Please speak up."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "listening",
+   "audioText": "I'm on speaker, so please speak clearly.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Вона на гучномовці, говоріть чітко",
+     "Вона поклала слухавку",
+     "Вона на очікуванні"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Speaker, clearly."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "I have a missed call, so I dial the number.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "Набирає номер після пропущеного дзвінка",
+     "Видаляє повідомлення",
+     "Підтверджує зустріч"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Missed call, dial."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I confirm the meeting, and I'll put you through.",
+   "prompt": {
+    "uk": "Прослухайте. Що каже людина?"
+   },
+   "options": {
+    "uk": [
+     "Підтверджує зустріч і з'єднує",
+     "Скасовує зустріч",
+     "Кладе слухавку"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Confirm, put through."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Please don't ___ up.",
+   "options": [
+    "hang",
+    "confirm",
+    "volume"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Hang up."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I ___ the meeting.",
+   "options": [
+    "confirm",
+    "delete",
+    "dial"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Confirm."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Please speak ___.",
+   "options": [
+    "clearly",
+    "voice",
+    "caller"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Clearly."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке caller?"
+   },
+   "options": {
+    "uk": [
+     "той, хто дзвонить",
+     "оператор",
+     "голос"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Caller — той, хто дзвонить."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Я набираю номер."
+   },
+   "words": [
+    "I",
+    "dial",
+    "the",
+    "number",
+    "dials",
+    "hang"
+   ],
+   "answer": [
+    "I",
+    "dial",
+    "the",
+    "number"
+   ],
+   "explanation": {
+    "uk": "I dial the number."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "translate",
+   "prompt": {
+    "uk": "Можемо перенести?"
+   },
+   "answers": [
+    "Can we reschedule"
+   ],
+   "explanation": {
+    "uk": "Can we reschedule?"
+   }
+  },
+  {
+   "id": "e11",
+   "type": "listening",
+   "audioText": "What do you say on the phone?",
+   "prompt": {
+    "uk": "Це Анна, говоріть чітко. Що відповісти?"
+   },
+   "options": [
+    "This is Anna speaking. Please speak clearly.",
+    "I am Anna speak. Speak clearly please.",
+    "Anna speaking is. Clear speak."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "This is Anna speaking. Please speak clearly."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Ви телефонуєте до готелю."
+   },
+   "character": {
+    "name": {
+     "uk": "Адміністратор готелю"
+    },
+    "avatar": "📞"
+   },
+   "line": "Hello, this is the receptionist.",
+   "options": [
+    "Hello, I'd like to confirm my room.",
+    "Hello, I confirm to my room.",
+    "Hello, confirm my room I."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Confirm — підтвердити."
+   }
+  },
+  {
+   "id": "e13",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Зв'язок поганий."
+   },
+   "character": {
+    "name": {
+     "uk": "Адміністратор готелю"
+    },
+    "avatar": "📞"
+   },
+   "line": "Sorry, I can't hear you.",
+   "options": [
+    "Please speak up, I can't hear you.",
+    "Please speaking up.",
+    "Speak you up please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Speak up — говорити голосніше."
+   }
+  },
+  {
+   "id": "e14",
+   "type": "dialogue",
+   "prompt": {
+    "uk": "Вам треба перенести бронювання."
+   },
+   "character": {
+    "name": {
+     "uk": "Адміністратор готелю"
+    },
+    "avatar": "📞"
+   },
+   "line": "How can I help you?",
+   "options": [
+    "Can we reschedule my booking?",
+    "Can we rescheduling booking?",
+    "We can reschedule to booking?"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Reschedule — перенести."
+   }
+  }
+ ]
+}

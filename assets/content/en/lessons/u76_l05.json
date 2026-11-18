@@ -1,0 +1,320 @@
+{
+ "id": "u76_l05",
+ "unit": "u76",
+ "cefr": "A1",
+ "title": {
+  "uk": "Розмова з кількома людьми"
+ },
+ "goal": {
+  "uk": "Користуватися онлайн-розмовою."
+ },
+ "rule": {
+  "uk": "Delete — видаляти, conference — конференція, video call — відеодзвінок, speak up — говорити голосніше, put through — з'єднати. Приклад: Delete the message. A conference call. Let's have a video call. Please speak up. I'll put you through."
+ },
+ "words": [
+  {
+   "id": "delete",
+   "text": "delete",
+   "ipa": "/dɪˈliːt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "видаляти"
+   },
+   "example": "Delete the message.",
+   "exampleTranslation": {
+    "uk": "Видаліть повідомлення."
+   }
+  },
+  {
+   "id": "conference",
+   "text": "conference",
+   "ipa": "/ˈkɒnfərəns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "конференція"
+   },
+   "example": "We have a conference call.",
+   "exampleTranslation": {
+    "uk": "У нас конференц-дзвінок."
+   }
+  },
+  {
+   "id": "video_call",
+   "text": "video call",
+   "ipa": "/ˈvɪdiəʊ kɔːl/",
+   "pos": "noun",
+   "translation": {
+    "uk": "відеодзвінок"
+   },
+   "example": "Let's have a video call.",
+   "exampleTranslation": {
+    "uk": "Давайте зробимо відеодзвінок."
+   }
+  },
+  {
+   "id": "speak_up",
+   "text": "speak up",
+   "ipa": "/ˌspiːk ˈʌp/",
+   "pos": "verb",
+   "translation": {
+    "uk": "говорити голосніше"
+   },
+   "example": "Please speak up.",
+   "exampleTranslation": {
+    "uk": "Говоріть голосніше, будь ласка."
+   }
+  },
+  {
+   "id": "put_through",
+   "text": "put through",
+   "ipa": "/ˌpʊt ˈθruː/",
+   "pos": "verb",
+   "translation": {
+    "uk": "з'єднати"
+   },
+   "example": "I'll put you through.",
+   "exampleTranslation": {
+    "uk": "Я вас з'єдную."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Is the meeting at three?",
+   "prompt": {
+    "uk": "Повторимо. Підтвердіть. Що сказати?"
+   },
+   "options": [
+    "Yes, I confirm.",
+    "Yes, I confirming.",
+    "Yes, confirm I."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Yes, I confirm."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "delete",
+     "right": {
+      "uk": "видаляти"
+     }
+    },
+    {
+     "left": "conference",
+     "right": {
+      "uk": "конференція"
+     }
+    },
+    {
+     "left": "video call",
+     "right": {
+      "uk": "відеодзвінок"
+     }
+    },
+    {
+     "left": "speak up",
+     "right": {
+      "uk": "говорити голосніше"
+     }
+    },
+    {
+     "left": "put through",
+     "right": {
+      "uk": "з'єднати"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Delete the message.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба зробити?"
+   },
+   "options": {
+    "uk": [
+     "Видалити повідомлення",
+     "Прочитати",
+     "Надіслати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Delete."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "Let's have a video call.",
+   "prompt": {
+    "uk": "Прослухайте. Що пропонує людина?"
+   },
+   "options": {
+    "uk": [
+     "Відеодзвінок",
+     "SMS",
+     "Лист"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Video call."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I'll put you through.",
+   "prompt": {
+    "uk": "Прослухайте. Що робить людина?"
+   },
+   "options": {
+    "uk": [
+     "З'єднує",
+     "Кладе слухавку",
+     "Прощається"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Put through."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "___ the message.",
+   "options": [
+    "Delete",
+    "Conference",
+    "Volume"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Видаліть."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Let's have a ___ call.",
+   "options": [
+    "video",
+    "speak up",
+    "delete"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Video call."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Please ___ up.",
+   "options": [
+    "speak",
+    "delete",
+    "put"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Speak up."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що значить put through?"
+   },
+   "options": {
+    "uk": [
+     "з'єднати",
+     "видалити",
+     "підтвердити"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Put through — з'єднати."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Говоріть голосніше, будь ласка."
+   },
+   "words": [
+    "Please",
+    "speak",
+    "up",
+    "speaks",
+    "delete"
+   ],
+   "answer": [
+    "Please",
+    "speak",
+    "up"
+   ],
+   "explanation": {
+    "uk": "Please speak up."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Давайте зробимо відеодзвінок."
+   },
+   "answers": [
+    "Let's have a video call"
+   ],
+   "explanation": {
+    "uk": "Let's have a video call."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "I can't hear you well.",
+   "prompt": {
+    "uk": "Попросіть говорити голосніше. Що сказати?"
+   },
+   "options": [
+    "Please speak up.",
+    "Please speaking up.",
+    "Speak you up please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Please speak up."
+   }
+  }
+ ]
+}

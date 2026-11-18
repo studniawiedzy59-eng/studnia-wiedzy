@@ -1,0 +1,320 @@
+{
+ "id": "u74_l01",
+ "unit": "u74",
+ "cefr": "A1",
+ "title": {
+  "uk": "Що варто робити: should"
+ },
+ "goal": {
+  "uk": "Давати пораду зі словом should."
+ },
+ "rule": {
+  "uk": "Should + дієслово без to — «варто, слід»: You should rest. Заперечення: shouldn't — «не варто»: You shouldn't work late. Нові слова: diet — раціон, vitamin — вітамін, stress — стрес."
+ },
+ "words": [
+  {
+   "id": "should",
+   "text": "should",
+   "ipa": "/ʃʊd/",
+   "pos": "verb",
+   "translation": {
+    "uk": "варто, слід"
+   },
+   "example": "You should rest.",
+   "exampleTranslation": {
+    "uk": "Тобі варто відпочити."
+   }
+  },
+  {
+   "id": "shouldnt",
+   "text": "shouldn't",
+   "ipa": "/ˈʃʊdnt/",
+   "pos": "verb",
+   "translation": {
+    "uk": "не варто"
+   },
+   "example": "You shouldn't work late.",
+   "exampleTranslation": {
+    "uk": "Не варто працювати допізна."
+   }
+  },
+  {
+   "id": "diet",
+   "text": "diet",
+   "ipa": "/ˈdaɪət/",
+   "pos": "noun",
+   "translation": {
+    "uk": "раціон, дієта"
+   },
+   "example": "A healthy diet is important.",
+   "exampleTranslation": {
+    "uk": "Здоровий раціон важливий."
+   }
+  },
+  {
+   "id": "vitamin",
+   "text": "vitamin",
+   "ipa": "/ˈvɪtəmɪn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "вітамін"
+   },
+   "example": "I take a vitamin every day.",
+   "exampleTranslation": {
+    "uk": "Я щодня приймаю вітамін."
+   }
+  },
+  {
+   "id": "stress",
+   "text": "stress",
+   "ipa": "/stres/",
+   "pos": "noun",
+   "translation": {
+    "uk": "стрес"
+   },
+   "example": "Stress is bad for you.",
+   "exampleTranslation": {
+    "uk": "Стрес шкодить тобі."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What's the matter?",
+   "prompt": {
+    "uk": "Повторимо. Болить спина, і в мене температура. Що відповісти?"
+   },
+   "options": [
+    "I have a backache and a fever.",
+    "I have backache and fever.",
+    "I am have a backache and fever."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a backache and a fever."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "should",
+     "right": {
+      "uk": "варто, слід"
+     }
+    },
+    {
+     "left": "shouldn't",
+     "right": {
+      "uk": "не варто"
+     }
+    },
+    {
+     "left": "diet",
+     "right": {
+      "uk": "раціон, дієта"
+     }
+    },
+    {
+     "left": "vitamin",
+     "right": {
+      "uk": "вітамін"
+     }
+    },
+    {
+     "left": "stress",
+     "right": {
+      "uk": "стрес"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "You should rest.",
+   "prompt": {
+    "uk": "Прослухайте. Яка порада?"
+   },
+   "options": {
+    "uk": [
+     "Відпочити",
+     "Працювати",
+     "Бігти"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Rest."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "You shouldn't work late.",
+   "prompt": {
+    "uk": "Прослухайте. Яка порада?"
+   },
+   "options": {
+    "uk": [
+     "Не працювати допізна",
+     "Працювати допізна",
+     "Піти додому"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Shouldn't."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Stress is bad for you.",
+   "prompt": {
+    "uk": "Прослухайте. Що шкодить?"
+   },
+   "options": {
+    "uk": [
+     "Стрес",
+     "Вітамін",
+     "Раціон"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Stress."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You ___ rest.",
+   "options": [
+    "should",
+    "shouldn't",
+    "stress"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Should + rest."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You ___ work late.",
+   "options": [
+    "shouldn't",
+    "should",
+    "diet"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Не варто."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "A healthy ___ is important.",
+   "options": [
+    "diet",
+    "should",
+    "stress"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Раціон."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що значить shouldn't?"
+   },
+   "options": {
+    "uk": [
+     "не варто",
+     "варто",
+     "можна"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Shouldn't — не варто."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Тобі варто відпочити."
+   },
+   "words": [
+    "You",
+    "should",
+    "rest",
+    "shoulds",
+    "stress"
+   ],
+   "answer": [
+    "You",
+    "should",
+    "rest"
+   ],
+   "explanation": {
+    "uk": "You should rest."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Не варто працювати допізна."
+   },
+   "answers": [
+    "You shouldn't work late"
+   ],
+   "explanation": {
+    "uk": "You shouldn't work late."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "I'm tired.",
+   "prompt": {
+    "uk": "Порадьте відпочити. Що сказати?"
+   },
+   "options": [
+    "You should rest.",
+    "You should to rest.",
+    "You shoulds rest."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You should rest."
+   }
+  }
+ ]
+}

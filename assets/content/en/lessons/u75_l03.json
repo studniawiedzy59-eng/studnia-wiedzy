@@ -1,0 +1,326 @@
+{
+ "id": "u75_l03",
+ "unit": "u75",
+ "cefr": "A1",
+ "title": {
+  "uk": "Безпека на дорозі"
+ },
+ "goal": {
+  "uk": "Знати правила безпеки."
+ },
+ "rule": {
+  "uk": "Duty — обов'язок, responsible — відповідальний, safety — безпека, seat belt — ремінь безпеки, speed limit — обмеження швидкості. Приклад: It's your duty. I'm responsible. Safety first! You must wear a seat belt. The speed limit is fifty."
+ },
+ "words": [
+  {
+   "id": "duty",
+   "text": "duty",
+   "ipa": "/ˈdjuːti/",
+   "pos": "noun",
+   "translation": {
+    "uk": "обов'язок"
+   },
+   "example": "It's your duty.",
+   "exampleTranslation": {
+    "uk": "Це твій обов'язок."
+   }
+  },
+  {
+   "id": "responsible",
+   "text": "responsible",
+   "ipa": "/rɪˈspɒnsəbl/",
+   "pos": "adjective",
+   "translation": {
+    "uk": "відповідальний"
+   },
+   "example": "I'm responsible for the group.",
+   "exampleTranslation": {
+    "uk": "Я відповідаю за групу."
+   }
+  },
+  {
+   "id": "safety",
+   "text": "safety",
+   "ipa": "/ˈseɪfti/",
+   "pos": "noun",
+   "translation": {
+    "uk": "безпека"
+   },
+   "example": "Safety first!",
+   "exampleTranslation": {
+    "uk": "Безпека понад усе!"
+   }
+  },
+  {
+   "id": "seat_belt",
+   "text": "seat belt",
+   "ipa": "/ˈsiːt belt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "ремінь безпеки"
+   },
+   "example": "You must wear a seat belt.",
+   "exampleTranslation": {
+    "uk": "Треба пристебнути ремінь."
+   }
+  },
+  {
+   "id": "speed_limit",
+   "text": "speed limit",
+   "ipa": "/ˈspiːd ˌlɪmɪt/",
+   "pos": "noun",
+   "translation": {
+    "uk": "обмеження швидкості"
+   },
+   "example": "The speed limit is fifty.",
+   "exampleTranslation": {
+    "uk": "Обмеження швидкості — п'ятдесят."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What happens if I break the rule?",
+   "prompt": {
+    "uk": "Повторимо. Заплатите штраф. Що відповісти?"
+   },
+   "options": [
+    "You pay a penalty.",
+    "You paying penalty.",
+    "You are pay a penalty."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "You pay a penalty."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "duty",
+     "right": {
+      "uk": "обов'язок"
+     }
+    },
+    {
+     "left": "responsible",
+     "right": {
+      "uk": "відповідальний"
+     }
+    },
+    {
+     "left": "safety",
+     "right": {
+      "uk": "безпека"
+     }
+    },
+    {
+     "left": "seat belt",
+     "right": {
+      "uk": "ремінь безпеки"
+     }
+    },
+    {
+     "left": "speed limit",
+     "right": {
+      "uk": "обмеження швидкості"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "You must wear a seat belt.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба?"
+   },
+   "options": {
+    "uk": [
+     "Пристебнути ремінь",
+     "Зупинитися",
+     "Увімкнути світло"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Seat belt."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The speed limit is fifty.",
+   "prompt": {
+    "uk": "Прослухайте. Яке обмеження?"
+   },
+   "options": {
+    "uk": [
+     "П'ятдесят",
+     "Шістдесят",
+     "Сорок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Fifty."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "I'm responsible for the group.",
+   "prompt": {
+    "uk": "Прослухайте. За що відповідальна людина?"
+   },
+   "options": {
+    "uk": [
+     "За групу",
+     "За машину",
+     "За гроші"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Responsible."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "It's your ___.",
+   "options": [
+    "duty",
+    "safety",
+    "limit"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Обов'язок."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I'm ___ for the group.",
+   "options": [
+    "responsible",
+    "safety",
+    "duty"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Responsible."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is fifty.",
+   "options": [
+    "speed limit",
+    "seat belt",
+    "duty"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Обмеження."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке seat belt?"
+   },
+   "options": {
+    "uk": [
+     "ремінь безпеки",
+     "обов'язок",
+     "безпека"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Seat belt — ремінь безпеки."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Треба пристебнути ремінь."
+   },
+   "words": [
+    "You",
+    "must",
+    "wear",
+    "a",
+    "seat",
+    "belt",
+    "mustn't",
+    "duty"
+   ],
+   "answer": [
+    "You",
+    "must",
+    "wear",
+    "a",
+    "seat",
+    "belt"
+   ],
+   "explanation": {
+    "uk": "You must wear a seat belt."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Безпека понад усе!"
+   },
+   "answers": [
+    "Safety first"
+   ],
+   "explanation": {
+    "uk": "Safety first!"
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What is the speed limit?",
+   "prompt": {
+    "uk": "П'ятдесят. Що відповісти?"
+   },
+   "options": [
+    "The speed limit is fifty.",
+    "Speed limit are fifty.",
+    "It is limit fifty speed."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The speed limit is fifty."
+   }
+  }
+ ]
+}

@@ -1,0 +1,320 @@
+{
+ "id": "u76_l03",
+ "unit": "u76",
+ "cefr": "A1",
+ "title": {
+  "uk": "Чути чи не чути"
+ },
+ "goal": {
+  "uk": "Просити повторити й говорити чітко."
+ },
+ "rule": {
+  "uk": "Voice — голос, clearly — чітко, microphone — мікрофон, earphones — навушники, caller — той, хто дзвонить. Приклад: I hear your voice. Speak clearly, please. The microphone is off. Who is the caller?"
+ },
+ "words": [
+  {
+   "id": "voice",
+   "text": "voice",
+   "ipa": "/vɔɪs/",
+   "pos": "noun",
+   "translation": {
+    "uk": "голос"
+   },
+   "example": "I hear your voice.",
+   "exampleTranslation": {
+    "uk": "Я чую твій голос."
+   }
+  },
+  {
+   "id": "clearly",
+   "text": "clearly",
+   "ipa": "/ˈklɪəli/",
+   "pos": "adverb",
+   "translation": {
+    "uk": "чітко"
+   },
+   "example": "Speak clearly, please.",
+   "exampleTranslation": {
+    "uk": "Говоріть чітко, будь ласка."
+   }
+  },
+  {
+   "id": "microphone",
+   "text": "microphone",
+   "ipa": "/ˈmaɪkrəfəʊn/",
+   "pos": "noun",
+   "translation": {
+    "uk": "мікрофон"
+   },
+   "example": "The microphone is off.",
+   "exampleTranslation": {
+    "uk": "Мікрофон вимкнений."
+   }
+  },
+  {
+   "id": "earphones",
+   "text": "earphones",
+   "ipa": "/ˈɪəfəʊnz/",
+   "pos": "noun",
+   "translation": {
+    "uk": "навушники"
+   },
+   "example": "I use earphones.",
+   "exampleTranslation": {
+    "uk": "Я користуюся навушниками."
+   }
+  },
+  {
+   "id": "caller",
+   "text": "caller",
+   "ipa": "/ˈkɔːlə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "той, хто дзвонить"
+   },
+   "example": "Who is the caller?",
+   "exampleTranslation": {
+    "uk": "Хто дзвонить?"
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "Why do you call?",
+   "prompt": {
+    "uk": "Повторимо. У вас пропущений дзвінок. Що відповісти?"
+   },
+   "options": [
+    "I have a missed call from you.",
+    "I am have missed call.",
+    "I has a missed call you."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I have a missed call from you."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "voice",
+     "right": {
+      "uk": "голос"
+     }
+    },
+    {
+     "left": "clearly",
+     "right": {
+      "uk": "чітко"
+     }
+    },
+    {
+     "left": "microphone",
+     "right": {
+      "uk": "мікрофон"
+     }
+    },
+    {
+     "left": "earphones",
+     "right": {
+      "uk": "навушники"
+     }
+    },
+    {
+     "left": "caller",
+     "right": {
+      "uk": "той, хто дзвонить"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "Speak clearly, please.",
+   "prompt": {
+    "uk": "Прослухайте. Що просить людина?"
+   },
+   "options": {
+    "uk": [
+     "Говорити чітко",
+     "Говорити швидко",
+     "Мовчати"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Clearly."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "The microphone is off.",
+   "prompt": {
+    "uk": "Прослухайте. Що вимкнено?"
+   },
+   "options": {
+    "uk": [
+     "Мікрофон",
+     "Звук",
+     "Камера"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Microphone."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "Who is the caller?",
+   "prompt": {
+    "uk": "Прослухайте. Про що питають?"
+   },
+   "options": {
+    "uk": [
+     "Хто дзвонить",
+     "Де дзвінок",
+     "Коли дзвінок"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Caller."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I hear your ___.",
+   "options": [
+    "voice",
+    "caller",
+    "earphones"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Голос."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "Speak ___.",
+   "options": [
+    "clearly",
+    "clear",
+    "voice"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Clearly — прислівник."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is off.",
+   "options": [
+    "microphone",
+    "voice",
+    "caller"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Мікрофон."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке earphones?"
+   },
+   "options": {
+    "uk": [
+     "навушники",
+     "мікрофон",
+     "голос"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Earphones — навушники."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Говоріть чітко, будь ласка."
+   },
+   "words": [
+    "Speak",
+    "clearly",
+    "please",
+    "speaks",
+    "voice"
+   ],
+   "answer": [
+    "Speak",
+    "clearly",
+    "please"
+   ],
+   "explanation": {
+    "uk": "Speak clearly, please."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Я чую твій голос."
+   },
+   "answers": [
+    "I hear your voice"
+   ],
+   "explanation": {
+    "uk": "I hear your voice."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "I can't hear you.",
+   "prompt": {
+    "uk": "Попросіть говорити чітко. Що сказати?"
+   },
+   "options": [
+    "Please speak clearly.",
+    "Please speaking clear.",
+    "You speak clearly please."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Please speak clearly."
+   }
+  }
+ ]
+}

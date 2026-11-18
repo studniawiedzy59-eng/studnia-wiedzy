@@ -1,0 +1,322 @@
+{
+ "id": "u75_l04",
+ "unit": "u75",
+ "cefr": "A1",
+ "title": {
+  "uk": "Документи й плата"
+ },
+ "goal": {
+  "uk": "Говорити про документи й оплату."
+ },
+ "rule": {
+  "uk": "Licence — права/ліцензія, visa — віза, tax — податок, fee — плата, border — кордон. Приклад: You must have a licence. I need a visa. You pay tax. The fee is ten euros. We cross the border."
+ },
+ "words": [
+  {
+   "id": "licence",
+   "text": "licence",
+   "ipa": "/ˈlaɪsns/",
+   "pos": "noun",
+   "translation": {
+    "uk": "посвідчення, права"
+   },
+   "example": "You must have a licence.",
+   "exampleTranslation": {
+    "uk": "Треба мати посвідчення."
+   }
+  },
+  {
+   "id": "visa",
+   "text": "visa",
+   "ipa": "/ˈviːzə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "віза"
+   },
+   "example": "I need a visa.",
+   "exampleTranslation": {
+    "uk": "Мені потрібна віза."
+   }
+  },
+  {
+   "id": "tax",
+   "text": "tax",
+   "ipa": "/tæks/",
+   "pos": "noun",
+   "translation": {
+    "uk": "податок"
+   },
+   "example": "You pay tax.",
+   "exampleTranslation": {
+    "uk": "Ви сплачуєте податок."
+   }
+  },
+  {
+   "id": "fee",
+   "text": "fee",
+   "ipa": "/fiː/",
+   "pos": "noun",
+   "translation": {
+    "uk": "плата, збір"
+   },
+   "example": "The fee is ten euros.",
+   "exampleTranslation": {
+    "uk": "Плата — десять євро."
+   }
+  },
+  {
+   "id": "border",
+   "text": "border",
+   "ipa": "/ˈbɔːdə/",
+   "pos": "noun",
+   "translation": {
+    "uk": "кордон"
+   },
+   "example": "We cross the border.",
+   "exampleTranslation": {
+    "uk": "Ми перетинаємо кордон."
+   }
+  }
+ ],
+ "exercises": [
+  {
+   "id": "e1",
+   "type": "listening",
+   "audioText": "What is the speed limit?",
+   "prompt": {
+    "uk": "Повторимо. П'ятдесят. Що відповісти?"
+   },
+   "options": [
+    "The speed limit is fifty.",
+    "Speed limit are fifty.",
+    "It is limit fifty speed."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "The speed limit is fifty."
+   }
+  },
+  {
+   "id": "e2",
+   "type": "matching",
+   "prompt": {
+    "uk": "З'єднайте слова з перекладом"
+   },
+   "pairs": [
+    {
+     "left": "licence",
+     "right": {
+      "uk": "посвідчення, права"
+     }
+    },
+    {
+     "left": "visa",
+     "right": {
+      "uk": "віза"
+     }
+    },
+    {
+     "left": "tax",
+     "right": {
+      "uk": "податок"
+     }
+    },
+    {
+     "left": "fee",
+     "right": {
+      "uk": "плата, збір"
+     }
+    },
+    {
+     "left": "border",
+     "right": {
+      "uk": "кордон"
+     }
+    }
+   ],
+   "explanation": {
+    "uk": "Слова цього уроку."
+   }
+  },
+  {
+   "id": "e3",
+   "type": "listening",
+   "audioText": "You must have a licence.",
+   "prompt": {
+    "uk": "Прослухайте. Що треба мати?"
+   },
+   "options": {
+    "uk": [
+     "Посвідчення",
+     "Візу",
+     "Квиток"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Licence."
+   }
+  },
+  {
+   "id": "e4",
+   "type": "listening",
+   "audioText": "I need a visa.",
+   "prompt": {
+    "uk": "Прослухайте. Що потрібно людині?"
+   },
+   "options": {
+    "uk": [
+     "Віза",
+     "Паспорт",
+     "Квиток"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Visa."
+   }
+  },
+  {
+   "id": "e5",
+   "type": "listening",
+   "audioText": "The fee is ten euros.",
+   "prompt": {
+    "uk": "Прослухайте. Яка плата?"
+   },
+   "options": {
+    "uk": [
+     "Десять євро",
+     "Двадцять євро",
+     "П'ять євро"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Ten."
+   }
+  },
+  {
+   "id": "e6",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "You must have a ___.",
+   "options": [
+    "licence",
+    "border",
+    "fee"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Посвідчення."
+   }
+  },
+  {
+   "id": "e7",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "I need a ___.",
+   "options": [
+    "visa",
+    "tax",
+    "fee"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Віза."
+   }
+  },
+  {
+   "id": "e8",
+   "type": "fill_blank",
+   "prompt": {
+    "uk": "Оберіть слово, якого бракує"
+   },
+   "sentence": "The ___ is ten euros.",
+   "options": [
+    "fee",
+    "border",
+    "visa"
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "Плата."
+   }
+  },
+  {
+   "id": "e9",
+   "type": "multiple_choice",
+   "prompt": {
+    "uk": "Що таке border?"
+   },
+   "options": {
+    "uk": [
+     "кордон",
+     "податок",
+     "віза"
+    ]
+   },
+   "answer": 0,
+   "explanation": {
+    "uk": "Border — кордон."
+   }
+  },
+  {
+   "id": "e10",
+   "type": "build_sentence",
+   "prompt": {
+    "uk": "Мені потрібна віза."
+   },
+   "words": [
+    "I",
+    "need",
+    "a",
+    "visa",
+    "needs",
+    "tax"
+   ],
+   "answer": [
+    "I",
+    "need",
+    "a",
+    "visa"
+   ],
+   "explanation": {
+    "uk": "I need a visa."
+   }
+  },
+  {
+   "id": "e11",
+   "type": "translate",
+   "prompt": {
+    "uk": "Ми перетинаємо кордон."
+   },
+   "answers": [
+    "We cross the border"
+   ],
+   "explanation": {
+    "uk": "We cross the border."
+   }
+  },
+  {
+   "id": "e12",
+   "type": "listening",
+   "audioText": "What do you need to travel?",
+   "prompt": {
+    "uk": "Візу. Що відповісти?"
+   },
+   "options": [
+    "I need a visa.",
+    "I needs a visa.",
+    "I am need visa."
+   ],
+   "answer": 0,
+   "explanation": {
+    "uk": "I need a visa."
+   }
+  }
+ ]
+}
