@@ -7,6 +7,7 @@ import '../../state/providers.dart';
 import '../lesson/lesson_screen.dart';
 import '../my_words/word_editor.dart';
 import '../path/path_screen.dart';
+import '../practice/practice_screen.dart';
 import '../profile/profile_screen.dart';
 import '../words/words_screen.dart';
 
@@ -28,14 +29,15 @@ class _RootScreenState extends State<RootScreen> {
         child: IndexedStack(
           index: _index,
           children: [
-            HomeTab(onOpenWords: () => setState(() => _index = 2)),
+            HomeTab(onOpenWords: () => setState(() => _index = 3)),
             const PathTab(),
+            const PracticeTab(),
             const WordsTab(),
             const ProfileTab(),
           ],
         ),
       ),
-      floatingActionButton: (_index == 0 || _index == 2)
+      floatingActionButton: (_index == 0 || _index == 3)
           ? FloatingActionButton.extended(
               tooltip: 'Додати слово до мого словника',
               onPressed: () => showWordEditor(context),
@@ -49,6 +51,7 @@ class _RootScreenState extends State<RootScreen> {
         destinations: const [
           NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home), label: 'Головна'),
           NavigationDestination(icon: Icon(Icons.route_outlined), selectedIcon: Icon(Icons.route), label: 'Шлях'),
+          NavigationDestination(icon: Icon(Icons.forum_outlined), selectedIcon: Icon(Icons.forum), label: 'Практика'),
           NavigationDestination(icon: Icon(Icons.menu_book_outlined), selectedIcon: Icon(Icons.menu_book), label: 'Словник'),
           NavigationDestination(icon: Icon(Icons.person_outline), selectedIcon: Icon(Icons.person), label: 'Профіль'),
         ],
