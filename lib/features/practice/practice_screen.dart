@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/motion.dart';
 import '../../core/theme.dart';
+import '../../domain/learner_profile.dart';
 import '../../domain/models.dart';
 import '../../domain/practice_topics.dart';
 import '../../state/providers.dart';
@@ -25,6 +26,8 @@ class PracticeTab extends ConsumerWidget {
       return const Center(child: CircularProgressIndicator());
     }
     final all = lessons.value!;
+    final interests = ref.watch(learnerProfileProvider).value?.interests ?? const <String>{};
+    final topics = orderTopics(practiceTopics, interests);
     return ListView(
       padding: const EdgeInsets.fromLTRB(20, 24, 20, 96),
       children: [
@@ -43,16 +46,17 @@ class PracticeTab extends ConsumerWidget {
           ),
         ),
         const SizedBox(height: 16),
-        for (var i = 0; i < practiceTopics.length; i++) ...[
+        for (var i = 0; i < topics.length; i++) ...[
           _TopicCard(
-            topic: practiceTopics[i],
-            sceneCount: scenesForTopic(practiceTopics[i], all).length,
+            topic: topics[i],
+            forYou: interests.contains(topics[i].id),
+            sceneCount: scenesForTopic(topics[i], all).length,
             onTap: () {
-              final scenes = scenesForTopic(practiceTopics[i], all);
+              final scenes = scenesForTopic(topics[i], all);
               if (scenes.isEmpty) return;
               Navigator.of(context).push(
                 MaterialPageRoute<void>(
-                  builder: (_) => PracticeSessionScreen(topic: practiceTopics[i], scenes: scenes),
+                  builder: (_) => PracticeSessionScreen(topic: topics[i], scenes: scenes),
                 ),
               );
             },
@@ -65,11 +69,12 @@ class PracticeTab extends ConsumerWidget {
 }
 
 class _TopicCard extends StatelessWidget {
-  const _TopicCard({required this.topic, required this.sceneCount, required this.onTap});
+  const _TopicCard({required this.topic, required this.sceneCount, required this.onTap, this.forYou = false});
 
   final PracticeTopic topic;
   final int sceneCount;
   final VoidCallback onTap;
+  final bool forYou;
 
   @override
   Widget build(BuildContext context) {
@@ -88,14 +93,32 @@ class _TopicCard extends StatelessWidget {
               children: [
                 AspectRatio(
                   aspectRatio: 600 / 340,
-                  child: Image.asset(
-                    topic.photo,
-                    fit: BoxFit.cover,
-                    errorBuilder: (_, __, ___) => Image.asset(
-                      topic.image,
-                      fit: BoxFit.cover,
-                      errorBuilder: (_, __, ___) => const ColoredBox(color: AppColors.tint),
-                    ),
+                  child: Stack(
+                    fit: StackFit.expand,
+                    children: [
+                      Image.asset(
+                        topic.photo,
+                        fit: BoxFit.cover,
+                        errorBuilder: (_, __, ___) => Image.asset(
+                          topic.image,
+                          fit: BoxFit.cover,
+                          errorBuilder: (_, __, ___) => const ColoredBox(color: AppColors.tint),
+                        ),
+                      ),
+                      if (forYou)
+                        Positioned(
+                          left: 12,
+                          top: 12,
+                          child: Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                            decoration: BoxDecoration(color: AppColors.accent, borderRadius: BorderRadius.circular(999)),
+                            child: const Text(
+                              'Для вас',
+                              style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800, fontSize: 13),
+                            ),
+                          ),
+                        ),
+                    ],
                   ),
                 ),
                 Padding(

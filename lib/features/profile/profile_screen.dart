@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/theme.dart';
+import '../../domain/learner_profile.dart';
 import '../../domain/sm2.dart';
 import '../../state/providers.dart';
+import '../onboarding/onboarding_screen.dart';
 
 /// Progress numbers and the few settings that exist so far.
 class ProfileTab extends ConsumerWidget {
@@ -58,6 +60,8 @@ class ProfileTab extends ConsumerWidget {
             Expanded(child: _Stat(value: '${state.words.length}', label: 'слів у словнику')),
           ],
         ),
+        const SizedBox(height: 12),
+        _PlanCard(profile: ref.watch(learnerProfileProvider).value),
         const SizedBox(height: 12),
         AppCard(
           child: Column(
@@ -229,6 +233,58 @@ class _Day extends StatelessWidget {
               color: isToday ? AppColors.accentDark : AppColors.muted,
             ),
           ),
+        ],
+      ),
+    );
+  }
+}
+
+/// The learner's quiz answers and a way to change them.
+class _PlanCard extends StatelessWidget {
+  const _PlanCard({required this.profile});
+
+  final LearnerProfile? profile;
+
+  void _open(BuildContext context) {
+    Navigator.of(context).push(
+      MaterialPageRoute<void>(builder: (_) => const OnboardingScreen(editing: true)),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final p = profile;
+    if (p == null || !p.hasPlan) {
+      return AppCard(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text('Мій план', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800)),
+            const SizedBox(height: 4),
+            const Text(
+              'Дайте відповідь на кілька питань, і ми складемо план: ціль на день, теми практики, поради.',
+              style: TextStyle(fontSize: 14, color: AppColors.muted),
+            ),
+            const SizedBox(height: 10),
+            FilledButton.tonal(onPressed: () => _open(context), child: const Text('Скласти план')),
+          ],
+        ),
+      );
+    }
+    final goals = [for (final id in goalLabels.keys) if (p.goals.contains(id)) goalLabels[id]!];
+    return AppCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('Мій план', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800)),
+          const SizedBox(height: 8),
+          Text('${p.dailyMinutes} хв на день · ${levelLabels[p.level]}', style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w700)),
+          if (goals.isNotEmpty) ...[
+            const SizedBox(height: 4),
+            Text(goals.join(', '), style: const TextStyle(fontSize: 14, color: AppColors.muted)),
+          ],
+          const SizedBox(height: 10),
+          FilledButton.tonal(onPressed: () => _open(context), child: const Text('Змінити відповіді')),
         ],
       ),
     );

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import 'core/theme.dart';
-import 'features/home/root_screen.dart';
+import 'features/onboarding/onboarding_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,7 +18,7 @@ class MoviraApp extends StatelessWidget {
       title: 'Movira',
       debugShowCheckedModeBanner: false,
       theme: buildAppTheme(),
-      home: const RootScreen(),
+      home: const AppGate(),
     );
   }
 }

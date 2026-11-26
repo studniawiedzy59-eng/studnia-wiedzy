@@ -2,8 +2,10 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 
 import '../data/content_repository.dart';
+import '../data/learner_profile_repository.dart';
 import '../data/my_words_repository.dart';
 import '../data/progress_repository.dart';
+import '../domain/learner_profile.dart';
 import '../domain/models.dart';
 import '../domain/my_words.dart';
 import '../domain/progress.dart';
@@ -93,5 +95,22 @@ class MyWordsNotifier extends AsyncNotifier<List<MyWord>> {
 
   Future<void> remove(String id) {
     return _change((current) => [for (final item in current) if (item.id != id) item]);
+  }
+}
+
+final learnerProfileRepositoryProvider =
+    Provider<LearnerProfileRepository>((ref) => LearnerProfileRepository());
+
+/// Quiz answers; `null` until the first-launch quiz is finished or skipped.
+final learnerProfileProvider =
+    AsyncNotifierProvider<LearnerProfileNotifier, LearnerProfile?>(LearnerProfileNotifier.new);
+
+class LearnerProfileNotifier extends AsyncNotifier<LearnerProfile?> {
+  @override
+  Future<LearnerProfile?> build() => ref.read(learnerProfileRepositoryProvider).load();
+
+  Future<void> save(LearnerProfile profile) async {
+    state = AsyncData(profile);
+    await ref.read(learnerProfileRepositoryProvider).save(profile);
   }
 }

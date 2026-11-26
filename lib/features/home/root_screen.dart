@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../core/theme.dart';
+import '../../domain/learner_profile.dart';
 import '../../domain/models.dart';
 import '../../state/providers.dart';
 import '../lesson/lesson_screen.dart';
@@ -69,6 +70,8 @@ class HomeTab extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final lessons = ref.watch(allLessonsProvider);
     final progress = ref.watch(progressProvider);
+    final learner = ref.watch(learnerProfileProvider).value;
+    final plan = (learner != null && learner.hasPlan) ? learner : null;
     if (lessons.hasError || progress.hasError) {
       return LoadErrorView(onRetry: () {
         ref.invalidate(allLessonsProvider);
@@ -97,8 +100,13 @@ class HomeTab extends ConsumerWidget {
       children: [
         Row(
           children: [
-            const Expanded(
-              child: Text('Movira', style: TextStyle(fontSize: 26, fontWeight: FontWeight.w900)),
+            Expanded(
+              child: Text(
+                (plan != null && plan.name.isNotEmpty) ? 'Привіт, ${plan.name}!' : 'Movira',
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: const TextStyle(fontSize: 26, fontWeight: FontWeight.w900),
+              ),
             ),
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
@@ -119,15 +127,39 @@ class HomeTab extends ConsumerWidget {
         ),
         const SizedBox(height: 20),
         AppCard(
-          child: Row(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const Expanded(
-                child: Text('Сьогодні', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800)),
+              Row(
+                children: [
+                  const Expanded(
+                    child: Text('Сьогодні', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800)),
+                  ),
+                  Text(
+                    plan == null
+                        ? '${state.minutesOn(now)} хв навчання'
+                        : '${state.minutesOn(now)} з ${plan.dailyMinutes} хв',
+                    style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w700, color: AppColors.muted),
+                  ),
+                ],
               ),
-              Text(
-                '${state.minutesOn(now)} хв навчання',
-                style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w700, color: AppColors.muted),
-              ),
+              if (plan != null) ...[
+                const SizedBox(height: 10),
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(999),
+                  child: LinearProgressIndicator(
+                    value: (state.minutesOn(now) / plan.dailyMinutes).clamp(0.0, 1.0).toDouble(),
+                    minHeight: 8,
+                    backgroundColor: AppColors.tint,
+                    color: AppColors.accent,
+                  ),
+                ),
+                const SizedBox(height: 10),
+                Text(
+                  levelAdvice(plan.level),
+                  style: const TextStyle(fontSize: 13, color: AppColors.muted),
+                ),
+              ],
             ],
           ),
         ),
