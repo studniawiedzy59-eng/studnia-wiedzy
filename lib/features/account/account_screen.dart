@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/backend_config.dart';
 import '../../core/theme.dart';
 import '../../data/auth_repository.dart';
 import '../../state/providers.dart';
@@ -90,6 +91,109 @@ class _AccountScreenState extends ConsumerState<AccountScreen> {
       _say(authErrorText(error));
     } finally {
       if (mounted) setState(() => _busy = false);
+    }
+  }
+
+  Future<void> _google() async {
+    final repository = ref.read(authRepositoryProvider);
+    if (repository == null) return;
+    setState(() {
+      _busy = true;
+      _message = null;
+    });
+    try {
+      final signedIn = await repository.signInWithGoogle();
+      if (!signedIn) return;
+      if (await repository.needsAge()) {
+        final ok = await _askAge(repository);
+        if (!ok) {
+          await repository.signOut();
+          return;
+        }
+        await ref.read(syncControllerProvider.notifier).syncNow();
+      }
+      if (mounted) Navigator.of(context).pop();
+    } catch (error) {
+      _say(authErrorText(error));
+    } finally {
+      if (mounted) setState(() => _busy = false);
+    }
+  }
+
+  /// First sign-in with Google: asks the age. Under 13 the new account is removed.
+  Future<bool> _askAge(AuthRepository repository) async {
+    String age = 'adult';
+    bool consent = false;
+    final answer = await showDialog<bool>(
+      context: context,
+      barrierDismissible: false,
+      builder: (dialogContext) => StatefulBuilder(
+        builder: (context, setLocal) => AlertDialog(
+          title: const Text('Ваш вік'),
+          content: SingleChildScrollView(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const Text('Це потрібно для безпеки дітей. Відповідь можна дати лише один раз.'),
+                RadioListTile<String>(
+                  contentPadding: EdgeInsets.zero,
+                  title: const Text('Мені 16 років або більше'),
+                  value: 'adult',
+                  groupValue: age,
+                  onChanged: (v) => setLocal(() => age = v!),
+                ),
+                RadioListTile<String>(
+                  contentPadding: EdgeInsets.zero,
+                  title: const Text('Мені 13–15 років'),
+                  value: 'teen',
+                  groupValue: age,
+                  onChanged: (v) => setLocal(() => age = v!),
+                ),
+                RadioListTile<String>(
+                  contentPadding: EdgeInsets.zero,
+                  title: const Text('Мені менше 13 років'),
+                  value: 'child',
+                  groupValue: age,
+                  onChanged: (v) => setLocal(() => age = v!),
+                ),
+                if (age == 'teen')
+                  CheckboxListTile(
+                    contentPadding: EdgeInsets.zero,
+                    controlAffinity: ListTileControlAffinity.leading,
+                    title: const Text('Мої батьки або опікуни дозволили створити акаунт'),
+                    value: consent,
+                    onChanged: (v) => setLocal(() => consent = v ?? false),
+                  ),
+                if (age == 'child')
+                  const Text('Акаунт доступний з 13 років. Нову реєстрацію буде скасовано.'),
+              ],
+            ),
+          ),
+          actions: [
+            TextButton(onPressed: () => Navigator.of(dialogContext).pop(false), child: const Text('Скасувати')),
+            TextButton(
+              onPressed: (age == 'teen' && !consent) ? null : () => Navigator.of(dialogContext).pop(true),
+              child: const Text('Продовжити'),
+            ),
+          ],
+        ),
+      ),
+    );
+    if (answer != true) return false;
+    if (age == 'child') {
+      try {
+        await repository.deleteAccount();
+      } catch (_) {}
+      _say('Акаунт доступний з 13 років, тому ми його скасували.');
+      return false;
+    }
+    try {
+      await repository.setAge(ageGroup: age == 'teen' ? '13-15' : '16+', parentalConsent: age == 'teen' && consent);
+      return true;
+    } catch (error) {
+      _say(authErrorText(error));
+      return false;
     }
   }
 
@@ -237,6 +341,21 @@ class _AccountScreenState extends ConsumerState<AccountScreen> {
             _message = null;
           }),
         ),
+        if (googleWebClientId.isNotEmpty) ...[
+          const SizedBox(height: 16),
+          OutlinedButton.icon(
+            style: OutlinedButton.styleFrom(
+              minimumSize: const Size.fromHeight(56),
+              shape: const StadiumBorder(),
+              side: const BorderSide(color: AppColors.outline),
+            ),
+            onPressed: _busy ? null : _google,
+            icon: const Icon(Icons.account_circle_outlined),
+            label: const Text('Продовжити з Google', style: TextStyle(fontSize: 17, fontWeight: FontWeight.w800)),
+          ),
+          const SizedBox(height: 12),
+          const Center(child: Text('або за поштою', style: TextStyle(color: AppColors.muted))),
+        ],
         const SizedBox(height: 16),
         const Text(
           'Акаунт не обов’язковий. З ним прогрес не зникне, якщо видалити застосунок або змінити телефон.',
