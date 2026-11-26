@@ -1,0 +1,11 @@
+[
+  {"name": "people",  "photo": "photo-1521791136064-7986c2920216", "author": "Cytonn Photography", "page": "https://unsplash.com/photos/n95VMLxqM2I"},
+  {"name": "cafe",    "photo": "photo-1485182708500-e8f1f318ba72", "author": "Toa Heftiba", "page": "https://unsplash.com/photos/6bKpHAun4d8"},
+  {"name": "shop",    "photo": "photo-1546213290-e1b492ab3eee", "author": "Korie Cull", "page": "https://unsplash.com/photos/IzIME1jwjCY"},
+  {"name": "travel",  "photo": "photo-1503365194569-df4e1d04cec1", "author": "CHUTTERSNAP", "page": "https://unsplash.com/photos/qhNutmNU1pE"},
+  {"name": "city",    "photo": "photo-1752650143336-75cf018b48f4", "author": "Vitaly Gariev", "page": "https://unsplash.com/photos/ijn7NJsjoMM"},
+  {"name": "health",  "photo": "photo-1631217868264-e5b90bb7e133", "author": "National Cancer Institute", "page": "https://unsplash.com/photos/tl447mekwuQ"},
+  {"name": "work",    "photo": "photo-1590650516494-0c8e4a4dd67e", "author": "LinkedIn Sales Solutions", "page": "https://unsplash.com/photos/46bom4lObsA"},
+  {"name": "home",    "photo": "photo-1704040686510-b747ff423ebb", "author": "Ariel Domenden", "page": "https://unsplash.com/photos/aObxGPf7J1o"},
+  {"name": "holiday", "photo": "photo-1763999743312-4c3ed551e481", "author": "litoon dev", "page": "https://unsplash.com/photos/U5xocWBugDI"}
+]

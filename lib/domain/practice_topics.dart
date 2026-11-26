@@ -18,6 +18,9 @@ class PracticeTopic {
   /// Unit numbers, as in the lesson ids: `u02_l06` belongs to unit 2.
   final List<int> units;
 
+  /// Real photo downloaded at build time (see tools/fetch_photos.py).
+  String get photo => 'assets/images/photo_$id.jpg';
+
   bool owns(String lessonId) {
     final match = RegExp(r'^u(\d+)_').firstMatch(lessonId);
     if (match == null) return false;

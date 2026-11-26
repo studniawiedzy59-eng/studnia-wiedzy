@@ -89,9 +89,13 @@ class _TopicCard extends StatelessWidget {
                 AspectRatio(
                   aspectRatio: 600 / 340,
                   child: Image.asset(
-                    topic.image,
+                    topic.photo,
                     fit: BoxFit.cover,
-                    errorBuilder: (_, __, ___) => const ColoredBox(color: AppColors.tint),
+                    errorBuilder: (_, __, ___) => Image.asset(
+                      topic.image,
+                      fit: BoxFit.cover,
+                      errorBuilder: (_, __, ___) => const ColoredBox(color: AppColors.tint),
+                    ),
                   ),
                 ),
                 Padding(

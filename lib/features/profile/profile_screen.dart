@@ -131,6 +131,14 @@ class ProfileTab extends ConsumerWidget {
             style: TextStyle(fontSize: 13, fontWeight: FontWeight.w700, color: AppColors.muted),
           ),
         ),
+        const SizedBox(height: 6),
+        const Center(
+          child: Text(
+            'Фото тем: Unsplash та автори (Cytonn Photography, Toa Heftiba, Korie Cull, CHUTTERSNAP, Vitaly Gariev, National Cancer Institute, LinkedIn Sales Solutions, Ariel Domenden, litoon dev)',
+            textAlign: TextAlign.center,
+            style: TextStyle(fontSize: 11, color: AppColors.muted),
+          ),
+        ),
       ],
     );
   }

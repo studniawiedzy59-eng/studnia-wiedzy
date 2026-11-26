@@ -15,3 +15,4 @@ key.properties
 local.properties
 __pycache__/
 *.pyc
+assets/images/photo_*.jpg

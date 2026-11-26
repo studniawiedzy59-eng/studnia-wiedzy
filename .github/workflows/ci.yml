@@ -43,6 +43,9 @@ jobs:
       - name: Patch Android manifest
         run: python3 tools/patch_android.py
 
+      - name: Download topic photos (Unsplash)
+        run: python3 tools/fetch_photos.py
+
       - run: flutter pub get
       - run: flutter analyze --no-fatal-infos
       - run: flutter test
