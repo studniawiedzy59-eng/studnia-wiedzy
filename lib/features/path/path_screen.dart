@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/theme.dart';
 import '../../domain/models.dart';
 import '../../domain/progress.dart';
+import '../../domain/unit_photos.dart';
 import '../../state/providers.dart';
 import '../lesson/lesson_screen.dart';
 
@@ -173,6 +174,27 @@ class _UnitCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          if (hasLessons && photoTopicForUnit(number) != null)
+            Padding(
+              padding: const EdgeInsets.only(bottom: 12),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(14),
+                child: SizedBox(
+                  height: 110,
+                  width: double.infinity,
+                  child: Image.asset(
+                    photoAssetFor(photoTopicForUnit(number)!),
+                    fit: BoxFit.cover,
+                    cacheWidth: 700,
+                    errorBuilder: (_, __, ___) => Image.asset(
+                      drawnAssetFor(photoTopicForUnit(number)!),
+                      fit: BoxFit.cover,
+                      errorBuilder: (_, __, ___) => const ColoredBox(color: AppColors.tint),
+                    ),
+                  ),
+                ),
+              ),
+            ),
           Text(
             'Розділ $number · ${unit.cefr}',
             style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.muted),
