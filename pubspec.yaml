@@ -12,6 +12,7 @@ dependencies:
   flutter_riverpod: ^2.5.1
   shared_preferences: ^2.2.3
   flutter_tts: ^4.0.2
+  supabase_flutter: ^2.8.0
 
 dev_dependencies:
   flutter_test:

@@ -5,6 +5,7 @@ import '../../core/theme.dart';
 import '../../domain/learner_profile.dart';
 import '../../domain/practice_topics.dart';
 import '../../state/providers.dart';
+import '../../state/sync_controller.dart';
 import '../home/root_screen.dart';
 
 /// Shows the first-launch quiz until it is finished or skipped, then the app.
@@ -14,6 +15,7 @@ class AppGate extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    ref.read(syncControllerProvider); // starts keeping the account in sync
     final profile = ref.watch(learnerProfileProvider);
     if (profile.hasError) return const RootScreen();
     if (!profile.hasValue) {

@@ -4,6 +4,7 @@
 1. Lets the app find the phone's text-to-speech engine. Without this entry
    Android 11 and newer hide the engine and words are not spoken.
 2. Shows the app name as "Movira" under the icon.
+3. Allows internet access in release builds (accounts and sync need it).
 
 Safe to run more than once. Run from the repository root.
 """
@@ -33,6 +34,10 @@ def main():
         else:
             print("manifest has no <queries> and no </manifest>")
             return 1
+
+    internet = '<uses-permission android:name="android.permission.INTERNET"/>'
+    if internet not in text and "android.permission.INTERNET" not in text:
+        text = text.replace("<application", internet + "\n    <application", 1)
 
     text = text.replace('android:label="movira"', 'android:label="Movira"')
     if 'android:label="Movira"' not in text:

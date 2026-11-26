@@ -1,6 +1,9 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
+import '../core/backend_config.dart';
+import '../data/auth_repository.dart';
 import '../data/content_repository.dart';
 import '../data/learner_profile_repository.dart';
 import '../data/my_words_repository.dart';
@@ -65,6 +68,9 @@ class ProgressNotifier extends AsyncNotifier<Progress> {
     return _set(_current.withWordReviewed(wordKey, quality, now).withActivity(now, seconds: seconds));
   }
 
+  /// Replaces everything with [next] (after a sync) and saves it on the device.
+  Future<void> replaceWith(Progress next) => _set(next);
+
   Future<void> reset() async {
     await ref.read(progressRepositoryProvider).clear();
     state = const AsyncData(Progress.empty());
@@ -86,6 +92,8 @@ class MyWordsNotifier extends AsyncNotifier<List<MyWord>> {
     state = AsyncData(next);
     await ref.read(myWordsRepositoryProvider).save(next);
   }
+
+  Future<void> replaceAll(List<MyWord> words) => _change((_) => words);
 
   Future<void> add(MyWord word) => _change((current) => [...current, word]);
 
@@ -113,4 +121,35 @@ class LearnerProfileNotifier extends AsyncNotifier<LearnerProfile?> {
     state = AsyncData(profile);
     await ref.read(learnerProfileRepositoryProvider).save(profile);
   }
+
+  /// Used by sync: `null` means "no answers yet" and shows the quiz again.
+  Future<void> replace(LearnerProfile? profile) async {
+    state = AsyncData(profile);
+    final repository = ref.read(learnerProfileRepositoryProvider);
+    if (profile == null) {
+      await repository.clear();
+    } else {
+      await repository.save(profile);
+    }
+  }
 }
+
+/// The server client, or null when it could not start (the app then works offline only).
+final supabaseClientProvider = Provider<SupabaseClient?>((ref) {
+  return backendReady ? Supabase.instance.client : null;
+});
+
+final authRepositoryProvider = Provider<AuthRepository?>((ref) {
+  final client = ref.watch(supabaseClientProvider);
+  return client == null ? null : AuthRepository(client);
+});
+
+/// The signed-in person, or null.
+final authUserProvider = StreamProvider<User?>((ref) {
+  final client = ref.watch(supabaseClientProvider);
+  if (client == null) return Stream.value(null);
+  return (() async* {
+    yield client.auth.currentUser;
+    yield* client.auth.onAuthStateChange.map((event) => event.session?.user);
+  })();
+});

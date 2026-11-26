@@ -5,6 +5,7 @@ import '../../core/theme.dart';
 import '../../domain/learner_profile.dart';
 import '../../domain/sm2.dart';
 import '../../state/providers.dart';
+import '../account/account_screen.dart';
 import '../onboarding/onboarding_screen.dart';
 
 /// Progress numbers and the few settings that exist so far.
@@ -60,6 +61,8 @@ class ProfileTab extends ConsumerWidget {
             Expanded(child: _Stat(value: '${state.words.length}', label: 'слів у словнику')),
           ],
         ),
+        const SizedBox(height: 12),
+        const _AccountCard(),
         const SizedBox(height: 12),
         _PlanCard(profile: ref.watch(learnerProfileProvider).value),
         const SizedBox(height: 12),
@@ -117,13 +120,7 @@ class ProfileTab extends ConsumerWidget {
           ),
         ),
         const SizedBox(height: 12),
-        const AppCard(
-          child: Text(
-            'Прогрес зберігається на цьому пристрої. Обліковий запис і синхронізація з’являться в наступній версії.',
-            style: TextStyle(fontSize: 15, color: AppColors.muted),
-          ),
-        ),
-        const SizedBox(height: 12),
+
         TextButton(
           onPressed: () => _confirmReset(context, ref),
           child: const Text('Скинути прогрес'),
@@ -285,6 +282,39 @@ class _PlanCard extends StatelessWidget {
           ],
           const SizedBox(height: 10),
           FilledButton.tonal(onPressed: () => _open(context), child: const Text('Змінити відповіді')),
+        ],
+      ),
+    );
+  }
+}
+
+/// Sign-in status and the way to the account screen.
+class _AccountCard extends ConsumerWidget {
+  const _AccountCard();
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final user = ref.watch(authUserProvider).value;
+    final email = user?.email;
+    return AppCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('Обліковий запис', style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800)),
+          const SizedBox(height: 4),
+          Text(
+            user == null
+                ? 'Увійдіть, щоб прогрес зберігався на сервері й не зникав, якщо видалити застосунок.'
+                : 'Ви увійшли як ${email ?? ''}. Прогрес зберігається в акаунті.',
+            style: const TextStyle(fontSize: 14, color: AppColors.muted),
+          ),
+          const SizedBox(height: 10),
+          FilledButton.tonal(
+            onPressed: () => Navigator.of(context).push(
+              MaterialPageRoute<void>(builder: (_) => const AccountScreen()),
+            ),
+            child: Text(user == null ? 'Увійти або зареєструватися' : 'Керувати акаунтом'),
+          ),
         ],
       ),
     );
